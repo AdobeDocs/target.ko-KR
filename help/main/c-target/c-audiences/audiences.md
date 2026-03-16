@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target]에서 대상을 사용하는 방법을 알아
 title: 대상 목록은 어떻게 사용합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 22%
@@ -88,7 +88,8 @@ ht-degree: 22%
 
 ![audience_definition_list_usage 이미지](assets/audience_definition_list_usage.png)
 
-<!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
+<!--
+The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 
 ![Usage tab on Audience Definition card](assets/audience_definition_mc.png)
 
@@ -103,7 +104,8 @@ The following details are available for these imported audience types:
 Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
-* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.
+-->
 
 ## [!DNL Adobe Experience Platform]의 대상자 사용 {#aep}
 

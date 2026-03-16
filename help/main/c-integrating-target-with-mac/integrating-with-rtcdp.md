@@ -4,7 +4,7 @@ description: ' [!DNL Target]/[!DNL Real-Time Customer Data Platform] (RTCDP) 통
 title: ' [!DNL Target] 을  [!DNL Real-Time Customer Data Platform]과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
+source-git-commit: 7e6947a37586c1840216d4137969f399f38a429d
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 71%
@@ -46,7 +46,7 @@ RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](ht
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| <ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li></ul><li>동일 페이지 개인화</li><ul><li>[!DNL Platform Web SDK]가 포함된 모든 페이지의 경우</li></ul> |
+| <ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화<ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li></ul></li><li>동일 페이지 개인화<ul><li>[!DNL Platform Web SDK]가 포함된 모든 페이지의 경우</li></ul></li></ul> |
 | <ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul> |
 
 ## 세그먼트 평가 시간
@@ -128,25 +128,25 @@ Target 및 RTCDP를 통한 향상된 개인화에 대한 자세한 내용은 다
 
 [!DNL Real-Time CDP]에서 [!DNL Target]으로 세그먼트 및 프로필 속성 전송을 시작하기 위해 [!DNL Real-Time Customer Data Platform]에서 [!DNL Adobe Target] 대상을 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449800/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3449800/?captions=kor&learn=on)
 
 ### 비디오: 세그먼트 및 프로필 속성 활성화
 
 실시간 개인화된 웹 사이트의 콘텐츠, 모바일 앱 및 기타 디지털 속성을 표시하기 위해 [!DNL Adobe Real-Time Customer Data Platform]에서 [!DNL Adobe Target]으로 세그먼트 및 프로필 속성을 활성화하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447362/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3447362/?captions=kor&learn=on)
 
 ### 비디오: [!DNL Target]에서 [!DNL Real-Time CDP] 세그먼트 사용하기
 
 [!DNL Real-Time Customer Data Platform]세그먼트[!DNL Adobe Target]를 사용하여 웹 사이트 및 모바일 앱에서 개인화된 경험을 제공하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446834/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3446834/?captions=kor&learn=on)
 
 ### 비디오: [!DNL Adobe Target]에서 [!DNL Real-Time CDP] 프로필 속성 사용하기
 
 [!DNL Adobe Target]에서 [!DNL Adobe Real-Time Customer Data Platform] 프로필 속성을 사용하여 웹 사이트 및 모바일 앱에서 개인화된 경험을 제공하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451900/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3451900/?captions=kor&learn=on)
 
 ### [!DNL Adobe Target] 블로그 및 비디오: 동일 페이지의 향상된 개인화
 
