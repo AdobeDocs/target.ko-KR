@@ -2147,7 +2147,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * 3개의 장바구니 기반 알고리즘이 [!DNL Target] 백엔드에서 동일한 구매/구매 조건을 사용하는 오류가 해결되었습니다. (TGT-43456)
-* [!DNL Target]Business ID 계정[&#x200B; 및 PBA(정책 기반 인증)를 사용하는 조직에 대해 &#x200B;](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} UI 토큰 새로 고침을 사용하도록 설정했습니다. (TGT-42590)
+* [!DNL Target]Business ID 계정[&#x200B; 및 PBA(정책 기반 인증)를 사용하는 조직에 대해 &#x200B;](https://helpx.adobe.com/kr/enterprise/using/identity.html){target=_blank} UI 토큰 새로 고침을 사용하도록 설정했습니다. (TGT-42590)
 
 ### [!DNL Target] 플랫폼 릴리스 (2022년 4월 27일 목요일)
 
