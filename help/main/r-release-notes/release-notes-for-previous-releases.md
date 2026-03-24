@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '64670'
+source-wordcount: '64864'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,32 @@ ht-degree: 52%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.3.2(2026년 3월 10일)
+
+**활동**
+
++++세부 정보 보기
+
+* **경험의 직접 오퍼 변경 내용이 저장되지 않습니다.** 이 수정 사항은 활동 경험 내에서 직접 오퍼에 대한 수정 사항이 저장되지 않는 문제를 해결합니다. 이전에는 사용자가 직접 오퍼를 열고 변경한 후 저장하면 변경 사항이 처음에 반영되었지만 오퍼를 다시 열 때는 손실되었습니다. 이 수정 사항은 오퍼가 다시 열릴 때 직접 오퍼에 대한 변경 사항이 제대로 저장되고 유지되도록 합니다. (TGT-54653)
+
++++
+
+**구현**
+
++++세부 정보 보기
+
+* **구현 화면에서 깜박임 관리 추가 토글** 깜박임 관리 설정의 활성화를 제어하기 위해 [!UICONTROL Implementation] 화면에 새로운 토글이 추가되었습니다. 이 토글을 사용하면 관리자가 구현 화면에서 직접 플리커 관리를 구성할 수 있습니다. (TGT-52247)
+
++++
+
+**개요**
+
++++세부 정보 보기
+
+* **개요 페이지에 대상자와 경험의 전체 이름을 표시합니다.** 이 개선 사항은 [!UICONTROL Overview] 페이지를 업데이트하여 대상 및 경험의 전체 이름을 표시합니다. 이전에는 긴 이름이 잘리고 완전히 표시되지 않았으므로 사용자가 모든 텍스트를 세 번 클릭하여 전체 이름을 볼 수 있도록 선택해야 했습니다. 업데이트에서는 전체 대상 및 경험 이름이 표시되므로 사용자가 활동 구성을 보다 쉽게 식별하고 검토할 수 있습니다. (TGT-53323)
+
++++
 
 ### [!DNL Target Standard/Premium] 26.3.1(2026년 3월 3일)
 
