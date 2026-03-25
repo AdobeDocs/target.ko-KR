@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: 45225233e9eb2441d657402fe6309d927329aa5a
 workflow-type: tm+mt
-source-wordcount: '64864'
+source-wordcount: '64938'
 ht-degree: 52%
 
 ---
@@ -46,6 +46,14 @@ ht-degree: 52%
 +++세부 정보 보기
 
 * **개요 페이지에 대상자와 경험의 전체 이름을 표시합니다.** 이 개선 사항은 [!UICONTROL Overview] 페이지를 업데이트하여 대상 및 경험의 전체 이름을 표시합니다. 이전에는 긴 이름이 잘리고 완전히 표시되지 않았으므로 사용자가 모든 텍스트를 세 번 클릭하여 전체 이름을 볼 수 있도록 선택해야 했습니다. 업데이트에서는 전체 대상 및 경험 이름이 표시되므로 사용자가 활동 구성을 보다 쉽게 식별하고 검토할 수 있습니다. (TGT-53323)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++세부 정보 보기
+
+* **VEC 변경 내용이 Shadow DOM(Salesforce Lightning Web Components)을 사용하는 사이트에 반영되지 않습니다.** 이 수정 사항은 LWC(Lightning Web Components)를 사용하여 Adobe Target의 변경 사항(예: CTA 색상 변경 사항)이 Salesforce 기반 사이트의 라이브 사이트에 저장되거나 반영되지 않는 문제를 해결합니다. CMS이 Target 활동의 업데이트를 수락하지 않으며 이 문제는 A/B 테스트 및 기타 활동 유형에서 일관되게 발생했습니다. (TGT-54059)
 
 +++
 
