@@ -4,7 +4,7 @@ description: Adobe [!DNL Target] 에서 SPA VEC를 사용하여 지속적인 개
 title: SPA VEC(단일 페이지 앱 시각적 경험 작성기)를 사용하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 3c9fcd7de9aac50617c5d9f7d9244026cd988d52
+source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 64%
@@ -440,3 +440,4 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 >[!VIDEO](https://video.tv.adobe.com/v/34786?captions=kor)
 
 자세한 내용은 [Adobe Target에서 SPA VEC(단일 페이지 애플리케이션용 시각적 경험 작성기) 사용](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)을 참조하십시오.
+
