@@ -73,8 +73,8 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 | 용어 | 세부 사항 |
 |--- |--- |
 | [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!DNL Target]과(와) [!UICONTROL Auto-Target] 모두에서 사용되는 [!UICONTROL Automated Personalization]의 기본 개인화 알고리즘은 Random Forest입니다. Random Forest와 같은 앙상블 방법은 구성 학습 알고리즘 중 어느 것으로부터도 얻을 수 있는 것보다 더 나은 예측 성능을 얻기 위해 다중 학습 알고리즘을 사용한다. [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동의 Random Forest 알고리즘은 교육 시간에 다수의 의사 결정 트리를 구성하여 작동하는 분류 또는 회귀 방법입니다. |
-| [ [!DNL Target]의 Personalization 알고리즘에 대한 데이터 업로드](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 모델에 대한 데이터를 입력하는 방법에는 여러 가지가 있습니다. |
-| [ [!DNL Target]의 Personalization 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]의 개인화 알고리즘에서 다양한 데이터를 자동으로 수집합니다. |
+| [&#x200B; [!DNL Target]의 Personalization 알고리즘에 대한 데이터 업로드](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 모델에 대한 데이터를 입력하는 방법에는 여러 가지가 있습니다. |
+| [&#x200B; [!DNL Target]의 Personalization 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]의 개인화 알고리즘에서 다양한 데이터를 자동으로 수집합니다. |
 
 ## 트래픽 할당 결정 {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -136,7 +136,7 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 
 ### 마케터는 오프라인 데이터, 성향 점수 또는 기타 사용자 지정 데이터를 업로드하여 개인화 모델을 만들 수 있습니다.
 
-* [ 및 [!UICONTROL Auto-Target]에 대한 [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) 데이터 업로드에 대해 자세히 알아보세요.
+* [&#x200B; 및 [!UICONTROL Auto-Target]에 대한 [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) 데이터 업로드에 대해 자세히 알아보세요.
 
 ## [!UICONTROL Auto-Target]과(와) [!UICONTROL Automated Personalization]의 차이점은 무엇입니까? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
@@ -153,7 +153,7 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 
 ### [!UICONTROL Auto-Target]에 완전한 설정 기능이 있습니다.
 
-* [!UICONTROL Auto-Target]이(가) A/B 활동 워크플로에 포함되어 있으므로 [!UICONTROL Auto-Target]은(는) 보다 발전되고 완전한 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)의 이점을 얻을 수 있습니다. [과(와) 함께 ](/help/main/c-activities/c-activity-qa/activity-qa.md)QA 링크[!UICONTROL Auto-Target]을(를) 사용할 수도 있습니다.
+* [!UICONTROL Auto-Target]이(가) A/B 활동 워크플로에 포함되어 있으므로 [!UICONTROL Auto-Target]은(는) 보다 발전되고 완전한 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)의 이점을 얻을 수 있습니다. [과(와) 함께 &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)QA 링크[!UICONTROL Auto-Target]을(를) 사용할 수도 있습니다.
 
 ### [!UICONTROL Auto-Target]은(는) 광범위한 온라인 테스트 프레임워크를 제공합니다.
 
