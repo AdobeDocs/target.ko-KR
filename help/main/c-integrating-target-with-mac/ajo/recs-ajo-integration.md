@@ -39,7 +39,7 @@ ht-degree: 1%
 
   예를 들어 방문자가 의류 회사의 웹 사이트를 방문하여 장바구니에 겨울 코트 2개와 스웨트 셔츠를 둔다고 가정해 봅시다. 그런 다음 방문자는 주의가 산만해져 웹 사이트를 떠나거나 구매를 확신하지 못하고 브라우저나 앱을 닫습니다.
 
-  지정된 기간 후, 아마도 몇 시간 또는 하루 후에 [!DNL Journey Optimizer]의 사용자 지정 작업에서 [!DNL Target Recommendations]장바구니 기반 권장 사항[ 알고리즘을 사용하여 포기한 장바구니의 콘텐츠를 결정하기 위해 ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)을(를) 호출합니다. 그런 다음 [!DNL Journey Optimizer]이(가) 구매가 완료되지 않았다는 알림 메시지와 함께 이미지 및 구매하지 않은 항목에 대한 링크를 이 방문자에게 보냅니다.
+  지정된 기간 후, 아마도 몇 시간 또는 하루 후에 [!DNL Journey Optimizer]의 사용자 지정 작업에서 [!DNL Target Recommendations]장바구니 기반 권장 사항[&#x200B; 알고리즘을 사용하여 포기한 장바구니의 콘텐츠를 결정하기 위해 &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)을(를) 호출합니다. 그런 다음 [!DNL Journey Optimizer]이(가) 구매가 완료되지 않았다는 알림 메시지와 함께 이미지 및 구매하지 않은 항목에 대한 링크를 이 방문자에게 보냅니다.
 
 * **[!DNL Adobe Journey Optimizer]이(가) 사이트 방문 후 대량 전자 메일을 보내 방문자에게 어떤 항목을 보았는지 알려줍니다**: 이 사용 사례는 방문자가 웹 사이트를 방문하고 다양한 항목을 본 다음 장바구니에 항목을 배치하지 않고 사이트 또는 앱을 종료하는 것을 기반으로 합니다.
 
