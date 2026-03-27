@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 45225233e9eb2441d657402fe6309d927329aa5a
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
-source-wordcount: '64938'
+source-wordcount: '65113'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,28 @@ ht-degree: 52%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.3.6(2026년 3월 23일)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++세부 정보 보기
+
+* **새 시각적 경험 작성기 UI에서 인증 후 간헐적인 회색 화면입니다.** 사용자가 새 시각적 경험 작성기에 로그인한 후 회색 화면을 간헐적으로 볼 수 있어 더 이상 편집할 수 없는 문제가 해결되었습니다. 이 업데이트는 사후 인증 로드 안정성을 향상시킵니다. (TGT-54626)
+
++++
+
+## [!DNL Target Standard/Premium] 26.3.4(2026년 3월 19일)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++세부 정보 보기
+
+* **디자인/찾아보기 모드 선택 항목이 Visual Experience Composer 웹 편집기에 표시됩니다.** 이 수정 사항은 디자인, 찾아보기 및 미리보기 모드 간 전환이 제대로 작동하지만 인터페이스에 활성 모드가 명확하게 표시되지 않는 문제를 해결합니다. 이제 선택한 모드가 가시적으로 강조 표시되어 현재 모드 상태를 확인할 수 있습니다. (TGT-54790)
+
+* 시각적 경험 작성기(Chrome)의 **개인 네트워크 URL.** Chrome은 로컬 네트워크 액세스가 허용되지 않는 한 개인 네트워크의 페이지를 차단할 수 있습니다. 이제 **[!UICONTROL Visual Experience Composer]**&#x200B;이(가) 프레이밍 Experience Cloud에서 사용하는 권한을 요청하므로 Chrome이 자동으로 실패하는 대신 허용 프롬프트를 표시할 수 있습니다. 액세스를 허용하면 사용자 환경에서 지원할 때 내부 URL이 VEC에 로드될 수 있습니다. (TGT-54346)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.2(2026년 3월 10일)
 
@@ -1705,7 +1727,7 @@ ht-degree: 52%
 >
 >구현 검토를 완료하고 2025년 2월 3일까지 문제를 해결할 수 없는 경우 6개월 1회 연장을 요청할 수 있습니다. 2025년 1월 31일까지 요청이 제출되었는지 확인합니다. Adobe에서 요청을 검토하고 결정합니다.
 
-수동 제안 렌더링의 경우 이 최적화를 활용하려면 [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}을(를) 검토하여 경험을 수동으로 렌더링한 후 또는 `applyPropositions` 메서드(또는 해당 [!DNL Launch] 작업을 도우미로 사용)를 사용하여 경험을 렌더링할 때 알림을 보내고 있는지 확인하십시오.
+수동 제안 렌더링의 경우 이 최적화를 활용하려면 [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}을(를) 검토하여 경험을 수동으로 렌더링한 후 또는 `applyPropositions` 메서드(또는 해당 [!DNL Launch] 작업을 도우미로 사용)를 사용하여 경험을 렌더링할 때 알림을 보내고 있는지 확인하십시오.
 
 경험을 수동으로 렌더링할 때 가장 일반적인 시나리오는 다음과 같습니다.
 

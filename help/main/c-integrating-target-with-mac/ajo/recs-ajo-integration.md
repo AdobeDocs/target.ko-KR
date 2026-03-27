@@ -8,7 +8,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
-source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 [!DNL Target Recommendations] 및 [!DNL Adobe Journey Optimizer] 통합을 사용하려면 다음이 필요합니다.
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)이(가) [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}를 사용하여 구현되었습니다.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)이(가) [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}를 사용하여 구현되었습니다.
 
   이 기능은 [!DNL Target Standard] 라이선스나 at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현하는 경우에는 사용할 수 없습니다.
 

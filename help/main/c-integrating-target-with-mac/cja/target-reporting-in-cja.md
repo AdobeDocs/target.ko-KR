@@ -4,7 +4,7 @@ description: ' [!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytic
 title: ' [!DNL Target] 에서  [!DNL Adobe Customer Journey Analytics]보고 중'
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 40%
@@ -39,7 +39,7 @@ ht-degree: 40%
 * 하나의 보고 소스 또는 다른 보고 소스를 사용하십시오. 여러 보고 소스에서 한 활동에 대한 데이터를 수집할 수 없습니다.
 * [!DNL Customer Journey Analytics]를 보고 소스로 설정하면 보고용 샌드박스를 지정하라는 메시지가 표시됩니다. 구성 중에는 액세스 권한이 있는 샌드박스만 표시됩니다.
 * 기존의 모든 [!DNL Target] 활동은 [!DNL Target] 데이터 수집을 계속 사용하며 이 통합을 활성화해도 영향을 받지 않습니다.
-* 이 통합을 사용하려면 기본 구현 방법에 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/ko/docs/experience-platform){target=_blank} 및 [!DNL Target]이(가) [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}을(를) 통해 구현되었습니다.
+* 이 통합을 사용하려면 기본 구현 방법에 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/ko/docs/experience-platform){target=_blank} 및 [!DNL Target]이(가) [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}을(를) 통해 구현되었습니다.
 
   현재 [!DNL Adobe Experience Platform Web SDK]이(가) 구현되지 않은 경우 [[!DNL Adobe Analytics] 소스 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)을 만들어 데이터를 [!DNL Adobe Experience Platform]&#x200B;(으)로 가져올 수도 있습니다. 이 메서드를 사용하려면 [!DNL Analytics]에서 사용하는 [!DNL Adobe Experience Platform] 샌드박스와 함께 [!DNL Customer Journey Analytics] 보고서 세트를 선택해야 합니다.
 
@@ -53,7 +53,7 @@ ht-degree: 40%
 
 ## 지원되는 활동 유형 {#supported-activities}
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} 또는 [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript 라이브러리를 사용할 때 다음 활동 유형이 지원됩니다.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} 또는 [at.js](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript 라이브러리를 사용할 때 다음 활동 유형이 지원됩니다.
 
 | 활동 유형 | 지원됨? |
 |--- |--- |
