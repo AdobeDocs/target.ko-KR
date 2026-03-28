@@ -27,7 +27,7 @@ ht-degree: 0%
 
 [!DNL Target]에서 오퍼 결정을 사용하려면 다음이 필요합니다.
 
-* [!DNL Adobe Target Standard]Adobe Experience Platform Web SDK[!DNL Adobe Target Premium]을(를) 사용하여 [&#x200B; 또는 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}을(를) 구현했습니다.
+* [!DNL Adobe Target Standard]Adobe Experience Platform Web SDK[!DNL Adobe Target Premium]을(를) 사용하여 [&#x200B; 또는 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}을(를) 구현했습니다.
 
   at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현할 때는 이 기능을 사용할 수 없습니다.
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 오퍼 결정을 사용할 때 다음 정보를 고려하십시오.
 
-* Offer Decisioning 통합은 [!DNL Target]Adobe Experience Platform Web SDK[을(를) 기반으로 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 구현에 대해 작동합니다. at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현하는 경우에는 이 기능을 사용할 수 없습니다.
+* Offer Decisioning 통합은 [!DNL Target]Adobe Experience Platform Web SDK[을(를) 기반으로 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank} 구현에 대해 작동합니다. at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현하는 경우에는 이 기능을 사용할 수 없습니다.
 
 * [!DNL Target]/[!DNL Adobe Journey Optimizer] 통합은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 및 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동만 지원합니다. 이 기능은 다른 활동 유형에는 사용할 수 없습니다.
 

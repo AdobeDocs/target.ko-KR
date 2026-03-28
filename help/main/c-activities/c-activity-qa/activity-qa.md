@@ -71,7 +71,7 @@ ht-degree: 28%
 
 ### [!DNL Adobe Experience Platform Web SDK]
 
-사이트에 [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}이(가) 배포된 경우 값이 비어 있는 `at_qa_mode` 매개 변수로 사이트의 페이지를 로드하여 수동으로 나올 수 있습니다. 예:
+사이트에 [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}이(가) 배포된 경우 값이 비어 있는 `at_qa_mode` 매개 변수로 사이트의 페이지를 로드하여 수동으로 나올 수 있습니다. 예:
 
 `https://www.mysite.com/?at_qa_mode=`
 
@@ -113,7 +113,7 @@ ht-degree: 28%
 
 * [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko)
 * [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko)
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko)
 
 다음 표는 다양한 활동 유형을 나열하고 각 라이브러리에 대해 [!UICONTROL Activity QA] 모드가 지원되는지 여부를 나타냅니다.
 
