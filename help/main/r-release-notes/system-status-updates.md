@@ -23,7 +23,7 @@ ht-degree: 83%
 >
 >월별 [!DNL Target] 릴리스 동안 항상 제품 내 알림이 표시되지만 때때로 작은 업데이트가 진행되며 이 페이지에 표시됩니다.
 
-1. [[!UICONTROL System Status]](https://status.adobe.com/){target=_blank}에 액세스합니다.
+1. [[!UICONTROL System Status]](https://status.adobe.com/ko-kr/){target=_blank}에 액세스합니다.
 
 1. [!DNL Experience Cloud]을(를) 포함한 [!DNL Target] 솔루션의 상태를 보려면 [!UICONTROL Experience Cloud] 탭을 클릭하십시오.
 
