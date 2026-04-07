@@ -377,7 +377,7 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 ![페이지 전달 옵션 대화 상자](/help/main/c-experiences/assets/page-delivery.png)
 
-예를 들어, 위에 표시된 [!UICONTROL Page Delivery] 설정에 정의된 대로 방문자가 `https://www.adobe.com` *에 직접 방문하거나*&#x200B;이(가) 포함된 URL에 방문하면 Target 활동이 정규화되고 실행됩니다. `https://www.adobe.com/products` 이 활동은 페이지와의 모든 상호 작용이 페이지 재로드를 호출하는 모든 다중 페이지 애플리케이션에 완벽하게 작동합니다. 여기서 at.js는 사용자가 탐색하는 URL을 대상으로 하는 활동을 검색합니다.
+예를 들어, 위에 표시된 [!UICONTROL Page Delivery] 설정에 정의된 대로 방문자가 `https://www.adobe.com` *에 직접 방문하거나*&#x200B;이(가) 포함된 URL에 방문하면 Target 활동이 정규화되고 실행됩니다. `https://www.adobe.com/kr/products` 이 활동은 페이지와의 모든 상호 작용이 페이지 재로드를 호출하는 모든 다중 페이지 애플리케이션에 완벽하게 작동합니다. 여기서 at.js는 사용자가 탐색하는 URL을 대상으로 하는 활동을 검색합니다.
 
 그러나 SPA는 다르게 작동하므로 SPA VEC 활동에 정의된 대로 모든 작업을 보기에 적용할 수 있는 방식으로 [!UICONTROL Page Delivery] 설정을 구성해야 합니다.
 

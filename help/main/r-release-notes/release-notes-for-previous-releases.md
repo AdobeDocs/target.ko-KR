@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
+source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
 workflow-type: tm+mt
-source-wordcount: '65113'
+source-wordcount: '65169'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,16 @@ ht-degree: 52%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.3.7(2026년 3월 26일)
+
+**대상자**
+
++++세부 정보 보기
+
+* **대상 인터페이스의 대상 원본 레이블 정확도입니다.** Adobe Experience Platform의 Adobe Target v2 대상에서 오는 대상자가 **Adobe Experience Platform** 대신 소스로 **Adobe Experience Cloud**&#x200B;와(과) 함께 나타날 수 있는 문제를 해결했습니다. 이 업데이트는 대상자를 필터링하고 검토할 때 소스 레이블 일관성을 향상시킵니다. (TGT-54802)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.6(2026년 3월 23일)
 
