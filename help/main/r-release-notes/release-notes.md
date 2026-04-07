@@ -84,7 +84,7 @@ ht-degree: 39%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++세부 정보 보기
 
