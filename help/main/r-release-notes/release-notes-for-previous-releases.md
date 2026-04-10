@@ -4,10 +4,10 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
+source-git-commit: ee66ca185cc1d2c4659134d038add2e75026ad0d
 workflow-type: tm+mt
-source-wordcount: '65169'
-ht-degree: 52%
+source-wordcount: '65505'
+ht-degree: 51%
 
 ---
 
@@ -22,6 +22,56 @@ ht-degree: 52%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.4.1 (2026년 4월 2일 금요일)
+
+**활동**
+
++++세부 정보 보기
+
+* **대상 특성이 활동 보기에 표시됩니다.** **[!UICONTROL Activity]**&#x200B;에서 본 대상 규칙 세부 정보에 **[!UICONTROL Audiences]** 섹션에서 동일한 대상을 열 때 나타나는 특정 특성이 표시되지 않던 문제를 수정했습니다. (TGT-54742)
+
+* **활동 목록 페이지에서 CSV를 내보냅니다.**&#x200B;에서 **[!UICONTROL Export CSV]** 작업을 추가했으므로 필터를 적용하는 시기를 비롯하여 일상적인 내보내기를 위해 API에만 의존하지 않고 사용자 인터페이스에서 활동 목록을 내보낼 수 있습니다. (TGT-51466)
+
+* 선택기를 찾을 수 없을 때 **경험 수정 플래그가 지정되었습니다.** 경험 수정 사항에서 선택기 존재 확인을 실행합니다. 선택기를 페이지에서 찾을 수 없으면 수정 사항이 잘못된 것으로 플래그가 지정됩니다. (TGT-54815)
+
+* **[!UICONTROL Automated personalization]개 활동.** 사용자가 자동화된 개인화 활동을 안정적으로 생성, 편집 또는 관리하지 못하게 하는 인터페이스 및 활동 로드 문제가 해결되었습니다. 이로 인해 캠페인 설정이 차단되고 개인화 사용 사례가 지연되었습니다. (TGT-54421)
+
++++
+
+**대상자**
+
++++세부 정보 보기
+
+* **활동에서 대상을 만들 때 대상 이름 및 설명이 표시됩니다.** 활동 흐름에서 대상을 만들거나 편집할 때 **[!UICONTROL Name]**&#x200B;에서 직접 대상을 만드는 것과 비교하여 대상 **[!UICONTROL Description]** 및 **[!UICONTROL Audiences]** 필드가 명확하게 두드러지지 않는 문제를 해결했습니다. (TGT-54837)
+
++++
+
+**인사이트**
+
++++세부 정보 보기
+
+* Insights의 **[!UICONTROL Live Activities]개수.** 인사이트 대시보드의 **[!UICONTROL Live Activities]** 지표가 **[!UICONTROL All Activities]**&#x200B;에 라이브로 표시된 활동 수보다 더 많은 합계를 보고할 수 있는 문제를 해결했습니다. (TGT-54788)
+
++++
+
+**추천**
+
++++세부 정보 보기
+
+* **의 [!UICONTROL Global Exclusions]긴 ID 목록.** **[!UICONTROL Global Exclusions]**&#x200B;의 긴 ID 목록을 붙여넣거나 입력하면 업데이트된 인터페이스에서 기존 ID와 비교하여 잘려서 불완전한 제외 목록이 발생하는 문제가 해결되었습니다. (TGT-54422)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++세부 정보 보기
+
+* **의 EEC(고급 경험 작성기) 상태 표시기가 [!UICONTROL Visual Experience Composer]입니다.** EEC 표시기는 향상된 경험 작성기가 활성화되었는지 여부를 나타냅니다. 프레젠테이션이 비대화형 상태 표시로만 제공되므로 더 이상 대화형 토글과 유사하지 않도록 수정되었습니다. (TGT-54828)
+
+* **에서 [!UICONTROL Visual Experience Composer]축소 가능한 왼쪽 레일입니다.** 이제 편집을 위해 활동을 여는 동안 왼쪽 레일을 축소할 수 있습니다. 이렇게 하면 작은 디스플레이를 포함하여 여러 대상 및 페이지를 포함하는 활동에 대한 **[!UICONTROL Components]** 및 **[!UICONTROL Properties]**&#x200B;에 대한 액세스가 향상됩니다. (TGT-54269)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.7(2026년 3월 26일)
 
