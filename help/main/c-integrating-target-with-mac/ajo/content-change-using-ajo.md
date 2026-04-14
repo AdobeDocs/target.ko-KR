@@ -7,7 +7,7 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 1%
@@ -126,4 +126,4 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >[Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*
->&#x200B;>[&#128279;](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer 자습서&#x200B;*에서 캠페인 만들기*
+>[&#128279;](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer 자습서&#x200B;*에서 캠페인 만들기*
