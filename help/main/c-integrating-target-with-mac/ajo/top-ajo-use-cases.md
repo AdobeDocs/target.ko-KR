@@ -2,12 +2,12 @@
 keywords: 최적화;개인화;adobe 여정 최적화 프로그램;ajo;사용 사례;시나리오;웹;코드 기반
 description: Adobe Journey Optimizer에서 최대의 효과를 얻기 위한 최고의 최적화 사용 사례를 구현하는 방법에 대해 알아봅니다.
 title: ' [!DNL Adobe Journey Optimizer]  웹 및 코드 기반 채널의 주요 최적화 사용 사례'
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: a00b4732-2740-4b35-a1c5-1ef2d78fecff
-source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 다음 사용 사례를 수행하려면 다음이 필요합니다.
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
 * 이러한 사용 사례에는 [!DNL Adobe Target] 라이선스가 필요하지 않습니다. 이러한 사용 사례에서는 [!DNL Target]을(를) 사용하여 [!DNL Journey Optimizer]에서 익숙한 작업을 수행하는 방법을 보여 주므로 [!DNL Journey Optimizer]을(를) 통해 동일한 결과를 탐색하고 달성할 수 있습니다.
 
 ## 사용 사례
@@ -31,5 +31,5 @@ ht-degree: 6%
 
 이러한 사용 사례는 웹 및 코드 기반 채널과 관련이 있습니다.
 
-* [&#x200B; [!DNL Adobe Journey Optimizer]의 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+* [ [!DNL Adobe Journey Optimizer]의 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
 * [웹 페이지에 구성 요소 추가 또는 숨기기](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)

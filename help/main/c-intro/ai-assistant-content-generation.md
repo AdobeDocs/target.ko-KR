@@ -3,11 +3,11 @@ keywords: ai 도우미;인공 지능 도우미;콘텐츠 생성;콘텐츠 가속
 description: ' [!DNL AI Assistant]을(를) 사용하여 매력적인 콘텐츠를 생성하는 방법을 알아봅니다.'
 title: ' [!DNL AI Assistant] in [!DNL Target] 을(를) 사용하여 매력적인 콘텐츠를 만들려면 어떻게 해야 합니까?'
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 6b4c3b04abe09cc2e440b24c3ff07cb6875ca816
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
    예를 들어, 계절 휴가 판매의 경우, &quot;여름 휴가 기간 한정 판매 광고 매력적인 영웅 텍스트 작성&quot;을 입력할 수 있습니다.
 
-   [이(가) 흥미로운 NYC 모험을 위해 간단한 프롬프트를 매혹적이고 더 긴 형식의 광고 사본으로 변환하는 방법을 보려면 아래의 &#x200B;](#variations)예제 변형[!DNL AI Assistant]을 참조하십시오.
+   [이(가) 흥미로운 NYC 모험을 위해 간단한 프롬프트를 매혹적이고 더 긴 형식의 광고 사본으로 변환하는 방법을 보려면 아래의 ](#variations)예제 변형[!DNL AI Assistant]을 참조하십시오.
 
 1. **[!UICONTROL Text Settings]** 아이콘을 클릭하여 텍스트의 색조와 통신 전략을 지정합니다.
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
    * **음색**: 텍스트 음색이 대상자에게 울려 퍼집니다. [!DNL AI Assistant]이(가) 유익하거나, 흥미롭고, 장난스럽거나, 설득력 있게 들리도록 들릴지 여부에 관계없이 메시지를 적절히 조정할 수 있습니다.
 
-     옵션은 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] 및 [!UICONTROL Conversational]입니다.
+     옵션은 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] 및 [!UICONTROL Conversational]입니다.
 
 1. 슬라이더를 사용하여 짧음에서 길음 사이의 텍스트 길이를 선택합니다.
 
@@ -100,4 +100,4 @@ ht-degree: 1%
 
 ### 콘텐츠 생성을 위해 AI Assistant를 사용하여 콘텐츠 생성
 
->[!VIDEO](https://video.tv.adobe.com/v/3434642/?learn=on&captions=kor">https://video.tv.adobe.com/v/3434642/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
