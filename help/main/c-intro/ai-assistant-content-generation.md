@@ -45,7 +45,7 @@ ht-degree: 1%
 
    예를 들어, 계절 휴가 판매의 경우, &quot;여름 휴가 기간 한정 판매 광고 매력적인 영웅 텍스트 작성&quot;을 입력할 수 있습니다.
 
-   [이(가) 흥미로운 NYC 모험을 위해 간단한 프롬프트를 매혹적이고 더 긴 형식의 광고 사본으로 변환하는 방법을 보려면 아래의 ](#variations)예제 변형[!DNL AI Assistant]을 참조하십시오.
+   [이(가) 흥미로운 NYC 모험을 위해 간단한 프롬프트를 매혹적이고 더 긴 형식의 광고 사본으로 변환하는 방법을 보려면 아래의 &#x200B;](#variations)예제 변형[!DNL AI Assistant]을 참조하십시오.
 
 1. **[!UICONTROL Text Settings]** 아이콘을 클릭하여 텍스트의 색조와 통신 전략을 지정합니다.
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
    * **음색**: 텍스트 음색이 대상자에게 울려 퍼집니다. [!DNL AI Assistant]이(가) 유익하거나, 흥미롭고, 장난스럽거나, 설득력 있게 들리도록 들릴지 여부에 관계없이 메시지를 적절히 조정할 수 있습니다.
 
-     옵션은 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] 및 [!UICONTROL Conversational]입니다.
+     옵션은 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] 및 [!UICONTROL Conversational]입니다.
 
 1. 슬라이더를 사용하여 짧음에서 길음 사이의 텍스트 길이를 선택합니다.
 

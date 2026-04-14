@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # 권장 사항 활동 미리보기 및 시작
 
-[!UICONTROL Recommendations]권장 사항 오퍼[!UICONTROL A/B Test]가 포함된 [!UICONTROL Experience Targeting], [ 또는 ](/help/main/c-recommendations/recommendations-as-an-offer.md)(XT) 활동을 만든 후에는 활동을 시작하기 전에 결과를 사용할 수 있도록 권장 사항을 미리 보는 것이 좋습니다. [!DNL Target Recommendations]은(는) 권장 사항을 미리 보는 여러 가지 방법을 제공합니다.
+[!UICONTROL Recommendations]권장 사항 오퍼[!UICONTROL A/B Test]가 포함된 [!UICONTROL Experience Targeting], [&#x200B; 또는 &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md)(XT) 활동을 만든 후에는 활동을 시작하기 전에 결과를 사용할 수 있도록 권장 사항을 미리 보는 것이 좋습니다. [!DNL Target Recommendations]은(는) 권장 사항을 미리 보는 여러 가지 방법을 제공합니다.
 
 ## 권장 사항 알고리즘 상태 확인
 
@@ -56,7 +56,7 @@ mbox를 동작 데이터 소스로 선택한 경우, 기준이 만들어지면 �
 
 ## QA 링크를 사용하여 권장 사항 미리 보기
 
-알고리즘에서 결과가 준비되면 [의 ](/help/main/c-activities/c-activity-qa/activity-qa.md)QA 링크[!DNL Adobe Target] 기능을 사용하여 해당 결과를 미리 볼 수 있습니다. QA 링크는 [!UICONTROL Activity Location] 개요 페이지의 [!UICONTROL Activity] 섹션에서 사용할 수 있습니다.
+알고리즘에서 결과가 준비되면 [의 &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)QA 링크[!DNL Adobe Target] 기능을 사용하여 해당 결과를 미리 볼 수 있습니다. QA 링크는 [!UICONTROL Activity Location] 개요 페이지의 [!UICONTROL Activity] 섹션에서 사용할 수 있습니다.
 
 >[!NOTE]
 >

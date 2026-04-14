@@ -18,7 +18,7 @@ ht-degree: 2%
 
 이 사용 사례는 [!DNL Adobe Journey Optimizer]에서 효과적인 A/B 테스트 콘텐츠 변경 내용에 대한 비밀을 잠금 해제하는 데 도움이 됩니다.
 
-이 사용 사례에서는 [ 대신 ](/help/main/c-activities/t-test-ab/test-ab.md)을(를) 사용하여 [!DNL Journey Optimizer]A/B 테스트 활동[!DNL Adobe Target]으로 A/B 테스트와 같은 익숙한 작업을 수행하는 방법을 보여 줍니다.
+이 사용 사례에서는 [&#x200B; 대신 &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md)을(를) 사용하여 [!DNL Journey Optimizer]A/B 테스트 활동[!DNL Adobe Target]으로 A/B 테스트와 같은 익숙한 작업을 수행하는 방법을 보여 줍니다.
 
 이 사용 사례는 [!DNL Adobe Target]을(를) 사용하여 수행했을 수 있는 익숙한 작업, [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을(를) 사용하여 A/B 테스트를 수행했을 수 있지만 [!DNL Journey Optimizer]을(를) 사용하는 방법을 보여 주기 위해 설계되었습니다.
 
@@ -96,4 +96,4 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >[Journey Optimizer 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*
->[](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer 자습서&#x200B;*에서 캠페인 만들기*
+>[&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer 자습서&#x200B;*에서 캠페인 만들기*

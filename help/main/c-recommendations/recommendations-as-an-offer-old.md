@@ -55,7 +55,7 @@ ht-degree: 47%
 
 1. **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭하거나 기존 [기준](/help/main/c-recommendations/c-algorithms/algorithms.md)을(를) 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 [!UICONTROL Select Design] 대화 상자를 표시합니다.
 
-1. **[!UICONTROL Create Design]**&#x200B;을(를) 클릭하거나 기존 [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을(를) 선택한 다음 **[!UICONTROL  Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create Design]**&#x200B;을(를) 클릭하거나 기존 [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을(를) 선택한 다음 **[!UICONTROL &#x200B; Next]**&#x200B;을(를) 클릭합니다.
 
 1. [!UICONTROL Options] 대화 상자에서 다음을 지정합니다.
 
@@ -67,11 +67,11 @@ ht-degree: 47%
 
 ## 권장 사항 오퍼의 구성 편집
 
-1. [!UICONTROL Recommendation] 레일에서 **[!UICONTROL Edit]**, ![ 또는 ](/help/main/assets/icons/Edit.svg) 옆에 있는 [!UICONTROL Criteria Name] 아이콘([!UICONTROL Design Name]편집 아이콘[!UICONTROL Collection Name])을 클릭하여 요소를 변경합니다.
+1. [!UICONTROL Recommendation] 레일에서 **[!UICONTROL Edit]**, ![&#x200B; 또는 &#x200B;](/help/main/assets/icons/Edit.svg) 옆에 있는 [!UICONTROL Criteria Name] 아이콘([!UICONTROL Design Name]편집 아이콘[!UICONTROL Collection Name])을 클릭하여 요소를 변경합니다.
 
 ## 권장 사항 오퍼 삭제
 
-1. **[!UICONTROL Delete]** 패널 위쪽에 있는 ![ 아이콘(](/help/main/assets/icons/Delete.svg)삭제 아이콘[!UICONTROL Recommendation])을 클릭합니다.
+1. **[!UICONTROL Delete]** 패널 위쪽에 있는 ![&#x200B; 아이콘(](/help/main/assets/icons/Delete.svg)삭제 아이콘[!UICONTROL Recommendation])을 클릭합니다.
 
 ### 권장 사항 오퍼 상태 보기 {#status}
 

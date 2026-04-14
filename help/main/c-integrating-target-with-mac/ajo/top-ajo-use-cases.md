@@ -31,5 +31,5 @@ ht-degree: 6%
 
 이러한 사용 사례는 웹 및 코드 기반 채널과 관련이 있습니다.
 
-* [ [!DNL Adobe Journey Optimizer]의 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+* [&#x200B; [!DNL Adobe Journey Optimizer]의 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
 * [웹 페이지에 구성 요소 추가 또는 숨기기](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
