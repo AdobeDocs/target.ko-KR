@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱, 소셜 채널에서 고객 경험을 개인화하여 수익을 증대시키는 방법에 대해 알아봅니다.
 feature-set: Target
-source-git-commit: 17804b5f8cfce7033bffcad826e5510bfc42a832
+source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 83%
@@ -107,9 +107,9 @@ ht-degree: 83%
          + {hide-from-toc}[웹 페이지에 구성 요소 추가 또는 숨기기](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
    + MCP 클라이언트 작업 {#mcp}
-      + {hide-from-toc}[MCP 클라이언트 작업](/help/main/mcp/target-mcp.md)
-      + {hide-from-toc}[Adobe Target MCP 서버 도구 참조](/help/main/mcp/target-mcp-tools-reference.md)
-      + {hide-from-toc}[Adobe Target MCP 서버 자체 호스팅](/help/main/mcp/target-mcp-self-hosted.md)
+      + {hide-from-toc}[MCP 클라이언트 작업](c-integrating-target-with-mac/mcp/target-mcp.md)
+      + {hide-from-toc}[Adobe Target MCP 서버 도구 참조](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
+      + {hide-from-toc}[Adobe Target MCP 서버 자체 호스팅](c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md)
    + Adobe Experience Manager(AEM)와 Target 통합 {#aem}
       + [AEM과 Target 통합 개요](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 경험 조각 및 콘텐츠 조각 {#fragments}
