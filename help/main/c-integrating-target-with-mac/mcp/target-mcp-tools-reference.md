@@ -664,5 +664,5 @@ ID별로 특정 엔티티의 모든 수정 사항을 가져옵니다.
 ## 관련 리소스 {#tools-related}
 
 * [MCP 클라이언트 작업](target-mcp.md)
-* [ [!DNL Adobe Target] MCP 서버 자체 호스팅](target-mcp-self-hosted.md)
+* [&#x200B; [!DNL Adobe Target] MCP 서버 자체 호스팅](target-mcp-self-hosted.md)
 * [[!DNL Adobe Target] 관리 API 참조](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
