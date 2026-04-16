@@ -403,7 +403,7 @@ MCP 서버는 인증된 Adobe IMS 자격 증명과 연결된 조직으로 작업
 ## 관련 리소스 {#mcp-related}
 
 * [MCP 서버 도구 참조](target-mcp-tools-reference.md)
-* [ [!DNL Adobe Target] MCP 서버 자체 호스팅](target-mcp-self-hosted.md)
+* [&#x200B; [!DNL Adobe Target] MCP 서버 자체 호스팅](target-mcp-self-hosted.md)
 * [모델 컨텍스트 프로토콜 설명서](https://modelcontextprotocol.io/introduction){target="_blank"}
 * [[!DNL Adobe Target] 관리 API 참조](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
 * [커서 설명서](https://docs.cursor.com/){target="_blank"}
