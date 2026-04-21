@@ -440,7 +440,7 @@ NSString *version = [AEPMobileRollout extensionVersion];
 | `refreshCache()` | 무효 |
 | `extensionVersion()` | 문자열 |
 
-##   {#see-also}
+## {#see-also}
 
 * [모바일 애플리케이션](../../integrate/mobile-applications.md)
 * [통합 단계](../../integrate/integration-steps.md)

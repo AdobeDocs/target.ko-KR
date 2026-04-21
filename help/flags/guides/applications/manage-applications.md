@@ -22,7 +22,7 @@ Flags의 **application**&#x200B;은(는) 기능 플래그로 제어할 서비스
 
 응용 프로그램을 추가하려면 [응용 프로그램 온보딩](onboard-your-application.md)에서 단계별 지침을 참조하십시오.
 
-##   {#see-also}
+## {#see-also}
 
 * [애플리케이션 온보드](onboard-your-application.md)
 * [여러 기능을 제어하는 기능 그룹](../../concepts/feature-groups-to-control-multiple-features.md)

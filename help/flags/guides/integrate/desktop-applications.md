@@ -22,7 +22,7 @@ ht-degree: 5%
 
 데스크톱 클라이언트는 **제품 코드 및 제품 버전**&#x200B;을 응용 프로그램 식별자로 사용할 수 있습니다.
 
-##   {#see-also}
+## {#see-also}
 
 * [통합 단계](integration-steps.md)
 * [시작 안내서](startup-guide.md)

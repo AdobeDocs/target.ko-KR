@@ -49,7 +49,7 @@ ht-degree: 1%
 
 기능 그룹 설정을 저장합니다. 테스트를 시작할 준비가 되면 피쳐 그룹을 활성 상태로 설정합니다.
 
-##   {#see-also}
+## {#see-also}
 
 * [기능 그룹 만들기](create-a-feature-group.md)
 * [기능 그룹을 설정하여 점진적으로 롤아웃](set-feature-group-gradual-rollout.md)

@@ -16,7 +16,7 @@ ht-degree: 2%
 
 컨텍스트 기반 타깃팅(예: 사용자의 활성 언어 또는 장치 유형별 타깃팅)에 대해서는 [대상 규칙에 컨텍스트 사용](using-context-in-audience-rules.md)을 참조하십시오.
 
-##   {#see-also}
+## {#see-also}
 
 * [대상 규칙에서 컨텍스트 사용](using-context-in-audience-rules.md)
 * [대상 기준에 백분율 규칙 추가](adding-percentage-rules.md)

@@ -20,7 +20,7 @@ ht-degree: 3%
 
 롤아웃을 확장하거나 축소하기 위해 시간이 지남에 따라 비율을 늘리거나 줄일 수 있습니다. 비율을 0%로 낮추면 플래그를 삭제하지 않고 대상에 있는 모든 사람에게 기능이 효과적으로 꺼집니다.
 
-##   {#see-also}
+## {#see-also}
 
 * [점진적 롤아웃](../../concepts/gradual-rollout.md)
 * [기능 그룹을 설정하여 점진적으로 롤아웃](set-feature-group-gradual-rollout.md)

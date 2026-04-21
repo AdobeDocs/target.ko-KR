@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * 동일한 키를 가진 기능 플래그가 대상 샌드박스에 이미 있는 경우 가져오지 않습니다.
 
-##   {#see-also}
+## {#see-also}
 
 * [기능 및 기능 그룹](../feature-flags/features-feature-groups-releases.md)
 * [첫 번째 기능 플래그 만들기](../feature-flags/create-your-first-feature-flag.md)

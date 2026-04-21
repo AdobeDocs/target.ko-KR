@@ -22,7 +22,7 @@ ht-degree: 3%
 
 언제든지 비율을 늘리거나 줄여 롤아웃을 확장, 축소 또는 일시 중지할 수 있습니다.
 
-##   {#see-also}
+## {#see-also}
 
 * [기능 그룹 만들기](create-a-feature-group.md)
 * [기능 플래그를 사용하여 A/B 테스트](a-b-testing.md)

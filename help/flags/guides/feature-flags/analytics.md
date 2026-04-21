@@ -38,7 +38,7 @@ Analytics는 두 가지 수준에서 활성화되어야 합니다.
 
 기능 그룹 및 릴리스의 경우 **결과** 드롭다운을 선택하여 응용 프로그램을 선택하고 해당 응용 프로그램에 대한 분석을 봅니다. Analytics는 활성화된 애플리케이션에서만 사용할 수 있습니다.
 
-##   {#see-also}
+## {#see-also}
 
 * [첫 번째 기능 플래그 만들기](create-your-first-feature-flag.md)
 * [기능 플래그를 사용하여 A/B 테스트](a-b-testing.md)

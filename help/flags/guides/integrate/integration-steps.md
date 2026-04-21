@@ -38,7 +38,7 @@ ht-degree: 3%
 >
 >Desktop SDK 설명서는 현재 준비 중이며 곧 제공될 예정입니다.
 
-##   {#see-also}
+## {#see-also}
 
 * [시작 안내서](startup-guide.md)
 * [SDK](sdks.md)

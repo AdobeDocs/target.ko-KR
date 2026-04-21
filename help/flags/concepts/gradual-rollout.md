@@ -36,7 +36,7 @@ ht-degree: 2%
 
 모든 단계에서 한 번의 작업으로 롤아웃을 일시 중지하거나 문제가 발생할 경우 기능을 완전히 끌 수 있습니다.
 
-##   {#see-also}
+## {#see-also}
 
 * [기능을 활성화 및 비활성화하는 기능 플래그](feature-flags-to-enable-disable-features.md)
 

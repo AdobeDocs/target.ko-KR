@@ -41,7 +41,7 @@ ht-degree: 3%
 | 하나의 애플리케이션에 대해 단일 기능 테스트 또는 롤아웃 | **기능 플래그** |
 | 동일한 팀에서 여러 기능을 조정하면서 동시에 실행 | **기능 그룹** |
 
-##   {#see-also}
+## {#see-also}
 
 * [첫 번째 기능 플래그 만들기](create-your-first-feature-flag.md)
 * [기능 그룹 만들기](create-a-feature-group.md)

@@ -24,7 +24,7 @@ ht-degree: 10%
 
 특정 스택과의 통합에 대한 지침은 플래그 지원에 문의하십시오.
 
-##   {#see-also}
+## {#see-also}
 
 * [SDK](sdks.md)
 * [통합 단계](integration-steps.md)

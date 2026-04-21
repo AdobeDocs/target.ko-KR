@@ -48,7 +48,7 @@ ht-degree: 1%
 
 * [첫 번째 기능 플래그 만들기](../feature-flags/create-your-first-feature-flag.md)
 
-##   {#see-also}
+## {#see-also}
 
 * [앱에 플래그 통합](integrating-in-your-app.md)
 * [통합 단계](integration-steps.md)

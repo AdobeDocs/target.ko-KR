@@ -42,7 +42,7 @@ ht-degree: 3%
 
 3개월 이내에 릴리스를 베이스라인 또는 중단하도록 계획합니다.
 
-##   {#see-also}
+## {#see-also}
 
 * [릴리스 요청](request-a-release.md)
 * [전체 워크플로 릴리스](release-workflow-end-to-end.md)
