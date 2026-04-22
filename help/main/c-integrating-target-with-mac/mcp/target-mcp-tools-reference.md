@@ -9,10 +9,10 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
+source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
 workflow-type: tm+mt
-source-wordcount: '2688'
-ht-degree: 15%
+source-wordcount: '2782'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 15%
 
 * [MCP 클라이언트 작업](target-mcp.md)
 * **[MCP 서버 도구 참조](target-mcp-tools-reference.md)**
-* [MCP 서버 자체 호스팅](target-mcp-self-hosted.md)
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +31,15 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->여기에는 공개 도구만 문서화되어 있습니다. 내부 및 에이전트 전용 도구는 제외됩니다. 읽기 도구는 **관찰자** 역할 이상의 연결된 모든 사용자가 사용할 수 있습니다. 쓰기 도구에는 **편집기** 또는 **승인자** 역할이 필요합니다.
+>읽기 도구는 **관찰자** 역할 이상의 연결된 모든 사용자가 사용할 수 있습니다. 쓰기 도구에는 **편집기** 또는 **승인자** 역할이 필요합니다.
+
+>[!IMPORTANT]
+>
+>MCP(Model Context Protocol)는 새로운 오픈 소스 표준이며 보안 또는 신뢰성 위험을 제시할 수 있습니다. Adobe MCP 서버 통합 및 관련 설명서는 어떠한 종류의 보증도 없이 &quot;있는 그대로&quot; 제공됩니다.
+>
+>MCP 클라이언트 또는 서버를 Adobe 제품에 연결하는 것은 고객이 선택한 구성이며 고객은 MCP 통합의 보안 및 적합성을 평가할 책임이 있습니다. Adobe은 잘못된 구성, MCP 오용, 서드파티 구현의 취약점 또는 MCP 지원 워크플로우를 통해 수행된 의도하지 않은 작업으로 인해 발생하는 문제에 대해 책임을 지지 않습니다.
+>
+>위험을 줄이기 위해 Adobe에서는 생산적인 사용을 시작하기 전에 샌드박스 환경에서 통합을 테스트하고, 이를 확인하거나 의존하기 전에 모든 MCP에서 시작한 작업과 응답을 주의 깊게 검토하고 확인하는 것을 권장합니다.
 
 ## 활동 도구 {#tools-activities}
 
@@ -742,5 +749,4 @@ ID별로 특정 엔티티의 모든 수정 사항을 가져옵니다.
 ## 관련 리소스 {#tools-related}
 
 * [MCP 클라이언트 작업](target-mcp.md)
-* [&#x200B; [!DNL Adobe Target] MCP 서버 자체 호스팅](target-mcp-self-hosted.md)
 * [[!DNL Adobe Target] 관리 API 참조](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
