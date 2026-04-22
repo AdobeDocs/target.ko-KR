@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2972'
 ht-degree: 14%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 14%
 
 목차:
 
-* [MCP 클라이언트 작업](target-mcp.md)
+* [개요](target-mcp.md)
+* [시작하기](target-mcp-get-started.md)
+* [사용 사례 및 연습](target-mcp-use-cases.md)
 * **[MCP 서버 도구 참조](target-mcp-tools-reference.md)**
 
 >[!ENDSHADEBOX]
 
-이 페이지는 [!DNL Adobe Target] MCP 서버에서 노출된 모든 공개 도구에 대한 전체 참조입니다. 각 도구에 대해 설명, 매개변수 세부 정보, 반환 값 및 예제 자연어 프롬프트를 찾을 수 있습니다. 설치 지침 및 사용 사례는 [MCP 클라이언트 작업](target-mcp.md)을 참조하세요.
-
->[!NOTE]
->
->읽기 도구는 **관찰자** 역할 이상의 연결된 모든 사용자가 사용할 수 있습니다. 쓰기 도구에는 **편집기** 또는 **승인자** 역할이 필요합니다.
+이 페이지는 [!DNL Adobe Target] MCP 서버에서 노출된 모든 공개 도구에 대한 전체 참조입니다. 각 도구에 대해 설명, 매개변수 세부 정보, 반환 값 및 예제 자연어 프롬프트를 찾을 수 있습니다. 설치 지침 및 사용 사례는 [시작하기](target-mcp-get-started.md) 및 [사용 사례 및 연습](target-mcp-use-cases.md)을 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -40,6 +38,16 @@ ht-degree: 14%
 >MCP 클라이언트 또는 서버를 Adobe 제품에 연결하는 것은 고객이 선택한 구성이며 고객은 MCP 통합의 보안 및 적합성을 평가할 책임이 있습니다. Adobe은 잘못된 구성, MCP 오용, 서드파티 구현의 취약점 또는 MCP 지원 워크플로우를 통해 수행된 의도하지 않은 작업으로 인해 발생하는 문제에 대해 책임을 지지 않습니다.
 >
 >위험을 줄이기 위해 Adobe에서는 생산적인 사용을 시작하기 전에 샌드박스 환경에서 통합을 테스트하고, 이를 확인하거나 의존하기 전에 모든 MCP에서 시작한 작업과 응답을 주의 깊게 검토하고 확인하는 것을 권장합니다.
+
+## 사전 요구 사항 {#tools-prerequisites}
+
+[!DNL Adobe Target] 역할에 따라 사용 가능한 도구가 결정됩니다.
+
+* **관찰자** 역할 이상: 모든 읽기 도구에 액세스
+* **편집기** 역할: 읽기 및 쓰기(만들기) 도구에 액세스
+* **승인자** 역할: 도구를 읽고 쓰고 활성화/비활성화하는 액세스 권한
+
+전체 설치 지침은 [시작](target-mcp-get-started.md)을 참조하세요.
 
 ## 활동 도구 {#tools-activities}
 
