@@ -1,28 +1,30 @@
 ---
 solution: Target
 product: target
-title: MCP 클라이언트 작업
-description: MCP 서버를 사용하여 Adobe Target을 MCP 클라이언트에 연결하는 방법에 대해 알아봅니다
+title: Adobe Target MCP 서버 개요
+description: Adobe Target MCP 서버가 무엇인지, 주요 기능 및 AI 어시스턴트에 연결하는 방법에 대해 알아봅니다.
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '979'
 ht-degree: 1%
 
 ---
 
-# MCP 클라이언트 작업 {#target-mcp}
+# [!DNL Adobe Target] MCP 서버 {#target-mcp}
 
 >[!BEGINSHADEBOX]
 
 목차:
 
-* **[MCP 클라이언트 작업](target-mcp.md)**
+* **[개요](target-mcp.md)**
+* [시작하기](target-mcp-get-started.md)
+* [사용 사례 및 연습](target-mcp-use-cases.md)
 * [MCP 서버 도구 참조](target-mcp-tools-reference.md)
 
 >[!ENDSHADEBOX]
@@ -31,7 +33,7 @@ ht-degree: 1%
 >
 >[!DNL Adobe Target] MCP 서버는 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 사용할 수 있습니다. 추가 MCP 호환 애플리케이션에 대한 지원은 향후 릴리스에 추가될 예정입니다.
 
-[!DNL Adobe Target] MCP 통합을 통해 A/B 테스트, 개인화 활동 및 권장 사항 기준을 AI 도우미에서 직접 검사, 분석 및 관리할 수 있습니다. [!DNL Target]의 읽기 및 쓰기 API를 일반 언어 워크플로우로 전환합니다. 실험 포트폴리오를 감사하고, 성능 보고서를 검토하고, 대상 및 오퍼를 관리하고, UI를 탐색하거나 API 호출을 작성하지 않고도 통제된 작업을 수행할 수 있습니다. 이 페이지에서는 통합 작동 방식, 통합 기능으로 수행할 수 있는 작업 및 시작 방법을 설명합니다.
+[!DNL Adobe Target] MCP 통합을 통해 A/B 테스트, 개인화 활동 및 권장 사항 기준을 AI 도우미에서 직접 검사, 분석 및 관리할 수 있습니다. [!DNL Target]의 읽기 및 쓰기 API를 일반 언어 워크플로우로 전환합니다. 실험 포트폴리오를 감사하고, 성능 보고서를 검토하고, 대상 및 오퍼를 관리하고, UI를 탐색하거나 API 호출을 작성하지 않고도 통제된 작업을 수행할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -62,308 +64,11 @@ ht-degree: 1%
 >
 >쓰기 작업(만들기, 업데이트, 활성화, 비활성화)에는 안전 주석이 포함됩니다. 명시적인 사용자 확인 없이 변경 사항이 실행되지 않습니다.
 
-## 사용 가능한 도구 {#mcp-tools}
+[!DNL Adobe Target] MCP 서버는 활동 관리 및 보고에서 대상 만들기 및 QA 미리 보기에 이르기까지 10개의 범주에 걸쳐 52개의 도구를 노출합니다. 전체 매개 변수 참조에 대해서는 [MCP 서버 도구 참조](target-mcp-tools-reference.md)를 참조하십시오.
 
-[!DNL Adobe Target] MCP 서버는 52개의 도구를 노출합니다. 읽기 도구는 보기 권한이 있는 연결된 모든 사용자가 사용할 수 있습니다. 쓰기 도구에는 편집자 또는 승인자 역할이 필요합니다.
+단계별 안내 연습을 포함하여 [!DNL Adobe Target] MCP 서버로 수행할 수 있는 작업을 살펴보려면 [사용 사례 및 연습](target-mcp-use-cases.md)을 참조하세요.
 
-### 활동 도구 - 읽기
-
-| 도구 | 설명 |
-|---|---|
-| `list_target_activities` | 상태, 유형, 이름, 날짜, 우선 순위, mbox 및 작업 영역별로 서버 측 필터링이 포함된 활동 나열 |
-| `list_all_target_activities` | 필터와 일치하는 모든 활동 가져오기, 결과 자동 페이지 지정 |
-| `get_ab_activity` | 특정 A/B 활동에 대한 전체 세부 정보 가져오기 |
-| `get_xt_activity` | 특정 경험 타기팅(XT) 활동에 대한 전체 세부 정보 가져오기 |
-| `get_abt_activity` | 특정 Automated Personalization(AP) 활동에 대한 전체 세부 정보 가져오기 |
-
-### 활동 도구 - 쓰기
-
-| 도구 | 설명 |
-|---|---|
-| `create_ab_activity` | 새 A/B 테스트 활동 만들기 |
-| `create_xt_activity` | 새 XT(경험 타깃팅) 활동 만들기 |
-| `create_activity_from_modifications` | JavaScript 수정 사항에서 XT 활동 만들기 |
-| `update_ab_activity` | 기존 A/B 활동 업데이트 |
-| `update_xt_activity` | 기존 XT 활동 업데이트 |
-| `update_abt_activity` | 기존 Automated Personalization 활동 업데이트 |
-| `update_activity_state` | 활동 활성화, 비활성화, 일시 중지 또는 보관 |
-| `update_activity_schedule` | 활동의 시작 및 종료 날짜 업데이트 |
-| `update_activity_priority` | 활동의 우선 순위 업데이트 |
-| `update_activity_name` | 활동 이름 바꾸기 |
-| `add_activity_variant` | 활동에 새 변형(경험) 추가 |
-| `update_traffic_split` | 변형 간 트래픽 할당 업데이트 |
-| `update_variant_offer` | 변형에 대한 오퍼 또는 VEC 수정 사항 변경 |
-| `remove_activity_variant` | 활동에서 변형 제거 |
-
-### 오퍼 도구
-
-| 도구 | 설명 |
-|---|---|
-| `list_target_offers` | 서버측 필터링 및 정렬이 포함된 오퍼 나열 |
-| `list_all_target_offers` | 일치하는 모든 오퍼 가져오기, 자동 페이지 지정 |
-| `get_target_offer` | 특정 오퍼에 대한 세부 정보 가져오기 |
-| `create_target_offer` | 새 HTML 오퍼 만들기 |
-| `create_target_json_offer` | 새 JSON 오퍼 만들기 |
-| `update_target_offer` | 기존 HTML 오퍼 업데이트 |
-
-### 대상 도구
-
-| 도구 | 설명 |
-|---|---|
-| `list_target_audiences` | 서버측 필터링 및 정렬을 사용하여 대상자 나열 |
-| `create_target_audience` | 선택적 타깃팅 규칙으로 대상자 만들기 |
-
-### Mbox 및 위치 도구
-
-| 도구 | 설명 |
-|---|---|
-| `list_target_mboxes` | 필터링 및 정렬이 포함된 목록 mbox |
-| `list_all_target_mboxes` | 필터, 자동 페이지 지정과 일치하는 모든 mbox 가져오기 |
-| `get_target_mbox` | 이름별로 특정 mbox에 대한 세부 정보 가져오기 |
-| `list_target_mbox_profile_attributes` | mbox와 연결된 모든 프로필 속성 나열 |
-
-### 속성
-
-| 도구 | 설명 |
-|---|---|
-| `list_target_properties` | 모든 Target 속성 나열 |
-
-### 보고 및 통찰력 도구
-
-| 도구 | 설명 |
-|---|---|
-| `get_ab_performance_report` | A/B, 자동 할당 또는 자동 타겟 활동에 대한 성과 보고서 가져오기 |
-| `get_ab_orders_report` | A/B 또는 자동 타겟 활동에 대한 주문 및 매출 보고서 가져오기 |
-| `get_xt_performance_report` | XT 활동에 대한 성과 보고서 가져오기 |
-| `get_xt_orders_report` | XT 활동에 대한 주문 및 매출 보고서 가져오기 |
-| `get_apt_performance_report` | AP 또는 자동 타겟 활동에 대한 성과 보고서 가져오기 |
-| `get_activity_insights` | 이름으로 활동을 검색하고 자세한 성능 통찰력을 얻으십시오 |
-| `get_a4t_report` | 활동에 대한 A4T(Analytics for Target) 보고서 가져오기 |
-
-### 권장 사항 도구
-
-| 도구 | 설명 |
-|---|---|
-| `list_target_criteria` | 모든 권장 사항 기준 나열 |
-| `get_target_criteria` | 특정 권장 사항 기준의 세부 정보 가져오기 |
-| `update_target_criteria_cart` | 추천 장바구니 기반 기준 업데이트 |
-
-### 구현 및 구성 도구
-
-| 도구 | 설명 |
-|---|---|
-| `get_atjs_settings` | AT.js 설정 및 구성 가져오기 |
-| `get_atjs_versions` | AT.js 버전 사용 가능 |
-| `list_target_response_tokens` | Target 테넌트의 모든 응답 토큰 나열 |
-| `create_target_response_token` | 새 사용자 지정 응답 토큰 만들기 |
-
-### 감사 및 개정 도구
-
-| 도구 | 설명 |
-|---|---|
-| `get_target_revisions` | 작성자로 필터링된 리소스 유형에 대한 감사 로그 가져오기 |
-| `get_target_entity_revisions` | ID로 특정 엔티티의 모든 개정 버전 가져오기 |
-
-### 유틸리티
-
-| 도구 | 설명 |
-|---|---|
-| `preview_activity` | 타겟 활동에 대한 QA 미리보기 URL 생성 |
-| `create_page_delivery_segment` | VEC 활동 타깃팅을 위한 페이지 전달 세그먼트 만들기 |
-| `list_target_templates` | 사용 가능한 MCP 리소스 및 템플릿 나열 |
-| `debug_token_info` | 현재 OAuth 토큰 범위 및 클레임 검사 |
-
-## 사용 사례 {#mcp-use-cases}
-
-다음 예제는 자연어를 사용하여 [!DNL Adobe Target] MCP 서버와 상호 작용하는 방법을 보여 줍니다.
-
-| 목표 | 예제 프롬프트 |
-|---|---|
-| **실험 상태 감사** | &quot;현재 홈페이지에서 활성화된 A/B 테스트는 무엇입니까? 상태, 트래픽 할당 및 각각 실행된 기간을 표시합니다.&quot; |
-| **성능 검토** | &quot;통계적 중요도에 도달한 모든 활성 테스트를 표시합니다. 어떤 경험이 승리하고 있습니까?&quot; |
-| **매출 분석** | &quot;활동 AT4821에 대한 주문 및 매출 보고서를 가져와 방문자당 가장 많은 매출을 창출하는 경험을 요약합니다.&quot; |
-| **A4T 보고** | &quot;내 체크아웃 최적화 테스트를 위한 A4T 보고서를 가져오고 Analytics측 전환 데이터를 요약합니다.&quot; |
-| **활동 관리** | &quot;활동 98765을 일시 중지하고 활동 11111 우선 순위를 200으로 업데이트합니다.&quot; |
-| **활동 인사이트** | &quot;내 &#39;여름 세일 배너&#39; 테스트에 대한 통찰력을 얻으십시오. 성과가 어떤 모양이며 예외 항목이 있습니까?&quot; |
-| **대상자 관리** | &quot;모바일 사용자를 타겟팅하는 모든 대상을 나열하고 연결되는 활동을 보여 주십시오.&quot; |
-| **QA 및 미리 보기** | &quot;활성화하기 전에 모든 변형을 검토할 수 있도록 활동 12345에 대한 QA 미리보기 URL을 생성합니다.&quot; |
-| **권장 사항 검토** | &quot;이 계정에 구성된 모든 권장 사항 기준을 나열하고 사용 중인 알고리즘 유형을 요약합니다.&quot; |
-| **구현 감사** | &quot;구성된 at.js 버전과 현재 활성화된 응답 토큰은 무엇입니까?&quot; |
-| **감사 변경** | &quot;지난 30일 동안 활동 98765에 대한 모든 변경 사항 및 변경한 사람을 표시합니다.&quot; |
-
-## 사용 사례 연습 {#mcp-use-case-walkthroughs}
-
-다음 연습에서는 [!DNL Adobe Target] MCP 서버에서 자연어 프롬프트를 사용하여 일반적인 작업을 완료하는 방법을 보여 줍니다.
-
-+++A/B 테스트 만들기
-
-**프롬프트:**
-&quot;현재 영웅을 보여주는 &#39;제어&#39;와 새로운 여름 테마 영웅 이미지를 보여주는 &#39;변형&#39;의 두 가지 경험으로 &#39;홈 페이지 영웅 이미지 테스트&#39;라는 A/B 테스트를 만듭니다. 홈 페이지 mbox를 타깃팅합니다.&quot;
-
-AI 도우미는 `create_ab_activity` 도구를 사용하여 설명한 구성으로 활동을 만듭니다. 이 도구는 새 활동 ID와 생성된 경험에 대한 확인을 반환합니다.
-
-+++
-
-+++활동 성능 확인
-
-**프롬프트:**
-&quot;지난 30일 동안의 내 &#39;체크아웃 흐름 최적화&#39; 활동에 대한 성능 지표를 보여 줍니다.&quot;
-
-AI 도우미는 `get_ab_performance_report` 또는 `get_xt_performance_report`(활동 유형에 따라 다름)을 사용하여 지정된 기간의 전환율, 방문자 수 및 기타 지표를 검색합니다.
-
-+++
-
-+++오퍼 관리
-
-**프롬프트:**
-&quot;HTML 오퍼 &#39;여름 세일 배너&#39;를 &#39;모든 여름 상품 20% 할인&#39;이라는 홍보 배너와 함께 만듭니다.&quot;
-
-AI 도우미는 `create_target_offer` 도구를 사용하여 지정된 HTML 콘텐츠로 오퍼를 만들고 새 오퍼 ID로 확인을 반환합니다.
-
-+++
-
-+++대상자 만들기
-
-**프롬프트:**
-&quot;캘리포니아에 위치한 모바일 디바이스의 사용자를 타겟팅하는 &#39;캘리포니아 출신 모바일 방문자&#39;라는 대상을 만듭니다.&quot;
-
-AI 도우미는 설명에서 파생된 적절한 타깃팅 규칙과 함께 `create_target_audience` 도구를 사용합니다.
-
-+++
-
-+++QA 미리 보기 링크 생성
-
-**프롬프트:**
-&quot;각 경험을 테스트할 수 있도록 활동 12345에 대한 미리보기 URL을 생성합니다.&quot;
-
-AI 도우미는 `preview_activity` 도구를 사용하여 대상 타깃팅을 우회하는 클릭 가능한 URL을 생성하므로 각 경험을 브라우저에서 직접 볼 수 있습니다.
-
-+++
-
-+++경험 타깃팅 활동 만들기
-
-**프롬프트:**
-&quot;다른 지역의 방문자에게 다른 영웅 배너를 표시하는 &#39;지역 Personalization&#39;라는 경험 타깃팅 활동을 만듭니다.&quot;
-
-AI 도우미는 `create_xt_activity`을(를) 사용하여 설명한 지역에 따라 대상 기반 경험 매핑으로 활동을 만듭니다.
-
-+++
-
-+++활동 예약
-
-**프롬프트:**
-&quot;5월 1일에 시작하여 5월 31일에 끝나도록 활동 12345 일정을 업데이트합니다.&quot;
-
-AI 도우미는 `update_activity_schedule` 도구를 사용하여 새 시작 날짜와 종료 날짜를 활동에 적용합니다.
-
-+++
-
-## 사전 요구 사항 {#mcp-prerequisites}
-
-[!DNL Adobe Target] MCP 서버를 MCP 클라이언트에 연결하기 전에 다음 사항을 확인하십시오.
-
-* Adobe Experience Platform 조직에 활성 [!DNL Adobe Target] 라이선스(Adobe Experience Cloud 구독)가 있습니다.
-* 지원되는 MCP 호환 응용 프로그램 (현재 Claude Web, Claude Desktop, Claude Code, Cursor 또는 ChatGPT).
-* Adobe Admin Console에 [!DNL Adobe Target] 권한이 구성되어 있습니다.
-   * **관찰자** 역할: 읽기 전용 도구
-   * **편집기** 역할: 읽기 + 도구 만들기
-   * **승인자** 역할: 읽기 + 만들기 + 활성화/비활성화 도구
-
-## [!DNL Adobe Target] MCP 서버 연결 {#mcp-connect}
-
->[!NOTE]
->
->[!DNL Adobe Target] MCP 서버는 인증을 위해 OAuth 2.0을 사용합니다. 처음 Target MCP 도구를 사용하면 Adobe Experience Cloud으로 리디렉션되어 로그인하고 조직을 선택한 다음 요청된 권한을 부여합니다. 정적 자격 증명이 필요하지 않습니다.
-
-**클라우드 데스크톱 또는 클라우드 웹에서 연결하려면:**
-
-1. MCP 클라이언트 설정을 열고 새 MCP 서버를 추가합니다.
-1. 서버 URL 입력: `https://targetmcp.adobe.io/mcp`
-1. 메시지가 표시되면 Adobe Experience Cloud 자격 증명으로 Adobe IMS OAuth 로그인을 완료합니다.
-1. 인증되면 모든 도구를 즉시 사용할 수 있습니다. &quot;모든 활성 Target 활동 나열&quot;을 시도하여 연결을 확인하십시오.
-
-**클라우드 코드에서 연결하려면:**
-
-클라우드 코드 MCP 구성에 다음 내용을 추가하십시오.
-
-```json
-{
-  "mcpServers": {
-    "adobe-target": {
-      "url": "https://targetmcp.adobe.io/mcp"
-    }
-  }
-}
-```
-
-처음 사용할 때 메시지가 표시되면 OAuth 브라우저 플로우를 완료합니다.
-
-**커서에서 연결하려면:**
-
-1. **커서**&#x200B;를 열고 **설정** → **MCP** → **새 글로벌 MCP 서버 추가**&#x200B;로 이동합니다.
-1. 다음 구성을 추가합니다.
-
-```json
-{
-  "mcpServers": {
-    "target": {
-      "type": "streamable-http",
-      "url": "https://targetmcp.adobe.io/mcp"
-    }
-  }
-}
-```
-
-1. 구성을 저장합니다. [!DNL Target] MCP 서버가 사용 가능한 MCP 서버에 나타납니다.
-
->[!TIP]
->
->잘못된 조직의 활동이나 데이터가 나타나면 Adobe Experience Cloud에서 완전히 로그아웃한 후 MCP 서버를 다시 연결하고 재인증 중에 올바른 조직을 신중하게 선택하십시오.
-
-## 문제 해결 {#mcp-troubleshooting}
-
-+++OAuth 플로우가 실패하거나 잘못 리디렉션됨
-
-1. Adobe Experience Cloud에서 완전히 로그아웃합니다.
-1. adobe.com 도메인에 대한 브라우저 쿠키를 지웁니다.
-1. 인증 흐름을 다시 시도하십시오.
-1. 메시지가 표시되면 올바른 조직을 선택해야 합니다.
-+++
-
-+++잘못된 조직의 활동 또는 데이터가 표시됨
-
-1. Adobe Experience Cloud에서 완전히 로그아웃합니다.
-1. 클라이언트 설정에서 MCP 서버 연결을 끊고 다시 연결합니다.
-1. 재인증 중에 올바른 조직을 신중하게 선택하십시오.
-+++
-
-+++도구가 오류 메시지를 반환합니다.
-
-1. [!DNL Adobe Target]에서 작업에 필요한 권한이 있는지 확인하십시오([필수 구성 요소](#mcp-prerequisites) 참조).
-1. 참조된 리소스(활동, 오퍼, 대상)가 조직에 있는지 확인합니다.
-1. 활동 ID 및 기타 식별자가 올바른지 확인합니다.
-+++
-
-+++MCP 서버에 연결할 수 없습니다.
-
-1. 인터넷 연결을 확인합니다.
-1. MCP 서버 URL이 클라이언트 구성에 올바르게 입력되었는지 확인합니다.
-1. MCP 클라이언트 설정에서 서버를 제거하고 다시 추가해 보십시오.
-+++
-
-## 보안 및 권한 {#mcp-security}
-
-[!DNL Adobe Target] MCP 서버는 Adobe 사용자 계정에 보기 또는 수정 권한이 있는 데이터에만 액세스할 수 있습니다. 모든 작업은 [!DNL Target] 역할 할당 및 작업 영역 권한을 준수합니다.
-
-서버가 요청하는 OAuth 범위는 다음과 같습니다.
-
-* `AdobeID` — 기본 Adobe ID
-* `openid` — OpenID Connect 인증
-* `additional_info.projectedProductContext` — 테넌트 검색
-* `read_organizations` — 조직 수준 작업
-* `additional_info.roles` — 역할 기반 액세스 제어
-
-OAuth 토큰은 각 요청에 대해 Adobe IMS에 대해 검증되며, MCP 서버에 의해 영구적으로 저장되지 않으며, 모든 통신은 HTTPS를 사용합니다.
+필수 구성 요소, 클라이언트별 구성 및 문제 해결 등 [!DNL Adobe Target] MCP 서버를 AI Assistant에 연결하려면 [시작하기](target-mcp-get-started.md)를 참조하십시오.
 
 ## FAQ {#mcp-faq}
 
@@ -409,6 +114,8 @@ MCP 서버는 인증된 Adobe IMS 자격 증명과 연결된 조직으로 작업
 
 ## 관련 리소스 {#mcp-related}
 
+* [시작하기](target-mcp-get-started.md)
+* [사용 사례 및 연습](target-mcp-use-cases.md)
 * [MCP 서버 도구 참조](target-mcp-tools-reference.md)
 * [모델 컨텍스트 프로토콜 설명서](https://modelcontextprotocol.io/introduction){target="_blank"}
 * [[!DNL Adobe Target] 관리 API 참조](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}

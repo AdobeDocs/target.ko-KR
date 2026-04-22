@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱, 소셜 채널에서 고객 경험을 개인화하여 수익을 증대시키는 방법에 대해 알아봅니다.
 feature-set: Target
-source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1290'
 ht-degree: 83%
 
 ---
@@ -106,9 +106,11 @@ ht-degree: 83%
          + {hide-from-toc}[Adobe Journey Optimizer에서 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[웹 페이지에 구성 요소 추가 또는 숨기기](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
-   + MCP 클라이언트 작업 {#mcp}
-      + {hide-from-toc}[MCP 클라이언트 작업](c-integrating-target-with-mac/mcp/target-mcp.md)
-      + {hide-from-toc}[Adobe Target MCP 서버 도구 참조](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
+   + Adobe Target 서버 {#mcp}
+      + {hide-from-toc}[개요](c-integrating-target-with-mac/mcp/target-mcp.md)
+      + {hide-from-toc}[시작](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+      + {hide-from-toc}[사용 사례 및 연습](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+      + {hide-from-toc}[MCP 서버 도구 참조](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
    + Adobe Experience Manager(AEM)와 Target 통합 {#aem}
       + [AEM과 Target 통합 개요](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 경험 조각 및 콘텐츠 조각 {#fragments}
