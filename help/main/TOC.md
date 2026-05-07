@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱, 소셜 채널에서 고객 경험을 개인화하여 수익을 증대시키는 방법에 대해 알아봅니다.
 feature-set: Target
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: dadf2cf174019c01a205487ccdb9bdf6639d5a9f
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1317'
 ht-degree: 83%
 
 ---
@@ -105,6 +105,7 @@ ht-degree: 83%
          + {hide-from-toc}[Adobe Journey Optimizer의 주요 최적화 사용 사례 - 웹 및 코드 기반 채널](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + {hide-from-toc}[Adobe Journey Optimizer에서 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[웹 페이지에 구성 요소 추가 또는 숨기기](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+   + [Experimentation Accelerator과 Target 통합](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
    + Adobe Target 서버 {#mcp}
       + {hide-from-toc}[개요](c-integrating-target-with-mac/mcp/target-mcp.md)
