@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Experimentation Accelerator은 관리자가 [!DNL Adobe Target] 작업 영역 활동을 구성하고 애플리케이션에 표시하는 방법을 관리할 수 있도록 도와줍니다. 각 [!DNL Target] 작업 영역을 적절한 Experimentation Accelerator 샌드박스에 매핑하여 팀은 [!DNL Adobe Target] 및 [!DNL Adobe Journey Optimizer]의 실험을 한 곳에서 볼 수 있습니다.
 
-➡️ [Adobe Experimentation Accelerator에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
+➡️ [Adobe Experimentation Accelerator에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experimentation-accelerator/using/overview)
 
 ## 시작하기 전에
 
