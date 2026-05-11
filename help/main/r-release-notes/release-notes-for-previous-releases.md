@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a3bad17cc5df759c8aa84a0d9ac0b623f2165a4c
+source-git-commit: 21514e371a7327e6f0954127dffc3aed0d1e6961
 workflow-type: tm+mt
-source-wordcount: '67997'
+source-wordcount: '68187'
 ht-degree: 50%
 
 ---
@@ -22,6 +22,46 @@ ht-degree: 50%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.4.4(2026년 4월 28일)
+
+**활동**
+
++++세부 정보 보기
+
+* **보고서의 대상 필터에 오류가 있습니다.** **[!UICONTROL Goals & Settings]** 내의 대상 필터를 변경하면 [!DNL Target] 사용자 인터페이스의 보고 섹션에 오류가 발생하는 문제가 해결되었습니다. (TGT-55006)
+
+* **우선 순위별로 활동을 정렬합니다.** **[!UICONTROL Priority]** 열 헤더를 사용하여 작업 목록에 우선 순위별 정렬을 추가했습니다. 오름차순 및 내림차순은 정렬 가능한 다른 열과 일치합니다. (TGT-54948)
+
+* **저장 후 추가 활동 속성이 유지되지 않습니다.** 활동을 저장하고 다시 연 후 특정 **[!UICONTROL Properties]** 선택이 지속되지 않던 문제를 수정했습니다. (TGT-53889)
+
++++
+
+**로컬라이제이션**
+
++++세부 정보 보기
+
+* [!UICONTROL Page Delivery] 규칙 연산자에 대한 **일본어 레이블.** 일본어 UI에서 페이지 전달 규칙 연산자 레이블에 대한 읽을 수 없거나 손상된 문자열을 수정했습니다. (TGT-53097)
+
++++
+
+**API**
+
++++세부 정보 보기
+
+* `segmentId`에 대한 **보고 [!DNL GraphQL] API 지원.** 보고 [!DNL GraphQL] API에 `segmentId`을(를) 추가했습니다. (TGT-55021)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++세부 정보 보기
+
+* **편집기에서 잘못된 환경에 수정 사항이 표시되었습니다.** [!UICONTROL Visual Experience Composer]에서 경험 간에 전환한 후 잘못된 경험에 삭제 또는 기타 수정 사항이 나타날 수 있는 문제를 해결했습니다. (TGT-54955)
+
+* **삽입 HTML을 삭제할 때 수정 사항이 제거되었습니다.** **[!UICONTROL Insert before]** 또는 **[!UICONTROL Insert after]**&#x200B;과(와) 함께 추가된 추가 **[!UICONTROL HTML]** 블록을 삭제하면 CSS 선택기가 없는 연결된 수정도 제거되던 문제를 해결했습니다. (TGT-54530)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.4.3(2026년 4월 9일)
 
