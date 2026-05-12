@@ -8,27 +8,21 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] MCP 서버 시작 {#target-mcp-get-started}
 
->[!BEGINSHADEBOX]
 
-목차:
+>[!AVAILABILITY]
+>
+>[!DNL Adobe Target] MCP 서버는 **공개 Beta**&#x200B;의 모든 고객이 사용할 수 있습니다. 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 지원됩니다.
 
-* [개요](target-mcp.md)
-* **[시작](target-mcp-get-started.md)**
-* [사용 사례 및 연습](target-mcp-use-cases.md)
-* [MCP 서버 도구 참조](target-mcp-tools-reference.md)
-
->[!ENDSHADEBOX]
-
+이 페이지에서는 [!DNL Adobe Target] MCP 서버를 AI 도우미에 연결하고 설정을 확인하는 데 필요한 모든 과정을 안내합니다.
 
 >[!IMPORTANT]
 >
@@ -37,8 +31,6 @@ ht-degree: 0%
 >MCP 클라이언트 또는 서버를 Adobe 제품에 연결하는 것은 고객이 선택한 구성이며 고객은 MCP 통합의 보안 및 적합성을 평가할 책임이 있습니다. Adobe은 잘못된 구성, MCP 오용, 서드파티 구현의 취약점 또는 MCP 지원 워크플로우를 통해 수행된 의도하지 않은 작업으로 인해 발생하는 문제에 대해 책임을 지지 않습니다.
 >
 >위험을 줄이기 위해 Adobe에서는 생산적인 사용을 시작하기 전에 샌드박스 환경에서 통합을 테스트하고, 이를 확인하거나 의존하기 전에 모든 MCP에서 시작한 작업과 응답을 주의 깊게 검토하고 확인하는 것을 권장합니다.
-
-이 페이지에서는 [!DNL Adobe Target] MCP 서버를 AI 도우미에 연결하고 설정을 확인하는 데 필요한 모든 과정을 안내합니다.
 
 ## 사전 요구 사항 {#mcp-prerequisites}
 
