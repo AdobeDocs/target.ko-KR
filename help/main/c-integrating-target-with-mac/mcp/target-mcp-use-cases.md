@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -17,11 +17,9 @@ ht-degree: 0%
 
 # [!DNL Adobe Target] MCP 서버 — 사용 사례 및 연습 {#target-mcp-use-cases}
 
-
 >[!AVAILABILITY]
 >
 >[!DNL Adobe Target] MCP 서버는 **공개 Beta**&#x200B;의 모든 고객이 사용할 수 있습니다. 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 지원됩니다.
-
 
 이 페이지에서는 빠른 조회, 여러 단계의 활동 관리 작업 등 자연어 프롬프트를 사용하여 [!DNL Adobe Target] MCP 서버를 통해 수행할 수 있는 작업을 보여 줍니다.
 
