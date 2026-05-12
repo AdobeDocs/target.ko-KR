@@ -8,31 +8,27 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer
 level: Experienced
-hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Target] MCP 서버 자체 호스팅 {#target-mcp-self-hosted}
 
->[!BEGINSHADEBOX]
 
-목차:
+>[!AVAILABILITY]
+>
+>[!DNL Adobe Target] MCP 서버는 **공개 Beta**&#x200B;의 모든 고객이 사용할 수 있습니다. 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 지원됩니다.
 
-* [MCP 클라이언트 작업](target-mcp.md)
-* [MCP 서버 도구 참조](target-mcp-tools-reference.md)
-* **[MCP 서버 자체 호스팅](target-mcp-self-hosted.md)**
-
->[!ENDSHADEBOX]
+이 페이지에서는 [!DNL Adobe Target] MCP 서버의 자체 인스턴스를 복제, 구성 및 실행하는 방법에 대해 설명합니다. 자체 호스팅은 로컬 개발 환경, 사용자 지정 네트워크 구성이 필요하거나 서버 코드 베이스에 기여하려는 경우 유용합니다.
 
 >[!AVAILABILITY]
 >
 >자체 호스팅 배포는 [!DNL Adobe Target] MCP 서버 런타임을 완벽하게 제어해야 하는 개발자 및 고급 사용자를 위한 것입니다. 대부분의 사용자에게는 호스팅된 끝점(`https://targetmcp.adobe.io/mcp`)이 권장됩니다. [MCP 클라이언트 작업](target-mcp.md)을 참조하세요.
 
-이 페이지에서는 [!DNL Adobe Target] MCP 서버의 자체 인스턴스를 복제, 구성 및 실행하는 방법에 대해 설명합니다. 자체 호스팅은 로컬 개발 환경, 사용자 지정 네트워크 구성이 필요하거나 서버 코드 베이스에 기여하려는 경우 유용합니다.
+
 
 ## 사전 요구 사항 {#self-hosted-prereqs}
 

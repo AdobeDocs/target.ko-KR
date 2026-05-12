@@ -8,32 +8,29 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 1%
+source-wordcount: '1009'
+ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] MCP 서버 {#target-mcp}
 
->[!BEGINSHADEBOX]
 
-목차:
-
-* **[개요](target-mcp.md)**
-* [시작하기](target-mcp-get-started.md)
-* [사용 사례 및 연습](target-mcp-use-cases.md)
-* [MCP 서버 도구 참조](target-mcp-tools-reference.md)
-
->[!ENDSHADEBOX]
+[!DNL Adobe Target] MCP 통합을 통해 A/B 테스트, 개인화 활동 및 권장 사항 기준을 AI 도우미에서 직접 검사, 분석 및 관리할 수 있습니다. [!DNL Target]의 읽기 및 쓰기 API를 일반 언어 워크플로우로 전환합니다. 실험 포트폴리오를 감사하고, 성능 보고서를 검토하고, 대상 및 오퍼를 관리하고, UI를 탐색하거나 API 호출을 작성하지 않고도 통제된 작업을 수행할 수 있습니다.
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Target] MCP 서버는 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 사용할 수 있습니다. 추가 MCP 호환 애플리케이션에 대한 지원은 향후 릴리스에 추가될 예정입니다.
+>[!DNL Adobe Target] MCP 서버는 **공개 Beta**&#x200B;의 모든 고객이 사용할 수 있습니다. 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 지원됩니다. 추가 MCP 호환 애플리케이션에 대한 지원은 향후 릴리스에 추가될 예정입니다.
 
-[!DNL Adobe Target] MCP 통합을 통해 A/B 테스트, 개인화 활동 및 권장 사항 기준을 AI 도우미에서 직접 검사, 분석 및 관리할 수 있습니다. [!DNL Target]의 읽기 및 쓰기 API를 일반 언어 워크플로우로 전환합니다. 실험 포트폴리오를 감사하고, 성능 보고서를 검토하고, 대상 및 오퍼를 관리하고, UI를 탐색하거나 API 호출을 작성하지 않고도 통제된 작업을 수행할 수 있습니다.
+
+## 모델 컨텍스트 프로토콜이란 무엇입니까? {#mcp-overview}
+
+마케팅 및 최적화 팀은 일상적인 작업을 간소화하기 위해 Anthropic Claude, OpenAI ChatGPT, Cursor, Microsoft Copilot Studio와 같은 채팅 기반 애플리케이션과 개발자 도구에 점점 더 의존하고 있습니다. 이러한 응용 프로그램은 응용 프로그램이 백엔드 도구를 대형 언어 모델(LLM)에 균일한 방식으로 노출할 수 있도록 해주는 개방형 표준인 **MCP(Model Context Protocol)**&#x200B;을 지원합니다.
+
+[!DNL Adobe Target]은(는) 이제 MCP 호환 응용 프로그램 내에서 직접 실험, 개인화 및 권장 사항 작업을 표시하는 MCP 서버를 제공합니다. [!DNL Adobe Target]은(는) AI 도우미가 추론 및 설명을 처리하는 동안 의사 결정 및 실행 계층 역할을 하므로 팀이 여러 제품 화면을 탐색하거나 [!DNL Adobe Target] REST API에 대한 쿼리를 작성하지 않고도 최적화 인사이트에 더 빠르게 액세스할 수 있습니다.
+
 
 >[!IMPORTANT]
 >
@@ -42,12 +39,6 @@ ht-degree: 1%
 >MCP 클라이언트 또는 서버를 Adobe 제품에 연결하는 것은 고객이 선택한 구성이며 고객은 MCP 통합의 보안 및 적합성을 평가할 책임이 있습니다. Adobe은 잘못된 구성, MCP 오용, 서드파티 구현의 취약점 또는 MCP 지원 워크플로우를 통해 수행된 의도하지 않은 작업으로 인해 발생하는 문제에 대해 책임을 지지 않습니다.
 >
 >위험을 줄이기 위해 Adobe에서는 생산적인 사용을 시작하기 전에 샌드박스 환경에서 통합을 테스트하고, 이를 확인하거나 의존하기 전에 모든 MCP에서 시작한 작업과 응답을 주의 깊게 검토하고 확인하는 것을 권장합니다.
-
-## 모델 컨텍스트 프로토콜이란 무엇입니까? {#mcp-overview}
-
-마케팅 및 최적화 팀은 일상적인 작업을 간소화하기 위해 Anthropic Claude, OpenAI ChatGPT, Cursor, Microsoft Copilot Studio와 같은 채팅 기반 애플리케이션과 개발자 도구에 점점 더 의존하고 있습니다. 이러한 응용 프로그램은 응용 프로그램이 백엔드 도구를 대형 언어 모델(LLM)에 균일한 방식으로 노출할 수 있도록 해주는 개방형 표준인 **MCP(Model Context Protocol)**&#x200B;을 지원합니다.
-
-[!DNL Adobe Target]은(는) 이제 MCP 호환 응용 프로그램 내에서 직접 실험, 개인화 및 권장 사항 작업을 표시하는 MCP 서버를 제공합니다. [!DNL Adobe Target]은(는) AI 도우미가 추론 및 설명을 처리하는 동안 의사 결정 및 실행 계층 역할을 하므로 팀이 여러 제품 화면을 탐색하거나 [!DNL Adobe Target] REST API에 대한 쿼리를 작성하지 않고도 최적화 인사이트에 더 빠르게 액세스할 수 있습니다.
 
 ## 주요 기능 {#mcp-capabilities}
 
@@ -94,7 +85,7 @@ ht-degree: 1%
 
 +++[!DNL Adobe Target] 데이터가 MCP 클라이언트 공급자로 전송되었습니까?
 
-프롬프트를 제출하면 MCP 클라이언트는 관련 컨텍스트(MCP 서버에서 반환된 [!DNL Adobe Target] 데이터 포함)를 처리를 위해 해당 모델로 보낼 수 있습니다. 프로덕션 데이터에 연결하기 전에 MCP 클라이언트 공급자의 개인정보 보호 및 데이터 처리 정책을 검토하십시오. Adobe의 데이터 처리는 [Adobe 개인정보 처리방침](https://www.adobe.com/kr/privacy.html) 및 [데이터 보호 약관](https://www.adobe.com/go/dpt-ww)의 적용을 받습니다.
+프롬프트를 제출하면 MCP 클라이언트는 관련 컨텍스트(MCP 서버에서 반환된 [!DNL Adobe Target] 데이터 포함)를 처리를 위해 해당 모델로 보낼 수 있습니다. 프로덕션 데이터에 연결하기 전에 MCP 클라이언트 공급자의 개인정보 보호 및 데이터 처리 정책을 검토하십시오. Adobe의 데이터 처리는 [Adobe 개인정보 처리방침](https://www.adobe.com/privacy.html) 및 [데이터 보호 약관](https://www.adobe.com/go/dpt-ww)의 적용을 받습니다.
 +++
 
 +++쓰기 작업으로 인해 라이브 활동에 의도하지 않은 변경이 발생할 수 있습니까?
