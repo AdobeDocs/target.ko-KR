@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 ---
 
 # [!DNL Adobe Target] MCP 서버 {#target-mcp}
-
 
 [!DNL Adobe Target] MCP 통합을 통해 A/B 테스트, 개인화 활동 및 권장 사항 기준을 AI 도우미에서 직접 검사, 분석 및 관리할 수 있습니다. [!DNL Target]의 읽기 및 쓰기 API를 일반 언어 워크플로우로 전환합니다. 실험 포트폴리오를 감사하고, 성능 보고서를 검토하고, 대상 및 오퍼를 관리하고, UI를 탐색하거나 API 호출을 작성하지 않고도 통제된 작업을 수행할 수 있습니다.
 

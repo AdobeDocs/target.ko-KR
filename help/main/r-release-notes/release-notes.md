@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 42%
@@ -30,16 +30,6 @@ ht-degree: 42%
 [!DNL Adobe Target]의 최신 기능, 개선 사항 및 수정 사항을 살펴보십시오. 이러한 릴리스 노트는 해당되는 경우 [!DNL Target]개의 API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 구성 요소에 대한 업데이트도 다룹니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
-
-## 알아야 하는 시간에 민감한 업데이트 {#time-sensitive}
-
-[!BADGE 중요]{type=Informative}
-
-[!DNL Adobe Target] 및 구현과 관련된 시간에 민감한 업데이트의 경우 [!DNL Adobe]에서 [!UICONTROL Experience League]을(를) 통해 자세한 릴리스 정보 및 설명서를 제공합니다. 구현과 관련된 몇 가지 주요 사항은 다음과 같습니다.
-
-### [!DNL Target] UI 버전 사용 중단 전환
-
-자세한 내용은 [[!DNL Target] UI 업데이트 FAQ](/help/main/c-intro/updated-ui-faq.md)를 참조하십시오.
 
 
 ## 최근 업데이트 - 2026년 5월 12일
@@ -110,6 +100,16 @@ ht-degree: 42%
 
 +++
 -->
+
+## 알아야 하는 시간에 민감한 업데이트 {#time-sensitive}
+
+[!BADGE 중요]{type=Informative}
+
+[!DNL Adobe Target] 및 구현과 관련된 시간에 민감한 업데이트의 경우 [!DNL Adobe]에서 [!UICONTROL Experience League]을(를) 통해 자세한 릴리스 정보 및 설명서를 제공합니다. 구현과 관련된 몇 가지 주요 사항은 다음과 같습니다.
+
+### [!DNL Target] UI 버전 사용 중단 전환
+
+자세한 내용은 [[!DNL Target] UI 업데이트 FAQ](/help/main/c-intro/updated-ui-faq.md)를 참조하십시오.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 

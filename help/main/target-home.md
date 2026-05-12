@@ -4,10 +4,21 @@ title: Adobe Target 비즈니스 실무자 안내서
 description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 41d3acff6b1fc95b409aecda92eb84e6f066b32b
+TQID: https://experienceleague.adobe.com/FZseZZEVSfBXtgdDTjo08FJoJ1OesGwoxcMiCxrkegM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 27%
+source-wordcount: 703
+ht-degree: 33%
 
 ---
 
@@ -15,25 +26,17 @@ ht-degree: 27%
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트 날짜: 2026년 1월 26일([변경 사항 보기](r-release-notes/doc-change.md) )**
+**마지막 업데이트 날짜: 2026년 5월 12일([변경 사항 보기](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
->[!TAB 주의!]
-
-**업데이트됨: [!DNL Target] UI 버전 사용 중단 전환(2025년 6월 17일)**
-
-[!DNL Target] 팀이 UI 버전 전환 사용 중단에 대한 타임라인을 조정했습니다.
-
-[![자세히 알아보기 아이콘](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
-
 >[!TAB 새로운 기능]
 
-**Target 26.1.1이 라이브입니다!**
+**[!DNL Adobe Target]MCP 서버(공개 Beta)**
 
-이번 릴리스는 업데이트된 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 수정 사항 및 개선 사항에 중점을 둡니다.
+[!DNL Adobe Target]은(는) 이제 Cloud, Cursor 및 ChatGPT를 비롯한 MCP 호환 응용 프로그램 내에서 직접 실험, 개인화 및 보고 작업을 수행하는 MCP(Model Context Protocol) 서버를 제공합니다.
 
-[![자세히 알아보기 아이콘](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![자세히 알아보기 아이콘](/help/main/assets/learn-more.svg)](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)
 
 >[!TAB Target UI를 업데이트함]
 
@@ -51,7 +54,7 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 >[!TAB AI 길잡이]
 
-**에서 [!DNL AI Assistant]모임[!DNL Adobe Experience Platform]**
+[!DNL Adobe Experience Platform]&#x200B;**에서**&#x200B;모임 [!DNL AI Assistant]
 
 [!DNL AI Assistant]은(는) [!DNL Adobe Experience Cloud] 탐색에 대한 유용한 안내서입니다. [!DNL Target]과(와) 같은 제품에서 사용할 수 있는 [!DNL AI Assistant]은(는) 인터페이스에서 바로 주요 개념과 기능을 빠르게 이해할 수 있도록 도와줍니다.
 
@@ -83,8 +86,8 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 - [[!DNL Target] 릴리스 정보](r-release-notes/release-notes.md): 현재 릴리스에 대한 정보, [!DNL Target]에 영향을 주는 알려진 문제에 대한 정보, 이 설명서의 중요 변경 사항 목록, 그리고 이전 릴리스 정보의 보관 정보가 포함되어 있습니다.
 - [소개 [!DNL Target]](c-intro/intro.md): [!DNL Target]의 핵심 개념에 대해 설명합니다.
 - [UI 이해 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): [!DNL Target]에 익숙해지는 데 도움이 되며 자세한 정보와 단계별 지침을 제공하는 링크를 제공합니다.
-- [[!UICONTROL AI Assistant] 개요](/help/main/c-intro/ai-assistant.md): A[!DNL AI Assistant]의 [!DNL dobe Experience Platform]은(는) [!DNL Adobe Target] 개념을 탐색하고 이해하는 데 사용할 수 있는 사용자 인터페이스 기능입니다.
-- [!DNL Target]을(를) [!DNL Adobe Experience Cloud]과(와) 통합: [!DNL Target]을(를) [!DNL Experience Cloud]&#x200B;(A4T), [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 및 [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md)을(를) 포함한 다른 [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md) 솔루션과 통합하는 방법을 설명합니다.
+- [[!UICONTROL AI Assistant] 개요](/help/main/c-intro/ai-assistant.md): A[!DNL dobe Experience Platform]의 [!DNL AI Assistant]은(는) [!DNL Adobe Target] 개념을 탐색하고 이해하는 데 사용할 수 있는 사용자 인터페이스 기능입니다.
+- [!DNL Target]을(를) [!DNL Adobe Experience Cloud]과(와) 통합: [!DNL Target]을(를) [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T), [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md) 및 [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md)을(를) 포함한 다른 [!DNL Experience Cloud] 솔루션과 통합하는 방법을 설명합니다.
 - [[!DNL Adobe Target] 자습서](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ko-KR): [!DNL Target]을(를) 최대한 활용하는 데 도움이 되는 자습서와 비디오를 제공합니다.
 - [문제 해결 [!DNL Target]](r-troubleshooting-target/troubleshooting-target.md): [!DNL Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 정보를 포함하여 이 안내서에 포함된 문제 해결 정보에 대한 링크를 제공합니다.
 - [[!DNL Target] 모바일 앱용](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=ko-KR){target=_blank}: 모바일 앱 최적화 및 개인화에 [!DNL Target]을(를) 사용할 수 있는 방법을 설명합니다.
@@ -99,7 +102,7 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 ## 개발자 {#developers}
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko-KR){target=_blank}: 이 안내서는 [!DNL Adobe Target]을(를) 구현하기 위한 API 및 SDK 설명서를 포함하여 [!DNL Target] 개발자를 위한 리소스 및 안내서를 제공합니다.
+- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko-KR){target=_blank}: 이 안내서는 [!DNL Target]을(를) 구현하기 위한 API 및 SDK 설명서를 포함하여 [!DNL Adobe Target] 개발자를 위한 리소스 및 안내서를 제공합니다.
 
 ## [!DNL Target] 및 [!DNL Adobe Experience Cloud] 관리자 {#admins}
 
