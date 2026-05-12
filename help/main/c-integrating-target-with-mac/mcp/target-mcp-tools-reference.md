@@ -2,15 +2,15 @@
 solution: Target
 product: target
 title: Adobe Target MCP 서버 도구 참조
-description: Adobe Target MCP 서버에 의해 노출된 21개의 모든 읽기 전용 도구에 대한 전체 매개 변수 참조입니다.
+description: Adobe Target MCP 서버에 의해 노출된 23개의 모든 읽기 전용 도구에 대한 전체 매개 변수 참조입니다.
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1883'
 ht-degree: 11%
 
 ---
@@ -35,9 +35,11 @@ ht-degree: 11%
 
 [!DNL Adobe Target] 역할에 따라 사용 가능한 도구가 결정됩니다.
 
-* **관찰자** 역할 이상: 모든 읽기 도구에 액세스
-* **편집기** 역할: 읽기 및 쓰기(만들기) 도구에 액세스
-* **승인자** 역할: 도구를 읽고 쓰고 활성화/비활성화하는 액세스 권한
+* **관찰자** 역할 이상: 23개의 읽기 전용 도구에 모두 액세스
+
+>[!NOTE]
+>
+>쓰기 도구(만들기, 업데이트, 활성화, 비활성화)는 공개 Beta의 공개 MCP 카탈로그를 통해 노출되지 않습니다. 이 페이지에 나열된 23개의 도구는 모두 읽기 전용입니다. 쓰기 액세스 권한은 향후 릴리스에서 사용할 수 있습니다.
 
 전체 설치 지침은 [시작](target-mcp-get-started.md)을 참조하세요.
 
@@ -544,6 +546,24 @@ Update an existing offer.
 
 +++
 
++++대상자 가져오기
+
+**도구:** `get_target_audience`
+
+타깃팅 규칙을 포함한 대상 세부 정보를 가져옵니다.
+
+타깃팅 규칙 및 조건을 포함하여 특정 대상의 전체 구성을 검색합니다.
+
+| 매개 변수 | 유형 | 필수 | 설명 |
+|---|---|---|---|
+| `audience_id` | 정수 | 예 | 대상자에 대한 고유 식별자 |
+
+**반환:** `id`, `name`, `description`, `origin`, 타깃팅 규칙 및 관련 활동 수를 포함한 전체 대상 세부 정보.
+
+**예제 프롬프트:** &quot;대상 그룹에 대한 세부 정보를 12345 해당 타깃팅 규칙을 보여 주십시오.&quot;
+
++++
+
 <!--
 +++Create an audience
 
@@ -725,6 +745,25 @@ A/B 활동에 대한 주문/매출 보고서를 가져옵니다.
 
 +++
 
++++A4T(Analytics for Target) 보고서 가져오기
+
+**도구:** `get_a4t_report`
+
+[!DNL Target] 활동에 대한 A4T(Analytics for Target) 보고서를 가져옵니다.
+
+활동에 대한 A4T 구성을 확인한 다음 [!DNL Adobe Analytics]에 대해 GraphQL 쿼리를 실행하여 Analytics측 지표를 검색합니다. A4T 보고가 구성된 활동에만 사용할 수 있습니다.
+
+| 매개 변수 | 유형 | 필수 | 설명 |
+|---|---|---|---|
+| `activity_id` | 정수 | 예 | [!DNL Target] 활동의 고유 식별자입니다. |
+| `report_interval` | string | 아니요 | 보고서의 기간(예: `last7days`, `last30days` 또는 사용자 지정 날짜 범위) |
+
+**반환:** 방문자 수, 전환, 매출 및 경험별 리프트를 포함하여 활동에 대한 Analytics 측 지표를 [!DNL Adobe Analytics]에서 직접 가져온 것입니다.
+
+**예제 프롬프트:** &quot;내 체크아웃 최적화 테스트를 위해 A4T 보고서를 가져오고 Analytics측 전환 데이터를 요약합니다.&quot;
+
++++
+
 ## 미리보기 도구 {#tools-preview}
 
 +++활동 미리 보기
@@ -846,15 +885,15 @@ ID별로 특정 엔티티의 모든 수정 사항을 가져옵니다.
 |---|---|---|
 | 활동 | 4 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity` |
 | 오퍼 | 2 | `list_target_offers`, `get_target_offer` |
-| 대상자 | 1 | `list_target_audiences` |
+| 대상자 | 2 | `list_target_audiences`, `get_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | 속성 | 1 | `list_target_properties` |
-| 보고 | 5 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name` |
+| 보고 | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | 미리보기 | 1 | `preview_activity` |
 | 응답 토큰 | 1 | `list_target_response_tokens` |
 | 개정 | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | 템플릿 | 1 | `list_target_templates` |
-| **합계** | **21** | |
+| **합계** | **23** | |
 
 ## 관련 리소스 {#tools-related}
 

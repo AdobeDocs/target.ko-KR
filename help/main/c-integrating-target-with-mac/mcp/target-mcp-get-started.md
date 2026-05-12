@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -37,10 +37,11 @@ ht-degree: 0%
 
 * Adobe Experience Platform 조직에 활성 [!DNL Adobe Target] 라이선스(Adobe Experience Cloud 구독)가 있습니다.
 * 지원되는 MCP 호환 응용 프로그램 (현재 Claude Web, Claude Desktop, Claude Code, Cursor 또는 ChatGPT).
-* Adobe Admin Console에 [!DNL Adobe Target] 권한이 구성되어 있습니다.
-   * **관찰자** 역할: 읽기 전용 도구
-   * **편집기** 역할: 읽기 + 도구 만들기
-   * **승인자** 역할: 읽기 + 만들기 + 활성화/비활성화 도구
+* Adobe Admin Console에 [!DNL Adobe Target] 권한이 구성되어 있습니다. 공개 Beta에서 사용할 수 있는 23개의 모든 도구는 읽기 전용입니다. **관찰자** 이상의 역할만 있으면 MCP 서버를 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>쓰기 도구(만들기, 업데이트, 활성화, 비활성화)는 공개 Beta의 공개 MCP 카탈로그를 통해 노출되지 않습니다. 편집자 및 승인자 역할 권한은 현재 추가 도구를 잠금 해제하지 않습니다. 쓰기 액세스 권한은 향후 릴리스에서 사용할 수 있습니다.
 
 ## [!DNL Adobe Target] MCP 서버 연결 {#mcp-connect}
 
@@ -112,7 +113,7 @@ ht-degree: 0%
 
 +++도구가 오류 메시지를 반환합니다.
 
-1. [!DNL Adobe Target]에서 작업에 필요한 권한이 있는지 확인하십시오([필수 구성 요소](#mcp-prerequisites) 참조).
+1. [!DNL Adobe Target]에서 **Observer** 역할 이상이 있는지 확인하십시오([필수 구성 요소](#mcp-prerequisites) 참조).
 1. 참조된 리소스(활동, 오퍼, 대상)가 조직에 있는지 확인합니다.
 1. 활동 ID 및 기타 식별자가 올바른지 확인합니다.
 +++
