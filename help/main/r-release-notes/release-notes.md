@@ -7,21 +7,14 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 42%
+source-wordcount: 630
+ht-degree: 43%
 
 ---
 
@@ -36,7 +29,7 @@ ht-degree: 42%
 
 **[!DNL Adobe Target]MCP 서버(공개 Beta)**
 
-[!DNL Adobe Target]은(는) 이제 MCP 호환 응용 프로그램 내에서 직접 실험, 개인화 및 보고 작업을 수행하는 MCP(Model Context Protocol) 서버를 제공합니다. 이 통합을 통해 마케팅 및 기술 담당자는 A/B 테스트를 검사하고, 성능 보고서를 분석하고, 대상 및 오퍼를 관리하고, 관리 작업을 수행할 수 있습니다. 이 모든 작업은 여러 UI 화면을 탐색하거나 [!DNL Adobe Target] REST API에 대한 쿼리를 작성하는 대신 자연어 프롬프트를 사용하여 수행됩니다. 이 기능은 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 사용할 수 있습니다.
+[!DNL Adobe Target]은(는) 이제 MCP 호환 응용 프로그램 내에서 직접 실험, 개인화 및 보고 작업을 수행하는 MCP(Model Context Protocol) 서버를 제공합니다. 이 통합을 통해 마케팅 및 기술 담당자는 A/B 테스트를 검사하고, 성능 보고서를 분석하고, 대상 및 오퍼를 탐색할 수 있습니다. 이 모든 작업은 여러 UI 화면을 탐색하거나 [!DNL Adobe Target] REST API에 대한 쿼리를 작성하는 대신 자연어 프롬프트를 사용합니다. 이 기능은 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 사용할 수 있습니다.
 
 이 기능은 공용 Beta의 모든 고객이 사용할 수 있습니다.
 
@@ -77,7 +70,7 @@ ht-degree: 42%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++세부 정보 보기
 
