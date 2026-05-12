@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱, 소셜 채널에서 고객 경험을 개인화하여 수익을 증대시키는 방법에 대해 알아봅니다.
 feature-set: Target
-source-git-commit: dadf2cf174019c01a205487ccdb9bdf6639d5a9f
+source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 83%
@@ -73,6 +73,11 @@ ht-degree: 83%
    + [추천](/help/main/administrating-target/recommendations-settings.md)
 + Target 구현 {#implement-target}
    + [Target 구현 개요](c-implementing-target/implementing-target.md)
++ Adobe Target 서버 {#mcp}
+   + [개요](c-integrating-target-with-mac/mcp/target-mcp.md)
+   + [시작하기](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+   + [사용 사례 및 연습](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+   + [MCP 서버 도구 참조](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
 + Experience Cloud과 Target 통합 {#integrate}
    + Target용 보고 소스로서의 Adobe Analytics(A4T) {#a4t}
       + [A4T 개요](c-integrating-target-with-mac/a4t/a4t.md)
@@ -107,11 +112,6 @@ ht-degree: 83%
          + {hide-from-toc}[웹 페이지에 구성 요소 추가 또는 숨기기](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experimentation Accelerator과 Target 통합](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Adobe Target 서버 {#mcp}
-      + {hide-from-toc}[개요](c-integrating-target-with-mac/mcp/target-mcp.md)
-      + {hide-from-toc}[시작](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
-      + {hide-from-toc}[사용 사례 및 연습](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
-      + {hide-from-toc}[MCP 서버 도구 참조](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
    + Adobe Experience Manager(AEM)와 Target 통합 {#aem}
       + [AEM과 Target 통합 개요](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 경험 조각 및 콘텐츠 조각 {#fragments}
