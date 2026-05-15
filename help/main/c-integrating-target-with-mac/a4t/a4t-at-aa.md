@@ -5,10 +5,22 @@ title: A4T가 [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동을 
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
 TQID: https://experienceleague.adobe.com/VVbjMp7jYDyslZ8ubn8ntPufLK8nKGI9k3ZGh1DLWWs
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1352
@@ -125,8 +137,8 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 ### 자동 할당 {#aa}
 
 * **교육 빈도**: [!UICONTROL Auto-Allocate] 모델은 평소처럼 매시간 계속 교육합니다.
-* **속성 모델**: [!DNL Target]에서는 A4T를 사용하는 [!UICONTROL  Auto-Allocate] 활동에 대해 [!DNL Adobe Analytics] 기본 속성 모델을 사용합니다.
-* **신뢰도**: [!UICONTROL Auto-Allocate] 활동에 사용되는 신뢰 수식이 [!DNL Adobe Analytics] [!UICONTROL A4T] 패널에 기본적으로 표시되는 수식과 다릅니다. [여기에 설명된 대로](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)[!UICONTROL Auto-Allocate]은(는) 일반 [!UICONTROL A/B Test] 활동보다 더 보수적인 신뢰 구간을 사용합니다. 이러한 보수적 신뢰 수준은 데이터에 대한 반복적인 평가(peeks)를 보상한다. 따라서 [!DNL Adobe Analytics]의 기본 보고서에 [!UICONTROL Auto-Allocate] 알고리즘에서 사용 중인 구간에 비해 더 좁은 신뢰 구간이 표시됩니다. 그럼에도 불구하고, 보내는 더 많은 고유 방문자가 있는 경험을 기반으로 알고리즘에서 선호하는 경험을 결정할 수 있습니다.
+* **속성 모델**: [!DNL Target]에서는 A4T를 사용하는 [!UICONTROL &#x200B; Auto-Allocate] 활동에 대해 [!DNL Adobe Analytics] 기본 속성 모델을 사용합니다.
+* **신뢰도**: [!UICONTROL Auto-Allocate] 활동에 사용되는 신뢰 수식이 [!DNL Adobe Analytics] [!UICONTROL A4T] 패널에 기본적으로 표시되는 수식과 다릅니다. [여기에 설명된 대로](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) [!UICONTROL Auto-Allocate]은(는) 일반 [!UICONTROL A/B Test] 활동보다 더 보수적인 신뢰 구간을 사용합니다. 이러한 보수적 신뢰 수준은 데이터에 대한 반복적인 평가(peeks)를 보상한다. 따라서 [!DNL Adobe Analytics]의 기본 보고서에 [!UICONTROL Auto-Allocate] 알고리즘에서 사용 중인 구간에 비해 더 좁은 신뢰 구간이 표시됩니다. 그럼에도 불구하고, 보내는 더 많은 고유 방문자가 있는 경험을 기반으로 알고리즘에서 선호하는 경험을 결정할 수 있습니다.
 * **우승자 상태**: 현재 [!DNL Analysis Workspace]의 [!UICONTROL A4T] 패널에서 [&quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)를 사용할 수 없습니다. 같은 보고서를 [!DNL Target]에서 보는 경우에는 이 배지도 사용할 수 없습니다. A4T를 사용하는 [!UICONTROL Auto-Allocate] 활동에 대한 [!DNL Target] 보고서에 표시된 우승자 &quot;별&quot; 배지는 무시해야 합니다. 이 배지는 [!UICONTROL Auto-Allocate]에서 사용하는 계산이 아니라 일반 신뢰도 계산을 반영합니다.
 
 ### 자동 타겟 {#at}

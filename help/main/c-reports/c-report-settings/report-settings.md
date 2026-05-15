@@ -5,9 +5,15 @@ title: 보고서 설정을 구성하는 방법
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1795
@@ -234,9 +240,9 @@ MVT(다변량 테스트) 활동에 대한 위치별 기여도를 표시하도록
 
 그래프가 작성되는 기본 순서는 다음과 같습니다.
 
-* **[!UICONTROL A/B Test]([!UICONTROL Auto-Allocate] 및 [!UICONTROL Automated Personalization] 포함)**: 내림차순으로 경험 생성 순서.
-* **[!UICONTROL Experience Targeting](XT)**: 활동의 경험 순서.
-* **[!UICONTROL Multivariate Test](MVT)**: 경험 이름별 알파벳순
+* **[!UICONTROL A/B Test] ([!UICONTROL Auto-Allocate] 및 [!UICONTROL Automated Personalization] 포함)**: 내림차순으로 경험 생성 순서.
+* **[!UICONTROL Experience Targeting] (XT)**: 활동의 경험 순서.
+* **[!UICONTROL Multivariate Test] (MVT)**: 경험 이름별 알파벳순
 * **[!UICONTROL Recommendations]**: 내림차순으로 작성된 경험 순서입니다.
 
 [!UICONTROL Counting Methodology] 옵션을 사용하여 작업할 때 다음 주의 사항을 고려하십시오.

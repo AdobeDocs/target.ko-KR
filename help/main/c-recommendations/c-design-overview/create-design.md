@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1006
@@ -51,7 +53,7 @@ ht-degree: 20%
 
    [!UICONTROL Create Design] 대화 상자가 표시됩니다.
 
-1. 디자인 카드에 표시할 **[!UICONTROL  Name]** 및 선택적 미리 보기 이미지를 입력하십시오.
+1. 디자인 카드에 표시할 **[!UICONTROL &#x200B; Name]** 및 선택적 미리 보기 이미지를 입력하십시오.
 
    기본 디자인을 사용하면 디자인 이름과 &quot;복사본&quot;이 **[!UICONTROL Content Name]** 필드에 나타납니다. 이름을 편집할 수 있습니다. 디자인 카드에 표시할 이미지를 선택할 수도 있습니다.
 
