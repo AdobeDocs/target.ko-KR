@@ -1,12 +1,22 @@
 ---
 keywords: 타깃팅;경험 타깃팅;xt;랜딩 페이지;랜딩 페이지 캠페인
-description: '[!UICONTROL Experience Targeting]에서  [!DNL Adobe Target] (XT) 활동을 사용하여 마케터가 정의한 규칙 및 기준에 따라 특정 대상에게 콘텐츠를 전달하는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target] 에서 [!UICONTROL Experience Targeting]​(XT) 활동을 사용하여 마케터가 정의한 규칙 및 기준에 따라 특정 대상에게 콘텐츠를 전달하는 방법을 알아봅니다.'
 title: '[!UICONTROL Experience Targeting]​(XT) 활동이란 무엇입니까?'
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+TQID: https://experienceleague.adobe.com/PCTBCP2tGaNZSIAScWLR84B6an42E-2PJ1Ijm0tHrn4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: 437
 ht-degree: 40%
 
 ---
@@ -15,7 +25,7 @@ ht-degree: 40%
 
 [!UICONTROL Experience Targeting]&#x200B;(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
 
-[!UICONTROL Experience Targeting]지리 기반의 타깃팅[을(를) 포함한 &#x200B;](/help/main/c-target/c-audiences/c-target-rules/geo.md)은(는) 특정 경험이나 콘텐츠를 특정 대상으로 타깃팅하는 규칙을 정의할 때 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상자에 다양한 콘텐츠 변형을 전달할 수 있습니다.
+[지리 기반의 타깃팅](/help/main/c-target/c-audiences/c-target-rules/geo.md)을(를) 포함한 [!UICONTROL Experience Targeting]은(는) 특정 경험이나 콘텐츠를 특정 대상으로 타깃팅하는 규칙을 정의할 때 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상자에 다양한 콘텐츠 변형을 전달할 수 있습니다.
 
 방문자가 사이트를 볼 때 [!UICONTROL Experience Targeting]&#x200B;(XT)는 이러한 방문자를 평가하여 설정된 기준을 충족하는지 여부를 판단합니다. 기준을 충족하면 적격 대상자를 위해 디자인된 활동 및 경험이 표시됩니다. 단일 활동 내에서 여러 대상자에 대한 경험을 만들 수 있습니다.
 

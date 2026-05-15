@@ -5,10 +5,17 @@ title: 권장 사항 활동은 어떻게 구현합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/MyhZmCNB7xHmJ38T7EiQ1YplcxBNi-0f-iz-h6sEXK8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 20%
+source-wordcount: 117
+ht-degree: 21%
 
 ---
 
@@ -18,4 +25,4 @@ ht-degree: 20%
 
 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}에는 사이트에서 [!DNL Recommendations]을(를) 구현하는 방법과 [!DNL Target]을(를) 구현하는 방법에 대한 정보가 포함되어 있습니다.
 
-자세한 내용과 단계별 지침은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank} 포털에서 *권장 사항 계획 및 구현*&#x200B;을 참조하십시오.
+자세한 내용과 단계별 지침은 *Adobe Target 개발자 안내서* 포털에서 [권장 사항 계획 및 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하십시오.

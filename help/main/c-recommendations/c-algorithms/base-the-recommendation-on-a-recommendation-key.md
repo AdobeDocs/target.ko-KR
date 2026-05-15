@@ -1,13 +1,23 @@
 ---
 keywords: 권장 사항 키;권장 사항 논리;현재 범주;사용자 지정 속성;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기 범주;인기도;최근에 본 항목;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기;최근에 본 항목
 description: 방문자 동작 컨텍스트를 사용하여 [!UICONTROL Recommendations] 활동에서 관련 결과를 표시하는 키를 기반으로 권장 사항을 사용하는 방법에 대해 알아봅니다.
-title: '[!UICONTROL Recommendation]에서 [!UICONTROL Recommendation Key]을(를) 기준으로 하려면 어떻게 합니까?'
+title: '[!UICONTROL Recommendation Key]에서 [!UICONTROL Recommendation]을(를) 기준으로 하려면 어떻게 합니까?'
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3463'
+source-wordcount: 3510
 ht-degree: 29%
 
 ---
@@ -71,7 +81,7 @@ ht-degree: 29%
 
 ### [!UICONTROL People Who Viewed This, Also Bought]
 
-지정된 항목을 보는 것과 동일한 세션에서 가장 자주 구입하는 항목을 권장합니다.
+지정한 항목을 본 것과 동일한 세션에서 가장 자주 구입한 항목을 추천합니다.
 
 이 논리는 사용자가 이 제품을 본 후 구매한 다른 제품을 반환합니다. 지정한 제품이 결과 세트에 포함되어 있지 않습니다.
 
@@ -295,7 +305,7 @@ ht-degree: 29%
 
 [!UICONTROL Custom Criteria] 알고리즘 유형을 사용하면 업로드하는 사용자 지정 파일을 기반으로 권장 사항을 만들 수 있습니다.
 
-권장 사항은 방문자 프로필에 저장된 항목에 따라 결정되며, user.*x* 또는 profile.*x* 속성을 사용합니다.
+권장 사항은 사용자.*x* 또는 프로필.*x* 특성을 사용하여 방문자 프로필에 저장된 항목에 의해 결정됩니다.
 
 이 옵션을 선택하는 경우 `entity.id` 값이 프로필 속성에 있어야 합니다.
 
@@ -373,7 +383,7 @@ ht-degree: 29%
 
 1. 선택한 키와 일치하는 엔티티 속성을 선택합니다. 이 경우 &quot;[!UICONTROL Favorite Brand]&quot;은(는) `entity.brand`과(와) 일치합니다.
 
-   [!DNL Recommendations]은(는) 이제 각 브랜드에 대한 &quot;[!UICONTROL Top Sellers]&quot; 목록을 생성하고 방문자의 [!UICONTROL Top Sellers] 프로필 특성에 저장된 값을 기반으로 적절한 &quot;[!UICONTROL Favorite Brand]&quot; 목록을 표시합니다.
+   [!DNL Recommendations]은(는) 이제 각 브랜드에 대한 &quot;[!UICONTROL Top Sellers]&quot; 목록을 생성하고 방문자의 [!UICONTROL Favorite Brand] 프로필 특성에 저장된 값을 기반으로 적절한 &quot;[!UICONTROL Top Sellers]&quot; 목록을 표시합니다.
 
 ### [!UICONTROL Last Viewed Item] {#last-viewed}
 

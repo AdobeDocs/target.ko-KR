@@ -5,24 +5,29 @@ title: Velocity를 사용하여 디자인을 사용자 지정하는 방법
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
+TQID: https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 33%
+source-wordcount: 1083
+ht-degree: 32%
 
 ---
 
 # [!DNL Velocity]을(를) 사용하여 디자인 사용자 지정
 
-[!DNL Velocity]에서 권장 사항 디자인을 사용자 지정하려면 공개 원본 [!DNL Adobe Target Recommendations] 디자인 언어를 사용하십시오.
+[!DNL Adobe Target Recommendations]에서 권장 사항 디자인을 사용자 지정하려면 공개 원본 [!DNL Velocity] 디자인 언어를 사용하십시오.
 
 ## [!DNL Velocity] 개요 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 [!DNL Velocity]에 대한 정보는 [https://velocity.apache.org](https://velocity.apache.org)에 있습니다.
 
-모든 [!DNL Velocity] 논리, 구문 등을 권장 사항 디자인에 사용할 수 있습니다. 즉, JavaScript 대신 *을(를) 사용하여* for *루프,* if[!DNL Velocity] 문 및 기타 코드를 만들 수 있습니다.
+모든 [!DNL Velocity] 논리, 구문 등을 권장 사항 디자인에 사용할 수 있습니다. 즉, JavaScript 대신 [!DNL Velocity]을(를) 사용하여 *for* 루프, *if* 문 및 기타 코드를 만들 수 있습니다.
 
-[!DNL Recommendations] mbox 또는 CSV 업로드에서 `productPage`(으)로 전송된 엔터티 특성은 &quot;다중 값&quot; 특성을 제외하고 디자인에 표시할 수 있습니다. 모든 유형의 특성을 보낼 수 있지만, [!DNL Target]은(는) 형식이 &quot;multi-value&quot;인 특성을 템플릿을 반복할 수 있는 배열로 전달하지 않습니다(예: `entityN.categoriesList`).
+`productPage` mbox 또는 CSV 업로드에서 [!DNL Recommendations]&#x200B;(으)로 전송된 엔터티 특성은 &quot;다중 값&quot; 특성을 제외하고 디자인에 표시할 수 있습니다. 모든 유형의 특성을 보낼 수 있지만, [!DNL Target]은(는) 형식이 &quot;multi-value&quot;인 특성을 템플릿을 반복할 수 있는 배열로 전달하지 않습니다(예: `entityN.categoriesList`).
 
 이러한 값은 다음 구문으로 참조합니다.
 
@@ -30,7 +35,7 @@ ht-degree: 33%
 $entityN.variable
 ```
 
-엔터티 특성 이름은 선행 [!DNL Velocity]$*문자 뒤에* 템플릿 언어(VTL) 식별자가 있는 [!DNL Velocity] 줄임 표기법을 따라야 합니다. VTL 식별자는 알파벳 문자(a-z 또는 A-Z)로 시작해야 합니다.
+엔터티 특성 이름은 선행 *$* 문자 뒤에 [!DNL Velocity] 템플릿 언어(VTL) 식별자가 있는 [!DNL Velocity] 줄임 표기법을 따라야 합니다. VTL 식별자는 알파벳 문자(a-z 또는 A-Z)로 시작해야 합니다.
 
 속도 엔티티 속성 이름은 다음 문자 유형으로 제한됩니다.
 

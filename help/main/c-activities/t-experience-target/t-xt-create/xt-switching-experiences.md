@@ -4,10 +4,17 @@ description: 프로필이 발전함에 따라 방문자가 XT( [!DNL Adobe Targe
 title: 방문자가 [!UICONTROL Experience Targeting] 활동에서 경험을 전환할 수 있습니까?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 43%
+source-wordcount: 723
+ht-degree: 41%
 
 ---
 
@@ -21,12 +28,12 @@ ht-degree: 43%
 |--- |--- |
 | 지리적 위치 | 방문자가 출장 또는 여가를 위해 여행 중인 경우 다른 지리적 위치에서 웹 사이트 또는 모바일 앱을 볼 수 있습니다. |
 | 고객 상태 | 방문자는 계정을 생성하거나 제품을 구매하기 전에 잠재고객으로 간주될 수 있습니다. |
-| 카테고리 친화성 | [의 &#x200B;](/help/main/c-target/c-visitor-profile/category-affinity.md)카테고리 선호도[!DNL Target] 기능은 방문자가 보는 카테고리를 자동으로 캡처한 다음 타깃팅을 위해 해당 카테고리의 방문자 선호도를 계산합니다. 예를 들어 웹 사이트에서 특정 주제에 대한 여러 문서를 열람한 방문자에게는 해당 주제와 관련된 콘텐츠가 제공됩니다. |
+| 카테고리 친화성 | [!DNL Target]의 [카테고리 선호도](/help/main/c-target/c-visitor-profile/category-affinity.md) 기능은 방문자가 보는 카테고리를 자동으로 캡처한 다음 타깃팅을 위해 해당 카테고리의 방문자 선호도를 계산합니다. 예를 들어 웹 사이트에서 특정 주제에 대한 여러 문서를 열람한 방문자에게는 해당 주제와 관련된 콘텐츠가 제공됩니다. |
 | 요일 | 주말이 다가오면 영화, 음식점 또는 기타 형태의 엔터테인먼트에 대한 콘텐츠를 방문자에게 보여주려고 할 수 있습니다. |
 
 [!DNL Target]에서 이러한 기능을 사용하려면 [!UICONTROL Experience Targeting] 활동을 사용할 때 다음 정보를 이해하는 것이 중요합니다.
 
-* **우선순위는 경험 순서에 따라 하향식으로 제어됩니다.** 방문자가 둘 이상의 대상에 적격인 경우 해당 방문자는 우선순위가 더 높은 경험의 콘텐츠를 받습니다.
+* **우선순위는 경험의 위쪽에서 아래쪽으로 순서대로 제어됩니다.** 방문자가 둘 이상의 대상에 대해 자격이 있는 경우 해당 방문자는 우선순위가 더 높은 경험의 콘텐츠를 수신합니다.
 * **방문자가 우선순위가 더 높은 경험의 대상에 대해 자격이 부여되면 [!UICONTROL Experience Targeting] 활동에서 경험 간을 전환합니다.**
 
   예를 들어, 다음 활동 설정에서 방문자는 미국에서 여러분의 웹 사이트에 액세스한 다음, 독일로 여행을 가서 두 번째로 해당 웹 사이트를 방문했습니다. 첫 번째 방문 동안 이 방문자에게는 경험 A(미국 방문자)의 자격이 부여되었습니다. 독일에서 해당 웹 사이트를 열람한 후에 이 방문자는 경험 B(독일 방문자)로 전환되었습니다.
@@ -52,7 +59,7 @@ ht-degree: 43%
 
 * **단일 경험 [!UICONTROL Experience Targeting] 활동을 사용하면 방문자가 해당 경험에 속한 대상에 대한 자격을 중단하더라도 해당 경험에 그대로 유지됩니다.**
 
-  이를 원치 않을 경우, 역대상자(예: &quot;미국&quot;에 상대되는 &quot;미국 아님&quot;)로 타기팅된 다른 경험을 만들 수 있습니다. 
+  이를 원치 않을 경우, 역대상자(예: &quot;미국&quot;에 상대되는 &quot;미국 아님&quot;)로 타기팅된 다른 경험을 만들 수 있습니다.
 
   다른 옵션으로는 아래와 같이 100% 트래픽 할당으로 원하는 대상자를 타깃팅하는 [!UICONTROL A/B Test] 활동을 만들 수 있습니다.
 

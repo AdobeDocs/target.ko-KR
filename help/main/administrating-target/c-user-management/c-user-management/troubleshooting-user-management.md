@@ -5,9 +5,18 @@ title: 사용자 관리 문제를 해결하려면 어떻게 해야 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 4848b811-04f8-4857-8309-f5d3f9086197
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/EnqgqdxG6QiRrLCzhgq2oErL-PNsHBcXRfMbp094cxI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: 83
 ht-degree: 65%
 
 ---
@@ -18,4 +27,4 @@ Adobe Target의 사용자 관리에 대한 문제 해결 정보입니다.
 
 ## 사용자를 Target에 초대했지만 초대된 사용자의 이름이 사용자 목록(관리 > 사용자)에 표시되지 않습니다. {#section_13A1A9697BA44537BA569C81CF136160}
 
-사용자가 Adobe Experience Cloud 계정을 사용하여 로그인한 다음 [!UICONTROL Users]에 로그인해야 [!DNL Target Standard/Premium] 페이지에 새 사용자가 표시됩니다.
+사용자가 Adobe Experience Cloud 계정을 사용하여 로그인한 다음 [!DNL Target Standard/Premium]에 로그인해야 [!UICONTROL Users] 페이지에 새 사용자가 표시됩니다.

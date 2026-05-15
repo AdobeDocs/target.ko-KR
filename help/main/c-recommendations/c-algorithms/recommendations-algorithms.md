@@ -6,9 +6,21 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: 2850
 ht-degree: 0%
 
 ---
@@ -89,14 +101,14 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 앞에서 설명한 대로 이 알고리즘은 순전히 카탈로그 데이터([!DNL Target]카탈로그 피드, 엔터티 API 또는 페이지 업데이트를 통해 [에 수집됨](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을(를) 기반으로 합니다.
+* **입력 데이터**: 앞에서 설명한 대로 이 알고리즘은 순전히 카탈로그 데이터([카탈로그 피드, 엔터티 API 또는 페이지 업데이트를 통해 [!DNL Target]에 수집됨](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을(를) 기반으로 합니다.
 
 * **모델 교육**:
 
    * **특성 추출**: 일반 정적 필터, 카탈로그 규칙 및 전역 제외를 적용한 후 이 알고리즘은 엔터티 스키마에서 관련 텍스트 필드를 추출합니다. [!DNL Target]은(는) 엔터티 특성에서 이름, 메시지 및 범주 필드를 자동으로 사용하며 사용자 지정 [엔터티 특성](/help/main/c-recommendations/c-products/entity-attributes.md)에서 문자열 필드를 추출하려고 합니다. 이 프로세스는 해당 필드에 대한 값의 대부분을 숫자, 날짜 또는 부울로 구문 분석할 수 없도록 함으로써 수행됩니다.
    * **어간 및 정지어 제거**: 텍스트 유사성을 보다 정확하게 일치시키려면 항목의 의미(예: &quot;was&quot;, &quot;is&quot;, &quot;and&quot; 등)를 크게 변경하지 않는 매우 일반적인 &quot;정지어&quot; 단어를 제거하는 것이 좋습니다. 마찬가지로 형태소 분석이란 동일한 의미(예: &quot;connect&quot;, &quot;connecting&quot;, &quot;connection&quot;은 모두 동일한 루트 단어를 가지고 있습니다. &quot;connect&quot;)를 가진 루트 단어에 접미사가 다른 단어를 축소하는 과정을 말합니다. [!DNL Target]이(가) Snowball Stemer를 사용합니다. [!DNL Target]은(는) 먼저 자동 언어 검색을 수행하고 최대 50개 언어에 대해 단어 제거를 중단하고 18개 언어에 대해 어간을 분석할 수 있습니다.
    * **n그램 만들기**: 이전 단계 후에 각 단어는 토큰으로 처리됩니다. 토큰의 연속적인 시퀀스를 하나의 토큰으로 결합하는 과정을 n-그램 생성이라고 한다. [!DNL Target]의 알고리즘은 최대 2g까지 고려합니다.
-   * **tf-idf 계산**: 다음 단계에서는 항목 설명에 있는 토큰의 상대적 중요도를 반영하도록 tf-idf 벡터를 만듭니다. 항목 i의 각 토큰/용어 t에 대해 다음을 포함하는 카탈로그 D의 |D| 항목 빈도 TF(t, i)라는 용어와 문서 빈도 DF(t, D)라는 용어가 먼저 계산됩니다(항목 i에 용어가 나타나는 횟수). 본질적으로, 토큰 t가 존재하는 항목의 수. 그러면 tf-idf 측정값이
+   * **tf-idf 계산**: 다음 단계에서는 항목 설명에 있는 토큰의 상대적 중요도를 반영하도록 tf-idf 벡터를 만듭니다. 항목 i의 각 토큰/용어 t에 대해 다음을 포함하는 카탈로그 D의 항목 |D| 빈도라는 용어 TF(t, i)가 먼저 계산되고(용어가 항목 i에 표시되는 횟수) 문서 빈도수 DF(t, D)도 계산됩니다. 본질적으로, 토큰 t가 존재하는 항목의 수. 그러면 tf-idf 측정값이
 
      ![tf-idf 측정값을 표시하는 수식](assets/formula2.png)
 

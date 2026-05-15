@@ -1,20 +1,35 @@
 ---
-keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;faq;자주 묻는 질문;중요 속성
+keywords: 타기팅;AP 보고서;자동화된 개인화 보고서;자동 타깃;자동 타깃;자동 타깃 보고서;자동 타깃 보고서;개인화;인사이트;faq;자주 묻는 질문;중요 속성
 description: 개인화 모델 및 상대적 중요도에 영향을 준 상위 특성을 보여 주는 [!UICONTROL Important Attributes] 보고서를 사용하는 방법을 알아봅니다.
 title: 중요 속성 보고서란 무엇입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 57%
+source-wordcount: 1835
+ht-degree: 56%
 
 ---
 
 # 중요 속성 보고서
 
-[!UICONTROL Important Attributes]&#x200B;(AP) 및 [!UICONTROL Automated Personalization]&#x200B;(AT) 활동의 사용자가 사용할 수 있는 두 개의 전문 보고서 중 하나인 [!UICONTROL Auto-Target] 보고서에 대한 정보입니다.
+[!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target]&#x200B;(AT) 활동의 사용자가 사용할 수 있는 두 개의 전문 보고서 중 하나인 [!UICONTROL Important Attributes] 보고서에 대한 정보입니다.
 
 >[!NOTE]
 >
@@ -24,7 +39,7 @@ ht-degree: 57%
 >
 >* [!UICONTROL Personalization Insights] 보고서는 전환 최적화 목표를 사용하는 AP 및 AT 활동에만 사용할 수 있습니다. 활동이 이미 활성화된 후에 수익에서 전환하도록 최적화 목표가 변경된 활동도 지원되지 않습니다.
 >
->* [!UICONTROL Personalization Insights] 보고서는 [!UICONTROL Primary Goal] 드롭다운 목록에서 [!UICONTROL Report Metric]을(를) 선택한 경우에만 사용할 수 있습니다.
+>* [!UICONTROL Personalization Insights] 보고서는 [!UICONTROL Report Metric] 드롭다운 목록에서 [!UICONTROL Primary Goal]을(를) 선택한 경우에만 사용할 수 있습니다.
 >
 >* [!UICONTROL Personalization Insights] 보고서는 [기본 환경](/help/main/administrating-target/hosts.md)에서만 지원됩니다.
 >
@@ -53,7 +68,7 @@ ht-degree: 57%
 
 1. 원하는 날짜 범위를 선택합니다.
 
-   [!UICONTROL Summary] 보고서(성과 보고)와 달리 [!UICONTROL Personalization Insights]을(를) 포함한 [!UICONTROL Important Attributes]은(는) 고정 날짜 범위인 15일, 30일, 60일에 대해서만 사용할 수 있습니다.
+   [!UICONTROL Summary] 보고서(성과 보고)와 달리 [!UICONTROL Important Attributes]을(를) 포함한 [!UICONTROL Personalization Insights]은(는) 고정 날짜 범위인 15일, 30일, 60일에 대해서만 사용할 수 있습니다.
 
    이러한 고정 날짜 범위를 사용하면 [!UICONTROL Personalization Insights]에서 충분히 큰 데이터 범위를 사용하여 활동의 단기 패턴에서 통찰력을 얻을 가능성을 줄일 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. &quot;시작&quot;은 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
 
@@ -65,7 +80,7 @@ ht-degree: 57%
 
    >[!NOTE]
    >
-   >개인화 통찰력 UI 보고서에는 선택 정보가 들어 있습니다. 중요 속성의 CSV 다운로드에는 추가 세부 사항이 포함되어 있습니다. 중요 속성 보고서 다운로드에는 상위 100개 속성의 전체 목록이 포함되어 있지만, UI 보고서에는 상위 10개만 포함되어 있습니다. 보고서에서 찾고 있는 특정 속성이 없는 경우 속성이 활동에 영향을 주지 않았음을 의미하는 것이 아니라, 상위 100개 속성에 대한 목록이 작성되지 않은 것입니다.
+   >개인화 인사이트 UI 보고서에는 선택 정보가 들어 있습니다. 중요 속성의 CSV 다운로드에는 추가 세부 사항이 포함되어 있습니다. 중요 속성 보고서 다운로드에는 상위 100개 속성의 전체 목록이 포함되어 있지만, UI 보고서에는 상위 10개만 포함되어 있습니다. 보고서에서 찾고 있는 특정 속성이 없는 경우 속성이 활동에 영향을 주지 않았음을 의미하는 것이 아니라, 상위 100개 속성에 대한 목록이 작성되지 않은 것입니다.
 
 ## 중요한 속성 보고서 해석
 
@@ -96,9 +111,9 @@ ht-degree: 57%
 
 ### 모델에서 교육에 사용하지 않으려는 하나 이상의 속성이 표시됩니다. 교육 모델에서 해당 속성을 제거할 수 있습니까? {#models-api}
 
-차단 목록에 추가하다 0 API라고도 하는 [!UICONTROL Models API]&#x200B;(AP) 및 [!UICONTROL Automated Personalization]&#x200B;(AT) 활동을 위한 머신 러닝 모델에 사용되는 속성(기능이라고도 함)의 목록을 사용자가 관리할 수 있도록 해줍니다. [!UICONTROL Auto-Target] AP 또는 AT 활동용 모델에서 하나 이상의 속성을 사용하지 못하도록 하려면 모델 API를 사용하여 이러한 속성을 &quot;차단 목록&quot;에 추가할 수 있습니다.
+차단 목록에 추가하다 0 API라고도 하는 [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target]&#x200B;(AT) 활동을 위한 머신 러닝 모델에 사용되는 속성(기능이라고도 함)의 목록을 사용자가 관리할 수 있도록 해줍니다. [!UICONTROL Models API]AP 또는 AT 활동용 모델에서 하나 이상의 속성을 사용하지 못하도록 하려면 모델 API를 사용하여 이러한 속성을 &quot;차단 목록&quot;에 추가할 수 있습니다.
 
-자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ko){target=_blank}의 *모델 API 개요*&#x200B;를 참조하십시오. API를 사용하여 특성을 차단하려면 [모델 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=ko){target=_blank}를 참조하십시오.
+자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [모델 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ko){target=_blank}를 참조하십시오. API를 사용하여 특성을 차단하려면 [모델 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=ko){target=_blank}를 참조하십시오.
 
 ### [!UICONTROL Automated Segments] 및 [!UICONTROL Important Attributes] 보고서의 정보가 CSV 다운로드와 동일합니까?
 
@@ -146,4 +161,4 @@ Personalization Insights 보고([!UICONTROL Automated Segments] 및 [!UICONTROL 
 
 다음 문제는 현재 [!DNL Target] 엔지니어링 팀에서 조사하고 있습니다.
 
-* [!DNL Adobe Experience Platform]&#x200B;(AP) 및 [!UICONTROL Important Attributes]&#x200B;(AT) 활동에 대한 [!UICONTROL Automated Personalization] 보고서에 [!UICONTROL Auto-Target] 세그먼트 이름이 표시되지 않습니다. (TOP-3813)
+* [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target]&#x200B;(AT) 활동에 대한 [!UICONTROL Important Attributes] 보고서에 [!DNL Adobe Experience Platform] 세그먼트 이름이 표시되지 않습니다. (TOP-3813)

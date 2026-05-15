@@ -4,9 +4,23 @@ description: Adobe [!DNL Target] QA URL을 사용하여, 변경되지 않는 미
 title: 활동을 QA하려면 어떻게 합니까?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
+TQID: https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: 1735
 ht-degree: 28%
 
 ---
@@ -25,7 +39,7 @@ ht-degree: 28%
 
   >[!NOTE]
   >
-  >이 기능은 버전 2가 있는 at.js 구현에 적용됩니다.*x* 이상 at.js 1.*x* 구현, 이 기능은 방문자의 브라우저가 서드파티 쿠키를 차단하지 않는 경우에만 적용됩니다.
+  >이 기능은 버전 2.*x* 이상의 at.js 구현에 적용됩니다. at.js 1.*x* 구현의 경우, 이 기능은 방문자의 브라우저가 서드파티 쿠키를 차단하지 않는 경우에만 적용됩니다.
 
 ## QA URL 액세스 및 공유 {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -51,9 +65,9 @@ ht-degree: 28%
 
    각 활동 여정 URL(경험 A, 경험 B 등의 경우)을 사용하면 해당 경험에서 사용자 링크를 시작할 수 있습니다. 경험에 대해 생성된 URL을 클릭한 다음 일반 사이트 탐색을 계속하여 여러 페이지에서 경험을 확인합니다(여러 페이지가 있는 경우). 경험이 여러 페이지(템플릿 테스트 또는 다중 페이지 테스트)에 걸쳐 있는 경우에도 경험당 하나의 URL만 생성됩니다.
 
-   [!UICONTROL Activity QA] 모드가 고정되어 있으므로 사이트를 탐색하여 다른 페이지를 볼 수 있습니다. 이 상황은 버전 2의 at.js 구현에 적용됩니다.*x* 이상 at.js 1.*x* 구현, 이 상황은 방문자의 브라우저가 서드파티 쿠키를 차단하지 않는 경우에만 적용됩니다.
+   [!UICONTROL Activity QA] 모드가 고정되어 있으므로 사이트를 탐색하여 다른 페이지를 볼 수 있습니다. 이 상황은 버전 2.*x* 이상의 at.js 구현에 적용됩니다. at.js 1.*x* 구현의 경우, 이 상황은 방문자의 브라우저가 서드파티 쿠키를 차단하지 않는 경우에만 적용됩니다.
 
-1. 활동 링크 URL에서 생성된 보고서를 보려면 활동의 **[!UICONTROL Reports]** 페이지를 클릭하고 **[!UICONTROL Settings]** 아이콘(![icon_gear 이미지](assets/icon_gear.png))을 클릭한 다음, **[!UICONTROL QA Mode Traffic]** 드롭다운 목록에서 **[!UICONTROL Environment]**&#x200B;을(를) 선택하십시오.
+1. 활동 링크 URL에서 생성된 보고서를 보려면 활동의 **[!UICONTROL Reports]** 페이지를 클릭하고 **[!UICONTROL Settings]** 아이콘(![icon_gear 이미지](assets/icon_gear.png))을 클릭한 다음, **[!UICONTROL Environment]** 드롭다운 목록에서 **[!UICONTROL QA Mode Traffic]**&#x200B;을(를) 선택하십시오.
 
 ## QA 모드에서 해제
 
@@ -61,11 +75,11 @@ ht-degree: 28%
 
 ### at.js 2.*x*
 
-사이트에 at.js 2.*x*&#x200B;을(를) 배포했습니다. [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)을(를) 사용하여 [!UICONTROL Activity QA]에서 나가세요. 다음 글머리 기호에 설명된 대로 빈 값으로 사이트의 페이지를 로드하면 at.js 2일 때 브라우저에서 QA 쿠키가 *제거되지*&#x200B;않습니다.*x*&#x200B;이(가) 배포됩니다.
+사이트에 at.js 2.*x*&#x200B;이(가) 배포된 경우 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)을(를) 사용하여 [!UICONTROL Activity QA]에서 강제로 해제하십시오. 다음 글머리 기호에 설명된 대로 빈 값이 있는 사이트의 페이지를 로드하면 at.js 2.*x*&#x200B;이(가) 배포될 때 브라우저에서 QA 쿠키를 *제거하지 않음*&#x200B;합니다.
 
 ### at.js 1.*x*
 
-사이트에 at.js 1이 있는 경우.*x*&#x200B;이(가) 배포되었으며 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)을(를) 사용하는 것 외에도 빈 값이 있는 `at_preview_token` 매개 변수로 사이트의 페이지를 로드하여 수동으로 나올 수도 있습니다. 예:
+사이트에 at.js 1.*x*&#x200B;이(가) 배포된 경우 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)을(를) 사용할 수 있을 뿐만 아니라 값이 비어 있는 `at_preview_token` 매개 변수로 사이트의 페이지를 로드하여 수동으로 나올 수도 있습니다. 예:
 
 `https://www.mysite.com/?at_preview_token=`
 
@@ -81,10 +95,10 @@ ht-degree: 28%
 * 계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 [!UICONTROL Activity QA] 미리 보기 링크가 로드되지 않을 수 있습니다. 미리 보기 링크를 다시 시도하면 작동합니다. 이 상황이 계속 발생하지 않도록 하려면 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관하십시오.
 * [!UICONTROL Activity QA] URL은 [Analytics를 보고 소스로](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)하는 활동에서 사용할 수 있습니다. [!UICONTROL Activity QA]을(를) 사용하여 QA를 수행하는 동안 생성된 히트는 활동이 라이브로 전환된 후에도 활동의 데이터가 흐르는 동일한 보고서 세트로 이동합니다.
 * [!UICONTROL Activity QA]은(는) 보관된 활동이나 종료 날짜가 지난 활동에 대한 콘텐츠를 표시하지 않습니다. 종료된 활동을 비활성화하는 경우 [!UICONTROL Activity QA]이(가) 작동하도록 활동을 다시 저장해야 합니다.
-* [!DNL Target Standard/Premium]에서 [!DNL Target Classic]&#x200B;(으)로 가져온 활동은 QA URL을 지원하지 않습니다.
+* [!DNL Target Classic]에서 [!DNL Target Standard/Premium]&#x200B;(으)로 가져온 활동은 QA URL을 지원하지 않습니다.
 * [!UICONTROL Auto-Allocate] 및 [!UICONTROL Recommendations] 활동에서 모델은 [!UICONTROL Activity QA]에서 캡처된 방문의 영향을 받지 않습니다.
 * 활동을 만드는 동안 &quot;URL은&quot;을 지정한 경우([양식 기반 작성기에서 개선](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기에서 페이지 전달 옵션)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), [!UICONTROL Activity QA]이(가) URL 매개 변수를 추가하므로 QA URL이 작동하지 않습니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
-* at.js 1이 있는 경우Safari나 타사 쿠키를 차단하는 다른 브라우저를 사용하는 경우 *x*, [!UICONTROL Activity QA] 모드가 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리보기 매개 변수를 추가해야 합니다. [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=ko){target=_blank}을(를) 구현한 경우에도 마찬가지입니다.
+* at.js 1.*x*&#x200B;이(가) 있는 경우 Safari나 타사 쿠키를 차단하는 다른 브라우저를 사용하는 경우 [!UICONTROL Activity QA] 모드가 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리보기 매개 변수를 추가해야 합니다. [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=ko){target=_blank}을(를) 구현한 경우에도 마찬가지입니다.
 * 활동에서 여러 경험 대상을 사용하는 경우(예를 들어, 동일한 활동에 포함된 미국 및 영국 사이트), QA 링크가 4개의 조합(경험 A/미국 사이트, 경험 A/영국 사이트, 경험 B/미국 사이트, 경험 B/영국 사이트)에 대해 생성되지 않습니다. 두 개의 QA 링크(경험 A와 경험 B)만 생성되고, 사용자는 페이지를 보려면 적절한 대상에 대한 자격이 있어야 합니다. 영국 QA 사람은 미국 사이트를 볼 수 없습니다.
 * 모든 `at_preview` 매개 변수와 값이 이미 URL로 인코딩되어 있습니다. 대부분의 경우 모든 것이 예상대로 작동합니다. 그러나 일부 고객은 쿼리 문자열 매개 변수를 다시 인코딩하려는 밸런서나 웹 서버를 로드해야 합니다.
 
@@ -113,7 +127,7 @@ ht-degree: 28%
 
 * [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko)
 * [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko)
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko)
+* [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko)
 
 다음 표는 다양한 활동 유형을 나열하고 각 라이브러리에 대해 [!UICONTROL Activity QA] 모드가 지원되는지 여부를 나타냅니다.
 

@@ -4,10 +4,18 @@ description: 사이트의 특정 페이지에 있는  [!DNL Adobe Target] 명을
 title: 사이트 페이지에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/ROMKabnbH3yE-W61IQk9CtNpKMg7zA6-qdxu272EVOI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 19%
+source-wordcount: 822
+ht-degree: 20%
 
 ---
 
@@ -121,7 +129,7 @@ ht-degree: 19%
 
 ## 문제 해결 {#ts}
 
-* 랜딩 페이지 대상이 제대로 작동하려면 요청에 at.js JavaScript 라이브러리가 `mboxReferrer` 특성을 사용하여 페이지에서 가져오는 `context.address.referringUrl` 매개 변수 집합(배달 API의 경우 `document.referrer` 매개 변수)이 있어야 합니다. 이 `HTMLDocument` 특성은 사용자가 탐색한 페이지의 URI를 반환합니다. 이 속성의 값은 사용자가 페이지로 직접 이동할 때(링크가 아니라 책갈피 등을 통해) 빈 문자열입니다.
+* 랜딩 페이지 대상이 제대로 작동하려면 요청에 at.js JavaScript 라이브러리가 `document.referrer` 특성을 사용하여 페이지에서 가져오는 `mboxReferrer` 매개 변수 집합(배달 API의 경우 `context.address.referringUrl` 매개 변수)이 있어야 합니다. 이 `HTMLDocument` 특성은 사용자가 탐색한 페이지의 URI를 반환합니다. 이 속성의 값은 사용자가 페이지로 직접 이동할 때(링크가 아니라 책갈피 등을 통해) 빈 문자열입니다.
 
   이 동작이 요구 사항과 일치하지 않으면 다음 작업 중 하나를 수행하는 것이 좋습니다.
 

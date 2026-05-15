@@ -6,10 +6,23 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
+TQID: https://experienceleague.adobe.com/8WUCeb4ztjDdWUEtawLYeC-4FDgn1SiGarmS1hqGNgI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 59%
+source-wordcount: 623
+ht-degree: 58%
 
 ---
 
@@ -35,7 +48,7 @@ ht-degree: 59%
 * 팀이 API를 탐색하고 그에 따라 역할을 선택할 준비가 될 때마다 작업 영역을 보유한 각 팀이 자체 통합을 할 수 있도록 허용합니다.
 * 위의 시나리오 중 몇 가지를 혼합하여 사용할 수 있습니다.
 
-**필요한 조치**: 현재 모든 작업 영역의 리소스(활동, 대상자, 제안 및 보고)에서 CRUD 운영을 위해 API를 활용하는 고객은 사용 사례에 따라 원하는 역할을 가진 모든 작업 영역에 기존 Adobe I/O 통합 액세스 권한을 부여해야 합니다. [!DNL Target]에서 각 [!UICONTROL Product Profile] [!DNL Adobe Admin Console]을(를) 선택하고 [!UICONTROL Integration] 탭에 통합을 추가하면 됩니다. 9월 릴리스 이전에는 [!UICONTROL Approver] 드롭다운 목록에서 선택한 사항과 관계없이, [!UICONTROL Product Role] 액세스를 사용하여 모든 통합이 작동했습니다. 이제 원하는 역할을 선택할 수 있습니다.
+**필요한 조치**: 현재 모든 작업 영역의 리소스(활동, 대상자, 제안 및 보고)에서 CRUD 운영을 위해 API를 활용하는 고객은 사용 사례에 따라 원하는 역할을 가진 모든 작업 영역에 기존 Adobe I/O 통합 액세스 권한을 부여해야 합니다. [!DNL Adobe Admin Console]에서 각 [!DNL Target] [!UICONTROL Product Profile]을(를) 선택하고 [!UICONTROL Integration] 탭에 통합을 추가하면 됩니다. 9월 릴리스 이전에는 [!UICONTROL Product Role] 드롭다운 목록에서 선택한 사항과 관계없이, [!UICONTROL Approver] 액세스를 사용하여 모든 통합이 작동했습니다. 이제 원하는 역할을 선택할 수 있습니다.
 
 >[!NOTE]
 >

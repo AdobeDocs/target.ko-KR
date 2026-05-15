@@ -6,9 +6,20 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+TQID: https://experienceleague.adobe.com/cv-jSXG4lc-kTUwbPj-EWgDa-PLNtdAHMWJDgzbGhYk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: 131
 ht-degree: 0%
 
 ---
@@ -19,7 +30,7 @@ ht-degree: 0%
 
 {{permissions-update}}
 
-[!DNL Recommendations] 설정 옵션에 액세스하려면 [!DNL Target]에서 [!DNL Adobe Experience Cloud]을(를) 연 다음 [!UICONTROL Administration] > [!UICONTROL Recommendations]을(를) 클릭합니다.
+[!DNL Recommendations] 설정 옵션에 액세스하려면 [!DNL Adobe Experience Cloud]에서 [!DNL Target]을(를) 연 다음 [!UICONTROL Administration] > [!UICONTROL Recommendations]을(를) 클릭합니다.
 
 다음 설정을 구성할 수 있습니다.
 
@@ -31,4 +42,4 @@ ht-degree: 0%
 * 썸네일 기본 URL 지정
 * 사용자 지정 속성 키 구성
 
-자세한 내용은 [&#x200B; 개발자 안내서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/recommendations){target=_blank}에서 **[!DNL Adobe Target]권장 사항 계획 및 구현**&#x200B;을 참조하세요.
+자세한 내용은 **[!DNL Adobe Target]개발자 안내서**&#x200B;에서 [권장 사항 계획 및 구현](https://experienceleague.adobe.com/ko/docs/target-dev/developer/recommendations){target=_blank}을 참조하세요.

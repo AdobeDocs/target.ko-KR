@@ -5,10 +5,20 @@ title: ' [!DNL Target]  추천이란 무엇입니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 52025f1128e8c736bd1cb4eff871b65a00ec1c98
+TQID: https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 98%
+source-wordcount: 866
+ht-degree: 94%
 
 ---
 
@@ -56,7 +66,7 @@ ht-degree: 98%
 | 피드 | 피드는 [!DNL Recommendations]로 엔티티를 가져오는 데 사용됩니다. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다. 자세한 내용은 [피드](/help/main/c-recommendations/c-products/feeds.md)를 참조하십시오. |
 | 카탈로그 | 카탈로그는 전체 제품 세트(엔티티)를 나타냅니다. 카탈로그에는 제품을 논리 버킷으로 구성하는 여러 컬렉션이 포함될 수 있습니다. |
 | 컬렉션 | 컬렉션은 단일 제품 범주와 같이 유사하거나 관련된 항목 집합을 나타냅니다. 그러나 어떤 항목이든 특정 가격 범위나 색상 또는 특정 지역에서 관심을 가질 수 있는 항목 등, 비즈니스에 의미가 있는 범주로 그룹화할 수 있습니다. 자세한 내용은 [컬렉션](/help/main/c-recommendations/c-products/collections.md)을 참조하십시오. |
-| 기준 | 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.<br>기준의 몇 가지 예는 다음과 같습니다. <ul><li>이 항목을 구입하고 다른 항목도 구입한 사람</li><li>이 항목을 보고 다른 항목도 본 사람</li><li>비슷한 속성을 갖는 항목</li><li>마지막으로 구매한 항목</li><li>즐겨찾는 범주</li></ul>  자세한 내용은 [기준](/help/main/c-recommendations/c-algorithms/algorithms.md)을 참조하십시오. |
+| 기준 | 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.<br>기준의 몇 가지 예는 다음과 같습니다. <ul><li>이 항목을 구입하고 다른 항목도 구입한 사람</li><li>이 항목을 보고 다른 항목도 본 사람</li><li>비슷한 속성을 갖는 항목</li><li>마지막으로 구매한 항목</li><li>즐겨찾는 카테고리</li></ul>  자세한 내용은 [기준](/help/main/c-recommendations/c-algorithms/algorithms.md)을 참조하십시오. |
 | 디자인 | 디자인은 행, 열, 테이블 또는 그리드 같이 [!DNL Recommendations] 활동에서 권장 사항의 모양을 정의합니다. 이 문서 맨 위에 있는 그림은 4 x 1 디자인을 보여 줍니다. 자세한 내용은 [디자인 만들기](/help/main/c-recommendations/c-design-overview/create-design.md)를 참조하십시오. |
 | 위치 | 위치는 개인화 및 최적화를 위해 활동을 실행하는 웹 페이지, 모바일 앱 또는 이메일의 특정 콘텐츠 영역을 나타냅니다. |
 | 대상자 | 대상자는 대상 활동을 볼 수 있는 유사한 활동 참여자의 그룹입니다. 대상자는 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. 대상자 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상자에 타기팅할 수 있습니다. 자세한 내용은 [대상자](/help/main/c-target/target.md)를 참조하십시오. |

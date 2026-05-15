@@ -4,10 +4,17 @@ description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는
 title: VEC(시각적 경험 작성기)에서 요소 선택기를 사용할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+TQID: https://experienceleague.adobe.com/sqvUyLFddt7HPHH62jwpOZmwTIMSg-hyLIUr8w-x7vg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 31%
+source-wordcount: 444
+ht-degree: 29%
 
 ---
 
@@ -15,7 +22,7 @@ ht-degree: 31%
 
 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현식입니다.
 
-MDN([)의 &#x200B;](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)Selectors *[!DNL Mozilla Developer Network]* 문서에서 CSS 선택기에 대한 기본 정보를 찾을 수 있습니다.
+MDN(*[!DNL Mozilla Developer Network]*)의 [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) 문서에서 CSS 선택기에 대한 기본 정보를 찾을 수 있습니다.
 
 계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. **[!UICONTROL Administration > Visual Experience Composer]**&#x200B;을(를) 클릭한 다음 선호하는 CSS 선택기를 선택하십시오.
 

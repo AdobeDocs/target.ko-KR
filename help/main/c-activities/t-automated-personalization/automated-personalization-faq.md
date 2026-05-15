@@ -1,20 +1,32 @@
 ---
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;자동화된 개인화;제어;기본 경험;우수 사례
-description: '[!UICONTROL Automated Personalization]의 [!UICONTROL Adobe Target]​(AP) 활동에 대한 FAQ 및 답변 목록을 살펴봅니다.'
+description: '[!UICONTROL Adobe Target]의 [!UICONTROL Automated Personalization]​(AP) 활동에 대한 FAQ 및 답변 목록을 살펴봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동에 대한 FAQ를 찾으려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 336da9dd876243a0eea662b4604a8fc1e6a69b1a
+TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: 1967
 ht-degree: 21%
 
 ---
 
 # AUTOMATED PERSONALIZATION FAQ
 
-[!UICONTROL Automated Personalization]의 [!DNL Adobe Target] 활동과 함께 작업할 때 다음 FAQ 및 답변을 참조하십시오.
+[!DNL Adobe Target]의 [!UICONTROL Automated Personalization] 활동과 함께 작업할 때 다음 FAQ 및 답변을 참조하십시오.
 
 ## [!UICONTROL Automated Personalization] 활동에서 컨트롤로 사용할 특정 환경을 지정할 수 있습니까?
 
@@ -40,16 +52,16 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 
 +++세부 정보 보기
 
-* 낮은 트래픽의 페이지를 개인화하려는 경우 또는 개인화하고 있는 경험을 구조적으로 변경하려면 [!UICONTROL Auto-Target] 대신 [!UICONTROL Automated Personalization] 활동을 사용하는 것이 좋습니다. [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 참조하세요.
-* [!UICONTROL A/B Test] 활동에서 사용할 오퍼와 위치 간에 [!UICONTROL Automated Personalization] 활동을 완료하여 위치 및 오퍼가 최적화 목표에 영향을 주는지 확인해 보십시오. [!UICONTROL A/B Test] 활동이 상당한 차이를 보이지 않는 경우 [!UICONTROL Automated Personalization]도 향상되지 않을 수 있습니다.
+* 낮은 트래픽의 페이지를 개인화하려는 경우 또는 개인화하고 있는 경험을 구조적으로 변경하려면 [!UICONTROL Automated Personalization] 대신 [!UICONTROL Auto-Target] 활동을 사용하는 것이 좋습니다. [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 참조하세요.
+* [!UICONTROL Automated Personalization] 활동에서 사용할 오퍼와 위치 간에 [!UICONTROL A/B Test] 활동을 완료하여 위치 및 오퍼가 최적화 목표에 영향을 주는지 확인해 보십시오. [!UICONTROL A/B Test] 활동이 상당한 차이를 보이지 않는 경우 [!UICONTROL Automated Personalization]도 향상되지 않을 수 있습니다.
 
    * A/B...N 테스트에서 경험 간에 통계적으로 중요한 차이가 없는 경우 다음 상황 중 하나 이상이 원인일 수 있습니다.
 
       * 오퍼는 서로 충분히 다르지 않을 수 있습니다.
       * 선택한 위치는 성공 지표에 영향을 주지 않습니다.
-      * 전환 단계에서 최적화 목표가 너무 멀어서 선택한 오퍼의 영향을 받을 수 없습니다.
+      * 전환 funnel에서 최적화 목표가 너무 멀어서 선택한 오퍼의 영향을 받을 수 없습니다.
 
-* [&#x200B; 활동에서 개인화 모델을 만드는 데 걸리는 시간을 파악할 수 있도록 &#x200B;](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)트래픽 견적 도구[!UICONTROL Automated Personalization]를 사용하십시오.
+* [!UICONTROL Automated Personalization] 활동에서 개인화 모델을 만드는 데 걸리는 시간을 파악할 수 있도록 [트래픽 견적 도구](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)를 사용하십시오.
 * 목표를 기반으로 활동을 시작하기 전에 통제와 타깃팅 간의 할당을 결정합니다.
 
   활동의 목표와 선택한 제어 유형에 따라 고려할 시나리오가 세 가지가 있습니다.
@@ -158,7 +170,7 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 활동 설정을 검토하고 모델이 만들어지는 속도를 개선하기 위해 기꺼이 변경할 사항이 있는지 확인하십시오.
 
 * 성공 지표가 활동 경험에서 판매 경로의 아래쪽에 있습니까? 활동 전환율이 낮으면 최소의 전환 횟수가 필요하므로 모델 작성에 필요한 트래픽 요구 수준이 늘어납니다.
-* 성공 지표가 RPV로 설정된 경우 전환으로 변경할 수 있습니까? 전환 활동은 일반적으로 모델을 만드는 데 필요한 트래픽이 적습니다. 
+* 성공 지표가 RPV로 설정된 경우 전환으로 변경할 수 있습니까? 전환 활동은 일반적으로 모델을 만드는 데 필요한 트래픽이 적습니다.
 * 활동에서 삭제할 수 있는 경험이 있습니까? 활동에서 경험 수를 줄이면 모델을 만드는 시간이 빨라집니다.
 * 이 활동이 더 성공할 수 있는 더 높은 트래픽 페이지가 있습니까? 활동 위치에 트래픽과 전환이 많을수록 모델이 더 빨리 구축됩니다.
 
@@ -178,15 +190,15 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 
 [!DNL Adobe]은(는) 활동 중간에 목표 지표를 변경하지 않는 것이 좋습니다. [!DNL Target] UI를 사용하는 활동 중에 목표 지표를 변경할 수 있지만 항상 새 활동을 시작해야 합니다. [!DNL Adobe]은(는) 활동이 실행된 후 목표 지표를 변경하면 어떻게 되는지 보증하지 않습니다.
 
-이 권장 사항은 [!UICONTROL Auto-Allocate] 또는 [!UICONTROL Auto-Target]&#x200B;(A4T)을 보고 소스로 사용하는 [!UICONTROL Automated Personalization], [!DNL Target] 및 [!DNL Analytics] 활동에 적용됩니다.
+이 권장 사항은 [!DNL Target] 또는 [!DNL Analytics]&#x200B;(A4T)을 보고 소스로 사용하는 [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에 적용됩니다.
 
 +++
 
-## [!UICONTROL Reset Report Data] 활동을 실행하는 동안 [!UICONTROL Automated Personalization] 옵션을 사용할 수 있습니까?
+## [!UICONTROL Automated Personalization] 활동을 실행하는 동안 [!UICONTROL Reset Report Data] 옵션을 사용할 수 있습니까?
 
 +++세부 정보 보기
 
-[!DNL Adobe]은(는) [!UICONTROL Reset Report Data] 활동에 대해 [!UICONTROL Automated Personalization] 옵션을 사용하지 않는 것이 좋습니다. 이 옵션을 사용하면 표시되는 보고 데이터는 제거되지만 [!UICONTROL Automated Personalization] 모델에서 모든 교육 기록이 제거되지는 않습니다. [!UICONTROL Reset Report Data] 활동에 [!UICONTROL Automated Personalization] 옵션을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화하십시오. 이 지침은 [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동에도 적용됩니다.
+[!DNL Adobe]은(는) [!UICONTROL Automated Personalization] 활동에 대해 [!UICONTROL Reset Report Data] 옵션을 사용하지 않는 것이 좋습니다. 이 옵션을 사용하면 표시되는 보고 데이터는 제거되지만 [!UICONTROL Automated Personalization] 모델에서 모든 교육 기록이 제거되지는 않습니다. [!UICONTROL Automated Personalization] 활동에 [!UICONTROL Reset Report Data] 옵션을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화하십시오. 이 지침은 [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동에도 적용됩니다.
 
 +++
 

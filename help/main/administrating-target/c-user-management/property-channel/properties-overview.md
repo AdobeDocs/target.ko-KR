@@ -6,16 +6,36 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
+TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cd7b6938-5837-4ee0-9790-5840997133d9
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 56%
+source-wordcount: 1476
+ht-degree: 55%
 
 ---
 
 # Enterprise 권한 구성
 
-[!DNL Target] 구현에 사용자를 추가하고, 작업 공간, 사용자 그룹 및 속성을 만들고, [!DNL Target] 매개 변수를 포함하도록 `at_property` 구현을 업데이트하고, 역할 및 권한을 지정하는 데 필요한 작업에 대한 정보입니다.
+[!DNL Target] 구현에 사용자를 추가하고, 작업 공간, 사용자 그룹 및 속성을 만들고, `at_property` 매개 변수를 포함하도록 [!DNL Target] 구현을 업데이트하고, 역할 및 권한을 지정하는 데 필요한 작업에 대한 정보입니다.
 
 >[!NOTE]
 >
@@ -29,7 +49,7 @@ ht-degree: 56%
 | &#x200B;2. 작업 공간(제품 프로필) 만들기 | [!DNL Adobe Admin Console for Enterprise] |
 | &#x200B;3. 사용자 그룹 만들기(선택 사항) | [!DNL Adobe Admin Console for Enterprise] |
 | &#x200B;4. 속성 만들기 | [!DNL Target] UI |
-| 5: `at_property` 매개 변수를 포함하도록 구현 업데이트 | [!DNL Target]의 [!DNL Adobe Experience Platform] UI, at.js 함수 또는 태그 |
+| 5: `at_property` 매개 변수를 포함하도록 구현 업데이트 | [!DNL Adobe Experience Platform]의 [!DNL Target] UI, at.js 함수 또는 태그 |
 | 6: 역할 및 권한 지정 | [!DNL Adobe Admin Console for Enterprise] |
 
 [!DNL Adobe Admin Console for Enterprise]에서 수행되는 작업의 경우 다음 단계에 따라 콘솔에 액세스하십시오.
@@ -100,7 +120,7 @@ ht-degree: 56%
 
 ## 4단계. 속성 만들기 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-[!DNL Target]에 대한 모든 호출([!DNL Target] 호출, API 호출 등)을 사용하여 특정 이름/값 쌍을 매개 변수로 추가하여 속성을 사용하도록 설정합니다.
+모든 호출([!DNL Target] 호출, API 호출 등)을 사용하여 특정 이름/값 쌍을 매개 변수로 추가하여 속성을 사용하도록 설정합니다. 을(를) [!DNL Target]&#x200B;(으)로 설정합니다.
 
 속성은 특정 채널(웹, 모바일, 이메일 및 API/기타)에 속합니다.
 
@@ -115,7 +135,7 @@ ht-degree: 56%
    * **설명:** 속성에 대한 선택적 설명을 지정합니다.
    * **채널:**&#x200B;속성에 대해 원하는 채널, 즉 웹, 모바일 앱, 이메일 또는 기타/API(예를 들어 셋톱 박스 또는 PlayStation 콘솔)를 선택합니다.
 
-1. **[!UICONTROL Copy]** 5: at_property 매개 변수를 포함하도록 구현 업데이트[의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사하려면 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)을(를) 클릭하십시오.
+1. [5: at_property 매개 변수를 포함하도록 구현 업데이트](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사하려면 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하십시오.
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
@@ -123,7 +143,7 @@ ht-degree: 56%
 
 ## 5단계: at_property 매개 변수를 포함하도록 구현 업데이트 {#section_9B17A59807A94712BE642942442EBBC8}
 
-[!DNL Target] 사용자 권한 기능을 사용하려면 `at_property`에 연결하는 모든 호출(Target 호출, api 호출 등)에 [!DNL Target] 매개 변수를 추가해야 합니다.
+[!DNL Target] 사용자 권한 기능을 사용하려면 [!DNL Target]에 연결하는 모든 호출(Target 호출, api 호출 등)에 `at_property` 매개 변수를 추가해야 합니다.
 
 **`at_property` 매개 변수 코드를 획득하려면:**
 
@@ -145,7 +165,7 @@ ht-degree: 56%
 
    * **[!DNL Adobe Experience Platform]:** 내의 태그에 있는 &quot;사용자 지정 매개 변수&quot;를 통해
 
-     자세한 내용은 [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=ko#add-mbox-params) 설명서에서 *Mbox 매개 변수 추가*&#x200B;를 참조하십시오.
+     자세한 내용은 *태그 개요* 설명서에서 [Mbox 매개 변수 추가](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=ko#add-mbox-params)를 참조하십시오.
 
    * **targetPageParamsAll() 함수를 통해:** at.js 참조 위의 `<head>` 태그에 다음 코드를 넣습니다.
 
@@ -159,7 +179,7 @@ ht-degree: 56%
      </script>
      ```
 
-     at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=ko){target=_blank}을 참조하십시오.
+     at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}을 참조하십시오.
 
 ## 6단계: 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

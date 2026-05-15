@@ -4,9 +4,16 @@ description: ' [!DNL Adobe Target] 에서 사용자가 방문하는 카테고리
 title: 카테고리 친화성이란?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
+TQID: https://experienceleague.adobe.com/B5H-MhD005gmDbRErDOmfifwk-WIsOubWUYpQagRKgU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: 867
 ht-degree: 56%
 
 ---
@@ -29,7 +36,7 @@ ht-degree: 56%
 
 >[!IMPORTANT]
 >
->카테고리 관심도 알고리즘에 사용되는 `user.categoryId` 특성은 `entity.categoryId`의 제품 및 콘텐츠 권장 사항에 사용되는 [!DNL Adobe Target Recommendations] 특성과 다릅니다. `user.categoryId`는 사용자의 즐겨찾기 카테고리를 추적하는 데 필요합니다. `entity.categoryId`는 현재 페이지의 카테고리 또는 현재 항목의 카테고리에 대한 권장 사항을 기반으로 해야 합니다. 두 기능을 모두 사용하려면 두 값을 [!DNL Target]에 전달하십시오.
+>카테고리 관심도 알고리즘에 사용되는 `user.categoryId` 특성은 [!DNL Adobe Target Recommendations]의 제품 및 콘텐츠 권장 사항에 사용되는 `entity.categoryId` 특성과 다릅니다. `user.categoryId`는 사용자의 즐겨찾기 카테고리를 추적하는 데 필요합니다. `entity.categoryId`는 현재 페이지의 카테고리 또는 현재 항목의 카테고리에 대한 권장 사항을 기반으로 해야 합니다. 두 기능을 모두 사용하려면 두 값을 [!DNL Target]에 전달하십시오.
 
 ## 카테고리 관심도에 대한 비즈니스 사례 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 

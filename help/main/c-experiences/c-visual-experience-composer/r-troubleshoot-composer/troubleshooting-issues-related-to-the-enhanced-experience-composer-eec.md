@@ -4,10 +4,20 @@ description: 특정 조건에서  [!DNL Adobe Target] [!UICONTROL Enhanced Exper
 title: '[!UICONTROL Enhanced Experience Composer]과(와) 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
+TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 22%
+source-wordcount: 479
+ht-degree: 28%
 
 ---
 
@@ -21,7 +31,7 @@ ht-degree: 22%
 +++세부 사항
 이 문제는 다음 IP 주소를 허용 목록에 추가 하여 해결할 수 있습니다. 이 IP 주소는 EEC 프록시에 사용되는 [!DNL Adobe] 서버용입니다. 이러한 IP 주소는 활동 편집에만 필요합니다. 사이트 방문자는 이러한 IP 주소를 허용 목록에추가된으로 사용할 필요가 없습니다.
 
-허용 목록에 추가하다 IT 팀에 다음 IP 주소를 요청하십시오.
+IT 팀에 다음 IP 주소를 요청하십시오.
 
 ### 미국(va7)
 
@@ -135,9 +145,9 @@ ht-degree: 22%
 
 * **문제:** 웹 사이트 도메인(ISP)이 [!UICONTROL Enhanced Experience Composer]을(를) 차단하고 있습니다.
 
-  허용 목록에 추가하다 위에 나열된 IP 주소를 **Remedy:**&#x200B;합니다.
+  위에 나열된 IP 주소를 **Remedy:**&#x200B;합니다.
 
-* **문제:** IP 주소는 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. [!DNL Target]은(는) 현재 기본 구성 1.2를 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전의 기본 구성은 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오.
+* **문제:** IP 주소는 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. [!DNL Target]은(는) 현재 기본 구성 1.2를 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전의 기본 구성은 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오.
 
   **해결 방법:** 다음 질문을 참조하세요. [!UICONTROL Enhanced Visual Experience Composer]은(는) TLS 1.2를 사용하는 사이트의 보안 페이지에 로드되지 않습니다.
 
@@ -146,7 +156,7 @@ ht-degree: 22%
 ## EEC가 TLS 1.0를 사용하는 사이트의 보안 페이지에 로드되지 않습니다. (EEC만 해당) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++세부 사항
-&quot;내 사이트의 보안 페이지에서 [!UICONTROL Enhanced Visual Experience Composer]이(가) 로드되지 않습니다.&quot;에서 위에서 설명한 오류 메시지가 표시될 수 있습니다. 위의 IP 주소가 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않는 경우 [!DNL Target]은(는) 현재 기본 구성 1.2를 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전의 기본 구성은 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오.
+&quot;내 사이트의 보안 페이지에서 [!UICONTROL Enhanced Visual Experience Composer]이(가) 로드되지 않습니다.&quot;에서 위에서 설명한 오류 메시지가 표시될 수 있습니다. 위의 IP 주소가 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않는 경우입니다. [!DNL Target]은(는) 현재 기본 구성 1.2를 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전의 기본 구성은 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오.
 
 Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음을 수행하십시오(다른 브라우저에도 유사한 단계가 있음).
 

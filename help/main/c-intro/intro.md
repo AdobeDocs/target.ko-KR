@@ -1,21 +1,33 @@
 ---
 keywords: Target Standard;추천;Target Premium;자동 개인화;자동-타겟;자동 타겟;권한;adobe target이란;
-description: Adobe [!DNL Target] Standard 및 Adobe [!DNL Target] Premium의 기본 사항에 대해 알아봅니다. [!DNL Target] Premium에는 표준 제품에서 사용할 수 없는 고급 기능이 포함되어 있습니다.
+description: Adobe의 기본 사항에 대해 알아봅니다 [!DNL Target] Standard 및 Adobe [!DNL Target] Premium. [!DNL Target] Premium에는 표준 제품에서 사용할 수 없는 고급 기능이 포함되어 있습니다.
 landing-page-description: 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있습니다.
 short-description: 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있습니다.
 title: Target은 무슨 프로그램입니까?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
+TQID: https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: 963
 ht-degree: 51%
 
 ---
 
 # [!DNL Target] 소개
 
-[!DNL Adobe Target]의 일부인 [!DNL Adobe Experience Cloud]은(는) 웹, 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 고객 경험을 개인화할 수 있는 포괄적인 도구를 제공합니다.
+[!DNL Adobe Experience Cloud]의 일부인 [!DNL Adobe Target]은(는) 웹, 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 고객 경험을 개인화할 수 있는 포괄적인 도구를 제공합니다.
 
 [!DNL Target]은(는) 매출을 극대화하는 데 도움이 되며 [!DNL Target Standard] 또는 [!DNL Target Premium]&#x200B;(으)로 라이선스가 부여될 수 있습니다.
 
@@ -29,7 +41,7 @@ ht-degree: 51%
 
 [!BADGE Premium]{type=Positive}
 
-[!DNL Target Premium]은(는) [!DNL Target Standard]에 프리미엄 기능을 추가하려면 라이선스가 필요한 고급 서비스입니다. [!DNL Target Premium] 가이드의 모든 [!DNL Target]개 문서에는 각 페이지 상단의 [!UICONTROL Premium] 배지나 영향을 받는 텍스트 근처의 인라인이 포함됩니다. [!UICONTROL Premium] 배지를 클릭할 수 있으며 이 섹션에 연결됩니다.
+[!DNL Target Premium]은(는) [!DNL Target Standard]에 프리미엄 기능을 추가하려면 라이선스가 필요한 고급 서비스입니다. [!DNL Target] 가이드의 모든 [!DNL Target Premium]개 문서에는 각 페이지 상단의 [!UICONTROL Premium] 배지나 영향을 받는 텍스트 근처의 인라인이 포함됩니다. [!UICONTROL Premium] 배지를 클릭할 수 있으며 이 섹션에 연결됩니다.
 
 **[!DNL Target Premium]에 포함된 기능:**
 
@@ -86,7 +98,7 @@ AP는 사람의 분석을 최소화하면서 완전히 자동화되고 지속적
 
 Beta 기능을 설명하는 [!DNL Target] 가이드의 문서에는 각 페이지 상단에 있는 Beta 배지 또는 영향을 받는 텍스트 근처에 있는 인라인이 포함됩니다. Beta 배지는 클릭할 수 있으며 이 섹션에 대한 링크를 포함합니다.
 
-## 추천 Classic  {#section_9554068100054D2DBDB298CBE5A0E413}
+## 추천 Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
 >[!IMPORTANT]
 >

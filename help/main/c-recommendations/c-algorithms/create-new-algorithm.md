@@ -1,14 +1,24 @@
 ---
 keywords: 기준;알고리즘;업계 카테고리;페이지 유형;권장 사항 키;권장 사항 논리;논리;데이터 범위;전환 확인 기간;동작 데이터 소스;부분 디자인;백업 권장 사항;포함 규칙;속성 가중치;현재 카테고리;사용자 지정 속성;마지막 구매 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기 카테고리;인기;최근에 본 항목;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;최근에 본 항목
 description: ' [!DNL Recommendations] 활동의 콘텐츠를 제어하는 기준을 만들어 활동에 가장 적합한 권장 사항을 표시하는 방법에 대해 알아봅니다.'
-title: '[!UICONTROL Criteria]에서  [!DNL Recommendations]을(를) 만들려면 어떻게 해야 합니까?'
+title: ' [!DNL Recommendations]에서 [!UICONTROL Criteria]을(를) 만들려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2554'
-ht-degree: 47%
+source-wordcount: 2578
+ht-degree: 48%
 
 ---
 
@@ -23,7 +33,7 @@ ht-degree: 47%
 [!UICONTROL Create New Criteria] 화면에 액세스하는 방법에는 여러 가지가 있습니다. 일부 화면 옵션은 화면에 도달하는 방법에 따라 달라집니다.
 
 * **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** 라이브러리 화면에서 **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭합니다. 여기서 만드는 기준은 자동으로 모든 [!DNL Recommendations] 활동에 사용 가능해집니다.
-* [!DNL Recommendations]&#x200B;(VEC)을 사용하여 [!UICONTROL Visual Experience Composer] 활동을 만드는 경우 페이지에서 요소를 선택하고 [!UICONTROL Select Criteria], [!UICONTROL Replace w/ Recommendations] 또는 [!UICONTROL Insert Recommendations Before]을(를) 클릭하면 즉시 [!UICONTROL Insert Recommendations After] 화면으로 이동합니다. 그런 다음 사용 가능한 기준을 선택하거나 **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭할 수 있습니다. 새 기준을 만들면 다른 [!DNL Recommendations] 활동과 함께 사용할 기준을 저장할 수 있습니다. 자세한 내용은 [권장 사항 활동 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)를 참조하십시오.
+* [!UICONTROL Visual Experience Composer]&#x200B;(VEC)을 사용하여 [!DNL Recommendations] 활동을 만드는 경우 페이지에서 요소를 선택하고 [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before] 또는 [!UICONTROL Insert Recommendations After]을(를) 클릭하면 즉시 [!UICONTROL Select Criteria] 화면으로 이동합니다. 그런 다음 사용 가능한 기준을 선택하거나 **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭할 수 있습니다. 새 기준을 만들면 다른 [!DNL Recommendations] 활동과 함께 사용할 기준을 저장할 수 있습니다. 자세한 내용은 [권장 사항 활동 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)를 참조하십시오.
 * [!DNL Recommendations] 활동을 편집하는 경우 페이지에서 [!UICONTROL Recommendations Location] 상자를 클릭하고 **[!UICONTROL Change Criteria]**&#x200B;을(를) 선택합니다. [!UICONTROL Select Criteria] 화면에서 **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭합니다. 다른 [!DNL Recommendations] 활동과 함께 사용할 새 기준을 저장하는 선택 사항이 있습니다.
 
 다음 단계에서는 첫 번째 메서드를 사용하여 [!UICONTROL Create New Criteria] 화면에 액세스한다고 가정합니다. **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** 라이브러리 화면.
@@ -157,7 +167,7 @@ ht-degree: 47%
 
    | 전환 확인 기간 옵션 | 업데이트된 빈도(마우스로 가리키면 표시됨) | 지원되는 알고리즘 |
    | --- | --- | --- |
-   | 6시간 | 알고리즘은 3~6시간마다 실행됩니다 | 선택한 [!UICONTROL Popularity-Based]이(가) [!UICONTROL Behavioral Data Source]인 경우 [!DNL Adobe Target] 알고리즘 |
+   | 6시간 | 알고리즘은 3~6시간마다 실행됩니다 | 선택한 [!UICONTROL Behavioral Data Source]이(가) [!DNL Adobe Target]인 경우 [!UICONTROL Popularity-Based] 알고리즘 |
    | 하루 | 알고리즘은 12~24시간마다 실행됩니다 | [!UICONTROL Popularity-Based] 알고리즘 |
    | 2일 | 알고리즘은 12~24시간마다 실행됩니다 | <ul><li>[!UICONTROL Popularity-Based] 알고리즘</li><li>[!UICONTROL Item-Based] 알고리즘</li><li>[!UICONTROL User-Based] 알고리즘</li><li>[!UICONTROL Cart-Based] 알고리즘</li></ul> |
    | 1주 | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL Popularity-Based] 알고리즘</li><li>[!UICONTROL Item-Based] 알고리즘</li><li>[!UICONTROL User-Based] 알고리즘</li><li>[!UICONTROL Cart-Based] 알고리즘</li></ul> |
@@ -231,7 +241,7 @@ ht-degree: 47%
 
 여러 규칙을 추가하여 콘텐츠 카탈로그에 대한 중요한 정보나 메타데이터를 기반으로 알고리즘을 &quot;살짝 변경&quot;하여 특정 항목이 더 많이 표시되도록 할 수 있습니다.
 
-예를 들어 판매 중인 항목에 더 높은 가중치를 적용하여 권장 사항에 더 자주 나타나도록 할 수 있습니다. 판매하지 않는 항목이 완전히 제외되는 것은 아니지만 표시되는 빈도가 줄어듭니다. 여러 가중치가 적용된 속성을 동일한 알고리즘에 적용할 수 있으며 권장 사항에서 분할 트래픽에 대해 가중치가 적용된 속성을 테스트할 수 있습니다.
+예를 들어, 권장 사항에 더 자주 표시되도록 세일 중인 항목에 더 높은 가중치를 적용할 수 있습니다. 판매하지 않는 항목이 완전히 제외되는 것은 아니지만 표시되는 빈도가 줄어듭니다. 여러 가중치가 적용된 속성을 동일한 알고리즘에 적용할 수 있으며 권장 사항에서 분할 트래픽에 대해 가중치가 적용된 속성을 테스트할 수 있습니다.
 
 1. 값을 선택합니다.
 

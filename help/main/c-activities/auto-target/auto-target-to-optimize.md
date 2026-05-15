@@ -5,16 +5,32 @@ title: '[!UICONTROL Auto-Target] 활동이란?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
+TQID: https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+subfeature_v2:
+  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: 1882
 ht-degree: 18%
 
 ---
 
 # [!UICONTROL Auto-Target] 개요
 
-[!UICONTROL Auto-Target]의 [!DNL Adobe Target] 활동은 콘텐츠를 개인화하고 전환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택합니다. [!UICONTROL Auto-Target]은(는) 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
+[!DNL Adobe Target]의 [!UICONTROL Auto-Target] 활동은 콘텐츠를 개인화하고 전환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택합니다. [!UICONTROL Auto-Target]은(는) 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
 
 >[!NOTE]
 >
@@ -32,7 +48,7 @@ ht-degree: 18%
 
 ## 개요 {#section_972257739A2648AFA7E7556B693079C9}
 
-안내가 있는 3단계 워크플로우를 사용하여 [A/B 활동을 만드는 중](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) **[!UICONTROL Auto-Target for personalized experiences]** 페이지에서 **[!UICONTROL Targeting]** 옵션을 선택합니다(2단계).
+안내가 있는 3단계 워크플로우를 사용하여 [A/B 활동을 만드는 중](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) **[!UICONTROL Targeting]** 페이지에서 **[!UICONTROL Auto-Target for personalized experiences]** 옵션을 선택합니다(2단계).
 
 ![트래픽 할당 메서드 설정](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
@@ -64,7 +80,7 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 |---|---|
 | [Multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | 최적화에 대한 multi-armed bandit 접근 방식은 탐색 학습과 해당 학습의 이용 간에 균형을 이룹니다. |
 | [Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Random Forest는 선도적인 기계 학습 접근 방식입니다. 데이터 과학 스피크에서 방문자와 방문 속성을 기반으로 많은 의사 결정 트리를 구성하여 작동하는 앙상블 분류, 즉 회귀 방법이다. [!DNL Target] 내에서 Random Forest를 사용하여 각 특정 방문자에 대해 전환 가능성이 가장 높거나 방문당 매출이 가장 높을 것으로 예상되는 경험을 결정합니다. |
-| [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Thompson 샘플링의 목표는 해당 경험을 찾는 &quot;비용&quot;을 최소화하면서 전체적(개인화되지 않음)으로 가장 좋은 경험을 결정하는 것입니다. 톰슨 샘플링은 항상 두 경험 사이에 통계적 차이가 없더라도 승자를 선택합니다. |
+| [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Thompson 샘플링의 목표는 해당 경험을 찾는 &quot;비용&quot;을 최소화하면서 전체적(개인화되지 않음)으로 가장 좋은 경험을 결정하는 것입니다. Thompson 샘플링에서는 두 경험 간의 통계적 차이가 없는 경우에도 항상 승자를 선택합니다. |
 
 ## [!UICONTROL Auto-Target] 작동 방식 {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -72,7 +88,7 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 
 | 용어 | 세부 사항 |
 |--- |--- |
-| [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!DNL Target]과(와) [!UICONTROL Auto-Target] 모두에서 사용되는 [!UICONTROL Automated Personalization]의 기본 개인화 알고리즘은 Random Forest입니다. Random Forest와 같은 앙상블 방법은 구성 학습 알고리즘 중 어느 것으로부터도 얻을 수 있는 것보다 더 나은 예측 성능을 얻기 위해 다중 학습 알고리즘을 사용한다. [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동의 Random Forest 알고리즘은 교육 시간에 다수의 의사 결정 트리를 구성하여 작동하는 분류 또는 회귀 방법입니다. |
+| [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL Auto-Target]과(와) [!UICONTROL Automated Personalization] 모두에서 사용되는 [!DNL Target]의 기본 개인화 알고리즘은 Random Forest입니다. Random Forest와 같은 앙상블 방법은 구성 학습 알고리즘 중 어느 것으로부터도 얻을 수 있는 것보다 더 나은 예측 성능을 얻기 위해 다중 학습 알고리즘을 사용한다. [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동의 Random Forest 알고리즘은 교육 시간에 다수의 의사 결정 트리를 구성하여 작동하는 분류 또는 회귀 방법입니다. |
 | [&#x200B; [!DNL Target]의 Personalization 알고리즘에 대한 데이터 업로드](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 모델에 대한 데이터를 입력하는 방법에는 여러 가지가 있습니다. |
 | [&#x200B; [!DNL Target]의 Personalization 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]의 개인화 알고리즘에서 다양한 데이터를 자동으로 수집합니다. |
 
@@ -96,16 +112,16 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 | **[!UICONTROL Maximize Personalization Traffic (90/10)]**: 목표가 &quot;상시 설정&quot; 활동을 만드는 것이면 10%의 방문자를 제어 알고리즘에 추가하여 충분한 데이터를 보장함으로써 시간에 따른 학습이 계속 진행될 수 있게 합니다. 여기서 장점은 더 많은 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어진다는 점입니다. 목표에 관계없이, 특정 경험을 제어로 사용할 때 권장되는 트래픽 분할입니다. | 10%~30% 통제/70%~90% 개인화된 경험 분할을 사용하는 것이 좋습니다. | <ul><li>개인화된 경험을 가진 방문자의 수를 최대화합니다.</li><li>상승도를 극대화합니다.</li><li>활동에 대한 상승도 크기와 관련하여 정확도가 낮습니다.</li></ul> |
 | **사용자 지정 할당** | 백분율을 원하는 대로 수동으로 분할하십시오. | <ul><li>원하는 결과를 얻지 못할 수 있습니다. 잘 모르는 경우에는 앞의 선택 사항들 중 하나에 대한 제안을 따르십시오.</li></ul> |
 
-[!UICONTROL Control] 백분율을 조정하려면 [!UICONTROL Experiences] 창에서 [!UICONTROL Traffic Allocation]을(를) 클릭한 다음 원하는 대로 백분율을 조정하십시오. 통제군은 10% 미만으로 줄일 수 없습니다.
+[!UICONTROL Control] 백분율을 조정하려면 [!UICONTROL Traffic Allocation] 창에서 [!UICONTROL Experiences]을(를) 클릭한 다음 원하는 대로 백분율을 조정하십시오. 통제군은 10% 미만으로 줄일 수 없습니다.
 
 특정 경험을 [선택하여 컨트롤로](/help/main/c-activities/t-automated-personalization/experience-as-control.md) 사용하거나 임의의 선택 사항을 사용할 수 있습니다.
 
-## [!UICONTROL Auto-Target]보다 [!UICONTROL Automated Personalization]을(를) 언제 선택해야 합니까? {#section_BBC4871C87944DD7A8B925811A30C633}
+## [!UICONTROL Automated Personalization]보다 [!UICONTROL Auto-Target]을(를) 언제 선택해야 합니까? {#section_BBC4871C87944DD7A8B925811A30C633}
 
-[!UICONTROL Auto-Target]보다 [!UICONTROL Automated Personalization]을(를) 사용할 수 있는 시나리오가 몇 가지 있습니다.
+[!UICONTROL Automated Personalization]보다 [!UICONTROL Auto-Target]을(를) 사용할 수 있는 시나리오가 몇 가지 있습니다.
 
 * 경험을 형성하기 위해 자동으로 결합되는 개별 오퍼가 아닌 전체 경험을 정의하려는 경우.
-* 사용자 지정 코드 편집기, 여러 경험 대상 등, [!UICONTROL Visual Experience Composer]에서 지원하지 않는 [!UICONTROL Auto Personalization]&#x200B;(VEC) 기능의 전체 집합을 사용하려면
+* 사용자 지정 코드 편집기, 여러 경험 대상 등, [!UICONTROL Auto Personalization]에서 지원하지 않는 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 기능의 전체 집합을 사용하려면
 * 다양한 경험에서 내 페이지의 구조를 변경하려는 경우. 예를 들어 홈 페이지에서 요소를 다시 정렬하려면 [!UICONTROL Auto-Target]이(가) [!UICONTROL Automated Personalization]보다 더 적합합니다.
 
 ## [!UICONTROL Auto-Target]은(는) [!UICONTROL Automated Personalization]과(와) 어떤 공통점이 있습니까? {#section_2A601F482F9A44E38D4B694668711319}
@@ -136,13 +152,13 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 
 ### 마케터는 오프라인 데이터, 성향 점수 또는 기타 사용자 지정 데이터를 업로드하여 개인화 모델을 만들 수 있습니다.
 
-* [&#x200B; 및 [!UICONTROL Auto-Target]에 대한 [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) 데이터 업로드에 대해 자세히 알아보세요.
+* [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization][&#128279;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)에 대한  데이터 업로드에 대해 자세히 알아보세요.
 
 ## [!UICONTROL Auto-Target]과(와) [!UICONTROL Automated Personalization]의 차이점은 무엇입니까? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
 ### [!UICONTROL Auto-Target]은(는) 개인화된 모델을 만드는 데 [!UICONTROL Automated Personalization]보다 적은 트래픽을 필요로 하는 경우가 많습니다.
 
-*또는* 모델을 만드는 데 필요한 트래픽의 양 [!UICONTROL Auto-Target]경험당[!UICONTROL Auto Personalization]은 동일하지만 일반적으로 [!UICONTROL Automated Personalization] 활동보다 [!UICONTROL Auto-Target] 활동에 더 많은 경험이 있습니다.
+[!UICONTROL Auto-Target] 또는 [!UICONTROL Auto Personalization] 모델을 만드는 데 필요한 트래픽의 양 *경험당*&#x200B;은 동일하지만 일반적으로 [!UICONTROL Auto-Target] 활동보다 [!UICONTROL Automated Personalization] 활동에 더 많은 경험이 있습니다.
 
 예를 들어, 두 개의 위치에 위치당 두 개의 오퍼를 만든 [!UICONTROL Auto Personalization] 활동이 있었다면, 활동에 총 4개(2 = 4)의 경험이 포함되어 있을 것입니다(제외 없음). [!UICONTROL Auto-Target]을(를) 사용하여 경험 1을 위치 1에서 오퍼 1을 포함하고, 위치 2에서 오퍼 2를 포함하도록 설정하고, 경험 2를 위치 1에서 오퍼 1을 포함하고, 위치 2에서 오퍼 2를 포함하도록 설정할 수 있습니다. [!UICONTROL Auto-Target]을(를) 사용하면 한 경험 내에 여러 가지 변경이 생기도록 선택할 수 있으므로 활동에 있는 총 경험 수를 줄일 수 있습니다.
 
@@ -153,7 +169,7 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 
 ### [!UICONTROL Auto-Target]에 완전한 설정 기능이 있습니다.
 
-* [!UICONTROL Auto-Target]이(가) A/B 활동 워크플로에 포함되어 있으므로 [!UICONTROL Auto-Target]은(는) 보다 발전되고 완전한 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)의 이점을 얻을 수 있습니다. [과(와) 함께 &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md)QA 링크[!UICONTROL Auto-Target]을(를) 사용할 수도 있습니다.
+* [!UICONTROL Auto-Target]이(가) A/B 활동 워크플로에 포함되어 있으므로 [!UICONTROL Auto-Target]은(는) 보다 발전되고 완전한 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)의 이점을 얻을 수 있습니다. [!UICONTROL Auto-Target]과(와) 함께 [QA 링크](/help/main/c-activities/c-activity-qa/activity-qa.md)을(를) 사용할 수도 있습니다.
 
 ### [!UICONTROL Auto-Target]은(는) 광범위한 온라인 테스트 프레임워크를 제공합니다.
 

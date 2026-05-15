@@ -4,10 +4,32 @@ description: Adobe Target의 기본 사항에 대해 알아보십시오. 이 문
 title: Target을 사용하려면 어떻게 합니까?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2:
+  - id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+  - id: c2923fce-066f-4e68-bc28-ac56b57ccb5c
+  - id: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+  - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 96%
+source-wordcount: 1538
+ht-degree: 83%
 
 ---
 
@@ -27,14 +49,14 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 테이블은
 
 | 활동 유형 | 설명 |
 |--- |--- |
-| [A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md) | A/B 테스트에서는 웹 사이트 콘텐츠의 버전을 두 개 이상 비교하여 사전 지정된 테스트 기간에 전환율이 가장 많이 향상된 버전을 확인합니다.<br>**참고:** 이제 [A/B 테스트 활동 내에 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
+| [A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md) | A/B 테스트에서는 웹 사이트 콘텐츠의 버전을 두 개 이상 비교하여 사전 지정된 테스트 기간 동안 전환율이 가장 많이 향상된 버전을 확인합니다.<br>**참고:** 이제 A/B 테스트 활동 내에 [권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
 | [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 자동 할당은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.<br>**참고:** 이제 [자동 할당 활동 내에 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
-| [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | 자동 타겟은 고급 머신 러닝을 사용하여 여러 가지 고성능 마케터 정의 경험을 식별합니다. 자동 타겟 활동은 각 방문자의 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 토대로 각 방문자에게 가장 적합한 경험을 제공하여 콘텐츠를 개인화하고 전환을 유도합니다.<br>**참고:** 이제 [자동 타겟 활동 내에 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
+| [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | 자동 타겟은 고급 머신 러닝을 사용하여 여러 가지 고성능 마케터 정의 경험을 식별합니다. 자동 타겟 활동은 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공하여 콘텐츠를 개인화하고 전환을 유도합니다.<br>**참고:** 이제 자동 타겟 활동 내에 [권장 사항을 포함할 수 있습니다](/help/main/c-recommendations/recommendations-as-an-offer.md). 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
 | [Analytics 데이터 사용](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | [!DNL Adobe Analytics] 를 보고 소스로 사용하도록 활동을 구성할 수 있습니다. 이 활동 유형을 사용하려면  [!DNL Adobe Experience Cloud] 계정을 [!DNL Analytics] 와 [!DNL Target] 모두에 연결해야 합니다. |
 | [다변량 테스트](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 다변량 테스트(MVT)는 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상자에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다. |
-| [경험 타기팅](/help/main/c-activities/t-experience-target/experience-target.md) | 경험 타기팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상자에 전달합니다.<br>**참고:** 이제 [경험 타기팅 활동 내에 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
+| [경험 타기팅](/help/main/c-activities/t-experience-target/experience-target.md) | 경험 타깃팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.<br>**참고:** 이제 [경험 타깃팅 활동 내에 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
 | [자동화된 개인화](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png) | 자동화된 개인화(AP)는 콘텐츠를 개인화하고 전환을 유도하기 위해 오퍼나 메시지를 결합하고 고급 머신 러닝을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 변형을 각 방문자와 연결합니다. |
-| [추천](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | 권장 사항은 사이트에서의 사용자 활동에 따라 웹 사이트 사용자에게 제품을 제안하는 방법을 결정합니다.<br>예를 들어 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, &quot;이 항목을 구입하고 다른 항목도 구입한 사람&quot; 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여 주는 권장 사항을 생성할 수 있습니다. 또는 &quot;이 항목을 보고 다른 항목도 본 사람&quot; 알고리즘을 사용하여 방문자에게 보고 있는 것과 유사한 비디오를 추천하여 미디어 사이트에서 더 많은 시간을 소비하도록 할 수도 있습니다.<br>**참고:** 이제 A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타기팅(XT) 활동 내에 권장 사항을 포함할 수 있습니다. [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
+| [추천](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | 권장 사항은 사이트에서의 사용자 활동에 따라 웹 사이트 사용자에게 제품을 제안하는 방법을 결정합니다.<br>예를 들어 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, &quot;이 항목을 구입하고 다른 항목도 구입한 사람&quot; 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여 주는 권장 사항을 생성할 수 있습니다. 또는 &quot;이 항목을 본 사용자&quot; 알고리즘을 사용하여 방문자가 보고 있는 비디오와 유사한 비디오를 추천하여 방문자가 미디어 사이트에서 더 많은 시간을 보내도록 하는 것이 좋습니다.<br>**참고:** 이제 A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) 활동 내에 권장 사항을 포함할 수 있습니다. [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
 
 ## 위치 {#section_F18FBF1ED23340ED9F39C51971A4E874}
 

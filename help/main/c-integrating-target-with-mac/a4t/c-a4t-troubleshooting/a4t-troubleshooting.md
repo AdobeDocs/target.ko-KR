@@ -4,10 +4,22 @@ description: 고객이 Analytics for [!DNL Target] (A4T)을 사용할 때 경험
 title: Analytics 및 [!DNL Target] 통합 문제를 해결하는 방법(A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 88%
+source-wordcount: 948
+ht-degree: 89%
 
 ---
 
@@ -43,7 +55,7 @@ ht-degree: 88%
 
 데이터와 함께 표시하기 위해 사용하는 지표에 따라 보고서에 &quot;[!UICONTROL Unspecified]&quot; 이벤트 행이 표시될 수 있습니다.
 
-일반적으로 이 행은 보고서에서 [!DNL Target]과(와) 관련되지 않은 일반적인 지표(예: [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] 등)를 선택하는 경우 표시됩니다. 이 경우 [!UICONTROL "Unspecified"] 행에는 [!UICONTROL Page Views] 활동과 연결되지 않은 모든 [!UICONTROL Visits], [!UICONTROL Unique Visitors] 및 [!DNL Target]이(가) 포함됩니다.
+일반적으로 이 행은 보고서에서 [!DNL Target]과(와) 관련되지 않은 일반적인 지표(예: [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] 등)를 선택하는 경우 표시됩니다. 이 경우 [!UICONTROL "Unspecified"] 행에는 [!DNL Target] 활동과 연결되지 않은 모든 [!UICONTROL Page Views], [!UICONTROL Visits] 및 [!UICONTROL Unique Visitors]이(가) 포함됩니다.
 
 이 행에는 [!DNL Target] 관련 정보가 포함되지 않습니다(예: 방문자 수, 방문 횟수 또는 노출 횟수 없음). 자세한 내용은 *Analytics 기술 노트*&#x200B;에서 [보고의 “지정되지 않음”, “없음”, “기타” 및 “알 수 없음”](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=ko)을 참조하십시오.
 
@@ -59,7 +71,7 @@ A4T 활동을 사용하려면 Analytics 추적 서버를 지정해야 합니다.
 
 >[!NOTE]
 >
->at.js 버전 0.9.1 이상을 사용 중이면 활동 생성 도중 추적 서버를 지정하지 않아도 됩니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 만드는 동안 [!UICONTROL Tracking Server] 페이지의 [!UICONTROL Goals & Settings] 필드를 비워 둘 수 있습니다.
+>at.js 버전 0.9.1 이상을 사용 중이면 활동 생성 도중 추적 서버를 지정하지 않아도 됩니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 만드는 동안 [!UICONTROL Goals & Settings] 페이지의 [!UICONTROL Tracking Server] 필드를 비워 둘 수 있습니다.
 
 ## 내 Analytics 세그먼트가 Target에 표시되지 않습니다. {#section_DEE87F1557834F448E99381D3D02EEEF}
 

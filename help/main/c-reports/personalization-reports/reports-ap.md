@@ -5,20 +5,28 @@ title: Automated Personalization 요약 보고서는 어떻게 사용합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/Gj9Jo0NHnSxGE4BpvFbd0SudYjbkP4yrV3GFHWHNPjw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 10%
+source-wordcount: 653
+ht-degree: 12%
 
 ---
 
 # Automated Personalization 요약 보고서
 
-전문 요약 보고서는 [!UICONTROL Automated Personalization]에서 [!DNL Adobe Target] 활동의 사용자가 사용할 수 있습니다.
+전문 요약 보고서는 [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization] 활동의 사용자가 사용할 수 있습니다.
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization]은(는) [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Standard]Target Premium 라이선스[가 없는 &#x200B;](/help/main/c-intro/intro.md#premium)에는 포함되어 있지 않습니다.
+>[!UICONTROL Automated Personalization]은(는) [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 없는 [!DNL Target Standard]에는 포함되어 있지 않습니다.
 
 1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 목록에서 원하는 [!UICONTROL Automated Personalization] 활동을 클릭한 다음 **[!UICONTROL Reports]** 탭을 클릭합니다.
 
@@ -41,7 +49,7 @@ ht-degree: 10%
 
 ## 오퍼 수준 보고서 {#section_CAA6409879E349C6906E2BE8156D87A1}
 
-Random Forest 경험에 대한 [!UICONTROL Offer Level] 보고서는 각 알고리즘이 적용한 오퍼의 성능을 임의로 제공된 동일한 오퍼(제어)와 비교합니다. 따라서 이 보기에서 오퍼를 서로 비교해서는 안 됩니다.
+Random Forest 경험에 대한 [!UICONTROL Offer Level] 보고서는 각 알고리즘이 적용한 오퍼의 성능을 임의로 제공된 동일한 오퍼(제어)와 비교합니다. 따라서 이 보기에서 오퍼는 서로 비교되지 않습니다.
 
 [!UICONTROL Offer Level] 보고서를 보려면 경험 알고리즘(Random Forest 또는 컨트롤)을 클릭하십시오.
 

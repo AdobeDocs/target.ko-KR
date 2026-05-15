@@ -4,16 +4,21 @@ description: '[!UICONTROL Offers] 라이브러리에서 코드 및 이미지 오
 title: 오퍼 라이브러리에서 콘텐츠를 검색하려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 193
 ht-degree: 0%
 
 ---
 
 # 콘텐츠 검색 및 필터링
 
-[!UICONTROL Offers]의 [!DNL Adobe Target] 라이브러리에서 키워드로 자산을 검색합니다.
+[!DNL Adobe Target]의 [!UICONTROL Offers] 라이브러리에서 키워드로 자산을 검색합니다.
 
 ## 키워드로 코드 오퍼 검색
 
@@ -22,13 +27,13 @@ ht-degree: 0%
 
    드롭다운을 사용하여 [!UICONTROL Offer name], [!UICONTROL AEM Paths] 또는 [!UICONTROL AEM Tags] 기준으로 필터링할 수 있습니다.
 
-   [!UICONTROL Type] 아이콘 [!UICONTROL Source]필터 표시 아이콘[!UICONTROL AEM Type]을 클릭하여 [!UICONTROL Show Filters], ![&#x200B; 및 &#x200B;](/help/main/assets/icons/Filter.svg) 옵션을 사용하여 검색을 세분화하여 필터링할 수도 있습니다.
+   [!UICONTROL Show Filters] 아이콘 ![필터 표시 아이콘](/help/main/assets/icons/Filter.svg)을 클릭하여 [!UICONTROL Type], [!UICONTROL Source] 및 [!UICONTROL AEM Type] 옵션을 사용하여 검색을 세분화하여 필터링할 수도 있습니다.
 
 ## 키워드로 이미지 오퍼 검색 {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) [!UICONTROL Card View]과(와) [!UICONTROL List View] 간을 전환하고 [!UICONTROL Card View] 라이브러리의 오른쪽 위 모서리에 있는 ![&#x200B; 아이콘(](/help/main/assets/icons/ViewCard.svg)카드 보기 아이콘[!UICONTROL List View] ) 또는 ![&#x200B; 아이콘(](/help/main/assets/icons/ViewList.svg)목록 보기 아이콘[!UICONTROL Asset] )을 클릭합니다.
+1. (선택 사항) [!UICONTROL Card View]과(와) [!UICONTROL List View] 간을 전환하고 [!UICONTROL Asset] 라이브러리의 오른쪽 위 모서리에 있는 [!UICONTROL Card View] 아이콘(![카드 보기 아이콘](/help/main/assets/icons/ViewCard.svg) ) 또는 [!UICONTROL List View] 아이콘(![목록 보기 아이콘](/help/main/assets/icons/ViewList.svg) )을 클릭합니다.
 1. 왼쪽 상단 모서리의 **[!UICONTROL Content Only]** 아이콘(![콘텐츠 전용 아이콘](/help/main/assets/icons/RailLeft.svg))을 클릭하여 검색 상자를 표시합니다.
 1. 검색 상자에 찾을 자산의 키워드를 입력한 다음 [!UICONTROL Enter]을 누릅니다.
 1. (조건부) 검색을 구체화하려면 왼쪽의 **[!UICONTROL Filters & Options]** 창을 사용합니다.

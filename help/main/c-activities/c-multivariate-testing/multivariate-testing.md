@@ -1,19 +1,27 @@
 ---
 keywords: 다변량 테스트;mvt;전체 계승;mvt 또는 a/b;다변량 a/b;트래픽 견적 도구;mvt 사용 시기;mvt 고려 사항;다변량;부분 계승;부분 계승;전체 계승
-description: '[!UICONTROL Multivariate Test]의  [!DNL Adobe Target] (MVT)을(를) 사용하여 페이지의 요소 간에 오퍼 조합을 비교하여 성과가 가장 좋은 조합을 판별하는 방법에 대해 알아봅니다.'
+description: ' [!DNL Adobe Target] 의 [!UICONTROL Multivariate Test]​(MVT)을(를) 사용하여 페이지의 요소 간에 오퍼 조합을 비교하여 성과가 가장 좋은 조합을 판별하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL Multivariate Test]이란?'
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
+TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 46%
+source-wordcount: 1453
+ht-degree: 47%
 
 ---
 
 # [!UICONTROL Multivariate Test] 개요
 
-[!UICONTROL Multivariate Test]의 [!DNL Adobe Target]&#x200B;(MVT) 활동은 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. [!UICONTROL Multivariate Test] 활동은 또한 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
+[!DNL Adobe Target]의 [!UICONTROL Multivariate Test]&#x200B;(MVT) 활동은 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. [!UICONTROL Multivariate Test] 활동은 또한 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
 
 다변량 테스트는 페이지의 다른 요소와 비교하여 특정 요소가 전환에 미치는 상대적 영향을 찾는 데 도움이 됩니다. 다변량 테스트는 효과적인 것으로 나타난 요소의 조합을 구체화하는 데 도움이 될 수도 있습니다.
 
@@ -67,7 +75,7 @@ Target의 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testi
 
   예를 들어 동일한 테스트에서 레이아웃과 콘텐츠를 테스트하지 마십시오.
 
-* 경험 수가 증가했으므로 QA에 대한 추가 시간을 계획합니다. 부분 요인 테스트를 사용하여 다변량 테스트에 필요한 트래픽의 양을 줄일 수도 있습니다. 자세한 내용은 아래의 부분 요인 테스트 를 참조하십시오.
+* 경험 수가 늘어나므로 QA에 소요되는 추가 시간을 계획합니다. 부분 요인 테스트를 사용하여 다변량 테스트에 필요한 트래픽의 양을 줄일 수도 있습니다. 자세한 내용은 아래의 부분 요인 테스트 를 참조하십시오.
 
 ## 부분 요인 테스트
 

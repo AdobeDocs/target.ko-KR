@@ -1,12 +1,17 @@
 ---
 keywords: 자동화된 트래픽 할당;타깃팅;자동 할당;자동 할당
-description: '[!UICONTROL Auto Allocate]의  [!DNL Adobe Target]  활동이 둘 이상의 경험에서 승자를 식별하고 더 많은 트래픽을 승자에게 자동으로 재할당하는 방법에 대해 알아봅니다.'
+description: ' [!DNL Adobe Target] 의 [!UICONTROL Auto Allocate] 활동이 둘 이상의 경험에서 승자를 식별하고 더 많은 트래픽을 승자에게 자동으로 재할당하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL Auto-Allocate] 활동을 통해 더 빠른 결과와 더 높은 수익을 얻을 수 있습니까?'
 feature: Auto-Allocate
 exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
-source-git-commit: e9976135c46f6658030b07fce384364f0c9ff0ed
+TQID: https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: 531
 ht-degree: 0%
 
 ---

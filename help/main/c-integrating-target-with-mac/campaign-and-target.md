@@ -4,9 +4,17 @@ description: Adobe [!DNL Target] 을(를) Adobe Campaign과 함께 사용하여 
 title: ' [!DNL Target] 을(를) Adobe Campaign과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/RMW9ijj8UqzrDr1-PKwwfw5aWfH4YmtSi1HR7rLDSZ4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: 372
 ht-degree: 32%
 
 ---
@@ -51,13 +59,13 @@ ht-degree: 32%
 
   [리디렉션 오퍼 만들기](/help/main/c-experiences/c-manage-content/offer-redirect.md)를 참조하십시오.
 
-* 각 오퍼 및 원하는 [!DNL Target]성공 지표[에 대한 경험이 있는 &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md) 활동.
+* 각 오퍼 및 원하는 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md)에 대한 경험이 있는 [!DNL Target] 활동.
 
   [URL로 리디렉션](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)을 참조하십시오.
 
-통합의 [!DNL Target] 부분을 설정하기 전에 [!DNL Campaign]에서 활동을 시작하십시오.
+통합의 [!DNL Campaign] 부분을 설정하기 전에 [!DNL Target]에서 활동을 시작하십시오.
 
-## [!DNL Target] 전자 메일에 [!DNL Adobe Campaign] 오퍼 포함 {#section_B201BBE27A704E18AF0D553F35695837}
+## [!DNL Adobe Campaign] 전자 메일에 [!DNL Target] 오퍼 포함 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. [!DNL Adobe Campaign]에서 전자 메일을 만듭니다.
 1. 전자 메일 속성에서 **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**&#x200B;을(를) 클릭합니다.
@@ -66,7 +74,7 @@ ht-degree: 32%
 1. 수신자의 성별 등과 같은 기타 의사결정 매개 변수를 추가합니다.
 1. 각 오퍼의 수신자를 한 명 이상 선택하고(이 경우에는 여성 및 남성) 이메일을 미리 봅니다.
 1. [!DNL Campaign]에서 활동 및 테넌트의 이름을 제어하는 데 사용하는 [!DNL Target] Edge 서버를 정의합니다.
-1. [!DNL Adobe Experience Cloud]의 리소스에 액세스할 수 있도록 [!DNL Experience Cloud]에 사용되는 외부 계정을 지정하십시오.
+1. [!DNL Experience Cloud]의 리소스에 액세스할 수 있도록 [!DNL Adobe Experience Cloud]에 사용되는 외부 계정을 지정하십시오.
 
 자세한 내용은 [!DNL Adobe Campaign] 설명서를 참조하십시오.
 

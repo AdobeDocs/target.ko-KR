@@ -5,10 +5,15 @@ title: Recommendations에서 디자인을 만들려면 어떻게 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 19%
+source-wordcount: 1006
+ht-degree: 20%
 
 ---
 
@@ -56,7 +61,7 @@ ht-degree: 19%
 
    권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 [https://velocity.apache.org](https://velocity.apache.org) 및 [Velocity를 사용하여 디자인 사용자 지정](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)에서 찾을 수 있습니다.
 
-   디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 허용하기 위해 `<div>` 태그로 줄바꿈됩니다. HTML 이외 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다. HTML 이외의 코드를 사용하려면 [!UICONTROL HTML Design] 토글을 &quot;끄기&quot; 위치로 밉니다.
+   디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 허용하기 위해 `<div>` 태그로 줄바꿈됩니다. 비 HTML 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다. HTML 이외의 코드를 사용하려면 [!UICONTROL HTML Design] 토글을 &quot;끄기&quot; 위치로 밉니다.
 
    >[!NOTE]
    >
@@ -156,7 +161,7 @@ ht-degree: 19%
 
    | 매개 변수 | 값 |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(/help/target/products.html#recsSettings > Recommendations API 토큰 > 클라이언트 코드에서 사용 가능). |
+   | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(#recsSettings > Recommendations API 토큰 > 클라이언트 코드에서 사용 가능). |
    | `[YOUR_MBOX_NAME]` | 양식 기반 권장 사항의 &quot;위치&quot; 섹션에서 선택한 이름(이 경우 Sample_Recs_Response). |
    | `[ENTITY_ID` | 카탈로그에 있는 항목의 `entity.id`입니다. |
    | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |

@@ -4,16 +4,25 @@ description: ' [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 
 title: A4T 초기 프로비저닝에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/O2NhhiytLUaXarno3zH4DHi4EechHxUCMr8QifbEltw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 474
 ht-degree: 61%
 
 ---
 
 # 초기 사용 권한 제공 - A4T FAQ
 
-이 항목에는 [!DNL Adobe Analytics]&#x200B;(A4T)의 보고 소스로 사용되는 [!DNL Adobe Target] 프로비저닝과 관련하여 자주 묻는 질문에 대한 답변이 포함되어 있습니다.
+이 항목에는 [!DNL Adobe Target]&#x200B;(A4T)의 보고 소스로 사용되는 [!DNL Adobe Analytics] 프로비저닝과 관련하여 자주 묻는 질문에 대한 답변이 포함되어 있습니다.
 
 ## 다중 페이지 A4T 활동을 설정하려면 어떻게 해야 합니까?
 

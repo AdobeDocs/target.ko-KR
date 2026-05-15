@@ -7,10 +7,19 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: a00b4732-2740-4b35-a1c5-1ef2d78fecff
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/-BmxtsKOxfRUkORIz2P-sWTDLCg323cu7FSbdt6SAa4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 6%
+source-wordcount: 198
+ht-degree: 9%
 
 ---
 
@@ -23,11 +32,11 @@ ht-degree: 6%
 다음 사용 사례를 수행하려면 다음이 필요합니다.
 
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
-* 이러한 사용 사례에는 [!DNL Adobe Target] 라이선스가 필요하지 않습니다. 이러한 사용 사례에서는 [!DNL Target]을(를) 사용하여 [!DNL Journey Optimizer]에서 익숙한 작업을 수행하는 방법을 보여 주므로 [!DNL Journey Optimizer]을(를) 통해 동일한 결과를 탐색하고 달성할 수 있습니다.
+* 이러한 사용 사례에는 [!DNL Adobe Target] 라이선스가 필요하지 않습니다. 이러한 사용 사례에서는 [!DNL Journey Optimizer]을(를) 사용하여 [!DNL Target]에서 익숙한 작업을 수행하는 방법을 보여 주므로 [!DNL Journey Optimizer]을(를) 통해 동일한 결과를 탐색하고 달성할 수 있습니다.
 
 ## 사용 사례
 
-다음 사용 사례에서는 [!DNL Target] 내에서 [!DNL Adobe Journey Optimizer]에서 익숙한 작업을 수행하는 방법을 보여 주므로 실행의 차이점과 유사성을 확인할 수 있습니다.
+다음 사용 사례에서는 [!DNL Adobe Journey Optimizer] 내에서 [!DNL Target]에서 익숙한 작업을 수행하는 방법을 보여 주므로 실행의 차이점과 유사성을 확인할 수 있습니다.
 
 이러한 사용 사례는 웹 및 코드 기반 채널과 관련이 있습니다.
 

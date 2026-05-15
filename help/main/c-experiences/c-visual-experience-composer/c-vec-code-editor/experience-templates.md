@@ -1,13 +1,18 @@
 ---
-keywords: 경험 템플릿;사용자 지정 코드;배너;lightbox;캐러셀;카운트다운;리본;단추
+keywords: 경험 템플릿;사용자 지정 코드;배너;lightbox;슬라이드;카운트다운;리본;단추
 description: Adobe Target에서 일반적인 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력이 있는 사전 코딩된 샘플인 경험 템플릿을 사용하는 방법을 알아봅니다.
 title: Target에서 사용할 수 있는 경험 템플릿은 무엇입니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/0FXZ1swtrMyiz9mT8tvb9VIQxIIXsBrW0HelZ3sygm8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 75%
+source-wordcount: 573
+ht-degree: 60%
 
 ---
 

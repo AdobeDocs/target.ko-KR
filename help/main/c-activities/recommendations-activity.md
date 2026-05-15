@@ -4,10 +4,16 @@ description: 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수
 title: 권장 사항 활동에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Recommendations
 exl-id: e4bc6e3b-a84d-4a8f-988e-a7f734892963
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/LwiP0qW5PgOULjotz6ScScBmyHvmDKp8SdJytGWZogs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 32%
+source-wordcount: 81
+ht-degree: 33%
 
 ---
 

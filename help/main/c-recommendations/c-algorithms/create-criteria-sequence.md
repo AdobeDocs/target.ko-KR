@@ -5,9 +5,14 @@ title: 권장 사항에서 기준 시퀀스를 만들려면 어떻게 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: 763
 ht-degree: 18%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->기준 시퀀스를 2016년 10월 릴리스([!UICONTROL Recommendations]) 이전에 만든 [!DNL Target Premium] 활동과 함께 사용할 수 없습니다.
+>기준 시퀀스를 2016년 10월 릴리스([!DNL Target Premium]) 이전에 만든 [!UICONTROL Recommendations] 활동과 함께 사용할 수 없습니다.
 
 기준 시퀀스를 만들려면 먼저 시퀀스에 포함할 기준을 만들어야 합니다. 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
 
