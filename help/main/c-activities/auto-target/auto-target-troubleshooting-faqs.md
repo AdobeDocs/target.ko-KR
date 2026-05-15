@@ -2,19 +2,22 @@
 keywords: 자동 타겟;타기팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제해결;트래픽
 description: '[!UICONTROL Auto-Target] 활동에 대한 문제 해결 주제 및 FAQ를 살펴봅니다.'
 title: '[!UICONTROL Auto-Target] 활동 문제를 해결하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e
+TQID: https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: 1874
 ht-degree: 32%
 
 ---
 
 # [!UICONTROL Auto-Target]개의 FAQ 및 문제 해결
 
-[!UICONTROL Auto-Target]의 [!DNL Adobe Target] 활동에 대한 문제 해결 및 자주 묻는 질문.
+[!DNL Adobe Target]의 [!UICONTROL Auto-Target] 활동에 대한 문제 해결 및 자주 묻는 질문.
 
 ## [!UICONTROL Auto-Target]개의 자주 묻는 질문 {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
@@ -35,7 +38,7 @@ ht-degree: 32%
 
 +++
 
-### 모델이 빌드될 때까지 90(제어)/10(목표값) 분할로 [!UICONTROL Adobe]을(를) 사용하는 것이 좋습니까?[!UICONTROL Auto Target]
+### 모델이 빌드될 때까지 90(제어)/10(목표값) 분할로 [!UICONTROL Auto Target]을(를) 사용하는 것이 좋습니까?[!UICONTROL Adobe]
 
 +++답변 
 최적의 트래픽 할당 분할은 수행할 작업에 따라 달라집니다.
@@ -52,7 +55,7 @@ No, check marks for model generation show only the models built to date. There's
 
 +++
 
-### 방문자가 **활동을**&#x200B;보지[!UICONTROL Auto-Target]하고 전환하는 경우 활동에서 전환이 카운트됩니까?
+### 방문자가 [!UICONTROL Auto-Target] 활동을 **보지**&#x200B;하고 전환하는 경우 활동에서 전환이 카운트됩니까?
 
 +++답변
 아니요. [!UICONTROL Auto-Target] 활동에 대한 자격이 있고 이 활동을 보는 방문자만 보고에서 카운트됩니다.
@@ -89,7 +92,7 @@ A/B 테스트 결과에 경험들 중 하나 이상에서 통계적으로 의미
 +++답변
 일반적으로 [!UICONTROL Auto-Target] 활동에 모델을 만드는 데 걸리는 시간은 선택한 활동 위치에 대한 트래픽 및 활동 성공 지표와 관련된 전환율에 따라 다릅니다.
 
-[!UICONTROL Auto-Target]은(는) 해당 경험에 대해 50개 이상의 전환이 있을 때까지 해당 경험에 대한 개인화된 모델을 구축하려고 시도하지 않습니다. 더욱이, 구축된 모델의 품질이 충분하지 않다면([AUC라고 알려진 메트릭 &#x200B;](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)을(를) 사용하여 홀드아웃 &quot;테스트&quot; 데이터에 대한 오프라인 평가에 의해 결정됨), 모델은 개인화된 방식으로 트래픽을 서비스하는 데 사용되지 않습니다.
+[!UICONTROL Auto-Target]은(는) 해당 경험에 대해 50개 이상의 전환이 있을 때까지 해당 경험에 대한 개인화된 모델을 구축하려고 시도하지 않습니다. 더욱이, 구축된 모델의 품질이 충분하지 않다면([AUC라고 알려진 메트릭 ](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)을(를) 사용하여 홀드아웃 &quot;테스트&quot; 데이터에 대한 오프라인 평가에 의해 결정됨), 모델은 개인화된 방식으로 트래픽을 서비스하는 데 사용되지 않습니다.
 
 [!UICONTROL Auto-Target]의 모델 구축에 대해 몇 가지 더 유의해야 할 사항은 다음과 같습니다.
 
@@ -129,14 +132,14 @@ AP ([자동화된 맞춤설정](/help/main/c-activities/t-automated-personalizat
 +++답변
 Adobe에서는 활동 중간에 목표 지표를 변경하지 않는 것이 좋습니다. [!DNL Target] UI를 사용하는 활동 중에 목표 지표를 변경할 수 있지만 항상 새 활동을 시작해야 합니다. Adobe은 활동이 실행된 후 목표 지표를 변경하면 어떤 일이 발생하는지 보증하지 않습니다.
 
-이 권장 사항은 [!UICONTROL Auto-Allocate] 또는 [!UICONTROL Auto-Target]&#x200B;(A4T)을 보고 소스로 사용하는 [!UICONTROL Automated Personalization], [!DNL Target] 및 [!DNL Analytics] 활동에 적용됩니다.
+이 권장 사항은 [!DNL Target] 또는 [!DNL Analytics]&#x200B;(A4T)을 보고 소스로 사용하는 [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에 적용됩니다.
 
 +++
 
-### [!UICONTROL Reset Report Data] 활동을 실행하는 동안 [!UICONTROL Auto-Target] 옵션을 사용할 수 있습니까?
+### [!UICONTROL Auto-Target] 활동을 실행하는 동안 [!UICONTROL Reset Report Data] 옵션을 사용할 수 있습니까?
 
 +++답변
-[!UICONTROL Reset Report Data] 활동에 [!UICONTROL Auto-Target] 옵션을 사용하는 것은 권장되지 않습니다. 이 옵션을 사용하면 표시되는 보고 데이터는 제거되지만 [!UICONTROL Auto-Target] 모델에서 모든 교육 기록이 제거되지는 않습니다. [!UICONTROL Reset Report Data] 활동에 [!UICONTROL Auto-Target] 옵션을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화하십시오.
+[!UICONTROL Auto-Target] 활동에 [!UICONTROL Reset Report Data] 옵션을 사용하는 것은 권장되지 않습니다. 이 옵션을 사용하면 표시되는 보고 데이터는 제거되지만 [!UICONTROL Auto-Target] 모델에서 모든 교육 기록이 제거되지는 않습니다. [!UICONTROL Auto-Target] 활동에 [!UICONTROL Reset Report Data] 옵션을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화하십시오.
 
 이 지침은 [!UICONTROL Auto-Allocate] 및 [!UICONTROL Automated Personalization] 활동에도 적용됩니다.
 

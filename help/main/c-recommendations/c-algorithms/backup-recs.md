@@ -2,13 +2,17 @@
 keywords: 권장 사항;백업;백업
 description: Adobe [!DNL Target Recommendations]에서 백업 권장 사항을 사용하는 방법을 알아봅니다.
 title: ' [!DNL Target Recommendations]에서 백업 권장 사항을 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/TziWJoAuEdCqa7uMTpX0O0InnlnjtbPXP-0wzQ-FCM0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 70%
+source-wordcount: 527
+ht-degree: 69%
 
 ---
 
@@ -20,7 +24,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->[&#x200B; 및 &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 옵션을 함께 사용하거나 별도로 사용할 때 관찰할 결과를 설명하는 행렬을 포함하여 추가 정보는 기준 만들기[!UICONTROL Partial Design Rendering] 주제의 [!UICONTROL Show Backup Recommendations]콘텐츠 섹션에 포함되어 있습니다.
+>[!UICONTROL Partial Design Rendering] 및 [!UICONTROL Show Backup Recommendations] 옵션을 함께 사용하거나 별도로 사용할 때 관찰할 결과를 설명하는 행렬을 포함하여 추가 정보는 기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 주제의 [콘텐츠 섹션에 포함되어 있습니다.
 
 백업 권장 사항 기능은 항상 사이트에서 가장 많이 본 항목을 사용하여 알고리즘 데이터가 사용된 후 나머지 슬롯을 채웁니다. 예를 들어, 템플릿이 권장된 5개 항목을 표시하도록 구성되었고 *구매 친화성* 알고리즘을 사용하고 있지만 데이터가 5개 슬롯 중 2개만 채울 수 있는 경우 백업 권장 사항 기능은 가장 많이 본 항목으로 다른 세 개의 슬롯을 채웁니다.
 

@@ -2,13 +2,19 @@
 keywords: 작업 공간;속성 관리;권한;제품 구성;제품 프로필;역할;프로젝트;관찰자;편집자;승인자;게시자
 description: 개별 작업 공간(제품 프로필)을 만든 다음 사용자에게 개별 페이지, 속성 또는 웹 사이트에 대한 다양한 역할과 권한을 할당하는 방법을 알아봅니다.
 title: 엔터프라이즈 사용자 권한이란 무엇이며 어떻게 사용할 수 있습니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/-BGfedOu33CmhLMoKT543SebVtnp-H3DiWhmwO9OkCw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: e22d67ea-317b-44f8-abd1-52e07f636ca8id: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3166'
+source-wordcount: 3199
 ht-degree: 48%
 
 ---
@@ -27,9 +33,9 @@ ht-degree: 48%
 >
 >[!DNL Target] 구현에서는 모든 버전의 at.js 또는 [!DNL Adobe Experience Platform Web SDK]을(를) 사용할 수 있습니다.
 
-[!UICONTROL Administration] UI의 맨 위에서 [!DNL Target] 링크를 클릭하여 조직에 Standard 라이센스나 Premium 라이센스가 있는지 여부를 알 수 있습니다.
+[!DNL Target] UI의 맨 위에서 [!UICONTROL Administration] 링크를 클릭하여 조직에 Standard 라이센스나 Premium 라이센스가 있는지 여부를 알 수 있습니다.
 
-* **[!DNL Target Standard]고객**: [!UICONTROL Users] 탭이 아닌 [!UICONTROL Administration > Users] 탭([!UICONTROL Properties])이 표시되면 조직에 [!DNL Target Standard] 라이선스가 있는 것입니다. [!DNL Target Standard] 고객은 [사용자](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
+* **[!DNL Target Standard]고객**: [!UICONTROL Properties] 탭이 아닌 [!UICONTROL Users] 탭([!UICONTROL Administration > Users])이 표시되면 조직에 [!DNL Target Standard] 라이선스가 있는 것입니다. [!DNL Target Standard] 고객은 [사용자](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
 
 * **[!DNL Target Premium]고객**: [!UICONTROL Properties] 탭([!UICONTROL Administration > Properties])과 [!UICONTROL Users] 탭이 표시되면 조직에 [!DNL Target Premium] 라이선스가 있습니다. [!DNL Target Premium] 고객은 이 문서와 [엔터프라이즈 권한 구성](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
 
@@ -57,13 +63,13 @@ ht-degree: 48%
 
 작업 공간을 사용하면 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 공간은 [!DNL Adobe Analytics]의 보고서 세트와 비슷합니다.
 
-참고: 작업 공간은 [!UICONTROL Product Profiles]에서 [!DNL Adobe Admin Console for Enterprise]&#x200B;(으)로 알려져 있습니다.
+참고: 작업 공간은 [!DNL Adobe Admin Console for Enterprise]에서 [!UICONTROL Product Profiles]&#x200B;(으)로 알려져 있습니다.
 
 다국적 조직에 속하는 경우 유럽 웹 페이지, 속성 또는 사이트를 위한 작업 공간과 미국 웹 페이지, 속성 또는 사이트를 위한 또 다른 작업 공간이 있을 수 있습니다. 복수 브랜드 조직에 속하는 경우에는 각 브랜드를 위한 독립된 작업 공간이 있을 수 있습니다.
 
 사용자는 여러 작업 공간에 속할 수 있으며, 각 작업 공간에서 서로 다른 역할을 가질 수도 있습니다.
 
-[!DNL Adobe Target] 사용자가 보고서 세트 간에 이동하여 [!DNL Analytics]의 다른 보기를 갖는 방법과 유사하게 작업 영역 간에 이동하여 [!DNL Analytics]의 다른 보기를 가질 수 있습니다.
+[!DNL Analytics] 사용자가 보고서 세트 간에 이동하여 [!DNL Analytics]의 다른 보기를 갖는 방법과 유사하게 작업 영역 간에 이동하여 [!DNL Adobe Target]의 다른 보기를 가질 수 있습니다.
 
 작업 공간에는 완전히 다른 대상, 코드 오퍼 및 활동이 포함될 수 있습니다.
 
@@ -197,7 +203,7 @@ ht-degree: 48%
 * **활동 만들기:** 활동을 만들 때 현재 선택한 작업 영역에서 만들어집니다. 활동에 대해 원하는 채널(웹, 모바일 앱, 이메일 또는 기타/API)을 선택할 수 있는 첫 번째 대화 상자에 채널 선택 옵션이 표시됩니다.
 
 * **대상 만들기:** 대상을 만들면 현재 선택한 작업 영역에서 만들어집니다.
-* **대상 목록:** [!UICONTROL More Actions] 페이지에서 [!DNL Move] > [!UICONTROL Audiences] 옵션을 사용하여 작업 영역 간에 대상을 이동할 수 있습니다.
+* **대상 목록:** [!UICONTROL Audiences] 페이지에서 [!UICONTROL More Actions] > [!DNL Move] 옵션을 사용하여 작업 영역 간에 대상을 이동할 수 있습니다.
 * **오퍼 만들기:** 오퍼를 만들 때 현재 선택한 작업 영역에 오퍼가 만들어집니다.
 * **속성 페이지(관리 > 속성):** [!UICONTROL Search] 상자를 사용하여 [!UICONTROL Property] 목록을 검색할 수 있습니다.
 
@@ -267,7 +273,7 @@ ht-degree: 48%
 
 ### 한 작업 영역에서 다른 작업 영역으로 대상자를 이동할 수 있습니까? {#move-audience}
 
-예. [!UICONTROL More Actions] 페이지에서 [!UICONTROL Audiences] 옵션을 사용하여 작업 영역 간에 대상자를 이동할 수 있습니다.
+예. [!UICONTROL Audiences] 페이지에서 [!UICONTROL More Actions] 옵션을 사용하여 작업 영역 간에 대상자를 이동할 수 있습니다.
 
 1. **[!UICONTROL More Actions]** 단추(3개의 줄임표)를 클릭한 다음 **[!UICONTROL Move]**&#x200B;을(를) 클릭합니다.
 
@@ -283,7 +289,7 @@ ht-degree: 48%
 
 ### 속성이 지정된 경우에도 이 활동과 연결되어 있지 않다는 오류 메시지가 표시되는 이유는 무엇입니까?
 
-[!DNL Target]의 태그로 [!DNL Adobe Experience Platform]을(를) 구현했으며 활동과 연결된 속성이 없다는 오류 메시지가 나타나면 `at_property` 함수와 함께 `targetPageParams` 매개 변수를 전달합니다.
+[!DNL Adobe Experience Platform]의 태그로 [!DNL Target]을(를) 구현했으며 활동과 연결된 속성이 없다는 오류 메시지가 나타나면 `targetPageParams` 함수와 함께 `at_property` 매개 변수를 전달합니다.
 
 ### 리디렉션된 페이지와 활동 URL이 다른 속성에 속하는 경우 클릭 추적 전환이 기록됩니까?
 
@@ -311,7 +317,7 @@ ht-degree: 48%
 * 속성 및 작업 공간의 개념과 이러한 경계 및 그룹화를 통해 사용자의 액세스 수준을 제어하는 방법
 * 조직이 고려할 다양한 속성 예제
 
->[!VIDEO](https://video.tv.adobe.com/v/3421740?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
 ### 운영 시간: [!DNL Target] Premium 작업 공간
 

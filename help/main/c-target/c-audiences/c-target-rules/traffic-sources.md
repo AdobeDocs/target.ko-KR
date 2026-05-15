@@ -4,9 +4,13 @@ description: Adobe [!DNL Target] 에서 사이트를 안내하는 검색 엔진 
 title: 검색 엔진 또는 참조 사이트를 기반으로 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/rRGb2gG1f43Y3lapuZlQMdVYx7cc-fe1IMCjLS2km5I
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: 240
 ht-degree: 53%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 53%
 여러 트래픽 소스를 결합하여 복잡한 타깃팅 규칙을 만들 수 있습니다.
 
 1. [!DNL Target] 인터페이스에서 **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
-1. &#x200B;
+1. 
    1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
 1. **[!UICONTROL Traffic Sources]**&#x200B;을(를) 대상 빌더 창으로 끌어서 놓습니다.
 

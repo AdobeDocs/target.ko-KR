@@ -2,20 +2,26 @@
 keywords: 사용자 추가;프로젝트;사용자 그룹;속성;작업 공간;속성 관리;속성;at_property;역할;권한
 description: Adobe Target에 사용자를 추가하고, 작업 공간, 사용자 그룹 및 속성을 만들고, 구현을 업데이트하고, 역할 및 권한을 지정하는 방법을 알아봅니다.
 title: 엔터프라이즈 권한은 어떻게 구성합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
+TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cd7b6938-5837-4ee0-9790-5840997133d9id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 56%
+source-wordcount: 1476
+ht-degree: 55%
 
 ---
 
 # Enterprise 권한 구성
 
-[!DNL Target] 구현에 사용자를 추가하고, 작업 공간, 사용자 그룹 및 속성을 만들고, [!DNL Target] 매개 변수를 포함하도록 `at_property` 구현을 업데이트하고, 역할 및 권한을 지정하는 데 필요한 작업에 대한 정보입니다.
+[!DNL Target] 구현에 사용자를 추가하고, 작업 공간, 사용자 그룹 및 속성을 만들고, `at_property` 매개 변수를 포함하도록 [!DNL Target] 구현을 업데이트하고, 역할 및 권한을 지정하는 데 필요한 작업에 대한 정보입니다.
 
 >[!NOTE]
 >
@@ -29,7 +35,7 @@ ht-degree: 56%
 | &#x200B;2. 작업 공간(제품 프로필) 만들기 | [!DNL Adobe Admin Console for Enterprise] |
 | &#x200B;3. 사용자 그룹 만들기(선택 사항) | [!DNL Adobe Admin Console for Enterprise] |
 | &#x200B;4. 속성 만들기 | [!DNL Target] UI |
-| 5: `at_property` 매개 변수를 포함하도록 구현 업데이트 | [!DNL Target]의 [!DNL Adobe Experience Platform] UI, at.js 함수 또는 태그 |
+| 5: `at_property` 매개 변수를 포함하도록 구현 업데이트 | [!DNL Adobe Experience Platform]의 [!DNL Target] UI, at.js 함수 또는 태그 |
 | 6: 역할 및 권한 지정 | [!DNL Adobe Admin Console for Enterprise] |
 
 [!DNL Adobe Admin Console for Enterprise]에서 수행되는 작업의 경우 다음 단계에 따라 콘솔에 액세스하십시오.
@@ -48,7 +54,7 @@ ht-degree: 56%
 새 [!UICONTROL Properties] 기능을 사용하려면 [!DNL Adobe Admin Console for Enterprise]에서 모든 사용자 관리를 수행해야 합니다. 그러나 [!DNL Target]의 모든 기존 사용자는 [!DNL Target]에서 [!DNL Admin Console for Enterprise]로 마이그레이션됩니다.
 
 1. [Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 페이지 상단의 **[!UICONTROL Users]** 탭 > **[!UICONTROL Add Users]**&#x200B;을(를) 클릭하여 새 사용자를 만들거나 기존 사용자를 편집합니다.
-1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/kr/enterprise/help/users.html)에 있는 지침을 따릅니다.
+1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## 2단계. 작업 공간(제품 프로필) 만들기 {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
@@ -77,14 +83,14 @@ ht-degree: 56%
 
    이러한 작업 공간을 사용하여 지역, 사업부, 사이트 섹션별로 또는 선택한 다른 방법을 통해 여러 다른 팀에 대한 액세스를 구분할 수 있습니다. 사용자는 여러 작업 공간에 속할 수 있으며, 각 작업 공간에서 서로 다른 역할을 가질 수 있습니다.
 
-1. *Enterprise 사용 안내서*&#x200B;에 포함된 [제품 구성 만들기 및 관리](https://helpx.adobe.com/kr/enterprise/help/manage-products-and-configurations.html)의 지침에 따르십시오.
+1. *Enterprise 사용 안내서*&#x200B;에 포함된 [제품 구성 만들기 및 관리](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)의 지침에 따르십시오.
 
 >[!NOTE]
 >작업 공간 구성에 대한 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
 ### 작업 공간 ID 얻기 {#workspace-id}
 
-[Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}에서 엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야 합니다.
+[Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}에서 엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야 합니다.
 
 1. [Adobe Admin Console](https://adminconsole.adobe.com)에서 [!UICONTROL Products] 탭을 클릭한 다음 왼쪽 메뉴에서 제품을 클릭하여 PLC(작업 공간) 목록을 표시합니다.
 1. 원하는 PLC(작업 공간)를 클릭한 다음 아래 표시된 대로 URL에서 &quot;프로필&quot; ID를 찾습니다.
@@ -96,11 +102,11 @@ ht-degree: 56%
 개발자, 분석가, 마케터, 경영진 등과 같은 사용자 그룹을 만든 다음 여러 Adobe 제품 및 작업 공간에서 권한을 지정할 수 있습니다. 새 팀 구성원에게 다른 Adobe 제품에 대한 모든 적절한 권한을 지정하면 특정 사용자 그룹에 팀 구성원을 쉽게 추가할 수 있습니다.
 
 1. Admin Console에서 페이지 상단의 **[!UICONTROL Users]** 탭 > **[!UICONTROL User Groups]**&#x200B;을(를) 클릭하여 새 사용자 그룹을 만들거나 기존 사용자 그룹을 편집합니다.
-1. *Enterprise 사용 안내서*&#x200B;에 포함된 [제품 구성의 사용자 및 그룹 관리](https://helpx.adobe.com/kr/enterprise/help/manage-products-and-configurations.html)의 지침을 따르십시오.
+1. *Enterprise 사용 안내서*&#x200B;에 포함된 [제품 구성의 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)의 지침을 따르십시오.
 
 ## 4단계. 속성 만들기 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-[!DNL Target]에 대한 모든 호출([!DNL Target] 호출, API 호출 등)을 사용하여 특정 이름/값 쌍을 매개 변수로 추가하여 속성을 사용하도록 설정합니다.
+모든 호출([!DNL Target] 호출, API 호출 등)을 사용하여 특정 이름/값 쌍을 매개 변수로 추가하여 속성을 사용하도록 설정합니다. 을(를) [!DNL Target]&#x200B;(으)로 설정합니다.
 
 속성은 특정 채널(웹, 모바일, 이메일 및 API/기타)에 속합니다.
 
@@ -115,7 +121,7 @@ ht-degree: 56%
    * **설명:** 속성에 대한 선택적 설명을 지정합니다.
    * **채널:**&#x200B;속성에 대해 원하는 채널, 즉 웹, 모바일 앱, 이메일 또는 기타/API(예를 들어 셋톱 박스 또는 PlayStation 콘솔)를 선택합니다.
 
-1. **[!UICONTROL Copy]** 5: at_property 매개 변수를 포함하도록 구현 업데이트[의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사하려면 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)을(를) 클릭하십시오.
+1. [5: at_property 매개 변수를 포함하도록 구현 업데이트](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사하려면 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하십시오.
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
@@ -123,7 +129,7 @@ ht-degree: 56%
 
 ## 5단계: at_property 매개 변수를 포함하도록 구현 업데이트 {#section_9B17A59807A94712BE642942442EBBC8}
 
-[!DNL Target] 사용자 권한 기능을 사용하려면 `at_property`에 연결하는 모든 호출(Target 호출, api 호출 등)에 [!DNL Target] 매개 변수를 추가해야 합니다.
+[!DNL Target] 사용자 권한 기능을 사용하려면 [!DNL Target]에 연결하는 모든 호출(Target 호출, api 호출 등)에 `at_property` 매개 변수를 추가해야 합니다.
 
 **`at_property` 매개 변수 코드를 획득하려면:**
 
@@ -145,7 +151,7 @@ ht-degree: 56%
 
    * **[!DNL Adobe Experience Platform]:** 내의 태그에 있는 &quot;사용자 지정 매개 변수&quot;를 통해
 
-     자세한 내용은 [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=ko#add-mbox-params) 설명서에서 *Mbox 매개 변수 추가*&#x200B;를 참조하십시오.
+     자세한 내용은 *태그 개요* 설명서에서 [Mbox 매개 변수 추가](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params)를 참조하십시오.
 
    * **targetPageParamsAll() 함수를 통해:** at.js 참조 위의 `<head>` 태그에 다음 코드를 넣습니다.
 
@@ -159,7 +165,7 @@ ht-degree: 56%
      </script>
      ```
 
-     at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=ko){target=_blank}을 참조하십시오.
+     at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}을 참조하십시오.
 
 ## 6단계: 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -188,7 +194,7 @@ ht-degree: 56%
    | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
    | 게시자 | 관찰자 역할(활동을 볼 수 있지만 만들거나 편집할 수는 없음)과 유사합니다. 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 
-   자세한 내용은 *Enterprise 사용 안내서*&#x200B;의 [Admin Console에서 제품 권한 및 역할 관리](https://helpx.adobe.com/kr/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
+   자세한 내용은 *Enterprise 사용 안내서*&#x200B;의 [Admin Console에서 제품 권한 및 역할 관리](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
 
 ## 교육 비디오
 
@@ -210,7 +216,7 @@ ht-degree: 56%
 
 * 기본 작업 영역 이해
 
->[!VIDEO](https://video.tv.adobe.com/v/3421734?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
 ### Adobe Target에서 속성을 만드는 방법(3:05) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

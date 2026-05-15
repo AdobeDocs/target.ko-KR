@@ -1,12 +1,15 @@
 ---
 keywords: 경험 타깃팅;xt;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
-description: ' [!DNL Adobe Target] [!UICONTROL Experience Targeting], [!UICONTROL Conversion] 또는 [!UICONTROL Revenue]과(와) 같이 방문이 성공적으로 수행된 시기를 확인하기 위해 [!UICONTROL Engagement] 활동에 지표를 지정하는 방법을 알아봅니다.'
+description: '[!UICONTROL Conversion], [!UICONTROL Revenue] 또는 [!UICONTROL Engagement]과(와) 같이 방문이 성공적으로 수행된 시기를 확인하기 위해  [!DNL Adobe Target] [!UICONTROL Experience Targeting] 활동에 지표를 지정하는 방법을 알아봅니다.'
 title: '[!UICONTROL Experience Targeting] 활동에서 목표 지표를 설정하려면 어떻게 해야 합니까?'
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
-source-git-commit: d7c1bbbbc8d1dcc45ac09a09f6b3be01f7542384
+TQID: https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: 325
 ht-degree: 56%
 
 ---

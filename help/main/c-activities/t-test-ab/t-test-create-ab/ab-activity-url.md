@@ -5,9 +5,12 @@ title: A/B 활동의 활동 URL이란 무엇입니까?
 feature: A/B Tests
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
 reason: republish
-source-git-commit: 8f69c511386cc4c840ea77182dacab0b73c55fd9
+TQID: https://experienceleague.adobe.com/arQWsSfBKYtrayq9AI8ejU1T-Uor-oL5j2Sp2JKKXZE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: 279
 ht-degree: 32%
 
 ---
@@ -48,7 +51,7 @@ ht-degree: 32%
 
    [!DNL Target]의 JavaScript 코드가 포함되지 않은 사이트 URL을 입력하면 페이지 요소를 선택할 수 없습니다.
 
-   기본적으로 [!UICONTROL Visual Experience Composer]에서는 회전 배너와 같은 JavaScript이 포함된 요소를 변경할 수 없습니다. **[!UICONTROL Render using JavaScript]**&#x200B;을(를) 사용하여 해당 요소를 변경하려면 [!UICONTROL Visual Experience Composer]을(를) 끌 수 있습니다.—>
+   기본적으로 [!UICONTROL Visual Experience Composer]에서는 회전 배너와 같은 JavaScript이 포함된 요소를 변경할 수 없습니다. [!UICONTROL Visual Experience Composer]을(를) 사용하여 해당 요소를 변경하려면 **[!UICONTROL Render using JavaScript]**&#x200B;을(를) 끌 수 있습니다.—>
 
 >[!NOTE]
 >

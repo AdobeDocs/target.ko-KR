@@ -4,16 +4,20 @@ description: 비시각적 경험 작성에 Adobe [!DNL Target] 양식 기반 경
 title: 양식 기반 경험 작성기를 사용하려면 어떻게 해야 합니까?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+TQID: https://experienceleague.adobe.com/X67IwQIWaOUNZECFjyXCAFsxEr3-FunVIhlRugKsWm8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: 886
 ht-degree: 33%
 
 ---
 
 # 양식 기반 경험 작성기
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) VEC([!UICONTROL A/B Test])를 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization], [!UICONTROL Recommendations] 및 [!UICONTROL Visual Experience Composer] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 경험 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) VEC([!UICONTROL Visual Experience Composer])를 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] 및 [!UICONTROL Recommendations] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 경험 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
 
 [!UICONTROL Recommendations] 활동을 만드는 경우 경험이 없습니다. 기준 및 디자인을 선택합니다. 여러 기준이나 디자인을 선택하면 [!UICONTROL Target]에서 자동으로 경험을 생성합니다.
 
@@ -21,7 +25,7 @@ ht-degree: 33%
 
    [!UICONTROL Form-Based Experience Composer]은(는) [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] 및 [!UICONTROL Recommendations] 활동에 사용할 수 있습니다.
 
-1. **[!UICONTROL Form]** 대화 상자에서 [!UICONTROL Create Activity] 선택
+1. [!UICONTROL Create Activity] 대화 상자에서 **[!UICONTROL Form]** 선택
 
 1. (조건부) [Target Premium 고객](/help/main/c-intro/intro.md#premium)인 경우 **[!UICONTROL Choose Workspace]** 드롭다운 목록에서 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을(를) 선택하십시오.
 
@@ -35,7 +39,7 @@ ht-degree: 33%
 
    [!UICONTROL Recommendations] 활동을 만드는 경우 이 화면은 다릅니다. [!UICONTROL Recommendations] 활동에 경험이 포함되어 있지 않습니다.
 
-1. &#x200B;
+1. 
    1. **[!UICONTROL Rename]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭하고 **[!UICONTROL Rename]**&#x200B;을 클릭한 다음 활동의 이름을 지정하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
@@ -70,7 +74,7 @@ ht-degree: 33%
 
    >[!NOTE]
    >
-   >활동을 만드는 동안 수동으로 입력한 위치를 만들어도 새 위치가 자동으로 만들어지지 않습니다. 위치 이름은 활동의 컨텍스트에서만 저장됩니다. 위치는 콘텐츠 게재 호출이 있을 때 만들어집니다. 위치가 생성되면 다른 활동에서 사용하거나 대상 만들기 등에 사용할 수 있습니다. 사용 가능한 위치 드롭다운 목록에서 선택합니다.
+   >활동을 만드는 동안 수동으로 입력한 위치를 만들어도 새 위치가 자동으로 만들어지지 않습니다. 위치 이름은 활동의 컨텍스트에서만 저장됩니다. 위치는 콘텐츠 게재 호출이 있을 때 만들어집니다. 위치가 만들어지면 사용 가능한 위치 드롭다운 목록에서 다른 활동, 대상 만들기 등에서 사용할 수 있습니다.
 
 1. **[!UICONTROL Add Audience Refinements]**&#x200B;을(를) 클릭하고 이 활동에 대해 하나 이상의 [대상](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을(를) 선택한 다음 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
@@ -120,7 +124,7 @@ ht-degree: 33%
 
    양식 기반 경험 작성기에서 권장 사항 기준을 선택하는 동안 선택한 기준 카드에 직접 연결되는 링크가 있으므로 기준을 빠르고 쉽게 편집할 수 있습니다.
 
-   [!UICONTROL Targeting]의 [!DNL Target] 페이지에서 안내가 있는 3단계 워크플로:
+   [!DNL Target]의 [!UICONTROL Targeting] 페이지에서 안내가 있는 3단계 워크플로:
 
    **오퍼 결정 추가:**
 

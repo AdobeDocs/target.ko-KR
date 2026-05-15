@@ -1,14 +1,20 @@
 ---
-keywords: 호스트;호스트 그룹;문제 해결;우수 사례;ubox;리디렉션;리디렉션;목록;허용 목록;차단 목록;차단 목록;허용 목록 차단 목록에 추가하다
+keywords: 호스트;호스트 그룹;문제 해결;우수 사례;ubox;리디렉션;리디렉션;목록;허용 목록;차단 목록;차단 목록;허용 목록
 description: Adobe Target에서 간편한 관리 및 개별 보고를 위해 웹 사이트 및 사전 프로덕션 환경을 구성하는 방법에 대해 알아봅니다.
 title: 호스트는 무엇이며 어떻게 사용할 수 있습니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
+TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 17%
+source-wordcount: 1043
+ht-degree: 16%
 
 ---
 
@@ -18,9 +24,9 @@ ht-degree: 17%
 
 호스트 관리의 기본 목적은 비활성화 상태 컨텐츠가 실수로 웹 사이트에 나타나지 않도록 하는 것입니다. 호스트 관리를 사용하면 보고서 데이터를 [환경](/help/main/administrating-target/environments.md)별로 구분할 수도 있습니다.
 
-호스트는 [!DNL Target] 요청이 수행된 모든 도메인입니다. 웹 사이트에서는 일반적으로 `location.hostname`을(를) 요청하는 URL의 [!DNL Target] 속성입니다.
+호스트는 [!DNL Target] 요청이 수행된 모든 도메인입니다. 웹 사이트에서는 일반적으로 [!DNL Target]을(를) 요청하는 URL의 `location.hostname` 속성입니다.
 
-기본적으로 [!DNL Target]은(는) [!DNL Target]개의 요청을 하고 [!DNL Target]개의 응답을 받을 수 있는 호스트를 제한하지 않습니다. 새 호스트가 요청을 수행하면 자동으로 작동합니다. 이 프로세스를 통해 알 수 없거나 예상할 수 없는 다른 도메인에서 테스트할 수도 있습니다. 이 기본 동작을 재정의하려는 경우 허용 목록에 추가하다 차단 목록에 추가하다 작업을 재정의하거나 재정의하여 [!DNL Target]을(를) 사용하는 호스트를 제한하도록 설정할 수 있습니다.
+기본적으로 [!DNL Target]은(는) [!DNL Target]개의 요청을 하고 [!DNL Target]개의 응답을 받을 수 있는 호스트를 제한하지 않습니다. 새 호스트가 요청을 수행하면 자동으로 작동합니다. 이 프로세스를 통해 알 수 없거나 예상할 수 없는 다른 도메인에서 테스트할 수도 있습니다. 이 기본 동작을 재정의하려는 경우 허용 목록에 추가하다 작업을 재정의하거나 재정의하여 [!DNL Target]을(를) 사용하는 호스트를 제한하도록 설정할 수 있습니다.
 
 {{permissions-update}}
 
@@ -51,7 +57,7 @@ ht-degree: 17%
 
    기본적으로 새로 인식된 호스트는 [!UICONTROL Production] 환경에 배치됩니다. [!UICONTROL Production] 환경은 이러한 호스트에서 비활성 활동을 볼 수 없기 때문에 가장 안전한 환경입니다.
 
-1. (조건부) 호스트를 **[!UICONTROL Move]**, ![&#x200B; 또는 다른 환경으로 이동하려면 &#x200B;](/help/main/assets/icons/MoveTo.svg) 아이콘([!UICONTROL Development]이동 아이콘[!UICONTROL Staging])을 클릭합니다.
+1. (조건부) 호스트를 [!UICONTROL Development], [!UICONTROL Staging] 또는 다른 환경으로 이동하려면 **[!UICONTROL Move]** 아이콘(![이동 아이콘](/help/main/assets/icons/MoveTo.svg))을 클릭합니다.
 
 >[!NOTE]
 >
@@ -65,7 +71,7 @@ ht-degree: 17%
 
 ## [!DNL Target] 요청을 [!DNL Target]&#x200B;(으)로 보내도록 승인된 호스트를 지정하는 허용 목록을 만듭니다. {#allowlist}
 
-[!DNL Target]개의 요청을 [!DNL Target]에 보내도록 승인된 호스트(도메인)를 지정하는 허용 목록에 추가하다를 만들 수 있습니다. 요청을 생성하는 다른 모든 호스트는 주석 처리된 인증 오류 응답을 받게 됩니다. 기본적으로 [!DNL Target] 요청이 포함된 모든 호스트는 [!DNL Target] 환경에서 [!UICONTROL Production]에 등록되며 모든 활성 상태의 승인된 활동에 액세스할 수 있습니다. 이 방법을 원하지 않는 경우 대신 허용 목록에 추가하다를 사용하여 [!DNL Target]개의 요청을 하고 [!DNL Target]개의 콘텐츠를 수신할 수 있는 특정 호스트를 기록할 수 있습니다. 모든 호스트는 [!UICONTROL Hosts] 목록에 계속 표시되며, 환경은 여전히 이러한 호스트를 그룹화하고 호스트에 활성 및/또는 비활성 활동을 볼 수 있는지 여부와 같이 각 호스트에 다른 수준을 할당하는 데 사용할 수 있습니다.
+[!DNL Target]개의 요청을 [!DNL Target]에 보내도록 승인된 호스트(도메인)를 지정하는 허용 목록에 추가하다를 만들 수 있습니다. 요청을 생성하는 다른 모든 호스트는 주석 처리된 인증 오류 응답을 받게 됩니다. 기본적으로 [!DNL Target] 요청이 포함된 모든 호스트는 [!UICONTROL Production] 환경에서 [!DNL Target]에 등록되며 모든 활성 상태의 승인된 활동에 액세스할 수 있습니다. 이 방법을 원하지 않는 경우 대신 허용 목록에 추가하다를 사용하여 [!DNL Target]개의 요청을 하고 [!DNL Target]개의 콘텐츠를 수신할 수 있는 특정 호스트를 기록할 수 있습니다. 모든 호스트는 [!UICONTROL Hosts] 목록에 계속 표시되며, 환경은 여전히 이러한 호스트를 그룹화하고 호스트에 활성 및/또는 비활성 활동을 볼 수 있는지 여부와 같이 각 호스트에 다른 수준을 할당하는 데 사용할 수 있습니다.
 
 허용 목록에 추가하다를 만들려면:
 
@@ -85,7 +91,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**보안 모범 사례**: [!DNL Target]을(를) 사용하는 경우 이 허용 목록에 추가하다의 ubox 기능은 [리디렉터](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=ko){target=_blank}가 탐색할 수 있는 도메인 목록도 제어합니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가해야 합니다. 허용 목록에 추가하다를 지정하지 않고 [!DNL Adobe]을(를) 지정하지 않으면 리디렉션 URL을 확인할 수 없습니다.
+>**보안 모범 사례**: [!DNL Target]을(를) 사용하는 경우 이 허용 목록에 추가하다의 ubox 기능은 [리디렉터](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}가 탐색할 수 있는 도메인 목록도 제어합니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가해야 합니다. 허용 목록에 추가하다를 지정하지 않고 [!DNL Adobe]을(를) 지정하지 않으면 리디렉션 URL을 확인할 수 없습니다.
 >
 >허용 목록이 환경보다 우선합니다. 허용 목록에 추가하다 기능을 사용하기 전에 허용 목록에 추가하다에서 허용된 호스트를 모두 지운 다음 호스트 목록에 만 나타납니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 
@@ -93,7 +99,7 @@ ht-degree: 17%
 
 `mboxHost`가 API 호출에서 전달되는 경우 전달된 환경에 대해 전환이 기록됩니다. 환경이 전달되지 않으면 호출에 있는 호스트의 기본값이 [!UICONTROL Production]&#x200B;(으)로 설정됩니다.
 
-[!DNL Target] 상자에서 원하는 호스트를 추가하여 [!DNL Target]에 [!UICONTROL Host Does Not Contain] 요청을 보낼 수 없는 호스트(도메인)를 지정하는 차단 목록에 추가하다를 만들 수도 있습니다.
+[!UICONTROL Host Does Not Contain] 상자에서 원하는 호스트를 추가하여 [!DNL Target]에 [!DNL Target] 요청을 보낼 수 없는 호스트(도메인)를 지정하는 차단 목록에 추가하다를 만들 수도 있습니다.
 
 >[!NOTE]
 >

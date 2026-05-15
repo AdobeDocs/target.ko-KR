@@ -2,15 +2,19 @@
 keywords: 최적화;개인화;adobe 여정 최적화 프로그램;ajo;사용 사례;시나리오;콘텐츠 변경/ab 테스트;프로필 속성;이미지 변경;이미지 교체
 description: Adobe Journey Optimizer의 효과적인 A/B 테스트 콘텐츠 변경 사항 비밀 잠금 해제
 title: ' [!DNL Adobe Journey Optimizer]의 A/B 테스트를 통한 콘텐츠 변경'
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/IqNBAHefm8J-DEo2fU-Nj19AhcZg-FUPLccs2eC9yPQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 1%
+source-wordcount: 906
+ht-degree: 2%
 
 ---
 
@@ -18,7 +22,7 @@ ht-degree: 1%
 
 이 사용 사례는 [!DNL Adobe Journey Optimizer]에서 효과적인 A/B 테스트 콘텐츠 변경 내용에 대한 비밀을 잠금 해제하는 데 도움이 됩니다.
 
-이 사용 사례에서는 [&#x200B; 대신 &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md)을(를) 사용하여 [!DNL Adobe Target]의 [!DNL Journey Optimizer]A/B 테스트 활동[!DNL Adobe Target]을 통해 A/B 테스트와 같은 익숙한 작업을 수행하는 방법을 보여 줍니다.
+이 사용 사례에서는 [!DNL Adobe Target] 대신 [!DNL Journey Optimizer]을(를) 사용하여 [!DNL Adobe Target]의 [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을 통해 A/B 테스트와 같은 익숙한 작업을 수행하는 방법을 보여 줍니다.
 
 ## 이점 및 가치
 
@@ -36,7 +40,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너의 사용 가능한 옵션에 대한 자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*&#x200B;을 참조하십시오.
+>이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너의 사용 가능한 옵션에 대한 자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [웹 디자이너와 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}을 참조하십시오.
 >
 >페이지 하단에 있는 비디오가 특히 유용합니다.
 
@@ -44,7 +48,7 @@ ht-degree: 1%
 
 1. [!DNL Journey Optimizer]에서 왼쪽 레일의 **캠페인**&#x200B;을 클릭하여 [!UICONTROL Campaigns] 페이지를 표시합니다.
 
-1. **[!UICONTROL Create Campaign]** 페이지의 오른쪽 위 모서리에서 [!UICONTROL Campaigns]을(를) 클릭합니다.
+1. [!UICONTROL Campaigns] 페이지의 오른쪽 위 모서리에서 **[!UICONTROL Create Campaign]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Scheduled - Marketing]**(기본값)을 선택한 다음 **만들기**&#x200B;를 클릭하여 [!UICONTROL Campaign] 세부 정보 페이지를 표시합니다.
 
@@ -54,11 +58,11 @@ ht-degree: 1%
 
    이 사용 사례의 경우 [!UICONTROL All Visitors]에 대한 캠페인(기본값)을 활성화할 수 있습니다.
 
-1. **[!UICONTROL Action]** 섹션의 **[!UICONTROL Web]** 드롭다운 목록에서 **[!UICONTROL Action]**&#x200B;을(를) 선택한 다음 새 웹 구성을 선택하거나 만듭니다.
+1. **[!UICONTROL Action]** 섹션의 **[!UICONTROL Action]** 드롭다운 목록에서 **[!UICONTROL Web]**&#x200B;을(를) 선택한 다음 새 웹 구성을 선택하거나 만듭니다.
 
    웹 구성 또는 채널 표면은 시스템 관리자가 정의한 구성입니다. 웹 구성에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다.
 
-   자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}에서 *채널 표면 설정*&#x200B;을 참조하세요.
+   자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [채널 표면 설정](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}을 참조하세요.
 
 1. **[!UICONTROL Action]** 섹션에서 **[!UICONTROL Edit Content]**&#x200B;을(를) 클릭하여 [!DNL Journey Optimizer] 웹 디자이너에서 웹 사이트를 엽니다.
 
@@ -68,7 +72,7 @@ ht-degree: 1%
 
 1. 더 나은 성과를 확인하는 실험을 만들려면 **[!UICONTROL Create Experiment]**&#x200B;을(를) 클릭합니다.
 
-   콘텐츠 실험을 통해 메시지 콘텐츠, 주제 또는 발신자를 다양하게 설정하여 여러 처리를 정의하고 대상자에게 가장 적합한 조합을 결정할 수 있습니다. 자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}에서 *콘텐츠 실험 만들기*&#x200B;를 참조하십시오.
+   콘텐츠 실험을 통해 메시지 콘텐츠, 주제 또는 발신자를 다양하게 설정하여 여러 처리를 정의하고 대상자에게 가장 적합한 조합을 결정할 수 있습니다. 자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}를 참조하십시오.
 
 1. 성공 지표를 선택하고 클릭 작업을 수행합니다.
 
@@ -100,13 +104,13 @@ ht-degree: 1%
 
    ![Personalization 단추 추가](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
-   프로필 특성에 대한 자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}에서 *개인화 편집기 시작*&#x200B;을 참조하십시오.
+   프로필 특성에 대한 자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [개인화 편집기 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}을 참조하십시오.
 
 1. 플러스 기호를 검색하여 &quot;이름&quot; 프로필 특성을 추가하고 텍스트를 원하는 대로 조정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![이름에 대한 프로필 특성 추가](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
 
-   자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}에서 *개인화 편집기 시작*&#x200B;을 참조하세요.
+   자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [개인화 편집기 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}을 참조하세요.
 
 1. 왼쪽 위 모서리에 있는 뒤로 화살표를 클릭하여 웹 디자이너로 돌아갑니다.
 
@@ -121,9 +125,9 @@ ht-degree: 1%
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}에서 *새 보고 인터페이스 시작*&#x200B;을 참조하세요.
+자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [새 보고 인터페이스 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}을 참조하세요.
 
 >[!MORELIKETHIS]
 >
->[Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*
->[&#128279;](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer 자습서&#x200B;*에서 캠페인 만들기*
+>*Journey Optimizer 설명서에서 [웹 디자이너와 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}*
+>[*Journey Optimizer 자습서*&#x200B;에서 캠페인 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}

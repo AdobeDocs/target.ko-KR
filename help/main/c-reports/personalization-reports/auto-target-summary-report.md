@@ -2,23 +2,26 @@
 keywords: 보고서;자동 타겟;자동 타겟;AT;보고서
 description: Adobe Target에서 자동 타겟 요약 보고서를 해석하는 방법을 알아봅니다. 이 보고서에서 자동화된 세그먼트 및 중요 속성 보고서로 전환할 수 있습니다.
 title: 자동 타겟 요약 보고서는 어떻게 사용합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 37%
+source-wordcount: 628
+ht-degree: 36%
 
 ---
 
 # [!UICONTROL Auto-Target Summary report]
 
-[!UICONTROL Auto-Target Summary]의 [!DNL Adobe Target] 보고서를 해석하는 방법에 대한 정보입니다.
+[!DNL Adobe Target]의 [!UICONTROL Auto-Target Summary] 보고서를 해석하는 방법에 대한 정보입니다.
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target]은(는) [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Standard]Target Premium 라이선스[가 없는 &#x200B;](/help/main/c-intro/intro.md#premium)에는 포함되어 있지 않습니다.
+>[!UICONTROL Auto-Target]은(는) [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 없는 [!DNL Target Standard]에는 포함되어 있지 않습니다.
 
 [!UICONTROL Auto-Target Summary] 보고서를 표시하려면:
 

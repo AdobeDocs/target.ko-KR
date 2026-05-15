@@ -4,9 +4,13 @@ description: 사용자 지정된 대상을 만들고 활동에 사용할 수 있
 title: 대상을 만들려면 어떻게 합니까?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
+TQID: https://experienceleague.adobe.com/-t5UqbGCl2EwCyScCq1B8X9bWxQQYWSd0e7RBoUoYQg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: 525
 ht-degree: 48%
 
 ---
@@ -25,7 +29,7 @@ ht-degree: 48%
 
 두 부울 연산자를 혼합하여 복합 규칙을 만들 수 있지만 동일한 규칙 수준의 연산자가 일치해야 합니다. 사용자 인터페이스는 올바른 연산자를 자동으로 적용합니다.
 
-예를 들어, 다음 규칙은 [!DNL Chrome] 컴퓨터에서 ** 또는 [!DNL Firefox] [!DNL Windows]을(를) 사용하는 방문자를 타깃팅합니다.
+예를 들어, 다음 규칙은 [!DNL Windows] 컴퓨터에서 [!DNL Chrome] *또는* [!DNL Firefox]을(를) 사용하는 방문자를 타깃팅합니다.
 
 ![대상자 만들기](assets/audience_create.png)
 

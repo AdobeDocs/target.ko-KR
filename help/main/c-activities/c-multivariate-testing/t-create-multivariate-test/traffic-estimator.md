@@ -4,9 +4,12 @@ description: ' [!DNL Adobe Target] [!UICONTROL Multivariate Test] 활동을 성�
 title: '[!UICONTROL Multivariate Test]​(MVT) 활동에 필요한 트래픽의 양은 얼마입니까?'
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+TQID: https://experienceleague.adobe.com/XHBXV7Jtvp87ve4NTd-016E2dFkHTbPu-8-nY8GE-VM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: 485
 ht-degree: 21%
 
 ---
@@ -25,7 +28,7 @@ ht-degree: 21%
 
 [!UICONTROL Traffic Estimator]은(는) 테스트를 성공하기 위해 충분한 트래픽이 있는지 여부를 알 수 있는 피드백도 제공합니다.
 
-1. [!UICONTROL Experiences] 활동에 있는 [!UICONTROL Visual Experience Composer]의 [!UICONTROL Multivariate] 페이지에서 **[!UICONTROL Traffic]** 페이지의 왼쪽 상단 모서리에 있는 ![&#x200B; 아이콘(](/help/main/assets/icons/Gauge2.svg)트래픽 견적 도구 아이콘[!UICONTROL Experiences])을 클릭합니다.
+1. [!UICONTROL Multivariate] 활동에 있는 [!UICONTROL Visual Experience Composer]의 [!UICONTROL Experiences] 페이지에서 [!UICONTROL Experiences] 페이지의 왼쪽 상단 모서리에 있는 **[!UICONTROL Traffic]** 아이콘(![트래픽 견적 도구 아이콘](/help/main/assets/icons/Gauge2.svg))을 클릭합니다.
 
    [!UICONTROL Traffic Estimator]이(가) 열립니다.
 

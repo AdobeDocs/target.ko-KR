@@ -4,9 +4,12 @@ description: '[!UICONTROL Offers] 라이브러리 내에서 코드 및 이미지
 title: '[!UICONTROL Offers] 라이브러리에서 콘텐츠 관리 탐색'
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: 709
 ht-degree: 12%
 
 ---
@@ -21,7 +24,7 @@ ht-degree: 12%
 
    [!UICONTROL Offer library]을(를) 검색하고 [!UICONTROL Smart Collections]을(를) 만드는 방법에 대한 자세한 내용은 [콘텐츠 필터링 및 검색](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)을 참조하십시오.
 
-1. (조건부) 이미지 오퍼의 경우 [!UICONTROL Card View]과(와) [!UICONTROL List View] 사이를 전환하고 [!UICONTROL Card View] 라이브러리의 오른쪽 위 모서리에 있는 ![&#x200B; 아이콘(](/help/main/assets/icons/ViewCard.svg)카드 보기 아이콘[!UICONTROL List View]) 또는 ![&#x200B; 아이콘(](/help/main/assets/icons/ViewList.svg)목록 보기 아이콘[!UICONTROL Asset])을 클릭합니다.
+1. (조건부) 이미지 오퍼의 경우 [!UICONTROL Card View]과(와) [!UICONTROL List View] 사이를 전환하고 [!UICONTROL Asset] 라이브러리의 오른쪽 위 모서리에 있는 [!UICONTROL Card View] 아이콘(![카드 보기 아이콘](/help/main/assets/icons/ViewCard.svg)) 또는 [!UICONTROL List View] 아이콘(![목록 보기 아이콘](/help/main/assets/icons/ViewList.svg))을 클릭합니다.
 
 1. 다음 섹션에 설명된 대로 원하는 작업을 수행합니다.
 

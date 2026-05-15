@@ -1,17 +1,20 @@
 ---
-keywords: 시각적 경험 작성기;VEC;캐러셀
+keywords: 시각적 경험 작성기;VEC;슬라이드
 description: Adobe [!DNL Target] VEC(시각적 경험 작성기)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 알아봅니다.
 title: 시각적 경험 작성기에서 회전 메뉴를 만들려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/RN04MJgC49BI2-h2e-i-kgSRTejpLHzKACm-hOv2VCE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: 146
 ht-degree: 58%
 
 ---
 
-# 시각적 경험 작성기에서 작동하는 회전 메뉴 만들기
+# 시각적 경험 작성기에서 작동하는 슬라이드 만들기
 
 이 항목에서는 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 보여 줍니다.
 

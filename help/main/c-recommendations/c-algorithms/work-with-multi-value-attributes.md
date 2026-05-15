@@ -4,14 +4,17 @@ description: 특수 다중 값 연산자를 사용하여  [!DNL Target Recommend
 title: Recommendations에서 다중 값 속성을 사용할 수 있습니까?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/FrjVxvYfGh2o-qomXRbVh6WS6f65Mja41gBMhejEPlE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: 461
 ht-degree: 9%
 
 ---
 
-# 다중 값 특성 관련 작업
+# 다중 값 속성 관련 작업
 
 다중 값 필드로 작업하는 경우가 있습니다. 다음 예를 생각해 보십시오.
 
@@ -40,7 +43,7 @@ function targetPageParams() {
 }
 ```
 
-자세한 내용은 [사용자 지정 엔터티 특성](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)에서 *다중 값 특성 구현*&#x200B;을 참조하십시오.
+자세한 내용은 *사용자 지정 엔터티 특성*&#x200B;에서 [다중 값 특성 구현](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)을 참조하십시오.
 
 ## CSV 파일에 다중 값 엔티티 속성 전달
 

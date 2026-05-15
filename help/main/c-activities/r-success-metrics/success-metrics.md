@@ -4,10 +4,14 @@ description: 활동의 성공을 결정하는 데 도움이 되는 성공 지표
 title: 성공 지표란 무엇입니까?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
+TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 22%
+source-wordcount: 1374
+ht-degree: 23%
 
 ---
 
@@ -21,7 +25,7 @@ ht-degree: 22%
 
 [!DNL Target]에서 성공 지표는 정확한 보고 및 효과적인 추적을 위해 권장 설정으로 사전 구성됩니다.
 
-기본적으로 전환 이벤트는 **[!UICONTROL Increment count & keep user in activity]설정을 사용합니다.** 이 설정은 각 방문자가 전환으로 한 번만 계산됨을 의미합니다. 반복 전환은 계산되지 않습니다. 이러한 방문자는 세션 내내 활동 컨텐츠를 계속 볼 수 있습니다.
+기본적으로 전환 이벤트는 **[!UICONTROL Increment count & keep user in activity].** 설정을 사용합니다. 이 설정은 각 방문자가 전환으로 한 번만 계산됨을 의미합니다. 반복 전환은 계산되지 않습니다. 이러한 방문자는 세션 내내 활동 컨텐츠를 계속 볼 수 있습니다.
 
 동일한 설정을 사용하는 매출 지표의 경우, 방문자의 첫 번째 순서만 주문 세부 사항을 기록합니다. 후속 주문은 전환 수를 증가시키지만 [!UICONTROL Revenue per Visitor (RPV)], [!UICONTROL Average Order Value (AOV)] 또는 [!DNL Total Sales]과(와) 같은 매출 기반 지표에는 기여하지 않습니다. 이러한 추가 주문은 [!UICONTROL Order Details] 보고서에서도 제외됩니다.
 
@@ -29,7 +33,7 @@ ht-degree: 22%
 >
 >[Analytics를 보고 소스로 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)하는 활동의 경우 목표 지표는 항상 &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; 및 &quot;[!UICONTROL On Every Impression]&quot; 설정을 사용합니다. 이러한 설정은 *구성할 수 없습니다*.
 
-[!UICONTROL Reporting Settings] 단계 아래의 [!UICONTROL Activity Settings page]의 [!UICONTROL Goals & Settings] 섹션에서 다음 성공 지표를 구성할 수 있습니다.
+[!UICONTROL Goals & Settings] 단계 아래의 [!UICONTROL Activity Settings page]의 [!UICONTROL Reporting Settings] 섹션에서 다음 성공 지표를 구성할 수 있습니다.
 
 | 성공 지표 | 측정 방법 | 정의 |
 |--- |--- |--- |

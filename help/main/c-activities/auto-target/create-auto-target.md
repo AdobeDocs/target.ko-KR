@@ -2,19 +2,23 @@
 keywords: 자동 타겟 만들기;A/B 테스트;자동 타겟 활동;새 a/b 활동;자동 타겟;개인화된 경험에 대한 자동 타겟;개인화된;최적화
 description: '[!UICONTROL Visual Experience Composer]​(VEC)을(를) 사용하여 [!UICONTROL Auto-Target] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Auto-Target] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+TQID: https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 18%
+source-wordcount: 930
+ht-degree: 17%
 
 ---
 
 # [!UICONTROL Auto-Target] 활동 만들기
 
-[!UICONTROL Visual Experience Composer]을(를) 사용할 수 있는 페이지에서 바로 [!DNL Adobe Target] [!UICONTROL Auto-Target] 활동을 만들고 [!UICONTROL A/B Test] 내에서 해당 페이지의 부분을 수정하려면 [!DNL Target]의 [!DNL Target]&#x200B;(VEC)를 사용하십시오.
+[!DNL Target]을(를) 사용할 수 있는 페이지에서 바로 [!UICONTROL Auto-Target] [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정하려면 [!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)를 사용하십시오.
 
 >[!NOTE]
 >
@@ -74,11 +78,11 @@ ht-degree: 18%
 
 1. 페이지의 요소를 변경하여 새 경험을 만듭니다.
 
-   새 활동을 만든 후 [!UICONTROL Visual Experience Composer]의 왼쪽에 두 개의 탭([!UICONTROL Experience A] 및 [!UICONTROL Experience B])이 표시됩니다. [!UICONTROL Experience A]은(는) 제어 경험입니다. 포커스는 원하는 대로 수정할 수 있는 [!UICONTROL Experience B] 탭에 있습니다. [!UICONTROL Experience B]은(는) 테스트에 추가할 수 있는 대체 경험입니다. [!UICONTROL Add] 창 상단의 ![&#x200B; 아이콘(](/help/main/assets/icons/Add.svg)추가 아이콘[!UICONTROL Experiences])을 클릭하여 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려면 활동에서 경험 A를 삭제할 수도 있습니다.
+   새 활동을 만든 후 [!UICONTROL Visual Experience Composer]의 왼쪽에 두 개의 탭([!UICONTROL Experience A] 및 [!UICONTROL Experience B])이 표시됩니다. [!UICONTROL Experience A]은(는) 제어 경험입니다. 포커스는 원하는 대로 수정할 수 있는 [!UICONTROL Experience B] 탭에 있습니다. [!UICONTROL Experience B]은(는) 테스트에 추가할 수 있는 대체 경험입니다. [!UICONTROL Experiences] 창 상단의 [!UICONTROL Add] 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭하여 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려면 활동에서 경험 A를 삭제할 수도 있습니다.
 
    [!UICONTROL Visual Experience Composer]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)를 참조하십시오. 경험 B를 수정하려면 2단계부터 시작하십시오.
 
-1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 **[!UICONTROL Targeting]**&#x200B;의 맨 위에서 [!UICONTROL Visual Experience Composer]을(를) 클릭합니다.
+1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 [!UICONTROL Visual Experience Composer]의 맨 위에서 **[!UICONTROL Targeting]**&#x200B;을(를) 클릭합니다.
 
    흐름 다이어그램이 열립니다.
 
@@ -100,7 +104,7 @@ ht-degree: 18%
       [!UICONTROL Audience Library]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭합니다. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
 
       * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
-      * **[!UICONTROL This activity only]**: [에 저장되지 않고 현재 활동에서만 사용할 수 있는 &#x200B;](/help/main/c-target/creating-activity-only-audience.md)활동별 대상[!UICONTROL Audience Library]을 만듭니다.
+      * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만듭니다.
 
    1. 오른쪽 프레임에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
 
@@ -112,7 +116,7 @@ ht-degree: 18%
 
    다음 트래픽 할당 방법을 사용할 수 있습니다.
 
-   * **[!UICONTROL Manual (Default)]**: 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다. 
+   * **[!UICONTROL Manual (Default)]**: 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다.
 
    * **[!UICONTROL Auto-Allocate to best experience]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 성과 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [[!UICONTROL Auto-Allocate] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)를 참조하십시오.
 

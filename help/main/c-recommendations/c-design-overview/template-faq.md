@@ -2,13 +2,16 @@
 keywords: 권장 사항;자주 묻는 질문;faq
 description: ' [!DNL Target Recommendations] 디자인에 대한 FAQ 및 답변.'
 title: ' [!DNL Target Recommendations]에 대한 디자인 질문에 대한 답변은 어디에서 얻을 수 있습니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
+TQID: https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 58%
+source-wordcount: 472
+ht-degree: 57%
 
 ---
 
@@ -48,7 +51,7 @@ ht-degree: 58%
 
 ## 기존 개체 값을 빈 값으로 바꾸려면 어떻게 해야 합니까? 예를 들어 판촉 행사가 끝나면 항목의 `entity.message`을(를) 지워야 합니다. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-JavaScript 줄바꿈 없는 공백으로 보내면 됩니다. 개발자가 값으로 `\u00A0`을 보내게 하십시오. 예: `entity.message=\u00A0` null 대신 아무런 값이 표시되지 않는 경우 해당 값이 기본값이 되는 것으로 간주할 수 있습니다.
+JavaScript 줄바꿈 없는 공백으로 보내면 됩니다. 개발자가 값으로 `\u00A0`을 보내게 하십시오. 예: `entity.message=\u00A0`. null 대신 아무런 값이 표시되지 않는 경우 해당 값이 기본값이 되는 것으로 간주할 수 있습니다.
 
 ## [!DNL Recommendations] 디자인에서 프로필 스크립트를 사용할 수 있습니까? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 

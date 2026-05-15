@@ -1,15 +1,19 @@
 ---
 keywords: 경험;제어;자동화된 개인화;자동 타겟
-description: '[!UICONTROL Automated Personalization]에서 [!UICONTROL Auto-Target]​(AP) 또는  [!DNL Adobe Target] 활동을 만드는 동안 컨트롤로 사용할 환경을 선택하는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization]​(AP) 또는 [!UICONTROL Auto-Target] 활동을 만드는 동안 컨트롤로 사용할 환경을 선택하는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 특정 경험을 제어로 사용하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 39%
+source-wordcount: 783
+ht-degree: 38%
 
 ---
 

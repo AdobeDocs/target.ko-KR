@@ -1,14 +1,19 @@
 ---
 keywords: 엔티티;엔티티 속성;추천로 정보 전달;행동 데이터;데이터 카운터;상대 URL 정의;재고 수준 표시;가격 정의;수익 마진 정의;사용자 지정 속성
 description: 엔터티 특성을 사용하여  [!DNL Target] 권장 사항에 제품 또는 콘텐츠 정보를 전달하는 방법을 알아봅니다.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 title: 엔티티 속성은 어떻게 사용합니까?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
+TQID: https://experienceleague.adobe.com/GXQOxQxTV0vTYsWy9Ky9wPNEqoRSAhIA5zlBd4Cr4Ec
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 48%
+source-wordcount: 1122
+ht-degree: 45%
 
 ---
 
@@ -22,16 +27,16 @@ ht-degree: 48%
 
 다음 사항을 고려하십시오.
 
-* `entity.id`은(는) 주문 확인 페이지에 전송된 `productPurchasedId`과(와) `productId` 제품 보고서에 사용된 [!DNL Adobe Analytics]과(와) 일치해야 합니다.
+* `entity.id`은(는) 주문 확인 페이지에 전송된 `productPurchasedId`과(와) [!DNL Adobe Analytics] 제품 보고서에 사용된 `productId`과(와) 일치해야 합니다.
 * [!DNL Recommendations]에 전달하는 엔터티 특성 값은 61일 후에 만료됩니다. Adobe에서는 카탈로그의 각 항목에 대해 매월 최소 한 번씩 각 엔터티 특성의 최신 값을 [!DNL Recommendations]에 전달하는 것이 좋습니다.
 
 대부분의 사전 정의된 매개 변수는 단일 값만 허용하며 새 값이 이전 값을 덮어씁니다. `categoryId` 매개 변수에는 해당 제품을 포함하는 각 카테고리의 쉼표 구분 값 목록이 사용됩니다. 새 `categoryId` 값이 기존 값을 덮어쓰지 않지만, 대신 엔티티 업데이트(250자 제한) 중에 첨부됩니다.
 
-일반적으로 at.js 1을 사용하는 경우 표시 정보 mbox는 다음 예와 비슷합니다.*x*(`mboxCreate` 포함). 모든 엔티티 매개 변수 속성은 대소문자를 구분합니다.
+일반적으로 `mboxCreate`에서 at.js 1.*x*&#x200B;을(를) 사용하는 경우 표시 정보 mbox는 다음 예제와 비슷합니다. 모든 엔티티 매개 변수 속성은 대소문자를 구분합니다.
 
 >[!NOTE]
 >
->at.js 2를 사용 중인 경우 입니다.*x*, `mboxCreate`(다음 예제에서 사용됨)은 더 이상 지원되지 않습니다. at.js 2를 사용하여 [!DNL Recommendations]에 제품 또는 콘텐츠 정보를 전달합니다.*x*, [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=ko){target=_blank}을(를) 사용합니다. 예를 들어 [권장 사항 계획 및 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하세요.
+>at.js 2.*x*&#x200B;을(를) 사용하는 경우 다음 예에서 사용한 `mboxCreate`은(는) 더 이상 지원되지 않습니다. at.js 2.*x*&#x200B;을(를) 사용하여 [!DNL Recommendations]에 제품 또는 콘텐츠 정보를 전달하려면 [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}을(를) 사용하십시오. 예를 들어 [권장 사항 계획 및 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하세요.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -67,7 +72,7 @@ mboxCreate('productPage',
 >
 >권장 사항은 사이트의 모든 환경에서 전송되는 데이터를 수신하므로 `pageUrl` 및 `thumbnailUrl`에는 절대 URL보다 상대 URL이 선호됩니다. 상대 URL을 사용하면 스테이징 서버나 개발 서버에 대한 하드코딩된 링크가 사용되지 않습니다.
 
-mbox가 제품 페이지에 있는 경우, 제품 ID와 카테고리 ID를 모두 포함시킬 수 있습니다. 선택한 알고리즘에 따라 표시되는 내용이 결정됩니다. 제품 ID는 친화성 알고리즘에 사용되고 카테고리 ID는 카테고리 알고리즘에 사용됩니다.
+mbox가 제품 페이지에 있는 경우 제품 ID와 카테고리 ID를 모두 포함할 수 있습니다. 선택한 알고리즘이 표시할 항목을 결정합니다. 제품 ID는 친화성 알고리즘에 사용되고 카테고리 ID는 카테고리 알고리즘에 사용됩니다.
 
 ## 사용 가능한 변수
 
@@ -101,7 +106,7 @@ Singe 값만 사용합니다.
 
 >[!NOTE]
 >
->카테고리를 기반으로 한 권장 사항을 [!UICONTROL Category] 페이지에 표시하기 위해 한 개의 `categoryId`만 특정 권장 사항을 표시하는 데 사용되는 mbox에 전달할 수 있습니다. `categoryId` 값은 `entity.categoryId` 페이지에서 전달된 [!UICONTROL Product Detail] 값과 정확히 일치해야 합니다.
+>카테고리를 기반으로 한 권장 사항을 [!UICONTROL Category] 페이지에 표시하기 위해 한 개의 `categoryId`만 특정 권장 사항을 표시하는 데 사용되는 mbox에 전달할 수 있습니다. `categoryId` 값은 [!UICONTROL Product Detail] 페이지에서 전달된 `entity.categoryId` 값과 정확히 일치해야 합니다.
 
 예:
 
@@ -183,7 +188,7 @@ entity.value는 십진수 형식만 지원합니다(예: 15.99). 쉼표 형식(1
 
 예: `'entity.margin=1.00'`
 
-### 엔티티.*사용자 지정*
+### entity.*사용자 지정*
 
 다중 값(JSON 배열)을 지원합니다.
 
@@ -191,7 +196,7 @@ entity.value는 십진수 형식만 지원합니다(예: 15.99). 쉼표 형식(1
 
 제한 사항:
 
-* 사용자 지정 엔티티 속성에는 사전 정의된 엔티티 속성 이름을 사용할 수 없습니다. 
+* 사용자 지정 엔티티 속성에는 사전 정의된 엔티티 속성 이름을 사용할 수 없습니다.
 * entity.environment 속성은 시스템에 의해 예약되어 있으므로 사용자 지정 엔티티 속성에 사용할 수 없습니다. targetPageParams, 피드 또는 API를 사용하여 entity.environment를 전달하려고 하면 무시됩니다.
 
 예:

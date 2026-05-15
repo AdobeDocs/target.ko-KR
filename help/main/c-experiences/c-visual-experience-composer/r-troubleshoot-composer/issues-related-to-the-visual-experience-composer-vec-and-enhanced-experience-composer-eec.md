@@ -1,12 +1,17 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;허용 목록;허용 목록에 추가하다;허용 목록;고급 시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;eec;고급 경험 작성기;tls;tls 1.2
-description: 특정 조건에서  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) 및 [!UICONTROL Enhanced Experience Composer]​(EEC)에서 가끔 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
+description: 특정 조건에서  [!DNL Target] [!UICONTROL Visual Experience Composer](VEC) 및 [!UICONTROL Enhanced Experience Composer]​(EEC)에서 가끔 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
 title: '[!UICONTROL Visual Experience Composer] 및 [!UICONTROL Enhanced Experience Composer]과(와) 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
+TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: 1202
 ht-degree: 32%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 32%
 >
 >다음 변경 사항은 아래에 설명된 세 가지 업데이트에 모두 영향을 줍니다.
 >
-> * *VEC Helper 확장 프로그램*&#x200B;이 설치되어 있고 사이트의 암호로 보호된 페이지에 대해 활성화되지 않으면 [사용할 수 없게](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)됩니다. 사이트 로그인 쿠키는 타사 쿠키로 간주되며 [!UICONTROL Browse] 모드에서 VEC 편집기 내에서 로그인 요청과 함께 전송되지 않습니다. 유일한 예외는 사이트 로그인 쿠키에 이미 `SameSite=None` 및 `Secure` 특성이 설정되어 있는 경우입니다.
+> * [VEC Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)이 설치되어 있고 사이트의 암호로 보호된 페이지에 대해 활성화되지 않으면 *사용할 수 없게*&#x200B;됩니다. 사이트 로그인 쿠키는 타사 쿠키로 간주되며 [!UICONTROL Browse] 모드에서 VEC 편집기 내에서 로그인 요청과 함께 전송되지 않습니다. 유일한 예외는 사이트 로그인 쿠키에 이미 `SameSite=None` 및 `Secure` 특성이 설정되어 있는 경우입니다.
 
 **Chrome 94(2021년 9월 21일)**: Chrome 94 릴리스(2021년 9월 21일)에 대해 예정된 변경 사항이 적용되면 다음 변경 사항은 Chrome 94 이상 브라우저 버전을 사용하는 모든 사용자에게 영향을 줍니다.
 
@@ -32,22 +37,22 @@ ht-degree: 32%
 
 **Chrome 91(2021년 5월 25일)**: Chrome 91 릴리스(2021년 5월 25일)에 대해 구현된 변경 사항으로 인해 Chrome 91 이상 브라우저 버전의 모든 사용자에게 다음 변경 사항이 적용됩니다.
 
-* `#same-site-by-default-cookies`에서 `#cookies-without-same-site-must-be-secure` 및 `chrome://flags` 플래그를 제거했습니다. 이제 이 동작은 기본적으로 활성화됩니다.
+* `chrome://flags`에서 `#same-site-by-default-cookies` 및 `#cookies-without-same-site-must-be-secure` 플래그를 제거했습니다. 이제 이 동작은 기본적으로 활성화됩니다.
 
 **Chrome 80(2020년 8월)**: 2020년 8월에 적용된 변경 내용으로 Chrome 80 이상 브라우저 버전을 사용하는 모든 사용자:
 
 * 활동을 편집하는 동안 *not*&#x200B;에서 [!DNL Target] 라이브러리를 다운로드할 수 있습니다(아직 사이트에 없는 경우). 이는 고객 도메인에서 보안 [!DNL Adobe] 도메인 방향으로 다운로드 호출이 수행되며 인증되지 않은 것으로 거부되기 때문입니다.
 
-* EEC가 *에서 쿠키에 대한 SameSite 특성을 설정할 수 없으므로 모든 사용자에 대해* not`adobemc.com domain` 함수가 사용됩니다. 이 속성이 없으면 브라우저가 이러한 쿠키를 거부하여 EEC가 실패합니다.
+* EEC가 `adobemc.com domain`에서 쿠키에 대한 SameSite 특성을 설정할 수 없으므로 모든 사용자에 대해 *not* 함수가 사용됩니다. 이 속성이 없으면 브라우저가 이러한 쿠키를 거부하여 EEC가 실패합니다.
 
 +++
 
 ### 차단된 쿠키 확인
 
 +++세부 사항
-SameSite 쿠키 시행 정책으로 인해 차단된 쿠키를 확인하려면 [!DNL Developer Tools]의 [!DNL Chrome]을(를) 사용합니다.
+SameSite 쿠키 시행 정책으로 인해 차단된 쿠키를 확인하려면 [!DNL Chrome]의 [!DNL Developer Tools]을(를) 사용합니다.
 
-1. [!DNL Developer Tools]에서 VEC를 보는 동안 [!DNL Chrome]에 액세스하려면 Chrome > **[!UICONTROL ellipsis]** > **[!UICONTROL More Tools]**&#x200B;의 오른쪽 상단 모서리에 있는 **[!UICONTROL Developer Tools]** 아이콘을 클릭합니다.
+1. [!DNL Chrome]에서 VEC를 보는 동안 [!DNL Developer Tools]에 액세스하려면 Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**&#x200B;의 오른쪽 상단 모서리에 있는 **[!UICONTROL ellipsis]** 아이콘을 클릭합니다.
 1. **[!UICONTROL Network]** 탭을 클릭한 다음 차단된 쿠키를 찾습니다.
 
    >[!NOTE]
@@ -80,7 +85,7 @@ SameSite 쿠키 시행 정책으로 인해 차단된 쿠키를 확인하려면 [
 
 >[!NOTE]
 >
->다음 정보 외에 [에 대해 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Adobe Target VEC Helper 브라우저 확장 기능[!DNL Google Chrome]을 사용할 수 있습니다.
+>다음 정보 외에 [!DNL Google Chrome]에 대해 [Adobe Target VEC Helper 브라우저 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 사용할 수 있습니다.
 
 ![cps_headers 이미지](assets/cps_headers.png)
 
@@ -139,7 +144,7 @@ VEC 내에서 리소스가 로드되지 않도록 하는 모든 헤더에 대해
 ## [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] 또는 [!UICONTROL Change Text]/[!DNL Change HTML]이(가) 있는 굵은 기울임꼴 텍스트 스타일이 내 페이지에 표시되지 않습니다. 이러한 스타일 변경 사항을 적용한 후에 텍스트가 사라지는 경우도 있습니다. (VEC 및 EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++세부 사항
-**[!UICONTROL Edit Text]또는[!UICONTROL Edit HTML]** 활동의 경우 VEC에서 [!UICONTROL A/B Test]/[!UICONTROL Experience Targeting], **[!UICONTROL Change Text]또는[!UICONTROL Change HTML]** 활동의 경우 [!UICONTROL Automated Personalization]/[!UICONTROL Multivariate Test]을(를) 사용하여 텍스트를 굵게 또는 기울임체로 설정하는 경우 해당 스타일이 페이지에 적용되지 않거나 VEC에서 텍스트가 사라질 수 있습니다. 이러한 문제는 서식 있는 텍스트 편집기에서 이러한 스타일을 적용하는 방식이 웹 사이트 마크업을 방해할 수 있기 때문에 발생합니다.
+[!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting] 활동의 경우 VEC에서 **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]**, [!UICONTROL Automated Personalization] 또는 [!UICONTROL Multivariate Test] 활동의 경우 **[!UICONTROL Change Text]/[!UICONTROL Change HTML]**&#x200B;을(를) 사용하여 텍스트를 굵게 또는 기울임체로 설정하는 경우 해당 스타일이 페이지에 적용되지 않거나 VEC에서 텍스트가 사라질 수 있습니다. 이러한 문제는 서식 있는 텍스트 편집기에서 이러한 스타일을 적용하는 방식이 웹 사이트 마크업을 방해할 수 있기 때문에 발생합니다.
 
 이 문제가 표시되면 다음을 수행합니다.
 

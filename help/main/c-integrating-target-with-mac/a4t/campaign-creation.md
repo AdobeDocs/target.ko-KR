@@ -4,22 +4,26 @@ description: Adobe Analytics을 보고 소스(A4T)로 사용하는 Adobe [!DNL T
 title: A4T를 사용하는 활동을 만들려면 어떻게 해야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
-source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
+TQID: https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 30%
+source-wordcount: 652
+ht-degree: 29%
 
 ---
 
 # Analytics를 보고 소스로 사용하는 활동 만들기
 
-[!DNL Adobe Target]을(를) 보고 원본(A4T)으로 사용하도록 [!DNL Adobe Analytics]에서 활동을 구성할 수 있습니다.
+[!DNL Adobe Analytics]을(를) 보고 원본(A4T)으로 사용하도록 [!DNL Adobe Target]에서 활동을 구성할 수 있습니다.
 
 [!DNL Analytics]을(를) 보고 소스로 사용하는 활동을 설정하기 전에 방문자당 매출(RPV) 향상 또는 장바구니 클릭 수 증가와 같이 활동에 대한 목표를 설정하십시오. 활동의 최종 성공 지표를 선택합니다. [!DNL Analytics]에서 언제든지 더 많은 지표를 선택할 수 있지만 이 테스트가 영향을 줄 것으로 예상되는 특정 지표를 지정해야 합니다.
 
 ## 활동 만들기
 
-[!DNL Target]을(를) 보고 소스로 사용하는 [!DNL Analytics] 활동을 만드는 것은 몇 가지 중요한 차이점이 있지만 일반 [!DNL Target] 활동을 설정하는 것과 비슷합니다. 예를 들어 보고서를 볼 때 [!DNL Analytics]에서 사용 가능한 모든 세그먼트를 적용할 수 있으므로 활동을 만드는 동안 보고할 세그먼트를 선택할 수 없습니다.
+[!DNL Analytics]을(를) 보고 소스로 사용하는 [!DNL Target] 활동을 만드는 것은 몇 가지 중요한 차이점이 있지만 일반 [!DNL Target] 활동을 설정하는 것과 비슷합니다. 예를 들어 보고서를 볼 때 [!DNL Analytics]에서 사용 가능한 모든 세그먼트를 적용할 수 있으므로 활동을 만드는 동안 보고할 세그먼트를 선택할 수 없습니다.
 
 1. **[!UICONTROL Create Activity]** 아이콘을 클릭합니다.
 
@@ -61,7 +65,7 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >사용자 지정 대상 기반 지표를 [!DNL Analytics] 데이터에만 의존하지 않고 [!DNL Analytics]에 보낼 수 있습니다. 예를 들어, 일반적으로 [!DNL Analytics]에서 추적하지 않는 페이지 클릭을 모니터링할 수 있습니다. 이 사용자 지정 지표는 [!DNL Analytics] 서버에서 자동으로 [!DNL Target]&#x200B;(으)로 전송되며 [!DNL Target]의 지표 선택기에서 &quot;[!DNL Analytics] 전환&quot; 지표로 표시됩니다. [!DNL Target] 지표를 사용하도록 선택하면 [!DNL Analytics] 전환 지표가 비어 있습니다.
+   >사용자 지정 대상 기반 지표를 [!DNL Analytics] 데이터에만 의존하지 않고 [!DNL Analytics]에 보낼 수 있습니다. 예를 들어, 일반적으로 [!DNL Analytics]에서 추적하지 않는 페이지 클릭을 모니터링할 수 있습니다. 이 사용자 지정 지표는 [!DNL Target] 서버에서 자동으로 [!DNL Analytics]&#x200B;(으)로 전송되며 [!DNL Analytics]의 지표 선택기에서 &quot;[!DNL Target] 전환&quot; 지표로 표시됩니다. [!DNL Analytics] 지표를 사용하도록 선택하면 [!DNL Target] 전환 지표가 비어 있습니다.
 
    목표를 설정해도 테스트 결과를 평가할 때 다른 지표를 사용할 수 있습니다. 하지만 이 목표를 통해 활동에서 개선할 점을 알 수 있습니다.
 
@@ -69,7 +73,7 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >[!DNL Analytics]을(를) 보고 소스로 설정한 후 활동을 설정할 때 보고 대상을 설정할 수 있는 옵션이 없습니다. [!DNL Analytics] 활동 보고서에서 [!DNL Target]개의 세그먼트를 사용할 수 있습니다.
+   >[!DNL Analytics]을(를) 보고 소스로 설정한 후 활동을 설정할 때 보고 대상을 설정할 수 있는 옵션이 없습니다. [!DNL Target] 활동 보고서에서 [!DNL Analytics]개의 세그먼트를 사용할 수 있습니다.
 
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 

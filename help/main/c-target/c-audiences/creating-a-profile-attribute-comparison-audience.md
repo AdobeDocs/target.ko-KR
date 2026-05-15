@@ -4,10 +4,14 @@ description: 두 프로필 속성을 비교할 대상을 정의하는 방법을 
 title: 대상에서 사용할 두 프로필 속성을 비교할 수 있습니까?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/ri17ME4xHa-HoBjcwOg4fnG7QwIoy2r9Pa3-tB-ECJ8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 51%
+source-wordcount: 428
+ht-degree: 52%
 
 ---
 
@@ -30,7 +34,7 @@ ht-degree: 51%
 
 부엌 가구를 구입할 경향이 거실 가구를 구입할 경향보다 크다고 정의된 대상을 생성할 수 있습니다. 그런 다음 [!DNL Target]은(는) 특정 방문자의 식당 및 거실 성향 점수를 동적으로 비교하여 해당 방문자가 이 대상자에 적합한지 확인합니다.
 
-자세한 내용은 [데이터를 Target으로 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}을 참조하십시오.
+자세한 내용은 [데이터를 Target으로 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}을 참조하십시오.
 
 ## 프로필 속성 비교 대상자 만들기 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
@@ -65,4 +69,4 @@ ht-degree: 51%
 
 이 기능을 사용할 수 있는 시나리오 및 자세한 내용은 비디오를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/30947?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

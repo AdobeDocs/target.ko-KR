@@ -2,12 +2,15 @@
 keywords: 프로모션;전면 프로모션;후속 프로모션;프로모션 유형;항목 목록;속성별 프로모션;컬렉션 프로모션
 description: 프로모션된 항목을 추가하고 Adobe [!DNL Target] 권장 사항 디자인에서 해당 배치를 제어하는 방법에 대해 알아봅니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
 title: 권장 사항 디자인에서 프로모션을 추가하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+TQID: https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 648
 ht-degree: 40%
 
 ---
@@ -26,7 +29,7 @@ ht-degree: 40%
 
 특정 항목을 판촉하거나, 항목을 동적으로 판촉하거나, 속성을 기준으로 항목을 판촉하거나, 컬렉션을 판촉할 수 있습니다.
 
-![[!UICONTROL Front Promotion] UI[!UICONTROL Back Promotion]의 [!DNL Target] 및 &#x200B;](assets/add_promotion_toggles.png) 옵션
+[!DNL Target] UI](assets/add_promotion_toggles.png)의 ![[!UICONTROL Front Promotion] 및 [!UICONTROL Back Promotion] 옵션
 
 >[!NOTE]
 >

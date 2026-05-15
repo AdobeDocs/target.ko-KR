@@ -4,9 +4,12 @@ description: Adobe Experience Cloud에서  [!DNL Target] 에 액세스하고, �
 title: Adobe Experience Cloud에서  [!DNL Target] 에 액세스하려면 어떻게 합니까?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
+TQID: https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: 355
 ht-degree: 50%
 
 ---
@@ -37,7 +40,7 @@ ht-degree: 50%
 
    ![Adobe 계정](/help/main/c-intro/assets/adobe-account.png)
 
-1. **[!UICONTROL Preferred languages]** 페이지의 [!UICONTROL Account] 섹션에서 **[!UICONTROL Add]**.
+1. [!UICONTROL Account] 페이지의 **[!UICONTROL Preferred languages]** 섹션에서 **[!UICONTROL Add]**.
 
    텍스트는 Adobe이 사용자에게 연락할 때 [!DNL Adobe]에서 사용할 언어임을 나타냅니다. UI에서 [!DNL Target] 및 기타 [!DNL Adobe Experience Cloud] 솔루션에 사용되는 언어이기도 합니다. 언어를 두 개 이상 선택할 수 있습니다.
 

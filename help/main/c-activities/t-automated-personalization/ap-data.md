@@ -2,13 +2,17 @@
 keywords: 환경 데이터;세션 데이터;지역 데이터;지리적 데이터;장치 데이터;모바일 데이터;속성;프로필 속성;개인화 알고리즘;머신 러닝 알고리즘;머신 러닝 알고리즘
 description: ' [!DNL Adobe Target] 수집 및 사용하여 머신 러닝 알고리즘을 작성하는 데이터를 알아봅니다.'
 title: 머신 러닝 알고리즘을 구축하기 위해 수집되는 데이터는 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
+TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1958'
-ht-degree: 51%
+source-wordcount: 1986
+ht-degree: 50%
 
 ---
 
@@ -20,9 +24,9 @@ ht-degree: 51%
 
 ## 기본 [!DNL Target] 특성 범주
 
-다음 표에서는 [!UICONTROL Automated Personalization] 또는 다른 [!UICONTROL Auto-Target] 솔루션의 구성 없이 기본적으로 [!DNL Target] 및 [!DNL Adobe] 활동에서 수집된 데이터를 보여 줍니다. 표에는 [Personalization 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)에서 이러한 특성을 표시하는 데 사용되는 명명 규칙도 포함되어 있습니다. 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [개인화 알고리즘을 위한 데이터 업로드 [!DNL Target] 를 참조하십시오.](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
+다음 표에서는 [!DNL Target] 또는 다른 [!DNL Adobe] 솔루션의 구성 없이 기본적으로 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동에서 수집된 데이터를 보여 줍니다. 표에는 [Personalization 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)에서 이러한 특성을 표시하는 데 사용되는 명명 규칙도 포함되어 있습니다. 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [개인화 알고리즘을 위한 데이터 업로드](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오. [!DNL Target] 
 
-| 데이터 범주 | 시스템 접두사 | 설명 | [!UICONTROL Insights]개 보고서에 이름 표시 |
+| 데이터 카테고리 | 시스템 접두사 | 설명 | [!UICONTROL Insights]개 보고서에 이름 표시 |
 | --- | --- | --- | --- |
 | 환경 매개 변수 | 환경 | 운영 체제, 브라우저 및 요일/요일을 포함한 사용자 환경에 대한 정보입니다. | 브라우저 - [특성 이름]<br>운영 체제 - [값] |
 | Geography | 지역 | IP 조회를 통해 얻은 사용자 지역 정보. | 지역 - [지역 특성] |
@@ -34,26 +38,26 @@ ht-degree: 51%
 
 다음 표는 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동에서 수집한 고객 제공 데이터를 보여 줍니다. 이 데이터는 제공한 경우에만 수집됩니다. 특정 속성 이름과 샘플 값은 시스템 구성에 따라 다릅니다.
 
-| 데이터 범주 | 시스템 접두사 | 설명 | [!UICONTROL Insights]개 보고서에 이름 표시 |
+| 데이터 카테고리 | 시스템 접두사 | 설명 | [!UICONTROL Insights]개 보고서에 이름 표시 |
 | --- | --- | --- | --- |
 | 페이지 매개 변수 | 상자 | [!DNL Target] 호출에서 전달된 사용자 지정 페이지 매개 변수(&quot;mbox 매개 변수&quot;)입니다. | 사용자 지정 - Mbox 매개 변수 - [매개 변수 이름] |
 | [!DNL Target] 프로필 | PRO | 사용자 지정 프로필 특성은 API 또는 페이지 매개 변수 및 [!DNL Target] 프로필 스크립트를 통해 [!DNL Target] 프로필에 직접 업로드됩니다. | 사용자 지정 - 방문자 프로필 - [특성 이름] |
-| 고객 속성 | CRS | [!DNL Target][[!DNL Adobe Experience Cloud Customer Attributes Service]을(를) 통해 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ko){target=_blank} 프로필에 업로드된 고객 특성입니다. | 사용자 지정 - 방문자 프로필 - [특성 이름] |
+| 고객 속성 | CRS | [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}을(를) 통해 [!DNL Target] 프로필에 업로드된 고객 특성입니다. | 사용자 지정 - 방문자 프로필 - [특성 이름] |
 | URL 매개 변수 | URL | 현재 표시된 페이지의 URL 및 모든 URL 매개 변수. | 사용자 지정 - URL 매개 변수 - [URL 매개 변수] |
 | 참조 URL | 참조 | 참조 URL 및 참조 URL에 대한 모든 URL 매개 변수 | 사용자 지정 - [참조 URL 매개 변수] - [매개 변수 값] |
-| [!DNL Adobe Experience Cloud]개의 공유 대상 | AAM | 다른 [!DNL Target] 솔루션(예: [!DNL Adobe Experience Cloud]&#x200B;[!DNL Adobe Audience Manager]을 통해 [!DNL Adobe Analytics] 및 [[!DNL Experience Cloud Audience Library])의 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ko){target=_blank}과(와) 모든 대상을 공유했습니다. | 사용자 지정 - Experience Cloud 대상 - [대상 이름] |
-| 대상 [!DNL Adobe Experience Platform Real-time CDP]개 | UPS | [!DNL Target]을(를) 통해 [!UICONTROL Destinations]과(와) 공유되는 Platform Real-time CDP 대상자입니다. |  |
+| [!DNL Adobe Experience Cloud]개의 공유 대상 | AAM | 다른 [!DNL Adobe Experience Cloud] 솔루션(예: [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}을 통해 [!DNL Adobe Audience Manager] 및 [!DNL Adobe Analytics])의 [!DNL Target]과(와) 모든 대상을 공유했습니다. | 사용자 지정 - Experience Cloud 대상 - [대상 이름] |
+| 대상 [!DNL Adobe Experience Platform Real-time CDP]개 | UPS | [!UICONTROL Destinations]을(를) 통해 [!DNL Target]과(와) 공유되는 Platform Real-time CDP 대상자입니다. |  |
 
 
 ## [!DNL Target] 머신 러닝 알고리즘에서 기능 차단
 
 [!DNL Target] 기계 학습 알고리즘에서 기능을 차단하여 [!UICONTROL Automated Personalization] 또는 [!UICONTROL Auto-Target] 모델 또는 활동에서 사용할 수 없습니다.
 
-자세한 내용은 [&#x200B; 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ko){target=_blank}의 *[!DNL Adobe Target]모델 API(차단 목록에 추가) 개요*&#x200B;를 참조하십시오.
+자세한 내용은 *[!DNL Adobe Target]개발자 안내서*&#x200B;의 [모델 API(차단 목록에 추가) 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}를 참조하십시오.
 
 ## 장치 및 모바일 데이터 {#device-mobile}
 
-| Attribute name | 속성 설명 | 샘플값 | 시스템 이름 |
+| 속성 이름 | 속성 설명 | 샘플값 | 시스템 이름 |
 | --- | --- | --- | --- |
 | 모바일 - 장치 - 브랜드 | 방문자가 활동에 액세스하는 데 사용한 모바일 장치의 브랜드입니다. | Apple | MOB_targeting.mobile.vendor |
 | 모바일 - 장치 - eReader | 장치가 eReader인지 여부를 지정합니다. | 0이면 False이고, 1이면 True입니다. | MOB_targeting.mobile.ereader |
@@ -70,7 +74,7 @@ ht-degree: 51%
 
 ## 환경 데이터 {#env}
 
-| Attribute name | 속성 설명 | 샘플값 | 시스템 이름 |
+| 속성 이름 | 속성 설명 | 샘플값 | 시스템 이름 |
 | --- | --- | --- | -- |
 | 브라우저 - 요일 | 방문자가 활동에 액세스한 요일입니다. | 0 - 6.<br>(0: 일요일) | ENV_DayOfWeek |
 | 브라우저 - 시간 | 방문자가 활동에 액세스한 시간입니다. | 0 - 23<br>(0: 자정) | ENV_UserHour |
@@ -78,7 +82,7 @@ ht-degree: 51%
 | 브라우저 - 언어 설정 | 방문자가 활동에 액세스하는 데 사용한 브라우저에 지정된 언어입니다. | 영어<br>독일어 | ENV_Language |
 | 브라우저 - 시간 | 방문자가 활동에 액세스한 브라우저의 시간입니다. | 0, 6, 12, 18<br>(0: 밤, 6: 아침,<br>12: 오후, 18: 저녁) | ENV_LocalTimePeriod |
 | 브라우저 - 표준 시간대 | 방문자가 활동에 액세스한 시간대입니다. | 태평양 표준시<br>동부 표준시<br>GMT | ENV_BrowserTimezoneOffsetMinutes |
-| 브라우저 - 유형 | 방문자가 활동에 액세스하는 동안 사용한 브라우저의 유형입니다.  | [!DNL Chrome]<br>[!DNL Firefox]<br>[!DNL Internet Explorer]<br>[!DNL Safari]<br>기타 | ENV_Browser |
+| 브라우저 - 유형 | 방문자가 활동에 액세스하는 동안 사용한 브라우저의 유형입니다. | [!DNL Chrome]<br>[!DNL Firefox]<br>[!DNL Internet Explorer]<br>[!DNL Safari]<br>기타 | ENV_Browser |
 | 브라우저 - 평일/주말 | 방문자가 활동에 액세스할 때의 작업 상태입니다(주말, 근무 시간 또는 평일 자유 시간). | 토요일과 일요일: 주말<br>월요일~금요일 0900 - 1800 근무시간<br>1800 이후 월요일-금요일 0900까지 평일 자유 시간 | ENV_UserHourType |
 | 브라우저 - 창 높이(px) | 방문자가 활동에 액세스하는 데 사용한 브라우저의 창 높이(픽셀 단위)입니다. | 1, 2, 3 등, | ENV_BrowserHeight |
 | 브라우저 - 창 너비(px) | 방문자가 활동에 액세스하는 데 사용한 브라우저의 창 너비(픽셀 단위)입니다. | 1, 2, 3 등, | ENV_BrowserWidth |
@@ -90,7 +94,7 @@ ht-degree: 51%
 
 ## 지역 데이터 {#geo}
 
-| Attribute name | 속성 설명 | 샘플값 | 시스템 이름 |
+| 속성 이름 | 속성 설명 | 샘플값 | 시스템 이름 |
 | --- | --- | --- | --- |
 | 지역 - 도시 | 방문자가 활동에 액세스한 도시입니다. | San Francisco | 지역_도시 |
 | 지역 - 국가 | 방문자가 활동에 액세스한 국가입니다. | 독일 | Geo_Country |
@@ -106,7 +110,7 @@ ht-degree: 51%
 
 ## 세션 데이터 {#session}
 
-| Attribute name | 속성 설명 | 샘플값 | 시스템 이름 |
+| 속성 이름 | 속성 설명 | 샘플값 | 시스템 이름 |
 | --- | --- | --- | --- |
 | 방문자 프로필 - 활동 라이프타임 주문 가격 | 특정 활동에 대한 모든 방문/세션의 모든 주문 가격의 합계를 지정합니다. | 이중 | SES_CUMULATIVE_ORDER_VALUE |
 | 방문자 프로필 - 활동 라이프타임 사이트에서 보낸 시간 | 현재 세션을 제외하고 방문자가 사이트에서 보낸 총 시간을 지정하고, 세션이 만료되면 업데이트됩니다. | 더블, 밀리초 | SES_TOTAL_TIME |

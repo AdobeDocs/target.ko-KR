@@ -4,10 +4,14 @@ description: A/B 활동에서 동일한 경험의 버전으로 다른 대상 세
 title: A/B 활동에서 여러 경험 버전을 사용할 수 있습니까?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+TQID: https://experienceleague.adobe.com/FleyH-u5cWI5vku9E4-RMWeIc95WgPy-VQ-eytxka18
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 52%
+source-wordcount: 602
+ht-degree: 51%
 
 ---
 
@@ -35,7 +39,7 @@ ht-degree: 52%
 
 1. 경험을 선택한 다음 **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Add Audience]** 창에서 ![&#x200B; 아이콘(](/help/main/assets/icons/Add.svg)추가 아이콘[!UICONTROL Experience Audiences])을 클릭한 다음 타깃팅할 첫 번째 대상을 선택합니다. 각 대상자에 대해 이 작업을 반복합니다.
+1. [!UICONTROL Experience Audiences] 창에서 **[!UICONTROL Add Audience]** 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭한 다음 타깃팅할 첫 번째 대상을 선택합니다. 각 대상자에 대해 이 작업을 반복합니다.
 
    대상자가 아직 존재하지 않는 경우 [대상자 만들기](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)를 클릭하고 설정합니다.
 
@@ -47,4 +51,4 @@ ht-degree: 52%
 
 * 함께 수행할 수 없는 대상을 선택하십시오. 활동이 VEC에서 만들어진 경우, 방문자가 둘 이상의 대상과 일치하면 각 대상자에 대한 콘텐츠가 반환되고, 마지막에 나열된 대상자에 대한 콘텐츠가 페이지에서 표시됩니다.
 * 다이어그램에 정의된 활동 진입 대상은 AND 조건을 사용하여 경험 대상과 결합됩니다. 활동을 시작하려면 방문자가 활동 대상과 경험 대상 중 하나에 대해 적격이어야 합니다.
-* 보고서에 대해 세그먼트와 동일한 대상을 추가합니다. 이렇게 하면 &quot;browser lang ja_JP&quot;에 대한 경험 A와 B의 상위 수준 및 경험 A와 B의 하위 수준에서 테스트 결과를 볼 수 있습니다. 이 작업은 [!DNL Target] 기반 보고서가 아닌 [!DNL Analytics] 기반 보고서에만 적용됩니다.
+* 보고서에 대해 세그먼트와 동일한 대상을 추가합니다. 이렇게 하면 &quot;browser lang ja_JP&quot;에 대한 경험 A와 B의 상위 수준 및 경험 A와 B의 하위 수준에서 테스트 결과를 볼 수 있습니다. 이 작업은 [!DNL Analytics] 기반 보고서가 아닌 [!DNL Target] 기반 보고서에만 적용됩니다.

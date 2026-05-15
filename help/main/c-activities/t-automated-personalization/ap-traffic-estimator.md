@@ -2,12 +2,15 @@
 keywords: 트래픽 견적 도구;자동화된 개인화;ap;트래픽 예측
 description: '[!UICONTROL Traffic Estimator]을(를) 사용하여 [!UICONTROL Automated Personalization] 활동을 성공적으로 수행할 수 있는 트래픽이 충분한지 평가하십시오.'
 title: 성공적인 [!UICONTROL Automated Personalization] 활동을 위해 필요한 트래픽의 양은 어느 정도입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/rLjNgDlAWK-r9Zv7083vo-PdWTPy3aHGS4fXEGeTdnY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 730
 ht-degree: 9%
 
 ---
@@ -20,11 +23,11 @@ ht-degree: 9%
 
 [!UICONTROL Traffic Estimator]은(는) 예상 페이지 노출 횟수와 해당 페이지의 일반 전환율을 비교하여 개인화된 모델을 생성할 트래픽이 충분한지 확인합니다. 이상적으로는 활동이 성공하려면 올바른 샘플 크기를 사용되어 개인화된 콘텐츠가 활동 지속 기간의 50% 또는 14일 중에서 더 짧은 기간 안에 준비될 수 있어야 합니다. 이 프로세스를 통해 개인화된 콘텐츠를 획득하고 전달할 콘텐츠를 학습하는 데 충분한 시간이 소요됩니다.
 
-[!DNL Target]은(는) 개인화 알고리즘이 빌드될 때까지 경험을 임의로 제공합니다. 각 오퍼 옆의 확인 표시 아이콘은 해당 오퍼에 대한 모델이 준비되고, [!DNL Target]에서 개인화된 콘텐츠를 전달할 수 있게 되면 표시됩니다. 상승도는 모델이 준비된 후에만 예상되므로 시각적 표시를 통해 올바른 기대를 설정할 수 있습니다. 모델이 준비되는 시기에 대한 지침을 얻으려면 [!UICONTROL Traffic Estimator]&#x200B;(VEC)의 [!UICONTROL Visual Experience Composer]을(를) 사용하십시오.
+[!DNL Target]은(는) 개인화 알고리즘이 빌드될 때까지 경험을 임의로 제공합니다. 각 오퍼 옆의 확인 표시 아이콘은 해당 오퍼에 대한 모델이 준비되고, [!DNL Target]에서 개인화된 콘텐츠를 전달할 수 있게 되면 표시됩니다. 상승도는 모델이 준비된 후에만 예상되므로 시각적 표시를 통해 올바른 기대를 설정할 수 있습니다. 모델이 준비되는 시기에 대한 지침을 얻으려면 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)의 [!UICONTROL Traffic Estimator]을(를) 사용하십시오.
 
 ## 트래픽 견적 도구 사용
 
-1. [!UICONTROL Experiences] 활동에 있는 [!UICONTROL Visual Experience Composer]의 [!UICONTROL Automated Personalization] 페이지에서 **[!UICONTROL Traffic]** 페이지의 왼쪽 상단 모서리에 있는 ![&#x200B; 아이콘(](/help/main/assets/icons/Gauge2.svg)트래픽 견적 도구 아이콘[!UICONTROL Experiences])을 클릭합니다.
+1. [!UICONTROL Automated Personalization] 활동에 있는 [!UICONTROL Visual Experience Composer]의 [!UICONTROL Experiences] 페이지에서 [!UICONTROL Experiences] 페이지의 왼쪽 상단 모서리에 있는 **[!UICONTROL Traffic]** 아이콘(![트래픽 견적 도구 아이콘](/help/main/assets/icons/Gauge2.svg))을 클릭합니다.
 
    [!UICONTROL Traffic Estimator]이(가) 열립니다.
 
@@ -51,7 +54,7 @@ ht-degree: 9%
 
    트래픽이 충분하지 않은 경우 다음 사항을 고려하십시오.
 
-   * 하나의 경험 변형에서 여러 개의 오퍼 변경 사항이 있는 경험을 만들려면 [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 대신 [!UICONTROL Automated Personalization] 활동을 사용하는 것이 좋습니다.
+   * 하나의 경험 변형에서 여러 개의 오퍼 변경 사항이 있는 경험을 만들려면 [!UICONTROL Automated Personalization] 대신 [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 활동을 사용하는 것이 좋습니다.
    * [!UICONTROL Automated Personalization] 활동 내에서 오퍼 조합 수를 줄이십시오.
    * 활동의 지속 기간을 늘립니다.
 
