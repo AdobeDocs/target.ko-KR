@@ -55,4 +55,4 @@ ht-degree: 0%
 
 [!DNL Adobe Experience Platform] 내에서 [!DNL AI Assistant]에 대한 액세스 및 사용 권한을 설정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475926/?captions=kor&learn=on&#x26;enablevpops)
