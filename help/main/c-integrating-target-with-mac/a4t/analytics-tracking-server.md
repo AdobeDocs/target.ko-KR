@@ -40,7 +40,7 @@ ht-degree: 15%
 
 1. 활동을 만드는 페이지에서 [!DNL Adobe Experience Platform Debugger]을(를) 엽니다.
 
-   디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 개요](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)를 참조하십시오.
+   디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 개요](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=ko)를 참조하십시오.
 
 1. 왼쪽 탐색 메뉴에서 **[!UICONTROL Analytics]**&#x200B;을(를) 클릭합니다.
 
