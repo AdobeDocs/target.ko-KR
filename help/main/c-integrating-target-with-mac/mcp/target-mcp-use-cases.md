@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ ht-degree: 1%
 | **활동 인사이트** | &quot;내 &#39;여름 세일 배너&#39; 테스트에 대한 통찰력을 얻으십시오. 성과가 어떤 모양이며 예외 항목이 있습니까?&quot; |
 | **대상자 관리** | &quot;모바일 사용자를 타겟팅하는 모든 대상을 나열하고 연결되는 활동을 보여 주십시오.&quot; |
 | **QA 및 미리 보기** | &quot;활성화하기 전에 모든 변형을 검토할 수 있도록 활동 12345에 대한 QA 미리보기 URL을 생성합니다.&quot; |
-| **권장 사항 검토** | &quot;이 계정에 구성된 모든 권장 사항 기준을 나열하고 사용 중인 알고리즘 유형을 요약합니다.&quot; |
+<!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
 | **구현 감사** | &quot;구성된 at.js 버전과 현재 활성화된 응답 토큰은 무엇입니까?&quot; |
-| **감사 변경** | &quot;지난 30일 동안 활동 98765에 대한 모든 변경 사항 및 변경한 사람을 표시합니다.&quot; |
+| **감사 변경** | &quot;지난 30일 동안 활동 98765에 대한 모든 변경 사항 및 변경 사항을 적용한 사용자를 표시합니다.&quot; |
 
 ## 사용 사례 연습 {#mcp-use-case-walkthroughs}
 
