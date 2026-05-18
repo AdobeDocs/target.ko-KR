@@ -8,16 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] MCP 서버 {#target-mcp}
 
-[!DNL Adobe Target] MCP 통합을 사용하면 AI 어시스턴트에서 직접 A/B 테스트, 개인화 활동 및 권장 사항 기준을 검사하고 분석할 수 있습니다. [!DNL Target]의 실험 및 개인화 데이터를 일반 언어 워크플로우로 전환합니다. UI를 탐색하거나 API 호출을 작성하지 않고도 실험 포트폴리오를 감사하고, 성능 보고서를 검토하고, 대상자와 오퍼를 탐색합니다.
+[!DNL Adobe Target] MCP 통합을 사용하면 AI 도우미에서 직접 A/B 테스트 및 개인화 활동을 검사하고 분석할 수 있습니다. [!DNL Target]의 실험 및 개인화 데이터를 일반 언어 워크플로우로 전환합니다. UI를 탐색하거나 API 호출을 작성하지 않고도 실험 포트폴리오를 감사하고, 성능 보고서를 검토하고, 대상자와 오퍼를 탐색합니다.
 
 >[!AVAILABILITY]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 마케팅 및 최적화 팀은 일상적인 작업을 간소화하기 위해 Anthropic Claude, OpenAI ChatGPT, Cursor, Microsoft Copilot Studio와 같은 채팅 기반 애플리케이션과 개발자 도구에 점점 더 의존하고 있습니다. 이러한 응용 프로그램은 응용 프로그램이 백엔드 도구를 대형 언어 모델(LLM)에 균일한 방식으로 노출할 수 있도록 해주는 개방형 표준인 **MCP(Model Context Protocol)**&#x200B;을 지원합니다.
 
-[!DNL Adobe Target]은(는) 이제 MCP 호환 응용 프로그램 내에서 직접 실험, 개인화 및 권장 사항 작업을 표시하는 MCP 서버를 제공합니다. [!DNL Adobe Target]은(는) AI 도우미가 추론 및 설명을 처리하는 동안 의사 결정 및 실행 계층 역할을 하므로 팀이 여러 제품 화면을 탐색하거나 [!DNL Adobe Target] REST API에 대한 쿼리를 작성하지 않고도 최적화 인사이트에 더 빠르게 액세스할 수 있습니다.
+[!DNL Adobe Target]은(는) 이제 MCP 호환 응용 프로그램 내에서 직접 실험 및 개인화 작업을 수행하는 MCP 서버를 제공합니다. [!DNL Adobe Target]은(는) AI 도우미가 추론 및 설명을 처리하는 동안 의사 결정 및 실행 계층 역할을 하므로 팀이 여러 제품 화면을 탐색하거나 [!DNL Adobe Target] REST API에 대한 쿼리를 작성하지 않고도 최적화 인사이트에 더 빠르게 액세스할 수 있습니다.
 
 
 >[!IMPORTANT]
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 ## 주요 기능 {#mcp-capabilities}
 
-[!DNL Adobe Target] MCP 서버는 활동, 대상, 오퍼, 권장 사항 및 구현 구성에 대한 읽기 액세스를 제공합니다. 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
+[!DNL Adobe Target] MCP 서버는 활동, 대상, 제안 및 구현 구성에 대한 읽기 액세스를 제공합니다. 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * **실험 검사 및 감사** - UI를 탐색하지 않고 모든 활동에 대한 상태, 성능, 변경 내역 및 QA 미리 보기 링크를 가져옵니다.
 * **결과 분석** - A/B, XT, AP 및 자동 타겟 활동에 대한 성능, 매출 및 A4T 보고서를 검색합니다.
 * **활동 살펴보기** - A/B 및 XT 활동을 나열, 검사 및 분석합니다.
 * **대상 및 오퍼 살펴보기** - 대상, HTML 오퍼 및 JSON 오퍼를 나열하고 검사합니다.
-* **권장 사항 기준 탐색** - 기준 및 장바구니 기반 알고리즘을 나열하고 검사합니다.
+<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **구현 감사** - at.js 설정, 응답 토큰 및 엔터티별 개정 기록을 검토합니다.
 
 >[!NOTE]
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 +++MCP를 통해 액세스할 수 있는 [!DNL Adobe Target] 개체는 무엇입니까?
 
-활동(A/B, XT, AP), 대상, 오퍼, 속성, mbox, 권장 사항 기준, 응답 토큰, at.js 구성, A4T 보고서 및 엔티티 개정 내역에 액세스할 수 있습니다. 현재 사용 가능한 23개의 모든 도구는 읽기 전용입니다.
+활동(A/B, XT, AP), 대상, 오퍼, 속성, mbox, 응답 토큰, at.js 구성, A4T 보고서 및 엔티티 개정 내역에 액세스할 수 있습니다. 현재 사용 가능한 23개의 모든 도구는 읽기 전용입니다.
 +++
 
 +++MCP 서버는 활동을 생성하거나 수정할 수 있습니까?
