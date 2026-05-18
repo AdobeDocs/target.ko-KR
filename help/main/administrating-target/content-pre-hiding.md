@@ -6,9 +6,9 @@ feature: Administration & Configuration
 role: Admin
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '576'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다. 그러면 플리커 관리 설정이 인스턴스에 적용됩니다.
 
-1. 활성화하면 **[!UICONTROL Download]**&#x200B;을(를) 클릭한 다음 [!DNL at.js] 또는 [!DNL Web SDK] 전에 로드되도록 `<head>` 페이지에 파일을 추가하십시오.
+1. 활성화하면 **[!UICONTROL Download]**&#x200B;을(를) 클릭한 다음 [!DNL at.js] 또는 [!DNL Web SDK] 전에 로드되도록 `<head>` 페이지에 파일을 추가하십시오. 전체 구현 지침은 [콘텐츠 사전 숨김 SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)을 참조하십시오.
 
    ![](assets/content-pre-hiding-2.png)
 
