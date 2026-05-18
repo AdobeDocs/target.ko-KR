@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
 workflow-type: tm+mt
-source-wordcount: 68187
+source-wordcount: 68360
 ht-degree: 50%
 
 ---
@@ -57,6 +57,48 @@ ht-degree: 50%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.5.1(2026년 5월 7일)
+
+**통합**
+
++++세부 정보 보기
+
+* Experimentation Accelerator의 **[!DNL Adobe Target]관리.** 팀이 Experimentation Accelerator에서 [!DNL Adobe Target]의 실험을 한 곳에서 볼 수 있도록 Experimentation Accelerator 샌드박스에 [!DNL Target] 작업 공간을 할당하는 지원이 추가되었습니다. [자세히 알아보기](../c-integrating-target-with-mac/experimentation-accelerator.md)
+
++++
+
+**활동**
+
++++세부 정보 보기
+
+* **[!UICONTROL Graph View]이(가) 테이블 및 다운로드와 동기화되지 않았습니다.** **[!UICONTROL Table View]**&#x200B;과(와) 다운로드한 보고서에 여전히 올바른 값이 표시되지만 활동 보고서에 일부 날짜 범위에 대해 **[!UICONTROL Graph View]**&#x200B;에서 누락되거나 0인 지표가 표시되는 문제가 해결되었습니다. (TGT-54998)
+
++++
+
+**[!UICONTROL Audiences]**
+
++++세부 정보 보기
+
+* **대상자 사용 목록이 완전히 렌더링되지 않았습니다.** 추가 활동이 해당 대상과 연결되어 있는 경우에도 대상 세부 정보의 **[!UICONTROL Usage]** 섹션에 매핑된 활동의 하위 집합만 표시되는 문제가 해결되었습니다. (TGT-55094)
+
++++
+
+**[!UICONTROL Administration]**
+
++++세부 정보 보기
+
+* **마지막 옥텟 IP 난독화를 더 명확하게 확인합니다.** **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;에서 **[!UICONTROL Obfuscate Visitor IP addresses]**&#x200B;을(를) **[!UICONTROL Last octet]**(으)로 변경하면 이제 확인 대화 상자에 [!DNL Target]에서 방문자 IP 주소의 마지막 옥텟을 숨긴다는 설명이 표시됩니다. (TGT-44821)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++세부 정보 보기
+
+* **EEC(고급 경험 작성기)가 있는 비어 있거나 불완전한 페이지입니다.** **[!UICONTROL Enhanced Experience Composer]**&#x200B;을(를) 사용하도록 설정한 경우 [!UICONTROL Visual Experience Composer]이(가) 편집기에서 사이트를 로드하지 못하는 문제를 해결했습니다. (TGT-54576)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.4.4(2026년 4월 28일)
 
