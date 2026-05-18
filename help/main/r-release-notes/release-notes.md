@@ -7,21 +7,14 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
 workflow-type: tm+mt
-source-wordcount: 630
-ht-degree: 43%
+source-wordcount: 504
+ht-degree: 53%
 
 ---
 
@@ -31,57 +24,33 @@ ht-degree: 43%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
+## [!DNL Target Standard/Premium] 26.5.2(2026년 5월 14일)
 
-## 최근 업데이트 - 2026년 5월 12일
+**관리**
+
++++세부 정보 보기
+
+* **허용된 URL에 대한 정규식 유효성 검사** 올바른 유효성 검사 없이 **[!UICONTROL Allowed URLs]** 필드에 잘못된 정규식을 입력할 수 있는 문제를 해결했습니다. (TGT-55095)
+
++++
+
+**대상자**
+
++++세부 정보 보기
+
+* [!UICONTROL Edit Audience] 대화 상자의 **단추** **[!UICONTROL Edit Audience]** 대화 상자 내의 단추가 더 이상 올바르게 렌더링되지 않는 문제를 해결했습니다. (TGT-54638)
+
++++
 
 **[!DNL Adobe Target]MCP 서버(공개 Beta)**
+
++++세부 정보 보기
 
 [!DNL Adobe Target]은(는) 이제 MCP 호환 응용 프로그램 내에서 직접 실험, 개인화 및 보고 작업을 수행하는 MCP(Model Context Protocol) 서버를 제공합니다. 이 통합을 통해 마케팅 및 기술 담당자는 A/B 테스트를 검사하고, 성능 보고서를 분석하고, 대상 및 오퍼를 탐색할 수 있습니다. 이 모든 작업은 여러 UI 화면을 탐색하거나 [!DNL Adobe Target] REST API에 대한 쿼리를 작성하는 대신 자연어 프롬프트를 사용합니다. 이 기능은 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 사용할 수 있습니다.
 
 이 기능은 공용 Beta의 모든 고객이 사용할 수 있습니다.
 
 자세한 내용은 [[!DNL Adobe Target] MCP 서버](../c-integrating-target-with-mac/mcp/target-mcp.md)를 참조하십시오.
-
-
-## [!DNL Target Standard/Premium] 26.5.1(2026년 5월 7일)
-
-**통합**
-
-+++세부 정보 보기
-
-* Experimentation Accelerator의 **[!DNL Adobe Target]관리.** 팀이 Experimentation Accelerator에서 [!DNL Adobe Target]의 실험을 한 곳에서 볼 수 있도록 Experimentation Accelerator 샌드박스에 [!DNL Target] 작업 공간을 할당하는 지원이 추가되었습니다. [자세히 알아보기](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
-
-**활동**
-
-+++세부 정보 보기
-
-* **[!UICONTROL Graph View]이(가) 테이블 및 다운로드와 동기화되지 않았습니다.** **[!UICONTROL Table View]**&#x200B;과(와) 다운로드한 보고서에 여전히 올바른 값이 표시되지만 활동 보고서에 일부 날짜 범위에 대해 **[!UICONTROL Graph View]**&#x200B;에서 누락되거나 0인 지표가 표시되는 문제가 해결되었습니다. (TGT-54998)
-
-+++
-
-**[!UICONTROL Audiences]**
-
-+++세부 정보 보기
-
-* **대상자 사용 목록이 완전히 렌더링되지 않았습니다.** 추가 활동이 해당 대상과 연결되어 있는 경우에도 대상 세부 정보의 **[!UICONTROL Usage]** 섹션에 매핑된 활동의 하위 집합만 표시되는 문제가 해결되었습니다. (TGT-55094)
-
-+++
-
-**[!UICONTROL Administration]**
-
-+++세부 정보 보기
-
-* **마지막 옥텟 IP 난독화를 더 명확하게 확인합니다.** **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;에서 **[!UICONTROL Obfuscate Visitor IP addresses]**&#x200B;을(를) **[!UICONTROL Last octet]**(으)로 변경하면 이제 확인 대화 상자에 [!DNL Target]에서 방문자 IP 주소의 마지막 옥텟을 숨긴다는 설명이 표시됩니다. (TGT-44821)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++세부 정보 보기
-
-* **EEC(고급 경험 작성기)가 있는 비어 있거나 불완전한 페이지입니다.** **[!UICONTROL Enhanced Experience Composer]**&#x200B;을(를) 사용하도록 설정한 경우 [!UICONTROL Visual Experience Composer]이(가) 편집기에서 사이트를 로드하지 못하는 문제를 해결했습니다. (TGT-54576)
 
 +++
 
