@@ -21,9 +21,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1920
+source-wordcount: 1962
 ht-degree: 18%
 
 ---
@@ -62,7 +62,10 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 
 [!UICONTROL Auto-Target]을(를) 사용할 때 염두에 두어야 할 몇 가지 중요한 고려 사항이 있습니다.
 
-* [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동을 위치당 4~6개의 오퍼가 있는 4~6개의 위치로 제한하십시오. 위치와 오퍼의 결합으로 총 경험 수가 증가하므로 구성을 크게 하면 [!UICONTROL Visual Experience Composer]에서 로드 또는 편집이 느려질 수 있습니다.
+* 활동 형태에 주의하십시오. 성능은 원시 경험 개수보다 오퍼× 위치 수에 더 의존합니다. 큰 카티시안 조합은 문서화된 경험 제한보다 낮더라도 [!UICONTROL Visual Experience Composer]에서 로드 및 편집 속도가 느려질 수 있습니다.
+
+  가장 좋은 방법은 [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동을 위치당 4~6개의 오퍼와 함께 4~6개의 위치에 유지하는 것입니다. 더 큰 구성은 권장되지 않습니다. 이러한 활동은 [!UICONTROL Experiences] 단계에서 직접 만들어지므로 구성이 지원되는 임계값을 초과하면 [!DNL Target] UI에 인라인 경고가 표시되거나 저장이 차단될 수 있습니다.
+
 * 특정 활동을 [!UICONTROL Auto-Target]에서 [!UICONTROL Automated Personalization]&#x200B;(으)로 전환할 수 없습니다.
 * [!UICONTROL Manual] 트래픽 할당(기존 [!UICONTROL A/B Test])에서 [!UICONTROL Auto-Target]&#x200B;(으)로 전환할 수 없으며, 반대로 활동이 초안으로 저장됩니다.
 * 한 가지 모델이 만들어져 무작위로 제공되는 트래픽과 전체 우승 경험에 모든 트래픽을 보내는 개인화 전략의 성능을 식별합니다. 이 모델은 기본 환경에서만 히트 및 전환을 고려합니다.
