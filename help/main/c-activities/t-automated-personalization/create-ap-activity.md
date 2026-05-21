@@ -2,25 +2,17 @@
 keywords: 자동화된 개인화;ap
 description: '[!UICONTROL Visual Experience Composer]을(를) 사용하여 [!UICONTROL Automated Personalization]​(AP) 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1873
-ht-degree: 23%
+source-wordcount: 1856
+ht-degree: 22%
 
 ---
 
@@ -29,6 +21,16 @@ ht-degree: 23%
 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)를 사용하여 [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동을 만듭니다.
 
 [!DNL Target]의 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동 워크플로는 다른 활동 유형의 워크플로와 다릅니다.
+
+이 절차는 [!UICONTROL Visual Experience Composer]의 안내가 있는 3단계 워크플로를 따릅니다.
+
+1. [1단계: 경험 구축](#build-experiences)
+1. [2단계: 타깃팅 설정](#set-targeting)
+1. [3단계: 목표 및 설정 구성](#configure-goals-and-settings)
+
+## 1단계: 경험 구축 {#build-experiences}
+
+[!UICONTROL Automated Personalization]이(가) 개인화할 수 있는 콘텐츠 변형의 풀을 정의합니다. 경험과 오퍼가 풍부하고 뚜렷할수록 알고리즘은 각 방문자에게 적합한 콘텐츠를 더 잘 일치시킬 수 있습니다.
 
 1. [!DNL Target] [!UICONTROL Activities] 목록에서 **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**&#x200B;을(를) 클릭합니다.
 
@@ -86,17 +88,11 @@ ht-degree: 23%
 
 1. **[!UICONTROL Manage Content]** 아이콘(![콘텐츠 관리 아이콘](/help/main/assets/icons/Experience.svg))을 클릭하여 사용 가능한 조합을 구성합니다.
 
-   대화 상자가 화면 맨 위에 두 개의 옵션([!UICONTROL Experiences] 및 [!UICONTROL Offers])과 함께 표시됩니다.
+   대화 상자에 두 개의 탭([!UICONTROL Experiences] 및 [!UICONTROL Offers])이 표시됩니다. [!UICONTROL Experiences] 탭에는 각 콘텐츠 및 할당된 위치가 나열됩니다. 하나 이상의 경험을 제외하려면 해당 확인란을 선택하고 [!UICONTROL Exclude] 아이콘을 클릭합니다. 추가 옵션은 [제외 관리](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)를 참조하십시오.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >AP 활동에서 최대 30,000개의 경험을 작성할 수 있지만, 이 활동은 5,000개 미만의 경험이 사용될 때 가장 잘 수행됩니다. 이 제한은 활동이 [!UICONTROL Disalow Duplicates] 옵션을 활성화한 경우에도 적용됩니다.
-
-   [!UICONTROL Experiences] 목록에는 활동에 대해 선택된 각 콘텐츠 부분과 지정된 위치가 표시됩니다.
-
-   원하는 경험 옆에 있는 확인란을 선택한 다음 [!UICONTROL Exclude] 아이콘을 클릭하여 특정 경험을 제외할 수 있습니다.
-
-   관련 경험에 대한 확인란을 선택한 다음 [!UICONTROL Exclude] 아이콘을 클릭하여 경험을 묶음으로 제외하거나 포함할 수 있습니다.
+   >**모범 사례:** 최적의 성능을 위해 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동을 위치당 4~6개의 오퍼를 포함하는 4~6개의 위치로 제한하십시오. 위치와 오퍼의 직각적 조합에서 총 경험 수가 증가합니다. 구성이 클수록 [!UICONTROL Visual Experience Composer]에서 로드 또는 편집이 느려질 수 있습니다. 최상의 결과를 얻으려면 총 5,000개 경험 미만으로 유지하십시오. 엄격한 제한은 30,000개입니다([!UICONTROL Disallow Duplicates] 옵션이 활성화된 경우 동일한 제한이 적용됨).
 
 1. (조건부) **[!UICONTROL Offers]**&#x200B;을(를) 클릭하여 콘텐츠를 선택하고 이를 보고 그룹에 지정하거나 특정 방문자만 타깃팅으로 한 특정 오퍼를 볼 수 있도록 합니다.
 
@@ -116,35 +112,21 @@ ht-degree: 23%
 
 1. 활동의 콘텐츠 설정을 완료했으면 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
+## 2단계: 타깃팅 설정 {#set-targeting}
+
+활동을 시작하는 방문자와 노출되는 트래픽의 양을 결정합니다. [!DNL Target]이(가) 리프트 개인화 기능을 측정할 수 있도록 컨트롤 그룹과 연결하십시오.
+
 1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 [!UICONTROL Visual Experience Composer]의 맨 위에서 **[!UICONTROL Targeting]**&#x200B;을(를) 클릭합니다.
 
    **타깃팅** 단계는 다른 [!DNL Target] 활동 유형을 사용해본 적이 있는 경우 친숙하게 보입니다. 여기에서 대상을 선택하고 각 경험을 보는 방문자의 비율을 지정할 수 있습니다.
 
-   흐름 다이어그램이 열립니다.
+1. 흐름 다이어그램은 대상과 해당 트래픽 비율을 할당하고, 트래픽 할당 방법을 선택하고, 활동의 각 경험에 대한 트래픽 할당을 지정하는 단계를 안내합니다.
 
    ![AP 테스트 타깃팅 단계](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
-   흐름 다이어그램은 대상과 해당 트래픽 비율을 할당하고, 트래픽 할당 방법을 선택하고, 활동의 각 경험에 대한 트래픽 할당을 지정하는 단계를 안내합니다.
+1. (조건부) **[!UICONTROL All Visitors]** 컨트롤을 클릭하여 [활동에 대한 다른 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)하고 해당 방문자 비율을 설정합니다.
 
-1. (조건부) **[!UICONTROL All Visitors]** 컨트롤을 클릭하여 활동에 대한 다른 대상을 선택합니다.
-
-   [!UICONTROL All Visitors] 대상이 기본값으로 설정됩니다. 다른 대상을 선택하면 해당 이름이 가장 왼쪽 컨트롤에 표시됩니다.
-
-   오른쪽 프레임이 표시되어 대상을 추가 또는 삭제하고 활동에 대한 방문자 비율을 할당할 수 있습니다.
-
-   1. 대상을 변경하려면 오른쪽 프레임에서 **[!UICONTROL Replace]아이콘**(![바꾸기 아이콘](/help/main/assets/icons/Retweet.svg))을 클릭합니다.
-   1. [!UICONTROL Add Audience] 대화 상자에서 [원하는 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)한 다음 **[!UICONTROL Assign Audience]**&#x200B;을(를) 클릭합니다.
-
-      **대상 결합**&#x200B;을 클릭하여 [여러 대상을 결합하는 대상을 만들 수 있습니다](/help/main/c-target/combining-multiple-audiences.md).
-
-      [!UICONTROL Audience Library]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭합니다. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
-
-      * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
-      * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만듭니다.
-
-   1. 오른쪽 프레임에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
-
-   예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아인&quot; 대상자의 45%로 제한할 수 있습니다.
+   [!UICONTROL All Visitors] 대상이 기본값으로 설정됩니다. 다른 대상을 선택하면 해당 이름이 가장 왼쪽 컨트롤에 표시됩니다. 예를 들어, 항목을 모든 방문자의 50% 또는 &quot;캘리포니아&quot; 대상의 45%로 제한할 수 있습니다.
 
 1. **[!UICONTROL Traffic Allocation]** 컨트롤을 클릭하여 다음 옵션 중에서 선택합니다.
 
@@ -163,6 +145,10 @@ ht-degree: 23%
    >[!NOTE]
    >
    >[!UICONTROL Automated Personalization] 활동에서 각 요청에 대해 항목 기준(URL 타겟팅, 템플릿 규칙 및 대상 타겟)이 평가됩니다. 이전 버전에서는 항목 기준이 세션당 한 번만 평가되었습니다.
+
+## 3단계: 목표 및 설정 구성 {#configure-goals-and-settings}
+
+[!DNL Target]에게 성공 상황을 알려 주세요. 선택하는 최적화 목표는 개인화 알고리즘이 교육하는 지표이므로 이 활동에 가장 중요한 결과를 선택하십시오.
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 **[!UICONTROL Goals & Settings]** 페이지를 표시합니다.
 1. 다음 설정으로 활동을 구성한 다음 **[!UICONTROL Save & Close]**&#x200B;을(를) 클릭합니다.
