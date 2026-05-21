@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱, 소셜 채널에서 고객 경험을 개인화하여 수익을 증대시키는 방법에 대해 알아봅니다.
 feature-set: Target
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1322'
 ht-degree: 83%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 83%
    + {hide-from-toc}[콘텐츠 사전 숨김](administrating-target/content-pre-hiding.md)
    + [호스트](administrating-target/hosts.md)
    + [환경](/help/main/administrating-target/environments.md)
+   + [허용 목록에추가된 URL](administrating-target/allowlisted-urls.md)
    + [응답 토큰](administrating-target/response-tokens.md)
    + 사용자 관리 {#manage-users}
       + [사용자 관리](administrating-target/c-user-management/user-management.md)
