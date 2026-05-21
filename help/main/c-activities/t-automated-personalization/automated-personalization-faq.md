@@ -17,10 +17,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1967
-ht-degree: 21%
+source-wordcount: 2032
+ht-degree: 20%
 
 ---
 
@@ -52,6 +52,7 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 
 +++세부 정보 보기
 
+* [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동을 위치당 4~6개의 오퍼가 있는 4~6개의 위치로 제한하십시오. 구성이 클수록 [!UICONTROL Visual Experience Composer]에서 로드 또는 편집이 느려질 수 있습니다.
 * 낮은 트래픽의 페이지를 개인화하려는 경우 또는 개인화하고 있는 경험을 구조적으로 변경하려면 [!UICONTROL Automated Personalization] 대신 [!UICONTROL Auto-Target] 활동을 사용하는 것이 좋습니다. [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 참조하세요.
 * [!UICONTROL Automated Personalization] 활동에서 사용할 오퍼와 위치 간에 [!UICONTROL A/B Test] 활동을 완료하여 위치 및 오퍼가 최적화 목표에 영향을 주는지 확인해 보십시오. [!UICONTROL A/B Test] 활동이 상당한 차이를 보이지 않는 경우 [!UICONTROL Automated Personalization]도 향상되지 않을 수 있습니다.
 
@@ -91,6 +92,8 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 [!DNL Target]은(는) 30,000개의 경험으로 제한되어 있지만 10,000개 미만의 경험이 만들어졌을 때 가장 잘 작동합니다.
 
 이 제한은 활동이 [!UICONTROL Disalow Duplicates] 옵션을 활성화한 경우에도 적용됩니다.
+
+최적의 성능을 위해 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동을 위치당 4~6개의 오퍼가 있는 4~6개의 위치로 제한하십시오. 위치와 오퍼의 결합으로 총 경험 수가 증가하므로 구성을 크게 하면 [!UICONTROL Visual Experience Composer]에서 로드 또는 편집이 느려질 수 있습니다.
 
 [!DNL Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 자세한 내용은 [제한](/help/main/r-troubleshooting-target/target-limits.md)을 참조하십시오.
 
