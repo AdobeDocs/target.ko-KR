@@ -2,25 +2,17 @@
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;자동화된 개인화;제어;기본 경험;우수 사례
 description: '[!UICONTROL Adobe Target]의 [!UICONTROL Automated Personalization]​(AP) 활동에 대한 FAQ 및 답변 목록을 살펴봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동에 대한 FAQ를 찾으려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 2032
-ht-degree: 20%
+source-wordcount: 2166
+ht-degree: 19%
 
 ---
 
@@ -52,7 +44,8 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 
 +++세부 정보 보기
 
-* [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동을 위치당 4~6개의 오퍼가 있는 4~6개의 위치로 제한하십시오. 구성이 클수록 [!UICONTROL Visual Experience Composer]에서 로드 또는 편집이 느려질 수 있습니다.
+* 총 경험 수 뿐만 아니라 *활동 셰이프*(위치 수 × 오퍼 수)에 주의하십시오. 위치와 오퍼의 카티시안 조합은 원시 경험 수보다 작성 시간 성능을 향상시킵니다.
+* 최적의 성능과 관리 용이성을 위해 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동을 위치당 4~6개의 오퍼를 제공하는 4~6개의 위치로 제한하십시오. 더 큰 구성은 권장되지 않으며, 이로 인해 [!UICONTROL Visual Experience Composer]에서 로드 또는 편집이 느려질 수 있으며, [!DNL Target] UI에서 제한될 수 있습니다. 현재 UI에서 [!DNL Target]은(는) 구성이 지원되는 임계값을 초과할 때 인라인 경고를 표시하거나 활동을 저장할 수 없습니다.
 * 낮은 트래픽의 페이지를 개인화하려는 경우 또는 개인화하고 있는 경험을 구조적으로 변경하려면 [!UICONTROL Automated Personalization] 대신 [!UICONTROL Auto-Target] 활동을 사용하는 것이 좋습니다. [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 참조하세요.
 * [!UICONTROL Automated Personalization] 활동에서 사용할 오퍼와 위치 간에 [!UICONTROL A/B Test] 활동을 완료하여 위치 및 오퍼가 최적화 목표에 영향을 주는지 확인해 보십시오. [!UICONTROL A/B Test] 활동이 상당한 차이를 보이지 않는 경우 [!UICONTROL Automated Personalization]도 향상되지 않을 수 있습니다.
 
@@ -91,9 +84,13 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 
 [!DNL Target]은(는) 30,000개의 경험으로 제한되어 있지만 10,000개 미만의 경험이 만들어졌을 때 가장 잘 작동합니다.
 
-이 제한은 활동이 [!UICONTROL Disalow Duplicates] 옵션을 활성화한 경우에도 적용됩니다.
+이 제한은 활동이 [!UICONTROL Disallow Duplicates] 옵션을 활성화한 경우에도 적용됩니다.
 
-최적의 성능을 위해 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동을 위치당 4~6개의 오퍼가 있는 4~6개의 위치로 제한하십시오. 위치와 오퍼의 결합으로 총 경험 수가 증가하므로 구성을 크게 하면 [!UICONTROL Visual Experience Composer]에서 로드 또는 편집이 느려질 수 있습니다.
+[!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동은 많은 수의 경험을 지원할 수 있지만 작성 성능은 *활동 모양*(위치 수 × 오퍼 수)에 크게 의존합니다. 특정 구성은 문서화된 경험 제한보다 적더라도 로드 및 편집 성능에 상당한 영향을 줄 수 있는 큰 직각적 조합을 만듭니다.
+
+최적의 성능과 관리 용이성을 위해 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동을 위치당 4~6개의 오퍼를 제공하는 4~6개의 위치로 제한하십시오. 더 큰 구성은 권장되지 않으며 [!DNL Target] UI에서 제한될 수 있습니다.
+
+현재 [!DNL Target] UI에서 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동은 [!UICONTROL Experiences] 단계에서 직접 구성됩니다. [!DNL Target]은(는) 구성이 지원되는 임계값을 초과할 때 인라인 경고를 표시하거나 활동을 저장하지 못하게 할 수 있으며 [!UICONTROL Next], [!UICONTROL Save] 및 [!UICONTROL Publish]에서 활동 셰이프의 유효성을 다시 확인합니다.
 
 [!DNL Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 자세한 내용은 [제한](/help/main/r-troubleshooting-target/target-limits.md)을 참조하십시오.
 

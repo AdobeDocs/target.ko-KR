@@ -2,24 +2,16 @@
 keywords: 자동화된 개인화;ap
 description: '[!UICONTROL Visual Experience Composer]을(를) 사용하여 [!UICONTROL Automated Personalization]​(AP) 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: 1854
 ht-degree: 22%
 
 ---
@@ -100,7 +92,7 @@ ht-degree: 22%
 
    >[!IMPORTANT]
    >
-   >**모범 사례:** 최적의 성능을 위해 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동을 위치당 4~6개의 오퍼를 포함하는 4~6개의 위치로 제한하십시오. 위치와 오퍼의 직각적 조합에서 총 경험 수가 증가합니다. 구성이 클수록 [!UICONTROL Visual Experience Composer]에서 로드 또는 편집이 느려질 수 있습니다. 최상의 결과를 얻으려면 총 5,000개 경험 미만으로 유지하십시오. 엄격한 제한은 30,000개입니다([!UICONTROL Disallow Duplicates] 옵션이 활성화된 경우 동일한 제한이 적용됨).
+   >최적의 성능을 위해 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동을 위치당 4~6개의 오퍼가 있는 4~6개의 위치로 제한하십시오. 위치와 오퍼의 직각적 조합에서 총 경험 수가 증가합니다. 구성이 클수록 [!UICONTROL Visual Experience Composer]에서 로드 또는 편집이 느려질 수 있습니다. 최상의 결과를 얻으려면 총 5,000개 경험 미만으로 유지하십시오. 엄격한 제한은 30,000개입니다([!UICONTROL Disallow Duplicates] 옵션이 활성화된 경우 동일한 제한이 적용됨).
 
 1. (조건부) **[!UICONTROL Offers]**&#x200B;을(를) 클릭하여 콘텐츠를 선택하고 이를 보고 그룹에 지정하거나 특정 방문자만 타깃팅으로 한 특정 오퍼를 볼 수 있도록 합니다.
 
@@ -111,7 +103,7 @@ ht-degree: 22%
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
