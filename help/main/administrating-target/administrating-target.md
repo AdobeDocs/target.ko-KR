@@ -19,16 +19,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: 90
-ht-degree: 13%
+source-wordcount: 94
+ht-degree: 12%
 
 ---
 
 # [!DNL Target] 관리 개요
 
-VEC(시각적 경험 작성기)에 대한 구성 설정, 보고, Scene7 구성, 구현, 호스트, 환경, 응답 토큰, 사용자 및 [!DNL Recommendations]을(를) 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다.
+VEC(시각적 경험 작성기)에 대한 구성 설정, 보고, Scene7 구성, 구현, 호스트, 환경, 허용 목록에추가된 URL, 응답 토큰, 사용자 및 [!DNL Recommendations]을(를) 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다.
 
 {{permissions-update}}
 
@@ -41,6 +41,7 @@ VEC(시각적 경험 작성기)에 대한 구성 설정, 보고, Scene7 구성, 
 * [속성](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
 * [호스트](/help/main/administrating-target/hosts.md)
 * [환경](/help/main/administrating-target/environments.md)
+* [허용 목록에추가된 URL](/help/main/administrating-target/allowlisted-urls.md)
 * [응답 토큰](/help/main/administrating-target/response-tokens.md)
 * [사용자](/help/main/administrating-target/c-user-management/user-management.md)
 * [추천](/help/main/administrating-target/recommendations-settings.md)
