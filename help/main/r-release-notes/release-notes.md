@@ -7,21 +7,14 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad59ee31ae91e2f1bdcd5ec409ee9d04595ee2dd
 workflow-type: tm+mt
-source-wordcount: 504
-ht-degree: 53%
+source-wordcount: 446
+ht-degree: 60%
 
 ---
 
@@ -31,42 +24,28 @@ ht-degree: 53%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 26.5.2(2026년 5월 14일)
+## [!DNL Target Standard/Premium] 26.5.3(2026년 5월 21일)
 
-**관리**
-
-+++세부 정보 보기
-
-* **허용된 URL에 대한 정규식 유효성 검사** 올바른 유효성 검사 없이 **[!UICONTROL Allowed URLs]** 필드에 잘못된 정규식을 입력할 수 있는 문제를 해결했습니다. (TGT-55095)
-
-+++
-
-**대상자**
+**[!UICONTROL What's new]페이지**
 
 +++세부 정보 보기
 
-* [!UICONTROL Edit Audience] 대화 상자의 **단추** **[!UICONTROL Edit Audience]** 대화 상자 내의 단추가 더 이상 올바르게 렌더링되지 않는 문제를 해결했습니다. (TGT-54638)
+* **새 [!UICONTROL What's new] 페이지** 제품을 종료하지 않고 최신 기능, 개선 사항 및 업데이트를 검색하는 데 도움이 되도록 [!DNL Adobe Target] UI에 새 **[!UICONTROL What's new]** 페이지를 추가했습니다. (TGT-55137)
 
 +++
 
-**[!DNL Adobe Target]MCP 서버(공개 Beta)**
+**활동**
 
 +++세부 정보 보기
 
-[!DNL Adobe Target]은(는) 이제 MCP 호환 응용 프로그램 내에서 직접 실험, 개인화 및 보고 작업을 수행하는 MCP(Model Context Protocol) 서버를 제공합니다. 이 통합을 통해 마케팅 및 기술 담당자는 A/B 테스트를 검사하고, 성능 보고서를 분석하고, 대상 및 오퍼를 탐색할 수 있습니다. 이 모든 작업은 여러 UI 화면을 탐색하거나 [!DNL Adobe Target] REST API에 대한 쿼리를 작성하는 대신 자연어 프롬프트를 사용합니다. 이 기능은 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 사용할 수 있습니다.
+* [!UICONTROL Automated Personalization] 활동에서 타깃팅을 편집할 때 **잘못된 경험이 선택되었습니다.** [!UICONTROL Automated Personalization]&#x200B;(AP) 활동에서 **[!UICONTROL Targeting]** 단계를 편집하는 동안 잘못된 경험을 선택할 수 있는 문제를 해결했습니다. (TGT-55176)
 
-이 기능은 공용 Beta의 모든 고객이 사용할 수 있습니다.
-
-자세한 내용은 [[!DNL Adobe Target] MCP 서버](../c-integrating-target-with-mac/mcp/target-mcp.md)를 참조하십시오.
+* **예약된 활동을 닫을 때 이전 날짜입니다.** 예약된 활동을 닫을 이전 날짜를 선택할 수 없는 문제가 수정되었습니다. (TGT-55163)
 
 +++
-
 
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-
-
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
