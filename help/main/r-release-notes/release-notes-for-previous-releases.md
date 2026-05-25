@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
 workflow-type: tm+mt
-source-wordcount: 68360
+source-wordcount: 68506
 ht-degree: 50%
 
 ---
@@ -57,6 +57,36 @@ ht-degree: 50%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.5.2(2026년 5월 14일)
+
+**관리**
+
++++세부 정보 보기
+
+* **허용된 URL에 대한 정규식 유효성 검사** 올바른 유효성 검사 없이 **[!UICONTROL Allowed URLs]** 필드에 잘못된 정규식을 입력할 수 있는 문제를 해결했습니다. (TGT-55095)
+
++++
+
+**대상자**
+
++++세부 정보 보기
+
+* [!UICONTROL Edit Audience] 대화 상자의 **단추** **[!UICONTROL Edit Audience]** 대화 상자 내의 단추가 더 이상 올바르게 렌더링되지 않는 문제를 해결했습니다. (TGT-54638)
+
++++
+
+**[!DNL Adobe Target]MCP 서버(공개 Beta)**
+
++++세부 정보 보기
+
+[!DNL Adobe Target]은(는) 이제 MCP 호환 응용 프로그램 내에서 직접 실험, 개인화 및 보고 작업을 수행하는 MCP(Model Context Protocol) 서버를 제공합니다. 이 통합을 통해 마케팅 및 기술 담당자는 A/B 테스트를 검사하고, 성능 보고서를 분석하고, 대상 및 오퍼를 탐색할 수 있습니다. 이 모든 작업은 여러 UI 화면을 탐색하거나 [!DNL Adobe Target] REST API에 대한 쿼리를 작성하는 대신 자연어 프롬프트를 사용합니다. 이 기능은 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 사용할 수 있습니다.
+
+이 기능은 공용 Beta의 모든 고객이 사용할 수 있습니다.
+
+자세한 내용은 [[!DNL Adobe Target] MCP 서버](../c-integrating-target-with-mac/mcp/target-mcp.md)를 참조하십시오.
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.1(2026년 5월 7일)
 
