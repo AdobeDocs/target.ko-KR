@@ -2,25 +2,17 @@
 keywords: 권장 사항 알고리즘;모델 교육;모델 제공;컨텐츠 전달;항목 기반;사용자 기반;인기도 기반;장바구니 기반;사용자 지정 기준
 description: 모델 교육 및 모델 서비스를 포함하여  [!DNL Target Recommendations]에서 사용되는 알고리즘에 대해 알아봅니다.
 title: Target의 추천 알고리즘에 숨겨진 과학에 대한 내용은 어디에서 확인할 수 있습니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2850
+source-wordcount: 2952
 ht-degree: 0%
 
 ---
@@ -33,9 +25,9 @@ ht-degree: 0%
 
 [!DNL Target]은(는) [!DNL Recommendations]에 다음과 같은 광범위한 유형의 알고리즘을 포함합니다.
 
-* **항목 기반 알고리즘**: &quot;이 항목을 보거나 구입한 사람도 이 항목을 보거나 구입한 사람&quot;이라는 논리를 따르는 알고리즘을 포함합니다. 이러한 알고리즘은 [!UICONTROL Items with Similar Attributes] 알고리즘과 함께 포괄적 용어 항목-항목 공동 작업 필터링으로 그룹화됩니다.
+* **항목 기반 알고리즘**: &quot;이 항목을 보거나 구입한 사람도 이 항목을 보거나 구입한 사람&quot;이라는 논리를 따르는 알고리즘을 포함합니다. 이러한 알고리즘은 유사 특성을 가진 [!UICONTROL 항목] 알고리즘뿐만 아니라 포괄적 용어 항목-항목 공동 작업 필터링으로 그룹화됩니다.
 
-* **사용자 기반 알고리즘**: [!UICONTROL Recently Viewed] 및 [!UICONTROL Recommended for You] 알고리즘을 포함합니다.
+* **사용자 기반 알고리즘**: [!UICONTROL 최근에 본 항목] 및 [!UICONTROL 사용자에게 권장되는 항목] 알고리즘을 포함합니다.
 
 * **인기도 기반 알고리즘**: 웹 사이트에서 가장 많이 본 항목 또는 가장 많이 구매한 항목, 범주 또는 항목 특성별로 가장 많이 본 항목 또는 가장 많이 구매한 항목을 반환하는 알고리즘을 포함합니다.
 
@@ -55,15 +47,15 @@ ht-degree: 0%
 
 알고리즘 에는 다음이 포함됩니다.
 
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL 이 항목을 보고 다른 항목도 본 사람]
+* [!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]
+* [!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]
 
 항목-항목 공동 작업 필터링 권장 사항 알고리즘은 많은 사용자의 행동 패턴을 사용하여(따라서 공동 작업) 주어진 항목에 유용한 권장 사항을 제공해야 한다는 아이디어(예: 권장할 가능한 항목의 카탈로그를 필터링해야 함)에 기반을 둡니다. [공동 작업 필터링](https://en.wikipedia.org/wiki/Collaborative_filtering)의 일반적인 범위에 속하는 다양한 알고리즘이 있지만 이러한 알고리즘은 일반적으로 행동 데이터 소스를 입력으로 사용합니다. [!DNL Target Recommendations]에서 이러한 입력은 사용자가 항목을 고유 보고 구매한 것입니다.
 
 &quot;이 항목을 보거나 구매한 사람 및 이 항목을 보거나 구매한 사람&quot; 알고리즘의 목표는 모든 항목 쌍 간의 유사성 s(A,B)를 계산하는 것입니다. 주어진 항목 A에 대해 상위 권장 사항은 그 유사성 s(A,B)별로 순서가 지정됩니다.
 
-이러한 유사성의 한 예는 항목 간의 공동 발생입니다. 두 항목을 모두 구매한 사용자 수의 간단한 카운트입니다. 직관적이긴 하지만, 이러한 지표는 인기 항목을 추천하는 것에 치우쳐 있다는 점에서 순진하다. 예를 들어, 식료품 retailer에서 대부분의 사람들이 빵을 구매한다면, 빵은 모든 품목과 높은 동시성을 가지지만, 반드시 좋은 추천은 아니다. [!DNL Target]은(는) 대신 로그 우도비(LLR)라고 하는 더 정교한 유사성 지표를 사용합니다. 이 양은 두 문항 A와 B의 동시 발생 확률이 서로 미발생 확률과 매우 다를 때 크다. 자세한 내용을 보려면 [!UICONTROL People Who Viewed This, Bought That] 알고리즘의 사례를 고려하십시오. B를 구매했을 확률이 A를 보았는지 여부와 관계없이 *not*&#x200B;일 때 LLR 유사도가 크다.
+이러한 유사성의 한 예는 항목 간의 공동 발생입니다. 두 항목을 모두 구매한 사용자 수의 간단한 카운트입니다. 직관적이긴 하지만, 이러한 지표는 인기 항목을 추천하는 것에 치우쳐 있다는 점에서 순진하다. 예를 들어, 식료품 retailer에서 대부분의 사람들이 빵을 구매한다면, 빵은 모든 품목과 높은 동시성을 가지지만, 반드시 좋은 추천은 아니다. [!DNL Target]은(는) 대신 로그 우도비(LLR)라고 하는 더 정교한 유사성 지표를 사용합니다. 이 양은 두 문항 A와 B의 동시 발생 확률이 서로 미발생 확률과 매우 다를 때 크다. 구체성을 위해 이 항목을 보고 다른 항목을 구입한 [!UICONTROL 사람] 알고리즘을 예로 들어 보십시오. B를 구매했을 확률이 A를 보았는지 여부와 관계없이 *not*&#x200B;일 때 LLR 유사도가 크다.
 
 예를 들어
 
@@ -77,7 +69,7 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집된 방문자 보기 및 구매 형식의 행동 데이터입니다.
+* **입력 데이터**: [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집된 방문자 보기 및 구매 형식의 행동 데이터입니다.
 
 * **모델 교육**:
 
@@ -91,7 +83,7 @@ ht-degree: 0%
 
 알고리즘 포함:
 
-* [!UICONTROL Items with Similar Attributes]
+* [!UICONTROL 비슷한 특성을 가진 항목]
 
 이러한 유형의 알고리즘에서 두 항목은 이름과 텍스트 설명이 의미상 유사하면 관련이 있는 것으로 간주됩니다. 행동 데이터 소스를 사용해야 하는 대부분의 권장 사항 알고리즘과 달리, 콘텐츠 유사성 알고리즘은 제품 카탈로그의 메타데이터를 사용하여 항목 간의 유사성을 도출합니다. 따라서 [!DNL Target]은(는) 동작 데이터가 수집되지 않은 이른바 &quot;콜드 스타트&quot; 시나리오에서 권장 사항을 유도할 수 있습니다(예: [!DNL Target] 활동의 시작 시).
 
@@ -101,7 +93,7 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 앞에서 설명한 대로 이 알고리즘은 순전히 카탈로그 데이터([카탈로그 피드, 엔터티 API 또는 페이지 업데이트를 통해 [!DNL Target]에 수집됨](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을(를) 기반으로 합니다.
+* **입력 데이터**: 앞에서 설명한 대로 이 알고리즘은 순전히 카탈로그 데이터([카탈로그 피드, 엔터티 API 또는 페이지 업데이트를 통해 [!DNL Target]에 수집됨](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을(를) 기반으로 합니다.
 
 * **모델 교육**:
 
@@ -127,9 +119,9 @@ ht-degree: 0%
 알고리즘 에는 다음이 포함됩니다.
 
 * 장바구니 기반 권장 사항
-* [!UICONTROL Recommended For You]
+* [!UICONTROL 추천]
 
-권장 사항 알고리즘 집합 [!DNL Target]에 추가된 가장 최근 항목은 [!UICONTROL Recommended For You]과(와) 일련의 장바구니 기반 권장 사항 알고리즘입니다. 두 유형의 알고리즘 모두 협업 필터링 기법을 사용하여 개별 항목 기반 추천을 형성합니다. 그런 다음, 서비스 시 사용자의 검색 기록([!UICONTROL Recommended For You]의 경우)에 있는 여러 항목 또는 사용자의 현재 장바구니( 장바구니 기반 권장 사항의 경우)를 사용하여 이러한 항목 기반 권장 사항을 검색한 다음, 병합하여 최종 권장 사항 목록을 만듭니다. 개인화된 추천 알고리즘의 다양한 유형이 존재한다는 점을 참고하십시오. 다중 키 알고리즘의 선택은 방문자가 검색 기록을 가지고 있고 최신 방문자 행동에 대응하기 위해 권장 사항을 업데이트할 수 있는 직후에 권장 사항을 사용할 수 있음을 의미합니다.
+[!DNL Target] 추천 알고리즘 세트에 대한 가장 최근의 추가 사항은 [!UICONTROL 사용자를 위한 추천] 및 일련의 장바구니 기반 추천 알고리즘입니다. 두 유형의 알고리즘 모두 협업 필터링 기법을 사용하여 개별 항목 기반 추천을 형성합니다. 그런 다음, 서비스 시 사용자의 검색 기록([!UICONTROL 사용자에게 권장]용) 또는 사용자의 현재 장바구니({장바구니 기반 권장 사항)에 있는 여러 항목을 사용하여 이러한 항목 기반 권장 사항을 검색한 다음 병합하여 최종 권장 사항 목록을 만듭니다. 개인화된 추천 알고리즘의 다양한 유형이 존재한다는 점을 참고하십시오. 다중 키 알고리즘의 선택은 방문자가 검색 기록을 가지고 있고 최신 방문자 행동에 대응하기 위해 권장 사항을 업데이트할 수 있는 직후에 권장 사항을 사용할 수 있음을 의미합니다.
 
 이러한 알고리즘은 항목 기반 권장 사항 섹션에 설명된 기본 공동 작업 필터링 기술을 기반으로 하지만 하이퍼파라미터 튜닝을 통합하여 항목 간 최적의 유사성 지표를 결정합니다. 이 알고리즘은 각 사용자에 대해 행동 데이터를 시간별로 분할하고, 사용자가 나중에 보거나 구매하는 항목을 예측하려고 시도하는 동안 이전 데이터에 대한 추천 모델을 교육합니다. 그런 다음 최적의 [평균 평균 정밀도]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))를 생성하는 유사성 지표가 선택됩니다.
 
@@ -139,13 +131,13 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 항목-항목 공동 작업 필터링(CF) 방법과 동일합니다. [!UICONTROL Both Recommended For You] 및 장바구니 기반 알고리즘에서는 [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집된 사용자의 보기 및 구매 형식의 행동 데이터를 사용합니다.
+* **입력 데이터**: 항목-항목 공동 작업 필터링(CF) 방법과 동일합니다. [!UICONTROL 추천 항목]과 장바구니 기반 알고리즘 모두 [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집된 사용자의 보기 및 구매 형식의 행동 데이터를 사용합니다.
 
 * **모델 교육**:
 
    * **데이터 정리 및 샘플링**: 이는 다시 공동 작업 필터링 방법과 동일합니다. 전환 확인 기간은 동작 데이터를 적절한 날짜 범위로 필터링한 다음 카탈로그 규칙 및 전역 제외를 적용하는 데 적용됩니다. 1,000개 이상의 항목과 상호 작용한 방문자는 가장 최근의 1,000개 사용법만 고려합니다.
    * **테스트 분할**: 각 사용자에 대한 사용량을 시간별로 분할하고 사용량의 처음 80%는 교육 데이터에 할당하며 나머지 20%는 테스트 데이터에 할당됩니다.
-   * **항목 유사성 모델 교육**: 핵심 항목 유사성 계산은 후보 항목 벡터가 구성되는 방식에서 [!UICONTROL Recommended For You] 및 장바구니 기반 알고리즘에 대해 다릅니다. [!UICONTROL Recommended For You]의 경우 항목 벡터에는 차원 NUsers가 있습니다. 여기서 각 항목은 항목의 해당 사용자에 대한 암시적 등급의 합을 나타냅니다. 항목의 구매 횟수에는 항목 보기의 2배 가중치가 제공됩니다. 장바구니 기반 권장 사항의 경우 항목 벡터에는 이진 항목이 있습니다. 세션 내 비헤이비어만 고려하는 경우 모든 세션에 대해 새 항목이 있습니다. 그렇지 않으면 모든 방문자에 대해 이 항목 벡터에 항목이 있습니다.
+   * **항목 유사성 모델 교육**: 핵심 항목 유사성 계산은 후보 항목 벡터가 구성되는 방식에서 [!UICONTROL 사용자에게 권장] 및 장바구니 기반 알고리즘과 다릅니다. [!UICONTROL 추천 항목]의 경우 항목 벡터에는 차원 NUsers가 있습니다. 여기서 각 항목은 해당 항목의 사용자에 대한 암시적 등급의 합계를 나타냅니다. 항목의 구매 횟수에는 항목 보기 횟수의 2배 가중치가 제공됩니다. 장바구니 기반 권장 사항의 경우 항목 벡터에는 이진 항목이 있습니다. 세션 내 비헤이비어만 고려하는 경우 모든 세션에 대해 새 항목이 있습니다. 그렇지 않으면 모든 방문자에 대해 이 항목 벡터에 항목이 있습니다.
 
   트레이닝 단계는 다음과 같이 정의된 LLR 유사성([여기에서 논의됨](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), 코사인 유사성(이전에 정의됨) 및 정규화된 L2 유사성 등 여러 유형의 벡터 유사성을 계산합니다.
 
@@ -155,9 +147,9 @@ ht-degree: 0%
    * **모델 선택**: 오프라인 평가 후 평균 평균 정밀도가 가장 높은 모델이 선택되고 모든 개별 항목 권장 사항이 계산됩니다.
    * **오프라인 필터링**: 모델 교육의 마지막 단계는 적용 가능한 동적 필터를 적용하는 것입니다. 이 단계 후에는 사전 계산된 권장 사항이 전역적으로 캐시되어 제공할 수 있습니다.
 
-* **모델 제공**: 추천 제공에 검색할 단일 키를 지정한 후 비즈니스 규칙을 적용하는 이전 알고리즘과 달리 [!UICONTROL Recommended for You] 및 장바구니 기반 알고리즘에서는 보다 복잡한 런타임 프로세스를 사용합니다.
+* **모델 제공**: 추천 제공에 검색을 위한 단일 키 지정과 비즈니스 규칙 적용이 포함된 이전 알고리즘과 달리 [!UICONTROL 사용자 추천] 및 장바구니 기반 알고리즘에서는 더 복잡한 런타임 프로세스를 사용합니다.
 
-   * **다중 키 검색 및 병합**: 장바구니 기반 권장 사항의 경우 장바구니에 전달된 최대 10개의 항목이 검색 키로 간주되며 각 항목의 권장 사항은 동일한 가중치를 갖습니다. [!UICONTROL Recommended for You]의 경우 마지막으로 본 고유 항목 5개와 마지막으로 구매한 고유 항목 5개가 검색을 위한 키로 간주되며, 구매한 항목에서 발생한 권장 사항은 본 항목에서 발생한 권장 사항보다 두 배 가중치가 적용됩니다. 권장 사항을 병합할 때 항목이 권장 사항의 여러 개별 목록에 나타나는 경우 가중치가 적용된 유사성 점수가 추가됩니다. 이 단계의 최종 권장 사항 목록은 내림차순으로 순위가 매겨진 재가중 권장 사항의 병합된 목록입니다.
+   * **다중 키 검색 및 병합**: 장바구니 기반 권장 사항의 경우 장바구니에 전달된 최대 10개의 항목이 검색 키로 간주되며 각 항목의 권장 사항은 동일한 가중치를 갖습니다. [!UICONTROL 추천 항목]의 경우, 최근 5개의 고유 조회 항목과 최근 5개의 고유 구매 항목이 검색을 위한 키로 간주되며, 구매 항목에서 발생하는 권장 사항은 조회 항목에서 발생하는 권장 사항보다 2배 가중치가 적용됩니다. 권장 사항을 병합할 때 항목이 권장 사항의 여러 개별 목록에 나타나는 경우 가중치가 적용된 유사성 점수가 추가됩니다. 이 단계의 최종 권장 사항 목록은 내림차순으로 순위가 매겨진 재가중 권장 사항의 병합된 목록입니다.
    * **필터링**: 다음으로 이전에 본 항목 및/또는 구매한 항목 제거와 같은 필터링 규칙과 기타 동적 비즈니스 규칙이 적용됩니다.
 
 이러한 프로세스는 방문자가 항목 A를 보고 항목 B를 구매한 다음 이미지에 나와 있습니다. 개별 권장 사항은 각 항목 레이블 아래에 표시된 오프라인 유사성 점수로 검색됩니다. 검색 후 권장 사항은 가중치가 적용된 유사성 점수와 병합됩니다. 마지막으로, 고객이 이전에 본 항목과 구매한 항목을 필터링해야 한다고 지정한 시나리오에서는 필터링 단계에서 권장 사항 목록에서 항목 A와 B가 제거됩니다.
@@ -168,12 +160,12 @@ ht-degree: 0%
 
 알고리즘 에는 다음이 포함됩니다.
 
-* [!UICONTROL Most Viewed Across the Site]
-* [!UICONTROL Most Viewed by Category]
-* [!UICONTROL Most Viewed by Item Attribute]
-* [!UICONTROL Top Sellers Across the Site]
-* [!UICONTROL Top Sellers by Category]
-* [!UICONTROL Top Sellers by Item Attribute]
+* [!UICONTROL 사이트에서 가장 많이 본 항목]
+* [!UICONTROL 범주별 가장 많이 본 항목]
+* [!UICONTROL 가장 많이 본 항목 특성]
+* [!UICONTROL 사이트 전체 최상위 판매자]
+* [!UICONTROL 범주별 최상위 판매자]
+* [!UICONTROL 항목 특성별 최상위 판매자]
 
 [!DNL Target]은(는) 가장 많이 본 항목과 웹 사이트 또는 항목 특성이나 카테고리별로 분류된 가장 많이 판매된 항목 모두에 대한 인기도 기반 알고리즘을 제공합니다. 인기도 기반 알고리즘 은 주어진 시간대에서 해당 항목을 보거나 구매한 세션 수에 따라 항목의 등급을 지정합니다.
 
@@ -181,7 +173,7 @@ ht-degree: 0%
 
 개별 알고리즘 뉘앙스는 다음과 같습니다.
 
-* [!UICONTROL Most Viewed Across the Site] 및 [!UICONTROL Top Sellers Across the Site]은(는) 이러한 항목을 각각 보거나 구입한 세션의 집계 수를 기준으로 항목의 등급을 지정합니다. 출력은 권장 항목의 단일(키가 없는) 목록입니다.
+* [!UICONTROL 사이트에서 가장 많이 본 항목] 및 [!UICONTROL 사이트에서 가장 많이 본 항목]에서 해당 항목을 보거나 구매한 세션의 집계 수를 기준으로 항목의 순위를 매깁니다. 출력은 권장 항목의 단일(키가 없는) 목록입니다.
 * 카테고리/항목 속성별 가장 많이 본 항목/최상위 판매자는 이러한 항목이 본 세션이나 구매된 세션의 집계 카운트로 항목이 정렬되는 권장 사항이지만 항목 카테고리 또는 특정 항목 속성별로 그룹화됩니다. 출력은 카테고리 값 또는 항목 속성 값을 기준으로 처리된 권장 항목 목록입니다.
 
 ## 최근에 본 항목
@@ -190,4 +182,4 @@ ht-degree: 0%
 
 ## 사용자 지정 기준
 
-사용자 지정 기준을 사용하면 고객이 [자신의 권장 사항을  [!DNL Target]](/help/main/c-recommendations/c-algorithms/recommendations-csv.md)에 업로드할 수 있으므로 중요한 유연성을 제공하고 &quot;고유한 모델을 가져옴&quot; 기능을 사용할 수 있습니다. 사용자 지정 기준은 [!UICONTROL Item-Based] 권장 사항의 &quot;오프라인 교육&quot; 부분을 대체하지만, 권장 사항 검색에 단일 키를 사용하고 비즈니스 규칙/필터를 적용한다는 점에서 온라인 콘텐츠 게재 단계 동안 항목 기반 권장 사항 알고리즘과 유사하게 동작합니다.
+사용자 지정 기준을 사용하면 고객이 [자신의 권장 사항을  [!DNL Target]](/help/main/c-recommendations/c-algorithms/recommendations-csv.md)에 업로드할 수 있으므로 중요한 유연성을 제공하고 &quot;고유한 모델을 가져옴&quot; 기능을 사용할 수 있습니다. 사용자 지정 기준은 [!UICONTROL 항목 기반] 권장 사항의 &quot;오프라인 교육&quot; 부분을 대체하지만, 권장 사항 검색에 단일 키를 사용하고 비즈니스 규칙/필터가 적용된다는 점에서 온라인 콘텐츠 게재 단계 동안 항목 기반 권장 사항 알고리즘과 유사하게 동작합니다.

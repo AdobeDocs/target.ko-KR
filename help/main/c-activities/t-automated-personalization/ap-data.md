@@ -2,40 +2,31 @@
 keywords: 환경 데이터;세션 데이터;지역 데이터;지리적 데이터;장치 데이터;모바일 데이터;속성;프로필 속성;개인화 알고리즘;머신 러닝 알고리즘;머신 러닝 알고리즘
 description: ' [!DNL Adobe Target] 수집 및 사용하여 머신 러닝 알고리즘을 작성하는 데이터를 알아봅니다.'
 title: 머신 러닝 알고리즘을 구축하기 위해 수집되는 데이터는 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1986
+source-wordcount: 2009
 ht-degree: 50%
 
 ---
 
 # [!DNL Target] 머신 러닝 알고리즘에서 사용하는 데이터
 
-[!DNL Adobe Target]은(는) 다양한 데이터를 자동으로 수집하고 사용하여 [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target]&#x200B;(AT) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 [!UICONTROL Automated Personalization] 또는 [!UICONTROL Auto-Target] 활동을 시작하면 정보의 스냅숏이 일련의 &quot;교육 레코드&quot;(개인화 알고리즘이 학습하는 방문자 데이터)에 전달됩니다.
+[!DNL Adobe Target]은(는) 다양한 데이터를 자동으로 수집하고 사용하여 [!UICONTROL AP(Automated Personalization]) 및 [!UICONTROL AT(자동 타겟]) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 [!UICONTROL Automated Personalization] 또는 [!UICONTROL 자동 타겟] 활동에 들어오면 정보의 스냅숏이 일련의 &quot;교육 레코드&quot;(개인화 알고리즘이 학습하는 방문자 데이터)에 전달됩니다.
 
 [!DNL Target] 개인화 알고리즘에 대한 자세한 내용은 [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)을 참조하세요.
 
 ## 기본 [!DNL Target] 특성 범주
 
-다음 표에서는 [!DNL Target] 또는 다른 [!DNL Adobe] 솔루션의 구성 없이 기본적으로 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동에서 수집된 데이터를 보여 줍니다. 표에는 [Personalization 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)에서 이러한 특성을 표시하는 데 사용되는 명명 규칙도 포함되어 있습니다. 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [개인화 알고리즘을 위한 데이터 업로드](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오. [!DNL Target] 
+다음 표에서는 [!DNL Target] 또는 다른 [!DNL Adobe] 솔루션의 구성 없이 기본적으로 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 활동에서 수집한 데이터를 보여 줍니다. 표에는 [Personalization 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)에서 이러한 특성을 표시하는 데 사용되는 명명 규칙도 포함되어 있습니다. 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [개인화 알고리즘을 위한 데이터 업로드](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오. [!DNL Target] 
 
-| 데이터 카테고리 | 시스템 접두사 | 설명 | [!UICONTROL Insights]개 보고서에 이름 표시 |
+| 데이터 카테고리 | 시스템 접두사 | 설명 | [!UICONTROL 인사이트] 보고서에 이름 표시 |
 | --- | --- | --- | --- |
 | 환경 매개 변수 | 환경 | 운영 체제, 브라우저 및 요일/요일을 포함한 사용자 환경에 대한 정보입니다. | 브라우저 - [특성 이름]<br>운영 체제 - [값] |
 | Geography | 지역 | IP 조회를 통해 얻은 사용자 지역 정보. | 지역 - [지역 특성] |
@@ -45,24 +36,24 @@ ht-degree: 50%
 
 ## 사용자 지정 [!DNL Target] 특성 범주
 
-다음 표는 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동에서 수집한 고객 제공 데이터를 보여 줍니다. 이 데이터는 제공한 경우에만 수집됩니다. 특정 속성 이름과 샘플 값은 시스템 구성에 따라 다릅니다.
+다음 표는 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 활동에서 수집한 고객 제공 데이터를 보여 줍니다. 이 데이터는 제공한 경우에만 수집됩니다. 특정 속성 이름과 샘플 값은 시스템 구성에 따라 다릅니다.
 
-| 데이터 카테고리 | 시스템 접두사 | 설명 | [!UICONTROL Insights]개 보고서에 이름 표시 |
+| 데이터 카테고리 | 시스템 접두사 | 설명 | [!UICONTROL 인사이트] 보고서에 이름 표시 |
 | --- | --- | --- | --- |
 | 페이지 매개 변수 | 상자 | [!DNL Target] 호출에서 전달된 사용자 지정 페이지 매개 변수(&quot;mbox 매개 변수&quot;)입니다. | 사용자 지정 - Mbox 매개 변수 - [매개 변수 이름] |
 | [!DNL Target] 프로필 | PRO | 사용자 지정 프로필 특성은 API 또는 페이지 매개 변수 및 [!DNL Target] 프로필 스크립트를 통해 [!DNL Target] 프로필에 직접 업로드됩니다. | 사용자 지정 - 방문자 프로필 - [특성 이름] |
-| 고객 속성 | CRS | [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ko){target=_blank}을(를) 통해 [!DNL Target] 프로필에 업로드된 고객 특성입니다. | 사용자 지정 - 방문자 프로필 - [특성 이름] |
+| 고객 속성 | CRS | [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}을(를) 통해 [!DNL Target] 프로필에 업로드된 고객 특성입니다. | 사용자 지정 - 방문자 프로필 - [특성 이름] |
 | URL 매개 변수 | URL | 현재 표시된 페이지의 URL 및 모든 URL 매개 변수. | 사용자 지정 - URL 매개 변수 - [URL 매개 변수] |
 | 참조 URL | 참조 | 참조 URL 및 참조 URL에 대한 모든 URL 매개 변수 | 사용자 지정 - [참조 URL 매개 변수] - [매개 변수 값] |
-| [!DNL Adobe Experience Cloud]개의 공유 대상 | AAM | 다른 [!DNL Adobe Experience Cloud] 솔루션(예: [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ko){target=_blank}을 통해 [!DNL Adobe Audience Manager] 및 [!DNL Adobe Analytics])의 [!DNL Target]과(와) 모든 대상을 공유했습니다. | 사용자 지정 - Experience Cloud 대상 - [대상 이름] |
-| 대상 [!DNL Adobe Experience Platform Real-time CDP]개 | UPS | [!UICONTROL Destinations]을(를) 통해 [!DNL Target]과(와) 공유되는 Platform Real-time CDP 대상자입니다. |  |
+| [!DNL Adobe Experience Cloud]개의 공유 대상 | AAM | 다른 [!DNL Adobe Experience Cloud] 솔루션(예: [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}을 통해 [!DNL Adobe Audience Manager] 및 [!DNL Adobe Analytics])의 [!DNL Target]과(와) 모든 대상을 공유했습니다. | 사용자 지정 - Experience Cloud 대상 - [대상 이름] |
+| 대상 [!DNL Adobe Experience Platform Real-time CDP]개 | UPS | [!UICONTROL 대상]을(를) 통해 [!DNL Target]과(와) 공유되는 Platform Real-time CDP 대상자입니다. |  |
 
 
 ## [!DNL Target] 머신 러닝 알고리즘에서 기능 차단
 
-[!DNL Target] 기계 학습 알고리즘에서 기능을 차단하여 [!UICONTROL Automated Personalization] 또는 [!UICONTROL Auto-Target] 모델 또는 활동에서 사용할 수 없습니다.
+[!DNL Target] 기계 학습 알고리즘에서 기능을 차단하여 [!UICONTROL Automated Personalization] 또는 [!UICONTROL 자동 타겟] 모델 또는 활동에서 사용할 수 없습니다.
 
-자세한 내용은 *[!DNL Adobe Target]개발자 안내서*&#x200B;의 [모델 API(차단 목록에 추가) 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ko){target=_blank}를 참조하십시오.
+자세한 내용은 *[!DNL Adobe Target]개발자 안내서*&#x200B;의 [모델 API(차단 목록에 추가) 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}를 참조하십시오.
 
 ## 장치 및 모바일 데이터 {#device-mobile}
 

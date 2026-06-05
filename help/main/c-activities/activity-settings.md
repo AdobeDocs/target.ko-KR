@@ -5,38 +5,32 @@ title: 활동 설정을 지정하는 방법
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 TQID: https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 71%
+source-wordcount: 432
+ht-degree: 77%
 
 ---
 
 # 활동 설정
 
-[!DNL Adobe Target]의 [!UICONTROL Activity Settings]을(를) 사용하여 활동의 목표, 우선 순위 및 기간을 관리하십시오.
+활동의 목표, 우선 순위 및 기간을 관리하려면 [!DNL Adobe Target]의 [!UICONTROL 활동 설정]을 사용하세요.
 
 1. 활동의 목표에 대한 메모를 입력합니다.
 
-   본인 또는 다른 팀 구성원이 쉽게 사용할 수 있도록 본인의 활동에 대한 정보를 입력합니다. [!UICONTROL Objective] 필드의 크기를 조정하려면 끕니다.
+   본인 또는 다른 팀 구성원이 쉽게 사용할 수 있도록 본인의 활동에 대한 정보를 입력합니다. [!UICONTROL 목표] 필드를 드래그해 크기를 조정합니다.
 1. 활동 우선순위를 설정합니다.
 
-   설정에 따라 [!UICONTROL Priority]의 UI 및 옵션이 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다.
+   설정에 따라 [!UICONTROL 우선순위]의 UI 및 옵션이 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다.
 
    대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
-   이 옵션이 [!UICONTROL Administration] > [!UICONTROL Reporting]&#x200B;(기본값)에서 활성화되지 않으면 우선순위를 낮음, Medium 또는 높음으로 지정하십시오.
+   이 옵션이 [!UICONTROL 관리] > [!UICONTROL 보고]&#x200B;(기본값)에서 활성화되지 않으면 우선순위를 낮음, Medium 또는 높음으로 지정하십시오.
 
-   세분화된 우선 순위를 사용하려면 [!UICONTROL Administration] > [!UICONTROL Reporting]을(를) 클릭한 다음 [!UICONTROL Enable Fine-Grained Priorities] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.
+   세분화된 우선순위를 활성화하려면 [!UICONTROL 관리] > [!UICONTROL 보고]를 클릭한 다음, [!UICONTROL 세분화된 우선순위 활성화] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.
 
    이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.
 
@@ -57,7 +51,7 @@ ht-degree: 71%
    >
    >활동을 스케줄링하여 활동의 전달 시간대를 제어합니다. 그러나 활동을 지정된 스케줄에 따라 전달하려면 먼저 활동을 명시적으로 활성화해야 합니다.
 
-[!UICONTROL Goal & Settings] 페이지에는 만들고 있는 활동 유형에 따라 달라지는 추가 설정이 포함되어 있습니다. 이러한 설정에 대한 자세한 내용은 다음 활동 유형을 참조하십시오.
+[!UICONTROL 목표 및 설정] 페이지에는 생성 중인 활동의 유형에 따라 달라지는 추가 설정이 포함되어 있습니다. 이러한 설정에 대한 자세한 내용은 다음 활동 유형을 참조하십시오.
 
 * [A/B 테스트](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [자동화된 개인화](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)

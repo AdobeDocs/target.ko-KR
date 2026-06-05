@@ -1,25 +1,22 @@
 ---
 keywords: 다변량 테스트;문제 해결;문제 해결;mvt
-description: 제안된 해결 방법과 함께  [!DNL Adobe Target]에서 [!UICONTROL Multivariate Test]​(MVT) 활동을 사용하는 동안 발생할 수 있는 잠재적인 어려움에 대해 알아봅니다.
-title: '[!UICONTROL Multivariate Test] 문제를 해결하려면 어떻게 합니까?'
+description: 제안된 해결 방법과 함께  [!DNL Adobe Target]의 [!UICONTROL 다변량 테스트]​(MVT) 활동을 사용하는 동안 발생할 수 있는 잠재적인 어려움에 대해 알아봅니다.
+title: '[!UICONTROL 다변량 테스트]의 문제를 해결하려면 어떻게 합니까?'
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
 TQID: https://experienceleague.adobe.com/O9lmC1PmICPCOxcMDYVcSdpRoM-bqwKR-79deFIG2mg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 166
-ht-degree: 22%
+source-wordcount: 174
+ht-degree: 21%
 
 ---
 
-# [!UICONTROL Multivariate Test]개 활동 문제 해결
+# [!UICONTROL 다변량 테스트] 활동 문제 해결
 
-이 문서에는 [!DNL Adobe Target]에서 [!UICONTROL Multivariate Test]&#x200B;(MVT)을(를) 디자인할 때 발생할 수 있는 몇 가지 문제를 해결하기 위한 제안 사항이 포함되어 있습니다.
+이 문서에는 [!DNL Adobe Target]에서 MVT([!UICONTROL 다변량 테스트])를 디자인할 때 발생할 수 있는 몇 가지 문제를 해결하기 위한 제안 사항이 포함되어 있습니다.
 
 * 활동을 편집할 때 [!DNL Analytics] 기반 지표를 사용했지만 보고서 세트가 로드되지 않는 경우(회전식 표시) 지표를 [!DNL Target] 지표로 전환한 다음 [!DNL Analytics] 기반 지표로 다시 전환하십시오. 이제 보고서 세트가 로드됩니다.
 * 이미 실행 중인 테스트를 변경하면 테스트와 해당 데이터를 재설정할 수 있습니다.

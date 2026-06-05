@@ -5,8 +5,8 @@ hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 3%
+source-wordcount: '160'
+ht-degree: 4%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 >
 >Desktop SDK 설명서는 현재 준비 중이며 곧 제공될 예정입니다.
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [시작 안내서](startup-guide.md)
 * [SDK](sdks.md)

@@ -41,7 +41,7 @@ ht-degree: 2%
   curl -LsSf https://astral.sh/uv/install.sh | sh
   ```
 
-* Adobe Experience Cloud 액세스가 포함된 활성 [!DNL Adobe Target] 라이선스
+* Adobe Experience Cloud 액세스를 사용하는 활성 [!DNL Adobe Target] 라이선스
 * **Artifactory 자격 증명**(Adobe 내부 사용자만 해당) - 내부 종속성을 설치하는 데 필요합니다.
 
 ## 설치 {#self-hosted-install}

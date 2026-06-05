@@ -5,16 +5,13 @@ title: 검색 엔진 또는 참조 사이트를 기반으로 방문자를 타깃
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 TQID: https://experienceleague.adobe.com/rRGb2gG1f43Y3lapuZlQMdVYx7cc-fe1IMCjLS2km5I
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 240
-ht-degree: 53%
+source-wordcount: 267
+ht-degree: 51%
 
 ---
 
@@ -26,27 +23,27 @@ ht-degree: 53%
 
 여러 트래픽 소스를 결합하여 복잡한 타깃팅 규칙을 만들 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
-1. &#x200B;
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** > **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
+1. 
    1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
-1. **[!UICONTROL Traffic Sources]**&#x200B;을(를) 대상 빌더 창으로 끌어서 놓습니다.
+1. **[!UICONTROL 트래픽 소스]**&#x200B;를 대상 빌더 창으로 끌어다 놓습니다.
 
    ![target_traffic_source 이미지](assets/target_traffic_source.png)
 
-1. **[!UICONTROL Select]**&#x200B;을(를) 클릭한 후 다음 옵션 중 하나를 선택합니다.
+1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
-   * **[!UICONTROL From Baidu]**
-   * **[!UICONTROL From Bing]**
-   * **[!UICONTROL From Google]**
-   * **[!UICONTROL From Yahoo]**
-   * **[!UICONTROL Referring Landing Page: URL]**
-   * **[!UICONTROL Referring Landing Page: Domain]**
-   * **[!UICONTROL Referring Landing Page: Query]**
+   * **[!UICONTROL Baidu에서]**
+   * **[!UICONTROL Bing에서]**
+   * **[!UICONTROL Google에서]**
+   * **[!UICONTROL Yahoo에서]**
+   * **[!UICONTROL 참조 랜딩 페이지: URL]**
+   * **[!UICONTROL 참조 랜딩 페이지: 도메인]**
+   * **[!UICONTROL 랜딩 페이지 참조: 쿼리]**
 
    선택한 항목에 따라 추가 정보(평가기 및/또는 값)를 제공해야 할 수 있습니다.
 
 1. (선택 사항) 대상에 대한 추가 규칙을 설정합니다.
-1. **[!UICONTROL Done]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 완료를 클릭합니다]**.
 
 특정 검색 엔진으로 또는 특정 랜딩 페이지에서 사이트를 참조하는 사용자를 타깃팅할 수 있습니다.
 

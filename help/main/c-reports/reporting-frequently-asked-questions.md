@@ -5,23 +5,14 @@ title: ' [!DNL Target] 보고에 대한 질문에 대한 답변은 어디에서 
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 TQID: https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1384
-ht-degree: 21%
+source-wordcount: 1324
+ht-degree: 24%
 
 ---
 
@@ -75,9 +66,9 @@ ht-degree: 21%
 
 일부 방문자가 &quot;증분 카운트 및 사용자를 활동에 유지&quot;로 구성된 전환 지표에 도달했습니다. 이러한 사용자 중 일부가 전환 지표에 여러 번 도달한다고 가정할 때 전환 지표가 증가하지 않습니다. 그러나 이 설정을 지정하면, 일부 사용자가 전환 지표를 히트한 다음 홈 페이지로 다시 이동하여 활동에 다시 자격을 부여하고 새 방문을 기록할 수 있습니다.
 
-## [!UICONTROL Experience Targeting]&#x200B;(XT) 보고서에 제어 경험에 대한 지표가 포함되는 이유는 무엇입니까?
+## [!UICONTROL 경험 타깃팅]&#x200B;(XT) 보고서에 제어 경험에 대한 지표가 포함되는 이유는 무엇입니까?
 
-XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인 시나리오인 [!UICONTROL A/B Test] 활동과 유사한 방식으로 XT 활동을 사용하는 경우 제어 경험 데이터가 유용합니다. 보고서에서 유용하지 않은 경우 제어 경험 데이터를 무시할 수 있습니다.
+XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인 시나리오인 [!UICONTROL A/B 테스트] 활동과 유사한 방식으로 XT 활동을 사용하는 경우 제어 경험 데이터가 유용합니다. 보고서에서 유용하지 않은 경우 제어 경험 데이터를 무시할 수 있습니다.
 
 ## 다른 [!DNL Adobe Experience Cloud] 솔루션보다 [!DNL Target]에서 방문 횟수가 더 적은 이유는 무엇입니까? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
@@ -101,16 +92,16 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 
 활동의 보고서에 대한 환경을 변경하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 목록에서 원하는 활동을 클릭한 다음 **[!UICONTROL Reports]** 탭을 클릭합니다.
+1. **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **[!UICONTROL 보고서]** 탭을 클릭합니다.
 1. 톱니바퀴 아이콘을 클릭하여 보고서 설정을 구성합니다.
 
    ![A/B 설정 대화 상자](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-1. **[!UICONTROL Environment]** 드롭다운 목록에서 **[!UICONTROL Production]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 환경]** 드롭다운 목록에서 **[!UICONTROL 프로덕션]**&#x200B;을 선택합니다.
 
    개발 환경이 선택되어 있지 않은 경우에는 보고서 데이터를 사용하지 못할 수 있습니다.
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 환경에 대한 자세한 내용은 [호출](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
 
@@ -118,16 +109,16 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 
 활동의 콘텐츠가 사용자에게 전달되었지만 해당 보고서에 데이터가 들어 있지 않은 경우 트래픽이 있는 경험을 제어 경험으로 사용하는지 확인하십시오.
 
-1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 목록에서 원하는 활동을 클릭한 다음 **[!UICONTROL Reports]** 탭을 클릭합니다.
+1. **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **[!UICONTROL 보고서]** 탭을 클릭합니다.
 1. 톱니바퀴 아이콘을 클릭하여 보고서 설정을 구성합니다.
 
-1. **[!UICONTROL Control]** 드롭다운 목록에서 트래픽을 받는 경험을 선택합니다.
+1. **[!UICONTROL 컨트롤]** 드롭다운 목록에서 트래픽을 받는 환경을 선택합니다.
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization]&#x200B;(AP) 활동을 업데이트하고 제어 경험을 트래픽을 받는 경험으로 변경하는 방법에 대한 자세한 내용은 [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오.
+>[!UICONTROL AP(Automated Personalization]) 활동을 업데이트하고 제어 경험을 트래픽을 받는 경험으로 변경하는 방법에 대한 자세한 내용은 [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오.
 
 
 ## A/B 또는 MVT 활동에서 경험 간의 트래픽 분할이 불균일한 이유는 무엇입니까? {#uneven}
@@ -135,7 +126,7 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 예를 들어 트래픽 분할을 50/50 또는 25/25/25/25로 설정했지만 보고에서 경험 간에 상당히 다른 분포가 보입니다. [!DNL Target] 보고에는 불균형한 방문자 수에 대한 몇 가지 이유가 있습니다.
 
 * [!DNL Target] 활동을 처음 시작하면 [!DNL Target]에서 경험 전달을 최적화하는 데 사용하는 에지 노드 아키텍처로 인해 트래픽 분포가 균일하지 않을 수 있습니다. 가장 좋은 방법은 활동에게 더 많은 데이터를 수집할 시간을 주는 것이며 배포가 정상화됩니다. [!DNL Adobe Target] 아키텍처 및 Edge 노드에 대한 자세한 내용은 [Adobe Target 작동 방식](/help/main/c-intro/how-target-works.md)을 참조하십시오.
-* [!DNL Target] 또는 [!DNL Analytics]에 있고 **[!UICONTROL Visits]** 지표를 사용하는 경우 [!DNL Target]은(는) 방문자 기반 시스템이며 A/B 또는 MVT 테스트에 대한 트래픽 분포가 방문자 수준에서 할당된다는 점을 기억하십시오. 따라서 **[!UICONTROL Visits]** 지표를 사용하여 활동 결과를 검사하는 경우 특정 방문자가 여러 번 방문할 수 있으므로 트래픽 분포가 고르지 않게 나타날 수 있습니다. 방문자는 활동 성능을 평가할 때 표준화된 지표입니다.
+* [!DNL Target] 또는 [!DNL Analytics]에 있고 **[!UICONTROL 방문]** 지표를 사용하는 경우 [!DNL Target]은(는) 방문자 기반 시스템이며 A/B 또는 MVT 테스트에 대한 트래픽 분포가 방문자 수준에서 할당됩니다. 따라서 **[!UICONTROL 방문]** 지표를 사용하여 활동 결과를 검사하는 경우 특정 방문자가 여러 번 방문할 수 있으므로 트래픽 분산이 균일하지 않게 나타날 수 있습니다. 방문자는 활동 성능을 평가할 때 표준화된 지표입니다.
 * A/B 및 MVT 테스트의 모범 사례는 트래픽 분할을 균일하게 유지하는 것입니다. 테스트 중에 경험 간의 트래픽 분포(예: 90/10에서 50/50)를 변경하면 경험 간에 방문자가 고르지 않을 수 있습니다. 낮은 트래픽 경험은 &quot;따라잡을 수 없음&quot;일 수 있습니다.
 * 위의 모범 사례를 따르고 있고 트래픽 분할이 시간이 지남에 따라 정규화되지 않는 경우 다음을 확인해야 합니다.
 

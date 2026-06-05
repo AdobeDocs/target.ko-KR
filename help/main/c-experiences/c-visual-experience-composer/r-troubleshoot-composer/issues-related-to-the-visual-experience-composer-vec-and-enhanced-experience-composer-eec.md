@@ -1,32 +1,24 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;허용 목록;허용 목록에 추가하다;허용 목록;고급 시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;eec;고급 경험 작성기;tls;tls 1.2
-description: 특정 조건에서  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) 및 [!UICONTROL Enhanced Experience Composer]​(EEC)에서 가끔 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
-title: '[!UICONTROL Visual Experience Composer] 및 [!UICONTROL Enhanced Experience Composer]과(와) 관련된 문제를 해결하려면 어떻게 합니까?'
+description: 특정 조건에서  [!DNL Target] [!UICONTROL 시각적 경험 작성기](VEC) 및 [!UICONTROL 고급 경험 작성기]​(EEC)에서 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
+title: '[!UICONTROL 시각적 경험 작성기] 및 [!UICONTROL 향상된 경험 작성기]와 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 32%
+source-wordcount: 1271
+ht-degree: 31%
 
 ---
 
-# [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] 및 [!UICONTROL Enhanced Experience Composer]과(와) 관련된 문제 해결
+# [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] 및 [!UICONTROL 향상된 경험 작성기]와 관련된 문제 해결
 
-표시 문제 및 기타 문제는 특정 조건에서 [!DNL Target] [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 및 [!UICONTROL Enhanced Experience Composer]&#x200B;(EEC)에서 발생하는 경우가 있습니다.
+특정 조건에서 [!DNL Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 및 [!UICONTROL 향상된 경험 작성기]&#x200B;(EEC)에서 표시 문제 및 기타 문제가 발생하는 경우가 있습니다.
 
 ## Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까? {#samesite}
 
@@ -37,7 +29,7 @@ ht-degree: 32%
 >
 >다음 변경 사항은 아래에 설명된 세 가지 업데이트에 모두 영향을 줍니다.
 >
-> * [VEC Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)이 설치되어 있고 사이트의 암호로 보호된 페이지에 대해 활성화되지 않으면 *사용할 수 없게*&#x200B;됩니다. 사이트 로그인 쿠키는 타사 쿠키로 간주되며 [!UICONTROL Browse] 모드에서 VEC 편집기 내에서 로그인 요청과 함께 전송되지 않습니다. 유일한 예외는 사이트 로그인 쿠키에 이미 `SameSite=None` 및 `Secure` 특성이 설정되어 있는 경우입니다.
+> * [VEC Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)이 설치되어 있고 사이트의 암호로 보호된 페이지에 대해 활성화되지 않으면 *사용할 수 없게*&#x200B;됩니다. 사이트 로그인 쿠키는 타사 쿠키로 간주되며 [!UICONTROL 찾아보기] 모드에서 VEC 편집기 내에서 로그인 요청과 함께 전송되지 않습니다. 유일한 예외는 사이트 로그인 쿠키에 이미 `SameSite=None` 및 `Secure` 특성이 설정되어 있는 경우입니다.
 
 **Chrome 94(2021년 9월 21일)**: Chrome 94 릴리스(2021년 9월 21일)에 대해 예정된 변경 사항이 적용되면 다음 변경 사항은 Chrome 94 이상 브라우저 버전을 사용하는 모든 사용자에게 영향을 줍니다.
 
@@ -60,12 +52,12 @@ ht-degree: 32%
 +++세부 사항
 SameSite 쿠키 시행 정책으로 인해 차단된 쿠키를 확인하려면 [!DNL Chrome]의 [!DNL Developer Tools]을(를) 사용합니다.
 
-1. [!DNL Chrome]에서 VEC를 보는 동안 [!DNL Developer Tools]에 액세스하려면 Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**&#x200B;의 오른쪽 상단 모서리에 있는 **[!UICONTROL ellipsis]** 아이콘을 클릭합니다.
-1. **[!UICONTROL Network]** 탭을 클릭한 다음 차단된 쿠키를 찾습니다.
+1. [!DNL Chrome]에서 VEC를 보는 동안 [!DNL Developer Tools]에 액세스하려면 Chrome > **[!UICONTROL 추가 도구]** > **[!UICONTROL 개발자 도구]**&#x200B;의 오른쪽 상단 모서리에 있는 **[!UICONTROL 줄임표]** 아이콘을 클릭하십시오.
+1. **[!UICONTROL 네트워크]** 탭을 클릭한 다음 차단된 쿠키를 찾습니다.
 
    >[!NOTE]
    >
-   >**[!UICONTROL Has blocked cookies]** 확인란을 사용하여 차단된 쿠키를 더 쉽게 찾을 수 있습니다.
+   >**[!UICONTROL 쿠키를 차단했습니다]** 확인란을 사용하여 차단된 쿠키를 더 쉽게 찾을 수 있습니다.
 
 +++
 
@@ -81,7 +73,7 @@ SameSite 쿠키 시행 정책으로 인해 차단된 쿠키를 확인하려면 [
 ## 페이지를 편집하려고 할 때 페이지 대신 회전기가 표시됩니다. (VEC 및 EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++세부 사항
-이 상황은 URL에 # 문자가 포함된 경우 발생할 수 있습니다. 문제를 해결하려면 VEC 또는 EEC에서 [!UICONTROL Browse] 모드로 전환한 다음 [!UICONTROL Compose] 모드로 다시 전환합니다. 회전자가 사라지고 페이지가 로드됩니다.
+이 상황은 URL에 # 문자가 포함된 경우 발생할 수 있습니다. 문제를 해결하려면 VEC 또는 EEC에서 [!UICONTROL 찾아보기] 모드로 전환한 다음 [!UICONTROL 작성] 모드로 다시 전환합니다. 회전자가 사라지고 페이지가 로드됩니다.
 
 +++
 
@@ -134,7 +126,7 @@ VEC 내에서 리소스가 로드되지 않도록 하는 모든 헤더에 대해
 ## iFrame 버스팅 사이트에 대한 경험을 편집할 수 없습니다. (VEC 및 EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++세부 사항
-이 문제는 EEC([!UICONTROL Enhanced Experience Composer])를 활성화하여 해결할 수 있습니다. **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**&#x200B;을(를) 클릭한 다음 [!UICONTROL Enhanced Experience Composer]을(를) 활성화하는 확인란을 선택합니다. EEC는 [!DNL Adobe] 관리 프록시를 사용하여 편집할 페이지를 로드합니다. 이 프록시를 사용하면 iFrame 버스팅 사이트에서 편집할 수 있으며 [!DNL Adobe Target] 코드를 아직 추가하지 않은 사이트 및 페이지에서 편집할 수 있습니다. 코드가 추가될 때까지 활동은 사이트로 전달되지 않습니다. 일부 사이트는 EEC를 통해 로드되지 않을 수 있습니다. 이 경우 이 옵션을 선택 취소하고 iFrame을 통해 EEC를 로드할 수 있습니다.
+이 문제는 EEC([!UICONTROL 향상된 경험 작성기])를 활성화하여 해결할 수 있습니다. **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]**&#x200B;를 클릭한 다음 [!UICONTROL 향상된 경험 작성기]를 활성화하는 확인란을 선택하십시오. EEC는 [!DNL Adobe] 관리 프록시를 사용하여 편집할 페이지를 로드합니다. 이 프록시를 사용하면 iFrame 버스팅 사이트에서 편집할 수 있으며 [!DNL Adobe Target] 코드를 아직 추가하지 않은 사이트 및 페이지에서 편집할 수 있습니다. 코드가 추가될 때까지 활동은 사이트로 전달되지 않습니다. 일부 사이트는 EEC를 통해 로드되지 않을 수 있습니다. 이 경우 이 옵션을 선택 취소하고 iFrame을 통해 EEC를 로드할 수 있습니다.
 
 >[!NOTE]
 >
@@ -149,10 +141,10 @@ VEC 내에서 리소스가 로드되지 않도록 하는 모든 헤더에 대해
 
 +++
 
-## [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] 또는 [!UICONTROL Change Text]/[!DNL Change HTML]이(가) 있는 굵은 기울임꼴 텍스트 스타일이 내 페이지에 표시되지 않습니다. 이러한 스타일 변경 사항을 적용한 후에 텍스트가 사라지는 경우도 있습니다. (VEC 및 EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
+## [!UICONTROL 텍스트 편집]/[!UICONTROL HTML 편집] 또는 [!UICONTROL 텍스트 변경]/[!DNL Change HTML]을(를) 사용하는 굵게 및 기울임꼴 텍스트 스타일이 내 페이지에 표시되지 않습니다. 이러한 스타일 변경 사항을 적용한 후에 텍스트가 사라지는 경우도 있습니다. (VEC 및 EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++세부 사항
-[!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting] 활동의 경우 VEC에서 **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]**, [!UICONTROL Automated Personalization] 또는 [!UICONTROL Multivariate Test] 활동의 경우 **[!UICONTROL Change Text]/[!UICONTROL Change HTML]**&#x200B;을(를) 사용하여 텍스트를 굵게 또는 기울임체로 설정하는 경우 해당 스타일이 페이지에 적용되지 않거나 VEC에서 텍스트가 사라질 수 있습니다. 이러한 문제는 서식 있는 텍스트 편집기에서 이러한 스타일을 적용하는 방식이 웹 사이트 마크업을 방해할 수 있기 때문에 발생합니다.
+[!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타깃팅] 활동 또는 **[!UICONTROL 텍스트 변경]/[!UICONTROL HTML 변경]** 또는 [!UICONTROL Automated Personalization] 또는 [!UICONTROL 다변량 테스트] 활동을 위해 VEC에서 **[!UICONTROL 텍스트 편집]/[!UICONTROL HTML 편집]**&#x200B;을 사용하여 텍스트를 굵게 또는 기울임체로 설정하는 경우 해당 스타일이 페이지에 적용되지 않거나 VEC에서 텍스트가 사라질 수 있습니다. 이러한 문제는 서식 있는 텍스트 편집기에서 이러한 스타일을 적용하는 방식이 웹 사이트 마크업을 방해할 수 있기 때문에 발생합니다.
 
 이 문제가 표시되면 다음을 수행합니다.
 

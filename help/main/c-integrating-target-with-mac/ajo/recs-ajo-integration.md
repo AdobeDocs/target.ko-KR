@@ -3,22 +3,18 @@ keywords: ajo;adobe 여정 최적화 도구;adobe 여정 최적화 도구 target
 description: ' [!DNL Adobe Target Recommendations] 을(를)  [!DNL Adobe Journey Optimizer]과(와) 통합합니다.'
 title: ' [!DNL Adobe Journey Optimizer]을(를) 사용하는 고객 여정에서  [!DNL Target Recommendations] 을(를) 사용하려면 어떻게 합니까?'
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
 TQID: https://experienceleague.adobe.com/JA--Ll80bDZwn9WtGqIb-z3YxyJLOvOYPzuhZeKA17w
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 637
 ht-degree: 2%
 
 ---
@@ -33,11 +29,11 @@ ht-degree: 2%
 
 [!DNL Target Recommendations] 및 [!DNL Adobe Journey Optimizer] 통합을 사용하려면 다음이 필요합니다.
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)이(가) [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}를 사용하여 구현되었습니다.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)이(가) [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}를 사용하여 구현되었습니다.
 
   이 기능은 [!DNL Target Standard] 라이선스나 at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현하는 경우에는 사용할 수 없습니다.
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target=_blank}을 클릭하여 보고서 세트를 변경할 수도 있습니다.
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank}을 클릭하여 보고서 세트를 변경할 수도 있습니다.
 
 ## 샘플 사용 사례
 
@@ -53,7 +49,7 @@ ht-degree: 2%
 
   지정된 기간 후에 [!DNL Journey Optimizer]의 사용자 지정 작업에서 [!DNL Target Recommendations]을(를) 호출하여 각 방문자의 EDID([!DNL Adobe Experience Cloud Identifier]), 방문자의 [!DNL Target] 프로필 및 [사용자 기반](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 알고리즘을 사용하여 각 방문자가 본 항목을 결정합니다. 그런 다음 [!DNL Adobe Journey Optimizer]은(는) 자격 있는 대상의 각 구성원에게 이미지와 각 방문자의 표시된 항목에 대한 링크가 포함된 개인화된 전자 메일을 보내어 방문자가 돌아와서 구매하도록 합니다.
 
-  이 시나리오에서는 [!UICONTROL Experience Cloud Visitor ID]&#x200B;(ECID) 및 각 방문자의 [!DNL Target] 프로필에 있는 콘텐츠를 사용하여 최근에 본 알고리즘을 기반으로 권장 사항을 생성합니다.
+  이 시나리오에서는 [!UICONTROL Experience Cloud 방문자 ID]&#x200B;(ECID) 및 각 방문자의 [!DNL Target] 프로필 콘텐츠가 최근에 본 알고리즘을 기반으로 권장 사항을 생성하는 데 사용됩니다.
 
   예를 들어 방문자가 소매 웹 사이트를 방문하여 여러 개의 시계를 본다고 가정해 봅시다. 이 방문자의 [!DNL Target] 프로필이 표시된 시계 목록으로 업데이트되었습니다. [!DNL Target]이(가) ECID와 방문자의 [!DNL Target] 프로필을 사용하여 [!DNL Journey Optimizer]에게 권장 사항을 보냅니다. 그런 다음 [!DNL Journey Optimizer]은(는) 최근에 본 알고리즘을 사용하여 이 방문자가 본 시계에 대한 이미지와 링크가 포함된 전자 메일을 보냅니다. 다른 방문자는 이 방문자가 본 항목에 대한 이미지와 링크가 포함된 개인화된 이메일을 수신합니다. 각 이메일 메시지는 각 방문자에 대해 개인화됩니다.
 

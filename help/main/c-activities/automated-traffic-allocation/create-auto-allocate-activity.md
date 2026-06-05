@@ -1,59 +1,53 @@
 ---
 keywords: 자동 할당 만들기;A/B 테스트;자동 할당 활동;새 a/b 활동;자동 할당;최고 경험에 자동 할당;할당;자동 할당
-description: '[!UICONTROL Visual Experience Composer]​(VEC)을(를) 사용하여 [!UICONTROL Auto-Allocate] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
-title: '[!UICONTROL Auto-Allocate] 활동을 만드는 방법'
+description: '[!UICONTROL 시각적 경험 작성기]​(VEC)를 사용하여 [!UICONTROL 자동 할당] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
+title: '[!UICONTROL 자동 할당] 활동을 만들려면 어떻게 합니까?'
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
 TQID: https://experienceleague.adobe.com/dInypDH72qyoj5UygbEt-BWpq1gZkbxJiSXSheNPO54
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 918
-ht-degree: 15%
+source-wordcount: 1060
+ht-degree: 14%
 
 ---
 
-# [!UICONTROL Auto-Allocate] 활동 만들기
+# [!UICONTROL 자동 할당] 활동 만들기
 
-[!DNL Target]을(를) 사용할 수 있는 페이지에서 바로 [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정하려면 [!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)를 사용하십시오.
+[!DNL Adobe Target]의 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 사용하여 [!DNL Target]이(가) 활성화된 페이지에서 직접 [!UICONTROL 자동 할당] [!UICONTROL A/B 테스트] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.
 
-[!DNL Target]은(는) [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] 활동(이 문서에서 설명됨) 외에도 두 가지 유형의 [!UICONTROL A/B Test] 활동을 추가로 제공합니다. [!UICONTROL Manual (Default)] 및 [!UICONTROL Auto-Target]. *A/B 테스트 개요*&#x200B;에서 [A/B 테스트 활동 유형](/help/main/c-activities/t-test-ab/test-ab.md#types)을 참조하세요.
+[!DNL Target]은(는) [!UICONTROL 자동 할당] [!UICONTROL A/B 테스트] 활동(이 문서에서 설명됨) 외에도 두 가지 유형의 [!UICONTROL A/B 테스트] 활동을 추가로 제공합니다. [!UICONTROL 수동(기본값)] 및 [!UICONTROL 자동 타겟]. *A/B 테스트 개요*&#x200B;에서 [A/B 테스트 활동 유형](/help/main/c-activities/t-test-ab/test-ab.md#types)을 참조하세요.
 
-[!UICONTROL Auto-Allocate] 활동을 만들려면:
+[!UICONTROL 자동 할당] 활동을 만들려면:
 
-1. **[!UICONTROL Activities]** 목록에서 **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 활동]** 목록에서 **[!UICONTROL 활동 만들기]** > **[!UICONTROL A/B 테스트]**&#x200B;를 클릭합니다.
 
-1. 필요한 경우 [!UICONTROL Create A/B Test Activity] 대화 상자에서 **[!UICONTROL Visual]**&#x200B;을(를) 선택합니다.
+1. 필요한 경우 [!UICONTROL A/B 테스트 활동 만들기] 대화 상자에서 **[!UICONTROL 시각적]**&#x200B;을(를) 선택합니다.
 
-   [!UICONTROL Form-Based Experience Composer]을(를) 사용하려면 [!UICONTROL Form]을(를) 선택하십시오. 자세한 내용은 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 참조하십시오.
+   [!UICONTROL 양식 기반 경험 작성기]를 사용하려면 [!UICONTROL 양식]을 선택하세요. 자세한 내용은 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 참조하십시오.
 
    >[!NOTE]
    >
-   >VEC 및 [!UICONTROL Form-Based Experience Composer] 외에 [!DNL Target]에서 [!UICONTROL Single Page Application] VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/main/c-experiences/experiences.md)를 참조하십시오.
+   >VEC 및 [!UICONTROL 양식 기반 경험 작성기] 외에 [!DNL Target]에서 [!UICONTROL 단일 페이지 애플리케이션] VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/main/c-experiences/experiences.md)를 참조하십시오.
    >
    >VEC에 대한 문제 해결 정보는 [시각적 경험 작성기 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
 
-1. (조건부) [Target Premium 고객](/help/main/c-intro/intro.md#premium)인 경우 **[!UICONTROL Choose Workspace]** 드롭다운 목록에서 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을(를) 선택하십시오.
+1. (조건부) [Target Premium 고객](/help/main/c-intro/intro.md#premium)인 경우 **[!UICONTROL Workspace 선택]** 드롭다운 목록에서 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
 
-   [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/main/c-intro/intro.md) 기능이며 조직에 [!UICONTROL Target Standard] 라이선스가 있는 경우 표시되지 않을 수 있습니다.
+   [[!UICONTROL 작업 공간 선택]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/main/c-intro/intro.md) 기능이며 조직에 [!UICONTROL Target Standard] 라이선스가 있는 경우 표시되지 않을 수 있습니다.
 
-1. **[!UICONTROL Enter Activity URL]** 상자에서 [활동 URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)을 지정하십시오.
+1. **[!UICONTROL 활동 URL 입력]** 상자에서 [활동 URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)을 지정하십시오.
 
    계정이 [기본 URL로 구성](/help/main/administrating-target/visual-experience-composer-set-up.md)된 경우 기본적으로 해당 URL이 표시됩니다. 필요한 경우 기본값에서 다른 URL로 변경할 수 있습니다.
 
-1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-   [!UICONTROL Visual Experience Composer]이(가) 열리고 URL에 지정된 페이지가 표시됩니다.
+   [!UICONTROL 시각적 경험 작성기]가 열리고 URL에 지정된 페이지가 표시됩니다.
 
-1. 활동의 이름을 지정하려면 &quot;[!UICONTROL Untitled Activity]&quot; 옆에 있는 **[!UICONTROL Edit]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 활동의 이름을 지정하려면 &quot;[!UICONTROL 제목 없는 활동]&quot; 옆에 있는 **[!UICONTROL 편집]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 
@@ -81,11 +75,11 @@ ht-degree: 15%
 
 1. 페이지의 요소를 변경하여 새 경험을 만듭니다.
 
-   새 활동을 만든 후 [!UICONTROL Visual Experience Composer]의 왼쪽에 두 개의 탭([!UICONTROL Experience A] 및 [!UICONTROL Experience B])이 표시됩니다. [!UICONTROL Experience A]은(는) 제어 경험입니다. 포커스는 원하는 대로 수정할 수 있는 [!UICONTROL Experience B] 탭에 있습니다. [!UICONTROL Experience B]은(는) 테스트에 추가할 수 있는 대체 경험입니다. [!UICONTROL Experiences] 창 상단의 [!UICONTROL Add] 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭하여 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려면 활동에서 경험 A를 삭제할 수도 있습니다.
+   새 활동을 만든 후 [!UICONTROL 시각적 경험 작성기]의 왼쪽에 두 개의 탭([!UICONTROL 경험 A] 및 [!UICONTROL 경험 B])이 표시됩니다. [!UICONTROL 경험 A]은(는) 제어 경험입니다. 포커스는 [!UICONTROL 경험 B] 탭에 있으며, 이 탭은 원하는 대로 수정할 수 있습니다. [!UICONTROL 경험 B]은(는) 테스트에 추가할 수 있는 대체 경험입니다. [!UICONTROL 경험] 창 상단의 [!UICONTROL 추가] 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭하여 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려면 활동에서 경험 A를 삭제할 수도 있습니다.
 
-   [!UICONTROL Visual Experience Composer]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)를 참조하십시오. [!UICONTROL Experience B]을(를) 수정하려면 2단계부터 시작하십시오.
+   [!UICONTROL 시각적 경험 작성기]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)를 참조하십시오. [!UICONTROL 경험 B]을(를) 수정하려면 2단계부터 시작하십시오.
 
-1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 [!UICONTROL Visual Experience Composer]의 맨 위에서 **[!UICONTROL Targeting]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL 시각적 경험 작성기]의 맨 위에서 **[!UICONTROL 타깃팅]**&#x200B;을 클릭하여 안내가 있는 3단계 워크플로우에서 다음 단계로 이동합니다.
 
    흐름 다이어그램이 열립니다.
 
@@ -93,41 +87,41 @@ ht-degree: 15%
 
    흐름 다이어그램은 대상과 해당 트래픽 비율을 할당하고, 트래픽 할당 방법을 선택하고, 활동의 각 경험에 대한 트래픽 할당을 지정하는 단계를 안내합니다.
 
-1. (조건부) **[!UICONTROL All Visitors]** 컨트롤을 클릭하여 활동에 대한 다른 대상을 선택합니다.
+1. (조건부) **[!UICONTROL 모든 방문자]** 컨트롤을 클릭하여 활동에 대한 다른 대상을 선택합니다.
 
-   [!UICONTROL All Visitors] 대상이 기본값으로 설정됩니다. 다른 대상을 선택하면 해당 이름이 가장 왼쪽 컨트롤에 표시됩니다.
+   [!UICONTROL 모든 방문자] 대상이 기본값으로 설정됩니다. 다른 대상을 선택하면 해당 이름이 가장 왼쪽 컨트롤에 표시됩니다.
 
    오른쪽 프레임이 표시되어 대상을 추가 또는 삭제하고 활동에 대한 방문자 비율을 할당할 수 있습니다.
 
-   1. 대상을 변경하려면 오른쪽 프레임에서 **[!UICONTROL Replace]아이콘**(![바꾸기 아이콘](/help/main/assets/icons/Retweet.svg))을 클릭합니다.
-   1. [!UICONTROL Add Audience] 대화 상자에서 [원하는 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)한 다음 **[!UICONTROL Assign Audience]**&#x200B;을(를) 클릭합니다.
+   1. 대상을 변경하려면 오른쪽 프레임에서 **[!UICONTROL 바꾸기] 아이콘**(![바꾸기 아이콘](/help/main/assets/icons/Retweet.svg) )을 클릭하십시오.
+   1. [!UICONTROL 대상 추가] 대화 상자에서 [원하는 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)한 다음 **[!UICONTROL 대상 할당]**&#x200B;을 클릭합니다.
 
       **대상 결합**&#x200B;을 클릭하여 [여러 대상을 결합하는 대상을 만들 수 있습니다](/help/main/c-target/combining-multiple-audiences.md).
 
-      [!UICONTROL Audience Library]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭합니다. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
+      [!UICONTROL 대상 라이브러리]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭하십시오. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
 
-      * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
-      * **이 활동만**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상 만들기](/help/main/c-target/creating-activity-only-audience.md)
+      * **[!UICONTROL 대상 라이브러리]**: [!UICONTROL 대상 라이브러리]에 저장된 주문형 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
+      * **이 활동만**: [!UICONTROL 대상 라이브러리]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만듭니다.
 
-   1. 오른쪽 프레임에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
+   1. 오른쪽 프레임에서 **[!UICONTROL 방문자 비율]**&#x200B;을 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
 
    예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아인&quot; 대상자의 45%로 제한할 수 있습니다.
 
-1. **[!UICONTROL Traffic Allocation]** 컨트롤을 클릭한 다음 오른쪽 창에서 원하는 트래픽 할당 방법을 선택합니다. 이 시나리오에서는 **[!UICONTROL Auto-Allocate to best experience]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 트래픽 할당]** 컨트롤을 클릭한 다음 오른쪽 창에서 원하는 트래픽 할당 방법을 선택합니다. 이 시나리오에서는 **[!UICONTROL 최고 경험에 자동 할당]**&#x200B;을 클릭합니다.
 
    ![트래픽 할당 메서드 설정](/help/main/c-activities/automated-traffic-allocation/assets/auto-allocate-to-best-exp.png)
 
    다음 트래픽 할당 방법을 사용할 수 있습니다.
 
-   * **[!UICONTROL Manual (Default)]**: 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다.
+   * **[!UICONTROL 수동(기본값)]**: 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다.
 
-   * **[!UICONTROL Auto-Allocate to best experience]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 성과 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [[!UICONTROL Auto-Allocate] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)를 참조하십시오.
+   * **[!UICONTROL 최고 경험에 자동 할당]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 성과 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [[!UICONTROL 자동 할당] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)를 참조하십시오.
 
-   * **[!UICONTROL Auto-Target for personalized experiences]**: [!DNL Target]은(는) 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험을 식별한 후 개별 고객 프로필 및 유사한 방문자의 이전 동작을 기준으로 방문자에게 가장 잘 맞춤 설정된 경험을 제공함으로써 콘텐츠를 개인화하고 전환을 유도합니다. 자세한 내용은 [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md)를 참조하십시오.
+   * **[!UICONTROL 개인화된 경험에 대한 자동 타겟]**: [!DNL Target]은(는) 고급 기계 학습을 사용하여 높은 성과를 보이는, 마케터가 정의한 여러 경험을 식별한 후 개별 고객 프로필 및 유사한 방문자의 이전 동작을 기준으로 방문자에게 가장 잘 조정된 경험을 제공함으로써 콘텐츠를 개인화하고 전환을 유도합니다. 자세한 내용은 [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md)를 참조하십시오.
 
-1. 오른쪽 창에서 **[!UICONTROL Experiences]**&#x200B;을(를) 클릭한 다음 각 경험에 대해 원하는 트래픽 할당을 지정합니다.
+1. 오른쪽 창에서 **[!UICONTROL 경험]**&#x200B;을 클릭한 다음 각 경험에 대해 원하는 트래픽 할당을 지정합니다.
 
-1. 대상, 경험 선택 사항 및 트래픽 할당 선택 사항이 만족스러우면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 안내가 있는 3단계 워크플로의 세 번째 단계로 이동합니다.
+1. 대상, 경험 선택 사항 및 트래픽 할당 선택 사항이 만족스러우면 **[!UICONTROL 다음]**&#x200B;을 클릭하여 안내가 있는 3단계 워크플로의 세 번째 단계로 이동합니다.
 
 1. 활동에 대한 [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)을 지정합니다.
 
@@ -135,6 +129,6 @@ ht-degree: 15%
    >
    >이 활동에 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)을 사용하려면 자동 할당 및 자동 타겟 활동에 대한 [A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)의 중요 정보를 참조하십시오.
 
-1. **[!UICONTROL Save & Close]** 또는 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 저장 및 닫기]** 또는 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-활동을 만든 후 [!UICONTROL Overview] 탭에는 활동의 다이어그램을 포함하여 활동에 대한 정보가 표시됩니다.
+활동을 만든 후 [!UICONTROL 개요] 탭에는 활동의 다이어그램을 포함하여 활동에 대한 정보가 표시됩니다.

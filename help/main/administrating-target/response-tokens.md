@@ -6,30 +6,14 @@ feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 TQID: https://experienceleague.adobe.com/Fm2VW0HmAPjf0ZCDawI-s1nPl3c-wjU-evhq-tSAKqA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
-  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
-  - id: faed1c89-faf7-4df1-910d-a88263e03b15
-  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: c5abb976-5170-45d6-bcac-66d15d10a4d4id: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1749
+source-wordcount: 1767
 ht-degree: 22%
 
 ---
@@ -38,7 +22,7 @@ ht-degree: 22%
 
 응답 토큰을 사용하면 [!DNL Adobe Target]과(와) 관련된 정보를 브랜드 웹 페이지에 자동으로 출력할 수 있습니다. 이 정보에는 활동, 오퍼, 경험, 사용자 프로필, 지역 정보 등에 대한 세부 사항이 포함될 수 있습니다. 이러한 세부 정보는 내부 또는 타사 도구와 공유하거나 디버깅에 사용할 추가 응답 데이터를 제공합니다.
 
-응답 토큰을 사용하면 사용할 변수(키 값 쌍)를 선택한 다음 [!DNL Target] 응답의 일부로 전송할 수 있습니다. 스위치를 사용하여 변수를 활성화하면 [!DNL Target] 응답이 있는 상태로 변수가 전송되며, 이 응답은 네트워크 호출에서 확인할 수 있습니다. 응답 토큰은 [!UICONTROL Preview] 모드에서도 작동합니다.
+응답 토큰을 사용하면 사용할 변수(키 값 쌍)를 선택한 다음 [!DNL Target] 응답의 일부로 전송할 수 있습니다. 스위치를 사용하여 변수를 활성화하면 [!DNL Target] 응답이 있는 상태로 변수가 전송되며, 이 응답은 네트워크 호출에서 확인할 수 있습니다. 응답 토큰은 [!UICONTROL 미리 보기] 모드에서도 작동합니다.
 
 플러그인과 응답 토큰 간의 주요 차이점은 플러그인이 전달 시 실행되는 페이지에 JavaScript을 전달한다는 것입니다. 그러나 응답 토큰은 이벤트 리스너를 사용할 때 읽고 작용할 수 있는 개체를 전달합니다. 응답 토큰 접근 방식은 더 안전하며 타사 통합을 보다 쉽게 개발하고 유지 관리할 수 있도록 해줍니다.
 
@@ -50,8 +34,8 @@ ht-degree: 22%
 
 | Target SDK | 제안된 작업 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank} | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK을 다운로드하는 방법에 대한 자세한 내용은 *Platform Web SDK 개요* 안내서에서 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko){target=_blank}를 참조하십시오. Platform Web SDK의 각 버전에 대한 새로운 기능은 *Platform Web SDK 개요* 안내서의 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko)를 참조하십시오. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank} | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js를 다운로드하는 방법에 대해서는 [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}를 참조하십시오. 각 at.js 버전의 새로운 기능에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js(사용 중단됨)에는 존재했지만 at.js에는 존재하지 않는 내부 메서드에 의존하는 일부 플러그인은 전달되지만 실패합니다. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK을 다운로드하는 방법에 대한 자세한 내용은 *Platform Web SDK 개요* 안내서에서 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}를 참조하십시오. Platform Web SDK의 각 버전에 대한 새로운 기능은 *Platform Web SDK 개요* 안내서의 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)를 참조하십시오. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js를 다운로드하는 방법에 대해서는 [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}를 참조하십시오. 각 at.js 버전의 새로운 기능에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js(사용 중단됨)에는 존재했지만 at.js에는 존재하지 않는 내부 메서드에 의존하는 일부 플러그인은 전달되지만 실패합니다. |
 
 ## 응답 토큰 사용 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -59,10 +43,10 @@ ht-degree: 22%
 
    추가 정보:
 
-   * **Platform Web SDK**: *Platform Web SDK 개요* 안내서의 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko)를 참조하십시오.
+   * **Platform Web SDK**: *Platform Web SDK 개요* 안내서의 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)를 참조하십시오.
    * **at.js**: [at.js 다운로드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}를 참조하십시오.
 
-1. [!DNL Target]에서 **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Target]에서 **[!UICONTROL 관리]** > **[!UICONTROL 응답 토큰]**&#x200B;을 클릭합니다.
 
 1. `activity.id` 및 `offer.id`과(와) 같이 원하는 응답 토큰을 활성화합니다.
 
@@ -81,7 +65,7 @@ ht-degree: 22%
    |  | `profile.categoryAffinities` | 방문자의 상위 5개 카테고리의 배열을 문자열로 반환합니다. |
    | 활동 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 현재 활동에 대한 세부 정보.<br> 오퍼 매개 변수의 값은 경험 수준에서 평가됩니다. |
    | 지역 | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 활동에서 지역 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [지역](/help/main/c-target/c-audiences/c-target-rules/geo.md)을 참조하십시오. |
-   | 트래픽 할당 메서드 <br>([!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에만 적용) | `experience.trafficAllocationId` | 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고, 방문자가 &quot;대상&quot; 트래픽 분배에서 경험을 받은 경우 1을 반환합니다. |
+   | 트래픽 할당 메서드<br>([!UICONTROL 자동 타겟] 및 [!UICONTROL Automated Personalization] 활동에만 적용) | `experience.trafficAllocationId` | 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고, 방문자가 &quot;대상&quot; 트래픽 분배에서 경험을 받은 경우 1을 반환합니다. |
    |  | `experience.trafficAllocationType` | &quot;제어&quot; 또는 &quot;타깃팅&quot;을 반환합니다. |
 
    사용자 프로필 속성 및 고객 속성도 목록에 표시됩니다.
@@ -90,9 +74,9 @@ ht-degree: 22%
    >
    >특수 문자가 있는 매개 변수는 목록에 표시되지 않습니다. 영숫자 문자 및 밑줄만 지원됩니다.
 
-1. (조건부) 프로필 매개 변수를 응답 토큰으로 사용하지만 매개 변수가 [!DNL Target] 요청을 통해 전달되지 않아 [!DNL Target] UI에 로드되지 않은 경우 [!UICONTROL Add Response Token] 단추를 사용하여 프로필을 UI에 추가할 수 있습니다.
+1. (조건부) 프로필 매개 변수를 응답 토큰으로 사용하지만 매개 변수가 [!DNL Target] 요청을 통해 전달되지 않아 [!DNL Target] UI에 로드되지 않은 경우 [!UICONTROL 응답 토큰 추가] 단추를 사용하여 프로필을 UI에 추가할 수 있습니다.
 
-   **[!UICONTROL Add Response Token]**&#x200B;을(를) 클릭하고 토큰 이름을 입력한 다음 **[!UICONTROL Activate]**&#x200B;을(를) 클릭합니다.
+   **[!UICONTROL 응답 토큰 추가]**&#x200B;를 클릭하고 토큰 이름을 입력한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
 
 1. 활동을 만듭니다.
 
@@ -194,7 +178,7 @@ ht-degree: 22%
 
 **응답 토큰을 활성화하거나 비활성화하는 데 필요한 역할은 무엇입니까?**
 
-[!DNL Target] [!UICONTROL Administrator] 역할을 가진 사용자만 응답 토큰을 활성화하거나 비활성화할 수 있습니다.
+[!DNL Target] [!UICONTROL 관리자] 역할을 가진 사용자만 응답 토큰을 활성화하거나 비활성화할 수 있습니다.
 
 **실행 중인 [!DNL Platform Web SDK] 2.6.0(또는 이전 버전)의 경우 어떻게 됩니까?**
 
@@ -444,8 +428,8 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration] 메뉴 UI(이전 [!UICONTROL Setup])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오의 정보는 정확하지만 옵션이 약간 다른 위치에 있습니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오의 정보는 정확하지만 옵션이 약간 다른 위치에 있습니다.
 >
 >비디오에는 각각 `offer.name` 및 `offer.id`(으)로 바뀐 `option.name` 및 `option.id`이(가) 언급되어 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/33347?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)

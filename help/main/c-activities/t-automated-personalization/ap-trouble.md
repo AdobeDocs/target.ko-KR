@@ -1,21 +1,16 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: 제안된 해결 방법과 함께 Adobe Target에서 [!UICONTROL Automated Personalization]​(AP) 활동을 사용하는 동안 발생할 수 있는 잠재적인 어려움에 대해 알아봅니다.
-title: '[!UICONTROL Automated Personalization]개 활동 문제를 해결하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+title: '[!UICONTROL Automated Personalization] 활동 문제를 해결하려면 어떻게 합니까?'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 TQID: https://experienceleague.adobe.com/1Qevyq-TiutN1dEZnfC1DDmUgXoHIxtBl-3RMPq-m-0
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: 764
 ht-degree: 30%
 
 ---
@@ -28,7 +23,7 @@ ht-degree: 30%
 
 +++세부 정보 보기
 
-[!UICONTROL Automated Personalization] 활동에 있는 경험 수, 사이트에 대한 트래픽, 선택한 성공 지표 등 모델을 만드는 데 드는 예상 시간을 줄일 수 있는 몇 가지 활동 설정 변경 사항이 있습니다.
+[!UICONTROL Automated Personalization] 활동의 경험 수, 사이트에 대한 트래픽, 선택한 성공 지표 등 모델을 만드는 데 드는 예상 시간을 줄일 수 있는 몇 가지 활동 설정 변경 사항이 있습니다.
 
 **해결 방법:** 활동 설정을 검토하여 모델을 만드는 속도를 개선하기 위해 변경할 사항이 있는지 확인하십시오.
 
@@ -54,11 +49,11 @@ ht-degree: 30%
 
 +++
 
-## 내 [!UICONTROL Automated Personalization] 활동 URL에 잘못된 페이지에 오퍼 콘텐츠가 표시됩니다. {#section_82A224406DBF4107B05204BEFBBE458C}
+## [!UICONTROL Automated Personalization] 활동 URL에 잘못된 페이지에 오퍼 콘텐츠가 표시됩니다. {#section_82A224406DBF4107B05204BEFBBE458C}
 
 +++세부 정보 보기
 
-[!UICONTROL Automated Personalization]에서 URL 및 템플릿 테스트 규칙이 [!DNL Target] 요청 항목 제약 조건(예: target-global-mbox)에 추가되어 한 번만 평가됩니다. 사용자가 활동 자격을 얻으면 Target 요청 수준 타깃팅 규칙이 재평가되지 않습니다. 그러나 타깃팅 대상이 위치 타깃팅 규칙에 추가됩니다.
+[!UICONTROL Automated Personalization]에서 URL 및 템플릿 테스트 규칙이 [!DNL Target] 요청 항목 제약 조건(예: target-global-mbox)에 추가되며, 이 제약 조건은 한 번만 평가됩니다. 사용자가 활동 자격을 얻으면 Target 요청 수준 타깃팅 규칙이 재평가되지 않습니다. 그러나 타깃팅 대상이 위치 타깃팅 규칙에 추가됩니다.
 
 **해결 방법:** 활동에 대한 입력 대상으로 필요한 템플릿 규칙을 추가합니다. 대상 평가는 각 요청/호출에 대해 발생합니다.
 

@@ -5,25 +5,21 @@ title: ' [!DNL Target] 다른 활동에 우선 순위를 할당하는 방법'
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 TQID: https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 36%
+source-wordcount: 987
+ht-degree: 34%
 
 ---
 
 # 우선순위
 
-[!DNL Adobe Target]은(는) 사용 중인 [!DNL Target] 인터페이스와 활동 만들기 기능([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 또는 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md))에 따라 페이지에 전달할 활동을 다르게 결정합니다.
+[!DNL Adobe Target]은(는) 사용 중인 [!DNL Target] 인터페이스와 활동 만들기 기능([[!UICONTROL 시각적 경험 작성기(VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 또는 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md))에 따라 페이지에 전달할 활동을 다르게 결정합니다.
 
-## [!UICONTROL Visual Experience Composer] 전용 또는 [!UICONTROL Form-Based Experience Composer] 글로벌 [!DNL Target] 요청만 사용 {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!UICONTROL 시각적 경험 작성기]만 또는 [!DNL Target] 글로벌 요청만 사용하는 [!UICONTROL 양식 기반 경험 작성기] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 회사에서 VEC만 사용하는 경우 동일한 호출에 대해 여러 활동의 콘텐츠가 반환될 수 있습니다. 활동은 다음 결정 플로우를 사용하여 전달됩니다.
 
@@ -31,7 +27,7 @@ ht-degree: 36%
 1. [!DNL Target]은(는) 해당 URL에서 실행 중인 모든 활동을 가져옵니다.
 1. [!DNL Target]이(가) 방문자를 활동에 일치시키려고 합니다.
 
-   방문자가 이미 [!UICONTROL A/B Test] 또는 [!UICONTROL Multivariate Test] 활동에 있는 경우 전환될 때까지 해당 활동에 일치합니다. 이전에 [!UICONTROL Experience Targeting] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상자 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
+   방문자가 이미 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 다변량 테스트] 활동에 있는 경우 전환되기 전까지 방문자는 해당 활동에 일치합니다. 이전에 [!UICONTROL 경험 타깃팅] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상자 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
 
 1. 방문자가 대응하는 모든 활동 및 경험에 대한 콘텐츠가 페이지에 반환됩니다.
 1. 각 활동의 콘텐츠가 서로 다른 [CSS 선택기](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)를 참조하는 경우 모든 콘텐츠가 표시됩니다.
@@ -47,9 +43,9 @@ ht-degree: 36%
    * 하나의 활동에만 대상 타깃팅이 있을 경우 해당 활동이 표시됩니다.
    * 모두 또는 없음에 타깃팅이 있는 경우 먼저 승인된 활동이 표시됩니다.
 
-## [!UICONTROL Form-Based Experience Composer] 및 [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
+## [!UICONTROL 양식 기반 경험 작성기] 및 [!UICONTROL 시각적 경험 작성기] {#section_4620253E1CE942DD830724C7822B175F}
 
-회사에서 VEC의 [!UICONTROL Form-Based Experience Composer] *및*&#x200B;을(를) 사용하는 경우 여러 [!UICONTROL Form-Based Experience Composer] 및 VEC 활동의 콘텐츠가 전달될 수 있습니다. 이전에는 양식 기반 워크플로우에서 하나의 활동만 전달할 수 있었습니다. 더 이상 게재할 수 있는 양식 기반 활동 수에 제한이 없습니다.
+회사에서 VEC를 [!UICONTROL 양식 기반 경험 작성기] *및*&#x200B;를 사용하는 경우 여러 [!UICONTROL 양식 기반 경험 작성기] 및 VEC 활동의 콘텐츠가 전달될 수 있습니다. 이전에는 양식 기반 워크플로우에서 하나의 활동만 전달할 수 있었습니다. 더 이상 게재할 수 있는 양식 기반 활동 수에 제한이 없습니다.
 
 활동 전달은 다음 결정 플로우를 사용하여 결정됩니다.
 
@@ -57,7 +53,7 @@ ht-degree: 36%
 1. [!DNL Target]은(는) 해당 [!DNL Target] 요청에서 실행 중인 모든 활동을 가져옵니다.
 1. [!DNL Target]이(가) 방문자를 활동에 일치시키려고 합니다.
 
-   방문자가 이미 [!UICONTROL A/B Test] 또는 [!UICONTROL Multivariate Test] 활동에 있는 경우 전환될 때까지 해당 테스트와 일치합니다. 이전에 [!UICONTROL Experience Targeting] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상자 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
+   방문자가 이미 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 다변량 테스트] 활동에 있는 경우 전환되기 전까지 방문자는 해당 테스트와 일치합니다. 이전에 [!UICONTROL 경험 타깃팅] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상자 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
 
 1. 양식 기반 활동의 우선순위가 가장 높다면, 해당 활동 콘텐츠가 VEC 활동의 모든 일치하는 활동 콘텐츠와 함께 반환됩니다.
 1. VEC 활동이 가장 높은 우선 순위인 경우, 일치하는 모든 VEC 활동의 콘텐츠가 반환되지만 양식 기반 활동 콘텐츠는 반환되지 않습니다.
@@ -70,7 +66,7 @@ ht-degree: 36%
 
 타깃팅된 두 활동의 우선순위가 서로 같다면, 가장 최근에 본 활동이 표시됩니다. 방문자가 해당 페이지를 처음 방문했다면 가장 최근에 활성화된 활동이 표시됩니다.
 
-## 비전역 [!DNL Target] 요청이 있는 [!UICONTROL Form-Based Experience Composer] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## 비전역 [!DNL Target] 요청이 있는 [!UICONTROL 양식 기반 경험 작성기] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 회사에서 양식 기반 작성기의 글로벌 [!DNL Target] 요청 이외의 [!DNL Target]개의 요청을 사용하는 경우 호출당 하나의 활동에서만 콘텐츠를 반환할 수 있습니다. 활동 전달은 다음 결정 플로우를 사용하여 결정됩니다.
 
@@ -78,7 +74,7 @@ ht-degree: 36%
 1. [!DNL Target]은(는) 해당 [!DNL Target] 요청에서 실행 중인 모든 활동을 가져옵니다.
 1. [!DNL Target]이(가) 방문자를 우선 순위가 가장 높은 활동에 일치시키려고 합니다.
 
-   방문자가 이미 [!UICONTROL A/B Test] 또는 [!UICONTROL Multivariate Test] 활동에 있는 경우 전환될 때까지 해당 활동에 일치합니다. 이전에 [!UICONTROL Experience Targeting] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상자 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
+   방문자가 이미 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 다변량 테스트] 활동에 있는 경우 전환되기 전까지 방문자는 해당 활동에 일치합니다. 이전에 [!UICONTROL 경험 타깃팅] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상자 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
 
 1. 여러 활동이 우선순위 수준을 공유하는 경우 두 개의 타이 브레이커가 있습니다.
 
@@ -89,18 +85,18 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->설정에 따라 우선순위 값은 달라집니다. [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선 순위를 사용할 수 있습니다. 자세한 내용은 [활동 설정](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)을 참조하세요.
+>설정에 따라 우선순위 값은 달라집니다. [!UICONTROL 낮음], [!UICONTROL Medium] 또는 [!UICONTROL 높음]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다. 자세한 내용은 [활동 설정](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)을 참조하세요.
 
 응답: offer1
 
-**두 활동이 서로 다른 선택기에 대해 [!UICONTROL Visual Experience Composer]에서 만들어진 오퍼만 사용합니다**
+**두 활동에서는 서로 다른 선택기에 대해 [!UICONTROL 시각적 경험 작성기]에서 만든 오퍼만 사용합니다**
 
 * 활동 1: target-global-mbox, selector1, visualExpCompOffer1, 우선순위 낮음
 * 활동 2: target-global-mbox, selector2, visualExpCompOffer2, 우선순위 높음
 
 응답: visualExpCompOffer1, visualExpCompOffer2
 
-**두 활동에서 동일한 선택기에 대해 [!UICONTROL Visual Experience Composer]에서 만든 오퍼만 사용합니다**
+**두 활동에서는 동일한 선택기에 대해 [!UICONTROL 시각적 경험 작성기]에서 만든 오퍼만 사용합니다**
 
 * 활동 1: target-global-mbox, selector1, visualExpCompOffer1, 우선순위 낮음
 * 활동 2: target-global-mbox, selector1, visualExpCompOffer2, 우선순위 높음

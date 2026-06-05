@@ -1,24 +1,22 @@
 ---
 keywords: 다변량 테스트;mvt;mvt 계획;다변량 테스트 계획
-description: 성공적인 테스트를 만들 수 있도록  [!DNL Adobe Target] 에서 [!UICONTROL Multivariate Test]을(를) 계획하는 방법을 알아봅니다.
-title: '[!UICONTROL Multivariate Test]을(를) 계획하려면 어떻게 해야 합니까?'
+description: 성공적인 테스트를 만들 수 있도록  [!DNL Adobe Target] 의 [!UICONTROL 다변량 테스트]를 계획하는 방법을 알아봅니다.
+title: '[!UICONTROL 다변량 테스트]를 계획하려면 어떻게 해야 합니까?'
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 TQID: https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 287
-ht-degree: 64%
+source-wordcount: 295
+ht-degree: 63%
 
 ---
 
-# [!UICONTROL Multivariate Test] 계획
+# [!UICONTROL 다변량 테스트 계획]
 
-성공적인 테스트를 만들려면 [!DNL Adobe Target]의 MVT([!UICONTROL Multivariate Tests]) 활동에 몇 가지 계획을 세워야 합니다.
+성공적인 테스트를 만들려면 [!DNL Adobe Target]의 [!UICONTROL 다변량 테스트]&#x200B;(MVT) 활동에 몇 가지 계획이 필요합니다.
 
 MVT에는 유용한 결과를 얻기에 충분한 트래픽이 필요합니다. 테스트를 설정하기 전에, 노출 수 및 전환 수를 비롯하여 사이트에 일반적으로 수신되는 트래픽의 양을 알아야 합니다. 이 정보를 사용하면 사이트의 트래픽을 초과하는 요구 사항을 사용하여 테스트를 디자인할 가능성을 줄이는 데 도움이 됩니다.
 
@@ -37,4 +35,4 @@ MVT에는 유용한 결과를 얻기에 충분한 트래픽이 필요합니다. 
 * 다변량 테스트 정의 및 디자인
 * 다변량 테스트 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -5,16 +5,13 @@ title: 카테고리 친화성이란?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 TQID: https://experienceleague.adobe.com/B5H-MhD005gmDbRErDOmfifwk-WIsOubWUYpQagRKgU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 56%
+source-wordcount: 880
+ht-degree: 57%
 
 ---
 
@@ -111,15 +108,15 @@ ht-degree: 56%
 
 ### 카테고리 친화성을 사용할 대상 만들기 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. **[!UICONTROL Audiences]** 목록에서 **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 대상]** 목록에서 **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 
    또는
 
    기존 대상을 복사하려면 대상자 목록에서 원하는 대상으로 마우스를 가져간 다음 복사 아이콘을 클릭합니다. 그러면 대상자를 편집하여 유사한 대상자를 만들 수 있습니다.
 
-1. 특성을 설명하는 대상자 이름을 입력합니다.
-1. **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL Visitor Profile]** 드롭다운 목록에서 **[!UICONTROL Category Affinity]**&#x200B;을(를) 선택합니다.
+1. 수사적 대상 이름을 입력합니다.
+1. **[!UICONTROL + 규칙 추가]** > **[!UICONTROL 방문자 프로필]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 방문자 프로필]** 드롭다운 목록에서 **[!UICONTROL 카테고리 관심도]**&#x200B;를 선택합니다.
 
    ![방문자 프로필 > 카테고리 친화성](assets/affinity.png)
 
@@ -145,8 +142,8 @@ ht-degree: 56%
    * 다음과 같음
 
 1. 각각의 새 값을 별도의 행에 지정합니다(예: &quot;신발&quot;).
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ### 활동에서 카테고리 친화성 대상 사용 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-모든 활동에서 카테고리 친화성 대상을 사용할 수 있습니다. 안내가 있는 3단계 워크플로 동안 [!UICONTROL Target] 단계에서 원하는 대상자를 선택합니다.
+모든 활동에서 카테고리 친화성 대상을 사용할 수 있습니다. 안내가 있는 3단계 워크플로우 동안 [!UICONTROL Target] 단계에서 원하는 대상을 선택합니다.

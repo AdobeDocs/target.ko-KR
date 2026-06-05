@@ -5,22 +5,19 @@ title: A/B 활동에서 여러 경험 버전을 사용할 수 있습니까?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 TQID: https://experienceleague.adobe.com/FleyH-u5cWI5vku9E4-RMWeIc95WgPy-VQ-eytxka18
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 612
 ht-degree: 51%
 
 ---
 
 # A/B 테스트의 여러 경험 대상자
 
-[!DNL Adobe Target] A/B 활동에서 동일한 경험의 버전을 다른 대상자에게 타깃팅할 수 있습니다. [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 또는 양식 기반 경험 작성기에서 경험에 대한 여러 대상을 설정할 수 있습니다.
+[!DNL Adobe Target] A/B 활동에서 동일한 경험의 버전을 다른 대상자에게 타깃팅할 수 있습니다. [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 또는 양식 기반 경험 작성기에서 경험에 대한 여러 대상을 설정할 수 있습니다.
 
 방문자는 프로필이 변경될 때 경험 대상 간에 전환할 수 있습니다. 방문자는 활동 라이프타임 동안 동일한 경험에 머무르지 않습니다.
 
@@ -40,9 +37,9 @@ ht-degree: 51%
 
    여러 버전이 있는 경험을 구성할 때는 다음 단계에 표시된 것처럼 각 버전의 대상자를 선택합니다.
 
-1. 경험을 선택한 다음 **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**&#x200B;을(를) 클릭합니다.
+1. 경험을 선택한 다음 **[!UICONTROL 구성]** > **[!UICONTROL 여러 대상]**&#x200B;을 클릭합니다.
 
-1. [!UICONTROL Experience Audiences] 창에서 **[!UICONTROL Add Audience]** 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭한 다음 타깃팅할 첫 번째 대상을 선택합니다. 각 대상자에 대해 이 작업을 반복합니다.
+1. [!UICONTROL Experience Audiences] 창에서 **[!UICONTROL 대상 추가]** 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭한 다음, 타깃팅할 첫 번째 대상을 선택합니다. 각 대상자에 대해 이 작업을 반복합니다.
 
    대상자가 아직 존재하지 않는 경우 [대상자 만들기](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)를 클릭하고 설정합니다.
 

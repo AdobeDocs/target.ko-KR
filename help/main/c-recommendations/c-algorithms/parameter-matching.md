@@ -2,22 +2,20 @@
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;프로모션;동적 필터링;동적;매개 변수 일치
 description: 항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 Adobe [!DNL Target] Recommendations에서 동적으로 필터링하는 방법을 알아봅니다.
 title: 권장 사항 활동에서 매개 변수 일치로 필터링하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 TQID: https://experienceleague.adobe.com/GTli-O1p4Gm2Fg9J-L0ukQ8dSw2t-da8OatFLP8Ks9g
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: 350
 ht-degree: 10%
 
 ---
 
-# [!UICONTROL Parameter Matching]
+# [!UICONTROL 매개 변수 일치]
 
 항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 동적으로 필터링합니다.
 
@@ -37,7 +35,7 @@ ht-degree: 10%
 
 ## 매개 변수 일치 예
 
-[!UICONTROL Parameter Matching]에서는 다음 예제와 같이 페이지 매개 변수 또는 방문자의 매개 변수(예: 장치 차원 또는 지리적 위치)와 일치하는 콘텐츠를 추천할 수 있습니다.
+[!UICONTROL 매개 변수 일치]를 사용하면 다음 예제와 같이 페이지 매개 변수 또는 방문자의 매개 변수(예: 장치 차원 또는 지리적 위치)와 일치하는 콘텐츠를 추천할 수 있습니다.
 
 [!DNL Recommendations]은(는) [!DNL Target] 호출 시 전송된 매개 변수 값과 일치할 수 있습니다. 이 인스턴스에서 [!DNL Target]은(는) [!DNL Target] 호출에서 보낸 화면 높이 및 너비 매개 변수를 기반으로 방문자가 모바일 장치를 사용하고 있음을 감지하고 모바일 장치인 항목만 추천합니다.
 

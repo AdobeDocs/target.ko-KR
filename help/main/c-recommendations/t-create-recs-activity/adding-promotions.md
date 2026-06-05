@@ -2,18 +2,16 @@
 keywords: 프로모션;전면 프로모션;후속 프로모션;프로모션 유형;항목 목록;속성별 프로모션;컬렉션 프로모션
 description: 프로모션된 항목을 추가하고 Adobe [!DNL Target] 권장 사항 디자인에서 해당 배치를 제어하는 방법에 대해 알아봅니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
 title: 권장 사항 디자인에서 프로모션을 추가하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 TQID: https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 648
-ht-degree: 40%
+source-wordcount: 709
+ht-degree: 41%
 
 ---
 
@@ -31,15 +29,15 @@ ht-degree: 40%
 
 특정 항목을 판촉하거나, 항목을 동적으로 판촉하거나, 속성을 기준으로 항목을 판촉하거나, 컬렉션을 판촉할 수 있습니다.
 
-[!DNL Target] UI![&#128279;](assets/add_promotion_toggles.png)의 [!UICONTROL Front Promotion] 및 [!UICONTROL Back Promotion] 옵션
+[!DNL Target] UI의 ![[!UICONTROL 전면 프로모션] 및 [!UICONTROL 후면 프로모션] 옵션](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
 >프로모션을 사용하면 CSV 구조 및 출력이 변경됩니다. 이러한 변경 사항은 CSV를 포함하는 외부 프로세스(예: 이메일)에 영향을 줄 수 있습니다.
 
-1. **[!UICONTROL Options]** 페이지에서 **[!UICONTROL Front Promotion]** 또는 **[!UICONTROL Back Promotion]** 전환을 클릭합니다.
+1. **[!UICONTROL 옵션]** 페이지에서 **[!UICONTROL 전면 프로모션]** 또는 **[!UICONTROL 후면 프로모션]** 전환을 클릭합니다.
 
-   다음 그림은 [!UICONTROL Front Promotion] 전환이 &quot;켜짐&quot; 위치에 있음을 보여 줍니다.
+   다음 그림은 [!UICONTROL 전면 프로모션] 전환이 &quot;켜짐&quot; 위치에 있음을 보여줍니다.
 
    ![전면 프로모션 옵션 추가](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
@@ -53,36 +51,36 @@ ht-degree: 40%
 
    시작 날짜를 설정하지 않으면 프로모션이 즉시 시작됩니다. 종료 날짜를 설정하지 않으면 프로모션이 무기한 실행됩니다.
 
-1. **[!UICONTROL Promotion Type]** 선택.
+1. **[!UICONTROL 프로모션 유형]**&#x200B;을(를) 선택하십시오.
 
-   * **[!UICONTROL List of items]**&#x200B;을(를) 선택하고 승격할 특정 항목의 `entity.id` 값을 쉼표로 구분하여 입력하십시오.
+   * **[!UICONTROL 항목 목록]**&#x200B;을 선택하고 홍보할 특정 항목의 `entity.id` 값을 쉼표로 구분하여 입력하십시오.
 
-   * **[!UICONTROL Promote by attribute]**&#x200B;을(를) 선택하고 규칙을 추가하여 승격할 항목의 특성을 정의합니다.
+   * ]**속성별 판촉**[!UICONTROL &#x200B;을 선택하고 규칙을 추가하여 판촉할 항목의 속성을 정의합니다.
 
-     [!UICONTROL Promote by Attribute]을(를) 선택하면 동적 일치를 만들 수 있습니다. 자세한 내용은 [동적 및 정적 포함 규칙 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하세요.
+     [!UICONTROL 속성별 승격]을 선택하면 동적 일치를 만들 수 있습니다. 자세한 내용은 [동적 및 정적 포함 규칙 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하세요.
 
-   * **[!UICONTROL Promote a collection]**&#x200B;을(를) 선택하고 승격할 항목의 컬렉션을 선택하십시오.
+   * **[!UICONTROL 컬렉션 판촉]**&#x200B;을 선택하고 판촉할 항목의 컬렉션을 선택합니다.
 
      프로모션에 사용할 새 컬렉션을 만들 수 있습니다. 자세한 내용은 [컬렉션 만들기](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)를 참조하십시오.
 
-   **[!UICONTROL List of Items]**&#x200B;을(를) **[!UICONTROL Promotion Type]**(으)로 선택한 경우, 원하는 경우 **[!UICONTROL Randomize Item Order]** 확인란을 선택할 수 있습니다.
+   **[!UICONTROL 항목 목록]**&#x200B;을(를) **[!UICONTROL 프로모션 유형]**(으)로 선택한 경우, 원하는 경우 **[!UICONTROL 항목 순서 무작위 지정]** 확인란을 선택할 수 있습니다.
 
-   [!UICONTROL List of Items]의 기본 정렬 순서는 [!DNL Target] UI 또는 API에서 입력한 순서를 기반으로 합니다. 목록에 프로모션용으로 설정한 슬롯 수보다 많은 항목이 포함된 경우 [!UICONTROL Randomize Item Order] 옵션은 디자인에 표시된 프로모션된 항목을 무작위로 지정합니다. 이 옵션을 선택하면 [!DNL Target]이(가) 각 히트에 설정된 전체 프로모션 중에서 템플릿의 프로모션에 대해 활성화된 항목을 임의로 선택합니다.
+   [!UICONTROL 항목 목록]의 기본 정렬 순서는 [!DNL Target] UI 또는 API에서 입력한 순서를 기반으로 합니다. 목록에 프로모션용으로 설정한 슬롯 수보다 많은 항목이 포함된 경우 [!UICONTROL 항목 순서 무작위 지정] 옵션은 디자인에 표시된 판촉된 항목을 무작위로 지정합니다. 이 옵션을 선택하면 [!DNL Target]이(가) 각 히트에 설정된 전체 프로모션 중에서 템플릿의 프로모션에 대해 활성화된 항목을 임의로 선택합니다.
 
    엔터티에 `entity.value` 특성이 없는 경우(예: 제품을 판매하지 않는 경우) 게시 날짜와 같은 `entity.value` 특성에 숫자 값을 전달할 수 있습니다. 이 경우 홍보된 항목은 가장 최근 게시 날짜를 기준으로 내림차순으로 홍보될 수 있습니다. `entity.value` 특성은 double 형식이므로 문자열을 허용하지 않습니다.
 
-   **[!UICONTROL Promote by Attribute]** 또는 **[!UICONTROL Promote a Collection]** 옵션을 선택한 경우 순서를 무작위로 지정하는 옵션을 적용할 수 없습니다.
+   **[!UICONTROL 속성별 홍보]** 또는 **[!UICONTROL 컬렉션 홍보]** 옵션을 선택한 경우 순서를 무작위로 지정하는 옵션을 적용할 수 없습니다.
 
-   [!UICONTROL Promote by Attribute] 또는 [!UICONTROL Promote a Collection] 옵션을 사용하여 특정 항목을 프로모션할 때 항목이 표시되는 기본 순서는 `entity.value` 특성을 기준으로 내림차순입니다.
+   [!UICONTROL 속성별 승격] 또는 [!UICONTROL 컬렉션 승격] 옵션을 사용하여 특정 항목을 승격할 때 항목이 표시되는 기본 순서는 `entity.value` 특성을 기준으로 합니다(내림차순).
 
    다음 표는 이러한 옵션 간의 차이점을 보여 줍니다.
 
    | 프로모션 유형 | 기본 정렬 | 백업 정렬 | 동적 필터링 옵션 |
    | --- | --- | --- | --- |
-   | [!UICONTROL List of Items] | Target UI/API에 입력된 순서 | 무작위(UI/API를 통해 선택한 경우) | 아니요 |
-   | [!UICONTROL Promote by Attribute] | `entity.value`(내림차순) | 무작위 지정 없음 | 예 |
-   | [!UICONTROL Promote a Collection] | `entity.value`(내림차순) | 무작위 지정 없음 | 아니요 |
+   | [!UICONTROL 항목 목록] | Target UI/API에 입력된 순서 | 무작위(UI/API를 통해 선택한 경우) | 아니요 |
+   | 특성별 [!UICONTROL 승격] | `entity.value`(내림차순) | 무작위 지정 없음 | 예 |
+   | [!UICONTROL 컬렉션 홍보] | `entity.value`(내림차순) | 무작위 지정 없음 | 아니요 |
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 활동의 모든 경험에 프로모션이 적용됩니다.

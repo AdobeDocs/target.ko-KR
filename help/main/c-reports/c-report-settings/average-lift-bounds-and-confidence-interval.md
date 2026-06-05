@@ -6,8 +6,8 @@ feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 60%
+source-wordcount: '913'
+ht-degree: 59%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->이 기능은 [!UICONTROL Table] 보기에서 보고서를 볼 때만 사용할 수 있습니다. 이 기능은 [Analytics를 보고 소스로 사용(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)하는 활동에는 사용할 수 없습니다.
+>이 기능은 [!UICONTROL 테이블] 보기에서 보고서를 볼 때만 사용할 수 있습니다. 이 기능은 [Analytics를 보고 소스로 사용(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)하는 활동에는 사용할 수 없습니다.
 
 ## 데이터 해석 {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-다음 그림은 [!UICONTROL Lift Bounds and Confidence Level] 정보를 보여 줍니다.
+다음 그림은 [!UICONTROL 상승도 한계 및 신뢰 수준] 정보를 보여줍니다.
 
 ![평균 리프트 및 신뢰 수준 보고서](/help/main/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
@@ -61,7 +61,7 @@ ht-degree: 60%
 
 상승도 한계에 대한 입력에 도달하는 몇 가지 추가 계산이 있습니다.
 
-* **t 값:** 95% 신뢰 수준에 대한 중요 통계는 1.96입니다. [t값에 대한 자세한 내용은 여기](https://en.wikipedia.org/wiki/T-statistic)를 참조하세요.
+* **t 값:** 95% 신뢰 수준에 대한 중요 통계는 1.96입니다. [t값은 여기](https://en.wikipedia.org/wiki/T-statistic)에서 자세히 알아볼 수 있습니다.
 * **상승도 분산:**&#x200B;상승도 분산을 결정하려면 경험 N의 성공 지표에 대한 표준 오차와 통제 경험의 성공 지표에 대한 표준 오차가 있어야 합니다. 상승도 분산은 다음 공식을 사용하여 계산됩니다(성공 지표가 전환인 경우가 설명됨).
 
   ![lift_variance 이미지](assets/lift_variance.png)
@@ -116,4 +116,4 @@ ht-degree: 60%
 경우에 따라 [!DNL Target]에 리프트 경계가 표시되지 않습니다.
 
 * 어떤 활동에 대해서든 방문 또는 방문자의 총 수가 30 미만일 때 표시되지 않습니다.
-* [!UICONTROL Auto-Allocate] 활동의 경우 한 경험이 60% 신뢰도에 도달할 때까지 상승도 경계가 표시되지 않습니다.
+* [!UICONTROL 자동 할당] 활동의 경우 한 경험이 60% 신뢰도에 도달할 때까지 상승도 경계가 표시되지 않습니다.

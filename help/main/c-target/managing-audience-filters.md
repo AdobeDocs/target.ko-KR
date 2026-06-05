@@ -5,23 +5,13 @@ title: 보고에 대상 필터를 사용할 수 있습니까?
 feature: Audiences
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 TQID: https://experienceleague.adobe.com/7h16ay64Y1IVu2CbkEJny-rnGms80q8X7G6gOM1P900
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
-subfeature_v2:
-  - id: b6f5758b-84f7-4943-8b05-1297a046943c
-  - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
-  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
-  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: b6f5758b-84f7-4943-8b05-1297a046943cid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: 478
 ht-degree: 59%
 
 ---
@@ -41,7 +31,7 @@ ht-degree: 59%
 * **2~4개의 대상으로 시작합니다.** 트래픽 소스 등의 기본 정보에 주력합니다.
 * **필요에 따라 대상 이름을 변경합니다.** 활동이 활성 상태인 경우에도 수집 중인 결과에 보다 의미 있는 대상 이름이 되도록 데이터에 영향을 주지 않고 대상 이름을 변경할 수 있습니다.
 * **정확한 값을 입력하십시오.** 대상 필터 값은 대소문자를 구분합니다. 예를 들어 도시를 필터링하는 대상자를 사용하는 경우 &quot;OR&quot; 조건을 사용하여 &quot;Vienna&quot;, &quot;vienna&quot;, &quot;wien&quot;, &quot;Wien&quot; 등의 가능한 철자 및 대문자화 변형을 포함해야 합니다.
-* [!UICONTROL Audiences] 목록에서 만든 **대상은 다시 사용할 수 있습니다.** 활동의 일부로 만들어진 대상은 재사용할 수 없습니다.
+* [!UICONTROL 대상] 목록에서 만든 **대상은 다시 사용할 수 있습니다.** 활동의 일부로 만들어진 대상은 재사용할 수 없습니다.
 
 다음 섹션에서는 대상을 설정하고 대상에 대해 보고하는 방법에 대해 자세히 설명합니다.
 

@@ -2,17 +2,15 @@
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;프로모션;동적 필터링;동적;엔티티 속성 일치
 description: 잠재적 항목 풀을 사용자가 상호 작용한 특정 항목과 비교하여  [!DNL Target Recommendations] 에서 동적으로 필터링하는 방법에 대해 알아봅니다.
 title: Recommendations 활동에서 엔티티 속성 일치로 필터링하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 TQID: https://experienceleague.adobe.com/2cBSfWXS96u7iumehPd7enxPjQcebkQCdSBSHWOUcJg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -33,7 +31,7 @@ ht-degree: 0%
 
 ## 엔티티 속성 일치 예
 
-[!UICONTROL Entity Attribute Matching]에서 일치하는 항목만 추천할 수 있습니다. 예:
+[!UICONTROL 엔터티 특성 일치]을(를) 사용하면 일치하는 항목만 추천할 수 있습니다. 예:
 
 * 사용자가 현재 보고 있는 항목의 속성
 * 사용자가 가장 최근에 본 항목

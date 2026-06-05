@@ -2,21 +2,16 @@
 keywords: 동작 데이터 소스;분석;권장 사항;기준;제품 변수
 description: ' [!DNL Target Recommendations]에서 동작 데이터 소스로  [!DNL Adobe Analytics] 을(를) 사용하는 방법을 알아보세요.'
 title: ' [!DNL Adobe Analytics] with [!DNL Target Recommendations]을(를) 사용하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 TQID: https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 804
 ht-degree: 0%
 
 ---
@@ -27,7 +22,7 @@ ht-degree: 0%
 
 [!DNL Analytics]을(를) 동작 데이터 원본으로 사용하면 사용자 동작에 대한 풍부한 정보 원본으로 사용할 수 있습니다. 이 정보에는 [!DNL Analytics]과(와) 공유된 서드파티 원본 또는 피드의 데이터가 포함될 수 있습니다.
 
-[!DNL Recommendations]에서 [기준을 만드는 중](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)에 사용할 데이터 원본을 선택할 수 있는 라디오 단추가 두 개 있습니다. [!UICONTROL mboxes] 또는 [!UICONTROL Analytics]. 기준을 만들려면 [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]을(를) 클릭합니다. 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
+[!DNL Recommendations]에서 [기준을 만드는 중](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md), 사용할 데이터 원본을 선택할 수 있는 라디오 단추가 두 개 있습니다. [!UICONTROL mbox] 또는 [!UICONTROL Analytics]. 기준을 만들려면 [!UICONTROL 권장 사항] > [!UICONTROL 기준] > [!UICONTROL 기준 만들기] > [!UICONTROL 기준 만들기]를 클릭하십시오. 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -56,7 +51,7 @@ ht-degree: 0%
 >
 >콘텐츠 사이트인 경우 해당 콘텐츠 조각을 &quot;제품&quot;으로 취급하고 해당 콘텐츠에 대한 관련 속성을 속성으로 전달해야 합니다. 이러한 속성에는 작성자 이름, 게시 날짜, 콘텐츠 제목, 릴리스 월 등이 포함될 수 있습니다. 카테고리 수준 또는 카테고리 유형의 세부기간은 사용 사례 요구 사항에 따라 비즈니스에서 결정해야 합니다.
 
-제품 변수를 설정하는 방법에 대한 자세한 내용은 *Adobe Analytics 구현* 안내서에서 [제품](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=ko)을 참조하십시오. 해당 설명서의 일부 참고에는 이 설명서를 배포하는 팀의 재량이 필요합니다(예: 범주). 이 활동을 수행하기 전에 항상 [!DNL Adobe]과(와) 상담하는 것이 좋습니다.
+제품 변수를 설정하는 방법에 대한 자세한 내용은 *Adobe Analytics 구현* 안내서에서 [제품](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)을 참조하십시오. 해당 설명서의 일부 참고에는 이 설명서를 배포하는 팀의 재량이 필요합니다(예: 범주). 이 활동을 수행하기 전에 항상 [!DNL Adobe]과(와) 상담하는 것이 좋습니다.
 
 ### 고려 사항
 
@@ -68,24 +63,24 @@ ht-degree: 0%
 
 ## [!DNL Target]에서 구현
 
-1. [!DNL Target]에서 **[!UICONTROL Recommendations]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Feeds]** 탭을 클릭합니다.
+1. [!DNL Target]에서 **[!UICONTROL 권장 사항]**&#x200B;을 클릭한 다음 **[!UICONTROL 피드]** 탭을 클릭합니다.
 
-1. **[!UICONTROL Create Feed]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 피드 만들기]**&#x200B;를 클릭합니다.
 
-1. **[!UICONTROL Analytics Classifications]**&#x200B;을(를) 선택한 다음 보고서 세트를 지정합니다.
+1. **[!UICONTROL 분석 분류]**&#x200B;를 선택한 다음 보고서 세트를 지정합니다.
 
-1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 **[!UICONTROL Schedule]** 설정으로 이동한 다음 피드의 빈도 기간을 선택하십시오.
+1. **[!UICONTROL 다음]**&#x200B;을(를) 클릭하여 **[!UICONTROL 일정]** 설정으로 이동하려면 피드의 빈도 기간을 선택하십시오.
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 weeks]
-   * [!UICONTROL Never]
+   * [!UICONTROL 매일]
+   * [!UICONTROL 주별]
+   * [!UICONTROL 2주마다]
+   * [!UICONTROL 절대 안 함]
 
    피드가 처리할 시간을 선택할 수도 있습니다.
 
-1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 **[!UICONTROL Mapping]** 설정으로 이동한 다음 필드 열 헤더를 적절한 [!UICONTROL Recommendations] 필드 이름에 매핑합니다.
+1. **[!UICONTROL 다음]**&#x200B;을 클릭하여 **[!UICONTROL 매핑]** 설정으로 이동한 다음 필드 열 헤더를 적절한 [!UICONTROL 권장 사항] 필드 이름에 매핑합니다.
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 자주 묻는 질문
 

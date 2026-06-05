@@ -1,18 +1,16 @@
 ---
 keywords: Experience Cloud;로그인;언어;기본 ui 언어;기본 언어
-description: Adobe Experience Cloud에서  [!DNL Target] 에 액세스하고, 기본 조직을 설정하고,  [!DNL Target] UI 및 설명서의 언어를 변경하는 방법에 대해 알아봅니다.
+description: Adobe Experience Cloud에서  [!DNL Target] 에 액세스하고 기본 조직을 설정하고  [!DNL Target] UI 및 설명서의 언어를 변경하는 방법에 대해 알아봅니다.
 title: Adobe Experience Cloud에서  [!DNL Target] 에 액세스하려면 어떻게 합니까?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 TQID: https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 355
-ht-degree: 50%
+source-wordcount: 367
+ht-degree: 49%
 
 ---
 
@@ -24,25 +22,25 @@ ht-degree: 50%
 
 1. [Adobe Experience Cloud](https://experience.adobe.com/)에 로그인합니다.
 
-1. 탐색 모음에서 **[!UICONTROL App icon]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Target]**&#x200B;을(를) 클릭합니다.
+1. 탐색 모음에서 **[!UICONTROL 앱 아이콘]**&#x200B;을 클릭한 다음 **[!UICONTROL Target]**&#x200B;을 클릭합니다.
 
    또한 기본 창에서 [!DNL Target] 패널을 클릭하여 [!DNL Target] (또는 액세스할 수 있는 다른 [!DNL Adobe Experience Cloud] 솔루션)에 액세스할 수도 있습니다.
 
    ![애플리케이션 아이콘](/help/main/c-intro/assets/appmenu-new.png)
 
-1. (선택 사항) [!DNL Experience Cloud]에 로그인할 때 기본 조직을 설정하려면 프로필 아바타 아래의 **[!UICONTROL Preferences]**&#x200B;을(를) 클릭한 다음 기본 조직을 설정하십시오.
+1. (선택 사항) [!DNL Experience Cloud]에 로그인할 때 기본 조직을 설정하려면 프로필 아바타 아래의 **[!UICONTROL 환경 설정]**&#x200B;을 클릭한 다음 기본 조직을 설정하십시오.
 
    ![랜딩 페이지](/help/main/c-intro/assets/pagepref-new.png)
 
 ## [!DNL Target] UI에 대한 기본 언어 변경 {#language}
 
-1. [!DNL Adobe Experience Cloud] 또는 [!DNL Target]에 로그인한 후 프로필 아바타를 클릭한 다음 **[!UICONTROL Preferences]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Adobe Experience Cloud] 또는 [!DNL Target]에 로그인한 후 프로필 아바타를 클릭한 다음 **[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL Adobe Account]**&#x200B;을(를) 클릭하여 [!DNL Adobe] 프로필에 액세스합니다.
+1. **[!UICONTROL Adobe 계정]**&#x200B;을 클릭하여 [!DNL Adobe] 프로필에 액세스합니다.
 
    ![Adobe 계정](/help/main/c-intro/assets/adobe-account.png)
 
-1. [!UICONTROL Account] 페이지의 **[!UICONTROL Preferred languages]** 섹션에서 **[!UICONTROL Add]**.
+1. [!UICONTROL 계정] 페이지의 **[!UICONTROL 기본 언어]** 섹션에서 **[!UICONTROL 추가]**&#x200B;하세요.
 
    텍스트는 Adobe이 사용자에게 연락할 때 [!DNL Adobe]에서 사용할 언어임을 나타냅니다. UI에서 [!DNL Target] 및 기타 [!DNL Adobe Experience Cloud] 솔루션에 사용되는 언어이기도 합니다. 언어를 두 개 이상 선택할 수 있습니다.
 
@@ -61,7 +59,7 @@ ht-degree: 50%
    * 대만어
    * 한국어
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 1. [!DNL Adobe Experience Cloud] 또는 [!DNL Target]에서 로그아웃한 다음 다시 로그인하여 변경 사항을 적용하십시오.
 

@@ -6,28 +6,20 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
 TQID: https://experienceleague.adobe.com/LKbjwlGIxrgaU-2i6Ddn1wi-VjsSmpQPAxYkFHRNOYQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 393
-ht-degree: 92%
+source-wordcount: 402
+ht-degree: 90%
 
 ---
 
 # Dynamic Media Classic(이전 Scene7) 구성
 
-[!DNL Adobe Target]을(를) [!DNL Adobe Dynamic Media Classic]&#x200B;(이전 [!DNL Scene7])과 통합하여 [!UICONTROL Content Library]에서 DAM(디지털 에셋 관리)을 제공할 수 있습니다.
+[!DNL Adobe Target]을(를) [!DNL Adobe Dynamic Media Classic]&#x200B;(이전 [!DNL Scene7])과 통합하여 [!UICONTROL 콘텐츠 라이브러리]에서 DAM(디지털 에셋 관리)을 제공할 수 있습니다.
 
 {{permissions-update}}
 
@@ -43,7 +35,7 @@ ht-degree: 92%
 >A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
 -->
 
-이 설정을 구성하지 않으면 활동 만들기 워크플로에서 [!UICONTROL Swap Image offer] 옵션을 사용할 수 없습니다. 이 설정이 구성되면 [시각적 경험 작성기(VEC) 및 양식 기반 경험 작성기](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) 모두에서 이미지 오퍼를 대체/변경하는 옵션을 사용할 수 있습니다. 그런 다음 [!DNL Target] 활동에 사용하기 위해 [!DNL Adobe Experience Cloud]에서 업로드된 이미지와 함께 이미지 오퍼를 활용할 수 있습니다.
+이 설정을 구성하지 않으면 활동 만들기 워크플로에서 [!UICONTROL 이미지 대체 오퍼] 옵션을 사용할 수 없습니다. 이 설정이 구성되면 [시각적 경험 작성기(VEC) 및 양식 기반 경험 작성기](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) 모두에서 이미지 오퍼를 대체/변경하는 옵션을 사용할 수 있습니다. 그런 다음 [!DNL Target] 활동에 사용하기 위해 [!DNL Adobe Experience Cloud]에서 업로드된 이미지와 함께 이미지 오퍼를 활용할 수 있습니다.
 
 활동 생성 중에 오퍼 또는 사용자 지정 코드에서 직접 공개 이미지 URL을 참조하려면 이미지를 사용자 고유의 웹 서버에 배포하고 코드에서 자체 URL을 사용해야 합니다. [!DNL Target]을(를) 사용하여 직접 또는 대상 워크플로 외부에서 사용하기 위해 [!DNL Experience Cloud]에 업로드된 이미지의 게시된 URL을 가져올 수 없습니다. 이 기능이 계약에 따라 허용되지는 않습니다.
 
@@ -51,11 +43,11 @@ ht-degree: 92%
 
 [!DNL Dynamic Media Classic] ([!DNL Scene7])과 통합하려면 다음 정보를 지정해야 합니다.
 
-1. **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Configuration]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL Scene7 구성]**&#x200B;을 클릭합니다.
 
 1. 다음 [!DNL Dynamic Media Classic] 계정 정보를 지정합니다.
 
-   **지역**&#x200B;[!DNL Dynamic Media]: 계정의 지역: 북미, 유럽 또는 아시아.
+   **지역**[!DNL Dynamic Media]: 계정의 지역: 북미, 유럽 또는 아시아.
 
    **임시 폴더**: 대상 폴더 외부에 있고 수동으로 [!DNL Dynamic Media]에 업로드되는 콘텐츠의 위치입니다.
 
@@ -63,4 +55,4 @@ ht-degree: 92%
 
    **암호:** [!DNL Dynamic Media Classic] ([!DNL Scene7])에 로그인할 때 사용하는 암호입니다.
 
-1. **[!UICONTROL Submit]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 제출]**&#x200B;을 클릭합니다.

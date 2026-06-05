@@ -6,8 +6,8 @@ feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 29%
+source-wordcount: '628'
+ht-degree: 30%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 29%
 
 제품 또는 콘텐츠가 방문자에게 추천되지 않도록 하려면 [!DNL Adobe Target Recommendations]에서 제외를 만드십시오. 제외는 방문자에게 권장해서는 안 되는 제품 또는 콘텐츠의 하위 집합입니다.
 
-제외는 전체 계정에서 사용할 수 있습니다. [!UICONTROL Recommendations] 활동을 만들 때 각 경험에 대해 특정 컬렉션을 지정하는 컬렉션과 달리 계정의 모든 활동에는 제외가 적용됩니다. 활동을 만드는 동안 제외 그룹을 할당할 수 있는 옵션이 없습니다.
+제외는 전체 계정에서 사용할 수 있습니다. [!UICONTROL 권장 사항] 활동을 만들 때 각 경험에 대한 특정 컬렉션을 지정하는 컬렉션과 달리, 제외는 계정의 모든 활동에 적용됩니다. 활동을 만드는 동안 제외 그룹을 할당할 수 있는 옵션이 없습니다.
 
 제외를 사용하는 몇 가지 예는 다음과 같습니다.
 
@@ -33,37 +33,37 @@ ht-degree: 29%
 
 ## 제외 만들기
 
-1. 기존 제외 목록을 표시하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;을(를) 클릭합니다.
+1. 기존 제외 목록을 표시하려면 **[!UICONTROL 권장 사항]** > **[!UICONTROL 제외]**&#x200B;를 클릭하십시오.
 
    ![exclusions_list 이미지](assets/exclusions_list.png)
 
-   [!UICONTROL Exclusions] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경) 내에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하십시오.
+   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하십시오.
 
-1. **[!UICONTROL Create Exclusion]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 제외 만들기]**&#x200B;를 클릭합니다.
 
-1. (조건부) 제외를 만들거나 업데이트하여 해당 환경에서 제외의 콘텐츠를 미리 보는 동안 **[!UICONTROL Environment]** 필터에서 환경을 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
+1. (조건부) 제외를 만들거나 업데이트하여 해당 환경에서 제외의 콘텐츠를 미리 보는 동안 **[!UICONTROL 환경]** 필터에서 환경을 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
    ![제외 만들기](/help/main/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. 제외 **[!UICONTROL Name]**&#x200B;을(를) 입력하고 선택적 설명을 입력하십시오.
+1. 제외 **[!UICONTROL 이름]**&#x200B;을(를) 입력하고 선택적 설명을 입력하십시오.
 
 1. 규칙 빌더를 사용하여 제외 항목을 만듭니다.
 
    규칙 목록에서 매개 변수를 선택하고 연산자를 선택한 다음, 하나 이상의 값을 입력하여 제품을 식별하십시오. 여러 값을 입력할 경우에는 쉼표로 구분합니다.
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 고급 검색을 사용하여 제외 만들기
 
-[!UICONTROL Advanced Search]카탈로그 검색[&#x200B; 페이지에서 &#x200B;](/help/main/c-recommendations/c-products/catalog-search.md#save-as)을(를) 사용하여 제외를 만들 수도 있습니다([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+[카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 페이지의 [!UICONTROL 고급 검색]&#x200B;([!UICONTROL 권장 사항] > [!UICONTROL 카탈로그 검색] > [!UICONTROL 고급 검색])을 사용하여 제외를 만들 수도 있습니다.
 
 ![다른 이름으로 저장 대화 상자](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-예를 들어 &quot;id > 포함&quot;을 사용하여 검색을 작성한 후 [!UICONTROL Save As] > [!UICONTROL Exclusion]을(를) 클릭할 수 있습니다.
+예를 들어 &quot;id > 포함&quot;을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] > [!UICONTROL 제외]를 클릭할 수 있습니다.
 
 >[!IMPORTANT]
 >
->[!UICONTROL Advanced Search] 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 제외를 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 제외할 의도로 제외를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 제외됩니다. &quot;Holiday&quot;를 포함하는 제품은 제외되지 않습니다.
+>[!UICONTROL 고급 검색] 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 제외를 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 제외할 의도로 제외를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 제외됩니다. &quot;Holiday&quot;를 포함하는 제품은 제외되지 않습니다.
 
 ## 제외 편집, 복사 또는 삭제
 
@@ -82,4 +82,4 @@ ht-degree: 29%
 * 컬렉션 만들기
 * 제외 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/35499?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

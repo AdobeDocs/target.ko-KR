@@ -6,12 +6,12 @@ feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 9%
+source-wordcount: '483'
+ht-degree: 8%
 
 ---
 
-# 다중 값 특성 관련 작업
+# 다중 값 속성 관련 작업
 
 다중 값 필드로 작업하는 경우가 있습니다. 다음 예를 생각해 보십시오.
 
@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-자세한 내용은 [사용자 지정 엔터티 특성](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)에서 *다중 값 특성 구현*&#x200B;을 참조하십시오.
+자세한 내용은 *사용자 지정 엔터티 특성*&#x200B;에서 [다중 값 특성 구현](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)을 참조하십시오.
 
 ## CSV 파일에 다중 값 엔티티 속성 전달
 
@@ -63,8 +63,8 @@ function targetPageParams() {
 
 다음 연산자는 다중 값 엔티티, 프로필 및 mbox 속성과 함께 사용할 수 있습니다.
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL 이(가) 목록에 포함되어 있음]
+* [!UICONTROL 이(가) 목록에 포함되어 있지 않습니다]
 
 ## 포함 규칙에서 다중 값 속성 작업
 

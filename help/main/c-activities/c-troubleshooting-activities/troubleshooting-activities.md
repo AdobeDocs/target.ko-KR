@@ -5,16 +5,12 @@ title: 활동 문제를 해결하려면 어떻게 합니까?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 TQID: https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 847
-ht-degree: 44%
+source-wordcount: 866
+ht-degree: 43%
 
 ---
 
@@ -40,7 +36,7 @@ ht-degree: 44%
 
 ## 활동이 라이브 상태가 아닙니다.
 
-**유효성 검사:** [!UICONTROL Overview] 탭으로 이동하여 테스트가 비활성 상태나 초안으로 표시되어 있는지 확인하십시오.
+**유효성 검사:** [!UICONTROL 개요] 탭으로 이동하여 테스트가 비활성 상태나 초안으로 표시되어 있는지 확인하십시오.
 
 **옵션:**
 
@@ -58,11 +54,11 @@ ht-degree: 44%
 
 ## 페이지가 페이지 타깃팅 조건에 적합하지 않습니다.
 
-**유효성 검사:** [!UICONTROL Overview] 페이지에서 페이지가 타깃팅 조건을 벗어나는지 확인하십시오.
+**유효성 검사:** [!UICONTROL 개요] 페이지에서 페이지가 타깃팅 조건을 벗어나는지 확인하십시오.
 
 **옵션:**
 
-* [!UICONTROL Visual Experience Composer]&#x200B;(으)로 이동하여 URL > 고급 > 현재 페이지를 클릭합니다.
+* [!UICONTROL 시각적 경험 작성기]&#x200B;(으)로 이동하여 URL > 고급 > 현재 페이지를 클릭합니다.
 
 ## 새 경험이 아니라 이전 경험이 표시됩니다.
 
@@ -76,20 +72,20 @@ ht-degree: 44%
 
 ## 최근 [!DNL Target]에 추가되었지만, 활동을 만들 수 없습니다.
 
-**유효성 검사:** [!UICONTROL Create Activity]을(를) 클릭합니다. 이 선택 사항을 사용할 수 없다면, 활동을 만들기에 충분한 권한이 없을 가능성이 큽니다.
+**유효성 검사:** [!UICONTROL 활동 만들기]를 클릭합니다. 이 선택 사항을 사용할 수 없다면, 활동을 만들기에 충분한 권한이 없을 가능성이 큽니다.
 
 **옵션:**
 
-[!DNL Target]에서 사용자로 추가된 후 활동을 만들려면 [!UICONTROL Approver] 역할이 있어야 합니다.
+[!DNL Target]에서 사용자로 추가된 후 활동을 만들려면 [!UICONTROL 승인자] 역할이 있어야 합니다.
 
 * 계정 관리자에게 자신을 승인자로 지정해 달라고 요청하십시오.
-* 관리자의 경우 [!DNL Target]의 **[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;에서 [!UICONTROL Approver] 역할을 지정하십시오.
+* 관리자의 경우 [!DNL Target]의 **[!UICONTROL 관리]** > **[!UICONTROL 사용자]**&#x200B;에서 자신에게 [!UICONTROL 승인자] 역할을 지정하십시오.
 
   [자신에게 승인자 역할 지정](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)을 참조하십시오.
 
 ## 활동 설정 후 페이지의 구조가 변경되었습니다.
 
-**유효성 검사:** 기존 활동에 대한 [!UICONTROL Visual Experience Composer]&#x200B;(으)로 이동합니다. 선택기(또는 구조)가 변경되었음을 나타내는 경고 메시지를 찾으십시오.
+**유효성 검사:** 기존 활동에 대해 [!UICONTROL 시각적 경험 작성기]&#x200B;(으)로 이동합니다. 선택기(또는 구조)가 변경되었음을 나타내는 경고 메시지를 찾으십시오.
 
 **옵션:**
 
@@ -112,9 +108,9 @@ ht-degree: 44%
 
 ## 다른 활동이 동일한 페이지에서 실행 중입니다.
 
-**유효성 검사:** [!UICONTROL Collisions] 탭을 사용하여 다른 활동이 실행 중인지 확인하십시오.
+**유효성 검사:** [!UICONTROL 충돌] 탭을 사용하여 다른 작업이 실행 중인지 확인하십시오.
 
-**참고:** 템플릿 테스트 모듈에서 [!UICONTROL Collisions] 탭이 작동하지 않습니다.
+**참고:** [!UICONTROL 충돌] 탭이 템플릿 테스트 모듈에서 작동하지 않습니다.
 
 **옵션:**
 
@@ -137,7 +133,7 @@ ht-degree: 44%
 
 **참고:** 이름은 같지만 매개 변수가 다른 여러 개의 ajax [!DNL Target] 호출이 같은 페이지에서 작동하지 않습니다. 첫 번째 호출만 수행됩니다.
 
-## [!DNL Target] API를 사용하여 활동을 활성화했지만 활동이 [!DNL Target] UI에서 [!UICONTROL Inactive] 상태로 표시됩니다.
+## [!DNL Target] API를 사용하여 활동을 활성화했지만 활동이 [!DNL Target] UI에서 [!UICONTROL 비활성] 상태로 표시됩니다.
 
 [!DNL Target] API를 사용하여 UI 외부에서의 활동 활성화와 같은 특정 작업을 수행하면 업데이트가 UI로 전파되는 데 최대 10분이 걸릴 수 있습니다.
 
@@ -145,4 +141,4 @@ ht-degree: 44%
 
 드문 경우지만 경험을 위한 활동의 전환 지표가 활동 자격과 동일한 요청으로 전송되는 경우 방문자는 요청이 전송된 후 어떤 경험에도 있지 않을 수 있습니다. 이 경우 방문자는 토큰을 통해 캡처한 기본 콘텐츠 및 경험 ID가 -1이 되는 것을 보게 됩니다. [!DNL Adobe]은(는) 동일한 [!DNL Target] 요청에서 활동 자격 및 전환을 보내지 않는 것이 좋습니다.
 
-동일한 요청에서 두 지표를 모두 전송하려면 [!UICONTROL Advanced Settings]을(를) 사용하여 방문자가 변환 후 동일한 경험에 머물도록 지정할 수 있습니다.
+동일한 요청에서 두 지표를 모두 전송하려면 [!UICONTROL 고급 설정]을 사용하여 방문자가 전환 후에도 동일한 경험을 유지하도록 지정할 수 있습니다.

@@ -5,16 +5,13 @@ title: 네트워크 옵션에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 TQID: https://experienceleague.adobe.com/x6w2aeBu4enUJGJOFRIMidl2RaXRf-ZEwUErbB95yrY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 68%
+source-wordcount: 507
+ht-degree: 69%
 
 ---
 
@@ -22,10 +19,10 @@ ht-degree: 68%
 
 ISP, 도메인 이름 및 연결 속도 등 네트워크 세부 사항을 기준으로 [!DNL Adobe Target]에서 대상을 만들 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** > **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
-1. **[!UICONTROL Network]**&#x200B;을(를) 대상 빌더 창으로 끌어서 놓습니다.
-1. **[!UICONTROL Select]**&#x200B;을(를) 클릭한 후 다음 옵션 중 하나를 선택합니다.
+1. **[!UICONTROL 네트워크]**&#x200B;를 대상 빌더 창으로 끌어다 놓습니다.
+1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
    * **ISP:** ISP는 보통 월별 또는 연간 요금으로 해당 가입자에게 인터넷 액세스 권한을 제공하는 회사입니다. 많은 ISP에서 웹 호스팅이나 이메일과 같은 추가 서비스를 제공합니다. ISP 필드는 상업적인 ISP(예: Comcast, TimeWarner)나, 비즈니스 또는 교육 기관과 같은 엔티티입니다.
 
@@ -59,9 +56,9 @@ ISP, 도메인 이름 및 연결 속도 등 네트워크 세부 사항을 기준
      이 필드는 연결 유형을 기반으로 하며 실제 속도 자체는 아닙니다. [!DNL Target]은 연결의 정확한 연결 속도를 판별할 수 없습니다. 기타 연결 유형이 표시되지 않아서 특정 유형을 선택할 수 없는 경우 광대역 연결 유형이 사용됩니다.
 
 1. (선택 사항) 대상에 대한 추가 규칙을 설정합니다.
-1. **[!UICONTROL Done]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 완료를 클릭합니다]**.
 
-다음 그림은 연결 속도가 [!UICONTROL Mobile]인 AT&amp;T를 사용하는 방문자를 타깃팅하는 대상을 보여줍니다.
+다음 그림은 연결 속도가 [!UICONTROL 모바일]인 AT&amp;T를 사용하는 방문자를 타깃팅하는 대상을 보여줍니다.
 
 ![네트워크 타겟](assets/target_network.png)
 

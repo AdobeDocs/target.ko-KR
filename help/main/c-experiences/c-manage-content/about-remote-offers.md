@@ -5,16 +5,12 @@ title: 원격 오퍼를 만드는 방법
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
 TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 19%
+source-wordcount: 1145
+ht-degree: 24%
 
 ---
 
@@ -22,7 +18,7 @@ ht-degree: 19%
 
 원격 오퍼를 사용하여 [!DNL Adobe Target]의 외부에 있는 콘텐츠를 호스팅하면 [!DNL Target]이(가) 이 콘텐츠를 참조하고 사용자 웹 사이트로 전달할 수 있습니다. 이 콘텐츠는 간편한 사용 또는 보안상의 이유로 콘텐츠 관리 시스템(CMS) 또는 다른 시스템에 상주할 수 있습니다.
 
-원격 오퍼는 [!UICONTROL Offers] > [!UICONTROL Code Offers] 페이지나 [Forms 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)에서 만들 수 있습니다. [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 원격 오퍼를 만들거나 적용할 수 없습니다. [!DNL Target] 요청 위치에 콘텐츠가 삽입되므로 이러한 위치는 전역 [!DNL Target] 요청에 적합하지 않을 수 있습니다.
+원격 오퍼는 [!UICONTROL 오퍼] > [!UICONTROL 코드 오퍼] 페이지 또는 [Forms 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)에서 만들 수 있습니다. [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)에서 원격 오퍼를 만들거나 적용할 수 없습니다. [!DNL Target] 요청 위치에 콘텐츠가 삽입되므로 이러한 위치는 전역 [!DNL Target] 요청에 적합하지 않을 수 있습니다.
 
 원격 오퍼의 예는 다음과 같습니다.
 
@@ -50,60 +46,60 @@ ht-degree: 19%
    * [프리미엄 기능](/help/main/c-intro/intro.md#premium)(Automated Personalization(AP), 자동 타겟 및 권장 사항)
    * 원격 오퍼를 지원하지 않는 VEC에 의존하기 때문에 Multivariate Testing(MVT)가 발생합니다.
 
-* 오퍼가 [!DNL Target] 요청과 동일한 도메인에 있는 경우 [!UICONTROL Cached] 옵션을 사용하면 오퍼 위치를 설명하는 데 상대 URL을 사용할 수 있습니다.
+* 오퍼가 [!DNL Target] 요청과 동일한 도메인에 있는 경우 [!UICONTROL 캐시됨] 옵션을 사용하면 오퍼 위치를 설명하는 데 상대 URL을 사용할 수 있습니다.
 
   즉, 활동을 스테이징 서버에서 프로덕션으로 이동할 때 URL을 수동으로 변경하지 않고도 콘텐츠에 자동으로 액세스할 수 있습니다.
 
-* 테스트에 서버에서 동적으로 생성된 데이터가 포함된 경우 [!UICONTROL Dynamic] 옵션이 올바른 선택일 수 있습니다.
-* 기존 원격 오퍼 콘텐츠의 모양만 테스트하려는 경우에는 [!UICONTROL Visual Experience Composer]을(를) 사용하여 콘텐츠 관리 시스템에서 반환되는 콘텐츠의 모양과 느낌을 변경하십시오.
+* 서버에서 동적으로 생성된 데이터가 테스트에 포함되는 경우 [!UICONTROL 동적] 선택 사항을 선택하는 것이 좋습니다.
+* 기존 원격 오퍼 컨텐츠의 모양만 테스트하려는 경우, [!UICONTROL 시각적 경험 작성기]를 사용하여 컨텐츠 관리 시스템에서 반환되는 컨텐츠의 모양과 느낌을 변경하십시오.
 * 특정 사례에 가장 적합한 오퍼를 선택하려면 [원격 오퍼 선택 표](#reference_B23BEDD29DDD47709A7651AFD27E776B)(아래)를 사용하십시오. 의문 사항이 있는 경우 계정 담당자에게 문의하십시오.
 
-## [!UICONTROL Code Offers] 페이지에서 원격 오퍼 만들기
+## [!UICONTROL 코드 오퍼] 페이지에서 원격 오퍼를 만듭니다.
 
-1. **[!UICONTROL Offers]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Code Offers]** 탭을 선택합니다.
+1. **[!UICONTROL 오퍼]**&#x200B;를 클릭한 다음, **[!UICONTROL 코드 오퍼]** 탭을 선택합니다.
 
-1. **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 오퍼 만들기]** > **[!UICONTROL 원격 오퍼 만들기]**&#x200B;를 클릭합니다.
 
-1. [!UICONTROL Create Remote Offer] 대화 상자에서 오퍼를 설명하는 이름을 입력합니다.
+1. [!UICONTROL 원격 오퍼 만들기] 대화 상자에서 오퍼를 설명하는 이름을 입력합니다.
 
-   수사적 이름을 사용하면 [!UICONTROL Offers] 라이브러리에서 오퍼를 빠르게 찾을 수 있습니다.
+   수사적 이름을 사용하면 회원님과 다른 사용자가 [!UICONTROL 오퍼] 라이브러리에서 오퍼를 빠르게 찾을 수 있습니다.
 
 1. (조건부) [Target Premium 계정](/help/main/c-intro/intro.md#premium)이 있는 경우 원하는 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)을(를) 선택하십시오.
 
 1. 리디렉션 URL 유형을 지정합니다.
 
-   자세한 내용은 아래의 [리디렉션 URL 형식: [!UICONTROL Onsite Cached] 또는 [!UICONTROL Onsite Dynamic]](#url-type)을(를) 참조하십시오.
+   자세한 내용은 아래 [리디렉션 URL 유형: [!UICONTROL 온사이트 캐시됨] 또는 [!UICONTROL 온사이트 동적]](#url-type)을 참조하십시오.
 
 1. 원격 오퍼에 대한 절대 원격 URL을 지정합니다.
 
-1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-## [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 원격 오퍼 만들기
+## [!UICONTROL 양식 기반 경험 작성기]를 사용하여 원격 오퍼 만들기
 
-1. [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하여 활동을 만드는 동안 **[!UICONTROL Content]** 섹션을 표시할 위치를 선택하십시오.
-1. **[!UICONTROL Content]** 드롭다운 목록을 클릭하고 **[!UICONTROL List]** 아이콘(![목록](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 **[!UICONTROL Change Remote Offer]**&#x200B;을(를) 클릭합니다.
+1. [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하여 활동을 만드는 동안 **[!UICONTROL 콘텐츠]** 섹션을 표시할 위치를 선택하십시오.
+1. **[!UICONTROL 콘텐츠]** 드롭다운 목록을 클릭하고 **[!UICONTROL 목록]** 아이콘(![목록](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 **[!UICONTROL 원격 오퍼 변경]**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 오퍼 만들기]** > **[!UICONTROL 원격 오퍼 만들기]**&#x200B;를 클릭합니다.
 
 1. 오퍼에 대해 수사적 이름을 지정합니다.
 
-   수사적 이름을 사용하면 [!UICONTROL Assets] 라이브러리에서 오퍼를 빠르게 찾을 수 있습니다.
+   수사적 이름을 사용하면 사용자와 다른 사람이 [!UICONTROL 자산] 라이브러리에서 오퍼를 빨리 찾을 수 있습니다.
 
 1. (조건부) [Target Premium 계정](/help/main/c-intro/intro.md#premium)이 있는 경우 원하는 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)을(를) 선택하십시오.
 
 1. 리디렉션 URL 유형을 지정합니다.
 
-   자세한 내용은 아래의 [리디렉션 URL 형식: [!UICONTROL Onsite Cached] 또는 [!UICONTROL Onsite Dynamic]](#url-type)을(를) 참조하십시오.
+   자세한 내용은 아래 [리디렉션 URL 유형: [!UICONTROL 온사이트 캐시됨] 또는 [!UICONTROL 온사이트 동적]](#url-type)을 참조하십시오.
 
 1. 원격 오퍼에 대한 원격 URL을 지정하십시오.
 
-1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-## 리디렉션 URL 유형: [!UICONTROL Onsite Cached] 또는 [!UICONTROL Onsite Dynamic] {#url-type}
+## 리디렉션 URL 유형: [!UICONTROL 온사이트 캐시됨] 또는 [!UICONTROL 온사이트 동적] {#url-type}
 
 다음 정보는 두 옵션 간의 차이점을 이해하는 데 도움이 됩니다.
 
-### [!UICONTROL Onsite Cached] URL
+### [!UICONTROL 온사이트 캐시됨] URL
 
 캐시된 원격 오퍼에 대한 콘텐츠가 [!DNL Target]에서 제공됩니다.
 
@@ -113,29 +109,29 @@ ht-degree: 19%
 
 캐시된 원격 오퍼에 대한 절대 또는 상대 URL을 지정할 수 있습니다.
 
-### [!UICONTROL Onsite Dynamic] URL
+### [!UICONTROL 온사이트 동적] URL
 
 동적 원격 오퍼는 [!DNL Target]이(가) 아닌 콘텐츠 관리 또는 다른 시스템에서 제공됩니다.
 
 방문자가 원격 오퍼를 포함하는 경험이 있는 사이트를 로드할 때마다 [!DNL Target]에서 컨텐츠를 주기적으로 캐시한 다음 전달하는 것을 원치 않을 수 있습니다. 대신 컨텐츠를 호스팅하는 시스템을 호출하고 반환된 오퍼가 각 사용자에 대해 동적이거나 서로 다를 수 있도록 특정 정보를 전달할 수 있습니다. 예를 들어, 사용자가 다이내믹 원격 오퍼가 있는 경험이 포함된 신용 카드 웹 사이트에 로그인하는 경우, 사용자 계정 정보를 얻기 위해 URL에 매개 변수를 전달할 수 있습니다. 그러면 웹 사이트에서는 계좌 잔고와 같은 사용자별 정보를 제공할 수 있습니다.
 
-**[!UICONTROL Add Parameter]**&#x200B;을(를) 클릭하여 하나 이상의 [!DNL Target] 요청 또는 요청 매개 변수를 추가할 수 있습니다.
+**[!UICONTROL 매개 변수 추가]**&#x200B;를 클릭하여 하나 이상의 [!DNL Target] 요청 또는 요청 매개 변수를 추가할 수 있습니다.
 
 ## 활동에서 원격 오퍼 사용
 
-[!UICONTROL Form-Based Experience Composer]을(를) 사용하여 원격 오퍼를 적용합니다. 현재 VEC([!UICONTROL Visual Experience Composer])를 사용하여 원격 오퍼를 적용할 수 없습니다.
+[!UICONTROL 양식 기반 경험 작성기]를 사용하여 원격 오퍼를 적용합니다. 현재 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 사용하여 원격 오퍼를 적용할 수 없습니다.
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) [!UICONTROL Visual Experience Composer]을(를) 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting]&#x200B;(XT), [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Recommendations] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 원격 오퍼를 사용하는 경험을 만들 수 있습니다.
+[!DNL Adobe Target] [!UICONTROL 양식 기반 경험 작성기]는 [!UICONTROL 시각적 경험 작성기]를 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL A/B 테스트], [!UICONTROL 경험 타깃팅]&#x200B;(XT), [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 권장 사항] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 [!UICONTROL 양식 기반 경험 작성기]를 사용하여 원격 오퍼를 사용하는 경험을 만들 수 있습니다.
 
-1. [!UICONTROL Form-Based Experience Composer]에서 활동을 만들거나 편집합니다.
+1. [!UICONTROL 양식 기반 경험 작성기]에서 활동을 만들거나 편집합니다.
 
    자세한 단계별 지침은 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 참조하십시오.
 
 1. 원하는 위치를 지정하고 필요에 따라 대상 세분화를 추가합니다.
 
-1. **[!UICONTROL Content]** 드롭다운 목록을 클릭하고 **[!UICONTROL List]** 아이콘(![목록](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 **[!UICONTROL Change Remote Offer]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 콘텐츠]** 드롭다운 목록을 클릭하고 **[!UICONTROL 목록]** 아이콘(![목록](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 **[!UICONTROL 원격 오퍼 변경]**&#x200B;을 클릭합니다.
 
-1. [!UICONTROL Change Remote Offer] 대화 상자에서 원하는 원격 오퍼를 선택한 다음 **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL 원격 오퍼 변경] 대화 상자에서 원하는 원격 오퍼를 선택한 다음 **[!UICONTROL 오퍼 만들기]** > **[!UICONTROL 원격 오퍼]**&#x200B;를 클릭합니다.
 
 1. 활동 구성을 완료합니다.
 
@@ -159,7 +155,7 @@ ht-degree: 19%
 
 ## 원격 오퍼 선택 표 {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-원격 오퍼 선택 표는 선택할 원격 오퍼의 유형([!UICONTROL Onsite Cached] 또는 [!UICONTROL Onsite Dynamic])을 결정하는 데 도움이 됩니다.
+원격 오퍼 선택 표를 사용하면 선택할 원격 오퍼 유형을 결정할 수 있습니다. [!UICONTROL 온사이트 캐시됨] 또는 [!UICONTROL 온사이트 동적].
 
 | 기능 | 온사이트 캐시 | 온사이트 동적 |
 |--- |--- |--- |

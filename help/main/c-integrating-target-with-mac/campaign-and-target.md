@@ -5,17 +5,13 @@ title: ' [!DNL Target] 을(를) Adobe Campaign과 통합하려면 어떻게 합�
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 TQID: https://experienceleague.adobe.com/RMW9ijj8UqzrDr1-PKwwfw5aWfH4YmtSi1HR7rLDSZ4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 372
-ht-degree: 32%
+source-wordcount: 379
+ht-degree: 35%
 
 ---
 
@@ -68,7 +64,7 @@ ht-degree: 32%
 ## [!DNL Adobe Campaign] 전자 메일에 [!DNL Target] 오퍼 포함 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. [!DNL Adobe Campaign]에서 전자 메일을 만듭니다.
-1. 전자 메일 속성에서 **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**&#x200B;을(를) 클릭합니다.
+1. 이메일 속성에서 **[!UICONTROL 포함]** > **[!UICONTROL Adobe Target에서 제공하는 동적 이미지]**&#x200B;를 클릭합니다.
 1. 공유 자산에서 기본 이미지를 선택합니다.
 1. 위치(rawbox)를 지정합니다.
 1. 수신자의 성별 등과 같은 기타 의사결정 매개 변수를 추가합니다.

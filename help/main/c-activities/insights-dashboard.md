@@ -1,19 +1,19 @@
 ---
 keywords: 활동;활동;통찰력 대시보드
-description: '[!UICONTROL Adobe Target Dashboard]을(를) 통해 조직에서 시간을 따라 [!DNL Target] 사용하는 방법을 전체적으로 볼 수 있으며 채택, 활동 볼륨 및 실험 사용 현황을 한눈에 볼 수 있습니다.'
+description: '[!UICONTROL Adobe Target 대시보드]를 통해 조직의 사용 방법을 전체적으로 볼 수 있으며 [!DNL Target] 시간이 지남에 따라 채택, 활동 볼륨 및 실험 사용 현황을 한눈에 볼 수 있습니다.'
 title: Adobe Target 통찰력 대시보드
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
 source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 0%
+source-wordcount: '820'
+ht-degree: 1%
 
 ---
 
 # Adobe Target 통찰력 대시보드
 
-[!UICONTROL Adobe Target Dashboard]은(는) 조직에서 시간이 지남에 따라 [!DNL Adobe Target]을(를) 사용하는 방법에 대한 높은 수준의 보기를 제공합니다. 팀이 채택, 활동 볼륨 및 실험 사용을 한 눈에 이해할 수 있도록 도와줍니다.
+[!UICONTROL Adobe Target 대시보드]를 통해 조직에서 시간이 지남에 따라 [!DNL Adobe Target]을(를) 사용하는 방식을 개괄적으로 볼 수 있습니다. 팀이 채택, 활동 볼륨 및 실험 사용을 한 눈에 이해할 수 있도록 도와줍니다.
 
 대시보드는 개별 활동 보고서를 자세히 살펴보지 않고도 [!DNL Target] 사용을 빠르게 확인하려는 실무자와 관련자 모두를 위해 설계되었습니다.
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experimentation Accelerator]
 
-대시보드의 배너에서는 실험 워크플로를 간소화하고 실험 설정, 분석 및 결정을 간소화하는 도구에 대한 간단한 진입점인 **[!UICONTROL Experimentation Accelerator]**&#x200B;에 직접 액세스할 수 있습니다.
+대시보드의 배너에서 **[!UICONTROL Experimentation Accelerator]**&#x200B;에 직접 액세스할 수 있습니다. 간단한 진입점으로 실험 워크플로를 간소화하고 실험 설정, 분석 및 결정을 단순화합니다.
 
 ## 시간 범위 선택
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * 따라서 지표 간의 합계가 정확하게 합산되지 않을 수 있습니다. 예를 들어 많은 활동을 같은 시간대 내에 시작하고 완료할 수 있습니다.
 
-고급 메뉴에서 **[!UICONTROL Download as PNG]**&#x200B;을(를) 선택하여 대시보드의 스냅숏을 내보낼 수도 있습니다.
+고급 메뉴에서 **[!UICONTROL PNG로 다운로드]**&#x200B;를 선택하여 대시보드의 스냅샷을 내보낼 수도 있습니다.
 
 ![](assets/insights-3.png)
 
@@ -84,13 +84,13 @@ ht-degree: 0%
 
 ![](assets/insights-5.png)
 
-[!UICONTROL Activity Type] 차트는 다음을 포함하여 선택한 시간 범위 동안의 유형별 라이브 활동 분포를 보여 줍니다.
+[!UICONTROL 활동 유형] 차트는 다음을 포함하여 선택한 시간 범위 동안의 유형별 라이브 활동 분포를 보여 줍니다.
 
-* [!UICONTROL A/B Test]
-* [!UICONTROL Experience Targeting]
-* [!UICONTROL Recommendations]
+* [!UICONTROL A/B 테스트]
+* [!UICONTROL 경험 타기팅]
+* [!UICONTROL 추천]
 * [!UICONTROL Automated Personalization]
-* [!UICONTROL Multivariate Test]
+* [!UICONTROL 다변량 테스트]
 
 이 차트를 사용하여 조직에서 가장 많이 사용하는 [!DNL Target] 기능을 식별하고 실행하는 활동 유형의 범위를 넓힐 수 있는 기회를 포착합니다.
 
@@ -98,11 +98,11 @@ ht-degree: 0%
 
 ![](assets/insights-6.png){align="center"}
 
-이 섹션에서는 특히 **[!UICONTROL A/B Test]**&#x200B;개 활동과 관련된 사용법을 중점적으로 다룹니다.
+이 섹션에서는 특히 **[!UICONTROL A/B 테스트]** 활동과 관련된 사용을 강조합니다.
 
-**[!UICONTROL Total live A/B Test activities]** 지표는 선택한 시간 범위 동안 특정 시점에 라이브되었던 **[!UICONTROL A/B Test]**&#x200B;개 활동 수를 보여 줍니다.
+**[!UICONTROL 총 라이브 A/B 테스트 활동]** 지표는 선택한 시간 범위 동안 특정 시점에 라이브되었던 **[!UICONTROL A/B 테스트]** 활동 수를 보여줍니다.
 
-**[!UICONTROL Total A/B Tests published]**&#x200B;은(는) 선택한 시간 범위 동안 게시된 **[!UICONTROL A/B Test]**&#x200B;개의 활동 수를 표시합니다.
+**[!UICONTROL 게시된 총 A/B 테스트 수]**&#x200B;는 선택한 시간 범위 동안 게시된 **[!UICONTROL A/B 테스트 수]**&#x200B;를 표시합니다.
 
 이 지표를 사용하여 A/B 테스트가 사용되는 빈도를 이해하고 시간 경과에 따른 실험 볼륨 및 채택을 추적합니다.
 
@@ -110,5 +110,5 @@ ht-degree: 0%
 
 ![](assets/insights-7.png){align="center"}
 
-**[!UICONTROL Activities Over Time]** 그래프는 선택한 시간 범위 동안 생성, 수정 및 게시된 활동 수를 추적하므로 실험 프로그램에서 트렌드, 급증 또는 조용한 기간을 쉽게 찾을 수 있습니다.
+**[!UICONTROL 시간 경과에 따른 활동]** 그래프는 선택한 시간 범위 동안 만들어지고 수정되고 게시된 활동의 수를 추적하므로 실험 프로그램에서 트렌드, 스파이크 또는 조용한 기간을 쉽게 찾을 수 있습니다.
 

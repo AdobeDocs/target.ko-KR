@@ -5,15 +5,12 @@ title: A4T를 사용하여 지표 정의에 대한 정보는 어디에서 찾을
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 TQID: https://experienceleague.adobe.com/CLUm25T-5PCOzdXVL94kCgvqM-OL3dZzWXkG1qmN8IE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 36%
+source-wordcount: 367
+ht-degree: 35%
 
 ---
 
@@ -31,11 +28,11 @@ ht-degree: 36%
 ## 목표 지표를 구성하는 동안 고급 설정 옵션에 액세스할 수 없는 이유는 무엇입니까? {#adv-settings}
 
 +++답변
-[!DNL Analytics]을(를) 보고 소스로 사용(A4T)하는 활동에는 [!UICONTROL Advanced Settings] 옵션을 사용할 수 없습니다.
+[!DNL Analytics]을(를) 보고 소스로 사용(A4T)하는 활동에는 [!UICONTROL 고급 설정] 옵션을 사용할 수 없습니다.
 
-A4T를 사용하는 활동의 경우 목표 지표는 항상 &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; 및 &quot;[!UICONTROL On Every Impression]&quot; 설정을 사용합니다. 이러한 설정은 *구성할 수 없습니다*.
+A4T를 사용하는 활동의 경우 목표 지표는 항상 &quot;[!UICONTROL 증분 카운트 및 사용자를 활동에 유지]&quot; 및 &quot;[!UICONTROL 노출 시마다]&quot; 설정을 사용합니다. 이러한 설정은 *구성할 수 없습니다*.
 
-비 A4T 활동의 경우 [고급 설정 옵션](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)을 사용하여 성공 측정 방법을 관리할 수 있습니다. 옵션에는 종속성 추가, 활동에 사용자를 유지할지 또는 제거할지 선택, 참가자 당 한 번 또는 노출 시마다 지표를 계산할지 여부가 포함됩니다. 아래와 같이 A4T가 아닌 활동에서 수직 줄임표 > [!UICONTROL Advanced Settings]을(를) 클릭하여 [!UICONTROL Advanced Settings] 옵션에 액세스합니다.
+비 A4T 활동의 경우 [고급 설정 옵션](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)을 사용하여 성공 측정 방법을 관리할 수 있습니다. 옵션에는 종속성 추가, 활동에 사용자를 유지할지 또는 제거할지 선택, 참가자 당 한 번 또는 노출 시마다 지표를 계산할지 여부가 포함됩니다. 아래와 같이 수직 줄임표 > [!UICONTROL 고급 설정]을 클릭하여 A4T가 아닌 활동에서 [!UICONTROL 고급 설정] 옵션에 액세스합니다.
 
 ![고급 설정](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 

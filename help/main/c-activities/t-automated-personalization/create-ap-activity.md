@@ -1,36 +1,28 @@
 ---
 keywords: 자동화된 개인화;ap
-description: '[!UICONTROL Visual Experience Composer]을(를) 사용하여 [!UICONTROL Automated Personalization]​(AP) 활동을 만드는 방법을 알아봅니다.'
+description: '[!UICONTROL 시각적 경험 작성기]를 사용하여 [!UICONTROL Automated Personalization]​(AP) 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1854
-ht-degree: 22%
+source-wordcount: 2032
+ht-degree: 23%
 
 ---
 
 # [!UICONTROL Automated Personalization] 활동 만들기
 
-[!UICONTROL Visual Experience Composer]&#x200B;(VEC)를 사용하여 [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동을 만듭니다.
+[!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 사용하여 [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동을 만듭니다.
 
 [!DNL Target]의 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동 워크플로는 다른 활동 유형의 워크플로와 다릅니다.
 
-이 절차는 [!UICONTROL Visual Experience Composer]의 안내가 있는 3단계 워크플로를 따릅니다.
+이 절차는 [!UICONTROL 시각적 경험 작성기]의 안내가 있는 3단계 워크플로를 따릅니다.
 
 1. [1단계: 경험 구축](#build-experiences)
 1. [2단계: 타깃팅 설정](#set-targeting)
@@ -40,31 +32,31 @@ ht-degree: 22%
 
 [!UICONTROL Automated Personalization]이(가) 개인화할 수 있는 콘텐츠 변형의 풀을 정의합니다. 경험과 오퍼가 풍부하고 뚜렷할수록 알고리즘은 각 방문자에게 적합한 콘텐츠를 더 잘 일치시킬 수 있습니다.
 
-1. [!DNL Target] [!UICONTROL Activities] 목록에서 **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Target] [!UICONTROL 활동] 목록에서 **[!UICONTROL 활동 만들기]** > **[!UICONTROL Automated Personalization]**&#x200B;을 클릭합니다.
 
-1. VEC([!UICONTROL Visual Experience Composer])를 사용하려면 **[!UICONTROL Visual]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 사용하려면 **[!UICONTROL 시각적]**&#x200B;을(를) 클릭합니다.
 
-   [!UICONTROL Form-Based Experience Composer]을(를) 사용하려면 [!UICONTROL Form]을(를) 선택하십시오. 자세한 내용은 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 참조하십시오.
+   [!UICONTROL 양식 기반 경험 작성기]를 사용하려면 [!UICONTROL 양식]을 선택하세요. 자세한 내용은 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 참조하십시오.
 
    >[!NOTE]
    >
-   >VEC 및 [!UICONTROL Form-Based Experience Composer] 외에 [!DNL Target]에서 [!UICONTROL Single Page Application VEC]을(를) 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/main/c-experiences/experiences.md)를 참조하십시오.
+   >VEC 및 [!UICONTROL 양식 기반 경험 작성기] 외에도 [!DNL Target]에서는 [!UICONTROL 단일 페이지 응용 프로그램 VEC]를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/main/c-experiences/experiences.md)를 참조하십시오.
    >
    >VEC에 대한 문제 해결 정보는 [시각적 경험 작성기 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
 
 1. (조건부) [작업 영역을 선택하십시오](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. **[!UICONTROL Enter Activity URL]** 상자에서 [활동 URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)을 지정하십시오.
+1. **[!UICONTROL 활동 URL 입력]** 상자에서 [활동 URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)을 지정하십시오.
 
    계정이 [기본 URL로 구성](/help/main/administrating-target/visual-experience-composer-set-up.md)된 경우 기본적으로 해당 URL이 표시됩니다. 필요한 경우 기본값에서 다른 URL로 변경할 수 있습니다.
 
    [!DNL Target]은(는) URL 프로토콜([!DNL https] 및 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com`] 및 [!DNL `https://wwww.adobe.com`]이(가) 모두 일치합니다.
 
-1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
    지정된 URL의 페이지가 VEC에서 열립니다.
 
-1. 활동의 이름을 지정하려면 &quot;[!UICONTROL Untitled Activity]&quot; 옆에 있는 **[!UICONTROL Edit]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 활동의 이름을 지정하려면 &quot;[!UICONTROL 제목 없는 활동]&quot; 옆에 있는 **[!UICONTROL 편집]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 
@@ -94,15 +86,15 @@ ht-degree: 22%
 
    자산 관리자에서 한꺼번에 여러 이미지를 선택할 수 있습니다. 이렇게 하면 활동에 대해 구성된 각 이미지가 있는 페이지를 빠르게 볼 수 있습니다. 또한 오퍼의 텍스트 요소를 쉽게 편집할 수 있습니다. 요소를 편집하면 해당 요소가 변경되었음을 나타내는 막대가 표시됩니다.
 
-1. **[!UICONTROL Manage Content]** 아이콘(![콘텐츠 관리 아이콘](/help/main/assets/icons/Experience.svg))을 클릭하여 사용 가능한 조합을 구성합니다.
+1. **[!UICONTROL 콘텐츠 관리]** 아이콘(![콘텐츠 관리 아이콘](/help/main/assets/icons/Experience.svg))을 클릭하여 사용 가능한 조합을 구성합니다.
 
-   대화 상자에 두 개의 탭([!UICONTROL Experiences] 및 [!UICONTROL Offers])이 표시됩니다. [!UICONTROL Experiences] 탭에는 각 콘텐츠 및 할당된 위치가 나열됩니다. 하나 이상의 경험을 제외하려면 해당 확인란을 선택하고 [!UICONTROL Exclude] 아이콘을 클릭합니다. 추가 옵션은 [제외 관리](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)를 참조하십시오.
+   대화 상자에 [!UICONTROL 경험] 및 [!UICONTROL 오퍼] 탭이 표시됩니다. [!UICONTROL 경험] 탭에는 각 콘텐츠 및 할당된 위치가 나열됩니다. 경험을 한 개 이상 제외하려면 해당 확인란을 선택하고 [!UICONTROL 제외] 아이콘을 클릭합니다. 추가 옵션은 [제외 관리](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)를 참조하십시오.
 
    >[!IMPORTANT]
    >
-   >최적의 성능을 위해 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동을 위치당 4~6개의 오퍼가 있는 4~6개의 위치로 제한하십시오. 위치와 오퍼의 직각적 조합에서 총 경험 수가 증가합니다. 구성이 클수록 [!UICONTROL Visual Experience Composer]에서 로드 또는 편집이 느려질 수 있습니다. 최상의 결과를 얻으려면 총 5,000개 경험 미만으로 유지하십시오. 엄격한 제한은 30,000개입니다([!UICONTROL Disallow Duplicates] 옵션이 활성화된 경우 동일한 제한이 적용됨).
+   >최적의 성능을 위해 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 활동을 위치당 4~6개의 오퍼가 있는 4~6개의 위치로 제한하십시오. 위치와 오퍼의 직각적 조합에서 총 경험 수가 증가합니다. 구성이 클수록 [!UICONTROL 시각적 경험 작성기]에서 로드 또는 편집이 느려질 수 있습니다. 최상의 결과를 얻으려면 총 5,000개 이하의 경험을 유지하십시오. 엄격한 제한은 30,000개입니다([!UICONTROL 중복 허용 안 함] 옵션이 활성화된 경우 동일한 제한이 적용됨).
 
-1. (조건부) **[!UICONTROL Offers]**&#x200B;을(를) 클릭하여 콘텐츠를 선택하고 이를 보고 그룹에 지정하거나 특정 방문자만 타깃팅으로 한 특정 오퍼를 볼 수 있도록 합니다.
+1. (조건부) **[!UICONTROL 오퍼]**&#x200B;를 클릭하여 콘텐츠를 선택하고 이를 보고 그룹에 지정하거나 특정 방문자만 타깃팅으로 한 특정 오퍼를 볼 수 있도록 합니다.
 
    보고 그룹에 대한 자세한 내용은 [Automated Personalization의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)을 참조하세요.
 
@@ -118,13 +110,13 @@ ht-degree: 22%
    To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.
 -->
 
-1. 활동의 콘텐츠 설정을 완료했으면 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
+1. 활동의 콘텐츠 설정을 완료했으면 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
 ## 2단계: 타깃팅 설정 {#set-targeting}
 
 활동을 시작하는 방문자와 노출되는 트래픽의 양을 결정합니다. [!DNL Target]이(가) 리프트 개인화 기능을 측정할 수 있도록 컨트롤 그룹과 연결하십시오.
 
-1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 [!UICONTROL Visual Experience Composer]의 맨 위에서 **[!UICONTROL Targeting]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL 시각적 경험 작성기]의 맨 위에서 **[!UICONTROL 타깃팅]**&#x200B;을 클릭하여 안내가 있는 3단계 워크플로우에서 다음 단계로 이동합니다.
 
    **타깃팅** 단계는 다른 [!DNL Target] 활동 유형을 사용해본 적이 있는 경우 친숙하게 보입니다. 여기에서 대상을 선택하고 각 경험을 보는 방문자의 비율을 지정할 수 있습니다.
 
@@ -132,19 +124,19 @@ ht-degree: 22%
 
    ![AP 테스트 타깃팅 단계](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
-1. (조건부) **[!UICONTROL All Visitors]** 컨트롤을 클릭하여 [활동에 대한 다른 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)하고 해당 방문자 비율을 설정합니다.
+1. (조건부) [다른 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)하려면 **[!UICONTROL 모든 방문자]** 컨트롤을 클릭하고 해당 방문자 비율을 설정합니다.
 
-   [!UICONTROL All Visitors] 대상이 기본값으로 설정됩니다. 다른 대상을 선택하면 해당 이름이 가장 왼쪽 컨트롤에 표시됩니다. 예를 들어, 항목을 모든 방문자의 50% 또는 &quot;캘리포니아&quot; 대상의 45%로 제한할 수 있습니다.
+   [!UICONTROL 모든 방문자] 대상이 기본값으로 설정됩니다. 다른 대상을 선택하면 해당 이름이 가장 왼쪽 컨트롤에 표시됩니다. 예를 들어, 항목을 모든 방문자의 50% 또는 &quot;캘리포니아&quot; 대상의 45%로 제한할 수 있습니다.
 
-1. **[!UICONTROL Traffic Allocation]** 컨트롤을 클릭하여 다음 옵션 중에서 선택합니다.
+1. **[!UICONTROL 트래픽 할당]** 컨트롤을 클릭하여 다음 옵션 중에서 선택합니다.
 
    ![트래픽 할당 목표 옵션](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
-   * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:** 목표가 알고리즘을 테스트하는 것이면 제어 및 타깃팅된 알고리즘 간에 50/50%로 분할된 방문자를 사용합니다. 이 분할은 가장 정확한 상승도 추정치를 제공합니다. 임의 경험을 제어로 사용하는 것이 좋습니다.
-   * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** 목표가 &quot;상시 설정&quot; 활동을 만드는 것이면 방문자의 10%를 제어로 넣으십시오. 이 옵션은 시간에 따라 알고리즘이 계속 학습할 수 있는 충분한 데이터가 있는지 확인합니다. 여기서 장점은 더 많은 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어진다는 점입니다. 목표에 관계없이 이 옵션은 특정 경험을 제어로 사용할 때 권장되는 트래픽 분할입니다.
-   * **[!UICONTROL Custom Allocation]:** 원하는 대로 백분율을 수동으로 분할합니다.
+   * **[!UICONTROL Personalization 알고리즘 평가(50/50)]:** 목표가 알고리즘을 테스트하는 것이면 제어 및 타깃팅된 알고리즘 간에 50/50%로 분할된 방문자를 사용합니다. 이 분할은 가장 정확한 상승도 추정치를 제공합니다. 임의 경험을 제어로 사용하는 것이 좋습니다.
+   * **[!UICONTROL Personalization 트래픽 최대화(90/10)]:** 목표가 &quot;상시 설정&quot; 활동을 만드는 것이면 방문자의 10%를 제어로 전환합니다. 이 옵션은 시간에 따라 알고리즘이 계속 학습할 수 있는 충분한 데이터가 있는지 확인합니다. 여기서 장점은 더 많은 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어진다는 점입니다. 목표에 관계없이 이 옵션은 특정 경험을 제어로 사용할 때 권장되는 트래픽 분할입니다.
+   * **[!UICONTROL 사용자 지정 할당]:** 원하는 대로 백분율을 수동으로 분할합니다.
 
-1. (조건부) [!UICONTROL Control] 드롭다운 목록에서 [제어로 사용할 특정 환경을 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)하거나 [!UICONTROL Random Experience.]을(를) 선택합니다
+1. (조건부) [!UICONTROL 제어] 드롭다운 목록에서 [제어로 사용할 특정 경험을 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)하거나 [!UICONTROL 임의 경험을 선택]
 
    제어 경험은 자동 테스트에서 제공하는 상승도 수준을 판별하기 위한 비교를 제공합니다.
 
@@ -158,20 +150,20 @@ ht-degree: 22%
 
 [!DNL Target]에게 성공 상황을 알려 주세요. 선택하는 최적화 목표는 개인화 알고리즘이 교육하는 지표이므로 이 활동에 가장 중요한 결과를 선택하십시오.
 
-1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 **[!UICONTROL Goals & Settings]** 페이지를 표시합니다.
-1. 다음 설정으로 활동을 구성한 다음 **[!UICONTROL Save & Close]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 다음]**&#x200B;을 클릭하여 **[!UICONTROL 목표 및 설정]** 페이지를 표시합니다.
+1. 다음 설정으로 활동을 구성한 다음 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭합니다.
 
    | 설정 | 설명 |
    |--- |--- |
-   | [!UICONTROL Name] | 활동의 이름을 지정합니다. 팀 구성원이 [!UICONTROL Activities] 목록에서 활동을 인식할 수 있을 만큼 충분히 설명적인 이름을 지정합니다. 활동 이름에 허용되지 않는 문자를 확인하려면 위의 테이블을 참조하십시오. |
-   | [!UICONTROL Objective] | (선택 사항) 테스트의 목표를 입력합니다. 목표는 활동의 목적을 기억하는 데 도움이 됩니다. |
-   | [!UICONTROL Priority] | 설정에 따라 [!UICONTROL Priority]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선 순위를 사용할 수 있습니다.<P>대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>이 옵션이 [!UICONTROL Administration] > [!UICONTROL Reporting]&#x200B;(기본값)에서 활성화되지 않으면 우선 순위([!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High])를 지정하십시오.<P>세분화된 우선 순위를 사용하려면 [!UICONTROL Administration] > [!UICONTROL Reporting]을(를) 클릭한 다음 [!UICONTROL Enable Fine-Grained Priorities] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.<P>이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.<ul><li>0 = 낮음</li><li>999 = 높음</li></ul>이전 버전의 [!DNL Target Standard/Premium]에서 만든 활동의 경우 [!UICONTROL Low] 우선 순위는 0으로, [!UICONTROL Medium] 우선 순위는 5로, [!UICONTROL High] 우선 순위는 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.<P>**참고**: 세분화된 우선순위를 사용한 후에 이 옵션을 비활성화하려면 먼저 모든 우선순위를 0, 5, 10으로 다시 설정해야 합니다. |
-   | [!UICONTROL Duration] | 활동의 시작 날짜와 종료 날짜를 설정합니다. [!UICONTROL When Activated]을(를) 선택하거나 특정 날짜 및 시간을 지정할 수 있습니다. |
-   | [!UICONTROL Optimization Goal] | 다음 두 개의 매개 변수로 구성되는 최적화 목표를 지정하십시오.<ul><li>활동으로 측정하려는 작업</li><li>목표가 달성되었음을 보여 주는 작업으로, 활동 참여자가 수행한 것입니다.</li></ul>[!UICONTROL My Primary Goal]의 오른쪽에 있는 세 점을 선택하여 최적화 목표의 이름을 지정할 수 있습니다. [!UICONTROL Automated Personalization] 활동은 [!UICONTROL Conversion] 또는 [!UICONTROL Revenue]을(를) 측정할 수 있습니다. 페이지 보기 또는 mbox 보기를 통해 전환할 수 있습니다. 클릭을 추적할 수도 있습니다.<P>또한 기본 목표는 경험의 성공을 계산하기 위해 모델링 시스템에서 사용하는 모델링 지표가 됩니다.<P>모델링 목표에 도달한 후 추적 목적으로 활동에 방문자를 유지할 수 있습니다. 예를 들어 [!UICONTROL Automated Personalization] 활동은 종종 클릭률을 향상시키는 데 사용되며 모델링 목표로 설정됩니다. 그러나 증가된 클릭률이 최종 전환으로 이어지는 방식을 확인하는 것이 중요하므로 최종 전환까지 추적하는 것이 반드시 필요합니다.<P>여러 지표에 대한 종속성과 유연성을 제공하여 카운트를 늘리기 위해 지표에 도달해야 할지 또는 도달하지 않아야 할지를 선택할 수 있습니다.<P>두 성공 지표(또는 여러 개의 성공 지표)를 정의해야 상호 종속성을 만들 수 있습니다.<P>[!UICONTROL Add Dependency] 옵션을 사용하면 다른 성공 지표에 도달했거나 도달하지 않은 경우 성공 지표를 늘릴 수 있습니다.<P>종속성을 추가하려면 다음을 수행하십시오.<ol><li>추가 지표를 추가한 후 [!UICONTROL Additional Goal]의 오른쪽에 있는 세 점 메뉴 아래에서 **[!UICONTROL Advanced Settings]**&#x200B;을(를) 클릭합니다.</li><li>[!UICONTROL Reporting Settings] 섹션 아래쪽의 **[!UICONTROL Add Dependency]** 옵션을 클릭합니다.</li><li>왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 [!UICONTROL Reached]을(를) 클릭하여 [!UICONTROL Reached]과(와) [!UICONTROL Not Reached] 사이의 설정을 전환합니다.</li></ol>종속성을 추가한 후 편집하거나 제거할 수 있습니다. |
-   | [!UICONTROL Conversion Metric] | 기본적으로 전환 지표는 최적화 목표 지표와 동일합니다. 그러나 [!UICONTROL Same as Optimization Goal] 옵션을 선택 취소하여 별도의 전환 지표를 정의할 수 있습니다. |
-   | [!UICONTROL Additional Metrics] | 사용할 추가 보고 지표를 추가합니다. 변환 또는 수입 지표를 추가할 수 있습니다.<P>**참고**: [!UICONTROL Engagement] 지표는 추가 지표로 지원되지 않습니다. [!DNL Target] UI를 통해 [!UICONTROL Engagement] 지표를 선택할 수 있지만 데이터가 보고서에 정확하게 표시되지 않습니다. |
-   | [!UICONTROL Audiences for Reporting] | 보고서의 대상별로 필터링하려면 대상을 추가합니다. 기본적으로 보고서는 자격 있는 모든 방문자의 결과를 표시합니다. 방문자의 보다 구체적인 하위 집합을 위해 결과를 필터링하려면 대상을 추가합니다.<P>**참고**: 다른 활동 형식과 달리 [!UICONTROL Automated Personalization]에서는 [!UICONTROL Adobe Analytics]을(를) 보고 소스로 사용(A4T)할 수 없습니다. |
-   | [!UICONTROL Notes] | 귀하 또는 다른 팀 구성원에게 유용한 활동에 대한 정보를 입력합니다. [!UICONTROL Notes] 창의 크기를 조정할 수 있습니다. |
+   | [!UICONTROL 이름] | 활동의 이름을 지정합니다. 팀 구성원이 [!UICONTROL 활동] 목록에서 활동을 인식할 수 있을 만큼 충분히 서사적인 이름을 지정하십시오. 활동 이름에 허용되지 않는 문자를 확인하려면 위의 테이블을 참조하십시오. |
+   | [!UICONTROL 목표] | (선택 사항) 테스트의 목표를 입력합니다. 목표는 활동의 목적을 기억하는 데 도움이 됩니다. |
+   | [!UICONTROL 우선순위] | 설정에 따라 [!UICONTROL 우선 순위]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. [!UICONTROL 낮음], [!UICONTROL Medium] 또는 [!UICONTROL 높음]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다.<P>대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>이 옵션이 [!UICONTROL 관리] > [!UICONTROL 보고]&#x200B;(기본값)에서 활성화되지 않으면 우선 순위를 [!UICONTROL 낮음], [!UICONTROL Medium] 또는 [!UICONTROL 높음]으로 지정하십시오.<P>세분화된 우선순위를 활성화하려면 [!UICONTROL 관리] > [!UICONTROL 보고]를 클릭한 다음, [!UICONTROL 세분화된 우선순위 활성화] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.<P>이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.<ul><li>0 = 낮음</li><li>999 = 높음</li></ul>이전 버전의 [!DNL Target Standard/Premium]에서 만든 활동의 경우 [!UICONTROL 낮음] 우선순위는 0으로, [!UICONTROL Medium] 우선순위는 5로, [!UICONTROL 높음] 우선순위는 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.<P>**참고**: 세분화된 우선순위를 사용한 후에 이 옵션을 비활성화하려면 먼저 모든 우선순위를 0, 5, 10으로 다시 설정해야 합니다. |
+   | [!UICONTROL 기간] | 활동의 시작 날짜와 종료 날짜를 설정합니다. [!UICONTROL 활성화 시]를 선택하거나 특정 날짜 및 시간을 지정할 수 있습니다. |
+   | [!UICONTROL 최적화 목표] | 다음 두 개의 매개 변수로 구성되는 최적화 목표를 지정하십시오.<ul><li>활동으로 측정하려는 작업</li><li>목표가 달성되었음을 보여 주는 작업으로, 활동 참여자가 수행한 것입니다.</li></ul>[!UICONTROL 기본 목표]의 오른쪽에 있는 세 점을 선택하여 최적화 목표의 이름을 지정할 수 있습니다. [!UICONTROL Automated Personalization] 활동은 [!UICONTROL 전환] 또는 [!UICONTROL 매출]을 측정할 수 있습니다. 페이지 보기 또는 mbox 보기를 통해 전환할 수 있습니다. 클릭을 추적할 수도 있습니다.<P>또한 기본 목표는 경험의 성공을 계산하기 위해 모델링 시스템에서 사용하는 모델링 지표가 됩니다.<P>모델링 목표에 도달한 후 추적 목적으로 활동에 방문자를 유지할 수 있습니다. 예를 들어 [!UICONTROL Automated Personalization] 활동은 종종 클릭률을 향상시키는 데 사용되며 모델링 목표로 설정됩니다. 그러나 증가된 클릭률이 최종 전환으로 이어지는 방식을 확인하는 것이 중요하므로 최종 전환까지 추적하는 것이 반드시 필요합니다.<P>여러 지표에 대한 종속성과 유연성을 제공하여 카운트를 늘리기 위해 지표에 도달해야 할지 또는 도달하지 않아야 할지를 선택할 수 있습니다.<P>두 성공 지표(또는 여러 개의 성공 지표)를 정의해야 상호 종속성을 만들 수 있습니다.<P>[!UICONTROL 종속성 추가] 옵션을 사용하면 다른 성공 지표에 도달했거나 도달하지 않은 경우 성공 지표를 늘릴 수 있습니다.<P>종속성을 추가하려면 다음을 수행하십시오.<ol><li>추가 지표를 추가한 후 [!UICONTROL 추가 목표]의 오른쪽에 있는 세 점 메뉴 아래에서 **[!UICONTROL 고급 설정]**&#x200B;을 클릭합니다.</li><li>[!UICONTROL 보고 설정] 섹션 아래쪽에서 **[!UICONTROL 종속성 추가]** 옵션을 클릭합니다.</li><li>왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 [!UICONTROL 도달]을 클릭하여 [!UICONTROL 도달] 및 [!UICONTROL 도달 못 함] 간에 설정을 전환합니다.</li></ol>종속성을 추가한 후 편집하거나 제거할 수 있습니다. |
+   | [!UICONTROL 전환 지표] | 기본적으로 전환 지표는 최적화 목표 지표와 동일합니다. 그러나 [!UICONTROL 최적화 목표와 같음] 옵션을 선택 취소하여 별도의 전환 지표를 정의할 수 있습니다. |
+   | [!UICONTROL 추가 지표] | 사용할 추가 보고 지표를 추가합니다. 변환 또는 수입 지표를 추가할 수 있습니다.<P>**참고**: [!UICONTROL 참여] 지표는 추가 지표로 지원되지 않습니다. [!DNL Target] UI를 통해 [!UICONTROL 참여] 지표를 선택할 수 있지만 데이터가 보고서에 정확하게 표시되지 않습니다. |
+   | [!UICONTROL 보고할 대상] | 보고서의 대상별로 필터링하려면 대상을 추가합니다. 기본적으로 보고서는 자격 있는 모든 방문자의 결과를 표시합니다. 방문자의 보다 구체적인 하위 집합을 위해 결과를 필터링하려면 대상을 추가합니다.<P>**참고**: 다른 활동 형식과 달리 [!UICONTROL Automated Personalization]에서는 [!UICONTROL Adobe Analytics]을(를) 보고 소스로 사용할 수 없습니다(A4T). |
+   | [!UICONTROL 참고] | 귀하 또는 다른 팀 구성원에게 유용한 활동에 대한 정보를 입력합니다. [!UICONTROL 메모] 창의 크기를 조정할 수 있습니다. |
 
    지표의 이름을 지정하거나 지표의 이름을 바꾸는 경우 다음 문자가 허용되지 않습니다.
 
@@ -186,6 +178,6 @@ ht-degree: 22%
    | - | 빼기 |
    | @ | 로그인 |
 
-**[!UICONTROL Save & Close]**&#x200B;을(를) 클릭하면 활동의 [!UICONTROL Overview] 페이지가 표시됩니다. **경험 미리 보기**&#x200B;를 클릭하여 경험이 전달될 때 어떻게 표시되는지 미리 봅니다. 사이트에서 AP 경험에 대한 링크를 보고 공유하여 [!UICONTROL Target] [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 외부의 경험에 대한 &quot;실제 미리 보기&quot;를 얻을 수 있는 팝업이 나타납니다. 미리 보기를 공유하려면 메시지에서 링크를 공유해야 합니다. 링크를 클릭한 다음 브라우저에서 직접 URL을 복사할 수 없습니다. 링크를 복사하면 메시지의 링크에서 페이지에 액세스할 때만 페이지가 올바르게 표시되는 매개 변수가 URL에 포함됩니다.
+**[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하면 활동의 [!UICONTROL 개요] 페이지가 표시됩니다. **경험 미리 보기**&#x200B;를 클릭하여 경험이 전달될 때 어떻게 표시되는지 미리 봅니다. 사이트에서 AP 경험에 대한 링크를 보고 공유하여 [!UICONTROL Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 외부의 경험에 대한 &quot;실제 미리 보기&quot;를 얻을 수 있는 팝업이 나타납니다. 미리 보기를 공유하려면 메시지에서 링크를 공유해야 합니다. 링크를 클릭한 다음 브라우저에서 직접 URL을 복사할 수 없습니다. 링크를 복사하면 메시지의 링크에서 페이지에 액세스할 때만 페이지가 올바르게 표시되는 매개 변수가 URL에 포함됩니다.
 
 보고에 대한 자세한 내용은 [Automated Personalization 보고서](/help/main/c-reports/personalization-reports/reports-ap.md)를 참조하십시오.

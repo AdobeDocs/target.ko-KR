@@ -7,7 +7,7 @@ role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '95'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 VEC(시각적 경험 작성기)에 대한 구성 설정, 보고, Scene7 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자를 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다.
 
-[!UICONTROL Administration] 메뉴 항목에 액세스하려면 맨 위 메뉴 막대에서 **[!UICONTROL Administration]**&#x200B;을(를) 클릭한 다음 왼쪽에서 원하는 탭을 클릭하십시오.
+[!UICONTROL 관리] 메뉴 항목에 액세스하려면 맨 위 메뉴 막대에서 **[!UICONTROL 관리]**&#x200B;를 클릭한 다음 왼쪽에서 원하는 탭을 클릭하십시오.
 
 * [시각적 경험 작성기](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [보고](/help/main/administrating-target/reporting.md)

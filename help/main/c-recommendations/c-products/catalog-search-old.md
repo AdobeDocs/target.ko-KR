@@ -2,25 +2,25 @@
 keywords: 카탈로그 검색;카탈로그;검색;제외;컬렉션;필터
 description: 권장 사항 카탈로그 검색을 사용하여 제품 또는 콘텐츠를 찾고, 컬렉션이나 제외를 만들고, 카탈로그에서 항목을 제거하는 방법 등에 대해 알아봅니다.
 title: Recommendations 카탈로그 검색을 사용하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 22%
+source-wordcount: '1065'
+ht-degree: 20%
 
 ---
 
 # 카탈로그 검색
 
-[!UICONTROL Catalog Search]의 [!DNL Adobe Recommendations] 페이지는 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고, 검색 결과를 컬렉션이나 제외에 저장하고, 필터 패싯을 추가하고, 테이블의 열을 수정하고, 새 검색 패싯을 추가하는 등의 작업도 수행할 수 있습니다.
+[!DNL Adobe Recommendations]의 [!UICONTROL 카탈로그 검색] 페이지는 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고, 검색 결과를 컬렉션이나 제외에 저장하고, 필터 패싯을 추가하고, 테이블의 열을 수정하고, 새 검색 패싯을 추가하는 등의 작업도 수행할 수 있습니다.
 
 카탈로그는 전체 제품 세트(엔티티)를 나타냅니다. 카탈로그에는 제품을 논리 버킷으로 구성하는 여러 컬렉션이 포함될 수 있습니다.
 
 ## 카탈로그 검색 액세스
 
-[!UICONTROL Catalog Search] 페이지에 액세스하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**&#x200B;을(를) 클릭합니다.
+[!UICONTROL 카탈로그 검색] 페이지에 액세스하려면 **[!UICONTROL 권장 사항]** > **[!UICONTROL 카탈로그 검색]**&#x200B;을 클릭하세요.
 
 ![카탈로그 검색 페이지](/help/main/c-recommendations/c-products/assets/catalog-search.png)
 
@@ -30,7 +30,7 @@ ht-degree: 22%
 
 ### 단순 검색 수행
 
-1. **[!UICONTROL Search Products]** 필드에 검색어를 입력하십시오.
+1. **[!UICONTROL 제품 검색]** 필드에 검색어를 입력하십시오.
 
 1. (선택 사항) 검색 필드에서 아래쪽 화살표를 클릭할 때 표시되는 옵션 메뉴에서 검색 옵션을 선택하여 검색을 구체화할 수 있습니다.
 
@@ -61,9 +61,9 @@ ht-degree: 22%
    >
    >숫자 값으로 사용자 지정 특성에 대한 카탈로그 검색을 수행할 때 결과는 사용자 지정 특성을 숫자 값 대신 문자열 유형으로 간주합니다.
    >
-   >현재 속성 유형을 변경할 수 있는 기능이 없습니다. 변경하려면 문자열에서 숫자로 유형을 변경해야 하는 특성을 참조하는 [고객 문제를 여십시오](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+   >현재 속성 유형을 변경할 수 있는 기능이 없습니다. 변경하려면 문자열에서 숫자로 유형을 변경해야 하는 속성을 참조하는 [고객 문제를 여십시오](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-1. 필터를 사용하여 원하는 제품을 찾을 수도 있습니다. 다음 예제에서는 [!UICONTROL Collections] 패싯을 확장하고 &quot;Bike Tools&quot;를 선택하면 카탈로그에 있는 모든 자전거 도구가 표시됩니다.
+1. 필터를 사용하여 원하는 제품을 찾을 수도 있습니다. 다음 예제에서는 [!UICONTROL 컬렉션] 패싯을 확장하고 &quot;Bike Tools&quot;를 선택하면 카탈로그에 있는 모든 자전거 도구가 표시됩니다.
 
    ![자전거 도구](/help/main/c-recommendations/c-products/assets/bike-results-3.png)
 
@@ -73,21 +73,21 @@ ht-degree: 22%
 
 ### 고급 검색 수행 {#advanced-search}
 
-[!UICONTROL Advanced Search]을(를) 사용하여 검색 결과를 세분화하거나 [컬렉션](/help/main/c-recommendations/c-products/collections.md) 또는 [제외](/help/main/c-recommendations/c-products/exclusions.md)(으)로 검색 결과를 저장할 수 있습니다.
+[!UICONTROL 고급 검색]을 사용하여 검색 결과를 세분화하거나 검색 결과를 [컬렉션](/help/main/c-recommendations/c-products/collections.md) 또는 [제외](/help/main/c-recommendations/c-products/exclusions.md)(으)로 저장할 수 있습니다.
 
-1. **[!UICONTROL Advanced Search]** 링크를 클릭합니다.
+1. **[!UICONTROL 고급 검색]** 링크를 클릭합니다.
 
    ![고급 검색 페이지](/help/main/c-recommendations/c-products/assets/advances-search.png)
 
 1. 드롭다운 목록을 사용하여 검색할 매개변수, 연산자 및 값을 지정합니다.
 
-1. (선택 사항) 검색 규칙을 추가하려면 **[!UICONTROL Add Rule]**&#x200B;을(를) 클릭합니다.
+1. (선택 사항) 검색 규칙을 추가하려면 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
 
    각 추가 검색 규칙은 AND 연산자로 연결됩니다.
 
-1. **[!UICONTROL Search]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 검색]**&#x200B;을 클릭합니다.
 
-1. (선택 사항) **[!UICONTROL Save As]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Collection]** 또는 **[!UICONTROL Exclusion]**&#x200B;을(를) 클릭합니다.
+1. (선택 사항) **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭한 다음 **[!UICONTROL 컬렉션]** 또는 **[!UICONTROL 제외]**&#x200B;를 클릭합니다.
 
    ![다른 이름으로 저장 옵션](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -105,7 +105,7 @@ ID, 이름, 메시지, 범주 등을 포함한 개별 항목의 세부 사항을
 
 1. 세부 정보를 보려면 검색 결과에서 항목을 클릭하십시오.
 
-1. **[!UICONTROL Remove from Catalog]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 카탈로그에서 제거]**&#x200B;를 클릭합니다.
 
 1. 항목을 제거할지 확인합니다.
 
@@ -119,17 +119,17 @@ ID, 이름, 메시지, 범주 등을 포함한 개별 항목의 세부 사항을
 
 ## 고급 검색을 기반으로 컬렉션 또는 제외 만들기 {#save-as}
 
-[&#x200B; 페이지에서 &#x200B;](/help/main/c-recommendations/c-products/collections.md)을(를) 사용하여 [컬렉션](/help/main/c-recommendations/c-products/exclusions.md) 또는 [!UICONTROL Advanced Search]제외[!UICONTROL Catalog Search]을(를) 만들 수 있습니다([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+[!UICONTROL 카탈로그 검색] 페이지([!UICONTROL 권장 사항] > [!UICONTROL 카탈로그 검색] > [!UICONTROL 고급 검색])에서 [!UICONTROL 고급 검색]을 사용하여 [컬렉션](/help/main/c-recommendations/c-products/collections.md) 또는 [제외](/help/main/c-recommendations/c-products/exclusions.md)을(를) 만들 수 있습니다.
 
 1. [고급 검색](#advanced-search)을 수행합니다.
 
-1. **[!UICONTROL Save As]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Collection]** 또는 **[!UICONTROL Exclusion]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭한 다음 **[!UICONTROL 컬렉션]** 또는 **[!UICONTROL 제외]**&#x200B;를 클릭합니다.
 
    ![다른 이름으로 저장 옵션](/help/main/c-recommendations/c-products/assets/save-as.png)
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL Advanced Search] 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. [!UICONTROL Advanced Search] 기능을 사용하는 결과를 기반으로 컬렉션이나 제외를 만들 때 대/소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 반환할 의도로 카탈로그를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 반환됩니다. &quot;Holiday&quot;를 포함하는 제품은 반환되지 않습니다. 제외도 유사한 방식으로 처리됩니다.
+   >[!UICONTROL 고급 검색] 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. [!UICONTROL 고급 검색] 기능을 사용하는 결과를 기반으로 컬렉션이나 제외를 만들 때는 대/소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 반환할 의도로 카탈로그를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 반환됩니다. &quot;Holiday&quot;를 포함하는 제품은 반환되지 않습니다. 제외도 유사한 방식으로 처리됩니다.
 
 ## 환경 변경
 
@@ -143,17 +143,17 @@ ID, 이름, 메시지, 범주 등을 포함한 개별 항목의 세부 사항을
 
 ## 카탈로그 검색 페이지(필터 및 열) 수정
 
-현재 세션에 대해 [!UICONTROL Catalog Search] 페이지에서 사용 가능한 필터 및 열을 일시적으로 수정할 수 있습니다.
+현재 세션에 대한 [!UICONTROL 카탈로그 검색] 페이지에서 사용 가능한 필터 및 열을 일시적으로 수정할 수 있습니다.
 
 ### 필터 수정
 
-[!UICONTROL Catalog Search] 페이지에 필터 패싯을 추가할 수 있습니다.
+[!UICONTROL 카탈로그 검색] 페이지에 필터 패싯을 추가할 수 있습니다.
 
-1. **[!UICONTROL Filters]** 패널에서 **[!UICONTROL Modify]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 필터]** 패널에서 **[!UICONTROL 수정]**&#x200B;을 클릭합니다.
 
    ![필터 링크 수정](/help/main/c-recommendations/c-products/assets/modify-filters.png)
 
-1. 원하는 검색 패싯(ID, 이름, 메시지 등)을 선택하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 원하는 검색 패싯(ID, 이름, 메시지 등)을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![필터 추가](/help/main/c-recommendations/c-products/assets/add-filters.png)
 
@@ -161,15 +161,15 @@ ID, 이름, 메시지, 범주 등을 포함한 개별 항목의 세부 사항을
 
 ### 열 수정
 
-[!UICONTROL Catalog Search] 페이지에서 활성 열을 일시적으로 수정할 수 있습니다.
+[!UICONTROL 카탈로그 검색] 페이지에서 활성 열을 일시적으로 수정할 수 있습니다.
 
-1. **[!UICONTROL Columns]** 링크를 클릭합니다.
+1. **[!UICONTROL 열]** 링크를 클릭합니다.
 
    ![열 옵션](/help/main/c-recommendations/c-products/assets/columns.png)
 
-1. (조건부) 활성 열의 순서를 바꾸려면 **[!UICONTROL Active Columns]** 섹션의 열을 원하는 순서로 끌어다 놓습니다.
+1. (조건부) 활성 열의 순서를 바꾸려면 **[!UICONTROL 활성 열]** 섹션의 열을 원하는 순서로 끌어다 놓습니다.
 
-1. (조건부) 원하는 대로 항목을 **[!UICONTROL Active Columns]**&#x200B;에서 **[!UICONTROL Inactive Columns]**(또는 그 반대)로 끌어서 놓습니다.
+1. (조건부) 원하는 대로 **[!UICONTROL 활성 열]**&#x200B;에서 **[!UICONTROL 비활성 열]**(또는 그 반대)으로 항목을 끌어서 놓습니다.
 
    활성 섹션에서 비활성 섹션으로 이동할 열 옆에 있는 삭제 아이콘( x )을 클릭할 수도 있습니다.
 

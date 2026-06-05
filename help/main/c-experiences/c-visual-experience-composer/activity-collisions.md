@@ -5,37 +5,34 @@ title: 활동 충돌을 피하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
 TQID: https://experienceleague.adobe.com/R6cwp4KnoYPO9Wxr47HswtBX6jKPJ0i-UGdtA1ZHawU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 341
-ht-degree: 46%
+source-wordcount: 350
+ht-degree: 45%
 
 ---
 
 # 활동 충돌
 
-[!DNL Adobe Target]의 [!UICONTROL Activity Overview] 페이지에 있는 [!UICONTROL Collisions] 탭에는 사이트의 활동 충돌이 나열됩니다.
+[!DNL Adobe Target]의 [!UICONTROL 활동 개요] 페이지에 있는 [!UICONTROL 충돌] 탭에는 사이트의 활동 충돌이 나열됩니다.
 
 여러 활동이 동일한 페이지로 콘텐츠를 전송하도록 설정되면 활동 충돌이 발생합니다. 활동 충돌이 발생하면 페이지에 예상 콘텐츠가 표시되지 않을 수 있습니다.
 
-[!UICONTROL Collisions] 탭은 활동 개요 페이지에서 사용할 수 있으며 활동에 잠재적인 충돌이 포함되어 있는지 여부를 알려 줄 수 있습니다.
+[!UICONTROL 충돌] 탭은 활동 개요 페이지에서 사용할 수 있으며 활동에 잠재적 충돌이 포함되어 있는지 여부를 알려 줄 수 있습니다.
 
-[!UICONTROL Collisions] 탭에 액세스하려면 **[!UICONTROL Activities]** > 목록에서 원하는 활동을 클릭한 다음 왼쪽 레일에서 **[!UICONTROL Collisions]**&#x200B;을(를) 클릭합니다.
+[!UICONTROL 충돌] 탭에 액세스하려면 **[!UICONTROL 활동]** > 목록에서 원하는 활동을 클릭한 다음 왼쪽 레일에서 **[!UICONTROL 충돌]**&#x200B;을 클릭하십시오.
 
 각 활동의 대상 타깃팅에 상관없이 동일한 URL의 모든 활동이 나열됩니다. 충돌할 수 있는 활동 목록을 확인하려면 이 탭을 여십시오. 충돌로 인해 예상되는 경험이 변경되는 경우 활동을 편집하십시오.
 
-[!UICONTROL Collisions] 목록은 다음 작업에 유용합니다.
+[!UICONTROL 충돌] 목록을 통해 다음 작업을 수행할 수 있습니다.
 
 * 새 활동을 설정하기 전에 페이지에서 테스트가 이미 실행 중인지 여부 식별
 * 예상 컨텐츠가 표시되지 않는 경우 활동 문제 해결
 
-[!UICONTROL Collisions] 목록에는 mbox를 사용하고 동일한 URL을 사용하는 모든 [!DNL Target] 시나리오가 표시됩니다. 각 잠재적 충돌에 대해, 목록에는 활동 URL, 충돌이 발생할 수 있는 mbox 이름 및 이러한 두 기준과 일치하는 활동이 표시됩니다. mbox가 여러 개 있으면 각각 나열됩니다.
+[!UICONTROL 충돌] 목록에는 mbox를 사용하고 동일한 URL을 사용하는 모든 [!DNL Target] 시나리오가 표시됩니다. 각 잠재적 충돌에 대해, 목록에는 활동 URL, 충돌이 발생할 수 있는 mbox 이름 및 이러한 두 기준과 일치하는 활동이 표시됩니다. mbox가 여러 개 있으면 각각 나열됩니다.
 
 목록에는 기타 정보와 함께 각 잠재적 충돌의 상태와 우선순위가 표시됩니다. 상태와 우선순위를 사용하여 충돌 발생 가능성을 판별할 수 있습니다. 충돌할 수 있는 두 가지 활동을 고려합니다. 한 활동이 현재 활성화되어 있지 않으면 충돌이 발생할 수 없습니다. 비활성 활동이 활성화되는 경우에만 충돌이 가능합니다. 잠재적 충돌이 우선순위가 동일한 두 라이브 활동과 대상이 동일한 두 활동 간의 충돌인 경우 충돌이 발생합니다. 우선순위나 상태를 변경하여 충돌을 방지할 수 있습니다.
 

@@ -5,7 +5,7 @@ hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '180'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 2%
 * [첫 번째 기능 플래그 만들기](../feature-flags/create-your-first-feature-flag.md)
 * [앱에 플래그 통합](../integrate/integrating-in-your-app.md)
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [애플리케이션 관리](manage-applications.md)
 * [콘솔에 로그인](../console/log-in-to-the-console.md)

@@ -5,7 +5,7 @@ hide: true
 exl-id: 37e037b6-45eb-4261-b580-30d94d8e55da
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 이것은 다른 기준과 함께 백분율 규칙에 사용된 것과 동일한 메커니즘입니다. 작동하는 예제는 [대상 기준에 백분율 규칙 추가](adding-percentage-rules.md)를 참조하십시오.
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [기능 플래그 및 기능 그룹의 대상자](audience-in-feature-flags-and-feature-groups.md)
 * [대상 기준에 백분율 규칙 추가](adding-percentage-rules.md)

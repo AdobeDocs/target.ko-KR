@@ -5,17 +5,13 @@ title: 사이트 페이지에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 TQID: https://experienceleague.adobe.com/ROMKabnbH3yE-W61IQk9CtNpKMg7zA6-qdxu272EVOI
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 822
-ht-degree: 20%
+source-wordcount: 929
+ht-degree: 19%
 
 ---
 
@@ -23,77 +19,77 @@ ht-degree: 20%
 
 사이트의 특정 페이지에 액세스하는 [!DNL Adobe Target]을(를) 사용하여 방문자를 타깃팅할 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** > **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
-1. **[!UICONTROL Site Pages]**&#x200B;을(를) 대상 빌더 창으로 끌어서 놓습니다.
+1. **[!UICONTROL 사이트 페이지]**&#x200B;를 대상 빌더 창으로 끌어다 놓습니다.
 
    ![사이트 페이지 대상자](assets/target_site_pages.png)
 
-1. **[!UICONTROL Select]** 드롭다운 목록을 클릭하고 다음 옵션 중 하나를 선택한 다음 원하는 대로 규칙을 구성합니다.
+1. **[!UICONTROL 선택]** 드롭다운 목록을 클릭하고 다음 옵션 중 하나를 선택한 다음 원하는 대로 규칙을 구성합니다.
 
-   규칙의 후속 드롭다운 목록에서 사용할 수 있는 옵션 및 평가자는 선택하는 옵션에 따라 달라집니다. 다음 그림은 [!UICONTROL Current Page]을(를) 선택하는 경우 사용할 수 있는 옵션을 보여 줍니다.
+   규칙의 후속 드롭다운 목록에서 사용할 수 있는 옵션 및 평가자는 선택하는 옵션에 따라 달라집니다. 다음 그림은 [!UICONTROL 현재 페이지]를 선택하는 경우 사용할 수 있는 옵션을 보여 줍니다.
 
    ![현재 페이지](assets/current-page.png)
 
-   [!UICONTROL Select]을(를) 선택하면 초기 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
+   [!UICONTROL 선택]을 선택하면 초기 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL Current Page]:** 사용자가 보고 있는 페이지입니다.
+   * **[!UICONTROL 현재 페이지]:** 사용자가 보고 있는 페이지입니다.
 
      이 옵션을 선택하는 경우 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
       * [!UICONTROL URL]&#x200B;([!DNL Target]이(가) URL을 평가하는 방법에 대한 자세한 내용은 [대상 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
+      * [!UICONTROL 도메인]
+      * [!UICONTROL 쿼리]
+      * [!UICONTROL 하위 도메인]
+      * [!UICONTROL 최상위 도메인]
+      * [!UICONTROL 경로]
+      * [!UICONTROL 해시(#) 조각]
 
-   * **[!UICONTROL Previous Page]:** 현재 페이지를 클릭하기 전에 사용자가 본 페이지입니다. 페이지를 추적하려면 이전 페이지에서 현재 페이지까지 클릭해야 합니다. 사용자가 브라우저에서 새 URL을 입력하면 이전 페이지가 추적되지 않습니다. 이 페이지의 실제 내용은 사이트의 디자인에 따라 다릅니다. 예를 들어 현재 페이지에 특정 제품에 대한 정보가 표시되면 이전 페이지는 방문자가 특정 항목을 선택하는 카테고리 페이지일 수 있습니다. 예를 들어 특정 유형의 여러 카메라를 표시하는 페이지이거나 최종 페이지로 이어지는 홈 페이지일 수 있습니다.
-
-     이 옵션을 선택하는 경우 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
-
-      * [!UICONTROL URL]&#x200B;(Target에서 URL을 평가하는 방법에 대한 자세한 내용은 [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-
-   * **[!UICONTROL Landing Page]:** 랜딩 페이지는 사이트에 액세스할 때 방문자가 보는 첫 페이지입니다. 예를 들어 방문자가 범주 페이지로 이동하는 Google에 대한 링크를 클릭하는 경우 범주 페이지는 랜딩 페이지입니다. 링크가 홈페이지로 이동하는 경우 홈페이지는 랜딩 페이지입니다. 랜딩 페이지는 방문자의 세션을 기억합니다. 방문자의 랜딩 페이지가 이 세션에 있었던 것을 기준으로 더 깊이 타깃팅할 수 있습니다.
+   * **[!UICONTROL 이전 페이지]:** 현재 페이지를 클릭하기 전에 사용자가 본 페이지입니다. 페이지를 추적하려면 이전 페이지에서 현재 페이지까지 클릭해야 합니다. 사용자가 브라우저에서 새 URL을 입력하면 이전 페이지가 추적되지 않습니다. 이 페이지의 실제 내용은 사이트의 디자인에 따라 다릅니다. 예를 들어 현재 페이지에 특정 제품에 대한 정보가 표시되면 이전 페이지는 방문자가 특정 항목을 선택하는 카테고리 페이지일 수 있습니다. 예를 들어 특정 유형의 여러 카메라를 표시하는 페이지이거나 최종 페이지로 이어지는 홈 페이지일 수 있습니다.
 
      이 옵션을 선택하는 경우 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-      * [!UICONTROL URL]&#x200B;(Target에서 URL을 평가하는 방법에 대한 자세한 내용은 [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
+      * [!UICONTROL URL]&#x200B;(Target이 URL을 평가하는 방법에 대한 자세한 내용은 [대상 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
+      * [!UICONTROL 도메인]
+      * [!UICONTROL 쿼리]
+      * [!UICONTROL 하위 도메인]
+      * [!UICONTROL 최상위 도메인]
+      * [!UICONTROL 경로]
+
+   * **[!UICONTROL 랜딩 페이지]:** 랜딩 페이지는 사이트에 액세스할 때 방문자가 보는 첫 페이지입니다. 예를 들어 방문자가 범주 페이지로 이동하는 Google에 대한 링크를 클릭하는 경우 범주 페이지는 랜딩 페이지입니다. 링크가 홈페이지로 이동하는 경우 홈페이지는 랜딩 페이지입니다. 랜딩 페이지는 방문자의 세션을 기억합니다. 방문자의 랜딩 페이지가 이 세션에 있었던 것을 기준으로 더 깊이 타깃팅할 수 있습니다.
+
+     이 옵션을 선택하는 경우 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
+
+      * [!UICONTROL URL]&#x200B;(Target이 URL을 평가하는 방법에 대한 자세한 내용은 [대상 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
+      * [!UICONTROL 도메인]
+      * [!UICONTROL 쿼리]
+      * [!UICONTROL 하위 도메인]
+      * [!UICONTROL 최상위 도메인]
+      * [!UICONTROL 경로]
+      * [!UICONTROL 해시(#) 조각]
 
      >[!NOTE]
      >
      >`landing.url` 개체는 하위 도메인 변경 시 또는 직접적인 URL 대체 시 재설정됩니다.
 
-   * **[!UICONTROL HTTP Header]:** 이 옵션은 [!DNL Target] 요청의 HTTP 헤더에 있는 정보를 평가합니다. 예를 들어 HTTP 헤더에 언어 정보가 포함된 경우 스페인어로 페이지에 액세스하는 방문자를 타깃팅하기 위해 `Accept-Language: es` 조건을 포함하는 규칙을 만들 수 있습니다.
+   * **[!UICONTROL HTTP 헤더]:** 이 옵션은 [!DNL Target] 요청의 HTTP 헤더에 있는 정보를 평가합니다. 예를 들어 HTTP 헤더에 언어 정보가 포함된 경우 스페인어로 페이지에 액세스하는 방문자를 타깃팅하기 위해 `Accept-Language: es` 조건을 포함하는 규칙을 만들 수 있습니다.
 
      이 옵션을 선택하는 경우 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-      * [!UICONTROL Accept]
+      * [!UICONTROL 수락]
       * [!UICONTROL Accept-Charset]
-      * [!UICONTROL Accept-Encoding]
+      * [!UICONTROL Accept-Coding]
       * [!UICONTROL Accept-Language]
-      * [!UICONTROL Authorization]
+      * [!UICONTROL 승인]
       * [!UICONTROL Cache-Control]
-      * [!UICONTROL Connection]
+      * [!UICONTROL 연결]
       * [!UICONTROL Content-Length]
       * [!UICONTROL Content-MDS]
       * [!UICONTROL Content-Type]
-      * [!UICONTROL Date]
-      * [!UICONTROL Expect]
-      * [!UICONTROL From]
-      * [!UICONTROL Host]
+      * [!UICONTROL 날짜]
+      * [!UICONTROL 예상]
+      * [!UICONTROL 시작]
+      * [!UICONTROL 호스트]
       * [!UICONTROL If-Match]
       * [!UICONTROL If-Modified-Since]
       * [!UICONTROL If-None-Match]
@@ -102,15 +98,15 @@ ht-degree: 20%
       * [!UICONTROL Max-Forwards]
       * [!UICONTROL Pragma]
       * [!UICONTROL Proxy-Authorization]
-      * [!UICONTROL Range]
+      * [!UICONTROL 범위]
       * [!UICONTROL Referrer]
       * [!UICONTROL TE]
-      * [!UICONTROL Upgrade]
+      * [!UICONTROL 업그레이드]
       * [!UICONTROL User-Agent]
-      * [!UICONTROL Via]
-      * [!UICONTROL Warning]
+      * [!UICONTROL 경유]
+      * [!UICONTROL 경고]
 
-   [!UICONTROL Current Page], [!UICONTROL Previous Page] 또는 [!UICONTROL Landing Page]을(를) 선택한 경우 [!UICONTROL Domain] 및 [!UICONTROL Query] 옵션을 사용할 수 있습니다. 이러한 옵션을 선택할 때는 다음 사항을 고려하십시오.
+   [!UICONTROL 현재 페이지], [!UICONTROL 이전 페이지] 또는 [!UICONTROL 랜딩 페이지]를 선택한 경우 [!UICONTROL 도메인] 및 [!UICONTROL 쿼리] 옵션을 사용할 수 있습니다. 이러한 옵션을 선택할 때는 다음 사항을 고려하십시오.
 
    * **도메인:**&#x200B;페이지의 전체 도메인. 도메인을 지정할 때는 &quot;contains&quot;를 사용하는 것이 좋습니다. 예를 들어 &quot;Domain equals facebook.com&quot;은 `m.facebook.com` 또는 `www.facebook.com`을(를) 허용하지 않습니다. &quot;Domain contains facebook.com&quot;은 모든 변형 facebook.com을 허용합니다.
    * **쿼리:** 첫 번째 물음표(?) 다음의 URL 콘텐츠입니다.
@@ -118,13 +114,13 @@ ht-degree: 20%
      `foo.html?e0a72cb2a2c7`
 
 1. (선택 사항) 대상에 대한 추가 규칙을 설정합니다.
-1. **[!UICONTROL Done]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 완료를 클릭합니다]**.
 
 자신만의 &quot;사용자 정의 쿼리 매개 변수&quot; 또는 &quot;사용자 정의 헤더&quot;를 사용하여 사이트 페이지 대상을 만들 수도 있습니다.
 
 아래 그림과 같이
 
-* 사용자가 선택한 규칙이 [!UICONTROL Current Page], [!UICONTROL Landing Page] 또는 [!UICONTROL Previous Page]인 경우 쿼리 매개 변수
+* 사용자가 선택한 규칙이 [!UICONTROL 현재 페이지], [!UICONTROL 랜딩 페이지] 또는 [!UICONTROL 이전 페이지]인 경우 쿼리 매개 변수
 * 사용자가 선택한 규칙이 HTTP 헤더인 경우 헤더
 
 ## 문제 해결 {#ts}
@@ -133,7 +129,7 @@ ht-degree: 20%
 
   이 동작이 요구 사항과 일치하지 않으면 다음 작업 중 하나를 수행하는 것이 좋습니다.
 
-   * 타깃팅용으로 사용하려면 [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ko){target=_blank}을(를) [!DNL Target]에 전달하십시오.
+   * 타깃팅용으로 사용하려면 [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}을(를) [!DNL Target]에 전달하십시오.
    * 랜딩 페이지 활동 대신 [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을 사용하십시오. A/B 테스트 활동은 동일한 방문자에 대한 경험을 전환하지 않습니다.
    * 대신 [방문자 프로필](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md)을 사용하십시오.
 

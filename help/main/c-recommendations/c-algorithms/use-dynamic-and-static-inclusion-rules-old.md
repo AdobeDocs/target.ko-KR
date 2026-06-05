@@ -2,14 +2,14 @@
 keywords: 포함 규칙;포함 기준;권장 사항;새 기준 만들기;프로모션;판촉;동적 필터링;동적;비어 있는 값;필터링 규칙 무시;정적 필터;값으로 필터링;엔티티 속성 일치;프로필 속성 일치;매개 변수 일치;값으로 필터링 정적 필터
 description: Adobe [!DNL Target] 기준 및 프로모션에 대한 권장 사항에서 포함 규칙을 만드는 방법을 알아봅니다. 더 나은 결과를 얻으려면 동적 또는 정적 필터링 규칙을 더 추가합니다.
 title: Recommendations에서 동적 및 정적 포함 규칙을 사용하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2013'
-ht-degree: 16%
+source-wordcount: '2111'
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 ## 기준에 필터링 규칙 추가 {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
-[기준을 만드는 중](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)에 **[!UICONTROL Add Filtering Rule]** 아래의 **[!UICONTROL Inclusion Rules]**&#x200B;을(를) 클릭합니다.
+[기준을 만드는 중](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)에 **[!UICONTROL 포함 규칙]**&#x200B;에서 **[!UICONTROL 필터링 규칙 추가]**&#x200B;를 클릭합니다.
 
 ![inclusion_options_new image](assets/inclusion_options_new.png)
 
@@ -29,13 +29,13 @@ ht-degree: 16%
 
 ## 프로모션에 필터링 규칙 추가 {#section_D59AFB62E2EE423086281CF5D18B1076}
 
-[프로모션을 만드는 중](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)에 **[!UICONTROL Promote by Attribute]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Add Filtering Rule]**&#x200B;을(를) 클릭합니다.
+[프로모션을 만드는 중](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)에 **[!UICONTROL 속성별 프로모션]**&#x200B;을 선택한 다음 **[!UICONTROL 필터링 규칙 추가]**&#x200B;를 클릭합니다.
 
 ![inclusion_options 이미지](assets/inclusion_options.png)
 
 ## 필터 유형 {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-다음 섹션에는 기준 및 프로모션에 대한 [!UICONTROL Dynamic Filtering] 및 [!UICONTROL Filter by Value]의 필터링 옵션 유형이 나와 있습니다.
+다음 섹션에는 기준 및 프로모션에 대해 [!UICONTROL 동적 필터링] 및 [!UICONTROL 값별 필터링]의 필터링 옵션 유형이 나와 있습니다.
 
 ### 동적 필터링
 
@@ -53,9 +53,9 @@ ht-degree: 16%
 
 | 동적 필터링 옵션 | 세부 사항 |
 | --- | --- |
-| [엔티티 속성 일치](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | 잠재적 권장 사항 항목의 풀을 사용자가 상호 작용한 특정 항목과 비교하여 동적으로 필터링합니다.<br>방문자가 가장 좋아하는 브랜드와 같이 방문자에게 가장 인기 있는 권장 사항을 표시하려는 경우 [!UICONTROL Entity Attribute Matching]을(를) 사용합니다. |
-| [프로필 속성 일치](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | 항목(엔티티)을 사용자 프로필에 있는 값과 비교하여 동적으로 필터링합니다.<br>크기 또는 즐겨찾기 브랜드와 같이 방문자의 프로필에 저장된 값과 일치하는 권장 사항을 표시하려면 [!UICONTROL Profile Attribute Matching]을(를) 사용합니다. |
-| [매개 변수 일치](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | 항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 동적으로 필터링합니다.<br>페이지 매개 변수 또는 방문자의 매개 변수(예: 장치 차원 또는 지리적 위치)와 일치하는 콘텐츠를 추천하려면 [!UICONTROL Parameter Matching]을(를) 사용합니다. |
+| [엔티티 속성 일치](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | 잠재적 권장 사항 항목의 풀을 사용자가 상호 작용한 특정 항목과 비교하여 동적으로 필터링합니다.<br>방문자가 가장 좋아하는 브랜드와 같이 방문자에게 매력적일 수 있는 권장 사항을 표시하려는 경우 [!UICONTROL 엔티티 속성 일치]를 사용하십시오. |
+| [프로필 속성 일치](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | 항목(엔티티)을 사용자 프로필에 있는 값과 비교하여 동적으로 필터링합니다.<br>크기 또는 즐겨찾기 브랜드와 같이 방문자의 프로필에 저장된 값과 일치하는 권장 사항을 표시하려면 [!UICONTROL 프로필 특성 일치]를 사용하십시오. |
+| [매개 변수 일치](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | 항목(엔티티)을 요청(API 또는 mbox)의 값과 비교하여 동적으로 필터링합니다.<br>페이지 매개 변수 또는 방문자의 매개 변수(예: 장치 차원 또는 지리적 위치)와 일치하는 콘텐츠를 추천하려면 [!UICONTROL 매개 변수 일치]를 사용하십시오. |
 
 ### 값으로 필터링
 
@@ -90,7 +90,7 @@ ht-degree: 16%
 
 ## 엔티티 속성 일치, 프로필 속성 일치 및 매개 변수 일치로 필터링할 때 빈 값 처리 {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-종료 기준 및 프로모션을 위해 [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] 기준으로 필터링할 때 빈 값을 처리하는 여러 옵션을 선택할 수 있습니다.
+종료 기준 및 프로모션에 대해 [!UICONTROL 엔티티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]로 필터링할 때 빈 값을 처리하는 여러 옵션을 선택할 수 있습니다.
 
 이전에는 값이 비어 있으면 결과가 반환되지 않았습니다. &quot;*x*&#x200B;이(가) 비어 있는 경우&quot; 드롭다운 목록에서는 다음 그림과 같이 기준에 빈 값이 있을 경우 수행할 적절한 작업을 선택할 수 있습니다.
 
@@ -100,10 +100,10 @@ ht-degree: 16%
 
 | 액션 | 사용 가능한 경우 | 세부 사항 |
 |--- |--- |--- |
-| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] | 이 작업은 [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching]의 기본값입니다.<br>이 선택 사항은 규칙이 무시되도록 지정합니다. 예를 들어 세 개의 필터링 규칙이 있고 세 번째 규칙이 어떤 값도 전달하지 않는 경우, 결과를 반환하는 대신 빈 값으로 세 번째 규칙을 무시할 수 있습니다. |
-| [!UICONTROL Do not show any results for this criteria]<br>(기준만) | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] | 이 작업은 [!UICONTROL Entity Attribute Matching]의 기본값입니다.<br>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
-| [!UICONTROL Do not promote any items<br>(프로모션만 해당)] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] | 이 작업은 [!UICONTROL Entity Attribute Matching]의 기본값입니다.<br>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
-| [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] | 값이 비어 있으면 정적 값을 사용하도록 선택할 수 있습니다. |
+| [!UICONTROL 이 필터링 규칙 무시] | [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에 대한 기본값입니다.<br>이 옵션은 규칙이 무시되도록 지정합니다. 예를 들어 세 개의 필터링 규칙이 있고 세 번째 규칙이 어떤 값도 전달하지 않는 경우, 결과를 반환하는 대신 빈 값으로 세 번째 규칙을 무시할 수 있습니다. |
+| [!UICONTROL 이 조건에 대한 결과를 표시하지 않음]<br>(기준만) | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 엔터티 특성 일치]에 대한 기본값입니다.<br>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
+| [!UICONTROL 항목을 프로모션하지 않음<br>(프로모션만 해당)] | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 엔터티 특성 일치]에 대한 기본값입니다.<br>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
+| [!UICONTROL 정적 값 사용] | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 값이 비어 있으면 정적 값을 사용하도록 선택할 수 있습니다. |
 
 ## 주의 사항 {#caveats}
 

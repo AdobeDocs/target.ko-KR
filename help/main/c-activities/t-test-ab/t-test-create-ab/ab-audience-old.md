@@ -6,8 +6,8 @@ feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 64%
+source-wordcount: '436'
+ht-degree: 68%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 64%
 >
 >기존 대상자를 선택할 수 있을 뿐만 아니라, 새 대상자를 만들지 않고 여러 대상자를 결합하여 임시로 결합한 대상자를 만들 수도 있습니다. 자세한 내용은 [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
-1. [!UICONTROL Audience] 상자에서 **[!UICONTROL Edit]** 아이콘(세로 줄임표)을 클릭한 다음 **[!UICONTROL Replace Audience]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL 대상] 상자에서 **[!UICONTROL 편집]** 아이콘(세로 줄임표)을 클릭한 다음 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭합니다.
 
    ![대상자 바꾸기 선택 사항](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-   기본적으로 모든 방문자는 대상입니다. 그러나 대상을 변경할 수 있습니다. 대상 라이브러리에서 대상을 선택하거나 활동 전용 대상을 만들 수 있습니다. 대상 라이브러리에는 [!DNL Target]의 일부로 미리 만들어진 공통 대상을 포함하여 이전에 정의된 대상이 포함되어 있습니다.
+   기본적으로 모든 방문자는 대상입니다. 그러나 대상을 변경할 수 있습니다. 대상 라이브러리에서 대상을 선택하거나 활동 전용 대상을 만들 수 있습니다. 대상자 라이브러리에는 [!DNL Target]의 일부로 사전에 만들어진 공통 대상자를 포함하여 이전에 정의한 대상자가 포함되어 있습니다.
 
 1. 원하는 대상자를 선택하거나 만듭니다.
 
@@ -32,15 +32,15 @@ ht-degree: 64%
    * [새 대상자 만들기](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
    * [활동 전용 대상을 만듭니다](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
-   특정 대상 타깃팅이 없는 A/B 테스트의 경우 기본값 [!UICONTROL All Visitors]을(를) 선택하십시오.
+   특정 대상 타깃팅이 없는 A/B 테스트의 경우 기본값인 [!UICONTROL 모든 방문자]를 선택하십시오.
 
-   아래 표시된 대로 [!UICONTROL Add Audience] 대화 상자에서 원하는 대상 위로 마우스를 가져간 후 대상을 편집하거나 복사할 수도 있습니다.
+   아래와 같이 [!UICONTROL 대상 추가] 대화 상자에서 원하는 대상 위로 마우스를 가져간 후 대상을 편집하거나 복사할 수도 있습니다.
 
    기존 대상과 유사한 대상을 만들려는 경우 대상을 복사하면 유용합니다. 대상의 복사본을 만들어 편집한 다음, 새 대상으로 저장할 수 있습니다. 이 마우스로 가리키는 기능은 다른 활동 유형에서도 사용할 수 있습니다.
 
    ![대상자를 마우스로 가리키기](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-   고객을 만들 때 위치(mbox)를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. [!UICONTROL Custom Parameters]에서 mbox를 선택한 다음 원하는 매개 변수를 지정합니다.
+   고객을 만들 때 위치(mbox)를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. [!UICONTROL 사용자 지정 매개 변수]에서 mbox를 선택한 다음 원하는 매개 변수를 지정합니다.
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ ht-degree: 64%
 * 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/30527?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
 ### 활동 워크플로 - 타깃팅(2:14) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

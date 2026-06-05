@@ -5,8 +5,8 @@ title: Adobe Experience Cloud Debugger를 사용하여 [!DNL Target] 디버그
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 100%
+source-wordcount: '80'
+ht-degree: 80%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 100%
 
 ## 확장 추가
 
->[!VIDEO](https://video.tv.adobe.com/v/33241/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
 ## 기본 [!DNL Target] 디버깅
 
->[!VIDEO](https://video.tv.adobe.com/v/33299/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
 ## Mbox 추적
 
->[!VIDEO](https://video.tv.adobe.com/v/33304/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
 
 ## 추가 리소스
 

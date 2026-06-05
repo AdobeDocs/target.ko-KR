@@ -5,21 +5,13 @@ title: 타겟을 보다 효과적으로 사용할 수 있는 추가 리소스를
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: 701
 ht-degree: 79%
 
 ---
@@ -34,7 +26,7 @@ ht-degree: 79%
 
 ## 리소스 링크
 
-* **Adobe Target 설정**: [!UICONTROL Visual Experience Composer]&#x200B;(VEC), 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다. [Target 개요 관리](/help/main/administrating-target/administrating-target.md)를 참조하십시오.
+* **Adobe Target 설정**: [!UICONTROL VEC(시각적 경험 작성기]), 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다. [Target 개요 관리](/help/main/administrating-target/administrating-target.md)를 참조하십시오.
 * **Adobe Target 제품 설명서**: Adobe Target에 대해 알아야 할 모든 사항. [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=ko_KR)를 참조하십시오.
 * **Adobe Target API 및 SDK 설명서**: 클라이언트측 애플리케이션, 서버측 애플리케이션, 모바일 앱, IoT 등에 [!DNL Target] 을 구현하는 방법에 대해 알아보십시오. 또한 [!DNL Target] 데이터를 서드파티 솔루션과 교환하는 방법에 대해서도 알아보십시오. [Adobe Target API 개요](/help/main/api/api-overview.md)를 참조하십시오.
 * **Adobe Target 활동 안내서**: [!DNL Target]에서 사용할 수 있는 다양한 활동에 대해 소개합니다. [Target 활동 유형](/help/main/c-activities/target-activities-guide.md)을 참조하십시오.
@@ -55,6 +47,6 @@ ht-degree: 79%
 
 * **Adobe Target 홈페이지**: [!DNL Adobe Target]의 홈페이지에서 Adobe의 역량에 대해 알아보고 최신 성공 사례를 살펴보십시오. [Adobe Target](https://www.adobe.com/kr/marketing/target.html)을 참조하십시오.
 * **블로그**: [Target 블로그](https://blog.adobe.com/en/topics/target)를 팔로우하여 최신 뉴스, 팁 및 성공 사례에 대해 최신 정보를 유지하십시오.
-* **Experience League**: 경험 비즈니스를 시작하는 데 필요한 가이드, 이벤트 및 교육에 대해 알아보고 Target 커뮤니티와 연결하여 원하는 답을 찾으십시오. [Adobe Experience League 홈 페이지](https://experienceleague.adobe.com/ko#home)를 참조하십시오.
+* **Experience League**: 경험 비즈니스를 시작하는 데 필요한 가이드, 이벤트 및 교육에 대해 알아보고 Target 커뮤니티와 연결하여 원하는 답을 찾으십시오. [Adobe Experience League 홈 페이지](https://experienceleague.adobe.com/#home)를 참조하십시오.
 * **Adobe Target 인증**: 새로운 Adobe Target 시험을 통해 Adobe Certified Expert 지위를 획득하십시오. 여기에서 시험 또는 교육 과정을 예약합니다. [교육 및 인증](/help/main/c-intro/training-and-certification.md)을 참조하십시오.
 * **Adobe Target 릴리스 정보**: 각 [!DNL Target Standard] 및 [!DNL Target Premium] 릴리스에 대한 특징, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 Target API, SDK, JavaScript 라이브러리(at.js) 및 기타 플랫폼 변경 사항에 대한 릴리스 정보도 포함됩니다. [Target 릴리스 정보(최신)](/help/main/r-release-notes/release-notes.md)를 참조하십시오.

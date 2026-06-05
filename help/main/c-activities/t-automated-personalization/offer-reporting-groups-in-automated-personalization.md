@@ -2,22 +2,17 @@
 keywords: 자동화된 개인화;오퍼;보고;그룹;보고 그룹;ap
 description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization] 활동에서 오퍼 보고 그룹을 사용하는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 오퍼 보고 그룹을 사용할 수 있습니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 TQID: https://experienceleague.adobe.com/VW3zVGXb3IuQMDaRyidbkjsbUrojvwFsvwP3yRVeHp4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 827
-ht-degree: 15%
+source-wordcount: 875
+ht-degree: 20%
 
 ---
 
@@ -42,21 +37,21 @@ ht-degree: 15%
 
 ## 보고 그룹 설정
 
-1. AP 활동의 **[!UICONTROL Experiences]** 페이지에서 **[!UICONTROL Manage Content]** 아이콘(![콘텐츠 관리 아이콘](/help/main/assets/icons/Experience.svg))을 클릭합니다
-1. [!UICONTROL Manage Content] 대화 상자 상단의 **[!UICONTROL Offers]** 탭을 클릭합니다.
-1. (조건부) 원하는 오퍼에 대해 [!UICONTROL More Actions] 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 **[!UICONTROL Reporting Group]**&#x200B;을(를) 클릭하여 보고 그룹에 특정 경험을 추가합니다.
+1. AP 활동의 **[!UICONTROL 경험]** 페이지에서 **[!UICONTROL 콘텐츠 관리]** 아이콘( ![콘텐츠 관리 아이콘](/help/main/assets/icons/Experience.svg))을 클릭합니다
+1. [!UICONTROL 컨텐츠 관리] 대화 상자 맨 위에 있는 **[!UICONTROL 오퍼]** 탭을 클릭합니다.
+1. (조건부) 원하는 오퍼에 대해 [!UICONTROL 추가 작업] 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 **[!UICONTROL 보고 그룹]**&#x200B;을 클릭하여 보고 그룹에 특정 경험을 추가합니다.
 
-1. (조건부) 관련 경험에 대한 확인란을 선택한 다음 대화 상자 하단의 **[!UICONTROL Reporting Group]**&#x200B;을(를) 클릭하여 배치에 보고 그룹의 경험을 포함합니다.
+1. (조건부) 관련 경험에 대한 확인란을 선택한 다음 대화 상자 하단의 **[!UICONTROL 보고 그룹]**&#x200B;을 클릭하여 배치에 보고 그룹의 경험을 포함합니다.
 
-1. 선택한 오퍼를 기존 보고 그룹에 할당하려면 **[!UICONTROL Existing]**&#x200B;을(를) 선택하고 드롭다운 목록에서 원하는 보고 그룹을 선택한 다음 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
+1. 선택한 오퍼를 기존 보고 그룹에 지정하려면 **[!UICONTROL 기존]**&#x200B;을 선택하고 드롭다운 목록에서 원하는 보고 그룹을 선택한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
    또는
 
-   선택한 오퍼를 할당할 보고 그룹을 만들려면 **[!UICONTROL New]**&#x200B;을(를) 선택하고 새 보고 그룹의 이름을 지정한 다음 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
+   선택한 오퍼를 할당할 보고 그룹을 만들려면 **[!UICONTROL 새로 만들기]**&#x200B;를 선택하고 새 보고 그룹의 이름을 지정한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
-[!UICONTROL Location] 목록을 사용하여 위치별로 오퍼를 필터링할 수 있습니다. [!UICONTROL Report Group] 목록을 사용하여 보고 그룹별로 오퍼를 필터링합니다. [!UICONTROL Report Group] 목록을 사용하여 [!UICONTROL Unassigned Offers]을(를) 필터링할 수도 있으므로 현재 보고 그룹에 할당되지 않은 오퍼에 보고 그룹을 할당할 수 있습니다.
+[!UICONTROL 위치] 목록을 사용하여 위치별로 오퍼를 필터링할 수 있습니다. [!UICONTROL 보고서 그룹] 목록을 사용하여 보고 그룹별로 오퍼를 필터링합니다. 또한 [!UICONTROL 보고 그룹] 목록을 사용하여 [!UICONTROL 지정되지 않은 오퍼]를 필터링하면 현재 보고 그룹에 지정되지 않은 오퍼에 보고 그룹을 지정할 수 있습니다.
 
-특정 대상에게 오퍼를 타기팅하는 방법에 대한 자세한 내용은 [오퍼 타기팅](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E)을 참조하십시오.[!UICONTROL Automated Personalization]
+특정 대상에게 오퍼를 타깃팅하는 방법에 대한 자세한 내용은 [Target [!UICONTROL Automated Personalization] 오퍼](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E)를 참조하십시오.
 
 ## 주의 사항
 
@@ -72,12 +67,12 @@ ht-degree: 15%
 
 ## 보고 그룹에서 오퍼 보기
 
-1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 목록에서 원하는 [!UICONTROL Automated Personalization] 활동을 클릭한 다음 **[!UICONTROL Reports]** 탭을 클릭하여 [오퍼 수준](/help/main/c-reports/personalization-reports/reports-ap.md) 보고서를 표시합니다.
+1. **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 [!UICONTROL Automated Personalization] 활동을 클릭한 다음, **[!UICONTROL 보고서]** 탭을 클릭하여 [오퍼 수준](/help/main/c-reports/personalization-reports/reports-ap.md) 보고서를 표시합니다.
 
-   많은 활동이 있는 경우 [!UICONTROL Show Filters]&#x200B;(funnel) 아이콘을 클릭한 다음 [!UICONTROL Automated Personalization] 확인란을 선택하여 [!UICONTROL Automated Personalization]개의 활동만 표시하도록 목록을 필터링합니다.
+   활동이 많은 경우 [!UICONTROL 필터 표시]&#x200B;(funnel) 아이콘을 클릭한 다음 [!UICONTROL Automated Personalization] 확인란을 선택하여 [!UICONTROL Automated Personalization] 활동만 표시하도록 목록을 필터링합니다.
 
-1. 테이블의 **[!UICONTROL Control]** 또는 **[!UICONTROL Targeted]**&#x200B;을(를) 클릭하여 그룹화되지 않은 오퍼 및 오퍼를 보고 그룹 내에 표시합니다.
+1. 테이블의 **[!UICONTROL 제어]** 또는 **[!UICONTROL 타깃팅]**&#x200B;을 클릭하여 보고 그룹 내에 그룹화되지 않은 오퍼 및 오퍼를 표시합니다.
 
    ![오퍼 그룹: 제어 및 타깃팅](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
-[!UICONTROL Automated Personalization]개 보고서([!UICONTROL Offer Level] 보고서 포함) 사용에 대한 자세한 내용은 [Automated Personalization 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md)를 참조하십시오.
+[!UICONTROL Automated Personalization] 보고서([!UICONTROL 오퍼 수준] 보고서 포함) 사용에 대한 자세한 내용은 [Automated Personalization 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md)를 참조하십시오.

@@ -5,27 +5,22 @@ title: 페이지를 다른 URL로 리디렉션할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 TQID: https://experienceleague.adobe.com/8Bh5z7SRWw3QqKQMHZck01GKVBtMufwLbw9JxLsSACU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 67%
+source-wordcount: 485
+ht-degree: 80%
 
 ---
 
 # URL로 리디렉션
 
-방문자를 동일한 페이지에 콘텐츠를 표시하지 않고 다른 페이지로 보내려면 [!DNL Adobe Target]에서 [!UICONTROL Redirect to URL] 옵션을 사용하십시오.
+방문자를 동일한 페이지에 콘텐츠를 표시하지 않고 다른 페이지로 보내려면 [!DNL Adobe Target]에서 [!UICONTROL URL로 리디렉션] 옵션을 사용하십시오.
 
-한 페이지 내의 컨텐츠 일부만 변경하는 대신, 완전히 다른 두 페이지를 테스트할 수 있습니다. 이 경우 A/B 테스트는 페이지 A와 페이지 B를 비교합니다. 하나는 기본 페이지 A를 가리키고 다른 하나는 페이지 B로 리디렉션되는 두 가지 경험이 있는 A/B 테스트 캠페인을 설정합니다. 경험에 대한 문자 레이블을 클릭하여 표시되는 경험 작업 메뉴에서 **[!UICONTROL Redirect to URL]**&#x200B;을(를) 선택하고 페이지 B의 URL을 지정하십시오. 오퍼가 방문자를 다른 페이지로 리디렉션하도록 구성되었습니다.
+한 페이지 내의 컨텐츠 일부만 변경하는 대신, 완전히 다른 두 페이지를 테스트할 수 있습니다. 이 경우 A/B 테스트는 페이지 A와 페이지 B를 비교합니다. 하나는 기본 페이지 A를 가리키고 다른 페이지 B로 리디렉션되는 두 개의 경험이 있는 A/B 테스트 캠페인을 설정합니다. 경험에 대한 문자 레이블을 클릭하면 표시되는 경험 작업 메뉴에서 **[!UICONTROL URL로 리디렉션]**&#x200B;을 선택하고 페이지 B의 URL을 지정합니다. 오퍼는 방문자를 다른 페이지로 리디렉션하도록 구성됩니다.
 
 리디렉션 오퍼는 JavaScript 코드를 실행하여 브라우저를 리디렉션합니다. `window.location.replace();`메서드를 사용하므로 방문자를 리디렉션하는 페이지는 브라우저 기록에 저장되지 않습니다. 방문자는 여전히 브라우저에서 뒤로 단추를 사용할 수 있습니다.
 
@@ -41,8 +36,8 @@ ht-degree: 67%
 리디렉션 오퍼를 만들려면:
 
 1. 경험을 만듭니다.
-1. [!UICONTROL Experiences] 프레임에서 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg))을 클릭하여 원하는 경험을 만듭니다.
-1. **[!UICONTROL Redirect to URL]** 아이콘을 클릭합니다.
+1. [!UICONTROL 경험] 프레임에서 원하는 경험에 대한 **[!UICONTROL 추가 작업]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg))을 클릭합니다.
+1. **[!UICONTROL URL로 리디렉션]**&#x200B;을 클릭합니다.
 1. URL로 리디렉션 대화 상자에서 URL을 입력합니다.
 1. 원할 경우 현재 쿼리 매개 변수를 포함하는 옵션을 선택합니다.
 

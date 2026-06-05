@@ -5,14 +5,12 @@ title: Recommendations에서 다중 값 속성을 사용할 수 있습니까?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 TQID: https://experienceleague.adobe.com/FrjVxvYfGh2o-qomXRbVh6WS6f65Mja41gBMhejEPlE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 9%
+source-wordcount: 470
+ht-degree: 8%
 
 ---
 
@@ -68,8 +66,8 @@ function targetPageParams() {
 
 다음 연산자는 다중 값 엔티티, 프로필 및 mbox 속성과 함께 사용할 수 있습니다.
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL 이(가) 목록에 포함되어 있음]
+* [!UICONTROL 이(가) 목록에 포함되어 있지 않습니다]
 
 ## 포함 규칙에서 다중 값 속성 작업
 
