@@ -6,11 +6,23 @@ feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 TQID: https://experienceleague.adobe.com/E1ck4-aG4txqaFLs3t3-8bN-BQIoY8stRASTRJfhZMY
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-subfeature_v2: id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129id: c011fe9c-b94b-4a88-93d8-f2acece55112id: fc9c2184-9102-403f-bd6c-0055021e4bea
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2:
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 721
@@ -104,7 +116,7 @@ iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] 및 [!UICONTROL Multivariate Testing] 활동에서는 활동별 설정을 재정의할 수 없습니다.  선택기에 대한 추가 정보는 ](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)시각적 경험 작성기에서 사용되는 요소 선택기[를 참조하십시오.
+>[!UICONTROL Automated Personalization] 및 [!UICONTROL Multivariate Testing] 활동에서는 활동별 설정을 재정의할 수 없습니다.  선택기에 대한 추가 정보는 [&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)시각적 경험 작성기에서 사용되는 요소 선택기를 참조하십시오.
 
 ## 교육 비디오: 계정 환경 설정(7:33) ![개요 배지](/help/main/assets/overview.png)
 

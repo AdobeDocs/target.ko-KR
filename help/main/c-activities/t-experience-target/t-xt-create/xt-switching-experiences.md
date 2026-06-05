@@ -1,13 +1,16 @@
 ---
 keywords: 우선순위;경험 작성;우선순위;경험;대상자;경험;경험 전환;시각적 경험 작성기
-description: 프로필이 발전함에 따라 방문자가  [!DNL Adobe Target] [!UICONTROL 경험 타깃팅](XT) 활동에서 경험 간을 전환하는 방법에 대해 알아봅니다.
+description: 프로필이 발전함에 따라 방문자가  [!DNL Adobe Target] [!UICONTROL 경험 타깃팅] (XT) 활동에서 경험 간을 전환하는 방법에 대해 알아봅니다.
 title: 방문자가 [!UICONTROL 경험 타깃팅] 활동에서 경험을 전환할 수 있습니까?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 TQID: https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 741

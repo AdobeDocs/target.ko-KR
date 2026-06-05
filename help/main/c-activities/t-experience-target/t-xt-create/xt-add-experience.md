@@ -1,13 +1,16 @@
 ---
 keywords: 경험 만들기;경험 생성;우선순위;대상자;경험;시각적 경험 작성기
-description: '[!UICONTROL 경험 타깃팅]​(XT) 활동에서 VEC(시각적 경험 작성기)를 사용하여 페이지에서 경험을 만들고 편집하는 방법에 대해 알아봅니다. [!DNL Adobe Target] [!UICONTROL ]'
+description: '[!UICONTROL 경험 타깃팅]​(XT) 활동에서 VEC(시각적 경험 작성기)를 사용하여 페이지에서 경험을 만들고 편집하는 방법에 대해 알아봅니다. [!DNL Adobe Target] '
 title: '[!UICONTROL 경험 타깃팅] 활동에서 경험을 만들려면 어떻게 해야 합니까?'
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 TQID: https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 975

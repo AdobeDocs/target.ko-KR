@@ -5,9 +5,18 @@ title: 성공 지표란 무엇입니까?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1502
@@ -38,7 +47,7 @@ ht-degree: 21%
 | 성공 지표 | 측정 방법 | 정의 |
 |--- |--- |--- |
 | [!UICONTROL 전환] | 전환 기반 | 전환은 방문자가 사용자가 정의한 사이트에서 작업을 수행할 때입니다. 예를 들면 다음과 같습니다 <ul><li>페이지 확인함</li><li>mbox 확인함</li><li>요소를 클릭함</li></ul>전환은 방문자당 한 번 또는 방문자가 전환을 완료할 때마다 계산됩니다. |
-| [!UICONTROL 매출 ] | 전환 기반 | 방문에서 생성된 수익입니다. 매출 지표를 하나만 선택할 수 있습니다.<ul><li>mbox 확인함</li></ul>매출 성공 지표와 관련된 업데이트된 [!DNL Target] UI의 변경 사항에 대한 자세한 내용은 아래의 [업데이트됨 [!DNL Target] UI 변경 사항](#changes)을 참조하십시오. |
+| [!UICONTROL 매출 &#x200B;] | 전환 기반 | 방문에서 생성된 수익입니다. 매출 지표를 하나만 선택할 수 있습니다.<ul><li>mbox 확인함</li></ul>매출 성공 지표와 관련된 업데이트된 [!DNL Target] UI의 변경 사항에 대한 자세한 내용은 아래의 [업데이트됨 [!DNL Target] UI 변경 사항](#changes)을 참조하십시오. |
 | [!UICONTROL 참여] | 참여 기반 | 방문에서 생성된 참여. 다음 참여 지표 중에서 선택할 수 있습니다.<UL><li>페이지 보기 수: 각각의 고유한 방문은 전환으로 계산됩니다.</li><li>[!UICONTROL 사용자 지정 점수]: 방문자가 활동의 첫 번째 디스플레이 [!DNL Target] 요청을 처음 본 시점부터 시작하여 사이트에서 방문한 페이지에 할당된 값에 따라 집계된 점수입니다.</li>[!DNL Time on Site]: 방문자가 활동의 첫 번째 디스플레이 [!DNL Target] 요청을 본 시점부터 세션의 요청이 있는 최종 페이지 로드까지 방문에서 보낸 시간(초)입니다.</UL> |
 
 참여 기반 지표(전환 기반 및 매출 기반 지표와 달리)의 경우 방문자는 각 방문에서 활동 자격을 다시 부여하여 해당 세션에 대한 카운트를 늘려야 합니다. 연관된 지표는 적격 재확인 이후 증가하기 시작하고, 각 방문자의 세션 종료 시 중지됩니다. 세션은 활동이 없는 경우 30분 후에 종료됩니다. 따라서 테스트 중에는 결과가 즉시 표시되지 않지만 해당 세션의 모든 결과는 세션이 종료된 후 몇 분 내에 사용할 수 있습니다.

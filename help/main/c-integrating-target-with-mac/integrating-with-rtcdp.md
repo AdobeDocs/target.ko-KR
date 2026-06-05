@@ -5,10 +5,21 @@ title: ' [!DNL Target] 을  [!DNL Real-Time Customer Data Platform]과 통합하
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 TQID: https://experienceleague.adobe.com/0Zw98ulFxHFH-PdV8tmocpOXYCKR2ciKtqFKwD44iiM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 1173
@@ -115,7 +126,7 @@ AEP/통합 프로필 속성을 [!DNL Target]과 공유하기 위한 JSON 오퍼�
 * *대상 개요* 안내서의 [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
 * *대상 개요* 안내서의 [특성 매핑](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ko#map-attributes){target=_blank}.
 * *대상 개요* 안내서의 [Edge 개인화 대상에 대해 대상을 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank}.
-* *대상 개요* 안내서의 &quot;자주 묻는 질문&quot;에서  [!DNL Adobe Target] 및 사용자 지정 Personalization 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank}을(를) 통한 [같은 페이지 및 다음 페이지 개인화
+* *대상 개요* 안내서의 &quot;자주 묻는 질문&quot;에서  [!DNL Adobe Target] 및 사용자 지정 Personalization 대상[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank}을(를) 통한 같은 페이지 및 다음 페이지 개인화
 
 ## 비디오 및 블로그 게시물 {#videos-blogs}
 

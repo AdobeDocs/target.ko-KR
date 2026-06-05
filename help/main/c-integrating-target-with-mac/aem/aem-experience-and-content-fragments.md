@@ -5,9 +5,17 @@ title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 경험 조각] 및 [!
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 TQID: https://experienceleague.adobe.com/OlgveSjoE0rh1orFsbEZVCSbjd3TKEk8fdBbbXtLxhA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e6ff21d3-dec6-4298-8590-7c749fffaf78id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 407
@@ -51,4 +59,4 @@ ht-degree: 40%
 
 [!DNL Adobe Experience Manager] [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]은(는) 표면적으로는 비슷해 보일 수 있지만 각 조각 유형은 다른 사용 사례에서 주요 역할을 합니다.
 
-[!UICONTROL 경험 조각]과(와) [!UICONTROL 콘텐츠 조각]의 유사성, 차이성, 사용 시기 및 방법에 대한 자세한 내용은 [AEM Sites 비디오 및 자습서 안내서](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}의 [콘텐츠 조각 이해] 및 [!UICONTROL 경험 조각]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}을(를) 참조하십시오.[!UICONTROL 
+[!UICONTROL 경험 조각]과(와) [!UICONTROL 콘텐츠 조각]의 유사성, 차이성, 사용 시기 및 방법에 대한 자세한 내용은 [AEM Sites 비디오 및 자습서 안내서](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}의 [콘텐츠 조각 이해] 및 [[!UICONTROL 경험 조각]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}을(를) 참조하십시오.

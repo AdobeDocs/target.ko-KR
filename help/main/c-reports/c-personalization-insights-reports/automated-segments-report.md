@@ -6,9 +6,19 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2207
@@ -142,7 +152,7 @@ Personalization Insights 보고([!UICONTROL 자동화된 세그먼트] 및 [!UIC
 
 **[!UICONTROL Personalization 인사이트]를 만드는 방법은 무엇입니까?**
 
-[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. ] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
+[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. &#x200B;] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
 
 **[!UICONTROL 자동화된 세그먼트] 보고서의 총 방문자 트래픽 데이터가 AP 또는 AT 요약/성과 보고서와 일치하지 않는 이유는 무엇입니까?**
 

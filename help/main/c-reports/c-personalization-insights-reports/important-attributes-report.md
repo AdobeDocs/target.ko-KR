@@ -6,9 +6,20 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 TQID: https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1937
@@ -114,7 +125,7 @@ ht-degree: 61%
 
 ### [!UICONTROL Personalization Insights]는 어떻게 만들어집니까?
 
-[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. ] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
+[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. &#x200B;] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
 
 ### 수익 기반 모델링 목표/기본 목표에 [!UICONTROL Personalization Insights]를 사용할 수 있습니까?
 

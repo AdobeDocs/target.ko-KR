@@ -5,9 +5,13 @@ title: A/B 활동에서 목표 지표를 설정하려면 어떻게 합니까?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 TQID: https://experienceleague.adobe.com/WE27AidwrwYLn-ZlnpxKNfOG2jT07iPYztdrovRl0Qk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 305
@@ -26,7 +30,7 @@ ht-degree: 55%
    [!UICONTROL 지표 선택] 옵션은 활동에 대해 선택할 수 있는 성공 지표를 나열합니다. 성공 지표는 다음 카테고리로 구분됩니다.
 
    * [!UICONTROL 전환]
-   * [!UICONTROL 매출 ]
+   * [!UICONTROL 매출 &#x200B;]
    * [!UICONTROL 참여]
 
    사전 빌드된 지표 중 하나를 사용하거나 사용자 지정 성공 지표를 만들 수 있습니다. 성공 지표를 기본 지표로 표시할 수도 있습니다. 기본 측정 항목(설정된 경우)을 표시하려면 Experience Cloud 카드 기본값을 보고합니다.

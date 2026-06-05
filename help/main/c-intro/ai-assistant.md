@@ -5,10 +5,20 @@ title: ' [!DNL AI Assistant] in [!DNL Target]을(를) 사용하는 방법'
 feature: Overview
 exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
 TQID: https://experienceleague.adobe.com/booNLyfhofLtyVawW4f5jGtYkgzGr1ddJYn9DpEhUgM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 328
@@ -49,7 +59,7 @@ ht-degree: 2%
 | --- | --- |
 | [[!DNL AI Assistant] in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target=_blank} | [!DNL AI Assistant] 기능에 대해 알아봅니다. 방법 비디오가 포함되어 있습니다. |
 | [액세스 [!DNL AI Assistant] 위치 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} | 조직 및 해당 사용자의 [!DNL AI Assistant]에 액세스하는 방법을 알아봅니다. |
-|  [!DNL AI Assistant]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions){target=_blank}에 대한 [질문 안내서 | [!DNL AI Assistant]을(를) 쿼리할 때 사용할 수 있는 예제 질문을 봅니다. |
+|  [!DNL AI Assistant][&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions){target=_blank}에 대한 질문 안내서 | [!DNL AI Assistant]을(를) 쿼리할 때 사용할 수 있는 예제 질문을 봅니다. |
 | [[!DNL AI Assistant] UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | [!DNL Adobe Experience Platform] UI에서 [!DNL AI Assistant]을(를) 사용하는 방법을 알아봅니다. |
 |  [!DNL AI Assistant]의 [개인 정보, 보안 및 거버넌스](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy){target=_blank} | [!DNL Adobe Experience Platform]의 [!DNL AI Assistant]이(가) 개인 정보, 보안 및 거버넌스를 전면에 내세워 어떻게 만들어졌는지 알아봅니다. [!DNL AI Assistant]에서 기대할 수 있는 고객 신뢰 중심 기능에 대해 알아봅니다. |
 | [FAQ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/faq){target=_blank} | [!DNL AI Assistant]에 대해 자주 묻는 질문에 대한 답변을 읽어 보십시오. |

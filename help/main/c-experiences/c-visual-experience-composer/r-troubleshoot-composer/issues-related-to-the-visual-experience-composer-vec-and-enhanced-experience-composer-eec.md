@@ -1,14 +1,22 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;허용 목록;허용 목록에 추가하다;허용 목록;고급 시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;eec;고급 경험 작성기;tls;tls 1.2
-description: 특정 조건에서  [!DNL Target] [!UICONTROL 시각적 경험 작성기](VEC) 및 [!UICONTROL 고급 경험 작성기]​(EEC)에서 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
+description: 특정 조건에서  [!DNL Target] [!UICONTROL 시각적 경험 작성기] (VEC) 및 [!UICONTROL 고급 경험 작성기]​(EEC)에서 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
 title: '[!UICONTROL 시각적 경험 작성기] 및 [!UICONTROL 향상된 경험 작성기]와 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1271
