@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 32%
+source-wordcount: '771'
+ht-degree: 31%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 32%
 
 속성 주석 달기, 복사, 삭제, 다운로드, 편집, 공유 및 보기를 포함하여 [!DNL Adobe Target]의 콘텐츠 라이브러리에 있는 자산에 대해 수행할 수 있는 작업에 대한 정보입니다.
 
-1. **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** 또는 **[!UICONTROL Image Offers]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 오퍼]** > **[!UICONTROL 코드 오퍼]** 또는 **[!UICONTROL 이미지 오퍼]**&#x200B;를 클릭합니다.
 
    ![코드 오퍼 및 이미지 오퍼 탭](/help/main/c-experiences/c-manage-content/assets/offers-both.png)
 
    오퍼 라이브러리를 검색하고 스마트 컬렉션을 만드는 방법에 대한 자세한 내용은 [컨텐츠 필터링 및 검색](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)을 참조하십시오.
 
-1. (선택 사항) [!UICONTROL Card View]과(와) [!UICONTROL List View] 사이를 전환하고 콘텐츠 라이브러리의 오른쪽 위 모서리에 있는 [!UICONTROL Card View] 아이콘 또는 [!UICONTROL List View] 아이콘을 클릭합니다. [!UICONTROL View Settings]을(를) 볼 때 [!UICONTROL List View]을(를) 사용하여 열을 추가로 구성할 수도 있습니다.
+1. (선택 사항) [!UICONTROL 카드 보기]와(과) [!UICONTROL 목록 보기] 사이를 전환하고, 콘텐츠 라이브러리의 오른쪽 맨 위 모서리에 있는 [!UICONTROL 카드 보기] 아이콘 또는 [!UICONTROL 목록 보기] 아이콘을 클릭합니다. [!UICONTROL 목록 보기]를 볼 때 [!UICONTROL 보기 설정]을 사용하여 열을 추가로 구성할 수도 있습니다.
 
-   다음 그림은 [!UICONTROL List View]을(를) 볼 때 사용할 수 있는 옵션을 보여 줍니다.
+   다음 그림은 [!UICONTROL 목록 보기]를 볼 때 사용할 수 있는 옵션을 보여 줍니다.
 
    ![목록 보기 옵션](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
@@ -31,25 +31,25 @@ ht-degree: 32%
 
 ## 코드 오퍼 선택 사항
 
-[!UICONTROL Code Offers] 페이지를 볼 때 오퍼 또는 폴더로 마우스를 가져간 후 해당 아이콘을 선택하여 항목에 대해 다음 작업을 수행할 수 있습니다.
+[!UICONTROL 코드 오퍼] 페이지를 볼 때 오퍼 또는 폴더로 마우스를 가져간 후 해당 아이콘을 선택하여 항목에 대해 다음 작업을 수행할 수 있습니다.
 
 ![코드 오퍼 탭에서 아이콘 가리키기](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **정보**: 오퍼 정보를 봅니다.
 * **편집**: 폴더 또는 오퍼를 편집합니다.
 * **복사**: 오퍼를 복사합니다. 오퍼를 복사한 다음 편집하면 유사한 새 오퍼를 쉽게 만들 수 있습니다.
-* **이동**: 이동 아이콘을 클릭하고 오퍼 또는 폴더를 이동할 위치로 이동한 다음 **[!UICONTROL Drop]** 아이콘을 클릭합니다. 예를 들어 하나 이상의 폴더를 다른 폴더로 이동하여 하위 폴더를 만들 수 있습니다. 선택한 오퍼 또는 폴더를 선택 취소하려면 [!UICONTROL Clear Selection]을(를) 클릭하십시오.
+* **이동**: 이동 아이콘을 클릭하고 오퍼 또는 폴더를 이동할 위치로 이동한 다음 **[!UICONTROL 삭제]** 아이콘을 클릭합니다. 예를 들어 하나 이상의 폴더를 다른 폴더로 이동하여 하위 폴더를 만들 수 있습니다. 선택한 오퍼나 폴더를 선택 취소하려면 [!UICONTROL 선택 지우기]를 클릭하십시오.
 * **삭제**: 오퍼 또는 폴더를 삭제합니다. [항목 삭제 시 고려 사항](#delete)을 참조하세요.
 
 ## 이미지 오퍼 선택 사항
 
-[!UICONTROL Image Offers] 페이지를 볼 때 오퍼 또는 폴더로 마우스를 가져간 후 해당 아이콘을 선택하여 항목에 대해 다음 작업을 수행할 수 있습니다.
+[!UICONTROL 이미지 오퍼] 페이지를 볼 때 오퍼 또는 폴더로 마우스를 가져간 후 해당 아이콘을 선택하여 항목에 대해 다음 작업을 수행할 수 있습니다.
 
-다음 그림에서는 [!UICONTROL Card View]을(를) 볼 때 마우스로 가리킨 아이콘을 보여 줍니다.
+다음 그림에서는 [!UICONTROL 카드 보기]를 볼 때 마우스로 가리킨 아이콘을 보여 줍니다.
 
 ![카드 보기에서 이미지 오퍼 탭에 있는 아이콘 가리키기](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-다음 그림에서는 [!UICONTROL List View]을(를) 볼 때 마우스로 가리킨 아이콘을 보여 줍니다. 아이콘을 표시하려면 목록에서 항목을 클릭합니다.
+다음 그림에서는 [!UICONTROL 목록 보기]를 볼 때 가리키기 아이콘을 보여 줍니다. 아이콘을 표시하려면 목록에서 항목을 클릭합니다.
 
 ![목록 보기에 있는 경우 이미지 오퍼 탭에서 아이콘 가리키기](/help/main/c-experiences/c-manage-content/assets/list-view-hover.png)
 
@@ -70,8 +70,8 @@ ht-degree: 32%
    * 이동
 
 * **다운로드**: 이미지 오퍼 또는 폴더와 해당 콘텐츠를 다운로드합니다.
-* **속성 보기**: 항목의 속성을 봅니다. 사용 가능한 모든 정보를 보려면 [!UICONTROL Basic] 탭과 [!UICONTROL Advanced] 탭을 클릭하십시오. 속성 페이지에서 연필 모양 아이콘을 클릭하여 속성을 편집하고 추가 정보를 추가합니다. 메타데이터 정보, 게시 상태 및 라이센스 데이터를 추가할 수 있습니다.
-* **추가 작업**: [!UICONTROL Card View]에 추가 옵션을 표시합니다.
+* **속성 보기**: 항목의 속성을 봅니다. 사용 가능한 모든 정보를 보려면 [!UICONTROL 기본] 탭과 [!UICONTROL 고급] 탭을 클릭하십시오. 속성 페이지에서 연필 모양 아이콘을 클릭하여 속성을 편집하고 추가 정보를 추가합니다. 메타데이터 정보, 게시 상태 및 라이센스 데이터를 추가할 수 있습니다.
+* **추가 작업**: [!UICONTROL 카드 보기]에서 추가 옵션을 표시합니다.
 * **편집**: 폴더 또는 오퍼를 편집합니다.
 * **주석**: 자산에 메모를 추가합니다. 자산을 클릭하고 주석을 추가할 영역을 선택한 후 참고를 입력합니다.
 * **복사**: 오퍼를 복사합니다. 오퍼를 복사한 다음 편집하면 유사한 새 오퍼를 쉽게 만들 수 있습니다.

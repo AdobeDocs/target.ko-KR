@@ -13,7 +13,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 215
+source-wordcount: 234
 ht-degree: 0%
 
 ---
@@ -28,16 +28,16 @@ ht-degree: 0%
 
 자세한 내용은 *[!DNL Experience Platform]* 설명서의 [액세스 [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/access){target=_blank}를 참조하십시오.
 
-## [!UICONTROL AI Assistant]에 대한 사용자 권한 사용
+## [!UICONTROL AI Assistant]에 대한 사용자 권한 활성화
 
-[!UICONTROL Target]에서 [!UICONTROL AI Assistant] 기능을 사용하려면 개별 사용자 권한을 명시적으로 사용하도록 설정해야 합니다.
+[!UICONTROL Target]에서 [!UICONTROL AI Assistant] 기능을 사용하려면 개별 사용자 권한을 명시적으로 활성화해야 합니다.
 
 {{permissions-update}}
 
-1. [!DNL Target]의 **[!UICONTROL Administration]** 탭으로 이동합니다.
-1. 왼쪽 메뉴에서 **[!UICONTROL Users]**&#x200B;을(를) 선택합니다.
+1. [!DNL Target]의 **[!UICONTROL 관리]** 탭으로 이동합니다.
+1. 왼쪽 메뉴에서 **[!UICONTROL 사용자]**&#x200B;를 선택합니다.
 1. 목록에서 관리할 사용자를 찾거나 검색 창을 사용하여 찾습니다.
-1. [!UICONTROL Target AI Assistant]에 대한 액세스 권한을 부여할 사용자의 **[!UICONTROL AI Permissions]** 열 위로 마우스를 가져갑니다.
+1. [!UICONTROL Target AI Assistant]에 대한 액세스 권한을 부여하려는 사람의 **[!UICONTROL AI 권한]** 열 위로 마우스를 가져갑니다.
 
    권한 팝업이 표시됩니다.
 

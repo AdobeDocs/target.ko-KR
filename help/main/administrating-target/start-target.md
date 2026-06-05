@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 32%
+source-wordcount: 473
+ht-degree: 30%
 
 ---
 
@@ -35,22 +35,22 @@ ht-degree: 32%
 
 ## 초대 수락 {#task_24FE66659E634B24AB61DB8497772E17}
 
-[!DNL Adobe Experience Cloud]에 가입하라는 초대를 받으면 초대를 수락하고 로그인한 다음 [!UICONTROL End User License Agreement]&#x200B;(EULA)에 동의하십시오.
+[!DNL Adobe Experience Cloud]에 가입하라는 초대를 받은 후 초대를 수락하고 로그인하여 [!UICONTROL 최종 사용자 사용권 계약]&#x200B;(EULA)에 동의하십시오.
 
 1. [!DNL Adobe Experience Cloud] 에 대한 초대를 수락합니다.
 1. Adobe ID가 없는 경우 ID를 만들라는 메시지가 표시됩니다.
 
    Adobe ID이 있는 경우 Adobe ID이 인식되면 로그인하라는 메시지가 표시됩니다.
-1. [!UICONTROL Terms of Use]을(를) 수락합니다.
-1. 지금까지 수행한 작업에 대한 요약을 검토하고 **[!UICONTROL Continue to Experience Cloud]**&#x200B;을(를) 클릭합니다.
-1. [!DNL Adobe Experience Cloud]에 로그인하고 **[!UICONTROL Link Account]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL 사용 약관]에 동의하십시오.
+1. 지금까지 수행한 작업에 대한 요약을 검토한 다음 **[!UICONTROL Experience Cloud로 계속]**&#x200B;을 클릭합니다.
+1. [!DNL Adobe Experience Cloud]에 로그인하고 **[!UICONTROL 계정 연결]**&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >
    >계정을 연결하지 않으면 [!DNL Target]에 액세스할 수 없습니다.
 
    모든 [!UICONTROL Experience Cloud] 제품이 연결 페이지에 표시됩니다. `Link Target`을(를) 클릭하고 [!DNL Target] 사용자 이름과 암호를 입력하여 [!DNL Target]에 액세스합니다.
-1. **[!UICONTROL Continue to Experience Cloud]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Experience Cloud로 계속]**&#x200B;을 클릭합니다.
 
    이 시점에서는 연결할 자격이 있는 그룹이 아직 설정되어 있지 않습니다.
 1. 원할 경우 [!DNL Adobe Experience Cloud]를 소개하는 비디오를 시청하십시오.
@@ -59,7 +59,7 @@ ht-degree: 32%
 
 ## 자기 자신에게 승인자 역할 지정 {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-[!DNL Adobe Experience Cloud] 가입 초대를 수락하고 로그인한 후 [!DNL Target]이(가) [!DNL Experience Cloud] 계정에 추가되었는지 확인한 다음, [!DNL Target]에 대한 [!UICONTROL Approver] 역할을 자신에게 할당하십시오.
+[!DNL Adobe Experience Cloud] 가입 초대를 수락하고 로그인한 후 [!DNL Target]이(가) [!DNL Experience Cloud] 계정에 추가되었는지 확인한 다음, [!DNL Target]에 대한 [!UICONTROL 승인자] 역할을 자신에게 할당하십시오.
 
 조직에 [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 라이센스가 있는 경우 *사용자*&#x200B;의 [역할 및 권한 지정](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)을 참조하십시오.
 
@@ -67,10 +67,10 @@ ht-degree: 32%
 
 다음 단계는 [!DNL Target Standard] 및 [!DNL Target Premium]에서 사용자를 설정하는 것입니다. 자세한 내용은 [사용자 관리](/help/main/administrating-target/c-user-management/user-management.md)를 참조하십시오.
 
-## [!UICONTROL Administration] 설정을 편집하는 데 필요한 권한 {#admin-permissions}
+## [!UICONTROL 관리] 설정을 편집하는 데 필요한 권한 {#admin-permissions}
 
-**2025년 4월 22일 이전**: [!DNL Adobe Admin Console]에 [!UICONTROL Approvers] 권한이 있는 사용자는 [!DNL Target] 역할에 관계없이 [!DNL Target]의 [[!UICONTROL Administration] 페이지](/help/main/administrating-target/administrating-target.md) 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다.
+**2025년 4월 22일 이전**: [!DNL Adobe Admin Console]에 [!UICONTROL 승인자] 권한이 있는 사용자는 [!DNL Target] 역할에 관계없이 [!DNL Target]의 [[!UICONTROL 관리] 페이지](/help/main/administrating-target/administrating-target.md) 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다.
 
-**2025년 4월 22일**: [!UICONTROL Product] 및 [!UICONTROL Solutions] 관리자만 [!DNL Target] 작업 영역의 역할에 관계없이 [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) 섹션의 설정을 업데이트할 수 있습니다. 이 권한이 없는 사용자는 [!UICONTROL Administration] 섹션에 대한 읽기 전용 액세스 권한을 갖게 됩니다.
+**2025년 4월 22일**: [!UICONTROL 제품] 및 [!UICONTROL 솔루션] 관리자만 [!DNL Target] 작업 영역의 역할에 관계없이 [[!UICONTROL 관리]](/help/main/administrating-target/administrating-target.md) 섹션의 설정을 업데이트할 수 있습니다. 이 권한이 없는 사용자는 [!UICONTROL 관리] 섹션에 대한 읽기 전용 액세스 권한을 갖게 됩니다.
 
 이 업데이트는 [!DNL Target] 인스턴스 구성에 대한 조직의 제어를 강화하여 다양한 테스트 및 개인화 팀의 활동 전달에 영향을 줄 수 있는 우발적인 업데이트를 방지합니다.

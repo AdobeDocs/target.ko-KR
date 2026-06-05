@@ -1,5 +1,5 @@
 ---
-keywords: analytics 추적 서버;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;보고 소스;개발자 도구
+keywords: analytics 추적 서버;A4T;Adobe Experience Cloud Debugger;Adobe Experience Platform debugger;보고 소스;개발자 도구
 description: 이전 버전의 at.js를 사용하는 경우 Analytics for [!DNL Target] (A4T)을(를) 사용하는 활동에 대한 Analytics 추적 서버를 지정하는 방법을 알아봅니다.
 title: Analytics 추적 서버를 사용하려면 어떻게 합니까?
 feature: Analytics for Target (A4T)
@@ -17,8 +17,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 15%
+source-wordcount: 708
+ht-degree: 17%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->at.js 버전 0.9.1 이상을 사용 중이면 활동 생성 도중 추적 서버를 지정하지 않아도 됩니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 만드는 동안 [!UICONTROL Goals & Settings] 페이지의 [!UICONTROL Tracking Server] 필드를 비워 둘 수 있습니다.
+>at.js 버전 0.9.1 이상을 사용 중이면 활동 생성 도중 추적 서버를 지정하지 않아도 됩니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 작성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
 >
 >[!DNL Target] 팀은 at.js 1.*x*&#x200B;와(과) at.js 2.*x*&#x200B;를 모두 지원합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전 중 가장 최근의 업데이트로 업그레이드하십시오. 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오.
 
@@ -42,11 +42,11 @@ ht-degree: 15%
 
    디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 개요](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=ko)를 참조하십시오.
 
-1. 왼쪽 탐색 메뉴에서 **[!UICONTROL Analytics]**&#x200B;을(를) 클릭합니다.
+1. 왼쪽 탐색 메뉴에서 **[!UICONTROL 분석]**&#x200B;을 클릭합니다.
 
    ![Screen_DebuggerTrackServ 이미지](assets/Screen_DebuggerTrackServ.png)
 
-   디버거의 [!UICONTROL Hostname] 섹션에 [!DNL Analytics] 추적 서버가 있습니다.
+   디버거의 [!UICONTROL 호스트 이름] 섹션에 [!DNL Analytics] 추적 서버가 있습니다.
 
    * **퍼스트 파티 추적 서버**: 요청의 호스트 이름이 현재 있는 도메인과 일치하면 퍼스트 파티 추적 서버입니다. 예를 들어 `adobe.com`에 있는 경우 `adobe.com`은(는) 자사 추적 서버입니다.
    * **타사 추적 서버**: 타사 추적 서버는 일반적으로 `[company].sc.omtrdc.net`이며 여기서 회사는 회사 이름이지만 항상 `sc.omtrdc.net`로 끝납니다.
@@ -54,11 +54,11 @@ ht-degree: 15%
 
 1. 필드의 전체 컨텐츠를 복사합니다.
 
-1. 활동의 **[!UICONTROL Goal & Settings]** 화면에 있는 **[!UICONTROL Reporting Settings]** 섹션에서 **[!UICONTROL Tracking Server]** 필드에 추적 서버 정보를 붙여 넣습니다.
+1. 활동의 **[!UICONTROL 목표 및 설정]** 화면에 있는 **[!UICONTROL 보고 설정]** 섹션에서 **[!UICONTROL 추적 서버]** 필드에 추적 서버 정보를 붙여 넣으십시오.
 
    >[!NOTE]
    >
-   >[!UICONTROL Tracking Server] 필드를 사용하려면 활동에 대해 [!UICONTROL Analytics as the Reporting Source]을(를) 선택하십시오.
+   >[!UICONTROL 추적 서버] 필드를 사용하려면 활동에 대한 [!UICONTROL Analytics를 보고 Source]로 선택하십시오.
 
 ## 브라우저의 개발자 도구를 사용하여 [!DNL Analytics] 추적 서버 가져오기
 
@@ -68,7 +68,7 @@ ht-degree: 15%
 
    ![Chrome 개발자 도구](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. **[!UICONTROL Network]** 탭을 클릭합니다.
+1. **[!UICONTROL 네트워크]** 탭을 클릭합니다.
 
 1. `/ss,`을(를) 필터링하여 [!DNL Analytics] 요청을 표시합니다.
 
@@ -82,8 +82,8 @@ ht-degree: 15%
 
 1. 필드의 전체 컨텐츠를 복사합니다.
 
-1. 활동의 **[!UICONTROL Goal & Settings]** 화면에 있는 **[!UICONTROL Reporting Settings]** 섹션에서 **[!UICONTROL Tracking Server]** 필드에 추적 서버 정보를 붙여 넣습니다.
+1. 활동의 **[!UICONTROL 목표 및 설정]** 화면에 있는 **[!UICONTROL 보고 설정]** 섹션에서 **[!UICONTROL 추적 서버]** 필드에 추적 서버 정보를 붙여 넣으십시오.
 
    >[!NOTE]
    >
-   >[!UICONTROL Tracking Server] 필드를 사용하려면 활동에 대해 [!UICONTROL Analytics as the Reporting Source]을(를) 선택하십시오.
+   >[!UICONTROL 추적 서버] 필드를 사용하려면 활동에 대한 [!UICONTROL Analytics를 보고 Source]로 선택하십시오.

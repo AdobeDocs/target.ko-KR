@@ -1,7 +1,7 @@
 ---
 keywords: 카탈로그 검색;카탈로그;검색;제외;컬렉션;필터;권장 사항
-description: ' [!DNL Recommendations] [!UICONTROL Catalog Search]을(를) 사용하여 제품 또는 콘텐츠를 찾고 카탈로그에서 항목을 제거하는 방법에 대해 알아봅니다.'
-title: ' [!DNL Recommendations] [!UICONTROL Catalog Search]을(를) 사용하는 방법'
+description: ' [!DNL Recommendations] [!UICONTROL 카탈로그 검색]을 사용하여 제품 또는 콘텐츠를 찾고 카탈로그에서 항목을 제거하는 방법에 대해 알아봅니다.'
+title: ' [!DNL Recommendations] [!UICONTROL 카탈로그 검색]을 사용하려면 어떻게 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
@@ -13,28 +13,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 519
-ht-degree: 22%
+source-wordcount: 552
+ht-degree: 21%
 
 ---
 
-# [!UICONTROL Catalog Search]
+# [!UICONTROL 카탈로그 검색]
 
-[!DNL Adobe Recommendations]의 [!UICONTROL Catalog Search] 페이지는 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고 패싯을 필터링하고 테이블에서 열을 수정하고 새 검색 패싯을 추가하는 등의 작업을 수행할 수 있습니다.
+[!DNL Adobe Recommendations]의 [!UICONTROL 카탈로그 검색] 페이지는 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고 패싯을 필터링하고 테이블에서 열을 수정하고 새 검색 패싯을 추가하는 등의 작업을 수행할 수 있습니다.
 
 카탈로그는 전체 제품 세트(엔티티)를 나타냅니다. 카탈로그에는 제품을 논리 버킷으로 구성하는 여러 컬렉션이 포함될 수 있습니다.
 
-## [!UICONTROL Catalog Search] 액세스
+## [!UICONTROL 카탈로그 검색]에 액세스
 
-1. [!UICONTROL Catalog Search] 페이지에 액세스하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL 카탈로그 검색] 페이지에 액세스하려면 **[!UICONTROL 권장 사항]** > **[!UICONTROL 카탈로그 검색]**&#x200B;을 클릭하세요.
 
-1. (선택 사항) 필터를 검색에 적용하려면 **[!UICONTROL Show Filters]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭합니다. [!UICONTROL Environment], [!UICONTROL Collections], [!UICONTROL Category], [!UICONTROL Brand], [!UICONTROL Inventory] 및 [!UICONTROL Value] 기준으로 필터링할 수 있습니다.
+1. (선택 사항) 검색 필터를 적용하려면 **[!UICONTROL 필터 표시]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭하십시오. [!UICONTROL 환경], [!UICONTROL 컬렉션], [!UICONTROL 범주], [!UICONTROL 브랜드], [!UICONTROL 인벤토리] 및 [!UICONTROL 값]별로 필터링할 수 있습니다.
 
 ## 단순 검색 수행
 
-1. **[!UICONTROL Search In]** 필드에 검색어를 입력하십시오.
+1. **[!UICONTROL 검색 위치]** 필드에 검색어를 입력하십시오.
 
-1. (선택 사항) [!UICONTROL Search In] 필드의 아래쪽 화살표를 클릭하면 표시되는 옵션 메뉴에서 검색 옵션을 선택하여 검색을 개선할 수 있습니다.
+1. (선택 사항) [!UICONTROL 검색 위치] 필드의 아래쪽 화살표를 클릭하면 표시되는 옵션 메뉴에서 검색 옵션을 선택하여 검색을 개선할 수 있습니다.
 
    검색 옵션에는 다음이 포함됩니다.
 
@@ -84,7 +84,7 @@ ID, 이름, 메시지, 범주 등을 포함한 개별 항목의 세부 사항을
 
 1. 세부 정보를 보려면 검색 결과에서 항목을 클릭하십시오.
 
-1. **[!UICONTROL Remove from Catalog]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 카탈로그에서 제거]**&#x200B;를 클릭합니다.
 
 1. 항목을 제거할지 확인합니다.
 
@@ -118,7 +118,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 1. 필터 표시 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭합니다.
 
-1. **[!UICONTROL Environment]** 드롭다운 목록에서 원하는 환경을 선택합니다.
+1. **[!UICONTROL 환경]** 드롭다운 목록에서 원하는 환경을 선택합니다.
 
 <!--
 ## Modify the Catalog Search page (filters and columns)
@@ -142,9 +142,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 열 수정
 
-[!UICONTROL Catalog Search] 페이지에서 활성 열을 수정할 수 있습니다.
+[!UICONTROL 카탈로그 검색] 페이지에서 활성 열을 수정할 수 있습니다.
 
-1. **[!UICONTROL Customize Table]** 아이콘(![표 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg))을 클릭합니다.
+1. **[!UICONTROL 표 사용자 지정]** 아이콘( ![표 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg))을 클릭합니다.
 
 1. 표시하거나 숨길 열을 선택하거나 선택 취소합니다.
 

@@ -6,14 +6,14 @@ feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '608'
+ht-degree: 51%
 
 ---
 
 # A/B 테스트의 여러 경험 대상자
 
-[!DNL Adobe Target] A/B 활동에서 동일한 경험의 버전을 다른 대상자에게 타깃팅할 수 있습니다. [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 또는 양식 기반 경험 작성기에서 경험에 대한 여러 대상을 설정할 수 있습니다.
+[!DNL Adobe Target] A/B 활동에서 동일한 경험의 버전을 다른 대상자에게 타깃팅할 수 있습니다. [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 또는 양식 기반 경험 작성기에서 경험에 대한 여러 대상을 설정할 수 있습니다.
 
 방문자는 프로필이 변경될 때 경험 대상 간에 전환할 수 있습니다. 방문자는 활동 라이프타임 동안 동일한 경험에 머무르지 않습니다.
 
@@ -33,11 +33,11 @@ ht-degree: 53%
 
    여러 버전이 있는 경험을 구성할 때는 다음 단계에 표시된 것처럼 각 버전의 대상자를 선택합니다.
 
-1. 경험을 선택한 다음 **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**&#x200B;을(를) 클릭합니다.
+1. 경험을 선택한 다음 **[!UICONTROL 구성]** > **[!UICONTROL 대상]** > **[!UICONTROL 여러 대상]**&#x200B;을 클릭합니다.
 
    ![여러 대상자 선택 사항](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. **[!UICONTROL Add Audience]**&#x200B;을(를) 클릭한 다음 타깃팅할 첫 번째 대상을 선택합니다. 각 대상자에 대해 이 작업을 반복합니다.
+1. **[!UICONTROL 대상 추가]**&#x200B;를 클릭한 다음 타깃팅할 첫 번째 대상을 선택합니다. 각 대상자에 대해 이 작업을 반복합니다.
 
    ![exp-versions 이미지](assets/exp-versions.png)
 
@@ -51,4 +51,4 @@ ht-degree: 53%
 
 * 함께 수행할 수 없는 대상을 선택하십시오. 활동이 VEC에서 만들어진 경우, 방문자가 둘 이상의 대상과 일치하면 각 대상자에 대한 콘텐츠가 반환되고, 마지막에 나열된 대상자에 대한 콘텐츠가 페이지에서 표시됩니다.
 * 다이어그램에 정의된 활동 진입 대상은 AND 조건을 사용하여 경험 대상과 결합됩니다. 활동을 시작하려면 방문자가 활동 대상과 경험 대상 중 하나에 대해 적격이어야 합니다.
-* 보고서에 대해 세그먼트와 동일한 대상을 추가합니다. 이렇게 하면 &quot;browser lang ja_JP&quot;에 대한 경험 A와 B의 상위 수준 및 경험 A와 B의 하위 수준에서 테스트 결과를 볼 수 있습니다. 이 작업은 [!DNL Target] 기반 보고서가 아닌 [!DNL Analytics] 기반 보고서에만 적용됩니다.
+* 보고서에 대해 세그먼트와 동일한 대상을 추가합니다. 이렇게 하면 &quot;browser lang ja_JP&quot;에 대한 경험 A와 B의 상위 수준 및 경험 A와 B의 하위 수준에서 테스트 결과를 볼 수 있습니다. 이 작업은 [!DNL Analytics] 기반 보고서가 아닌 [!DNL Target] 기반 보고서에만 적용됩니다.

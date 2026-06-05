@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 131
-ht-degree: 35%
+source-wordcount: 138
+ht-degree: 41%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 35%
 
 특정 운영 체제를 사용하는 [!DNL Adobe Target]을(를) 사용하여 방문자를 타깃팅할 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** > **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
-1. **[!UICONTROL Operating System]**&#x200B;을(를) 대상 빌더 창으로 끌어서 놓습니다.
-1. **[!UICONTROL Select]**&#x200B;을(를) 클릭한 후 다음 옵션 중 하나를 선택합니다.
+1. **[!UICONTROL 운영 체제]**&#x200B;를 대상 빌더 창으로 끌어서 놓습니다.
+1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
    * Linux
    * Macintosh
    * Windows
 
 1. (선택 사항) 대상에 대한 추가 규칙을 설정합니다.
-1. **[!UICONTROL Done]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 완료를 클릭합니다]**.
 
 다음 그림은 Macintosh OS를 사용하는 방문자를 타깃팅하는 대상을 보여줍니다.
 

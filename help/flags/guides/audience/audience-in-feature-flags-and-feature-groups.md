@@ -5,7 +5,7 @@ hide: true
 exl-id: 4a8f7c3f-1ae5-4e65-a070-9fc33133eec0
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '96'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 컨텍스트 기반 타깃팅(예: 사용자의 활성 언어 또는 장치 유형별 타깃팅)에 대해서는 [대상 규칙에 컨텍스트 사용](using-context-in-audience-rules.md)을 참조하십시오.
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [대상 규칙에서 컨텍스트 사용](using-context-in-audience-rules.md)
 * [대상 기준에 백분율 규칙 추가](adding-percentage-rules.md)

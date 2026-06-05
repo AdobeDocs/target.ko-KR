@@ -14,8 +14,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 27%
+source-wordcount: 336
+ht-degree: 25%
 
 ---
 
@@ -23,26 +23,26 @@ ht-degree: 27%
 
 이 주제에서는 분류와 [!DNL Analytics]을(를) [!DNL Target]&#x200B;(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 
-## [!UICONTROL Classifications Importer]을(를) 사용하여 분류를 다운로드한 후 post-tnt-action 값을 활동 이름과 일치시키는 방법은 무엇입니까? {#section_6045DAC488B248418F430E663C38D001}
+## [!UICONTROL 분류 가져오기]를 사용하여 분류를 다운로드한 후 post-tnt-action 값을 활동 이름과 일치시키는 방법은 무엇입니까? {#section_6045DAC488B248418F430E663C38D001}
 
 +++답변
 관리 도구 [분류 가져오기](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=ko)에서 A4T/TNT 문자열에 대한 분류를 다운로드할 수 있습니다. 변수는 내보내기 목록에서 &quot;TNT&quot;라고 합니다. 다운로드한 데이터에는 활동, 경험 등을 위한 친숙한 이름이 포함되어 있습니다.
 
 이 조회 파일은 [!DNL Adobe]의 클릭스트림 데이터 피드를 받는 고객에게 유용합니다. 이 파일에는 `post_tnt` 및 `post_tnt_action` 열을 위한 친숙한 이름이 있습니다.
 
-표준 [!UICONTROL A/B Test] 및 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동의 경우 TNT 문자열 형식은 다음과 같습니다.
+표준 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동의 경우 TNT 문자열 형식은 다음과 같습니다.
 
 ```
 activityID:experienceID:targettype|event
 ```
 
-[!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동의 경우 TNT 문자열 형식은 다음과 같습니다.
+[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동의 경우 TNT 문자열의 형식은 다음과 같습니다.
 
 ```
 activityId:experienceId:targettype:algorithmId|event
 ```
 
-* `targettype` = `targettype` 및 `algorithmId`은(는) [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동에서 사용하는 내부 식별자입니다.
+* `targettype` = `targettype` 및 `algorithmId`은(는) [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동에 사용되는 내부 식별자입니다.
 * Event = 0은 경험 입장을 나타냅니다.
 * Event = 1은 경험 방문을 나타냅니다.
 * Event = 2는 활동 노출을 나타냅니다.

@@ -47,7 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Target] MCP 서버는 인증을 위해 OAuth 2.0을 사용합니다. 처음 Target MCP 도구를 사용하면 Adobe Experience Cloud으로 리디렉션되어 로그인하고 조직을 선택한 다음 요청된 권한을 부여합니다. 정적 자격 증명이 필요하지 않습니다.
+>[!DNL Adobe Target] MCP 서버는 인증을 위해 OAuth 2.0을 사용합니다. Target MCP 도구를 처음 사용하면 Adobe Experience Cloud로 리디렉션되어 로그인하고 조직을 선택한 다음 요청된 권한을 부여합니다. 정적 자격 증명이 필요하지 않습니다.
 
 **클라우드 데스크톱 또는 클라우드 웹에서 연결하려면:**
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->잘못된 조직의 활동이나 데이터가 나타나면 Adobe Experience Cloud에서 완전히 로그아웃한 후 MCP 서버를 다시 연결하고 재인증 중에 올바른 조직을 신중하게 선택하십시오.
+>잘못된 조직의 활동 또는 데이터가 나타나면 Adobe Experience Cloud에서 완전히 로그아웃하고 MCP 서버를 다시 연결한 다음 재인증 중에 올바른 조직을 신중하게 선택하십시오.
 
 ## 문제 해결 {#mcp-troubleshooting}
 

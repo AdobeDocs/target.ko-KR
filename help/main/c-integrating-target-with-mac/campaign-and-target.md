@@ -14,8 +14,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 372
-ht-degree: 32%
+source-wordcount: 379
+ht-degree: 35%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 32%
 ## [!DNL Adobe Campaign] 전자 메일에 [!DNL Target] 오퍼 포함 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. [!DNL Adobe Campaign]에서 전자 메일을 만듭니다.
-1. 전자 메일 속성에서 **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**&#x200B;을(를) 클릭합니다.
+1. 이메일 속성에서 **[!UICONTROL 포함]** > **[!UICONTROL Adobe Target에서 제공하는 동적 이미지]**&#x200B;를 클릭합니다.
 1. 공유 자산에서 기본 이미지를 선택합니다.
 1. 위치(rawbox)를 지정합니다.
 1. 수신자의 성별 등과 같은 기타 의사결정 매개 변수를 추가합니다.

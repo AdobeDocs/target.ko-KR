@@ -13,8 +13,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 87%
+source-wordcount: 566
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 최신 브라우저는 보안 콘텐츠가 비보안 콘텐츠와 혼합된 경우 페이지 표시를 차단하거나 경고 메시지를 표시할 수 있습니다.
 
-[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)이 혼합 콘텐츠가 포함된 페이지를 열려고 하면 경고 메시지가 표시됩니다. 이 메시지는 브라우저에서 차단을 비활성화하는 방법을 알려 줍니다. 차단을 비활성화하면 HTTP 사이트 또는 혼합 콘텐츠(HTTPS 및 HTTP)가 있는 사이트를 열 수 있습니다.
+[!DNL Adobe Target]의 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)가 혼합 콘텐츠가 포함된 페이지를 열려고 하면 경고 메시지가 표시됩니다. 이 메시지는 브라우저에서 차단을 비활성화하는 방법을 알려 줍니다. 차단을 비활성화하면 HTTP 사이트 또는 혼합 콘텐츠(HTTPS 및 HTTP)가 있는 사이트를 열 수 있습니다.
 
 ![혼합 콘텐츠 경고](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -48,11 +48,11 @@ Google Chrome 도움말의 &quot;[안전하지 않은 사이트에 대한 경고
 
 최신 버전의 [!DNL Chrome] (버전 79.0.3945.117 이상) 을 통해 VEC를 사용하는 경우 사이트 설정을 업데이트해야 합니다. 사이트 방문자는 이러한 단계를 수행할 필요가 없습니다.
 
-1. 잠금(경고) 아이콘을 클릭한 다음 **[!UICONTROL Site settings]**&#x200B;을(를) 클릭합니다.
+1. 잠금(경고) 아이콘을 클릭한 다음 **[!UICONTROL 사이트 설정]**&#x200B;을 클릭합니다.
 
    ![사이트 설정](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. **[!UICONTROL Insecure content]**(으)로 스크롤한 다음 드롭다운 목록을 사용하여 &quot;차단(기본값)&quot;을 &quot;허용&quot;으로 변경합니다.
+1. **[!UICONTROL 비보안 콘텐츠]**(으)로 스크롤한 다음 드롭다운 목록을 사용하여 &quot;차단(기본값)&quot;을 &quot;허용&quot;으로 변경합니다.
 
    ![비보안 콘텐츠](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
@@ -85,10 +85,10 @@ Google Chrome 도움말의 &quot;[안전하지 않은 사이트에 대한 경고
 
 최신 버전의 [!DNL Edge] 를 통해 VEC를 사용하는 경우 사이트 설정을 업데이트해야 합니다. 사이트 방문자는 이러한 단계를 수행할 필요가 없습니다.
 
-1. [!DNL Edge]에서 메뉴 모음의 **[!DNL Microsoft Edge]**, **[!UICONTROL Settings]**&#x200B;을(를) 클릭한 다음 **쿠키 및 사이트 권한**&#x200B;을 클릭합니다.
+1. [!DNL Edge]에서 메뉴 모음의 **[!DNL Microsoft Edge]**, **[!UICONTROL 설정]**&#x200B;을 클릭한 다음 **쿠키 및 사이트 권한**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL Insecure content]**(으)로 스크롤
+1. **[!UICONTROL 비보안 콘텐츠]**(으)로 스크롤합니다.
 
-1. **[!UICONTROL Insecure content]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Allow]** 옆에 있는 **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 비보안 콘텐츠를 허용할 사이트를 추가한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 비보안 콘텐츠]**&#x200B;를 클릭한 다음 **[!UICONTROL 허용]** 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭하고 비보안 콘텐츠를 허용할 사이트를 추가한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 1. VEC 페이지를 다시 로드합니다.

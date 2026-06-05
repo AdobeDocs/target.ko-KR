@@ -15,35 +15,35 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 628
-ht-degree: 36%
+source-wordcount: 666
+ht-degree: 35%
 
 ---
 
-# [!UICONTROL Auto-Target Summary report]
+# [!UICONTROL Auto-Target 요약 보고서]
 
-[!DNL Adobe Target]의 [!UICONTROL Auto-Target Summary] 보고서를 해석하는 방법에 대한 정보입니다.
+[!DNL Adobe Target]의 [!UICONTROL 자동 타겟 요약] 보고서를 해석하는 방법에 대한 정보입니다.
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target]은(는) [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 없는 [!DNL Target Standard]에는 포함되어 있지 않습니다.
+>[!UICONTROL 자동 타겟]은(는) [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 없는 [!DNL Target Standard]에는 포함되어 있지 않습니다.
 
-[!UICONTROL Auto-Target Summary] 보고서를 표시하려면:
+[!UICONTROL 자동 타겟 요약] 보고서를 표시하려면:
 
-1. [!UICONTROL Activities] 페이지에서 원하는 [!UICONTROL Auto-Target] 활동을 클릭합니다.
+1. [!UICONTROL 활동] 페이지에서 원하는 [!UICONTROL 자동 타겟] 활동을 클릭합니다.
 
-   많은 활동이 있는 경우 필터( ![필터 아이콘](/help/main/assets/icons/Filter.svg) ) 아이콘을 클릭하여 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] 및 [!UICONTROL Activity Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링합니다.
+   많은 활동이 있는 경우 필터( ![필터 아이콘](/help/main/assets/icons/Filter.svg) ) 아이콘을 클릭하여 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 Source], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링합니다.
 
-1. **[!UICONTROL Reports]** 탭을 클릭한 다음 원하는 아이콘을 클릭합니다.
+1. **[!UICONTROL 보고서]** 탭을 클릭한 다음 원하는 아이콘을 클릭합니다.
 
-   * **[!UICONTROL Table View]** ( ![테이블 보기 아이콘](/help/main/assets/icons/Table.svg) )
-   * **[!UICONTROL Graph View]** ( ![그래프 보기 아이콘](/help/main/assets/icons/GraphTrend.svg) )
-   * **[!UICONTROL Automated Segments]**( ![자동화된 세그먼트 보고서](/help/main/assets/icons/AutomatedSegment.svg) )
-   * [!UICONTROL Important Attributes]**( ![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg) )
+   * **[!UICONTROL 테이블 보기]**( ![테이블 보기 아이콘](/help/main/assets/icons/Table.svg) )
+   * **[!UICONTROL 그래프 보기]**( ![그래프 보기 아이콘](/help/main/assets/icons/GraphTrend.svg) )
+   * **[!UICONTROL 자동화된 세그먼트]**( ![자동화된 세그먼트 보고서](/help/main/assets/icons/AutomatedSegment.svg) )
+   * [!UICONTROL 중요 특성]**( ![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg) )
 
 ## 표 보기
 
-[!UICONTROL Auto-Target] 보고서를 해석하는 데 필요한 몇 가지 팁과 고려 사항:
+[!UICONTROL 자동 타겟] 보고서를 해석하는 데 필요한 몇 가지 팁과 고려 사항:
 
 * 표의 다양한 행은 활동 성능을 이해하는 데 도움이 됩니다.
 
@@ -56,7 +56,7 @@ ht-degree: 36%
    * 이 경우 모든 경험을 위해 모델을 만드는 활동의 속도를 높이기 위해 아직 만들어지지 않은 모델이 있는 경험에 추가 트래픽이 전송됩니다.
    * 개인화를 시작하려면 구축된 모델(녹색 확인 표시)이 있는 경험이 두 개 이상 있어야 합니다.
 
-* [!UICONTROL Auto-Target]에서 경험 A의 전환율과 경험 B의 전환율을 비교하는 것은 적절하지 않습니다. 문제는 지능적인 방식으로 제공될 때와 임의 방식(다시 말해 통제군 사용)으로 제공될 때 중 언제 경험 A가 더 나은 성과를 보이는가 하는 것입니다. 또한 개인화 알고리즘은 개별 경험이 아니라 전체 활동에 대한 성공 지표에 대해 최적화하려고 시도하므로 마케터는 개별 경험의 상승도 해석에 대해 주의해야 합니다.
+* 경험 A의 전환율과 경험 B의 전환율을 비교하는 것은 [!UICONTROL 자동 타겟]에서 올바른 비교가 아닙니다. 문제는 지능적인 방식으로 제공될 때와 임의 방식(다시 말해 통제군 사용)으로 제공될 때 중 언제 경험 A가 더 나은 성과를 보이는가 하는 것입니다. 또한 개인화 알고리즘은 개별 경험이 아니라 전체 활동에 대한 성공 지표에 대해 최적화하려고 시도하므로 마케터는 개별 경험의 상승도 해석에 대해 주의해야 합니다.
 * 상승도가 가장 높은 경험은 모집단 내에서 분화가 가장 큰 것으로 이해할 수 있습니다. 즉, 알고리즘이 해당 특정 경험을 가장 좋아하는 세그먼트를 발견했습니다.
 * 테이블의 다양한 열은 방문 횟수, 전환율, 평균 상승도 및 신뢰 수준 및 신뢰도를 보여 줍니다. 자세한 내용은 [A/B 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)을 참조하십시오.
 

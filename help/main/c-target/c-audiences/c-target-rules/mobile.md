@@ -17,8 +17,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 38%
+source-wordcount: 707
+ht-degree: 39%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 38%
 
 모바일 장치, 장치 유형, 장치 공급업체, 화면 치수 등의 매개 변수를 기반으로 모바일 장치를 타깃팅할 대상을 [!DNL Adobe Target]에서 만듭니다.
 
-예를 들어, 휴대폰을 사용하여 페이지를 방문한 사용자에게 컴퓨터를 사용하여 방문한 사용자와는 다른 콘텐츠를 표시할 수 있습니다. 이 경우 [!UICONTROL Mobile] 대상자를 선택한 다음 **[!UICONTROL Is Mobile Phone]** 옵션을 선택할 수 있습니다. 그런 다음 휴대폰 유형, 화면 크기(픽셀 단위) 등과 같이 중요한 특정 세부 사항을 추가할 수 있습니다.
+예를 들어, 휴대폰을 사용하여 페이지를 방문한 사용자에게 컴퓨터를 사용하여 방문한 사용자와는 다른 콘텐츠를 표시할 수 있습니다. 이 경우 [!UICONTROL 모바일] 대상자를 선택한 다음 **[!UICONTROL 휴대폰임]** 옵션을 선택할 수 있습니다. 그런 다음 휴대폰 유형, 화면 크기(픽셀 단위) 등과 같이 중요한 특정 세부 사항을 추가할 수 있습니다.
 
 모바일 타깃팅은 DotMobi의 서비스인 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)에서 제공됩니다. DeviceAtlas는 제조업체와 네트워크 운영자를 비롯한, 수 많은 소스에서 컴파일된 데이터 위에 구축된 휴대 장치의 포괄적인 데이터베이스입니다. 그런 다음 이러한 데이터가 확인되고 상호 참조되며 유효성이 검사되어 사용 가능한 대용량의 정확한 휴대 장치 데이터베이스를 구축합니다.
 
@@ -50,10 +50,10 @@ ht-degree: 38%
 
 사용자 지정 통합(at.js 또는 Mobile SDK를 사용하지 않음)을 사용하는 고객은 이러한 매개 변수를 직접 수집하여 mbox 매개 변수로 전달할 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** > **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
-1. **[!UICONTROL Mobile]**&#x200B;을(를) 대상 빌더 창으로 끌어서 놓습니다.
-1. **[!UICONTROL Select]**&#x200B;을(를) 클릭한 후 다음 옵션 중 하나를 선택합니다.
+1. **[!UICONTROL Mobile]**&#x200B;을(를) 대상 빌더 창으로 끌어다 놓습니다.
+1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
    * 장치 마케팅 이름
    * 장치 모델
@@ -70,7 +70,7 @@ ht-degree: 38%
    >[지역 설정](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)을 사용하여 이동통신사별로 타깃팅할 수 있습니다.
 
 1. (선택 사항) 대상에 대한 추가 규칙을 설정합니다.
-1. **[!UICONTROL Done]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 완료를 클릭합니다]**.
 
 다음 그림은 모바일 디바이스인 Google에서 제조한 디바이스를 사용하는 방문자를 타깃팅하는 대상을 보여줍니다.
 
@@ -82,7 +82,7 @@ ht-degree: 38%
 
 ### iOS 12.2 이상을 실행하는 타깃팅 디바이스
 
-iOS 12.2에 도입된 새로운 변경 사항으로 인해 iPhone 모델을 지정하는 [!UICONTROL Device Marketing Name] 및 [!UICONTROL Device Model]&#x200B;(으)로 정의된 규칙으로 대상을 만드는 것이 영향을 받습니다. [!DNL Target]은(는) 더 이상 iOS 12.2 이상이 설치된 iPhone 사용자를 타깃팅할 수 없습니다. 그러나 이러한 사용자에게 iOS 12.2 이상이 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
+iOS 12.2에 도입된 새로운 변경 사항으로 인해 iPhone 모델을 지정하는 [!UICONTROL 장치 마케팅 이름] 및 [!UICONTROL 장치 모델]로 정의된 규칙으로 대상을 만드는 것이 영향을 받습니다. [!DNL Target]은(는) 더 이상 iOS 12.2 이상이 설치된 iPhone 사용자를 타깃팅할 수 없습니다. 그러나 이러한 사용자에게 iOS 12.2 이상이 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
 
 iOS 12.2 이상 업데이트는 iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina 디스플레이, iPad Retina(4세대), iPod Touch 4 및 iPod Touch 5와 같은 모델을 iOS 12.2로 업그레이드하는 것을 지원하지 않으므로 이러한 모델을 식별하는 데 영향을 주지 않습니다.
 

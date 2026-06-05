@@ -1,7 +1,7 @@
 ---
 keywords: mvt;다변량 테스트;다변량 테스트 모범 사례;mvt 모범 사례;mvt 조합;mvt 보고서
-description: ' [!DNL Adobe Target]에서 [!UICONTROL Multivariate Test] 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 방법을 알아봅니다.'
-title: '[!UICONTROL Multivariate Test] 활동에 대한 모범 사례는 무엇입니까?'
+description: ' [!DNL Adobe Target]에서 [!UICONTROL 다변량 테스트] 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 방법을 알아봅니다.'
+title: '[!UICONTROL 다변량 테스트] 활동에 대한 모범 사례는 무엇입니까?'
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
@@ -11,14 +11,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 611
-ht-degree: 57%
+source-wordcount: 625
+ht-degree: 55%
 
 ---
 
-# [!UICONTROL Multivariate Test] 모범 사례
+# [!UICONTROL 다변량 테스트] 모범 사례
 
-[!DNL Adobe Target]에서 [!UICONTROL Multivariate Test]&#x200B;(MVT) 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 데 도움이 되는 팁입니다.
+[!DNL Adobe Target]에서 [!UICONTROL 다변량 테스트]&#x200B;(MVT) 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 데 도움이 되는 팁입니다.
 
 ## 계획 {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -52,9 +52,9 @@ ht-degree: 57%
 ## 분석 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * [위치 기여도 보고서](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)를 자주 사용하여 각 위치와 오퍼의 성능을 모니터링합니다.
-* [경험 성과 보고서](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)에서 [!UICONTROL Best 5] 및 [!UICONTROL Worst 5] 필터를 사용하여 표시된 데이터를 결정합니다.
+* [경험 성과 보고서](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)에서 [!UICONTROL 최고 성과 보고서] 및 [!UICONTROL 최저 성과 보고서] 필터를 사용하여 표시되는 데이터를 결정합니다.
 
-  [!UICONTROL All] 필터를 사용하면 원하는 정보를 추출하기 어려우며 일부 경험은 그래프에 표시되지 않을 수 있습니다. 성과가 가장 높은 경험 5개 또는 가장 낮은 경험 5개에 포함되지 않은 특정 경험을 확인하려는 경우에는 [!UICONTROL All] 필터를 사용하십시오.
+  [!UICONTROL 모두] 필터를 사용하면 원하는 정보를 추출하기 어려우며 일부 경험은 그래프에 표시되지 않을 수 있습니다. 성과가 가장 높은 경험 5개 또는 가장 낮은 경험 5개에 포함되지 않은 특정 경험을 확인하려는 경우에는 [!UICONTROL 모두] 필터를 사용하십시오.
 
 ## 추가 작업 {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 

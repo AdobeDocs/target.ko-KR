@@ -5,7 +5,7 @@ hide: true
 exl-id: 15a3c26f-31fc-4e73-aa0e-035dcbe7d770
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 국가 = 미국, 퍼센트 = 10%, 국가 = 영국, 퍼센트 = 20%의 네 가지 규칙을 추가합니다. 중첩 논리 사용: `(1 and 2) or (3 and 4)`.
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [기능 플래그 및 기능 그룹의 대상자](audience-in-feature-flags-and-feature-groups.md)
 * [복잡한 대상 규칙](complex-rules.md)

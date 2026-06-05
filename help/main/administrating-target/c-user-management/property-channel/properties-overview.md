@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: 1509
 ht-degree: 55%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 55%
 
 [!DNL Adobe Admin Console for Enterprise]에서 수행되는 작업의 경우 다음 단계에 따라 콘솔에 액세스하십시오.
 
-1. Adobe Target에서 **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Assign Properties to Workspaces]**&#x200B;을(를) 클릭합니다.
+1. Adobe Target에서 **[!UICONTROL 관리]** > **[!UICONTROL 속성]** > **[!UICONTROL 작업 영역에 속성 할당]**&#x200B;을 클릭합니다.
 
    또는
 
@@ -65,9 +65,9 @@ ht-degree: 55%
 
 ## 1단계. 사용자 추가(선택 사항) {#section_A92AF0F921B743FEB9E9033433BD816A}
 
-새 [!UICONTROL Properties] 기능을 사용하려면 [!DNL Adobe Admin Console for Enterprise]에서 모든 사용자 관리를 수행해야 합니다. 그러나 [!DNL Target]의 모든 기존 사용자는 [!DNL Target]에서 [!DNL Admin Console for Enterprise]로 마이그레이션됩니다.
+새 [!UICONTROL 속성] 기능을 사용하기 시작할 때 [!DNL Adobe Admin Console for Enterprise]에서 모든 사용자 관리를 수행해야 합니다. 그러나 [!DNL Target]의 모든 기존 사용자는 [!DNL Target]에서 [!DNL Admin Console for Enterprise]로 마이그레이션됩니다.
 
-1. [Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 페이지 상단의 **[!UICONTROL Users]** 탭 > **[!UICONTROL Add Users]**&#x200B;을(를) 클릭하여 새 사용자를 만들거나 기존 사용자를 편집합니다.
+1. [Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 페이지 상단의 **[!UICONTROL 사용자]** 탭 > **[!UICONTROL 사용자 추가]**&#x200B;를 클릭하여 새 사용자를 만들거나 기존 사용자를 편집합니다.
 1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/kr/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## 2단계. 작업 공간(제품 프로필) 만들기 {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -80,7 +80,7 @@ ht-degree: 55%
 
 사용자는 여러 작업 공간에 속할 수 있으며, 각 작업 공간에서 서로 다른 역할을 가질 수도 있습니다.
 
-1. [!DNL Admin Console]에서 **[!UICONTROL Products]**&#x200B;을(를) 클릭한 다음 원하는 제품의 이름을 선택합니다.
+1. [!DNL Admin Console]에서 **[!UICONTROL 제품]**&#x200B;을 클릭한 다음 원하는 제품의 이름을 선택합니다.
 
    ![작업 공간](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -106,7 +106,7 @@ ht-degree: 55%
 
 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}에서 엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야 합니다.
 
-1. [Adobe Admin Console](https://adminconsole.adobe.com)에서 [!UICONTROL Products] 탭을 클릭한 다음 왼쪽 메뉴에서 제품을 클릭하여 PLC(작업 공간) 목록을 표시합니다.
+1. [Adobe Admin Console](https://adminconsole.adobe.com)에서 [!UICONTROL 제품] 탭을 클릭한 다음 왼쪽 메뉴에서 제품을 클릭하여 PLC(작업 공간) 목록을 표시합니다.
 1. 원하는 PLC(작업 공간)를 클릭한 다음 아래 표시된 대로 URL에서 &quot;프로필&quot; ID를 찾습니다.
 
    ![workspaceID](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
@@ -115,7 +115,7 @@ ht-degree: 55%
 
 개발자, 분석가, 마케터, 경영진 등과 같은 사용자 그룹을 만든 다음 여러 Adobe 제품 및 작업 공간에서 권한을 지정할 수 있습니다. 새 팀 구성원에게 다른 Adobe 제품에 대한 모든 적절한 권한을 지정하면 특정 사용자 그룹에 팀 구성원을 쉽게 추가할 수 있습니다.
 
-1. Admin Console에서 페이지 상단의 **[!UICONTROL Users]** 탭 > **[!UICONTROL User Groups]**&#x200B;을(를) 클릭하여 새 사용자 그룹을 만들거나 기존 사용자 그룹을 편집합니다.
+1. Admin Console에서 페이지 상단에 있는 **[!UICONTROL 사용자]** 탭 > **[!UICONTROL 사용자 그룹]**&#x200B;을 클릭하여 새 사용자 그룹을 만들거나 기존 사용자 그룹을 편집합니다.
 1. *Enterprise 사용 안내서*&#x200B;에 포함된 [제품 구성의 사용자 및 그룹 관리](https://helpx.adobe.com/kr/enterprise/help/manage-products-and-configurations.html)의 지침을 따르십시오.
 
 ## 4단계. 속성 만들기 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
@@ -126,7 +126,7 @@ ht-degree: 55%
 
 **팁**: 속성 생성 방법에 대한 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-1. [!DNL Target]에서 **[!UICONTROL Administration]** > **[!UICONTROL Properties]**&#x200B;을(를) 클릭하여 [!UICONTROL Properties] 목록을 표시합니다.
+1. [!DNL Target]에서 **[!UICONTROL 관리]** > **[!UICONTROL 속성]**&#x200B;을 클릭하여 [!UICONTROL 속성] 목록을 표시합니다.
 1. **속성 만들기**&#x200B;를 클릭합니다.
 
    다음 필드를 채웁니다.
@@ -135,8 +135,8 @@ ht-degree: 55%
    * **설명:** 속성에 대한 선택적 설명을 지정합니다.
    * **채널:**&#x200B;속성에 대해 원하는 채널, 즉 웹, 모바일 앱, 이메일 또는 기타/API(예를 들어 셋톱 박스 또는 PlayStation 콘솔)를 선택합니다.
 
-1. [5: at_property 매개 변수를 포함하도록 구현 업데이트](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사하려면 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하십시오.
-1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. [5: at_property 매개 변수를 포함하도록 구현 업데이트](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사하려면 **[!UICONTROL 복사]**&#x200B;를 클릭하십시오.
+1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >속성 생성에 대한 자세한 내용은 아래 교육 비디오를 참조하십시오.
@@ -151,9 +151,9 @@ ht-degree: 55%
 
    또는
 
-   [!DNL Target]에서 **[!UICONTROL Administration]** > **[!UICONTROL Properties]**&#x200B;을(를) 클릭하여 [!UICONTROL Properties] 목록을 표시합니다.
+   [!DNL Target]에서 **[!UICONTROL 관리]** > **[!UICONTROL 속성]**&#x200B;을 클릭하여 [!UICONTROL 속성] 목록을 표시합니다.
 
-   1. [!UICONTROL Last Updated] 열 위에 마우스 포인터를 가져가 원하는 속성을 표시하고 [!UICONTROL Code] 아이콘(![코드 아이콘](/help/main/assets/icons/Code.svg))을 클릭합니다.
+   1. [!UICONTROL 마지막 업데이트] 열 위에 마우스 포인터를 가져가 원하는 속성을 표시하고 [!UICONTROL 코드] 아이콘(![코드 아이콘](/help/main/assets/icons/Code.svg))을 클릭합니다.
 
       ![속성 가리키기 코드](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
@@ -183,7 +183,7 @@ ht-degree: 55%
 
 ## 6단계: 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-1. Admin Console에서 **[!UICONTROL Products]**&#x200B;을(를) 클릭한 다음 원하는 제품의 이름을 선택합니다.
+1. Admin Console에서 **[!UICONTROL 제품]**&#x200B;을 클릭한 다음, 원하는 제품의 이름을 선택합니다.
 
    ![작업 공간](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
@@ -191,13 +191,13 @@ ht-degree: 55%
 
    ![기본 작업 영역](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
-1. **[!UICONTROL Users]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 사용자]**&#x200B;를 클릭합니다.
 
-   [!UICONTROL Users] 탭에는 해당 작업 영역의 모든 사용자가 표시됩니다.
+   [!UICONTROL 사용자] 탭에는 해당 작업 영역의 모든 사용자가 표시됩니다.
 
    ![구성 사용자](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. [!UICONTROL Product Role] 열의 각 사용자에 대한 드롭다운 목록을 사용하여 원하는 권한 역할(승인자, 편집자, 관찰자 또는 게시자)을 선택합니다.
+1. [!UICONTROL 제품 역할] 열의 각 사용자에 대한 드롭다운 목록을 사용하여 원하는 권한 역할(승인자, 편집자, 관찰자 또는 게시자)을 선택합니다.
 
    ![제품 역할 드롭다운 목록](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -216,7 +216,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration] 메뉴 UI(이전 [!UICONTROL Setup])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하지만, 옵션이 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오는 곧 게시될 예정입니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하지만, 옵션이 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오는 곧 게시될 예정입니다.
 
 ### Adobe Target 작업 공간 구성 방법(6:55) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

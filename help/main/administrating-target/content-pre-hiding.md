@@ -8,7 +8,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '624'
 ht-degree: 3%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 3%
 
 1. 개인화 활동을 실행하는 모든 페이지의 `<head>`에 콘텐츠 사전 숨김 라이브러리를 추가합니다.
 
-1. [!DNL Target]이(가) 라이브 [!UICONTROL Visual Experience Composer] 및 [!UICONTROL Enhanced Experience Composer] 활동에서 규칙 집합을 만듭니다. 규칙 집합은 게재가 변경될 수 있는 선택기 및 영역을 나열합니다.
+1. [!DNL Target]이(가) 라이브 [!UICONTROL 시각적 경험 작성기] 및 [!UICONTROL 향상된 경험 작성기] 활동에서 규칙 집합을 만듭니다. 규칙 집합은 게재가 변경될 수 있는 선택기 및 영역을 나열합니다.
 
-   [!UICONTROL Form-Based Composer] 활동은 지원되지 않습니다.
+   [!UICONTROL 양식 기반 작성기] 활동은 지원되지 않습니다.
 
 1. 라이브러리는 Adobe CDN에서 해당 규칙 세트를 가져오고 개인화된 콘텐츠가 로드되는 동안에만 일치하는 요소를 사전에 숨깁니다.
 
-1. **[!UICONTROL Goals & Settings]**&#x200B;에서 개별 활동에 대해 **[!UICONTROL Content pre-hiding]**&#x200B;을(를) 비활성화할 수 있지만 계정 수준에서 활성화된 경우에만 가능합니다. [자세히 알아보기](#content-pre-hiding-activity)
+1. **[!UICONTROL 목표 및 설정]**&#x200B;에서 개별 활동에 대해 **[!UICONTROL 콘텐츠 사전 숨김]**&#x200B;을(를) 비활성화할 수 있지만, 계정 수준에서 활성화된 경우에만 가능합니다. [자세히 알아보기](#content-pre-hiding-activity)
 
 ## 인스턴스에 대해 콘텐츠 사전 숨기기 활성화 {#content-pre-hiding-enable-account}
 
@@ -43,19 +43,19 @@ ht-degree: 3%
 >
 >인스턴스에 대해 콘텐츠 사전 숨김을 사용하려면 **관리자**&#x200B;여야 합니다.
 
-콘텐츠 사전 숨김은 활성화할 때까지 인스턴스에 대해 해제됩니다. **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;을(를) 사용하여 기능을 켜고 기본값을 설정한 다음 구현 팀에 대한 다운로드에 액세스하십시오.
+콘텐츠 사전 숨김은 활성화할 때까지 인스턴스에 대해 해제됩니다. **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 사용하여 기능을 켜고 기본값을 설정한 다음 구현 팀의 다운로드에 액세스하십시오.
 
-1. [!DNL Target]에서 **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Target]에서 **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL Content pre-hiding]** 메뉴에서 콘텐츠 사전 숨김 옵션을 활성화합니다.
+1. **[!UICONTROL 콘텐츠 사전 숨김]** 메뉴에서 콘텐츠 사전 숨김 옵션을 활성화합니다.
 
    ![](assets/content-pre-hiding-1.png)
 
-1. 필요한 경우 **[!UICONTROL Pre-hiding timeout]**&#x200B;을(를) 초 단위로 업데이트합니다.
+1. 필요한 경우 **[!UICONTROL 미리 숨기는 시간 제한]**&#x200B;을(를) 초 단위로 업데이트합니다.
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다. 그러면 플리커 관리 설정이 인스턴스에 적용됩니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 그러면 플리커 관리 설정이 인스턴스에 적용됩니다.
 
-1. 활성화하면 **[!UICONTROL Download]**&#x200B;을(를) 클릭한 다음 [!DNL at.js] 또는 [!DNL Web SDK] 전에 로드되도록 `<head>` 페이지에 파일을 추가하십시오. 전체 구현 지침은 [콘텐츠 사전 숨김 SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/prehide-sdk)을 참조하십시오.
+1. 활성화하면 **[!UICONTROL 다운로드]**&#x200B;를 클릭한 다음 [!DNL at.js] 또는 [!DNL Web SDK] 전에 로드되도록 `<head>` 페이지에 파일을 추가하십시오. 전체 구현 지침은 [콘텐츠 사전 숨김 SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/prehide-sdk)을 참조하십시오.
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -63,23 +63,23 @@ ht-degree: 3%
 
 ## 활동에 대해 컨텐츠 사전 숨김 활성화 {#content-pre-hiding-activity}
 
-인스턴스에 대해 사전 숨김을 활성화한 상태에서 각 활동이 **[!UICONTROL Goals & Settings]**&#x200B;에서 이를 사용하는지 여부를 선택합니다. 사전 숨김을 활성화하는 활동은 라이브 상태일 때 타깃팅된 동작에 포함됩니다.
+인스턴스에 대해 사전 숨김을 사용하도록 설정한 상태에서 각 활동이 **[!UICONTROL 목표 및 설정]**&#x200B;에서 이를 사용하는지 여부를 선택합니다. 사전 숨김을 활성화하는 활동은 라이브 상태일 때 타깃팅된 동작에 포함됩니다.
 
-그런 다음 [!DNL Target]은(는) [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 및 [!UICONTROL Form-Based Composer]에서 작성된 라이브 활동에서 게재가 변경될 수 있는 선택기와 영역을 설명하는 간단한 규칙 집합을 만듭니다.
+그런 다음 [!DNL Target]은(는) [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 및 [!UICONTROL 양식 기반 작성기]에서 작성된 라이브 활동에서 간단한 규칙 집합을 만들어 전달이 변경될 수 있는 선택기와 영역을 설명합니다.
 
 활동을 만들거나 편집할 때:
 
 1. 사전 숨김 옵션을 활성화할 활동에 액세스합니다.
 
-1. **[!UICONTROL Edit activity]** 드롭다운에 액세스하여 **[!UICONTROL Edit Goals & Settings]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 활동 편집]** 드롭다운에 액세스하여 **[!UICONTROL 목표 및 설정 편집]**&#x200B;을 선택합니다.
 
    ![](assets/content-pre-hiding-3.png)
 
-1. **[!UICONTROL Content pre-hiding]** 메뉴에서 **[!UICONTROL Enable content pre-hiding]** 옵션을 전환하여 이 활동을 사전 숨김에서 옵트인하거나 옵트아웃합니다.
+1. **[!UICONTROL 콘텐츠 사전 숨김]** 메뉴에서 **[!UICONTROL 콘텐츠 사전 숨김 사용]** 옵션을 전환하여 사전 숨김에서 이 활동을 옵트인하거나 옵트아웃합니다.
 
    ![](assets/content-pre-hiding-4.png)
 
-1. 완료되면 **[!UICONTROL Save & Close]**&#x200B;을(를) 클릭합니다.
+1. 완료되면 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭하세요.
 
 활동을 저장하고 실행 또는 비활성화하면 규칙 세트가 업데이트되어 각 론치에 대한 페이지 코드를 편집하지 않고도 사전 숨김 상태가 실제로 전달되는 내용과 일치합니다.
 

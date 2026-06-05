@@ -22,7 +22,7 @@ ht-degree: 9%
 
 통합 프로세스에 대한 자세한 내용은 [통합 단계](integration-steps.md)를 참조하십시오.
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [통합 단계](integration-steps.md)
 * [시작 안내서](startup-guide.md)

@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 709
 ht-degree: 46%
 
 ---
@@ -30,35 +30,35 @@ ht-degree: 46%
 
 쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
 
-관리하기 쉽도록 호스트는 환경으로 번들됩니다. 예를 들어 수십 개의 호스트를 두세 개의 환경으로 그룹화할 수 있습니다. 사전 설정 환경에는 [!UICONTROL Production], [!UICONTROL Staging] 및 [!UICONTROL Development]이(가) 포함됩니다. 필요한 경우 새 환경을 추가하거나 환경의 이름을 바꿀 수 있습니다.
+관리하기 쉽도록 호스트는 환경으로 번들됩니다. 예를 들어 수십 개의 호스트를 두세 개의 환경으로 그룹화할 수 있습니다. 사전 설정된 환경에는 [!UICONTROL 프로덕션], [!UICONTROL 스테이징] 및 [!UICONTROL 개발]이 포함됩니다. 필요한 경우 새 환경을 추가하거나 환경의 이름을 바꿀 수 있습니다.
 
-기본 환경인 하나의 환경은 [!UICONTROL Production]&#x200B;(으)로 이름이 지정됩니다. 이 기본 환경은 이름을 변경하는 경우에도 삭제할 수 없습니다. [!DNL Target]은 이 위치에서 승인된 최종 활동 및 테스트를 제공한다고 가정합니다.
+기본 환경인 하나의 환경은 [!UICONTROL 프로덕션]&#x200B;(으)로 사전에 이름이 지정됩니다. 이 기본 환경은 이름을 변경하는 경우에도 삭제할 수 없습니다. [!DNL Target]은 이 위치에서 승인된 최종 활동 및 테스트를 제공한다고 가정합니다.
 
-새 웹 사이트 또는 도메인에서 [!DNL Target] 요청을 받으면 이러한 새 도메인이 항상 [!UICONTROL Production] 환경에 표시됩니다. [!UICONTROL Production] 환경에서는 설정을 변경할 수 없으므로 알 수 없거나 새 사이트에는 활성 상태이고 준비된 콘텐츠만 표시됩니다. 활동을 활성화하기 전에 호스트 관리를 사용하면 테스트, 스테이징 및 개발 환경에서 새 활동과 컨텐츠의 품질을 쉽게 보장할 수도 있습니다.
+새 웹 사이트 또는 도메인에서 [!DNL Target] 요청을 받으면 이러한 새 도메인은 항상 [!UICONTROL 프로덕션] 환경에 표시됩니다. [!UICONTROL 프로덕션] 환경에서는 설정을 변경할 수 없으므로 알 수 없거나 새 사이트에는 활성 상태이고 준비된 콘텐츠만 표시됩니다. 활동을 활성화하기 전에 호스트 관리를 사용하면 테스트, 스테이징 및 개발 환경에서 새 활동과 컨텐츠의 품질을 쉽게 보장할 수도 있습니다.
 
 {{permissions-update}}
 
-환경을 관리하려면 **[!UICONTROL Administration]** > **[!UICONTROL Environments]**&#x200B;을(를) 클릭합니다.
+환경을 관리하려면 **[!UICONTROL 관리]** > **[!UICONTROL 환경]**&#x200B;을 클릭하세요.
 
 ## 환경 추가 {#section_32097D0993724DF3A202D164D3F18674}
 
-1. [!UICONTROL Environments] 목록에서 **[!UICONTROL Add Environment]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL 환경] 목록에서 **[!UICONTROL 환경 추가]**&#x200B;를 클릭합니다.
 1. 환경에 대해 수사적 이름을 지정합니다.
-1. 환경에 대해 원하는 활성 모드를 지정하십시오. [!UICONTROL Active Activities] 또는 [!UICONTROL Active and Inactive Activities].
+1. 환경에 대해 원하는 활성 모드를 [!UICONTROL 활성 활동]과 [!UICONTROL 활성 및 비활성 활동] 중에서 지정합니다.
 
-   [!UICONTROL Active and Inactive Activities]을(를) 지정하면 이 환경의 호스트도 비활성 활동을 표시합니다.
+   [!UICONTROL 활성 및 비활성 활동]을 지정하면 이 환경의 호스트도 비활성 활동을 표시합니다.
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 보고를 위한 기본 환경 설정 {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 모든 활동 보고서의 기본값으로 사용할 환경을 선택할 수 있습니다.
 
-[!UICONTROL Production]을(를) 기본값으로 사용하는 경우 알 수 없는 모든 호스트가 여기에 자동으로 추가되고 여기에서 나온 보고서 데이터가 기본 보고서 보기에 포함됩니다. 대신 &quot;깨끗한&quot; 환경을 작성하면 핵심 사이트/도메인만 포함됩니다.
+[!UICONTROL 프로덕션]을(를) 기본값으로 사용하는 경우 알 수 없는 모든 호스트가 여기에 자동으로 추가되고 여기에 있는 보고서 데이터가 기본 보고서 보기에 포함됩니다. 대신 &quot;깨끗한&quot; 환경을 작성하면 핵심 사이트/도메인만 포함됩니다.
 
 보고할 기본 환경을 설정하려면 다음을 수행하십시오.
 
-1. [!UICONTROL Environments] 목록에서 별 아이콘을 클릭합니다.
+1. [!UICONTROL 환경] 목록에서 별 아이콘을 클릭합니다
 
 >[!NOTE]
 >
@@ -68,20 +68,20 @@ ht-degree: 46%
 
 ## 환경 이름 변경 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. [!UICONTROL Environment] 목록에서 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
+1. [!UICONTROL 환경] 목록에서 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 1. 환경 이름을 변경합니다.
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 환경 삭제 {#section_737F8869612047868D03FC755B1223D3}
 
 더 이상 필요하지 않은 환경을 삭제할 수 있습니다.
 
-1. [!UICONTROL Environment] 목록에서 **[!UICONTROL Delete]** 아이콘을 클릭합니다.
-1. **[!UICONTROL Delete]**&#x200B;을(를) 클릭하여 삭제를 확인합니다.
+1. [!UICONTROL 환경] 목록에서 **[!UICONTROL 삭제]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 삭제]**&#x200B;를 클릭하여 삭제를 확인합니다.
 
 >[!NOTE]
 >
->[!UICONTROL Production] 환경은 삭제할 수 없지만 이름을 바꿀 수는 있습니다.
+>[!UICONTROL 프로덕션] 환경은 삭제할 수 없지만 이름을 바꿀 수는 있습니다.
 
 ## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."} 권장 사항: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링
 
@@ -89,7 +89,7 @@ ht-degree: 46%
 
 {{premium-note}}
 
-환경을 사용하여 카탈로그에 있는 사용 가능한 항목을 다양한 용도로 구분할 수 있습니다. 예를 들어 [!UICONTROL Development] 및 [!UICONTROL Production] 환경, 다른 브랜드 또는 다른 지역에 대해 호스트 그룹을 사용할 수 있습니다. 기본적으로 카탈로그 검색, 컬렉션 및 제외의 미리 보기 결과는 기본 호스트 그룹을 기반으로 합니다. (환경 필터를 사용하여 다른 호스트 그룹을 선택하여 결과를 미리 볼 수도 있습니다.) 기본적으로 항목을 만들거나 업데이트할 때 환경 ID를 지정하지 않는 한 새로 추가된 항목은 모든 호스트 그룹에서 사용할 수 있습니다.
+환경을 사용하여 카탈로그에 있는 사용 가능한 항목을 다양한 용도로 구분할 수 있습니다. 예를 들어 [!UICONTROL 개발] 및 [!UICONTROL 프로덕션] 환경, 다른 브랜드 또는 다른 지역에 호스트 그룹을 사용할 수 있습니다. 기본적으로 카탈로그 검색, 컬렉션 및 제외의 미리 보기 결과는 기본 호스트 그룹을 기반으로 합니다. (환경 필터를 사용하여 다른 호스트 그룹을 선택하여 결과를 미리 볼 수도 있습니다.) 기본적으로 항목을 만들거나 업데이트할 때 환경 ID를 지정하지 않는 한 새로 추가된 항목은 모든 호스트 그룹에서 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -101,10 +101,10 @@ ht-degree: 46%
 >[!NOTE]
 >선택한 환경을 변경한 후 검색을 클릭하여 반환된 결과를 업데이트해야 합니다.
 
-[!UICONTROL Environment] 필터는 Target UI의 다음 위치에서 사용할 수 있습니다.
+[!UICONTROL 환경] 필터는 Target UI의 다음 위치에서 사용할 수 있습니다.
 
-* 카탈로그 검색([!UICONTROL Recommendations > Catalog Search])
-* 컬렉션 만들기 대화 상자([!UICONTROL Recommendations > Collections > Create New])
-* 컬렉션 업데이트 대화 상자([!UICONTROL Recommendations > Collections > Edit])
-* 제외 만들기 대화 상자([!UICONTROL Recommendations > Exclusions > Create New])
-* 제외 업데이트 대화 상자([!UICONTROL Recommendations > Exclusions > Edit])
+* 카탈로그 검색([!UICONTROL 권장 사항 > 카탈로그 검색])
+* 컬렉션 만들기 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 새로 만들기])
+* 컬렉션 업데이트 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 편집])
+* 제외 만들기 대화 상자([!UICONTROL 권장 사항 > 제외 > 새로 만들기])
+* 제외 업데이트 대화 상자([!UICONTROL 권장 사항 > 제외 > 편집])

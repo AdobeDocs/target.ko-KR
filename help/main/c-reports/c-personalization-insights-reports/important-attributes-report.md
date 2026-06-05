@@ -1,6 +1,6 @@
 ---
 keywords: 타기팅;AP 보고서;자동화된 개인화 보고서;자동 타깃;자동 타깃;자동 타깃 보고서;자동 타깃 보고서;개인화;인사이트;faq;자주 묻는 질문;중요 속성
-description: 개인화 모델 및 상대적 중요도에 영향을 준 상위 특성을 보여 주는 [!UICONTROL Important Attributes] 보고서를 사용하는 방법을 알아봅니다.
+description: 개인화 모델에 영향을 준 상위 특성 및 상대적 중요도를 보여 주는 [!UICONTROL 중요 특성] 보고서를 사용하는 방법을 알아봅니다.
 title: 중요 속성 보고서란 무엇입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
@@ -22,14 +22,14 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1835
-ht-degree: 56%
+source-wordcount: 1937
+ht-degree: 61%
 
 ---
 
 # 중요 속성 보고서
 
-[!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target]&#x200B;(AT) 활동의 사용자가 사용할 수 있는 두 개의 전문 보고서 중 하나인 [!UICONTROL Important Attributes] 보고서에 대한 정보입니다.
+[!UICONTROL 중요 특성] 보고서에 대한 정보이며, 두 전문 보고서 중 하나는 [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟]&#x200B;(AT) 활동의 사용자가 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -37,44 +37,44 @@ ht-degree: 56%
 >
 >* AP 및 AT 활동은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에는 포함되지 않습니다.
 >
->* [!UICONTROL Personalization Insights] 보고서는 전환 최적화 목표를 사용하는 AP 및 AT 활동에만 사용할 수 있습니다. 활동이 이미 활성화된 후에 수익에서 전환하도록 최적화 목표가 변경된 활동도 지원되지 않습니다.
+>* [!UICONTROL Personalization 인사이트] 보고서는 전환 최적화 목표를 사용하는 AP 및 AT 활동에만 사용할 수 있습니다. 활동이 이미 활성화된 후에 수익에서 전환하도록 최적화 목표가 변경된 활동도 지원되지 않습니다.
 >
->* [!UICONTROL Personalization Insights] 보고서는 [!UICONTROL Report Metric] 드롭다운 목록에서 [!UICONTROL Primary Goal]을(를) 선택한 경우에만 사용할 수 있습니다.
+>* [!UICONTROL Personalization 인사이트] 보고서는 [!UICONTROL 보고서 지표] 드롭다운 목록에서 [!UICONTROL 기본 목표]를 선택한 경우에만 사용할 수 있습니다.
 >
 >* [!UICONTROL Personalization Insights] 보고서는 [기본 환경](/help/main/administrating-target/hosts.md)에서만 지원됩니다.
 >
->* [!UICONTROL Personalization Insights] 보고서는 [!UICONTROL Live] 상태이고 적어도 15일 동안 활성화되어 트래픽을 받는 활동에 대해서만 생성됩니다.
+>* [!UICONTROL Personalization 인사이트] 보고서는 [!UICONTROL Live] 상태이고 적어도 15일 동안 활성화되어 트래픽을 받는 활동에 대해서만 생성됩니다.
 
 다른 활동에서 다른 속성은 모델이 개인화를 결정하는 방법에 대해 더 중요하거나 덜 중요합니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
 
-## [!UICONTROL Important Attributes] 보고서 액세스 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## [!UICONTROL 중요 특성] 보고서 액세스 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭한 다음 목록에서 원하는 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 활동을 클릭합니다.
+1. **[!UICONTROL 활동]**&#x200B;을 클릭한 다음, 목록에서 원하는 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 활동을 클릭합니다.
 
-   많은 활동이 있는 경우 필터( ![필터 아이콘](/help/main/assets/icons/Filter.svg) ) 아이콘을 클릭하여 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] 및 [!UICONTROL Activity Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링합니다.
+   많은 활동이 있는 경우 필터( ![필터 아이콘](/help/main/assets/icons/Filter.svg) ) 아이콘을 클릭하여 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 Source], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링합니다.
 
-1. **[!UICONTROL Reports]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 보고서를 클릭합니다]**.
 
-   활동의 성능에 대한 정보를 제공하는 [Automated Personalization 요약](/help/main/c-reports/personalization-reports/reports-ap.md) 또는 [자동 타겟 요약](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 보고서가 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 두 개의 [!UICONTROL Personalization Insights] 보고서를 나타냅니다. **[!UICONTROL Automated Segments]**(![자동화된 세그먼트 보고서](/help/main/assets/icons/AutomatedSegment.svg)) 및 **[!UICONTROL Important Attributes]**(![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg)).
+   활동의 성능에 대한 정보를 제공하는 [Automated Personalization 요약](/help/main/c-reports/personalization-reports/reports-ap.md) 또는 [자동 타겟 요약](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 보고서가 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 두 개의 [!UICONTROL Personalization Insights] 보고서를 나타냅니다. **[!UICONTROL 자동화된 세그먼트]**( ![자동화된 세그먼트 보고서](/help/main/assets/icons/AutomatedSegment.svg)) 및 **[!UICONTROL 중요 특성]**( ![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg)).
 
 
-   [!UICONTROL Auto-Target]에는 [!UICONTROL Summary] 보고서의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다.
+   [!UICONTROL 자동 타겟]에는 [!UICONTROL 요약] 보고서의 그래픽 보기를 위한 추가 그래프 아이콘이 있습니다.
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL Important Attributes] 보고서는 활동을 활성화한 후 적어도 15일 이후에나 사용할 수 있습니다. 이 초기 기간 동안에는 이 보고서에 액세스하거나 [!UICONTROL Important Attributes] 아이콘을 클릭할 수 없습니다. 15일 이후에는 활동에 개인화된 트래픽이 충분하다고 가정하여 [!UICONTROL Important Attributes] 보고서를 사용할 수 있습니다.
+   >[!UICONTROL 중요 특성] 보고서는 활동을 활성화한 후 적어도 15일 이후에나 사용할 수 있습니다. 이 초기 기간에는 이 보고서에 액세스하거나 [!UICONTROL 중요 속성] 아이콘을 클릭할 수 없습니다. 15일 이후에는 활동에 개인화된 트래픽이 충분하다고 가정하여 [!UICONTROL 중요 특성] 보고서를 사용할 수 있습니다.
 
-1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL Important Attributes]**(![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg)) 아이콘을 클릭합니다.
+1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL 중요 특성]**(![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg)) 아이콘을 클릭합니다.
 
 1. 원하는 날짜 범위를 선택합니다.
 
-   [!UICONTROL Summary] 보고서(성과 보고)와 달리 [!UICONTROL Important Attributes]을(를) 포함한 [!UICONTROL Personalization Insights]은(는) 고정 날짜 범위인 15일, 30일, 60일에 대해서만 사용할 수 있습니다.
+   [!UICONTROL 요약] 보고서(성과 보고)와 달리 [!UICONTROL 중요 특성]을(를) 포함한 [!UICONTROL Personalization 인사이트]는 고정 날짜 범위인 15일, 30일 및 60일에 대해서만 사용할 수 있습니다.
 
-   이러한 고정 날짜 범위를 사용하면 [!UICONTROL Personalization Insights]에서 충분히 큰 데이터 범위를 사용하여 활동의 단기 패턴에서 통찰력을 얻을 가능성을 줄일 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. &quot;시작&quot;은 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
+   이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. &quot;시작&quot;은 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
 
-   [!UICONTROL Preset Date Range] 드롭다운 목록에서 사용 가능한 고정 날짜 범위에 액세스할 수 있습니다.
+   [!UICONTROL 날짜 범위 사전 설정] 드롭다운 목록에서 사용 가능한 고정 날짜 범위에 액세스할 수 있습니다.
 
-1. [!UICONTROL Important Attributes] 보고서 데이터를 검토하십시오.
+1. [!UICONTROL 중요 속성] 보고서 데이터를 검토하십시오.
 
 1. (선택 사항) 다운로드 ( ![다운로드 아이콘](/help/main/assets/icons/Download.svg)) 아이콘을 클릭하여 Excel 및 기타 도구에서 분석할 보고서를 [CSV 형식으로 다운로드](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)합니다.
 
@@ -93,15 +93,15 @@ ht-degree: 56%
 
 ## 중요 속성 FAQ {#section_740910A52FA646B4AC9452F98C2F5719}
 
-[!UICONTROL Important Attributes] 보고서 사용에 대해 자주 묻는 질문에 대한 답변은 다음 FAQ를 참조하십시오.
+[!UICONTROL 중요 특성] 보고서 사용에 대해 자주 묻는 질문에 대한 답변은 다음 FAQ를 참조하십시오.
 
 ### Personalization Insights 보고서는 아직 내 활동에 사용할 수 없습니다. 이유는 무엇입니까?
 
-다음과 같은 여러 가지 이유로 활동에 [!UICONTROL Personalization Insights] 보고서를 아직 사용할 수 없습니다.
+다음과 같은 여러 가지 이유로 활동에 [!UICONTROL Personalization 인사이트] 보고서를 아직 사용하지 못할 수 있습니다.
 
 * 활동을 활성화한 후에 15일이 지나지 않았습니다. 자동화된 세그먼트 및 중요 속성 보고서는 활동을 활성화한 후 적어도 15일 이후에나 사용할 수 있습니다. 이 초기 기간에는 보고서에 액세스하거나 자동화된 세그먼트 및 중요 속성 아이콘을 클릭할 수 없습니다.
 * 사용자의 활동에 지정된 기간에 충분한 트래픽이 없습니다. 15일 이후에는 활동에 개인화 모델을 구축할 [개인화된 트래픽이 충분하다](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)고 가정하여 자동화된 세그먼트 및 중요 속성 보고서를 사용할 수 있습니다.
-* 활동에는 수입 최적화 목표가 있습니다. 현재 [!UICONTROL Personalization Insights]은(는) 전환 최적화 목표 활동에만 사용할 수 있습니다. 향후 릴리스에서 수익 최적화 목표 활동에 대한 지원을 추가할 예정입니다.
+* 활동에는 수입 최적화 목표가 있습니다. 현재 [!UICONTROL 개인화 인사이트]는 변환 최적화 목표 활동에만 사용할 수 있습니다. 향후 릴리스에서 수익 최적화 목표 활동에 대한 지원을 추가할 예정입니다.
 
 ### 속성이란 무엇입니까?
 
@@ -111,25 +111,25 @@ ht-degree: 56%
 
 ### 모델에서 교육에 사용하지 않으려는 하나 이상의 속성이 표시됩니다. 교육 모델에서 해당 속성을 제거할 수 있습니까? {#models-api}
 
-차단 목록에 추가하다 0 API라고도 하는 [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target]&#x200B;(AT) 활동을 위한 머신 러닝 모델에 사용되는 속성(기능이라고도 함)의 목록을 사용자가 관리할 수 있도록 해줍니다. [!UICONTROL Models API]AP 또는 AT 활동용 모델에서 하나 이상의 속성을 사용하지 못하도록 하려면 모델 API를 사용하여 이러한 속성을 &quot;차단 목록&quot;에 추가할 수 있습니다.
+차단 목록에 추가하다 API라고도 하는 [!UICONTROL 모델 API]를 통해 사용자는 [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟]&#x200B;(AT) 활동을 위한 머신 러닝 모델에 사용되는 특성(기능이라고도 함) 목록을 관리하고 관리할 수 있습니다. AP 또는 AT 활동용 모델에서 하나 이상의 속성을 사용하지 못하도록 하려면 모델 API를 사용하여 이러한 속성을 &quot;차단 목록&quot;에 추가할 수 있습니다.
 
 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [모델 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ko){target=_blank}를 참조하십시오. API를 사용하여 특성을 차단하려면 [모델 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=ko){target=_blank}를 참조하십시오.
 
-### [!UICONTROL Automated Segments] 및 [!UICONTROL Important Attributes] 보고서의 정보가 CSV 다운로드와 동일합니까?
+### [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 특성] 보고서의 정보가 CSV 다운로드와 동일합니까?
 
 아니요, UI 보고서에는 선택 정보가 포함되어 있습니다. CSV 다운로드에 추가 세부 사항이 포함되어 있습니다. 자동화된 세그먼트 인사이트 보고서 다운로드에는 UI에 포함된 최상위 세그먼트 외에 그러한 세그먼트가 오퍼 또는 경험에 대해 수행된 방식과 함께 추가 자동화 세그먼트가 포함되어 있습니다. 중요 속성 보고서에는 상위 100개 방문자 속성과 상대적 중요도가 포함되어 있지만, UI에는 상위 10개 방문자 속성만 포함되어 있습니다.
 
 ### 사용자 지정 날짜 범위에 대한 Personalization 인사이트를 볼 수 있습니까?
 
-Personalization Insights 보고([!UICONTROL Automated Segments] 및 [!UICONTROL Important Attributes] 모두)는 고정 날짜 범위인 15일, 30일, 45일, 60일 및 90일에 대해서만 사용할 수 있습니다. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL Personalization Insights]에서 충분히 큰 데이터 범위를 사용하여 활동의 단기 패턴에서 통찰력을 얻을 가능성을 줄일 수 있습니다. 종료 날짜에 대해 이러한 지속 시간을 선택할 수 있습니다(활동에 지속 시간을 충족할 충분한 데이터가 있는 경우).
+개인화 인사이트 보고([!UICONTROL 자동화된 세그먼트]와 [!UICONTROL 중요 속성] 모두)는 고정 날짜 범위(15일, 30일, 45일, 60일 및 90일)에만 사용할 수 있습니다. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 종료 날짜에 대해 이러한 지속 시간을 선택할 수 있습니다(활동에 지속 시간을 충족할 충분한 데이터가 있는 경우).
 
-### [!UICONTROL Personalization Insights]은(는) 어떻게 만들어집니까?
+### [!UICONTROL Personalization Insights]는 어떻게 만들어집니까?
 
-[!UICONTROL Personalization Insights]은(는) MAGIX(Model Agnostic Globally Interpretable Explanations)라는 Adobe 특허 출원 기술을 사용하여 만들어집니다. [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
+[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. &#x200B;] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
 
-### 매출 기반 모델링 목표/기본 목표에 [!UICONTROL Personalization Insights]을(를) 사용할 수 있습니까?
+### 수익 기반 모델링 목표/기본 목표에 [!UICONTROL Personalization Insights]를 사용할 수 있습니까?
 
-현재 [!UICONTROL Personalization Insights]은(는) 전환 최적화 목표 활동에만 사용할 수 있습니다. 향후 릴리스에서 수익 최적화 목표 활동에 대한 지원을 추가할 예정입니다.
+현재 [!UICONTROL 개인화 인사이트]는 변환 최적화 목표 활동에만 사용할 수 있습니다. 향후 릴리스에서 수익 최적화 목표 활동에 대한 지원을 추가할 예정입니다.
 
 ### 중요 속성 보고서에서 속성 중요도 점수란 무엇입니까?
 
@@ -161,4 +161,4 @@ Personalization Insights 보고([!UICONTROL Automated Segments] 및 [!UICONTROL 
 
 다음 문제는 현재 [!DNL Target] 엔지니어링 팀에서 조사하고 있습니다.
 
-* [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target]&#x200B;(AT) 활동에 대한 [!UICONTROL Important Attributes] 보고서에 [!DNL Adobe Experience Platform] 세그먼트 이름이 표시되지 않습니다. (TOP-3813)
+* [!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟]&#x200B;(AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)

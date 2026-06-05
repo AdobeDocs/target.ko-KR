@@ -1,6 +1,6 @@
 ---
 keywords: random forest;의사 결정 트리;ap;Automated Personalization
-description: ' [!DNL Adobe Target] 이(가) [!UICONTROL Automated Personalization]​(AP) 및 [!UICONTROL Auto-Target] 활동 모두에서 Random Forest 알고리즘을 사용하는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target] AP([!UICONTROL Automated Personalization]) 및 [!UICONTROL 자동 타겟] 활동 모두에서 Random Forest 알고리즘을 사용하는 방법에 대해 알아봅니다.'
 title: ' [!DNL Target] Random Forest 알고리즘을 사용하는 방법'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
@@ -13,18 +13,18 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1458
 ht-degree: 40%
 
 ---
 
 # Random Forest 알고리즘
 
-(AP) 및 [!DNL Auto-Target] 활동 모두에 사용되는 기본 개인화 알고리즘은 Random Forest입니다. Random Forest와 같은 앙상블 방법은 구성 학습 알고리즘 중 어느 것으로부터도 얻을 수 있는 것보다 더 나은 예측 성능을 얻기 위해 다중 학습 알고리즘을 사용한다. [!UICONTROL Automated Personalization]과(와) [!UICONTROL Auto-Target]의 Random Forest 알고리즘은 훈련할 때 다수의 의사 결정 트리를 구성하여 작동하는 분류 또는 회귀 방법입니다.
+(AP) 및 [!DNL Auto-Target] 활동 모두에 사용되는 기본 개인화 알고리즘은 Random Forest입니다. Random Forest와 같은 앙상블 방법은 구성 학습 알고리즘 중 어느 것으로부터도 얻을 수 있는 것보다 더 나은 예측 성능을 얻기 위해 다중 학습 알고리즘을 사용한다. [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target]의 Random Forest 알고리즘은 훈련될 때 다수의 의사 결정 트리를 구성하여 작동하는 분류 또는 회귀 방법입니다.
 
 통계를 생각하는 경우 결과를 예측하는 데 사용되는 단일 회귀 모델을 떠올릴 수도 있습니다. 최신 데이터 과학 연구에서는 동일한 데이터 세트에서 여러 모델이 만든 다음, 지능적으로 결합하는 &quot;Ensemble 방식&quot;이 하나의 모델만을 기반으로 한 예측하는 것보다 개선된 결과를 내놓는다고 말합니다.
 
-Random Forest 알고리즘은 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동에 사용되는 핵심 기본 개인화 알고리즘입니다. Random Forest는 수백 개의 결정 트리를 함께 결합하여 하나의 트리가 스스로 할 수 있는 것보다 더 나은 예측에 도달합니다.
+Random Forest 알고리즘은 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 활동에 사용되는 주요 기본 개인화 알고리즘입니다. Random Forest는 수백 개의 결정 트리를 함께 결합하여 하나의 트리가 스스로 할 수 있는 것보다 더 나은 예측에 도달합니다.
 
 ## 의사 결정 트리가 무엇입니까? {#section_7F5865D8064447F4856FED426243FDAC}
 
@@ -57,7 +57,7 @@ Random Forest 알고리즘은 [!UICONTROL Automated Personalization] 및 [!UICON
 
 ### 모델 구축 방법
 
-다음 다이어그램은 [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에 대해 모델을 만드는 방법을 요약합니다.
+다음 다이어그램은 [!UICONTROL 자동 타겟] 및 [!UICONTROL Automated Personalization] 활동에 대해 모델을 만드는 방법을 요약합니다.
 
 ![random_forest_flow 이미지](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
@@ -67,7 +67,7 @@ Random Forest 알고리즘은 [!UICONTROL Automated Personalization] 및 [!UICON
 1. [!DNL Target]에서 모델이 임계값 품질 점수를 충족하는지 확인합니다.
 1. [!DNL Target]이(가) 향후 트래픽을 개인화하기 위해 모델을 프로덕션으로 푸시합니다.
 
-[!DNL Target]은(는) 자동으로 수집하는 데이터와 사용자가 제공한 사용자 지정 데이터를 사용하여 개인화 알고리즘을 만듭니다. 이러한 모델은 방문자에게 표시할 최고의 경험이나 오퍼를 예측합니다. 일반적으로 경험([!UICONTROL Auto-Target] 활동의 경우) 또는 오퍼([!UICONTROL Automated Personalization] 활동의 경우)마다 하나의 모델이 만들어집니다. 그런 다음 [!DNL Target]은(는) 가장 높은 예상 성공 지표(예: 전환율)를 산출하는 경험 또는 오퍼를 표시합니다. 이러한 모델은 예측에 사용하기 전에 무작위로 제공되는 방문에 대해 학습을 받아야 합니다. 그 결과, 활동이 처음 시작될 때 개인화 알고리즘이 준비되기 전까지는 개인화된 그룹에 있는 해당 방문자에게도 다른 경험이나 오퍼가 표시됩니다.
+[!DNL Target]은(는) 자동으로 수집하는 데이터와 사용자가 제공한 사용자 지정 데이터를 사용하여 개인화 알고리즘을 만듭니다. 이러한 모델은 방문자에게 표시할 최고의 경험이나 오퍼를 예측합니다. 일반적으로 경험당([!UICONTROL 자동 타겟] 활동인 경우) 또는 오퍼당([!UICONTROL Automated Personalization] 활동인 경우) 하나의 모델이 만들어집니다. 그런 다음 [!DNL Target]은(는) 가장 높은 예상 성공 지표(예: 전환율)를 산출하는 경험 또는 오퍼를 표시합니다. 이러한 모델은 예측에 사용하기 전에 무작위로 제공되는 방문에 대해 학습을 받아야 합니다. 그 결과, 활동이 처음 시작될 때 개인화 알고리즘이 준비되기 전까지는 개인화된 그룹에 있는 해당 방문자에게도 다른 경험이나 오퍼가 표시됩니다.
 
 각 모델은 활동에 사용되기 전에 방문자의 행동을 잘 예측하도록 검증되어야 합니다. 모델은 곡선 아래 면적(AUC)을 기반으로 검증된다. 유효성 검사가 필요하기 때문에 모델이 개인화된 경험을 제공하기 시작하는 정확한 시간은 데이터의 세부 정보에 따라 다릅니다. 실제로 트래픽 계획 용도로 제공하려는 경우, 각 모델이 유효해지기까지는 최소 전환 개수를 사용할 때보다 많은 시간이 소요됩니다.
 

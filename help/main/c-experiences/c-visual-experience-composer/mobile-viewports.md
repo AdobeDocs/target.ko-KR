@@ -12,8 +12,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1361
-ht-degree: 94%
+source-wordcount: 1379
+ht-degree: 93%
 
 ---
 
@@ -103,14 +103,14 @@ ht-degree: 94%
 
 경험을 작성하는 동시에 사용하고자 하는 모바일 뷰포트를 구성할 수 있습니다.
 
-1. **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL Mobile viewports configuration]** 섹션에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 모바일 뷰포트 구성]** 섹션에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
    ![뷰포트 추가](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    또는
 
-   기존 모바일 뷰포트의 구성을 변경하려면 해당 뷰포트를 선택한 다음 [!UICONTROL Edit]&#x200B;(연필) 아이콘을 클릭합니다.
+   기존 모바일 뷰포트의 구성을 변경하려면 해당 뷰포트를 선택한 다음 [!UICONTROL 편집]&#x200B;(연필 모양) 아이콘을 클릭합니다.
 
 1. 모바일 뷰포트의 이름을 입력합니다.
 
@@ -132,7 +132,7 @@ ht-degree: 94%
 
    [향상된 경험 작성기](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)를 사용하고 운영 체제를 선택하는 경우 [!DNL Target]은 사용자가 페이지를 볼 때 해당 장치를 에뮬레이트합니다. 예를 들어 반응형 사이트에 Android가 iOS와 다른 모양과 느낌이 있는 경우 [!DNL Target]은 그 비헤이비어를 모방합니다.
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
@@ -143,11 +143,11 @@ ht-degree: 94%
 모바일 뷰포트를 [!DNL Target] 활동에 추가하여 모바일 화면용 반응형 경험을 작성할 수 있습니다.
 
 1. [원하는 활동](/help/main/c-activities/activities.md)을 만듭니다.
-1. [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 **[!UICONTROL Settings]** 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL Add Mobile Viewports]**&#x200B;을(를) 선택합니다.
+1. [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)에서 **[!UICONTROL 설정]** 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL 모바일 뷰포트 추가]**&#x200B;를 선택합니다.
 
    ![모바일 뷰포트 옵션 추가](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. **[!UICONTROL Devices]** 아이콘을 클릭한 다음 모바일 뷰포트가 필요한 각 장치를 활성화합니다.
+1. **[!UICONTROL 장치]** 아이콘을 클릭한 다음 모바일 뷰포트가 필요한 각 장치를 활성화합니다.
 
    ![모바일 뷰포트 활성화](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 

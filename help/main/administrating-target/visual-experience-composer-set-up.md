@@ -25,16 +25,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 49%
+source-wordcount: 721
+ht-degree: 47%
 
 ---
 
-# [!UICONTROL Visual Experience Composer] 구성
+# [!UICONTROL 시각적 경험 작성기 구성]
 
-일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]&#x200B;(VEC)을(를) 구성합니다.
+일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 구성하십시오.
 
-[!UICONTROL Visual Experience Composer] 구성 페이지에 액세스하려면 **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**&#x200B;을(를) 클릭합니다.
+[!UICONTROL 시각적 경험 작성기] 구성 페이지에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]를 클릭하십시오.**
 
 {{permissions-update}}
 
@@ -44,7 +44,7 @@ ht-degree: 49%
 
 ## 일반 설정
 
-[!UICONTROL Visual Experience Composer]에 일반 설정을 지정할 수 있습니다.
+[!UICONTROL 시각적 경험 작성기]에 일반 설정을 지정할 수 있습니다.
 
 ![일반 설정 섹션](/help/main/administrating-target/assets/general-settings.png)
 
@@ -52,19 +52,19 @@ ht-degree: 49%
 
 ### 기본 URL
 
-[!UICONTROL Visual Experience Composer]에서 사용하는 기본 URL을 설정합니다. 이것은 홈 페이지와 같이 각 새 활동에 대한 경험을 설정할 때마다 사용되는 기본 페이지입니다. 기본 URL을 설정하지 않은 경우, 활동을 만들 때 각 활동의 URL을 입력해야 합니다.
+[!UICONTROL 시각적 경험 작성기]에서 사용되는 기본 URL을 설정합니다. 이것은 홈 페이지와 같이 각 새 활동에 대한 경험을 설정할 때마다 사용되는 기본 페이지입니다. 기본 URL을 설정하지 않은 경우, 활동을 만들 때 각 활동의 URL을 입력해야 합니다.
 
 ### 고급 경험 작성기 활성화 {#eec}
 
-iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트가 확장 버전과 호환되지 않을 수 있습니다. 원래 [!UICONTROL Visual Experience Composer]&#x200B;(으)로 되돌리려면 이 옵션을 선택 취소합니다. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
+iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트가 확장 버전과 호환되지 않을 수 있습니다. 원래 [!UICONTROL 시각적 경험 작성기]&#x200B;(으)로 되돌리려면 이 옵션을 선택 취소합니다. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
 
 자세한 내용은 [시각적 경험 작성기 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
 
-활동 수준에서 [!UICONTROL Enhanced Experience Composer]을(를) 활성화할 수도 있습니다.
+활동 수준에서 [!UICONTROL 향상된 경험 작성기]를 사용하도록 설정할 수도 있습니다.
 
 ### 혼합 콘텐츠 로드
 
-EEC([!UICONTROL Enhanced Experience Composer])를 사용하여 웹 사이트를 여는 동안 혼합 콘텐츠를 사용하도록 설정합니다. 이 옵션을 사용하면 [!DNL Target] 프록시 서버를 통해 정적 리소스를 로드하는 추가 오버헤드가 발생하지 않습니다.
+[!UICONTROL 향상된 경험 작성기]&#x200B;(EEC)를 사용하여 웹 사이트를 여는 동안 혼합 콘텐츠를 사용하도록 설정하십시오. 이 옵션을 사용하면 [!DNL Target] 프록시 서버를 통해 정적 리소스를 로드하는 추가 오버헤드가 발생하지 않습니다.
 
 이 옵션은 다음과 같은 경우에 유용합니다.
 
@@ -79,14 +79,14 @@ EEC([!UICONTROL Enhanced Experience Composer])를 사용하여 웹 사이트를 
 
 >[!NOTE]
 >
->[!UICONTROL Mobile Viewport Configuration] 설정은 [Target Premium](/help/main/c-intro/intro.md#premium) 기능입니다.
+>[!UICONTROL 모바일 뷰포트 구성] 설정은 [Target Premium](/help/main/c-intro/intro.md#premium) 기능입니다.
 
 
 경험을 미리 볼 때 사용할 장치를 추가할 수 있습니다. 각 장치에는 연결된 대상이 있습니다.
 
 ![모바일 뷰포트 구성 섹션](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-**[!UICONTROL Add]**&#x200B;을(를) 클릭하고, 모바일 뷰포트에 대한 수사적 이름을 지정하고, 너비와 높이를 지정하고, 원하는 운영 체제를 선택한 다음 [!UICONTROL Save]을(를) 클릭합니다.
+**[!UICONTROL 추가]**&#x200B;를 클릭하고, 모바일 뷰포트에 대한 수사적 이름을 지정하고, 너비와 높이를 지정하고, 원하는 운영 체제를 선택한 다음 [!UICONTROL 저장]을 클릭합니다.
 
 모바일 뷰포트를 추가하는 방법에 대한 내용은 [모바일 뷰포트 구성](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)을 참조하십시오.
 
@@ -106,13 +106,13 @@ EEC([!UICONTROL Enhanced Experience Composer])를 사용하여 웹 사이트를 
 
 ### 요소 클래스 사용
 
-기본적으로 [!DNL Target]은 요소 ID만 사용합니다. 그러나 페이지가 클래스를 사용하여 [!DNL Adobe Experience Manager]&#x200B;(으)로 작성된 페이지와 같은 요소를 식별하도록 디자인된 경우 [!UICONTROL Use element classes]도 선택해야 합니다.
+기본적으로 [!DNL Target]은 요소 ID만 사용합니다. 그러나 페이지가 [!DNL Adobe Experience Manager]&#x200B;(으)로 작성된 페이지와 같이 클래스를 사용하여 요소를 식별하도록 디자인된 경우 [!UICONTROL 요소 클래스 사용]도 선택해야 합니다.
 
 >[!NOTE]
 >
 >정확도를 위해 모든 작업을 수행했지만 클래스를 사용하면 오류가 발생할 수 있습니다. 어떤 옵션도 선택하지 않으면 정확도도 영향을 받습니다. 정확도 순서는 ID > 클래스 > 두 옵션을 모두 선택하지 않은 경우입니다. 항상 페이지를 테스트하여 선택기가 올바른지 확인해야 합니다.
 
-활동별로 이 설정을 재정의할 수 있습니다. [!UICONTROL Settings] 톱니바퀴 아이콘을 클릭한 다음 [!UICONTROL CSS Selectors]을(를) 선택하십시오. 이 기능은 여러 사이트가 서로 다르게 구성된 경우에 특히 유용합니다.
+활동별로 이 설정을 재정의할 수 있습니다. [!UICONTROL 설정] 톱니바퀴 아이콘을 클릭한 다음 [!UICONTROL CSS 선택기]를 선택합니다. 이 기능은 여러 사이트가 서로 다르게 구성된 경우에 특히 유용합니다.
 
 >[!NOTE]
 >
@@ -126,6 +126,6 @@ EEC([!UICONTROL Enhanced Experience Composer])를 사용하여 웹 사이트를 
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration] 메뉴 UI(이전 [!UICONTROL Setup])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오에서 설명하는 정보는 일반적으로 정확하지만 옵션이 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오는 곧 게시될 예정입니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오에서 설명하는 정보는 일반적으로 정확하지만 옵션이 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오는 곧 게시될 예정입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

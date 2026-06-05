@@ -17,8 +17,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: 703
-ht-degree: 33%
+source-wordcount: 723
+ht-degree: 32%
 
 ---
 
@@ -48,7 +48,7 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 *[!DNL *Targe]t UI 업데이트 FAQ**
 
-이 FAQ는 탐색 변경, 기능 위치 및 임시 UI 버전 전환 중단 등 새 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 일반적인 질문을 해결합니다. 마케터, 개발자 또는 관리자이든, 이 FAQ는 원활하게 전환하고 업데이트된 UI를 최대한 활용하는 데 도움이 됩니다.
+이 FAQ는 탐색 변경, 기능 위치 및 임시 UI 버전 전환 중단 등 새 [!DNL Target] UI 및 [!UICONTROL VEC(시각적 경험 작성기])에 대한 일반적인 질문을 해결합니다. 마케터, 개발자 또는 관리자이든, 이 FAQ는 원활하게 전환하고 업데이트된 UI를 최대한 활용하는 데 도움이 됩니다.
 
 [![자세히 알아보기 아이콘](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
@@ -95,14 +95,14 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 ## 마케터 {#marketers}
 
-- [[!UICONTROL Activities]](c-activities/activities.md): [!DNL Target] 활동을 설정, 관리 및 QA하는 방법을 설명합니다.
-- [[!UICONTROL Audiences]](c-target/target.md): 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정하는 방법을 설명합니다.
+- [[!UICONTROL 활동]](c-activities/activities.md): [!DNL Target] 활동을 설정, 관리 및 QA하는 방법을 설명합니다.
+- [[!UICONTROL 대상]](c-target/target.md): 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정하는 방법을 설명합니다.
 - [경험 및 오퍼](c-experiences/experiences.md): 방문자가 활동의 대상자 기준을 만족할 때 표시되는 콘텐츠를 지정하는 방법을 설명합니다.
 - [[!DNL Recommendations]](c-recommendations/recommendations.md): [!DNL Recommendations] 활동이 어떻게 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시하는지 설명합니다.
 
 ## 개발자 {#developers}
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko-KR){target=_blank}: 이 안내서는 [!DNL Target]을(를) 구현하기 위한 API 및 SDK 설명서를 포함하여 [!DNL Adobe Target] 개발자를 위한 리소스 및 안내서를 제공합니다.
+- [[!UICONTROL Adobe Target 개발자 안내서]](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko-KR){target=_blank}: 이 안내서는 [!DNL Target]을(를) 구현하기 위한 API 및 SDK 설명서를 포함하여 [!DNL Adobe Target] 개발자를 위한 리소스 및 안내서를 제공합니다.
 
 ## [!DNL Target] 및 [!DNL Adobe Experience Cloud] 관리자 {#admins}
 
@@ -110,15 +110,15 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 ## 분석가 {#analysts}
 
-- [[!UICONTROL Audiences]](c-target/target.md): 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정하는 방법을 설명합니다.
-- [[!UICONTROL Reports]](c-reports/reports.md): 활동의 성과를 해석하는 방법을 설명합니다.
+- [[!UICONTROL 대상]](c-target/target.md): 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정하는 방법을 설명합니다.
+- [[!UICONTROL 보고서]](c-reports/reports.md): 활동의 성과를 해석하는 방법을 설명합니다.
 
 ## QA 엔지니어 {#qa}
 
-- [[!UICONTROL Activities]](c-activities/activities.md): [!DNL Target] 활동을 설정, 관리 및 QA하는 방법을 설명합니다.
+- [[!UICONTROL 활동]](c-activities/activities.md): [!DNL Target] 활동을 설정, 관리 및 QA하는 방법을 설명합니다.
 
 ## 추가 리소스 {#additional}
 
 | Adobe [!DNL Target] 솔루션 도움말 | [!DNL Adobe Experience Cloud] 리소스 |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target] 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ko-KR){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko)</li><li>[[!DNL Experience Cloud] 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[[!DNL Experience Cloud] 도움말 홈](https://helpx.adobe.com/kr/support/experience-cloud.html)</li><li>[[!DNL Adobe] 교육 및 튜토리얼](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)</li></ul> |
+| <ul><li>[[!DNL Adobe Target] 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ko-KR){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target 커뮤니티 포럼]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko)</li><li>[[!DNL Experience Cloud] 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[[!DNL Experience Cloud] 도움말 홈](https://helpx.adobe.com/kr/support/experience-cloud.html)</li><li>[[!DNL Adobe] 교육 및 튜토리얼](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)</li></ul> |

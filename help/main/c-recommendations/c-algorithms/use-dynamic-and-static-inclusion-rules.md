@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1861
-ht-degree: 16%
+source-wordcount: 2258
+ht-degree: 14%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 16%
 
 ### 기준에 필터링 규칙 추가
 
-1. [기준을 만드는 중](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)(**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**) **[!UICONTROL Inclusion Rules]** 아래의 **[!UICONTROL Add Filtering Rule]**&#x200B;을(를) 클릭합니다.
+1. [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)(**[!UICONTROL 권장 사항] > [!UICONTROL 기준] > [!UICONTROL 기준 만들기] > [!UICONTROL 기준 만들기]**)에서 **[!UICONTROL 포함 규칙]**&#x200B;의 **[!UICONTROL 필터링 규칙 추가]**&#x200B;를 클릭합니다.
 
    ![필터링 규칙 추가](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
-1. &quot;권장 사항을 준수해야 하는 다른 규칙은 무엇입니까&quot; 상자에서 **정적 필터** 드롭다운 목록을 클릭한 다음 [!UICONTROL Static Filter] 드롭다운 목록에서 원하는 옵션을 선택합니다.
+1. &quot;권장 사항을 준수해야 하는 다른 규칙은 무엇입니까&quot; 상자에서 **정적 필터** 드롭다운 목록을 클릭한 다음 [!UICONTROL 정적 필터] 드롭다운 목록에서 원하는 옵션을 선택합니다.
 
    ![정적 필터 드롭다운 목록](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 
@@ -42,11 +42,11 @@ ht-degree: 16%
 
 ### 프로모션에 필터링 규칙 추가
 
-1. [프로모션을 만드는 중](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)에 **[!UICONTROL Promote by Attribute]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Add Filtering Rule]**&#x200B;을(를) 클릭합니다.
+1. [프로모션을 만드는 중](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)에 **[!UICONTROL 속성별 프로모션]**&#x200B;을 선택한 다음 **[!UICONTROL 필터링 규칙 추가]**&#x200B;를 클릭합니다.
 
 ## 필터 유형 {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-다음 섹션에는 기준 및 프로모션에 대한 [!UICONTROL Dynamic Filtering] 및 [!UICONTROL Filter by Value]의 필터링 옵션 유형이 나와 있습니다.
+다음 섹션에는 기준 및 프로모션에 대해 [!UICONTROL 동적 필터링] 및 [!UICONTROL 값별 필터링]의 필터링 옵션 유형이 나와 있습니다.
 
 ### 동적 필터링
 
@@ -64,9 +64,9 @@ ht-degree: 16%
 
 | 동적 필터링 옵션 | 세부 사항 |
 | --- | --- |
-| [[!UICONTROL Entity Attribute Matching]](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | 잠재적 권장 사항 항목의 풀을 사용자가 상호 작용한 특정 항목과 비교하여 동적으로 필터링합니다.<P>방문자가 즐겨 찾는 브랜드와 같이 방문자에게 가장 인기 있는 권장 사항을 표시하려는 경우 [!UICONTROL Entity Attribute Matching]을(를) 사용합니다. |
-| [[!UICONTROL Profile Attribute Matching]](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | 항목(엔티티)을 사용자 프로필에 있는 값과 비교하여 동적으로 필터링합니다.<P>크기 또는 즐겨찾기 브랜드와 같이 방문자 프로필에 저장된 값과 일치하는 권장 사항을 표시하려면 [!UICONTROL Profile Attribute Matching]을(를) 사용합니다. |
-| [[!UICONTROL Parameter Matching]](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | 항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 동적으로 필터링합니다.<P>페이지 매개 변수 또는 방문자의 매개 변수(예: 장치 차원 또는 지리적 위치)와 일치하는 콘텐츠를 추천하려면 [!UICONTROL Parameter Matching]을(를) 사용하십시오. |
+| [[!UICONTROL 엔티티 속성 일치]](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | 잠재적 권장 사항 항목의 풀을 사용자가 상호 작용한 특정 항목과 비교하여 동적으로 필터링합니다.<P>방문자가 즐겨 찾는 브랜드와 같이 방문자에게 가장 인기 있는 권장 사항을 표시하려면 [!UICONTROL 엔티티 속성 일치]를 사용하십시오. |
+| [[!UICONTROL 프로필 속성 일치]](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | 항목(엔티티)을 사용자 프로필에 있는 값과 비교하여 동적으로 필터링합니다.<P>크기 또는 즐겨찾기 브랜드와 같이 방문자의 프로필에 저장된 값과 일치하는 권장 사항을 표시하려면 [!UICONTROL 프로필 속성 일치]를 사용하십시오. |
+| [[!UICONTROL 매개 변수 일치]](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | 항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 동적으로 필터링합니다.<P>페이지 매개 변수 또는 방문자의 매개 변수(예: 장치 차원 또는 지리적 위치)와 일치하는 콘텐츠를 추천하려면 [!UICONTROL 매개 변수 일치]를 사용하십시오. |
 
 ### 값으로 필터링
 
@@ -74,7 +74,7 @@ ht-degree: 16%
 
 | 값으로 필터링 옵션 | 세부 사항 |
 | --- | --- |
-| [[!UICONTROL Static Filter]](/help/main/c-recommendations/c-algorithms/static-value.md) | 필터링할 하나 이상의 정적 값을 수동으로 입력합니다. |
+| [[!UICONTROL 정적 필터]](/help/main/c-recommendations/c-algorithms/static-value.md) | 필터링할 하나 이상의 정적 값을 수동으로 입력합니다. |
 
 ## 사용 가능한 연산자 {#operators}
 
@@ -88,25 +88,25 @@ ht-degree: 16%
 
 | 연산자 | 예 |
 | --- | --- |
-| [!UICONTROL equals any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | 동적 프로모션에서 &quot;equals&quot;(다음과 같음) 연산자를 사용할 경우, 방문자가 웹 사이트에서 항목을 보고 있으면(제품, 문서 또는 동영상 등) 다음 방법으로 다른 항목을 프로모션할 수 있습니다.<ul><li>동일 브랜드</li><li>동일한 범주</li><li>하우스 브랜드의 동일한 카테고리 및 AND</li><li>동일한 스토어</li></ul> |
-| [!UICONTROL does not equal any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | 동적 프로모션에서 &quot;[!UICONTROL does not equal any of]&quot; 연산자를 사용할 경우, 방문자가 웹 사이트에서 항목을 보고 있으면(제품, 문서 또는 동영상 등) 다음 방법으로 다른 항목을 프로모션할 수 있습니다.<ul><li>다른 TV 시리즈</li><li>다른 장르</li><li>다른 제품 시리즈</li><li>다른 스타일 ID</li></ul> |
-| [!UICONTROL is greater than or equal to any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;[!UICONTROL is greater than or equal to any of]&quot; 연산자를 사용하면 방문자가 웹 사이트(제품 등)에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>가격은 같거나 더 비쌉니다</li></ul> |
-| [!UICONTROL is less than or equal to any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;[!UICONTROL is less than or equal to an of]&quot; 연산자를 사용하면 방문자가 웹 사이트(제품 등)에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>비용은 동일하거나 더 저렴함</li><li>비용이 덜 드는 항목 제외</li></ul> |
-| [!UICONTROL contains any of]&#x200B;([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;[!UICONTROL contains any of]&quot; 연산자를 사용하면 방문자가 웹 사이트(제품 등)에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>제목에 동일한 브랜드 포함</li></ul> |
-| [!UICONTROL does not contain any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;다음 중 포함하는 항목 없음&quot; 연산자를 사용하는 경우, 방문자가 웹 사이트에서 항목을 보고 있으면(제품 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>제목에 욕설이 포함되어 있지 않음</li></ul> |
-| [!UICONTROL starts with any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;[!UICONTROL starts with an of]&quot; 연산자를 사용하면 방문자가 웹 사이트(제품 등)에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>iPhone으로 시작하는 제품 이름</li></ul> |
-| [!UICONTROL ends with any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;[!UICONTROL ends with an of]&quot; 연산자를 사용하면 방문자가 웹 사이트(제품 등)에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>콘텐츠는 영어를 나타내는 EN으로 끝납니다.</li></ul> |
-| [!UICONTROL is between]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching]에서 사용 가능) | 동적 프로모션에서 &quot;i[!UICONTROL s between]&quot; 연산자를 사용할 경우, 방문자가 웹 사이트에서 항목을 보고 있으면(제품, 문서 또는 동영상 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>더 비싼 가격</li><li>저렴한 가격</li><li>비용 더하기 또는 빼기 30%</li><li>같은 계절의 나중 에피소드</li><li>연속되는 선행 저서</li></ul> |
-| [!UICONTROL list contains an item in]<P>([!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching]에서 사용 가능) | 프로필 속성 일치에서 &quot;[!UICONTROL list contains an item in]&quot; 연산자를 사용하면 방문자가 웹 사이트에서 항목을 보고 있으면(제품, 문서 또는 동영상 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>방문자의 지리적 위치에 사용 가능</li></ul>**예**: 방문자의 지리적 영역에서만 사용할 수 있는 항목을 추천할 수 있습니다.<P>필터 규칙은 다음과 같을 수 있습니다.<P>`availableGeographies list contains an item in user.currentGeography`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [오른쪽](#caveats)에 목록이 필요합니다. |
-| [!UICONTROL list does not contain an item in]<P>([!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching]에서 사용 가능) | 프로필 속성 일치에서 &quot;[!UICONTROL list does not contain an item in]&quot; 연산자를 사용하면 방문자가 웹 사이트에서 항목을 볼 때(제품, 문서 또는 동영상 등) 다음과 같은 다른 항목을 제외할 수 있습니다.<ul><li>방문자가 본 마지막 10개 항목 목록</li></ul></ul>**예**: 방문자가 최근에 보고 관심이 없는 항목을 프로모션하지 않습니다.<P>필터링 규칙은 다음과 같을 수 있습니다.<P>`id is not contained in list user.lastViewedItems`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [오른쪽](#caveats)에 목록이 필요합니다. |
-| [!UICONTROL list contains an item in]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching]에서 사용 가능) | 프로필 속성 일치에서 &quot;[!UICONTROL list contains an item in]&quot; 연산자를 사용하면 방문자가 웹 사이트에서 항목을 보고 있을 때(스포츠 이벤트나 콘서트 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>방문자가 좋아하는 팀 중 하나와 연결됨</li></ul>**예**: 방문자가 좋아하는 팀 중 하나와 연결된 게임을 추천하려고 합니다.<P>필터링 규칙은 다음과 같을 수 있습니다.<P>` teamsPlaying list contains an item in user.favoriteTeams`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [양면](#caveats)에 목록이 필요합니다. |
-| [!UICONTROL list does not contain an item in]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching]에서 사용 가능) | 매개 변수 특성 일치에 &quot;[!UICONTROL list does not contain an item in]&quot; 연산자를 사용하면 방문자가 웹 사이트에서 항목을 볼 때(제품, 문서 또는 동영상 등) 다음과 같은 다른 항목을 제외할 수 있습니다.<ul><li>금지된 유형 목록에 포함됨</li></ul>**예**: 담배, 술과 같이 성인 방문자가 사용할 수 있는 항목을 제외하려는 경우<P>필터링 규칙은 다음과 같을 수 있습니다.<P>`itemType is not contained in list mbox.prohibitedTypes`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [양면](#caveats)에 목록이 필요합니다. |
-| [!UICONTROL list contains all items in]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching]에서 사용 가능) | 프로필 속성 일치에서 &quot;[!UICONTROL list does not contain an item in]&quot; 연산자를 사용하면 방문자가 웹 사이트에서 항목을 보고 있을 때(예: 구인 게시물 또는 레서피) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>스킬 세트 포함</li><li>필수 구성 요소 세트 포함</li></ul>**예 1**: 방문자에게 스킬 집합(Java, C++ 및 HTML)이 있다고 가정합니다. 카탈로그의 항목은 필요한 기술(Java 및 HTML)이 있는 작업입니다. 방문자에게 작업을 추천하기 전에 방문자의 프로필에 필요한 모든 기술이 포함되어 있는지 확인해야 합니다.<P>필터링 규칙은 다음과 같을 수 있습니다.<P>`profile.jobSeekerSkills contains all items in entity.requiredSkills`<P>**예 2**: 사용자에게 식료품 재료 목록이 있다고 가정합니다. 그 요리법에는 필요한 재료들의 목록이 있다. 방문자에게 레시피를 추천하기 전에 방문자 프로필에 필요한 모든 재료가 포함되어 있는지 확인해야 합니다.<P>필터링 규칙은 다음과 같을 수 있습니다.<P>`profile.ingredientsInPantry contains all items in recipe.ingredientsRequired`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [양면](#caveats)에 목록이 필요합니다. |
-| [!UICONTROL list does not contain all items in]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching]에서 사용 가능) | 엔터티 특성 일치에 &quot;[!UICONTROL list does not contain all items in]&quot; 연산자를 사용하면 방문자가 웹 사이트에서 항목을 볼 때(스포츠 이벤트나 콘서트 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>팀 집합을 포함하지 않음</li></ul>**예**: 스포츠 이벤트에 두 팀이 포함되어 있다고 가정합니다. 방문자의 프로필은 이 방문자가 이러한 팀에 대한 게임을 보고 싶어하지 않음을 나타냅니다. 이러한 팀이 플레이하는 경우 게임을 추천하지 않도록 해야 합니다.<P>필터링 규칙은 다음과 같을 수 있습니다.<P>`profile.leastfavoriteTeams does not contain all items in entity.teamsPlaying`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [양면](#caveats)에 목록이 필요합니다. |
+| [!UICONTROL 다음 중 1개 이상의 항목과 같음]<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치], [!UICONTROL 매개 변수 일치] 및 [!UICONTROL 정적 필터]에서 사용 가능) | 동적 프로모션에서 &quot;equals&quot;(다음과 같음) 연산자를 사용할 경우, 방문자가 웹 사이트에서 항목을 보고 있으면(제품, 문서 또는 동영상 등) 다음 방법으로 다른 항목을 프로모션할 수 있습니다.<ul><li>동일 브랜드</li><li>동일한 범주</li><li>하우스 브랜드의 동일한 카테고리 및 AND</li><li>동일한 스토어</li></ul> |
+| [!UICONTROL 다음 중 같은 항목 없음]<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치], [!UICONTROL 매개 변수 일치] 및 [!UICONTROL 정적 필터]에서 사용 가능) | 동적 프로모션에서 &quot;[!UICONTROL does not equal of]&quot;(다음 중 어느 것과도 같지 않음) 연산자를 사용할 경우, 방문자가 웹 사이트에서 항목을 보고 있으면(제품, 문서 또는 동영상 등) 다음 방법으로 다른 항목을 프로모션할 수 있습니다.<ul><li>다른 TV 시리즈</li><li>다른 장르</li><li>다른 제품 시리즈</li><li>다른 스타일 ID</li></ul> |
+| [!UICONTROL 이(가) 다음 중 하나보다 크거나 같음]<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치], [!UICONTROL 매개 변수 일치] 및 [!UICONTROL 정적 필터]에서 사용 가능) | &quot;[!UICONTROL 은(는) &#x200B;]&quot; 연산자보다 크거나 같습니다. 방문자가 웹 사이트에서 항목을 보고 있으면(제품 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>가격은 같거나 더 비쌉니다</li></ul> |
+| [!UICONTROL 이(가) 다음 중 하나보다 작거나 같음]<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치], [!UICONTROL 매개 변수 일치] 및 [!UICONTROL 정적 필터]에서 사용 가능) | &quot;[!UICONTROL 은(는) of]&quot; 연산자보다 작거나 같습니다. 방문자가 웹 사이트에서 항목을 보고 있으면(제품 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>비용은 동일하거나 더 저렴함</li><li>비용이 덜 드는 항목 제외</li></ul> |
+| [!UICONTROL 다음 중 하나를 포함합니다]&#x200B;([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치], [!UICONTROL 매개 변수 일치] 및 [!UICONTROL 정적 필터]에서 사용 가능) | &quot;[!UICONTROL contains any of]&quot; 연산자를 사용하면 방문자가 웹 사이트에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>제목에 동일한 브랜드 포함</li></ul> |
+| [!UICONTROL 하나도 포함 안 함]<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치], [!UICONTROL 매개 변수 일치] 및 [!UICONTROL 정적 필터]에서 사용 가능) | &quot;다음 중 포함하는 항목 없음&quot; 연산자를 사용하는 경우, 방문자가 웹 사이트에서 항목을 보고 있으면(제품 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>제목에 욕설이 포함되어 있지 않음</li></ul> |
+| [!UICONTROL 다음 중 하나로 시작]<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치], [!UICONTROL 매개 변수 일치] 및 [!UICONTROL 정적 필터]에서 사용 가능) | &quot;[!UICONTROL 다음 중 하나로 시작]&quot; 연산자를 사용하면 방문자가 웹 사이트에서 항목을 보고 있으면(제품 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>iPhone으로 시작하는 제품 이름</li></ul> |
+| [!UICONTROL 다음 중 하나로 끝남]<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치], [!UICONTROL 매개 변수 일치] 및 [!UICONTROL 정적 필터]에서 사용 가능) | &quot;[!UICONTROL 은(는) of]&quot; 연산자로 끝납니다. 방문자가 웹 사이트에서 제품 등의 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>콘텐츠는 영어를 나타내는 EN으로 끝납니다.</li></ul> |
+| [!UICONTROL 은(는)] 사이입니다.<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에서 사용 가능) | 동적 프로모션에서 &quot;i[!UICONTROL &#x200B; between]&quot; 연산자를 사용할 경우, 방문자가 웹 사이트에서 항목을 보고 있으면(제품, 문서 또는 동영상 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>더 비싼 가격</li><li>저렴한 가격</li><li>비용 더하기 또는 빼기 30%</li><li>같은 계절의 나중 에피소드</li><li>연속되는 선행 저서</li></ul> |
+| [!UICONTROL 목록에 &#x200B;]의 항목이 있습니다.<P>([!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에서 사용 가능) | &quot;[!UICONTROL list에는 프로필 속성 일치에 있는 &#x200B;]&quot; 연산자의 항목이 포함되어 있습니다. 방문자가 웹 사이트에서 항목을 보고 있으면(제품, 문서 또는 동영상 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>방문자의 지리적 위치에 사용 가능</li></ul>**예**: 방문자의 지리적 영역에서만 사용할 수 있는 항목을 추천할 수 있습니다.<P>필터 규칙은 다음과 같을 수 있습니다.<P>`availableGeographies list contains an item in user.currentGeography`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [오른쪽](#caveats)에 목록이 필요합니다. |
+| [!UICONTROL 목록에 &#x200B;]의 항목이 없습니다.<P>([!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에서 사용 가능) | &quot;[!UICONTROL list는 프로필 특성 일치에 있는 &#x200B;]&quot; 연산자의 항목을 포함하지 않습니다. 방문자가 웹 사이트에서 항목을 보고 있으면(제품, 문서 또는 동영상 등) 다음과 같은 다른 항목을 제외할 수 있습니다.<ul><li>방문자가 본 마지막 10개 항목 목록</li></ul></ul>**예**: 방문자가 최근에 보고 관심이 없는 항목을 프로모션하지 않습니다.<P>필터링 규칙은 다음과 같을 수 있습니다.<P>`id is not contained in list user.lastViewedItems`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [오른쪽](#caveats)에 목록이 필요합니다. |
+| [!UICONTROL 목록에 &#x200B;]의 항목이 있습니다.<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에서 사용 가능) | &quot;[!UICONTROL list에는 프로필 속성 일치에 있는 &#x200B;]&quot; 연산자의 항목이 포함되어 있습니다. 방문자가 웹 사이트에서 항목을 보고 있으면(스포츠 이벤트나 콘서트 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>방문자가 좋아하는 팀 중 하나와 연결됨</li></ul>**예**: 방문자가 좋아하는 팀 중 하나와 연결된 게임을 추천하려고 합니다.<P>필터링 규칙은 다음과 같을 수 있습니다.<P>` teamsPlaying list contains an item in user.favoriteTeams`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [양면](#caveats)에 목록이 필요합니다. |
+| [!UICONTROL 목록에 &#x200B;]의 항목이 없습니다.<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에서 사용 가능) | &quot;[!UICONTROL list는 매개 변수 특성 일치에 있는 &#x200B;]&quot; 연산자의 항목을 포함하지 않습니다. 방문자가 웹 사이트에서 항목을 보고 있으면(제품, 문서 또는 동영상 등) 다음과 같은 다른 항목을 제외할 수 있습니다.<ul><li>금지된 유형 목록에 포함됨</li></ul>**예**: 담배, 술과 같이 성인 방문자가 사용할 수 있는 항목을 제외하려는 경우<P>필터링 규칙은 다음과 같을 수 있습니다.<P>`itemType is not contained in list mbox.prohibitedTypes`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [양면](#caveats)에 목록이 필요합니다. |
+| [!UICONTROL 목록에 &#x200B;]의 모든 항목이 포함되어 있음<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에서 사용 가능) | &quot;[!UICONTROL 목록 사용 시 프로필 속성 일치에 &#x200B;]&quot; 연산자의 항목이 포함되지 않습니다. 방문자가 웹 사이트에서 항목을 보고 있으면(예: 구인 게시물 또는 레서피) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>스킬 세트 포함</li><li>필수 구성 요소 세트 포함</li></ul>**예 1**: 방문자에게 스킬 집합(Java, C++ 및 HTML)이 있다고 가정합니다. 카탈로그의 항목은 필요한 기술(Java 및 HTML)이 있는 작업입니다. 방문자에게 작업을 추천하기 전에 방문자의 프로필에 필요한 모든 기술이 포함되어 있는지 확인해야 합니다.<P>필터링 규칙은 다음과 같을 수 있습니다.<P>`profile.jobSeekerSkills contains all items in entity.requiredSkills`<P>**예 2**: 사용자에게 식료품 재료 목록이 있다고 가정합니다. 그 요리법에는 필요한 재료들의 목록이 있다. 방문자에게 레시피를 추천하기 전에 방문자 프로필에 필요한 모든 재료가 포함되어 있는지 확인해야 합니다.<P>필터링 규칙은 다음과 같을 수 있습니다.<P>`profile.ingredientsInPantry contains all items in recipe.ingredientsRequired`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [양면](#caveats)에 목록이 필요합니다. |
+| [!UICONTROL 목록에 &#x200B;]의 모든 항목이 없습니다.<P>([!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에서 사용 가능) | &quot;[!UICONTROL &quot; 목록을 사용하면 엔터티 특성 일치에 있는 &#x200B;]&quot; 연산자의 모든 항목이 포함되지 않습니다. 방문자가 웹 사이트에서 항목을 보고 있으면(스포츠 이벤트나 콘서트 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>팀 집합을 포함하지 않음</li></ul>**예**: 스포츠 이벤트에 두 팀이 포함되어 있다고 가정합니다. 방문자의 프로필은 이 방문자가 이러한 팀에 대한 게임을 보고 싶어하지 않음을 나타냅니다. 이러한 팀이 플레이하는 경우 게임을 추천하지 않도록 해야 합니다.<P>필터링 규칙은 다음과 같을 수 있습니다.<P>`profile.leastfavoriteTeams does not contain all items in entity.teamsPlaying`<P>**참고**: 이 연산자를 사용할 때는 규칙의 [양면](#caveats)에 목록이 필요합니다. |
 
-## [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching]별로 필터링할 때 빈 값을 처리 중 {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]로 필터링할 때 빈 값을 처리합니다. {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-종료 기준 및 프로모션을 위해 [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] 기준으로 필터링할 때 빈 값을 처리하는 여러 옵션을 선택할 수 있습니다.
+종료 기준 및 프로모션에 대해 [!UICONTROL 엔티티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]로 필터링할 때 빈 값을 처리하는 여러 옵션을 선택할 수 있습니다.
 
 이전에는 값이 비어 있으면 결과가 반환되지 않았습니다. &quot;*x*&#x200B;이(가) 비어 있는 경우&quot; 드롭다운 목록에서는 다음 그림과 같이 기준에 빈 값이 있을 경우 수행할 적절한 작업을 선택할 수 있습니다.
 
@@ -116,10 +116,10 @@ ht-degree: 16%
 
 | 액션 | 사용 가능한 경우 | 세부 사항 |
 |--- |--- |--- |
-| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] | 이 작업은 [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching]의 기본값입니다.<P>이 선택 사항은 규칙이 무시되도록 지정합니다. 예를 들어 세 개의 필터링 규칙이 있고 세 번째 규칙이 어떤 값도 전달하지 않는 경우, 결과를 반환하는 대신 빈 값으로 세 번째 규칙을 무시할 수 있습니다. |
-| [!UICONTROL Do not show any results for this criteria]<P>(기준만) | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] | 이 작업은 [!UICONTROL Entity Attribute Matching]의 기본값입니다.<P>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이(가) 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
-| [!UICONTROL 항목을 프로모션하지 않음<P>(프로모션만 해당)] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] | 이 작업은 [!UICONTROL Entity Attribute Matching]의 기본값입니다.<P>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이(가) 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
-| [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] | 값이 비어 있으면 정적 값을 사용하도록 선택할 수 있습니다. |
+| [!UICONTROL 이 필터링 규칙 무시] | [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에 대한 기본값입니다.<P>이 선택 사항은 규칙이 무시되도록 지정합니다. 예를 들어 세 개의 필터링 규칙이 있고 세 번째 규칙이 어떤 값도 전달하지 않는 경우, 결과를 반환하는 대신 빈 값으로 세 번째 규칙을 무시할 수 있습니다. |
+| [!UICONTROL 이 조건에 대한 결과를 표시하지 않음]<P>(기준만) | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 엔터티 특성 일치]에 대한 기본값입니다.<P>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이(가) 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
+| [!UICONTROL 항목을 프로모션하지 않음<P>(프로모션만 해당)] | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 엔터티 특성 일치]에 대한 기본값입니다.<P>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이(가) 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
+| [!UICONTROL 정적 값 사용] | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 값이 비어 있으면 정적 값을 사용하도록 선택할 수 있습니다. |
 
 ## 주의 사항 {#caveats}
 

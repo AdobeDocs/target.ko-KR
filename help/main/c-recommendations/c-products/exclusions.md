@@ -1,7 +1,7 @@
 ---
 keywords: 제외
 description: ' [!DNL Target Recommendations] 에서 제외를 만들어 제품 또는 콘텐츠를 방문자에게 추천하지 않도록 하는 방법에 대해 알아봅니다.'
-title: '[!UICONTROL Recommendations] 활동에서 제외를 사용하려면 어떻게 합니까?'
+title: '[!UICONTROL 권장 사항] 활동에서 제외를 사용하는 방법은 무엇입니까?'
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 511
-ht-degree: 14%
+source-wordcount: 527
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 제품 또는 콘텐츠가 방문자에게 추천되지 않도록 하려면 [!DNL Adobe Target Recommendations]에서 제외를 만드십시오. 제외는 방문자에게 권장해서는 안 되는 제품 또는 콘텐츠의 하위 집합입니다.
 
-제외는 전체 계정에서 사용할 수 있습니다. [!UICONTROL Recommendations] 활동을 만들 때 각 경험에 대해 특정 컬렉션을 지정하는 컬렉션과 달리 계정의 모든 활동에는 제외가 적용됩니다. 활동을 만드는 동안 제외 그룹을 할당할 수 있는 옵션이 없습니다.
+제외는 전체 계정에서 사용할 수 있습니다. [!UICONTROL 권장 사항] 활동을 만들 때 각 경험에 대한 특정 컬렉션을 지정하는 컬렉션과 달리, 제외는 계정의 모든 활동에 적용됩니다. 활동을 만드는 동안 제외 그룹을 할당할 수 있는 옵션이 없습니다.
 
 제외를 사용하는 몇 가지 예는 다음과 같습니다.
 
@@ -39,21 +39,21 @@ ht-degree: 14%
 
 ## 제외 만들기
 
-1. 기존 제외 목록을 표시하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;을(를) 클릭합니다.
+1. 기존 제외 목록을 표시하려면 **[!UICONTROL 권장 사항]** > **[!UICONTROL 제외]**&#x200B;를 클릭하십시오.
 
-   [!UICONTROL Exclusions] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경) 내에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하는 방법에 대한 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [계획 및 구현 [!DNL Recommendations]](https://experienceleague.adobe.com/ko/docs/target-dev/developer/recommendations){target=_blank}을 참조하십시오.
+   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하는 방법에 대한 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [계획 및 구현 [!DNL Recommendations]](https://experienceleague.adobe.com/ko/docs/target-dev/developer/recommendations){target=_blank}을 참조하십시오.
 
-1. (조건부) 제외를 만들거나 업데이트하여 해당 환경에서 제외 콘텐츠를 미리 보는 동안 **[!UICONTROL Show Filters]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭한 다음 **[!UICONTROL Environment]** 드롭다운 목록에서 원하는 [환경](/help/main/administrating-target/environments.md)을(를) 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
+1. (조건부) 제외를 만들거나 업데이트하여 해당 환경에서 제외 콘텐츠를 미리 보는 동안 **[!UICONTROL 필터 표시]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭한 다음 **[!UICONTROL 환경]** 드롭다운 목록에서 원하는 [환경](/help/main/administrating-target/environments.md)을 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
-1. **[!UICONTROL Create Exclusion]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 제외 만들기]**&#x200B;를 클릭합니다.
 
-1. 제외 **[!UICONTROL Name]**&#x200B;을(를) 입력하고 선택적 설명을 입력하십시오.
+1. 제외 **[!UICONTROL 이름]**&#x200B;을(를) 입력하고 선택적 설명을 입력하십시오.
 
 1. 규칙 빌더를 사용하여 제외 항목을 만듭니다.
 
-   [!UICONTROL Rules] 목록에서 매개 변수를 선택하고 연산자를 선택한 다음 하나 이상의 값을 입력하여 제품을 식별하십시오. 여러 값을 입력할 경우에는 쉼표로 구분합니다.
+   [!UICONTROL 규칙] 목록에서 매개 변수를 선택하고 연산자를 선택한 다음 하나 이상의 값을 입력하여 제품을 식별하십시오. 여러 값을 입력할 경우에는 쉼표로 구분합니다.
 
-1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
 <!--
 ## Create an exclusion using Advanced Search
@@ -71,7 +71,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 제외 편집, 복사 또는 삭제
 
-목록에서 원하는 제외 옆에 있는 추가 작업 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 해당 아이콘([!UICONTROL Edit], [!UICONTROL Copy] 또는 [!UICONTROL Delete])을 클릭합니다.
+목록에서 원하는 제외 옆의 추가 작업 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭한 다음, 적절한 아이콘([!UICONTROL 편집], [!UICONTROL 복사] 또는 [!UICONTROL 삭제])을 클릭합니다.
 
 기존 제외를 복사하여 수정할 수 있는 중복 제외를 생성할 수 있습니다. 이 옵션을 사용하면 적은 노력으로 유사한 제외를 만들 수 있습니다.
 

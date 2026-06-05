@@ -20,8 +20,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 963
-ht-degree: 51%
+source-wordcount: 995
+ht-degree: 50%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 51%
 
 ## [!UICONTROL Target Standard] {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard]은(는) A/B 테스트 및 규칙 기반 타깃팅 활동을 시각적으로 만들고 관리할 수 있도록 하는 [!DNL Adobe Target]의 프런트 엔드입니다. [!DNL Target]은(는) [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC) 워크플로 내외부에서 사용자 지정 코드 삽입을 지원합니다. [!DNL Target Standard]은(는) 사이트와 [!DNL Target] 간의 모든 통신을 관리하는 각 페이지의 단일 코드 행으로 디지털 속성에 대한 간단한 구현 전략을 제공합니다.
+[!DNL Target Standard]은(는) A/B 테스트 및 규칙 기반 타깃팅 활동을 시각적으로 만들고 관리할 수 있도록 하는 [!DNL Adobe Target]의 프런트 엔드입니다. [!DNL Target]은(는) [[!UICONTROL VEC(시각적 경험 작성기]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)) 워크플로 내외부에서 사용자 지정 코드 삽입을 지원합니다. [!DNL Target Standard]은(는) 사이트와 [!DNL Target] 간의 모든 통신을 관리하는 각 페이지의 단일 코드 행으로 디지털 속성에 대한 간단한 구현 전략을 제공합니다.
 
 업계 모범 사례는 [!DNL Target Standard]에 통합되어 있어 새로운 사용자와 숙련된 사용자 모두에게 적합합니다. [!DNL Adobe Experience Cloud]을(를) 사용하여 데이터, 결과를 쉽게 공유하고 팀 구성원과 공동 작업할 수 있습니다.
 
@@ -41,25 +41,25 @@ ht-degree: 51%
 
 [!BADGE Premium]{type=Positive}
 
-[!DNL Target Premium]은(는) [!DNL Target Standard]에 프리미엄 기능을 추가하려면 라이선스가 필요한 고급 서비스입니다. [!DNL Target] 가이드의 모든 [!DNL Target Premium]개 문서에는 각 페이지 상단의 [!UICONTROL Premium] 배지나 영향을 받는 텍스트 근처의 인라인이 포함됩니다. [!UICONTROL Premium] 배지를 클릭할 수 있으며 이 섹션에 연결됩니다.
+[!DNL Target Premium]은(는) [!DNL Target Standard]에 프리미엄 기능을 추가하려면 라이선스가 필요한 고급 서비스입니다. [!DNL Target] 가이드의 모든 [!DNL Target Premium]개 문서에는 각 페이지 상단의 [!UICONTROL Premium] 배지 또는 영향을 받는 텍스트 근처의 인라인이 포함됩니다. [!UICONTROL Premium] 배지를 클릭할 수 있으며 이 섹션에 대한 링크입니다.
 
 **[!DNL Target Premium]에 포함된 기능:**
 
-### [!UICONTROL Automated Personalization]
+### [!UICONTROL 자동화된 개인화]
 
-[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)(AP)은 고급 머신 러닝 알고리즘을 사용하여 개인화된 경험을 제공하고 디지털 상호 작용에 대한 전환율을 개선합니다.
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)(AP)은 고급 기계 학습 알고리즘을 사용하여 개인화된 경험을 제공하고 디지털 상호 작용에 대한 전환율을 향상시킵니다.
 
 AP는 방문자 활동을 기록하여 유사한 방문자에게 콘텐츠를 타깃팅하기 위한 프로필을 빌드합니다. AP는 정교한 모델링을 사용하여 개별 및 모집단의 콘텐츠에 대한 응답을 추적하여 알려진 모든 사항을 기반으로 각 방문자를 자동으로 타깃팅합니다.
 
 AP는 사람의 분석을 최소화하면서 완전히 자동화되고 지속적으로 학습됩니다. 방문자가 관심을 가질 만한 제품, 방문자 프로필의 정보 수집 및 저장을 결정하는 모델을 구축합니다. 여러 알고리즘을 통해 시스템에 가장 적합한 모델을 만들 수 있습니다.
 
-### [!UICONTROL Auto-Target]
+### [!UICONTROL 자동 타깃팅]
 
-[자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)은(는) 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 경험을 식별합니다. 그런 다음 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다. [!UICONTROL Auto-Target]은(는) 콘텐츠를 개인화하고 전환하는 데 도움이 됩니다.
+[자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)은(는) 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 경험을 식별합니다. 그런 다음 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다. [!UICONTROL 자동 타겟]은(는) 콘텐츠를 개인화하고 전환하는 데 도움이 됩니다.
 
 ### 권장 사항
 
-[권장 사항](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) 활동은 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. [!UICONTROL Recommendations]은(는) 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
+[권장 사항](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) 활동은 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. [!UICONTROL 권장 사항]은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 
 권장 사항은 사이트에서의 고객의 활동에 따라 고객에게 제품을 제안하는 방법을 결정합니다. 예:
 
@@ -77,18 +77,18 @@ AP는 사람의 분석을 최소화하면서 완전히 자동화되고 지속적
 
 ### 오퍼로서의 추천
 
-[오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)을(를) 사용하면 [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동 내에 권장 사항을 포함할 수 있습니다.
+[오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)를 사용하면 [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당], [!UICONTROL 자동 타겟] 및 [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동 내에 권장 사항을 포함할 수 있습니다.
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해 줍니다.
 
 * 동일한 활동에서 권장 사항 및 비권장 사항 콘텐츠를 테스트하고 타기팅할 수 있습니다.
 * 권장 사항들의 순서를 포함하여 페이지에서의 권장 사항 배치를 쉽게 실험할 수 있습니다.
-* [!UICONTROL Auto-Allocate]을(를) 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동으로 푸시합니다.
-* [!UICONTROL Auto-Target]을(를) 사용하여 방문자를 개별 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.
+* [!UICONTROL 자동 할당]을 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동으로 푸시합니다.
+* [!UICONTROL 자동 타겟]을(를) 사용하여 방문자를 개별 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.
 
 ### Enterprise 사용자 권한
 
-[Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 기능을 사용하면 [!DNL Adobe Admin Console for Enterprise]의 &quot;제품 프로필&quot;이라는 다른 프로젝트를 생성할 수 있습니다. [!UICONTROL Enterprise User Permissions]을(를) 사용하면 각 프로젝트에 대해 해당 사용자의 액세스 권한을 지정하는 단일 사용자에 대해 서로 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과 고객은 사용자에 대한 보기, 편집, 승인 및 게시 액세스를 제한할 수 있습니다. 지역, 환경(개발/단계/프로덕션), 채널 또는 기타 맞춤형 기준에 따라 사용자를 제한할 수 있습니다.
+[Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 기능을 사용하면 [!DNL Adobe Admin Console for Enterprise]의 &quot;제품 프로필&quot;이라는 다른 프로젝트를 생성할 수 있습니다. [!UICONTROL Enterprise 사용자 권한]을(를) 사용하면 각 프로젝트에 대해 해당 사용자의 액세스 권한을 지정하는 단일 사용자에 대해 서로 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과 고객은 사용자에 대한 보기, 편집, 승인 및 게시 액세스를 제한할 수 있습니다. 지역, 환경(개발/단계/프로덕션), 채널 또는 기타 맞춤형 기준에 따라 사용자를 제한할 수 있습니다.
 
 ## Beta 기능 {#beta}
 

@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1083
+source-wordcount: 1089
 ht-degree: 32%
 
 ---
@@ -215,7 +215,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ![rec_key 이미지](assets/rec_key.png)
 
-[!DNL Recommendations] 활동을 만들 때 &quot;마지막으로 구매한 항목&quot;과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]은(는) [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 임의의 제품을 표시합니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
+[!DNL Recommendations] 활동을 만들 때 &quot;마지막으로 구매한 항목&quot;과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]은(는) [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)에 임의의 제품을 표시합니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
 
 ## 문자열 값에서 대체 수행 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -245,7 +245,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 템플릿 크기 사용자 지정 및 빈 값 확인 {#default}
 
-다음 템플릿은 [!DNL Velocity] 스크립트를 사용하여 엔터티 표시의 동적 크기 조정을 제어하므로 [!DNL Recommendations]에서 반환된 일치하는 엔터티가 충분하지 않은 경우 빈 HTML 요소를 만들지 않도록 일대다 결과를 수용합니다. 이 스크립트는 백업 권장 사항이 적합하지 않고 [!UICONTROL Partial Template Rendering]이(가) 활성화된 시나리오에 가장 적합합니다.
+다음 템플릿은 [!DNL Velocity] 스크립트를 사용하여 엔터티 표시의 동적 크기 조정을 제어하므로 [!DNL Recommendations]에서 반환된 일치하는 엔터티가 충분하지 않은 경우 빈 HTML 요소를 만들지 않도록 일대다 결과를 수용합니다. 이 스크립트는 백업 권장 사항이 적합하지 않고 [!UICONTROL 부분 템플릿 렌더링]이 활성화되어 있는 시나리오에 가장 적합합니다.
 
 다음 HTML 코드 조각은 4x2 기본 디자인에서 기존 HTML 부분을 대체합니다(간결성을 위해 CSS가 여기에 포함되지 않음).
 

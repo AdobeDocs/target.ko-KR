@@ -1,7 +1,7 @@
 ---
 keywords: 권장 사항 피드, 피드, SAINT, ftp, csv, 분류, 분석 분류
 description: 피드가 CSV 파일,  [!DNL Google Product Search] 피드 형식 및  [!DNL Analytics] 제품 분류를 사용하여  [!DNL Adobe Target] [!DNL Recommendations]에 엔티티를 가져오는 방법에 대해 알아봅니다.
-title: ' [!DNL Target Recommendations]에서 [!UICONTROL Feeds]을(를) 사용하는 방법'
+title: ' [!DNL Target Recommendations]에서 [!UICONTROL 피드]를 사용하려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
@@ -15,7 +15,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2643
+source-wordcount: 2725
 ht-degree: 36%
 
 ---
@@ -41,22 +41,22 @@ ht-degree: 36%
 
 항목 설명은 피드 또는 mbox를 사용하여 [!DNL Target]에 전달할 수 있습니다. [!DNL Target]이(가) 엔터티 피드와 mbox를 모두 사용하여 데이터를 수집하면 가장 최근 데이터가 성공합니다. 일반적으로 가장 최근의 데이터는 mbox가 더 자주 조회되므로 mbox에서 옵니다. 드물지만 개체 피드 데이터와 mbox 데이터가 동시에 조회되는 경우 mbox 데이터가 사용됩니다.
 
-[!UICONTROL Feeds] 목록( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**)에는 만들어진 피드에 대한 정보가 있습니다.
+[!UICONTROL 피드] 목록( **[!UICONTROL 권장 사항]** > **[!UICONTROL 피드]**)에는 사용자가 만든 피드에 대한 정보가 있습니다.
 
-[!UICONTROL Feeds] 페이지에 다음 열이 포함되어 있습니다.
+[!UICONTROL 피드] 페이지에는 다음 열이 포함되어 있습니다.
 
 * **이름**: 만드는 중에 지정된 피드의 이름입니다. 피드의 이름을 편집하려면 피드 자체를 편집해야 합니다. 피드를 새 이름으로 저장하면 피드가 새로 고쳐집니다.
 * **상태**: 피드의 현재 [상태](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)입니다.
 * **유형**: 유형에는 [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) 및 [Analytics 분류](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)가 포함됩니다.
 * **항목**: 피드에 있는 항목의 수를 표시합니다.
-* **일정**: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] 또는 [!UICONTROL Never] 피드의 업데이트 일정을 표시합니다.
+* **일정**: 피드에 대한 업데이트 일정을 표시합니다. [!UICONTROL 매일], [!UICONTROL 주별], [!DNL Every 2 Weeks] 또는 [!UICONTROL 절대 안 함].
 * **최근 업데이트**: 피드를 마지막으로 업데이트한 날짜와 시간, 피드를 업데이트한 사람의 이름을 표시합니다.
 
-[!UICONTROL Customize Table] 아이콘(![표 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg))을 클릭하여 표시할 열을 선택하거나 선택 취소합니다.
+[!UICONTROL 표 사용자 지정] 아이콘( ![표 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg))을 클릭하여 표시할 열을 선택하거나 선택 취소합니다.
 
-[!UICONTROL Information] 아이콘(![정보 아이콘](/help/main/assets/icons/InfoOutline.svg))을 클릭하여 마지막 업로드 날짜와 피드의 URL을 표시하는 카드를 표시합니다.
+[!UICONTROL 정보] 아이콘( ![정보 아이콘](/help/main/assets/icons/InfoOutline.svg) )을 클릭하여 마지막 업로드 날짜와 피드의 URL을 표시하는 카드를 표시합니다.
 
-[!UICONTROL More Actions] 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭하여 [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] 및 [!UICONTROL Delete] 작업에 액세스합니다.
+[!UICONTROL 추가 작업] 아이콘( ![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭하여 [!UICONTROL 비활성화], [!DNL Edit], [!UICONTROL 복사] 및 [!UICONTROL 삭제] 작업에 액세스합니다.
 
 >[!IMPORTANT]
 >
@@ -229,24 +229,24 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 > 다음 주의 사항에 유의하십시오.
 >
 >* 엔티티 속성에 대한 업데이트는 최대 24시간이 넘는 지연을 초래합니다.
->* [!DNL Target]은(는) [!UICONTROL Product Classifications]만 지원합니다. [!DNL Analytics] 제품 SKU는 [!DNL Recommendations] `entity.id`과(와) 동일한 수준에 매핑해야 합니다. 사용자 지정 [!DNL Analytics] 분류는 [!UICONTROL Adobe Consulting Services]을(를) 사용하여 제작할 수 있습니다. 질문이 있는 경우 계정 관리자에게 문의하십시오.
+>* [!DNL Target]은(는) [!UICONTROL 제품 분류]만 지원합니다. [!DNL Analytics] 제품 SKU는 [!DNL Recommendations] `entity.id`과(와) 동일한 수준에 매핑해야 합니다. 사용자 지정 [!DNL Analytics] 분류는 [!UICONTROL Adobe Consulting 서비스]를 사용하여 제작할 수 있습니다. 질문이 있는 경우 계정 관리자에게 문의하십시오.
 
 ## 피드 만들기 {#steps}
 
 [!DNL Recommendations]에 제품이나 서비스에 대한 정보를 삽입하는 피드를 작성합니다.
 
-1. [!DNL Target] 인터페이스 내에서 **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Target] 인터페이스 내에서 **[!UICONTROL 권장 사항]** > **[!UICONTROL 피드]** > **[!UICONTROL 피드 만들기]**&#x200B;를 클릭합니다.
 
 1. 피드의 수사적 이름을 지정합니다.
-1. **[!UICONTROL Source Type]** 선택.
+1. **[!UICONTROL Source 유형]**&#x200B;을(를) 선택하십시오.
 
    * [!UICONTROL CSV]
-   * [!UICONTROL Google Product Feed]
-   * [!UICONTROL Analytics Classifications]
+   * [!UICONTROL Google 제품 피드]
+   * [!UICONTROL Analytics 분류]
 
-   [!UICONTROL CSV] 및 [!UICONTROL Google Product Feed] 피드 유형에 대한 자세한 내용은 [피드 개요](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)를 참조하십시오. [모델 CSV 가이드를 다운로드](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)하여 피드의 형식을 올바르게 지정할 수도 있습니다.
+   [!UICONTROL CSV] 및 [!UICONTROL Google 제품 피드] 피드 유형에 대한 자세한 내용은 [피드 개요](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)를 참조하십시오. [모델 CSV 가이드를 다운로드](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)하여 피드의 형식을 올바르게 지정할 수도 있습니다.
 
-1. (조건부) **[!UICONTROL CSV]** 또는 **[!UICONTROL Google Product Feed]**&#x200B;을(를) 선택한 경우 피드에 액세스할 수 있는 위치를 지정하십시오.
+1. (조건부) **[!UICONTROL CSV]** 또는 **[!UICONTROL Google 제품 피드]**&#x200B;를 선택한 경우 피드에 액세스할 수 있는 위치를 지정하십시오.
 
    * **FTP**: FTP를 선택하는 경우 FTP 서버 정보, 로그인 자격 증명, 파일 이름 및 FTP 디렉토리를 제공하십시오. 보다 안전한 업로드를 위해 SSL을 사용하는 FTP(FTPS)를 사용할 수 있습니다.
 
@@ -259,30 +259,30 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
    * **URL**: [!UICONTROL URL]을(를) 선택하는 경우 URL을 지정하십시오.
 
-1. (조건부) **[!UICONTROL Analytics Classifications]**&#x200B;을(를) 선택한 경우 드롭다운 목록에서 보고서 세트를 선택합니다.
+1. (조건부) **[!UICONTROL Analytics 분류]**&#x200B;를 선택한 경우 드롭다운 목록에서 보고서 세트를 선택합니다.
 
-1. **[!UICONTROL Next]** 화살표를 클릭하여 [!UICONTROL Schedule] 옵션을 표시합니다.
+1. **[!UICONTROL 다음]** 화살표를 클릭하여 [!UICONTROL 일정] 옵션을 표시합니다.
 
 1. 업데이트 선택 사항을 선택합니다.
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 Weeks]
-   * [!UICONTROL Never]: 업데이트를 예약하지 마십시오. 이 피드를 실행하지 않으려면 이 항목을 선택하십시오.
+   * [!UICONTROL 매일]
+   * [!UICONTROL 주별]
+   * [!UICONTROL 2주마다]
+   * [!UICONTROL 절대 안 함]: 업데이트를 예약하지 않습니다. 이 피드를 실행하지 않으려면 이 항목을 선택하십시오.
 
 1. 피드를 실행할 시간을 지정합니다.
 
    이 선택 사항은 브라우저에서 사용되는 시간대를 기반으로 합니다. 다른 시간대의 시간을 사용하려면 시간대에 따라 시간을 계산해야 합니다.
 
-1. **[!UICONTROL Next]** 화살표를 클릭하여 [!UICONTROL Mapping] 옵션을 표시한 다음 데이터를 [!DNL Target] 정의에 매핑하는 방법을 지정합니다.
+1. **[!UICONTROL 다음]** 화살표를 클릭하여 [!UICONTROL 매핑] 옵션을 표시한 다음 데이터를 [!DNL Target] 정의에 매핑하는 방법을 지정합니다.
 
 1. (선택 사항) 피드가 환경(호스트 그룹)에 속하도록 하려면 호스트 그룹을 선택합니다.
 
    기본적으로 피드는 모든 호스트 그룹에 속합니다. 따라서 이 피드의 항목을 어떤 환경에서든 사용할 수 있습니다. 자세한 내용은 [호스트](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-피드를 만들거나 편집한 후 피드가 즉시 실행됩니다. 그러면 피드는 사용자가 설정한 매개 변수에 따라 업데이트됩니다. 정보가 나오려면 시간이 좀 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태는 [!UICONTROL Feeds] 목록의 [피드 상태](/help/main/c-recommendations/c-products/feeds.md#status)에 표시됩니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
+피드를 만들거나 편집한 후 피드가 즉시 실행됩니다. 그러면 피드는 사용자가 설정한 매개 변수에 따라 업데이트됩니다. 정보가 나오려면 시간이 좀 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태는 [!UICONTROL 피드] 목록의 [피드 상태](/help/main/c-recommendations/c-products/feeds.md#status)에 표시됩니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
 
 색인화가 진행 중인 동안 개별 값이 색인화되기 전에 제품 및 피드 헤더가 표시됩니다. 이렇게 하면 색인화가 완료되기 전에 컬렉션, 제외, 디자인 및 활동을 만들 수 있도록 제품을 검색하고 볼 수 있습니다.
 
@@ -298,19 +298,19 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 | 상태 | 설명 |
 |--- |--- |
-| [!UICONTROL Syncing] | 피드 설정 세부 정보가 [!DNL Target]에 저장되고 있습니다. |
-| [!UICONTROL Sync Failed] | 피드 설정 세부 정보를 [!DNL Target]에 저장할 수 없습니다. 다시 시도하십시오. |
-| [!UICONTROL No Feed Run] | 피드를 만들었지만 예약하지 않았습니다(빈도가 사용 안 함으로 설정됨). |
+| [!UICONTROL 동기화 중] | 피드 설정 세부 정보가 [!DNL Target]에 저장되고 있습니다. |
+| [!UICONTROL 동기화 실패] | 피드 설정 세부 정보를 [!DNL Target]에 저장할 수 없습니다. 다시 시도하십시오. |
+| [!UICONTROL 피드 실행 안 함] | 피드를 만들었지만 예약하지 않았습니다(빈도가 사용 안 함으로 설정됨). |
 | 예약 일시: *날짜 및 시간* | 피드가 실행되지 않았지만 지정된 날짜 및 시간에 실행되도록 예약되었습니다. |
-| [!UICONTROL Waiting for Download] | [!DNL Target]이(가) 피드 파일 다운로드를 준비하는 중입니다. |
-| [!UICONTROL Downloading Feed File] | [!DNL Target]이(가) 피드 파일을 다운로드하고 있습니다. |
-| [!UICONTROL Importing Items] | [!DNL Target]이(가) 피드 파일에서 항목을 가져오는 중입니다. |
-| 피드를 *시간 내에* 성공적으로 가져옴 | [!DNL Target]이(가) 피드 파일을 콘텐츠 전달 시스템으로 가져왔습니다. 항목 속성에 대한 변경 사항은 콘텐츠 전달 시스템에서 만들어졌으며, 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않으면 다시 시도하여 권장 사항이 포함된 페이지를 새로 고치십시오.<br>참고:<ul><li>항목의 속성에 대한 변경 사항으로 인해 항목이 권장 사항에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 특성을 변경하면 해당 항목이 권장 사항에서 더 이상 제외되지 *않습니다*. 이 경우 24시간 내에 다음 알고리즘 업데이트가 발생할 때까지 반영되지 않습니다.</li><li>이 상태가 표시되면 업데이트가 [!UICONTROL Catalog Search] UI에 아직 반영되지 않았을 수 있습니다. 검색 가능한 카탈로그가 마지막으로 업데이트된 시간을 나타내는 별도의 상태가 [!UICONTROL Catalog Search]에 나열됩니다.</li></ul> |
+| [!UICONTROL 다운로드 대기 중] | [!DNL Target]이(가) 피드 파일 다운로드를 준비하는 중입니다. |
+| [!UICONTROL 피드 파일 다운로드] | [!DNL Target]이(가) 피드 파일을 다운로드하고 있습니다. |
+| [!UICONTROL 항목 가져오기] | [!DNL Target]이(가) 피드 파일에서 항목을 가져오는 중입니다. |
+| 피드를 *시간 내에* 성공적으로 가져옴 | [!DNL Target]이(가) 피드 파일을 콘텐츠 전달 시스템으로 가져왔습니다. 항목 속성에 대한 변경 사항은 콘텐츠 전달 시스템에서 만들어졌으며, 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않으면 다시 시도하여 권장 사항이 포함된 페이지를 새로 고치십시오.<br>참고:<ul><li>항목의 속성에 대한 변경 사항으로 인해 항목이 권장 사항에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 특성을 변경하면 해당 항목이 권장 사항에서 더 이상 제외되지 *않습니다*. 이 경우 24시간 내에 다음 알고리즘 업데이트가 발생할 때까지 반영되지 않습니다.</li><li>이 상태가 표시되면 업데이트가 [!UICONTROL 카탈로그 검색] UI에 아직 반영되지 않았을 수 있습니다. 검색 가능한 카탈로그가 마지막으로 업데이트된 시간을 나타내는 별도의 상태가 [!UICONTROL 카탈로그 검색]에 나열됩니다.</li></ul> |
 | 부분 가져오기 실패 | 이전에는 모든 행이 업로드되지 않은 경우에도 피드가 성공으로 표시되었습니다. 따라서 피드가 성공적으로 표시되었을 때 모든 행이 업로드되었다는 잘못된 인상을 만듭니다.<P>다음은 부분 피드 가져오기가 발생할 수 있는 이유에 대한 시나리오입니다.<ul><li>프로덕션 환경에 대한 피드 파일(예: 100개 행)을 업로드했습니다.</li><li>피드가 실행되어 해당 행 중 80개를 업로드하고 잘못된 형식, 필드 초과 문자 등으로 인해 20개의 행을 삭제했습니다.</li><li>UI에서 피드가 성공으로 표시되어 100개의 행이 모두 업로드된 것처럼 보입니다.</li><li>활동 전달에 20개 제품 중 일부가 예상되지만 발생하지 않습니다.</li><li> 해당 제품에 대한 제품 세부 사항이 있는 피드를 업로드했기 때문에 이 시점에서 혼란스럽습니다. Entity API를 통해 쿼리할 때 백엔드에 표시되지 않는데, 이는 해당 API가 백엔드에 없음을 나타냅니다.</li></ul>이러한 혼동을 제거하기 위해 피드에 발생한 사항을 정확히 알 수 있도록 메시지가 개선됩니다. 성공으로 표시하기보다는 이제 부분 가져오기 실패로 표시됩니다. |
-| [!UICONTROL Failed to Index] | 색인 작업에 실패했습니다. 다시 시도하십시오. |
-| [!UICONTROL Server Not Found] | FTP 또는 URL 위치가 잘못되었거나 접속할 수 없습니다. |
+| [!UICONTROL 색인화 실패] | 색인 작업에 실패했습니다. 다시 시도하십시오. |
+| [!UICONTROL 서버를 찾을 수 없음] | FTP 또는 URL 위치가 잘못되었거나 접속할 수 없습니다. |
 
-피드를 업데이트하려면(예를 들어, 피드 구성이나 피드 파일 변경) 피드를 열고 원하는 대로 변경하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
+피드를 업데이트하려면(예를 들어, 피드 구성이나 피드 파일 변경) 피드를 열고 원하는 대로 변경하고 **[!UICONTROL 저장]**&#x200B;을 클릭하십시오.
 
 >[!IMPORTANT]
 >
@@ -318,7 +318,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### 피드 상태 표시기 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-[!UICONTROL Status] 열에 다음 피드 상태 표시기가 표시됩니다.
+[!UICONTROL 상태] 열에 다음 피드 상태 표시기가 표시됩니다.
 
 | 상태 표시기 | 설명 |
 |--- |--- |

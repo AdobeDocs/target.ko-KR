@@ -15,7 +15,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: 476
 ht-degree: 61%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 61%
 +++답변
 Analytics 활동을 정의할 때 보고서 세트를 선택하려면 Analytics 사용자 계정과 Target 사용자 계정 둘 다 필요합니다. 문서에 설명된 대로 사용자 계정을 구성해야 합니다. [사용자 권한 요구 사항](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)을 참조하세요.
 
-Analytics 및 Target에 액세스할 수 있는 Experience Cloud 그룹 중 하나에 소속되어 있고 모든 보고서 세트에 액세스할 수 있으면 **[!UICONTROL Create Activity]**&#x200B;에서 Analytics를 사용하여 A/B 테스트를 만드는 옵션이 표시됩니다.
+Analytics 및 Target에 액세스할 수 있는 Experience Cloud 그룹 중 하나에 소속되어 있고 모든 보고서 세트에 대해 액세스 권한이 있는 경우에는 **[!UICONTROL 활동 만들기]**&#x200B;에 Analytics를 사용하여 A/B 테스트를 만드는 옵션이 표시됩니다.
 
 제공 문제가 발생할 경우 A4T가 올바르게 제공되어 있는지 확인하십시오.
 

@@ -22,8 +22,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 74%
+source-wordcount: 1173
+ht-degree: 71%
 
 ---
 
@@ -38,7 +38,7 @@ RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](ht
 주요 기능은 다음과 같습니다.
 
 * 에지에서 Real-Time CDP/[!DNL Adobe Experience Platform]과 직접 [!DNL Target] 통합 ([!DNL Audience Core services] - AAM에 대한 종속성 제거)
-* [!UICONTROL Target Edge Destinations Card]&#x200B;(거버넌스 및 정책 시행 포함)
+* 거버넌스 및 정책 시행이 포함된 [!UICONTROL Target Edge 대상 카드]
 * Real-time CDP 세그먼트 및 공유 프로필 속성
 
 ## 구현 시나리오
@@ -58,12 +58,12 @@ RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](ht
 | <ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><li>에지를 통한 동일 페이지 개인화</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
 | <ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul><li>에지를 통한 동일 페이지 개인화</li><ul><li>[!DNL RTCDP] 세그먼트</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
 
-### [!UICONTROL at.js]과(와) [!DNL Platform Web SDK] 구현의 혼합
+### [!UICONTROL at.js]와(과) [!DNL Platform Web SDK] 구현의 혼합
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| <ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화<ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li></ul></li><li>동일 페이지 개인화<ul><li>[!DNL Platform Web SDK]가 포함된 모든 페이지의 경우</li></ul></li></ul> |
-| <ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul> |
+| <ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화<ul><li>[!UICONTROL at.js]가 있는 모든 페이지의 경우</li></ul></li><li>동일 페이지 개인화<ul><li>[!DNL Platform Web SDK]가 포함된 모든 페이지의 경우</li></ul></li></ul> |
+| <ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 있는 모든 페이지의 경우</li><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul> |
 
 ## 세그먼트 평가 시간
 
@@ -96,22 +96,22 @@ Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 오퍼 및 
 
 다음 사항을 고려하십시오.
 
-* 지정된 오퍼 내의 특성은 동일한 [!UICONTROL Experience Platform] 샌드박스의 특성이어야 합니다. 즉, 오퍼에는 다른 [!UICONTROL Experience Platform] 샌드박스의 특성을 포함할 수 없습니다.
+* 주어진 오퍼 내의 특성은 동일한 [!UICONTROL Experience Platform] 샌드박스의 특성이어야 합니다. 즉, 오퍼에는 다른 [!UICONTROL Experience Platform] 샌드박스의 특성을 포함할 수 없습니다.
 * 지정된 오퍼 내의 특성은 다른 소스, 즉 [!DNL Target] 프로필 및 [!UICONTROL Experience Platform] 프로필에서 가져올 수 있습니다. 즉, [!DNL Target] 또는 [!UICONTROL Experience Platform] 프로필에서 가져온 특성을 결합할 수 있습니다.
-* 오퍼를 정의할 때 특성에 명시적 값이 없는 경우 [!UICONTROL Real-Time CDP Profile Attributes]에 대한 기본값을 할당할 수 있습니다. 예를 들어 개인화 서비스에서 사용 중인 속성을 동의 또는 거버넌스 정책이 차단하는 경우 기본값을 대신 사용할 수 있습니다.
+* 오퍼를 정의할 때 [!UICONTROL Real-Time CDP 프로필 특성] 특성에 명시적 값이 없는 경우 기본값을 할당할 수 있습니다. 예를 들어 개인화 서비스에서 사용 중인 속성을 동의 또는 거버넌스 정책이 차단하는 경우 기본값을 대신 사용할 수 있습니다.
 * [!DNL Target]은(는) 오퍼에 사용할 [!DNL Adobe Experience Platform] 프로필 특성에 대해 &quot;문자열&quot; 데이터 형식만 지원합니다. &quot;Map&quot; 및 &quot;Array&quot; 유형 속성은 아직 지원되지 않습니다.
 
 ### JSON 샘플 사용 사례
 
-온라인 마케터라면 AEP/통합 프로필이 [!DNL Target]과 속성 값을 공유하여 실시간 개인화를 제공하기를 원할 수 있습니다. [!UICONTROL Real-Time CDP Profile Attributes]을(를) 사용하면 토큰 바꾸기를 사용하여 [!DNL Target] 오퍼에 [!UICONTROL Experience Platform] 특성 값을 표시할 수 있습니다. 예를 들어 `${aep.profile.favoriteColor}`을(를) 사용하여 고객이 선호하는 색상에 따라 개인화하거나 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}` 토큰을 사용하여 고객의 로열티 등급 및 로열티 포인트 값에 따라 개인화할 수 있습니다.
+온라인 마케터라면 AEP/통합 프로필이 [!DNL Target]과 속성 값을 공유하여 실시간 개인화를 제공하기를 원할 수 있습니다. [!UICONTROL Real-Time CDP 프로필 특성]을(를) 사용하면 토큰 바꾸기를 사용하여 [!DNL Target] 오퍼에 [!UICONTROL Experience Platform] 특성 값을 표시할 수 있습니다. 예를 들어 `${aep.profile.favoriteColor}`을(를) 사용하여 고객이 선호하는 색상에 따라 개인화하거나 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}` 토큰을 사용하여 고객의 로열티 등급 및 로열티 포인트 값에 따라 개인화할 수 있습니다.
 
 AEP/통합 프로필 속성을 [!DNL Target]과 공유하기 위한 JSON 오퍼를 만들려면 다음 작업을 수행하십시오.
 
-1. [JSON 오퍼를 만드는 중](/help/main/c-experiences/c-manage-content/create-json-offer.md) **[!UICONTROL Select a source]** 목록에서 **[!UICONTROL Adobe Experience Platform]**&#x200B;을(를) 선택하십시오.
-1. **[!UICONTROL Select a profile sandbox name]** 목록에서 원하는 샌드박스를 선택합니다.
-1. **[!UICONTROL Select a profile attribute]** 목록에서 원하는 특성을 선택합니다.
-1. (선택 사항) **[!UICONTROL Insert a default value]** 목록에서 원하는 값을 선택합니다.
-1. **[!UICONTROL Add]** 아이콘을 클릭합니다.
+1. [JSON 오퍼를 만드는 중](/help/main/c-experiences/c-manage-content/create-json-offer.md), **[!UICONTROL 소스 선택]** 목록에서 **[!UICONTROL Adobe Experience Platform]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL 프로필 샌드박스 이름 선택]** 목록에서 원하는 샌드박스를 선택합니다.
+1. **[!UICONTROL 프로필 특성 선택]** 목록에서 원하는 특성을 선택합니다.
+1. (선택 사항) **[!UICONTROL 기본 값 삽입]** 목록에서 원하는 값을 선택합니다.
+1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 다음 그림은 두 개의 프로필 속성(`loyalty.tier` 및 `loyalty.points`)이 JSON 오퍼에 추가되었음을 보여 줍니다.
 

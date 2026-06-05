@@ -30,7 +30,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2199
 ht-degree: 95%
 
 ---
@@ -151,7 +151,7 @@ Adobe 고객 성공 관리자인 Ramon Cespedes가 제시하는 개인화 제공
 
   이 세션에서는 다음에 대해 논의하여 [!DNL Adobe Target]의 새로운 기능을 활용하여 전환 상승도를 높이는 방법에 대해 알아보겠습니다.
 
-   * [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동 내의 향상된 모델 컨트롤
+   * [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 활동 내 향상된 모델 컨트롤
    * [!DNL Real-Time Customer Data Platform]의 [!DNL Adobe]에서 프로필 속성 및 고가치 세그먼트 평가 기능 사용
    * 브랜드가 AI 기반 알고리즘을 세부 조정하여 더 빠른 속도와 의사 결정을 전달하는 방법
    * 일대일 개인화 전달에 대한 고유한 사용 사례
@@ -174,7 +174,7 @@ Adobe 고객 성공 관리자인 Ramon Cespedes가 제시하는 개인화 제공
 
   교육 과정 맵:
 
-   * [!UICONTROL A/B Test], [!UICONTROL Multivariate Testing]&#x200B;(MVT), (XT), 자동화된 테스트 및 개인화
+   * [!UICONTROL A/B 테스트], [!UICONTROL Multivariate Testing]&#x200B;(MVT), (XT), 자동화된 테스트 및 개인화
    * 활동 설정에 대한 단계별 워크플로
    * 배치 경험 프리페치, 모바일에 대한 개인화 항시 활성화
    * 테스트에 대한 라이프사이클 지표 및 고객 경험 전반에 걸친 타겟팅

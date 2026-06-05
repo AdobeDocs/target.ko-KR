@@ -5,7 +5,7 @@ hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 3개월 이내에 릴리스를 베이스라인 또는 중단하도록 계획합니다.
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [릴리스 요청](request-a-release.md)
 * [전체 워크플로 릴리스](release-workflow-end-to-end.md)

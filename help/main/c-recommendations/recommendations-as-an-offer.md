@@ -12,23 +12,23 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 525
-ht-degree: 60%
+source-wordcount: 571
+ht-degree: 55%
 
 ---
 
 # 오퍼로서의 추천
 
-이제 [!UICONTROL A/B Test]&#x200B;([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함)과 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동 내에 권장 사항을 포함할 수 있습니다.
+이제 [!UICONTROL A/B 테스트]&#x200B;([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 포함)와 [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동 내에 권장 사항을 포함할 수 있습니다.
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해 줍니다.
 
 * 동일한 활동에서 권장 사항 및 비권장 사항 콘텐츠를 테스트하고 타기팅할 수 있습니다.
 * 권장 사항들의 순서를 포함하여 페이지에서의 권장 사항 배치를 쉽게 실험할 수 있습니다.
-* [!UICONTROL Auto-Allocate]을(를) 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동으로 푸시합니다.
-* [!UICONTROL Auto-Target]을(를) 사용하여 방문자를 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.
+* [!UICONTROL 자동 할당]을 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동으로 푸시합니다.
+* [!UICONTROL 자동 타겟]을(를) 사용하여 방문자를 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.
 
-시작하려면 [!UICONTROL Visual Experience Composer]을(를) 사용하여 [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting] 활동을 만들고 [!UICONTROL Insert Before], [!UICONTROL Insert After] 또는 [!UICONTROL Replace With] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
+시작하려면 [!UICONTROL 시각적 경험 작성기]를 사용하여 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타깃팅] 활동을 만들고 [!UICONTROL 다음 항목 앞에 삽입], [!UICONTROL 다음 항목 뒤에 삽입] 또는 [!UICONTROL 다음으로 바꾸기] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
 
 ## A/B 테스트 또는 XT 활동에서 오퍼로서 권장 사항 추가
 
@@ -38,7 +38,7 @@ ht-degree: 60%
    >
    >A/B 테스트의 경우 [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 선택 사항을 선택하여 트래픽을 가장 성과가 좋은 권장 사항에 자동 푸시하거나 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 선택 사항을 선택하여 방문자를 해당 프로필에 따라 맞춤 권장 사항 경험에 할당할 수 있습니다.
 
-1. [경험](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 만드는 동안 권장 사항을 오퍼로 추가할 요소를 클릭하고 **[!UICONTROL Replace Content]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Recommendation]**&#x200B;을(를) 선택합니다.
+1. [경험](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 만드는 동안 권장 사항을 오퍼로 추가할 요소를 클릭하고 **[!UICONTROL 콘텐츠 바꾸기]**&#x200B;를 클릭한 다음 **[!UICONTROL 권장 사항]**&#x200B;을 선택합니다.
 
    ![오퍼로서 권장 사항 삽입](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
@@ -53,26 +53,26 @@ ht-degree: 60%
    * 감사 페이지
    * 기타
 
-1. 원하는 [기준](/help/main/c-recommendations/c-algorithms/algorithms.md)을 선택한 다음 [!UICONTROL Next]을(를) 클릭합니다.
-1. 원하는 [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을 선택한 다음 [!UICONTROL Next]을(를) 클릭합니다.
-1. [!UICONTROL Options] 대화 상자에서 다음을 지정합니다.
+1. 원하는 [기준](/help/main/c-recommendations/c-algorithms/algorithms.md)을 선택한 후 [!UICONTROL 다음]을 클릭합니다.
+1. 원하는 [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을 선택한 후 [!UICONTROL 다음]을 클릭합니다.
+1. [!UICONTROL 옵션] 대화 상자에서 다음을 지정합니다.
 
    * [컬렉션](/help/main/c-recommendations/c-products/collections.md)을 선택합니다.
    * 필요에 따라 [전면 프로모션 및 후면 프로모션](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md) 선택 사항을 구성합니다.
 
-1. [!UICONTROL Save] 아이콘을 클릭합니다.
+1. [!UICONTROL 저장]을 클릭합니다.
 1. 안내가 있는 3가지 부분 워크플로를 사용하여 A/B 테스트 또는 XT 활동 구성을 완료합니다.
 
 ## 권장 사항 오퍼의 구성 편집
 
 오퍼의 구성을 편집할 수 있는 방법에는 두 가지가 있습니다.
 
-* [!UICONTROL Edit] 메뉴 사용
-* [!UICONTROL Modifications] 패널 사용
+* [!UICONTROL 편집] 메뉴 사용
+* [!UICONTROL 수정 사항] 패널 사용
 
 ### 편집 메뉴를 사용하여 권장 사항 오퍼 편집
 
-1. 편집할 오퍼를 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 편집할 오퍼를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
    ![추천 오퍼 편집](/help/main/c-recommendations/assets/recs-offer-edit.png)
 
@@ -87,8 +87,8 @@ ht-degree: 60%
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 편집
 
-1. [!UICONTROL Modifications] 아이콘 **( `</>` )**&#x200B;을(를) 클릭하여 [수정 사항](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
-1. 원하는 작업을 마우스로 가리킨 다음 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
+1. [!UICONTROL 수정 사항] 아이콘 **( `</>` )**&#x200B;을 클릭하여 [수정 사항](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
+1. 원하는 작업을 마우스로 가리킨 다음 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 
    ![수정 사항 패널](/help/main/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -98,25 +98,25 @@ ht-degree: 60%
 
 권장 사항 오퍼를 삭제하는 방법에는 두 가지가 있습니다.
 
-* [!UICONTROL Edit] 메뉴 사용
-* [!UICONTROL Modifications] 패널 사용
+* [!UICONTROL 편집] 메뉴 사용
+* [!UICONTROL 수정 사항] 패널 사용
 
 ### 편집 메뉴를 사용하여 권장 사항 오퍼 삭제
 
-1. 제거할 오퍼를 클릭한 다음 **[!UICONTROL Layout > Remove]**&#x200B;을(를) 클릭합니다.
+1. 제거할 오퍼를 클릭한 다음 **[!UICONTROL 레이아웃 > 제거]**&#x200B;를 클릭합니다.
 
    ![제거](/help/main/c-recommendations/assets/recs-offer-remove.png)
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 삭제
 
-1. [!UICONTROL Modifications] 아이콘 **( &lt;/> )**&#x200B;을(를) 클릭하여 [수정 사항](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
-1. 원하는 작업을 마우스로 가리킨 다음 [!UICONTROL Delete] 아이콘을 클릭합니다.
+1. [!UICONTROL 수정 사항] 아이콘 **( &lt;/> )**&#x200B;을 클릭하여 [수정 사항](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
+1. 원하는 작업을 마우스로 가리킨 다음 [!UICONTROL 삭제] 아이콘을 클릭합니다.
 
    ![삭제 아이콘](/help/main/c-recommendations/assets/recs-offer-delete.png)
 
 ### 권장 사항 오퍼 상태 보기 {#status}
 
-권장 사항 오퍼의 (알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 [!UICONTROL Overview] 페이지 하단에 표시됩니다.
+권장 사항 오퍼의 (알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 [!UICONTROL 개요] 페이지 하단에 표시됩니다.
 
 * 결과 준비
 * 결과가 준비되지 않음

@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 60%
+source-wordcount: 459
+ht-degree: 58%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 60%
 
 ## [!DNL Target Standard/Premium] 26.5.3(2026년 5월 21일)
 
-**[!UICONTROL What's new]페이지**
+**[!UICONTROL 새로운 기능] 페이지**
 
 +++세부 정보 보기
 
-* **새 [!UICONTROL What's new] 페이지** 제품을 종료하지 않고 최신 기능, 개선 사항 및 업데이트를 검색하는 데 도움이 되도록 [!DNL Adobe Target] UI에 새 **[!UICONTROL What's new]** 페이지를 추가했습니다. (TGT-55137)
+* **새 [!UICONTROL 새로운 기능] 페이지** 제품을 종료하지 않고 최신 기능, 개선 사항 및 업데이트를 검색하는 데 도움이 되도록 [!DNL Adobe Target] UI에 새 **[!UICONTROL 새로운 기능]** 페이지를 추가했습니다. (TGT-55137)
 
 +++
 
@@ -45,7 +45,7 @@ ht-degree: 60%
 
 +++세부 정보 보기
 
-* [!UICONTROL Automated Personalization] 활동에서 타깃팅을 편집할 때 **잘못된 경험이 선택되었습니다.** [!UICONTROL Automated Personalization]&#x200B;(AP) 활동에서 **[!UICONTROL Targeting]** 단계를 편집하는 동안 잘못된 경험을 선택할 수 있는 문제를 해결했습니다. (TGT-55176)
+* **[!UICONTROL Automated Personalization] 활동에서 타깃팅을 편집할 때 잘못된 경험이 선택되었습니다.** AP([!UICONTROL Automated Personalization]) 활동에서 **[!UICONTROL 타깃팅]** 단계를 편집하는 동안 잘못된 경험을 선택할 수 있는 문제를 해결했습니다. (TGT-55176)
 
 * **예약된 활동을 닫을 때 이전 날짜입니다.** 예약된 활동을 닫을 이전 날짜를 선택할 수 없는 문제가 수정되었습니다. (TGT-55163)
 

@@ -15,8 +15,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 428
-ht-degree: 52%
+source-wordcount: 444
+ht-degree: 55%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->이 기능은 [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) 범주에서만 사용할 수 있습니다.
+>이 기능은 [[!UICONTROL 방문자 프로필]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) 범주에서만 사용할 수 있습니다.
 
 ## 개요 {#section_303CBC78194D49A2A004945D425441E1}
 
-대상자는 [!DNL Target] 활동에서 포함되거나 제외되는 사용자를 결정하는 규칙으로 정의됩니다. 대상 정의에는 여러 규칙이 포함될 수 있으며 각 규칙에는 여러 매개 변수가 포함될 수 있습니다. 포함된 규칙 중 하나가 [!UICONTROL Visitor Profile] 범주를 사용하는 경우 방문자 프로필 특성의 특정 값을 기준으로 규칙을 정의하거나 해당 특성의 값을 다른 방문자 프로필 특성과 비교할 수 있습니다.
+대상자는 [!DNL Target] 활동에서 포함되거나 제외되는 사용자를 결정하는 규칙으로 정의됩니다. 대상 정의에는 여러 규칙이 포함될 수 있으며 각 규칙에는 여러 매개 변수가 포함될 수 있습니다. 포함된 규칙 중 하나가 [!UICONTROL 방문자 프로필] 범주를 사용하는 경우 방문자 프로필 특성의 특정 값을 기반으로 규칙을 정의하거나 해당 특성의 값을 다른 방문자 프로필 특성과 비교할 수 있습니다.
 
 예를 들어 가구 회사에 근무하면서 두 개의 고객 성향 점수를 [!DNL Target]에 업로드했다고 가정해 보겠습니다.
 
@@ -43,10 +43,10 @@ ht-degree: 52%
 
 ## 프로필 속성 비교 대상자 만들기 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 대상]** > **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
-1. **[!UICONTROL Visitor Profile]**&#x200B;을(를) 대상 빌더 창으로 끌어서 놓습니다.
-1. **[!UICONTROL Visitor Profile]** 드롭다운 목록에서 특성을 선택합니다.
+1. **[!UICONTROL 방문자 프로필]**&#x200B;을 대상 빌더 창으로 끌어서 놓습니다.
+1. **[!UICONTROL 방문자 프로필]** 드롭다운 목록에서 속성을 선택합니다.
 
    ![성향 점수 1](assets/propensity_score_1.png)
 
@@ -54,7 +54,7 @@ ht-degree: 52%
 
    ![성향 점수 2](assets/propensity_score_2.png)
 
-1. **[!UICONTROL Choose Comparison Type]** 드롭다운 목록에서 **[!UICONTROL Attribute]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 비교 유형 선택]** 드롭다운 목록에서 **[!UICONTROL 속성]**&#x200B;을 선택합니다.
 
    &quot;정적 값&quot; 비교 유형을 사용하면 방문자 프로필 속성을 특정 값과 비교할 수 있습니다.
 
@@ -68,7 +68,7 @@ ht-degree: 52%
 
    ![propensity_score_4 이미지](assets/propensity_score_4.png)
 
-1. **[!UICONTROL Done]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 완료를 클릭합니다]**.
 
 ## 교육 비디오 ![개요 배지](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 

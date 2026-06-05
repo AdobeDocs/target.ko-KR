@@ -13,8 +13,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 10%
+source-wordcount: 642
+ht-degree: 14%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 10%
 
 A4T 보고를 사용하는 별도의 [작업 영역](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)의 두 활동에 동일한 활동 이름을 사용하지 마십시오.
 
-[!DNL Target]을(를) 보고 소스로 사용하는 경우에는 이 기능이 지원되지만 [!UICONTROL Analytics for Target]을(를) 보고 소스로 사용하는 경우에는 두 활동에 동일한 활동 이름을 사용할 수 없습니다.
+이는 보고 소스로 [!DNL Target]을(를) 사용할 때는 지원되지만 보고 소스로 [!UICONTROL Analytics for Target]을(를) 사용할 때는 두 활동에 동일한 활동 이름을 사용할 수 없습니다.
 
 +++
 
 ## 목표 지표를 구성하는 동안 고급 설정에 액세스할 수 없는 이유는 무엇입니까?
 
 +++답변
-[!DNL Analytics]을(를) 보고 소스로 사용(A4T)하는 활동의 경우 목표 지표는 &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; 및 &quot;[!UICONTROL On Every Impression]&quot; 설정을 사용합니다. 이러한 설정은 *구성할 수 없습니다*.
+[!DNL Analytics]을(를) 보고 소스(A4T)로 사용하는 활동의 경우 목표 지표는 &quot;[!UICONTROL 증분 카운트 및 사용자를 활동에 유지]&quot; 및 &quot;[!UICONTROL 노출 시마다]&quot; 설정을 사용합니다. 이러한 설정은 *구성할 수 없습니다*.
 
 자세한 내용은 &quot;목표 지표를 구성하는 동안 고급 설정 옵션에 액세스할 수 없는 이유는 무엇입니까?&quot;를 참조하십시오. [지표 정의 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)에서.
 
@@ -59,16 +59,16 @@ A4T 보고를 사용하는 별도의 [작업 영역](/help/main/administrating-t
 ## 활동을 만들 때 Analytics를 보고 소스로 선택할 수 없는 이유는 무엇입니까? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++답변
-[!UICONTROL Administration]에서 [!UICONTROL Reporting Settings] 옵션을 변경할 수 있습니다.
+[!UICONTROL 관리]에서 [!UICONTROL 보고 설정] 옵션을 변경할 수 있습니다.
 
-1. [!DNL Target]에서 **[!UICONTROL Administration]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL Experience Cloud solution used for reporting]** 드롭다운 목록에서 **[!UICONTROL Select per Activity]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Target]에서 **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 보고에 사용된 Experience Cloud 솔루션]** 드롭다운 목록에서 **[!UICONTROL 활동당 선택]**&#x200B;을 클릭합니다.
 
 ![활동당 이미지 선택](assets/select-per-activity.png)
 
-**[!UICONTROL Goal & Settings]** 화면에서 **[!UICONTROL Reporting Source]** 드롭다운 목록을 사용하여 활동을 만들고 편집할 수 있습니다.
+**[!UICONTROL 보고 소스]** 드롭다운 목록이 **[!UICONTROL 목표 및 설정]** 화면에서 활성화되어 활동을 만들고 편집할 수 있습니다.
 
-항상 [!DNL Analytics]을(를) 보고 소스로 사용하려면 [!UICONTROL Administration]의 드롭다운 목록에서 **[!UICONTROL Adobe Analytics]**&#x200B;을(를) 선택하십시오.
+항상 [!DNL Analytics]을(를) 보고 소스로 사용하려면 [!UICONTROL 관리]의 드롭다운 목록에서 **[!UICONTROL Adobe Analytics]**&#x200B;을(를) 선택하십시오.
 
 +++
 
@@ -86,9 +86,9 @@ A4T 보고를 사용하는 별도의 [작업 영역](/help/main/administrating-t
 
 +++
 
-## [!UICONTROL Auto-Allocate] 활동의 최적화 목표로 적용된 세그먼트로 이항 [!DNL Analytics] 지표를 사용할 수 있습니까? {#binomial}
+## [!UICONTROL 자동 할당] 활동의 최적화 목표로 적용된 세그먼트로 이항 [!DNL Analytics] 지표를 사용할 수 있습니까? {#binomial}
 
 +++답변
-[!UICONTROL Auto-Allocate] 활동의 최적화 목표로 적용된 세그먼트에는 [!DNL Analytics] 지표를 사용할 수 없습니다. 해결 방법으로, 동일한 목표를 달성하는 사용자 정의 이벤트를 정의하고 이 이벤트를 최적화 목표 지표로 사용할 수 있습니다.
+[!UICONTROL 자동 할당] 활동에서 최적화 목표로 적용된 세그먼트로 [!DNL Analytics] 지표를 사용할 수 없습니다. 해결 방법으로, 동일한 목표를 달성하는 사용자 정의 이벤트를 정의하고 이 이벤트를 최적화 목표 지표로 사용할 수 있습니다.
 
 +++

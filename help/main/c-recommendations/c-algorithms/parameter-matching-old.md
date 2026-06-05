@@ -7,7 +7,7 @@ feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '353'
 ht-degree: 10%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 ## 매개 변수 일치 예
 
-[!UICONTROL Parameter Matching]에서는 다음 예제와 같이 페이지 매개 변수 또는 방문자의 매개 변수(예: 장치 차원 또는 지리적 위치)와 일치하는 콘텐츠를 추천할 수 있습니다.
+[!UICONTROL 매개 변수 일치]를 사용하면 다음 예제와 같이 페이지 매개 변수 또는 방문자의 매개 변수(예: 장치 차원 또는 지리적 위치)와 일치하는 콘텐츠를 추천할 수 있습니다.
 
 [!DNL Recommendations]은(는) [!DNL Target] 호출 시 전송된 매개 변수 값과 일치할 수 있습니다. 이 인스턴스에서 [!DNL Target]은(는) [!DNL Target] 호출에서 보낸 화면 높이 및 너비 매개 변수를 기반으로 방문자가 모바일 장치를 사용하고 있음을 감지하고 모바일 장치인 항목만 추천합니다.
 

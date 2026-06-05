@@ -5,7 +5,7 @@ hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 **개발자** 역할이 샌드박스에 추가되었습니다. 개발자는 대상에 사용자 ID를 추가하여 기능을 개인적으로 테스트할 수 있습니다. 외부 사용자에게 기능을 노출할 수 없습니다. **제품 릴리스 소유자** 역할을 사용하여 외부 사용자에게 기능을 릴리스하십시오. 역할을 업데이트하려면 팀 관리자에게 문의하십시오.
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [점진적으로 롤아웃할 기능 설정](set-feature-gradual-rollout.md)
 * [기능 그룹 만들기](create-a-feature-group.md)

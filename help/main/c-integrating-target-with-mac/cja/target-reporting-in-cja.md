@@ -24,8 +24,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 1417
-ht-degree: 35%
+source-wordcount: 1488
+ht-degree: 34%
 
 ---
 
@@ -45,10 +45,10 @@ ht-degree: 35%
 
 >[!IMPORTANT]
 >
->이 통합은 [[!UICONTROL Adobe Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)과(와) 다릅니다. 구현 및 지원되는 활동 유형이 다릅니다. [!DNL Target] 활동에 이 통합을 사용하기 전에 이 문서를 완전히 읽어야 합니다.
+>이 통합은 [[!UICONTROL Target용 Adobe Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)과 다릅니다. 구현 및 지원되는 활동 유형이 다릅니다. [!DNL Target] 활동에 이 통합을 사용하기 전에 이 문서를 완전히 읽어야 합니다.
 
 * [!DNL Target]용 보고 소스로서의 [!DNL Customer Journey Analytics]를 사용하려면 귀하 및 귀사 모두 [!DNL Customer Journey Analytics] 및 [!DNL Target]에 대한 액세스 권한을 보유해야 합니다. 솔루션에 액세스해야 하는 경우 조직의 관리자 또는 계정 담당자에게 문의하십시오.
-* [!DNL Customer Journey Analytics] 보고를 사용하여 [!DNL Target] 활동을 만들려면 [!DNL Target]에 &quot;[!UICONTROL Approver]&quot; 또는 &#39;[!UICONTROL Editor]&quot; 역할이 있어야 합니다.
+* [!DNL Customer Journey Analytics] 보고를 사용하여 [!DNL Target] 활동을 만들려면 [!DNL Target]에 &quot;[!UICONTROL 승인자]&quot; 또는 &#39;[!UICONTROL 편집기]&quot; 역할이 있어야 합니다.
    * [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 계정이 있는 경우 *사용자*&#x200B;에서 [역할 및 권한 지정](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)을 참조하십시오.
    * [Target Premium](/help/main/c-intro/intro.md#premium) 계정이 있는 경우 *Enterprise 사용자 권한*&#x200B;에서 [역할 및 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions)을 참조하십시오.
 
@@ -89,10 +89,10 @@ ht-degree: 35%
 
 >[!TIP]
 >
->[!DNL Target]이(가) 계정에서 만든 모든 활동에 대해 [!DNL Customer Journey Analytics]에서 보고를 사용하도록 지정할 수도 있습니다(**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**). 자세한 내용은 [보고 구성 [!DNL Target]](/help/main/administrating-target/reporting.md#solution)에서 *Reporting Cloud 솔루션*&#x200B;을 참조하십시오.
+>[!DNL Target]이(가) 귀하의 계정에서 만든 모든 활동에 대해 [!DNL Customer Journey Analytics]에서 보고를 사용하도록 지정할 수도 있습니다(**[!UICONTROL 관리]** > **[!UICONTROL 보고]** > **[!UICONTROL 보고 Experience Cloud 솔루션]**). 자세한 내용은 [보고 구성 [!DNL Target]](/help/main/administrating-target/reporting.md#solution)에서 *Reporting Cloud 솔루션*&#x200B;을 참조하십시오.
 
-1. **[!UICONTROL Activities]** 목록에서 **[!UICONTROL Create Activity]**&#x200B;을(를) 클릭한 다음 활동 유형(위의 [지원되는 활동 차트](#supported-activities)에 따라)을 선택하고 활동 설정을 시작합니다.
-1. 세 부분으로 구성된 활동 만들기 워크플로의 **[!UICONTROL Goals & Settings]** 페이지로 이동하면 **[!DNL Customer Journey Analytics]**&#x200B;을(를) 보고 소스로 선택합니다.
+1. **[!UICONTROL 활동]** 목록에서 **[!UICONTROL 활동 만들기]**&#x200B;를 클릭한 다음, 활동 유형(위의 [지원되는 활동 차트](#supported-activities)에 따라)을 선택하고 활동 설정을 시작합니다.
+1. 세 부분으로 구성된 활동 만들기 워크플로의 **[!UICONTROL 목표 및 설정]** 페이지로 이동하면 **[!DNL Customer Journey Analytics]**&#x200B;을(를) 보고 소스로 선택합니다.
 
    ![Customer Journey Analytics를 보고 소스로 사용하는 옵션](/help/main/c-integrating-target-with-mac/cja/assets/cja-as-reporting-source.png)
 
@@ -112,19 +112,19 @@ ht-degree: 35%
 
    ![목표 지표에서 Customer Journey Analytics 지표 옵션 사용](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 
-1. **[!UICONTROL Save & Close]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭합니다.
 
 ## [!DNL Customer Journey Analytics] 연결 설정
 
 [!DNL Target] 활동이 생성되면 [!DNL Customer Journey Analytics]에서 연결을 만들어야 합니다. 이미 연결이 있는 경우 기존 연결을 사용하여 아래 4단계로 건너뛸 수 있습니다. 해당 연결을 통해 [!DNL Customer Journey Analytics]가 보고를 위해 데이터 세트에서 데이터 가져오기를 시작할 수 있습니다.
 
-1. [!DNL Customer Journey Analytics]의 **[!UICONTROL Connections]** 페이지에서 **[!UICONTROL Create a new connection]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Customer Journey Analytics]의 **[!UICONTROL 연결]** 페이지에서 **[!UICONTROL 새 연결 만들기]**&#x200B;를 클릭합니다.
 
    [!DNL Customer Journey Analytics]![&#128279;](/help/main/c-integrating-target-with-mac/cja/assets/create-connection.png)에서 새 연결 링크 만들기
 
 1. 올바른 정보로 [연결 및 데이터 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview){target=_blank}을 구성하십시오.
 1. 데이터스트림을 구성할 때 사용한 이벤트 데이터 세트를 추가합니다.
-1. **[!UICONTROL Adobe Target Classification Events]** 조회 데이터 세트를 추가한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Adobe Target 분류 이벤트]** 조회 데이터 세트를 추가한 다음 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
    ![Customer Journey Analytics의 데이터 세트 추가 대화 상자](/help/main/c-integrating-target-with-mac/cja/assets/add-datasets.png)
 
@@ -140,7 +140,7 @@ ht-degree: 35%
 
    ![Customer Journey Analytics의 Adobe Target 분류 이벤트 대화 상자](/help/main/c-integrating-target-with-mac/cja/assets/classifications-events.png)
 
-1. **[!UICONTROL Add datasets]**&#x200B;을(를) 클릭한 다음, 다음 화면에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 연결을 완료합니다.
+1. **[!UICONTROL 데이터 세트 추가]**&#x200B;를 클릭한 다음, 다음 화면에서 **[!UICONTROL 저장]**&#x200B;을 클릭하여 연결을 완료합니다.
 
 ## 데이터 보기 설정
 
@@ -152,39 +152,39 @@ ht-degree: 35%
 
 1. [!DNL Customer Journey Analytics]에서 [!DNL Target] 데이터를 제대로 보려면 조회 데이터 세트에서 다음 필드를 차원으로 추가해야 합니다.
 
-   * [!UICONTROL Experience Name]
-   * [!UICONTROL Experience ID]
-   * [!UICONTROL Activity Name]
-   * [!UICONTROL Activity ID]
+   * [!UICONTROL 경험 이름]
+   * [!UICONTROL 경험 ID]
+   * [!UICONTROL 활동 이름]
+   * [!UICONTROL 활동 ID]
 
    ![Customer Journey Analytics의 이름 및 ID 옵션](/help/main/c-integrating-target-with-mac/cja/assets/names-and-ids.png){width="600" zoomable="yes"}
 
-1. [!UICONTROL Experimentation] 패널에서 [!DNL Target] 차원을 사용하려면 다음 컨텍스트 레이블을 설정하십시오.
+1. [!UICONTROL 실험] 패널에서 [!DNL Target] 차원을 사용하려면 다음 컨텍스트 레이블을 설정하십시오.
 
-   * [!UICONTROL Activity Name]의 경우 &quot;실험&quot;을 사용하십시오.
-   * [!UICONTROL Experience Name], &quot;실험 변형&quot;을 사용하십시오.
+   * [!UICONTROL 활동 이름]의 경우 &quot;실험&quot;을 사용하십시오.
+   * [!UICONTROL 경험 이름], &quot;실험 변형&quot;을 사용하십시오.
 
    ![실험 패널의 컨텍스트 레이블](/help/main/c-integrating-target-with-mac/cja/assets/context-labels.png){width="600" zoomable="yes"}
 
-1. 다른 필드 설정을 완료한 다음, 완료되면 **[!UICONTROL Save and continue]**&#x200B;을(를) 클릭합니다.
+1. 다른 필드 설정을 완료한 다음 완료되면 **[!UICONTROL 저장 및 계속]**&#x200B;을 클릭합니다.
 
 ## [!DNL Customer Journey Analytics]에서 활동 보고서 만들기 및 보기
 
-설정을 완료한 후 [!DNL Customer Journey Analytics]은(는) [!DNL Adobe Experience Cloud] 또는 [!DNL Target]의 활동의 [!UICONTROL Reports] 탭을 통해 설정합니다.
+설정을 완료한 후 [!DNL Customer Journey Analytics]은(는) [!DNL Target]의 [!DNL Adobe Experience Cloud] 또는 활동의 [!UICONTROL 보고서] 탭을 통해 설정합니다.
 
-보고서 탭에 **[!UICONTROL View in Customer Journey Analytics]** 링크가 있습니다. 현재 이 링크를 클릭하면 [!DNL Customer Journey Analytics] 홈 랜딩 페이지로 리디렉션됩니다.
+보고서 탭에 **[!UICONTROL Customer Journey Analytics에서 보기]** 링크가 있습니다. 현재 이 링크를 클릭하면 [!DNL Customer Journey Analytics] 홈 랜딩 페이지로 리디렉션됩니다.
 
 ![CJA 보고 링크](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
 >[!NOTE]
 >
->이 통합은 [!UICONTROL Adobe Analytics for Target]&#x200B;(A4T)과(와) 다릅니다.
+>이 통합은 [!UICONTROL Target용 Adobe Analytics]&#x200B;(A4T)과 다릅니다.
 >
 >* [!DNL Target]/[!DNL Customer Journey Analytics] 통합에는 A4T와 같은 미리 작성된 보고서가 포함되어 있지 않습니다. 활동 보고서는 [!DNL Customer Journey Analytics]에 작성되어야 합니다.
 >
->* 활동의 목표 지표로 [!UICONTROL Use a CJA Metric]을(를) 선택한 경우 이 옵션은 특정 성공 지표를 정의해야 하는 시기를 유연하게 지정합니다. [!UICONTROL Experimentation] 패널을 구성할 때 성공 지표가 선택됩니다. 상승도 및 신뢰도는 선택한 CJA 지표에서 계산됩니다.
+>* 활동의 목표 지표를 선택할 때 [!UICONTROL CJA 지표 사용]을 선택하면 이 옵션은 특정 성공 지표를 정의해야 하는 시기를 유연하게 지정할 수 있습니다. [!UICONTROL 실험] 패널을 구성할 때 성공 지표가 선택됩니다. 상승도 및 신뢰도는 선택한 CJA 지표에서 계산됩니다.
 
-1. [!DNL Customer Journey Analytics]에서 실험 패널을 만든 다음 **[!UICONTROL Experiment]** 드롭다운 메뉴에서 활동을 선택합니다.
+1. [!DNL Customer Journey Analytics]에서 실험 패널을 만든 다음 **[!UICONTROL 실험]** 드롭다운 메뉴에서 활동을 선택합니다.
 
    자세한 내용은 *[!DNL Customer Journey Analytics]* 안내서의 *실험 패널*&#x200B;에서 [실험 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}을 참조하세요.
 
@@ -192,10 +192,10 @@ ht-degree: 35%
 
    >[!IMPORTANT]
    >
-   >활동이 [!UICONTROL Experiment] 드롭다운 목록에 나타나지 않으면 올바른 데이터 보기가 선택되었는지, [!DNL Target] 차원에 필요한 컨텍스트 레이블이 포함되어 있는지 확인하십시오([데이터 보기 설정](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}의 3단계 참조).
+   >활동이 [!UICONTROL 실험] 드롭다운 목록에 표시되지 않는 경우 올바른 데이터 보기가 선택되어 있고 [!DNL Target] 차원에 필요한 컨텍스트 레이블이 포함되어 있는지 확인하십시오([데이터 보기 설정](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}의 3단계 참조).
 
-1. **[!UICONTROL Build]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 작성]**&#x200B;을 클릭합니다.
 
-   [!UICONTROL Experimentation] 패널은 실험의 성과를 더 잘 이해할 수 있도록 풍부한 데이터 및 시각화를 반환합니다. 자세한 내용은 *[!DNL Customer Journey Analytics]* 안내서의 *실험 패널*&#x200B;에서 [[!UICONTROL Panel output]](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}을(를) 참조하십시오.
+   [!UICONTROL 실험] 패널은 실험의 성과를 더 잘 이해할 수 있도록 풍부한 데이터 및 시각화를 반환합니다. 자세한 내용은 *[!DNL Customer Journey Analytics]* 안내서의 *실험 패널*&#x200B;에서 [[!UICONTROL 패널 출력]](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}을 참조하세요.
 
    ![실험](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)

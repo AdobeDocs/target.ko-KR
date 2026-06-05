@@ -5,7 +5,7 @@ hide: true
 exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '341'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 고유한 사용자 식별자(GUID)로 특정 사용자를 타깃팅합니다.
 
-### 이메일 주소 {#email}
+### 이메일 주소가 {#email}
 
 정확한 이메일 주소로 사용자를 타겟팅합니다. 여러 전자 메일 주소를 한 번에 추가하려면 연산자 드롭다운에서 **in**&#x200B;을(를) 선택하고(**is** 대신) 다음을 수행합니다.
 
@@ -72,7 +72,7 @@ AND/OR 논리를 사용하여 여러 대상 기준을 결합할 수 있습니다
 
 **+/-** 아이콘을 사용하여 조건을 추가하거나 제거하십시오. 조건을 복제하려면 기존 규칙 옆에 있는 복제 아이콘을 선택합니다. 복잡한 중첩 논리의 경우 **중첩 논리**&#x200B;를 사용하도록 설정하고 텍스트 상자에 올바른 식을 입력하십시오.
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [릴리스 요청](request-a-release.md)
 * [전체 워크플로 릴리스](release-workflow-end-to-end.md)

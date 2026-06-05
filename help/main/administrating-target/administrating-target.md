@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: 94
+source-wordcount: 96
 ht-degree: 12%
 
 ---
@@ -32,7 +32,7 @@ VEC(시각적 경험 작성기)에 대한 구성 설정, 보고, Scene7 구성, 
 
 {{permissions-update}}
 
-[!UICONTROL Administration] 메뉴 항목에 액세스하려면 맨 위 메뉴 막대에서 **[!UICONTROL Administration]**&#x200B;을(를) 클릭한 다음 왼쪽에서 원하는 탭을 클릭하십시오.
+[!UICONTROL 관리] 메뉴 항목에 액세스하려면 맨 위 메뉴 막대에서 **[!UICONTROL 관리]**&#x200B;를 클릭한 다음 왼쪽에서 원하는 탭을 클릭하십시오.
 
 * [시각적 경험 작성기](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [보고](/help/main/administrating-target/reporting.md)

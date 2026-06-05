@@ -13,16 +13,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 72%
+source-wordcount: 331
+ht-degree: 71%
 
 ---
 
-# [!UICONTROL Experience Performance] 보고서(MVT)
+# [!UICONTROL 경험 성과] 보고서(MVT)
 
-[!UICONTROL Experience Performance] 보고서는 활동에 있는 각 경험의 성과를 보여줍니다. 이 보고서에는 참여자 수, 전환율, 상승도 및 신뢰도에 대한 정보가 포함되어 있습니다.
+[!UICONTROL 경험 성과] 보고서는 활동에 있는 각 경험의 성과를 보여줍니다. 이 보고서에는 참여자 수, 전환율, 상승도 및 신뢰도에 대한 정보가 포함되어 있습니다.
 
-하나 이상의 경험을 선택하여 비교할 수 있습니다. 경험을 클릭하고 **[!UICONTROL Preview]**&#x200B;을(를) 선택하여 브라우저 탭에서 경험을 엽니다.
+하나 이상의 경험을 선택하여 비교할 수 있습니다. 경험을 클릭하고 **[!UICONTROL 미리 보기]**&#x200B;를 선택하여 브라우저 탭에서 경험을 엽니다.
 
 보고서 상단에 지표, 시작 및 종료 날짜, 보고서에 사용된 대상이 표시됩니다. 이러한 요소는 변경할 수 있습니다.
 

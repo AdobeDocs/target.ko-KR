@@ -15,8 +15,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 56%
+source-wordcount: 903
+ht-degree: 58%
 
 ---
 
@@ -30,36 +30,36 @@ ht-degree: 56%
 
 ## 클릭 추적 설정 {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. 활동에 대한 [!UICONTROL Goals & Settings] 페이지에서 목표를 설정할 때 **[!UICONTROL Conversion]** 성공 지표를 선택하십시오.
-1. 작업에 대해 **[!UICONTROL Clicked an element]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Select elements]**&#x200B;을(를) 클릭합니다.
+1. 활동에 대한 [!UICONTROL 목표 및 설정] 페이지에서 목표를 설정할 때 **[!UICONTROL 변환]** 성공 지표를 선택합니다.
+1. 작업에 대해 **[!UICONTROL 요소를 클릭함]**&#x200B;을 선택한 후 **[!UICONTROL 요소]** 선택을 클릭합니다.
 
-   페이지가 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 열립니다.
+   페이지가 VEC([!UICONTROL 시각적 경험 작성기])에서 열립니다.
 
 1. 추적할 요소를 선택합니다.
 
    요소 선택에 대한 팁은 아래의 *고려 사항* 섹션을 참조하십시오.
 
-1. 화면 상단의 **[!UICONTROL Done]**&#x200B;을(를) 클릭하여 선택 항목을 저장합니다.
+1. 화면 상단의 **[!UICONTROL 완료]**&#x200B;를 클릭하여 선택 내용을 저장합니다.
 
 활동 참여자가 선택된 요소를 클릭하면 해당 클릭이 전환으로 카운트됩니다.
 
 ## 선택한 요소 패널 {#selected-elements}
 
-[!UICONTROL A/B Test], [!UICONTROL Experience Targeting]&#x200B;(XT), [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Multivariate Test]&#x200B;(MVT) 활동의 경우 [!UICONTROL Selected Elements] 패널에 왼쪽의 클릭 추적에 대해 선택한 요소가 나열됩니다.
+[!UICONTROL A/B 테스트], [!UICONTROL 경험 타깃팅]&#x200B;(XT), [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 다변량 테스트]&#x200B;(MVT) 활동의 경우 [!UICONTROL 선택한 요소] 패널에 왼쪽의 클릭 추적에 대해 선택한 요소가 나열됩니다.
 
 ![선택한 요소 패널](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-[!UICONTROL Tracked Components] 패널에서 요소를 클릭할 때 적용할 수 있는 몇 가지 작업이 있습니다. 다음 테이블에서는 요소에 대해 수행할 수 있는 각 작업을 설명합니다.
+[!UICONTROL 추적된 구성 요소] 패널에서 요소를 클릭할 때 적용할 수 있는 몇 가지 작업이 있습니다. 다음 테이블에서는 요소에 대해 수행할 수 있는 각 작업을 설명합니다.
 
 | 액션 | 설명 |
 | --- | --- |
-| [!UICONTROL Tracked actions] | 요소 작업을 표시합니다. |
-| [!UICONTROL CSS selector] | CSS 선택기를 편집할 수 있습니다. |
+| [!UICONTROL 추적된 작업] | 요소 작업을 표시합니다. |
+| [!UICONTROL CSS 선택기] | CSS 선택기를 편집할 수 있습니다. |
 | [!DNL Delete] | 요소를 삭제합니다. |
 
 ### 요소 추가
 
-선택기의 DOM 경로를 이미 알고 있는 경우 패널 위쪽에 있는 [!UICONTROL Add Component] 아이콘을 클릭하여 수동으로 추가할 수 있습니다.
+선택기의 DOM 경로를 이미 알고 있는 경우 패널 위쪽에 있는 [!UICONTROL 구성 요소 추가] 아이콘을 클릭하여 수동으로 추가할 수 있습니다.
 
 ## 고려 사항 {#considerations}
 
@@ -75,7 +75,7 @@ ht-degree: 56%
 * 둘 이상의 요소를 선택하는 경우 참여자가 선택된 요소 중 하나를 클릭하면 해당 클릭은 카운트됩니다. 각 항목을 별도로 카운트하려면 각 요소에 대해 개별 성공 지표를 설정하십시오. 페이지에서 여러 요소를 클릭하여 한 항목을 계산하려면 CSS 요소 선택기를 여러 요소와 일치하도록 편집합니다.
 * 추적할 요소의 수준을 선택해야 합니다. 예를 들어, 단추를 지정할 때 단추 텍스트가 아닌 링크를 선택해야 합니다.
 * 클릭 이벤트는 클릭이 진행된 동일한 페이지에 있는 [!DNL Target]으로 전송됩니다.
-* 클릭 추적 지표가 [!UICONTROL Analytics for Target]&#x200B;(A4T) 활동의 목표 지표인 경우 방문자는 지표가 추적할 수 있도록 페이지 로드 후 60초 이내에 이 요소를 클릭해야 합니다.
+* 클릭 추적 지표가 [!UICONTROL Analytics for Target]&#x200B;(A4T) 활동의 목표 지표인 경우 방문자는 지표를 추적할 페이지를 로드한 후 60초 내에 이 요소를 클릭해야 합니다.
 * 클릭 추적은 다음을 포함하여 선택기에 이스케이프된 문자를 포함하는 요소에는 작동하지 않습니다.
 
   | 문자 | 설명 |
@@ -116,7 +116,7 @@ ht-degree: 56%
 이 비디오에는 클릭 추적 성공 지표 생성에 대한 정보가 포함되어 있습니다.
 
 * &quot;목표&quot; 지표 이해
-* [!UICONTROL Conversion], [!UICONTROL Revenue] 및 [!UICONTROL Engagement] 지표 이해 및 작성
+* [!UICONTROL 전환], [!UICONTROL 매출] 및 [!UICONTROL 참여] 지표 이해 및 빌드
 * 클릭 추적 지표 빌드
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

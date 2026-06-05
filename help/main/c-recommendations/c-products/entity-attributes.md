@@ -18,7 +18,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1122
+source-wordcount: 1125
 ht-degree: 45%
 
 ---
@@ -112,7 +112,7 @@ Singe 값만 사용합니다.
 
 >[!NOTE]
 >
->카테고리를 기반으로 한 권장 사항을 [!UICONTROL Category] 페이지에 표시하기 위해 한 개의 `categoryId`만 특정 권장 사항을 표시하는 데 사용되는 mbox에 전달할 수 있습니다. `categoryId` 값은 [!UICONTROL Product Detail] 페이지에서 전달된 `entity.categoryId` 값과 정확히 일치해야 합니다.
+>카테고리를 기반으로 한 권장 사항을 [!UICONTROL 카테고리] 페이지에 표시하기 위해 한 개의 `categoryId`만 특정 권장 사항을 표시하는 데 사용되는 mbox에 전달할 수 있습니다. `categoryId` 값은 [!UICONTROL 제품 세부 정보] 페이지에서 전달된 `entity.categoryId` 값과 정확히 일치해야 합니다.
 
 예:
 

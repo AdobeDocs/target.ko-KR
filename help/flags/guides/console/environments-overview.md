@@ -18,7 +18,7 @@ ht-degree: 2%
 
 기능 플래그를 만들거나 수정하기 전에 플래그 콘솔의 위쪽 탐색 막대에 있는 샌드박스 전환기를 사용하여 올바른 샌드박스를 선택합니다.
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [콘솔에 로그인](log-in-to-the-console.md)
 * [액세스 요청](request-access.md)

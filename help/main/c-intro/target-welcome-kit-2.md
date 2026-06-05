@@ -29,8 +29,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2558
-ht-degree: 73%
+source-wordcount: 2606
+ht-degree: 72%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 73%
 | 자동 할당 | 둘 이상의 경험에서 최고의 성능을 발휘하는 경험을 식별하고, 테스트가 계속 실행되고 학습하는 동안 전환을 늘리기 위해 더 많은 트래픽을 자동으로 승자에게 재할당합니다. [!DNL Adobe Adobe AI]으로 구동되는 인공 지능을 사용합니다. [자세히 알아보기](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) |
 | 자동 타겟<br>(Premium) | [!DNL Target]의 Adobe AI을 활용하여 각 방문자의 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 토대로 여러 방문자의 최상의 경험을 결정하고 전달합니다. 자동 타겟을 사용하면 규모에 맞게 개인화할 수 있습니다. [자세히 알아보기](/help/main/c-activities/auto-target/auto-target-to-optimize.md) |
 | Automated Personalization<br>(Premium) | [!DNL Adobe Adobe AI] 에서 제공하는 고급 머신 러닝 알고리즘과 자동화를 사용하여 오퍼의 다양한 이미지, 복사 및 기타 요소를 검토하고 방문자당 전환 또는 매출 증대와 같은 비즈니스 목표를 가장 잘 달성하는 각 방문자에게 최상의 조합을 제공합니다. [자세히 알아보기](/help/main/c-activities/t-automated-personalization/automated-personalization.md) |
-| 경험 타기팅(XT) | 사용자가 정의한 규칙 및 기준 세트를 기준으로 특정 대상자에게 콘텐츠를 전달합니다. **[!UICONTROL Experience Targeting]**&#x200B;은(는) 대상자가 가치 있고 어떤 경험이 그들과 공감하는지 잘 알고 있을 때 특정 경험이나 콘텐츠를 특정 대상자에게 타기팅하는 데 유용합니다. [자세히 알아보기](/help/main/c-activities/t-experience-target/experience-target.md) |
+| 경험 타기팅(XT) | 사용자가 정의한 규칙 및 기준 세트를 기준으로 특정 대상자에게 콘텐츠를 전달합니다. **[!UICONTROL 경험 타깃팅]**&#x200B;은(는) 대상자가 가치 있고 어떤 경험이 그들과 공감하는지 잘 알고 있을 때 특정 경험이나 콘텐츠를 특정 대상자에게 타깃팅하는 데 유용합니다. [자세히 알아보기](/help/main/c-activities/t-experience-target/experience-target.md) |
 | MVT(다변량 테스트) | 세 가지 다른 배경 이미지, 두 가지 변형 복사본 및 두 가지 다른 버튼 색상과 같이 페이지에 있는 요소의 변형 또는 디지털 경험의 가능한 모든 조합을 비교합니다. MVT는 어떤 조합이 특정 대상자를 위해 가장 잘 수행되고 어떤 요소가 결과에 가장 큰 영향을 미치는지 결정합니다. [자세히 알아보기](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) |
 | 추천<br>(Premium) | Adobe AI을 사용하여 이전 활동과 다른 고객의 활동을 기반으로 고객의 흥미를 끌 수 있는 제품 또는 콘텐츠를 자동으로 제안할 수 있습니다. [자세히 알아보기](/help/main/c-recommendations/recommendations.md) |
 
@@ -75,7 +75,7 @@ ht-degree: 73%
 
 | 구현 유형 | 세부 사항 |
 | --- | --- |
-| 클라이언트측 | [!DNL Target]의 이러한 구현으로 [!DNL Target] 은 활동과 관련된 경험을 클라이언트 브라우저에 직접 전달합니다. 브라우저는 표시할 경험을 결정하고 표시합니다. 클라이언트측 구현에서는 WYSIWYG 편집기, **[!UICONTROL Visual Experience Composer]**(VEC) 또는 비시각적 인터페이스인 **[!UICONTROL Form-based Experience Composer]**&#x200B;을(를) 사용하여 테스트 및 개인화 경험을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank} |
+| 클라이언트측 | [!DNL Target]의 이러한 구현으로 [!DNL Target] 은 활동과 관련된 경험을 클라이언트 브라우저에 직접 전달합니다. 브라우저는 표시할 경험을 결정하고 표시합니다. 클라이언트측 구현에서는 WYSIWYG 편집기, **[!UICONTROL 시각적 경험 작성기]**(VEC) 또는 비시각적 인터페이스, **[!UICONTROL 양식 기반 경험 작성기]**&#x200B;를 사용하여 테스트 및 개인화 경험을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank} |
 | 서버측 | 이 유형의 [!DNL Target] 구현에서 클라이언트 디바이스는 서버를 통해 경험에 대한 요청을 하고, 서버는 [!DNL Target]에 요청을 보내고, [!DNL Target] 은 서버에 응답을 되돌려 보내며, 서버는 클라이언트 디바이스에 전달할 경험을 결정합니다. 경험은 음성 도우미를 통해 또는 시각적이지 않은 경험 또는 브라우저를 기반으로 하지 않는 디바이스를 통해 이메일이나 키오스크에 표시될 수 있습니다. 서버가 클라이언트와 [!DNL Target] 사이에 존재하기 때문에 제어력과 보안이 필요하거나 서버에서 실행하려는 복잡한 백엔드 프로세스가 있는 경우에 이러한 유형의 구현이 이상적입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank} |
 | 하이브리드 구현 | 이 구현에서는 주어진 사용 사례에 가장 적합한 구현 접근 방식을 선택합니다. 예를 들어 클라이언트측 구현을 사용하여 홈 페이지의 히어로 배너에서 A/B 제안을 테스트할 수 있지만, 서버측 구현을 사용하여 클라이언트 브라우저에 표시할 내부 검색 결과, 스마트 자동차 대시보드에 표시할 경험 또는 음성 지원에서 전달할 음성 응답을 결정할 수도 있습니다. |
 
@@ -93,23 +93,23 @@ ht-degree: 73%
 
 ## 활동 생성 도구
 
-[!DNL Target]은(는) 테스트 및 개인화 활동을 설정하는 세 가지 주요 방법인 VEC([!UICONTROL Visual Experience Composer]), [!UICONTROL Form-based Experience Composer] 및 [!UICONTROL Single Page Application (SPA) Visual Experience Composer]을(를) 제공합니다. 두 가지 모두 경험 정의, 대상자 선택 또는 정의, 활동 결과를 측정할 기본 및 보조 성공 지표 선택 등 3단계로 활동 설정 프로세스를 안내합니다.
+[!DNL Target]은(는) 테스트 및 개인화 활동을 설정하는 세 가지 주요 방법인 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC), [!UICONTROL 양식 기반 경험 작성기] 및 [!UICONTROL 단일 페이지 애플리케이션(SPA) 시각적 경험 작성기]를 제공합니다. 두 가지 모두 경험 정의, 대상자 선택 또는 정의, 활동 결과를 측정할 기본 및 보조 성공 지표 선택 등 3단계로 활동 설정 프로세스를 안내합니다.
 
 | 도구 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer]&#x200B;(VEC) | 사이트 컨텍스트에서 개인화된 경험과 오퍼를 쉽게 만들고 테스트할 수 있는 WYSIWYG 사용자 인터페이스입니다. 웹 페이지(또는 오퍼) 또는 모바일 웹 페이지의 레이아웃 및 콘텐츠를 드래그 앤 드롭하고, 교체하고, 수정하여 [!DNL Target] 활동에 대한 경험과 오퍼를 만들 수 있습니다. [자세히 알아보기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
-| [!UICONTROL Form-based Experience Composer] | 시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 A/B 테스트, 경험 타깃팅, Automated Personalization 및 권장 사항 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다. [자세히 알아보기](/help/main/c-experiences/form-experience-composer.md) |
-| [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | SPA용 VEC를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같이 인기 있는 프레임워크의 A/B 테스트 및 경험 타기팅(XT) 활동을 만드는 데 사용할 수 있습니다. [자세히 알아보기](/help/main/c-experiences/spa-visual-experience-composer.md) |
+| [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) | 사이트 컨텍스트에서 개인화된 경험과 오퍼를 쉽게 만들고 테스트할 수 있는 WYSIWYG 사용자 인터페이스입니다. 웹 페이지(또는 오퍼) 또는 모바일 웹 페이지의 레이아웃 및 콘텐츠를 드래그 앤 드롭하고, 교체하고, 수정하여 [!DNL Target] 활동에 대한 경험과 오퍼를 만들 수 있습니다. [자세히 알아보기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
+| [!UICONTROL 양식 기반 경험 작성기] | 시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 A/B 테스트, 경험 타깃팅, Automated Personalization 및 권장 사항 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다. [자세히 알아보기](/help/main/c-experiences/form-experience-composer.md) |
+| [!UICONTROL SPA(단일 페이지 애플리케이션) 시각적 경험 작성기] | SPA용 VEC를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같이 인기 있는 프레임워크의 A/B 테스트 및 경험 타기팅(XT) 활동을 만드는 데 사용할 수 있습니다. [자세히 알아보기](/help/main/c-experiences/spa-visual-experience-composer.md) |
 
 ## 거버넌스 및 제어
 
-적합한 사용자에게 [!DNL Target]에 대한 올바른 역할과 관련 액세스 및 사용 권한 수준을 제공하기 위해 관리 콘솔이 있습니다. [!UICONTROL Target Premium] 사용자의 경우 보다 자세한 거버넌스 및 제어를 제공합니다.
-[!UICONTROL Enterprise Permissions]을(를) 사용합니다.
+적합한 사용자에게 [!DNL Target]에 대한 올바른 역할과 관련 액세스 및 사용 권한 수준을 제공하기 위해 관리 콘솔이 있습니다. [!UICONTROL Target Premium] 사용자의 경우 보다 자세한 거버넌스 및 제어를 제공합니다
+[!UICONTROL 엔터프라이즈 권한]을 사용합니다.
 
 | 도구 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL Adobe Admin Console for Enterprise] | Adobe Target에 사용자를 추가하고 Adobe Admin Console에서 사용 권한을 할당합니다. [자세히 알아보기](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) |
-| [!UICONTROL Enterprise Permission]s<br>(Premium) | [!DNL Target]에 대한 엔터프라이즈급 사용자 액세스를 공식적으로 관리하는 방법입니다. [!DNL Target]에 사용자를 추가하고, 역할에 따라 권한을 할당하고, 서로 다른 부서, 글로벌 위치, 채널 및 기타 논리 그룹을 기반으로 팀을 위한 작업 영역을 만듭니다. 사용자에게 관찰자, 편집자, 게시자 또는 승인자 역할을 할당할 수 있습니다. [자세히 알아보기](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) |
+| [!UICONTROL Enterprise용 Adobe Admin Console] | Adobe Target에 사용자를 추가하고 Adobe Admin Console에서 사용 권한을 할당합니다. [자세히 알아보기](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) |
+| [!UICONTROL Enterprise 권한]s<br>(Premium) | [!DNL Target]에 대한 엔터프라이즈급 사용자 액세스를 공식적으로 관리하는 방법입니다. [!DNL Target]에 사용자를 추가하고, 역할에 따라 권한을 할당하고, 서로 다른 부서, 글로벌 위치, 채널 및 기타 논리 그룹을 기반으로 팀을 위한 작업 영역을 만듭니다. 사용자에게 관찰자, 편집자, 게시자 또는 승인자 역할을 할당할 수 있습니다. [자세히 알아보기](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) |
 
 ## 통합
 

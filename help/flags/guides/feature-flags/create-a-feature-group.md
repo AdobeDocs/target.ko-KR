@@ -65,7 +65,7 @@ ht-degree: 0%
 
 기능 그룹 설정에서 **예약** 옵션을 사용하여 향후 날짜 및 시간에 기능 그룹을 활성화하도록 예약할 수 있습니다.
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [기능 그룹을 설정하여 점진적으로 롤아웃](set-feature-group-gradual-rollout.md)
 * [기능 플래그를 사용하여 A/B 테스트](a-b-testing.md)

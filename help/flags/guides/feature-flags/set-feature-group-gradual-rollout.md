@@ -5,7 +5,7 @@ hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 언제든지 비율을 늘리거나 줄여 롤아웃을 확장, 축소 또는 일시 중지할 수 있습니다.
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [기능 그룹 만들기](create-a-feature-group.md)
 * [기능 플래그를 사용하여 A/B 테스트](a-b-testing.md)

@@ -7,7 +7,7 @@ feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 엔티티 속성 일치 예
 
-[!UICONTROL Entity Attribute Matching]에서 일치하는 항목만 추천할 수 있습니다. 예:
+[!UICONTROL 엔터티 특성 일치]을(를) 사용하면 일치하는 항목만 추천할 수 있습니다. 예:
 
 * 사용자가 현재 보고 있는 항목의 속성
 * 사용자가 가장 최근에 본 항목

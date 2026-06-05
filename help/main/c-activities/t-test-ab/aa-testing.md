@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: 949
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ A/A 테스트에서는 두 경험이 동일하기 때문에 사실상 차이가 
 
 A/A 테스트에서는 테스트가 원하는 샘플 크기에 도달한 후 통계적으로 중요한 결과를 *보지*&#x200B;하는 것이 목표입니다.
 
-[!UICONTROL Adobe Target Sample Size Calculator]은(는) 목표로 하는 샘플 크기와 테스트를 실행하는 시간을 결정하는 데 도움이 되는 중요한 도구입니다.
+[!UICONTROL Adobe Target 표본 크기 계산기]는 목표로 삼아야 할 표본 크기와 테스트를 실행하는 시간을 결정하는 데 도움이 되는 중요한 도구입니다.
 
 * [Adobe Target 크기 계산기](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 

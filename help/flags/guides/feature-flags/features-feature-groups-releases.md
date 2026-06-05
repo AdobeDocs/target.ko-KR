@@ -5,7 +5,7 @@ hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 | 하나의 애플리케이션에 대해 단일 기능 테스트 또는 롤아웃 | **기능 플래그** |
 | 동일한 팀에서 여러 기능을 조정하면서 동시에 실행 | **기능 그룹** |
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [첫 번째 기능 플래그 만들기](create-your-first-feature-flag.md)
 * [기능 그룹 만들기](create-a-feature-group.md)

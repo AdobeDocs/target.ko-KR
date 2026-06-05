@@ -1,6 +1,6 @@
 ---
 keywords: 대상자;대상자 규칙;대상자 만들기;대상자 생성
-description: 사용자 지정된 대상을 만들고 활동에 사용할 수 있도록  [!DNL Adobe Target] [!UICONTROL Audiences] 라이브러리에 저장하는 방법에 대해 알아봅니다.
+description: 사용자 지정된 대상을 만들고 활동에 사용할 수 있도록  [!DNL Adobe Target] [!UICONTROL 대상] 라이브러리에 저장하는 방법에 대해 알아봅니다.
 title: 대상을 만들려면 어떻게 합니까?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
@@ -13,14 +13,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 525
-ht-degree: 48%
+source-wordcount: 538
+ht-degree: 47%
 
 ---
 
 # [!DNL Target]에서 대상 작성
 
-사용자 지정된 대상을 만들고 활동에서 사용할 수 있도록 [!DNL Adobe Target] [!UICONTROL Audiences] 라이브러리에 저장합니다. 기존 대상을 복사한 다음 편집하여 유사한 대상을 만들고 여러 대상을 결합할 수도 있습니다.
+사용자 지정된 대상을 만들고 활동에서 사용할 수 있도록 [!DNL Adobe Target] [!UICONTROL 대상] 라이브러리에 저장합니다. 기존 대상을 복사한 다음 편집하여 유사한 대상을 만들고 여러 대상을 결합할 수도 있습니다.
 
 ## 대상자 개요
 
@@ -42,15 +42,15 @@ ht-degree: 48%
 
 ## 대상자 만들기
 
-1. 상단 메뉴 모음에서 **[!UICONTROL Audiences]**&#x200B;을(를) 클릭합니다.
+1. 상단 메뉴 모음에서 **[!UICONTROL 대상]**&#x200B;을 클릭합니다.
 
    ![audiences_list 이미지](assets/audiences_list.png)
 
-1. [!UICONTROL Audiences] 목록에서 **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL 대상] 목록에서 **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 
    또는
 
-   기존 대상을 복사하려면 [!UICONTROL Audiences] 목록에서 복사할 대상에 대해 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭한 다음 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다. 그러면 대상자를 편집하여 유사한 대상자를 만들 수 있습니다.
+   기존 대상을 복사하려면 [!UICONTROL 대상] 목록에서 복사할 대상에 대해 **[!UICONTROL 추가 작업]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭한 다음 **[!UICONTROL 복제]**&#x200B;를 클릭합니다. 그러면 대상자를 편집하여 유사한 대상자를 만들 수 있습니다.
 
 1. 고유한 설명 대상 이름과 설명(선택 사항)을 입력합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 48%
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. 왼쪽의 **[!UICONTROL Attributes]** 목록에서 원하는 특성을 대상 빌더 창으로 끌어다 놓습니다.
+1. 왼쪽의 **[!UICONTROL 특성]** 목록에서 원하는 특성을 대상 빌더 창으로 끌어다 놓습니다.
 
    ![특성 드래그 앤 드롭](assets/drag-attribute.png)
 
@@ -76,9 +76,9 @@ ht-degree: 48%
 
 1. (조건부) 원하는 속성을 계속 추가하고 정의합니다.
 
-   다른 컨테이너를 만들려면 **[!UICONTROL Add container]**&#x200B;을(를) 클릭하거나 다른 특성을 Audience Builder 창으로 끌어다 놓습니다. 그런 다음 드롭다운 목록을 사용하여 연산자(AND 또는 OR)를 조정할 수 있습니다.
+   다른 컨테이너를 만들려면 **[!UICONTROL 컨테이너 추가]**&#x200B;를 클릭하거나 다른 특성을 Audience Builder 창으로 끌어다 놓습니다. 그런 다음 드롭다운 목록을 사용하여 연산자(AND 또는 OR)를 조정할 수 있습니다.
 
-1. **[!UICONTROL Done]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 완료를 클릭합니다]**.
 
    새로 만든 대상이 몇 초 동안 처리가 지연된 후에 목록에 표시됩니다. 대상이 목록에 즉시 표시되지 않는 경우 대상을 검색하거나 목록을 새로 고치십시오.
 

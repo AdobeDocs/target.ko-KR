@@ -1,7 +1,7 @@
 ---
 keywords: 타깃팅;eec;시각적 경험 작성기;EEC 문제 해결;문제점 해결
-description: 특정 조건에서  [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC)에서 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
-title: '[!UICONTROL Enhanced Experience Composer]과(와) 관련된 문제를 해결하려면 어떻게 합니까?'
+description: 특정 조건에서  [!DNL Adobe Target] [!UICONTROL 고급 경험 작성기] (EEC)에서 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
+title: '[!UICONTROL 향상된 경험 작성기]와 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
@@ -16,14 +16,14 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 28%
+source-wordcount: 509
+ht-degree: 29%
 
 ---
 
-# [!UICONTROL Enhanced Experience Composer]과(와) 관련된 문제 해결
+# [!UICONTROL 향상된 경험 작성기]와 관련된 문제 해결
 
-특정 조건에서 [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer]&#x200B;(EEC)에 문제가 발생하는 경우가 있습니다.
+특정 조건에서 [!DNL Adobe Target] [!UICONTROL 고급 경험 작성기]&#x200B;(EEC)에 문제가 발생하는 경우가 있습니다.
 
 ## EEC가 공용 IP에서 액세스할 수 없는 내부 QA URL을 로드하지 않습니다. {#section_D29E96911D5C401889B5EACE267F13CF}
 
@@ -143,29 +143,29 @@ IT 팀에 다음 IP 주소를 요청하십시오.
 
 다음은 이 오류 메시지와 상황을 수정할 조치를 볼 수 있는 이유입니다.
 
-* **문제:** 웹 사이트 도메인(ISP)이 [!UICONTROL Enhanced Experience Composer]을(를) 차단하고 있습니다.
+* **문제:** 웹 사이트 도메인(ISP)이 [!UICONTROL 향상된 경험 작성기]를 차단하고 있습니다.
 
   위에 나열된 IP 주소를 **Remedy:**&#x200B;합니다.
 
 * **문제:** IP 주소는 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. [!DNL Target]은(는) 현재 기본 구성 1.2를 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전의 기본 구성은 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오.
 
-  **해결 방법:** 다음 질문을 참조하세요. [!UICONTROL Enhanced Visual Experience Composer]은(는) TLS 1.2를 사용하는 사이트의 보안 페이지에 로드되지 않습니다.
+  **해결 방법:** 다음 질문을 참조하세요. [!UICONTROL 향상된 시각적 경험 작성기]가 TLS 1.2를 사용하는 사이트의 보안 페이지에 로드되지 않습니다.
 
 +++
 
 ## EEC가 TLS 1.0를 사용하는 사이트의 보안 페이지에 로드되지 않습니다. (EEC만 해당) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++세부 사항
-&quot;내 사이트의 보안 페이지에서 [!UICONTROL Enhanced Visual Experience Composer]이(가) 로드되지 않습니다.&quot;에서 위에서 설명한 오류 메시지가 표시될 수 있습니다. 위의 IP 주소가 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않는 경우입니다. [!DNL Target]은(는) 현재 기본 구성 1.2를 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전의 기본 구성은 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오.
+위에서 설명한 &quot;향상된 [!UICONTROL 시각적 경험 작성기]가 내 사이트의 보안 페이지에서 로드되지 않습니다.&quot;라는 오류 메시지가 표시될 수 있습니다. 위의 IP 주소가 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않는 경우입니다. [!DNL Target]은(는) 현재 기본 구성 1.2를 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전의 기본 구성은 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오.
 
 Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음을 수행하십시오(다른 브라우저에도 유사한 단계가 있음).
 
 1. Firefox에서 해당 웹 사이트를 엽니다.
-1. 브라우저의 주소 표시줄에 있는 **[!UICONTROL Show Site Information]** 아이콘을 클릭합니다.
+1. 브라우저의 주소 표시줄에 **[!UICONTROL 사이트 정보 표시]** 아이콘을 클릭합니다.
 
    ![firefox_more_info 이미지](assets/firefox_more_info.png)
 
-1. **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 연결 세부 사항 표시]** > **[!UICONTROL 추가 정보]**&#x200B;를 클릭하십시오.
 
    ![firefox_more_info_2 이미지](assets/firefox_more_info_2.png)
 

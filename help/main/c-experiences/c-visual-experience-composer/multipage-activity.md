@@ -12,8 +12,8 @@ topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 55%
+source-wordcount: 353
+ht-degree: 54%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 55%
 
 테스트에 페이지를 추가하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL Configure]** 아이콘(![구성 아이콘](/help/main/assets/icons/Setting.svg))을 클릭합니다.
-1. **[!UICONTROL Add Additional Pages]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 구성]** 아이콘(![구성 아이콘](/help/main/assets/icons/Setting.svg))을 클릭합니다.
+1. **[!UICONTROL 추가 페이지 추가]**&#x200B;를 클릭합니다.
 
-   [!UICONTROL Pages] 창이 화면 왼쪽에 표시됩니다.
+   [!UICONTROL 페이지] 창이 화면 왼쪽에 표시됩니다.
 
 1. 페이지를 지정하고 기본 페이지를 설정합니다.
 
-   **[!UICONTROL Add Page]**( ![추가 아이콘](/help/main/assets/icons/Add.svg) )을 클릭하여 페이지를 추가하고 페이지 이름과 URL을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+   **[!UICONTROL 페이지 추가]**( ![아이콘 추가](/help/main/assets/icons/Add.svg) )를 클릭하여 페이지를 추가하고 페이지 이름과 URL을 지정한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-1. [!UICONTROL Visual Experience Composer]을(를) 사용하여 각 페이지에서 오퍼의 모양을 디자인합니다.
+1. [!UICONTROL 시각적 경험 작성기]를 사용하여 오퍼가 각 페이지에서 표시되는 방식을 디자인할 수 있습니다.

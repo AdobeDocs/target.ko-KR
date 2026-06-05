@@ -16,8 +16,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 71%
+source-wordcount: 1742
+ht-degree: 70%
 
 ---
 
@@ -101,7 +101,7 @@ A/B 테스트 설정 워크플로의 두 번째 단계에서 [자동 타겟](/he
 
 테스트에서 통계적으로 유의한 결론을 도출하려면 일정 수의 방문자를 테스트 모집단에 넣어야 합니다. 생각해 보십시오. 만약 두 사람만 테스트에 참여한다면, 그 결과를 신뢰하겠습니까?
 
-[!DNL Target] 은 통계적 원칙에 의존하여 테스트 결과가 통계적으로 유효하다고 판단합니다. [!DNL Adobe Target] [샘플 크기 계산기](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)를 사용하면 결과에 필요한 신뢰도에 따라 테스트 실행 시간을 결정할 수 있습니다. 계산기를 열고 사용하려면 이 상자에서 [!UICONTROL Learn More] 링크를 클릭하십시오.
+[!DNL Target] 은 통계적 원칙에 의존하여 테스트 결과가 통계적으로 유효하다고 판단합니다. [!DNL Adobe Target] [샘플 크기 계산기](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)를 사용하면 결과에 필요한 신뢰도에 따라 테스트 실행 시간을 결정할 수 있습니다. 계산기를 열고 사용하려면 이 상자에서 [!UICONTROL 자세히 알아보기] 링크를 클릭하십시오.
 
 ### 이 활동은 얼마나 중요한가?
 
@@ -117,4 +117,4 @@ A/B 테스트 설정 워크플로의 두 번째 단계에서 [자동 타겟](/he
 
 ## [!DNL Target]을 열고 활동 만들기 및 시작
 
-Activity Planner를 작성했습니다. 이제 솔루션을 시작하고 활동을 구축해야 할 때입니다. [!DNL Target]을(를) 사용하면 [!UICONTROL Visual Experience Composer]에서 웹 페이지를 쉽게 수정할 수 있습니다.
+Activity Planner를 작성했습니다. 이제 솔루션을 시작하고 활동을 구축해야 할 때입니다. [!DNL Target]을(를) 사용하면 [!UICONTROL 시각적 경험 작성기]에서 웹 페이지를 쉽게 수정할 수 있습니다.

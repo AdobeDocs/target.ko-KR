@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 131
+source-wordcount: 133
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 {{permissions-update}}
 
-[!DNL Recommendations] 설정 옵션에 액세스하려면 [!DNL Adobe Experience Cloud]에서 [!DNL Target]을(를) 연 다음 [!UICONTROL Administration] > [!UICONTROL Recommendations]을(를) 클릭합니다.
+[!DNL Recommendations] 설정 옵션에 액세스하려면 [!DNL Adobe Experience Cloud]에서 [!DNL Target]을(를) 연 다음 [!UICONTROL 관리] > [!UICONTROL 권장 사항]을(를) 클릭합니다.
 
 다음 설정을 구성할 수 있습니다.
 

@@ -22,7 +22,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1761
+source-wordcount: 1772
 ht-degree: 73%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 73%
 
 * 하드 코딩되거나 루프를 통해 디자인에서 참조할 수 있는 최대 개체 수는 99개입니다.
 * 최상의 성능을 위한 권장 제한은 카탈로그 항목 수를 환경당 백만 개 미만 및 모든 환경에서는 천만 개 미만으로 유지하는 것입니다.
-* 최대 제한은 환경당 항목 수 천만 개 미만 및 모든 환경에서는 항목 수 1억 개 미만으로 유지하는 것입니다. 환경당 항목 수가 1백만~1천만 개인 경우에는 [!UICONTROL Catalog Search] UI의 성능이 영향을 받습니다. [!DNL Target Recommendations], 하지만 계속해서 권장 사항을 생산 및 제공합니다.
+* 최대 제한은 환경당 항목 수 천만 개 미만 및 모든 환경에서는 항목 수 1억 개 미만으로 유지하는 것입니다. 환경당 항목 수가 1백만~1천만 개인 경우에는 [!UICONTROL 카탈로그 검색] UI의 성능이 영향을 받습니다. [!DNL Target Recommendations], 하지만 계속해서 권장 사항을 생산 및 제공합니다.
 
 ### 엔티티 사용자 지정 속성
 
@@ -170,7 +170,7 @@ ht-degree: 73%
 
 ### 활동별 경험 수
 
-* **제한**: [!UICONTROL Experience Targeting]&#x200B;(XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test]&#x200B;(MVT) 및 [!UICONTROL Auto-Target] 활동당 2,000개 경험.
+* **제한**: [!UICONTROL 경험 타깃팅]&#x200B;(XT), [!UICONTROL A/B 테스트], [!UICONTROL 다변량 테스트]&#x200B;(MVT) 및 [!UICONTROL 자동 타겟] 활동당 2,000개 경험.
 
   AP (Automated Personalization) 활동당 30,000개 경험.
 

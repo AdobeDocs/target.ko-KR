@@ -11,8 +11,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 9%
+source-wordcount: 470
+ht-degree: 8%
 
 ---
 
@@ -68,8 +68,8 @@ function targetPageParams() {
 
 다음 연산자는 다중 값 엔티티, 프로필 및 mbox 속성과 함께 사용할 수 있습니다.
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL 이(가) 목록에 포함되어 있음]
+* [!UICONTROL 이(가) 목록에 포함되어 있지 않습니다]
 
 ## 포함 규칙에서 다중 값 속성 작업
 

@@ -14,7 +14,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 652
+source-wordcount: 662
 ht-degree: 29%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 29%
 
 [!DNL Analytics]을(를) 보고 소스로 사용하는 [!DNL Target] 활동을 만드는 것은 몇 가지 중요한 차이점이 있지만 일반 [!DNL Target] 활동을 설정하는 것과 비슷합니다. 예를 들어 보고서를 볼 때 [!DNL Analytics]에서 사용 가능한 모든 세그먼트를 적용할 수 있으므로 활동을 만드는 동안 보고할 세그먼트를 선택할 수 없습니다.
 
-1. **[!UICONTROL Create Activity]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 활동 만들기]**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
@@ -39,9 +39,9 @@ ht-degree: 29%
 
 1. 활동 유형을 선택하고 활동 설정을 시작합니다.
 
-   [!UICONTROL Auto-Allocate] 또는 [!UICONTROL Auto-Target] 활동을 만들려면 자동 할당 및 자동 타겟 활동에 대한 [A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오.
+   [!UICONTROL 자동 할당] 또는 [!UICONTROL 자동 타겟] 활동을 만들려면 [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오.
 
-1. 활동 만들기 흐름의 **[!UICONTROL Settings]** 부분에 도달하면 **[!UICONTROL Adobe Analytics]**&#x200B;을(를) 선택하고 회사를 지정하십시오.
+1. 활동 만들기 흐름의 **[!UICONTROL 설정]** 부분에 도달하면 **[!UICONTROL Adobe Analytics]**&#x200B;을(를) 선택하고 회사를 지정하십시오.
 1. 보고서 세트를 선택합니다.
 
    [!DNL Analytics]에서 사용할 수 있는 모든 보고서 세트를 선택할 수 있습니다. 보고서 세트는 수집된 데이터를 사용할 수 있는 위치를 정의합니다. 가상 보고서 세트는 보고서 세트 목록에 포함되지 않습니다.
@@ -79,7 +79,7 @@ ht-degree: 29%
    >
    >[!DNL Analytics]을(를) 보고 소스로 설정한 후 활동을 설정할 때 보고 대상을 설정할 수 있는 옵션이 없습니다. [!DNL Target] 활동 보고서에서 [!DNL Analytics]개의 세그먼트를 사용할 수 있습니다.
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## A4T, 자동 할당 및 자동 타겟 활동
 

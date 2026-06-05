@@ -13,7 +13,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 444
+source-wordcount: 455
 ht-degree: 29%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 29%
 
 MDN(*[!DNL Mozilla Developer Network]*)의 [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) 문서에서 CSS 선택기에 대한 기본 정보를 찾을 수 있습니다.
 
-계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. **[!UICONTROL Administration > Visual Experience Composer]**&#x200B;을(를) 클릭한 다음 선호하는 CSS 선택기를 선택하십시오.
+계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. **[!UICONTROL 관리 > 시각적 경험 작성기]**&#x200B;를 클릭한 다음 선호하는 CSS 선택기를 선택하십시오.
 
 * **요소 ID 사용**: 같은 ID를 여러 요소에 사용하는 경우 비활성화하거나 요소 ID가 페이지 로드 시 변경될 수 있습니다.
 * **요소 클래스 사용**: 페이지의 요소 클래스가 변경될 수 있는 경우 비활성화합니다.
@@ -32,7 +32,7 @@ MDN(*[!DNL Mozilla Developer Network]*)의 [Selectors](https://developer.mozilla
 
 >[!NOTE]
 >
->요소 클래스는 [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] 및 [!UICONTROL &#x200B; Multivariate Test] 활동에서 선택기로 사용할 수 있습니다.
+>요소 클래스는 [!UICONTROL A/B 테스트], [!UICONTROL Automated Personalization] 및[!UICONTROL &#x200B; 다변량 테스트] 활동에서 선택기로 사용할 수 있습니다.
 
 CSS 선택기를 사용할 시점과 고유한 ID를 사용할 시점에 대해서는 [시각적 경험 작성기 우수 사례 및 제한 사항](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)을 참조하십시오.
 

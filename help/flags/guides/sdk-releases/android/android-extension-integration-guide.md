@@ -5,8 +5,8 @@ hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '934'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ Experience Rollout 확장을 구현하려면 먼저 다음을 확인하십시오
 
 Experience Rollout 확장을 사용하려면 다음 Adobe Experience Platform 확장이 필요합니다.
 
-| 확장 | 설명 | 필수 |
+| 확장 | 설명 | 필수 여부 |
 |---|---|---|
 | 모바일 코어 | 구성 및 이벤트 처리를 포함한 핵심 기능 제공 | 예 |
 | 라이프사이클 | 모바일 SDK에 대한 애플리케이션 라이프사이클 및 세션 데이터를 수집합니다. | 예 |
@@ -173,7 +173,7 @@ public class MainApplication extends Application {
 
 ### 응용 프로그램 클래스 등록 {#register-application}
 
-`Application`에서 `AndroidManifest.xml` 클래스 등록:
+`AndroidManifest.xml`에서 `Application` 클래스 등록:
 
 ```xml
 <application
@@ -188,8 +188,8 @@ public class MainApplication extends Application {
 
 | 방법 | 필수 | 설명 |
 |---|---|---|
-| `withIdentity(namespace, id)` | 아니오 | 첫 번째 인수: ID 네임스페이스([Adobe ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces) 참조). 두 번째 인수: ID 값. 이 평가를 위해 분석에 해당 네임스페이스 및 ID를 표시하려는 경우 이를 포함합니다. 제공되지 않으면 기본적으로 Analytics에서 ECID를 사용합니다. 기능 활성화 결정을 내리는 데 사용되지 않습니다. |
-| `withAttributes(map)` | 아니오 | `Map<String, List<String>>`. 키는 롤아웃 규칙에 사용되는 컨텍스트 특성 이름입니다(예: `locale`, `platform`, `appVersion`, `deviceType`). 값은 현재 사용자/세션에 대한 해당 키의 후보 특성 값 목록입니다(예: `["en_US"]` 또는 `["phone"]`). |
+| `withIdentity(namespace, id)` | 아니요 | 첫 번째 인수: ID 네임스페이스([Adobe ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces) 참조). 두 번째 인수: ID 값. 이 평가를 위해 분석에 해당 네임스페이스 및 ID를 표시하려는 경우 이를 포함합니다. 제공되지 않으면 기본적으로 Analytics에서 ECID를 사용합니다. 기능 활성화 결정을 내리는 데 사용되지 않습니다. |
+| `withAttributes(map)` | 아니요 | `Map<String, List<String>>`. 키는 롤아웃 규칙에 사용되는 컨텍스트 특성 이름입니다(예: `locale`, `platform`, `appVersion`, `deviceType`). 값은 현재 사용자/세션에 대한 해당 키의 후보 특성 값 목록입니다(예: `["en_US"]` 또는 `["phone"]`). |
 
 **Kotlin**
 
@@ -470,7 +470,7 @@ String version = Rollout.extensionVersion();
 | `refreshCache()` | 무효 |
 | `extensionVersion()` | 문자열 |
 
-## {#see-also}
+## 참조: {#see-also}
 
 * [모바일 애플리케이션](../../integrate/mobile-applications.md)
 * [통합 단계](../../integrate/integration-steps.md)

@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 33%
+source-wordcount: '623'
+ht-degree: 32%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 33%
 
 1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)에 설명된 대로 활동을 만들거나 편집합니다.
 
-1. 경험이 나타날 페이지를 지정하려면 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택합니다.
+1. 경험이 나타날 페이지를 지정하려면 [!UICONTROL VEC(시각적 경험 작성기)에서 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL 페이지 전달]**&#x200B;을 선택합니다.]
 
    ![톱니바퀴 아이콘 > 페이지 전달](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
-1. **[!UICONTROL Add Template Rule]**&#x200B;을(를) 클릭한 다음 경험을 추가할 페이지에 대한 기준을 지정합니다.
+1. **[!UICONTROL 템플릿 규칙 추가]**&#x200B;를 클릭한 다음 경험을 추가할 페이지에 대한 조건을 지정하십시오.
 
 1. 페이지 범위를 지정합니다. 페이지 범위는 다음 중 하나일 수 있습니다.
 
@@ -60,7 +60,7 @@ ht-degree: 33%
 
 1. 페이지 이름에 포함된 도메인 또는 문자열과 같이 경험이 추가되는 위치를 정의하는 문자열을 입력합니다.
 
-   예를 들어 **[!UICONTROL Domain]** 및 **[!UICONTROL Is (case sensitive)]**&#x200B;을(를) 선택한 경우 경험이 모든 페이지에 추가되는 도메인을 입력합니다.
+   예를 들어 **[!UICONTROL 도메인]** 및 **[!UICONTROL 일치함(대/소문자 구분)]**&#x200B;을 선택한 경우 경험이 모든 페이지에 추가되는 도메인을 입력하십시오.
 
    여러 항목을 포함할 수 있습니다.
 
@@ -68,7 +68,7 @@ ht-degree: 33%
    >
    >여러 항목은 OR 논리를 사용합니다. 즉, 목록의 항목 하나만 있으면 조건이 true가 됩니다.
 
-1. 원할 경우 **[!UICONTROL Add Template Rule]**&#x200B;을(를) 클릭하고 이전 단계의 절차를 반복하여 추가 기준을 입력합니다.
+1. 원할 경우 **[!UICONTROL 템플릿 규칙 추가]**&#x200B;를 클릭하고 이전 단계의 절차를 반복하여 추가 기준을 입력합니다.
 
    여러 기준이 AND 논리를 사용하여 결합됩니다. [!DNL Target]이(가) 지정한 조건과 일치하는 모든 페이지에 환경을 추가합니다.
 
@@ -90,11 +90,11 @@ ht-degree: 33%
 
 1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)에 설명된 대로 활동을 만들거나 편집합니다.
 
-1. 경험이 표시될 도메인을 지정하려면 시각적 경험 작성기에서 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택합니다.
+1. 경험이 나타날 도메인을 지정하려면 시각적 경험 작성기에서 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL 페이지 배달]**&#x200B;을 선택합니다.
 
-1. **[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 템플릿 규칙 추가]** > **[!UICONTROL 도메인]**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL Choose evaluator]** 드롭다운에서 **[!UICONTROL Contains]**&#x200B;을(를) 선택한 다음 도메인을 지정합니다.
+1. **[!UICONTROL 평가기 선택]** 드롭다운에서 **[!UICONTROL 포함]**&#x200B;을 선택한 다음 도메인을 지정합니다.
 
    ![도메인 포함](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
