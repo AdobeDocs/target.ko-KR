@@ -181,7 +181,7 @@ AEM에서 제공한 페이지에서 [!DNL Target]과(와) 함께 [!UICONTROL 경
 
 다음 비디오는 [!UICONTROL 경험 조각]을 설정하고 사용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/22383)
+>[!VIDEO](https://video.tv.adobe.com/v/34816?captions=kor)
 
 >[!NOTE]
 >
