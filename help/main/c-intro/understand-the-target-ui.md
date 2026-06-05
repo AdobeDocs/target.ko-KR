@@ -124,7 +124,7 @@ ht-degree: 23%
 
 사전 알림은 중단 이벤트 및 유지 관리 이벤트를 알려 줍니다.
 
-자세한 내용은 [Adobe Status](https://status.adobe.com/) 페이지에서 확인할 수 있습니다.
+자세한 내용은 [Adobe Status](https://status.adobe.com/ko-kr/) 페이지에서 확인할 수 있습니다.
 
 ### 알림 및 공지 구성
 

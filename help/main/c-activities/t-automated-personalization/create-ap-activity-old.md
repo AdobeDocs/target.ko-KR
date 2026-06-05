@@ -2,7 +2,7 @@
 keywords: 자동화된 개인화;ap
 description: '[!UICONTROL 시각적 경험 작성기]를 사용하여 [!DNL Adobe Target] 에서 [!UICONTROL Automated Personalization]​(AP) 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 source-git-commit: c467f629596b37c334276d6f095f19b639a8518d

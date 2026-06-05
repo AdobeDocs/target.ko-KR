@@ -44,7 +44,7 @@ ht-degree: 28%
 
 ## 장바구니 기반 {#cart-based}
 
-[!UICONTROL 장바구니 기반] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 내용에 따라 항목을 추천할 수 있습니다. 권장 사항 키는 [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을(를) 통해 쉼표로 구분된 값으로 제공됩니다. 처음 10개의 값만 고려됩니다.
+[!UICONTROL 장바구니 기반] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 내용에 따라 항목을 추천할 수 있습니다. 권장 사항 키는 [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을(를) 통해 쉼표로 구분된 값으로 제공됩니다. 처음 10개의 값만 고려됩니다.
 
 장바구니 기반 권장 사항 논리는 &quot;[!UICONTROL 사용자에게 권장]&quot; 사용자 기반 알고리즘 및 &quot;[!UICONTROL 이러한 항목을 보고 구입하는 사용자]&quot; 및 &quot;[!UICONTROL 이러한 항목을 구입하고 구입하는 사용자]&quot; 항목 기반 알고리즘과 유사합니다.
 

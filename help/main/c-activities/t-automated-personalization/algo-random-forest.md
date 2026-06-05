@@ -2,7 +2,7 @@
 keywords: random forest;의사 결정 트리;ap;Automated Personalization
 description: ' [!DNL Adobe Target] AP([!UICONTROL Automated Personalization]) 및 [!UICONTROL 자동 타겟] 활동 모두에서 Random Forest 알고리즘을 사용하는 방법에 대해 알아봅니다.'
 title: ' [!DNL Target] Random Forest 알고리즘을 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M

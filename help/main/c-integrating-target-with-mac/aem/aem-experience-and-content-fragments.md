@@ -59,4 +59,4 @@ ht-degree: 40%
 
 [!DNL Adobe Experience Manager] [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]은(는) 표면적으로는 비슷해 보일 수 있지만 각 조각 유형은 다른 사용 사례에서 주요 역할을 합니다.
 
-[!UICONTROL 경험 조각]과(와) [!UICONTROL 콘텐츠 조각]의 유사성, 차이성, 사용 시기 및 방법에 대한 자세한 내용은 [AEM Sites 비디오 및 자습서 안내서](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}의 [콘텐츠 조각 이해] 및 [[!UICONTROL 경험 조각]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}을(를) 참조하십시오.
+[!UICONTROL 경험 조각]과(와) [!UICONTROL 콘텐츠 조각]의 유사성, 차이성, 사용 시기 및 방법에 대한 자세한 내용은 [AEM Sites 비디오 및 자습서 안내서](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=ko){target=_blank}의 [콘텐츠 조각 이해] 및 [[!UICONTROL 경험 조각]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=ko){target=_blank}을(를) 참조하십시오.
