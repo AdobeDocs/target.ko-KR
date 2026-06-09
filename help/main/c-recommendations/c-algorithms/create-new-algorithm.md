@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
-source-wordcount: 2889
+source-wordcount: 2900
 ht-degree: 45%
 
 ---
@@ -75,6 +75,11 @@ ht-degree: 45%
    수직 시장 및 페이지 유형을 함께 사용하면 저장된 기준을 분류할 수 있으므로 다른 [!DNL Recommendations] 활동에 대한 기준을 쉽게 다시 사용할 수 있습니다.
 
 ## [!UICONTROL 권장 사항 알고리즘] {#rec-algo}
+
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="프로필 속성"
+>abstract="프로필 스크립트를 사용하여 프로필 속성을 만들 수 있습니다."
 
 1. **[!UICONTROL 알고리즘 유형]** 및 **[!UICONTROL 알고리즘]** 선택:
 
