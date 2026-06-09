@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
+source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
 workflow-type: tm+mt
-source-wordcount: 70383
+source-wordcount: 70482
 ht-degree: 49%
 
 ---
@@ -87,6 +87,38 @@ ht-degree: 49%
 자세한 내용은 [[!DNL Adobe Target] MCP 서버](../c-integrating-target-with-mac/mcp/target-mcp.md)를 참조하십시오.
 
 +++
+
+## [!DNL Target Standard/Premium] 26.5.3(2026년 5월 21일)
+
+**[!UICONTROL 새로운 기능] 페이지**
+
++++세부 정보 보기
+
+* **새 [!UICONTROL 새로운 기능] 페이지** 제품을 종료하지 않고 최신 기능, 개선 사항 및 업데이트를 검색하는 데 도움이 되도록 [!DNL Adobe Target] UI에 새 **[!UICONTROL 새로운 기능]** 페이지를 추가했습니다. (TGT-55137)
+
++++
+
+**활동**
+
++++세부 정보 보기
+
+* **[!UICONTROL Automated Personalization] 활동에서 타깃팅을 편집할 때 잘못된 경험이 선택되었습니다.** AP([!UICONTROL Automated Personalization]) 활동에서 **[!UICONTROL 타깃팅]** 단계를 편집하는 동안 잘못된 경험을 선택할 수 있는 문제를 해결했습니다. (TGT-55176)
+
+* **예약된 활동을 닫을 때 이전 날짜입니다.** 예약된 활동을 닫을 이전 날짜를 선택할 수 없는 문제가 수정되었습니다. (TGT-55163)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.5.1(2026년 5월 7일)
 
@@ -249,7 +281,7 @@ ht-degree: 49%
 
 +++세부 정보 보기
 
-* **대상 인터페이스의 대상 원본 레이블 정확도입니다.** Adobe Experience Platform의 Adobe Target v2 대상에서 오는 대상자가 **Adobe Experience Platform** 대신 소스로 **Adobe Experience Cloud**&#x200B;와(과) 함께 나타날 수 있는 문제를 해결했습니다. 이 업데이트는 대상자를 필터링하고 검토할 때 소스 레이블 일관성을 향상시킵니다. (TGT-54802)
+* **대상 인터페이스의 대상 원본 레이블 정확도입니다.** Adobe Experience Platform의 Adobe Target v2 대상에서 오는 대상자가 **Adobe Experience Platform** 대신 **Adobe Experience Cloud**&#x200B;을(를) 소스로 사용할 수 있는 문제가 해결되었습니다. 이 업데이트는 대상자를 필터링하고 검토할 때 소스 레이블 일관성을 향상시킵니다. (TGT-54802)
 
 +++
 
