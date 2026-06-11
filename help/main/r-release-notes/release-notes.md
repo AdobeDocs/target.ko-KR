@@ -7,21 +7,14 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 652
-ht-degree: 41%
+source-wordcount: 467
+ht-degree: 57%
 
 ---
 
@@ -31,51 +24,17 @@ ht-degree: 41%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 26.6.1(2026년 6월 4일)
-
-**활동**
-
-+++세부 정보 보기
-
-* **[!UICONTROL 활동 개요]의 활동 URL이 완전하지 않습니다.** [!UICONTROL 활동 개요]에 활동에 대한 전체 URL이 표시되지 않는 문제가 해결되었습니다. (TGT-54029)
-
-* **활동 보고서에 지역화되지 않은 날짜 형식입니다.** **[!UICONTROL 미리 설정된 날짜 범위]** 드롭다운 목록에서 **마지막 X일** 옵션을 선택한 경우 **[!UICONTROL 보고서]** 탭에서 날짜 형식이 현지화되지 않는 문제를 해결했습니다. (TGT-51637)
-
-* **특정 GB18030 문자가 있는 양식 기반 활동을 [!UICONTROL Location]에 저장할 수 없습니다.** **[!UICONTROL Location]** 필드에 특정 GB18030 문자가 포함되어 있을 때 양식 기반 활동을 저장할 수 없는 문제를 해결했습니다. (TGT-46980)
-
-+++
-
-**[!UICONTROL 대상자]**
-
-+++세부 정보 보기
-
-* **중국어 간체 및 번체 중국어에 대한 대상 흐름을 만들 때 지역화되지 않은 일정.** 대상 만들기 흐름 동안 **[!UICONTROL 기간]** 특성의 **[!UICONTROL 시작]** 및 **[!UICONTROL 끝]** 필드에 있는 달력이 중국어(간체) 및 중국어(번체) 로케일에서 현지화되지 않던 문제를 해결했습니다. (TGT-50619)
-
-+++
-
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
-
-+++세부 정보 보기
-
-* **업데이트된 Activity Builder에서 현지화되지 않은 도구 설명.** 업데이트된 [!UICONTROL 시각적 경험 작성기] 활동 빌더에서 **[!UICONTROL 개선]** 및 **[!UICONTROL 콘텐츠]** 정보 도구 설명이 현지화되지 않은 현지화 문제를 해결했습니다. (TGT-53721)
-
-* [!UICONTROL 경험 대상]에서 **지역화되지 않은 [!UICONTROL 모든 방문자].** 왼쪽 레일의 **[!UICONTROL 경험 대상]**&#x200B;에 있는 **[!UICONTROL 모든 방문자]** 문자열이 [!UICONTROL 시각적 경험 작성기]에서 현지화되지 않는 문제를 해결했습니다. (TGT-50086)
-
-+++
-
-**[!UICONTROL 보고서]**
-
-+++세부 정보 보기
-
-* [!UICONTROL 사전 설정 만들기] 창에서 **지역화되지 않은 날짜 형식입니다.** **[!UICONTROL 사전 설정 만들기]** 창의 **[!UICONTROL 날짜 범위]** 필드에 있는 날짜 형식이 현지화되지 않은 문제가 수정되었습니다. (TGT-49239)
-
-+++
+## [!DNL Target Standard/Premium] 26.6.3(2026년 6월 11일)
 
 **로컬라이제이션**
 
 +++세부 정보 보기
 
-* **GB18030 문자가 여러 영역에 표시됩니다.** 일부 개인 사용 영역 문자가 **[!UICONTROL 대상]** UI, **[!UICONTROL 관리]** > **[!UICONTROL 속성]**, 모바일 뷰포트 구성 및 알림 알림에서 문자로 잘못 표시되는 문제가 해결되었습니다. (TGT-49622, TGT-49623, TGT-49624, TGT-49625)
+* **활동을 만드는 동안 대상 달력 모달에서 지역화되지 않은 주의 첫째 날입니다.** 활동을 만드는 동안 **[!UICONTROL 만들기]**, **[!UICONTROL 편집]** 및 **[!UICONTROL 중복 대상]** 양식의 달력에서 첫 번째 요일이 현지화되지 않던 문제를 수정했습니다. (TGT-50510)
+
+* **활동 개요 보고서에서 지역화되지 않은 백분율 형식입니다.** **[!UICONTROL 활동 개요]** 페이지의 **[!UICONTROL 보고서]** 탭에 있는 테이블에서 백분율 형식이 현지화되지 않은 문제가 수정되었습니다. (TGT-50094)
+
+* [!UICONTROL 기준 만들기] 대화 상자에서 **지역화되지 않은 숫자 형식입니다.** **[!UICONTROL 권장 사항]**&#x200B;의 **[!UICONTROL 기준 만들기]** 대화 상자에서 숫자 형식이 현지화되지 않는 문제를 해결했습니다. (TGT-52250)
 
 +++
 
