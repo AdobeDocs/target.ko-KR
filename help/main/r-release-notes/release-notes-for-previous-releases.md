@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 70482
+source-wordcount: 70774
 ht-degree: 49%
 
 ---
@@ -57,6 +57,54 @@ ht-degree: 49%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.6.1(2026년 6월 4일)
+
+**활동**
+
++++세부 정보 보기
+
+* **[!UICONTROL 활동 개요]의 활동 URL이 완전하지 않습니다.** [!UICONTROL 활동 개요]에 활동에 대한 전체 URL이 표시되지 않는 문제가 해결되었습니다. (TGT-54029)
+
+* **활동 보고서에 지역화되지 않은 날짜 형식입니다.** **[!UICONTROL 미리 설정된 날짜 범위]** 드롭다운 목록에서 **마지막 X일** 옵션을 선택한 경우 **[!UICONTROL 보고서]** 탭에서 날짜 형식이 현지화되지 않는 문제를 해결했습니다. (TGT-51637)
+
+* **특정 GB18030 문자가 있는 양식 기반 활동을 [!UICONTROL Location]에 저장할 수 없습니다.** **[!UICONTROL Location]** 필드에 특정 GB18030 문자가 포함되어 있을 때 양식 기반 활동을 저장할 수 없는 문제를 해결했습니다. (TGT-46980)
+
++++
+
+**[!UICONTROL 대상자]**
+
++++세부 정보 보기
+
+* **중국어 간체 및 번체 중국어에 대한 대상 흐름을 만들 때 지역화되지 않은 일정.** 대상 만들기 흐름 동안 **[!UICONTROL 기간]** 특성의 **[!UICONTROL 시작]** 및 **[!UICONTROL 끝]** 필드에 있는 달력이 중국어(간체) 및 중국어(번체) 로케일에서 현지화되지 않던 문제를 해결했습니다. (TGT-50619)
+
++++
+
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
+
++++세부 정보 보기
+
+* **업데이트된 Activity Builder에서 현지화되지 않은 도구 설명.** 업데이트된 [!UICONTROL 시각적 경험 작성기] 활동 빌더에서 **[!UICONTROL 개선]** 및 **[!UICONTROL 콘텐츠]** 정보 도구 설명이 현지화되지 않은 현지화 문제를 해결했습니다. (TGT-53721)
+
+* [!UICONTROL 경험 대상]에서 **지역화되지 않은 [!UICONTROL 모든 방문자].** 왼쪽 레일의 **[!UICONTROL 경험 대상]**&#x200B;에 있는 **[!UICONTROL 모든 방문자]** 문자열이 [!UICONTROL 시각적 경험 작성기]에서 현지화되지 않는 문제를 해결했습니다. (TGT-50086)
+
++++
+
+**[!UICONTROL 보고서]**
+
++++세부 정보 보기
+
+* [!UICONTROL 사전 설정 만들기] 창에서 **지역화되지 않은 날짜 형식입니다.** **[!UICONTROL 사전 설정 만들기]** 창의 **[!UICONTROL 날짜 범위]** 필드에 있는 날짜 형식이 현지화되지 않은 문제가 수정되었습니다. (TGT-49239)
+
++++
+
+**로컬라이제이션**
+
++++세부 정보 보기
+
+* **GB18030 문자가 여러 영역에 표시됩니다.** 일부 개인 사용 영역 문자가 **[!UICONTROL 대상]** UI, **[!UICONTROL 관리]** > **[!UICONTROL 속성]**, 모바일 뷰포트 구성 및 알림 알림에서 문자로 잘못 표시되는 문제가 해결되었습니다. (TGT-49622, TGT-49623, TGT-49624, TGT-49625)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.2(2026년 5월 14일)
 
@@ -281,7 +329,7 @@ ht-degree: 49%
 
 +++세부 정보 보기
 
-* **대상 인터페이스의 대상 원본 레이블 정확도입니다.** Adobe Experience Platform의 Adobe Target v2 대상에서 오는 대상자가 **Adobe Experience Platform** 대신 **Adobe Experience Cloud**&#x200B;을(를) 소스로 사용할 수 있는 문제가 해결되었습니다. 이 업데이트는 대상자를 필터링하고 검토할 때 소스 레이블 일관성을 향상시킵니다. (TGT-54802)
+* **대상 인터페이스의 대상 원본 레이블 정확도입니다.** Adobe Experience Platform의 Adobe Target v2 대상에서 오는 대상자가 **Adobe Experience Platform** 대신 소스로 **Adobe Experience Cloud**&#x200B;와(과) 함께 나타날 수 있는 문제를 해결했습니다. 이 업데이트는 대상자를 필터링하고 검토할 때 소스 레이블 일관성을 향상시킵니다. (TGT-54802)
 
 +++
 
@@ -915,7 +963,7 @@ ht-degree: 49%
 * **업데이트된 [!UICONTROL 제품 카탈로그 검색] UI의 고급 검색에서 제안을 제공하지 않았습니다**: 업데이트된 [!UICONTROL 제품 카탈로그 검색] UI의 고급 검색 기능을 사용하는 고객은 제안이 표시되지 않았으므로 정확한 철자로 정확한 값을 입력해야 합니다. 이 문제로 인해 제품을 효율적으로 찾는 데 어려움을 겪었습니다. 이제 고급 검색 입력 중에 예상대로 제안이 표시됩니다. (TGT-52008)
 * **일부 승인자가 [!UICONTROL 제품 카탈로그 검색]**&#x200B;에서 제품을 볼 수 없습니다. [!UICONTROL 승인자] 권한이 있는 고객은 동일한 역할을 가진 다른 사용자가 액세스 권한을 가지고 있음에도 불구하고 [!UICONTROL 제품 카탈로그 검색]에서 제품을 볼 수 없습니다. 이 문제는 권한 불일치가 카탈로그 가시성에 영향을 미쳐 발생했습니다. 이제 모든 승인자가 예상대로 [!UICONTROL 권장 사항] 섹션에서 제품을 볼 수 있습니다. (TGT-53617)
 
-+++
++++ 
 
 **[!UICONTROL 보고서]**
 
@@ -3206,7 +3254,7 @@ Target Standard/Premium 20.1.1 릴리스는 유지 보수 릴리스이며 백엔
 | --- | --- |
 | ![Premium 배지](/help/main/assets/premium.png)<br>A/B 테스트 및 XT(경험 타기팅) 활동의 권장 사항 | 권장 사항 오퍼(알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 결과 준비됨, 결과가 준비되지 않음 및 피드 장애 상태가 있습니다. (TGT-33649)<br>오퍼로서의 [권장 사항 보기](/help/main/c-recommendations/recommendations-as-an-offer.md#status). |
 | ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에서 지원되지 않았습니다. 이번 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 사용해야 합니다.<br>at.js 2.x에서 [도메인 간 추적 지원](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오. |
-| ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2에 대한 Target 지원 | 현재 Target 고객은 Apple의 CNAME 인증 프로그램을 활용하여 Adobe의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스에서는 Target이 ECID 라이브러리 4.3과의 매끄러운 통합을 도입했습니다. 이 라이브러리는 서버측 쿠키를 활용하여 ITP 2.1과 ITP 2.2를 완화합니다. Target 고객은 향후 ITP 릴리스를 완화할 수 있도록 Target의 JavaScript 라이브러리와 함께 [ECID 라이브러리 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 배포하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>. [Apple ITP(Intelligent Tracking Prevention) 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html?lang=ko){target=_blank}를 참조하십시오. |
+| ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2를 Target에서 지원 | 현재 Target 고객은 Apple의 CNAME 인증 프로그램을 활용하여 Adobe의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스에서는 Target이 ECID 라이브러리 4.3과의 매끄러운 통합을 도입했습니다. 이 라이브러리는 서버측 쿠키를 활용하여 ITP 2.1과 ITP 2.2를 완화합니다. Target 고객은 향후 ITP 릴리스를 완화할 수 있도록 Target의 JavaScript 라이브러리와 함께 [ECID 라이브러리 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 배포하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>. [Apple ITP(Intelligent Tracking Prevention) 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html?lang=ko){target=_blank}를 참조하십시오. |
 
 **개선 사항, 수정 및 변경 사항**
 
