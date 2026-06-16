@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
 source-wordcount: 2900
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 45%
 
    수직 시장 및 페이지 유형을 함께 사용하면 저장된 기준을 분류할 수 있으므로 다른 [!DNL Recommendations] 활동에 대한 기준을 쉽게 다시 사용할 수 있습니다.
 
-## [!UICONTROL 권장 사항 알고리즘] {#rec-algo}
+## [!UICONTROL 추천 알고리즘] {#rec-algo}
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
