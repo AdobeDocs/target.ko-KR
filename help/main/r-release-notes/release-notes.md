@@ -7,21 +7,14 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 57%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,17 +24,35 @@ ht-degree: 57%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 26.6.3(2026년 6월 11일)
+## [!DNL Target Standard/Premium] 26.6.4(2026년 6월 16일)
+
+**활동**
+
++++세부 정보 보기
+
+* 업데이트된 [!DNL Target] UI에서 **[!UICONTROL 저장 및 닫기].** 업데이트된 [!DNL Target] UI에서 **[!UICONTROL 저장 및 닫기]** 옵션을 복원했습니다. (TGT-55152)
+
+* 업데이트된 [!DNL Target] UI의 **QA URL.** 업데이트된 [!DNL Target] UI에서 QA URL이 올바르게 작동하지 않는 문제를 해결했습니다. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
 
 **로컬라이제이션**
 
 +++세부 정보 보기
 
-* **활동을 만드는 동안 대상 달력 모달에서 지역화되지 않은 주의 첫째 날입니다.** 활동을 만드는 동안 **[!UICONTROL 만들기]**, **[!UICONTROL 편집]** 및 **[!UICONTROL 중복 대상]** 양식의 달력에서 첫 번째 요일이 현지화되지 않던 문제를 수정했습니다. (TGT-50510)
+* **활동 개요 그래프 보고서에서 지역화되지 않은 백분율 형식입니다.** **[!UICONTROL 활동 개요]** 페이지의 **[!UICONTROL 보고서]** 탭에 있는 **[!UICONTROL 그래프 보기]**&#x200B;의 차트에서 백분율 형식이 현지화되지 않은 문제가 수정되었습니다. (TGT-50100)
 
-* **활동 개요 보고서에서 지역화되지 않은 백분율 형식입니다.** **[!UICONTROL 활동 개요]** 페이지의 **[!UICONTROL 보고서]** 탭에 있는 테이블에서 백분율 형식이 현지화되지 않은 문제가 수정되었습니다. (TGT-50094)
+* **활동 URL의 일본어 문자** 활동을 저장한 후 **[!UICONTROL 활동 개요]** 페이지와 활동 목록에서 활동 URL의 일본어 문자가 손상된 것으로 표시되는 문제를 해결했습니다. (TGT-53459)
 
-* [!UICONTROL 기준 만들기] 대화 상자에서 **지역화되지 않은 숫자 형식입니다.** **[!UICONTROL 권장 사항]**&#x200B;의 **[!UICONTROL 기준 만들기]** 대화 상자에서 숫자 형식이 현지화되지 않는 문제를 해결했습니다. (TGT-52250)
+* **기본 활동 이름에 지역화되지 않은 타임스탬프입니다.** 활동을 만드는 동안 기본 활동 이름을 유지할 때 타임스탬프가 활동 제목에 현지화되지 않던 문제를 수정했습니다. (TGT-53273)
+
++++
+
+**[!UICONTROL 추천]**
+
++++세부 정보 보기
+
+* **피드를 만든 후 URL에 있는 멀티바이트 문자입니다.** 피드를 만든 후 URL에서 멀티바이트 문자가 손상된 것으로 표시되는 문제를 수정했습니다. (TGT-54793)
 
 +++
 
