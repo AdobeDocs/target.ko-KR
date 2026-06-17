@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
 workflow-type: tm+mt
-source-wordcount: 70774
+source-wordcount: 70881
 ht-degree: 49%
 
 ---
@@ -57,6 +57,20 @@ ht-degree: 49%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.6.3(2026년 6월 11일)
+
+**로컬라이제이션**
+
++++세부 정보 보기
+
+* **활동을 만드는 동안 대상 달력 모달에서 지역화되지 않은 주의 첫째 날입니다.** 활동을 만드는 동안 **[!UICONTROL 만들기]**, **[!UICONTROL 편집]** 및 **[!UICONTROL 중복 대상]** 양식의 달력에서 첫 번째 요일이 현지화되지 않던 문제를 수정했습니다. (TGT-50510)
+
+* **활동 개요 보고서에서 지역화되지 않은 백분율 형식입니다.** **[!UICONTROL 활동 개요]** 페이지의 **[!UICONTROL 보고서]** 탭에 있는 테이블에서 백분율 형식이 현지화되지 않은 문제가 수정되었습니다. (TGT-50094)
+
+* [!UICONTROL 기준 만들기] 대화 상자에서 **지역화되지 않은 숫자 형식입니다.** **[!UICONTROL 권장 사항]**&#x200B;의 **[!UICONTROL 기준 만들기]** 대화 상자에서 숫자 형식이 현지화되지 않는 문제를 해결했습니다. (TGT-52250)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.1(2026년 6월 4일)
 
