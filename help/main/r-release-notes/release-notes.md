@@ -7,21 +7,14 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 612
+ht-degree: 44%
 
 ---
 
@@ -30,6 +23,24 @@ ht-degree: 49%
 [!DNL Adobe Target]의 최신 기능, 개선 사항 및 수정 사항을 살펴보십시오. 이러한 릴리스 노트는 해당되는 경우 [!DNL Target]개의 API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 구성 요소에 대한 업데이트도 다룹니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 26.6.5(2026년 6월 17일)
+
+**활동**
+
++++세부 정보 보기
+
+* **활동에서 소스에서 삭제된 대상을 사용할 때 오류가 발생합니다.** 활동이 소스에서 삭제된 하나 이상의 대상을 사용함을 나타내는 오류가 표시되는 문제를 해결했습니다. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics for Target](A4T)**
+
++++세부 정보 보기
+
+* **A4T 보고서가 표시되지 않습니다.** [!UICONTROL Analytics for Target]&#x200B;(A4T) 보고서가 표시되지 않는 문제가 해결되었습니다. (TGT-55432)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.4(2026년 6월 16일)
 
