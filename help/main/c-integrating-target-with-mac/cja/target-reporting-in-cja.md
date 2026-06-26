@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 28043bff2987da0280091df9c935a4644309b1c0
 workflow-type: tm+mt
-source-wordcount: 1488
-ht-degree: 34%
+source-wordcount: 1580
+ht-degree: 32%
 
 ---
 
@@ -158,6 +158,12 @@ ht-degree: 34%
    * [!UICONTROL 활동 ID]
 
    ![Customer Journey Analytics의 이름 및 ID 옵션](/help/main/c-integrating-target-with-mac/cja/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. [!DNL Customer Journey Analytics] 특성 지표가 방문자 여정에서 올바른 [!DNL Target] 경험에 도달하도록 하려면 [!UICONTROL 활동 이름] 및 [!UICONTROL 활동 ID] 차원에 대한 지속성을 구성하십시오.
+
+   지속성이 구성되지 않으면 [!DNL Customer Journey Analytics]은(는) [!DNL Target] 경험과 동일한 이벤트에서 발생하는 지표만 연결합니다. 예를 들어 방문자가 홈 페이지에서 Target 경험을 보게 되면 이후 페이지의 구매에서 해당 방문자의 매출 지표는 Target 활동에 귀속되지 않습니다.
+
+   지속성에 대한 자세한 내용은 [Adobe Customer Journey Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}를 참조하세요.
 
 1. [!UICONTROL 실험] 패널에서 [!DNL Target] 차원을 사용하려면 다음 컨텍스트 레이블을 설정하십시오.
 
