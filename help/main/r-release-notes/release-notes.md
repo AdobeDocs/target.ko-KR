@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
+source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
 workflow-type: tm+mt
-source-wordcount: 612
-ht-degree: 44%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,33 +31,15 @@ ht-degree: 44%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 26.6.5(2026년 6월 17일)
+## [!DNL Target Standard/Premium] 26.6.8(2026년 6월 24일)
 
 **활동**
 
 +++세부 정보 보기
 
-* **활동에서 소스에서 삭제된 대상을 사용할 때 오류가 발생합니다.** 활동이 소스에서 삭제된 하나 이상의 대상을 사용함을 나타내는 오류가 표시되는 문제를 해결했습니다. (TGT-55272)
+* **API 및 MCP에 대한 Source 필터에서 리소스를 만들었습니다.** [!UICONTROL Adobe Target API] 또는 [!UICONTROL Adobe Target MCP]에 의한 필터링이 활동, 대상 및 오퍼 목록 페이지에서 작동하지 않는 문제를 해결했습니다. (TGT-55236)
 
-+++
-
-**[!UICONTROL Analytics for Target] (A4T)**
-
-+++세부 정보 보기
-
-* **A4T 보고서가 표시되지 않습니다.** [!UICONTROL Analytics for Target]&#x200B;(A4T) 보고서가 표시되지 않는 문제가 해결되었습니다. (TGT-55432)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4(2026년 6월 16일)
-
-**활동**
-
-+++세부 정보 보기
-
-* 업데이트된 [!DNL Target] UI에서 **[!UICONTROL 저장 및 닫기].** 업데이트된 [!DNL Target] UI에서 **[!UICONTROL 저장 및 닫기]** 옵션을 복원했습니다. (TGT-55152)
-
-* 업데이트된 [!DNL Target] UI의 **QA URL.** 업데이트된 [!DNL Target] UI에서 QA URL이 올바르게 작동하지 않는 문제를 해결했습니다. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+* **활동 원본 필터 값입니다.** [!UICONTROL Adobe Target API] 또는 [!UICONTROL Adobe Target MCP] 원본 필터에 새로 API에서 만든 대상이 표시되지 않던 문제를 수정했습니다. (TGT-55237)
 
 +++
 
@@ -65,33 +47,15 @@ ht-degree: 44%
 
 +++세부 정보 보기
 
-* **활동 개요 그래프 보고서에서 지역화되지 않은 백분율 형식입니다.** **[!UICONTROL 활동 개요]** 페이지의 **[!UICONTROL 보고서]** 탭에 있는 **[!UICONTROL 그래프 보기]**&#x200B;의 차트에서 백분율 형식이 현지화되지 않은 문제가 수정되었습니다. (TGT-50100)
+* **JSON 오퍼 만들기 모달에서 지역화되지 않은 문자열 입니다.** [!UICONTROL 이름] 및 [!UICONTROL Workspace]을(를) 포함한 [!UICONTROL JSON 오퍼 만들기] 모달의 문자열이 활동 생성 중에 현지화되지 않는 문제가 해결되었습니다. (TGT-50084)
 
-* **활동 URL의 일본어 문자** 활동을 저장한 후 **[!UICONTROL 활동 개요]** 페이지와 활동 목록에서 활동 URL의 일본어 문자가 손상된 것으로 표시되는 문제를 해결했습니다. (TGT-53459)
+* **지역화되지 않은 toast 메시지([!UICONTROL 권장 사항] 활동).** 양식 기반 [!UICONTROL 권장 사항] 활동에서 권장 사항을 추가할 때 지역화되지 않은 toast 메시지가 표시되는 문제를 해결했습니다. (TGT-50463)
 
-* **기본 활동 이름에 지역화되지 않은 타임스탬프입니다.** 활동을 만드는 동안 기본 활동 이름을 유지할 때 타임스탬프가 활동 제목에 현지화되지 않던 문제를 수정했습니다. (TGT-53273)
+* **[!UICONTROL 컬렉션] 및 [!UICONTROL 제외] 대화 상자에 지역화되지 않은 문자열.** [!UICONTROL 권장 사항]의 [!UICONTROL 컬렉션] 및 [!UICONTROL 제외] 대화 상자에서 &quot;항목 페이로드&quot; 문자열이 현지화되지 않는 문제를 해결했습니다. (TGT-51542)
 
-+++
-
-**[!UICONTROL 추천]**
-
-+++세부 정보 보기
-
-* **피드를 만든 후 URL에 있는 멀티바이트 문자입니다.** 피드를 만든 후 URL에서 멀티바이트 문자가 손상된 것으로 표시되는 문제를 수정했습니다. (TGT-54793)
+* [!UICONTROL 대상] 탭에서 **지역화되지 않은 &quot;승인자&quot; 문자열입니다.** [!UICONTROL 대상 라이브러리] 페이지의 [!UICONTROL Workspace] 열에서 &quot;승인자&quot; 문자열이 현지화되지 않은 문제가 해결되었습니다. (TGT-51751)
 
 +++
-
-<!--
-* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
-
-+++
--->
 
 ## 알아야 하는 시간에 민감한 업데이트 {#time-sensitive}
 

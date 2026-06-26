@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
+source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
 workflow-type: tm+mt
-source-wordcount: 70881
+source-wordcount: 71133
 ht-degree: 49%
 
 ---
@@ -57,6 +57,68 @@ ht-degree: 49%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.6.5(2026년 6월 17일)
+
+**활동**
+
++++세부 정보 보기
+
+* **활동에서 소스에서 삭제된 대상을 사용할 때 오류가 발생합니다.** 활동이 소스에서 삭제된 하나 이상의 대상을 사용함을 나타내는 오류가 표시되는 문제를 해결했습니다. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++세부 정보 보기
+
+* **A4T 보고서가 표시되지 않습니다.** [!UICONTROL Analytics for Target]&#x200B;(A4T) 보고서가 표시되지 않는 문제가 해결되었습니다. (TGT-55432)
+
++++ 
+
+## [!DNL Target Standard/Premium] 26.6.4(2026년 6월 16일)
+
+**활동**
+
++++세부 정보 보기
+
+* 업데이트된 [!DNL Target] UI에서 **[!UICONTROL 저장 및 닫기].** 업데이트된 [!DNL Target] UI에서 **[!UICONTROL 저장 및 닫기]** 옵션을 복원했습니다. (TGT-55152)
+
+* 업데이트된 [!DNL Target] UI의 **QA URL.** 업데이트된 [!DNL Target] UI에서 QA URL이 올바르게 작동하지 않는 문제를 해결했습니다. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
+
+**로컬라이제이션**
+
++++세부 정보 보기
+
+* **활동 개요 그래프 보고서에서 지역화되지 않은 백분율 형식입니다.** **[!UICONTROL 활동 개요]** 페이지의 **[!UICONTROL 보고서]** 탭에 있는 **[!UICONTROL 그래프 보기]**&#x200B;의 차트에서 백분율 형식이 현지화되지 않은 문제가 수정되었습니다. (TGT-50100)
+
+* **활동 URL의 일본어 문자** 활동을 저장한 후 **[!UICONTROL 활동 개요]** 페이지와 활동 목록에서 활동 URL의 일본어 문자가 손상된 것으로 표시되는 문제를 해결했습니다. (TGT-53459)
+
+* **기본 활동 이름에 지역화되지 않은 타임스탬프입니다.** 활동을 만드는 동안 기본 활동 이름을 유지할 때 타임스탬프가 활동 제목에 현지화되지 않던 문제를 수정했습니다. (TGT-53273)
+
++++
+
+**[!UICONTROL 추천]**
+
++++세부 정보 보기
+
+* **피드를 만든 후 URL에 있는 멀티바이트 문자입니다.** 피드를 만든 후 URL에서 멀티바이트 문자가 손상된 것으로 표시되는 문제를 수정했습니다. (TGT-54793)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.6.3(2026년 6월 11일)
 
@@ -343,7 +405,7 @@ ht-degree: 49%
 
 +++세부 정보 보기
 
-* **대상 인터페이스의 대상 원본 레이블 정확도입니다.** Adobe Experience Platform의 Adobe Target v2 대상에서 오는 대상자가 **Adobe Experience Platform** 대신 소스로 **Adobe Experience Cloud**&#x200B;와(과) 함께 나타날 수 있는 문제를 해결했습니다. 이 업데이트는 대상자를 필터링하고 검토할 때 소스 레이블 일관성을 향상시킵니다. (TGT-54802)
+* **대상 인터페이스의 대상 원본 레이블 정확도입니다.** Adobe Experience Platform의 Adobe Target v2 대상에서 오는 대상자가 **Adobe Experience Platform** 대신 **Adobe Experience Cloud**&#x200B;을(를) 소스로 사용할 수 있는 문제가 해결되었습니다. 이 업데이트는 대상자를 필터링하고 검토할 때 소스 레이블 일관성을 향상시킵니다. (TGT-54802)
 
 +++
 
