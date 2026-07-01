@@ -13,10 +13,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 58%
+source-wordcount: 942
+ht-degree: 55%
 
 ---
 
@@ -110,6 +110,8 @@ ht-degree: 58%
 * 클릭 추적 지표 범위를 제한할 필요가 있는 경우 대상자를 사용합니다.
 
 * 여러 활동을 통해 동일한 선택기에 대한 클릭 추적 지표를 정의할 수 있습니다. 그렇다면 해당 활동 중 하나를 수행할 자격이 있는 방문자가 해당 선택기를 클릭하는 경우 자격이 부여된 모든 관련 활동에 대해 클릭 추적 지표가 증가합니다.
+
+* 단일 페이지 애플리케이션(SPA)의 [!UICONTROL Automated Personalization]&#x200B;(AP) 및 자동 타겟 활동의 경우 특정 [!DNL Target] 보기에 속하는 클릭 추적에 대한 요소를 선택할 수 있습니다. 보기에 대한 자세한 내용은 [Adobe Target 보기 및 단일 페이지 응용 프로그램](/help/main/c-experiences/spa-visual-experience-composer.md)을 참조하십시오.
 
 ## 교육 비디오 {#section_36607204DAE146E3B8E2C609D244EDB1}
 
