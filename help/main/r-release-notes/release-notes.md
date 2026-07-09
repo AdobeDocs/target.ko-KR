@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
+source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 37%
+source-wordcount: 465
+ht-degree: 58%
 
 ---
 
@@ -31,62 +31,31 @@ ht-degree: 37%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 26.6.8(2026년 6월 24일)
+## [!DNL Target Standard/Premium] 26.7.1(2026년 7월 9일)
 
 **활동**
 
 +++세부 정보 보기
 
-* **API 및 MCP에 대한 Source 필터에서 리소스를 만들었습니다.** [!UICONTROL Adobe Target API] 또는 [!UICONTROL Adobe Target MCP]에 의한 필터링이 활동, 대상 및 오퍼 목록 페이지에서 작동하지 않는 문제를 해결했습니다. (TGT-55236)
+* **[!UICONTROL 활동], [!UICONTROL 대상], [!UICONTROL 오퍼] 페이지에서 원본 디스플레이가 일치하지 않습니다.** 소스가 [!UICONTROL 활동], [!UICONTROL 대상], [!UICONTROL 오퍼] 페이지에서 일관되지 않게 표시되는 문제를 해결했습니다. (TGT-55247)
+
+* UI를 통해 편집할 때 **활동 소스가 변경됩니다.** UI를 통해 활동을 편집하면 원래 활동 소스가 변경되는 문제가 해결되었습니다. (TGT-55248)
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**대상자**
 
 +++세부 정보 보기
 
-* **A4T 보고서가 표시되지 않습니다.** [!UICONTROL Analytics for Target]&#x200B;(A4T) 보고서가 표시되지 않는 문제가 해결되었습니다. (TGT-55432)
+* **대상자를 편집할 때 잘못된 기본 작업 영역입니다.** 대상자를 편집한 후 기본 작업 영역이 올바르지 않은 문제가 해결되었습니다. (TGT-55510)
 
 +++
 
-**[!DNL Adobe Target]MCP 서버**
+**보고**
 
 +++세부 정보 보기
 
-* **통합 활동 도구** [!DNL Adobe Target] MCP 서버 활동 도구는 도구 선택 오버헤드를 줄이고 모든 활동 유형으로 읽기 및 보고서 범위를 확장하기 위해 통합되었습니다. 유형당 6개의 도구가 4개의 통합 도구로 대체되었습니다.
-
-   * `get_activity`이(가) `get_ab_activity`, `get_xt_activity` 및 `get_abt_activity`을(를) 대체합니다. A/B 테스트, 경험 타깃팅, Automated Personalization, 자동 할당, 다변량 테스트(MVT) 및 권장 사항 등 모든 유형에 대한 전체 활동 세부 정보를 검색합니다. 활동 유형이 ID에서 자동으로 감지됩니다.
-   * `update_activity`이(가) `update_ab_activity`, `update_xt_activity` 및 `update_abt_activity`을(를) 대체합니다. A/B 테스트, 경험 타기팅 및 Automated Personalization 활동을 지원합니다. 자동 할당, MVT 및 권장 사항 활동은 읽기 전용입니다.
-   * `get_activity_performance_report`이(가) `get_ab_performance_report` 및 `get_xt_performance_report`을(를) 대체합니다. 모든 활동 유형에 대한 전환, 상승도 및 신뢰도 지표를 검색합니다.
-   * `get_activity_orders_report`이(가) `get_ab_orders_report` 및 `get_xt_orders_report`을(를) 대체합니다. 모든 활동 유형에 대한 주문 및 매출 지표를 검색합니다.
-
-  자세한 내용은 [[!DNL Adobe Target] MCP 서버 도구 참조](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)를 참조하십시오.
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4(2026년 6월 16일)
-
-**활동**
-
-+++세부 정보 보기
-
-* 업데이트된 [!DNL Target] UI에서 **[!UICONTROL 저장 및 닫기].** 업데이트된 [!DNL Target] UI에서 **[!UICONTROL 저장 및 닫기]** 옵션을 복원했습니다. (TGT-55152)
-
-* 업데이트된 [!DNL Target] UI의 **QA URL.** 업데이트된 [!DNL Target] UI에서 QA URL이 올바르게 작동하지 않는 문제를 해결했습니다. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
-
-+++
-
-**로컬라이제이션**
-
-+++세부 정보 보기
-
-* **JSON 오퍼 만들기 모달에서 지역화되지 않은 문자열 입니다.** [!UICONTROL 이름] 및 [!UICONTROL Workspace]을(를) 포함한 [!UICONTROL JSON 오퍼 만들기] 모달의 문자열이 활동 생성 중에 현지화되지 않는 문제가 해결되었습니다. (TGT-50084)
-
-* **지역화되지 않은 toast 메시지([!UICONTROL 권장 사항] 활동).** 양식 기반 [!UICONTROL 권장 사항] 활동에서 권장 사항을 추가할 때 지역화되지 않은 toast 메시지가 표시되는 문제를 해결했습니다. (TGT-50463)
-
-* **[!UICONTROL 컬렉션] 및 [!UICONTROL 제외] 대화 상자에 지역화되지 않은 문자열.** [!UICONTROL 권장 사항]의 [!UICONTROL 컬렉션] 및 [!UICONTROL 제외] 대화 상자에서 &quot;항목 페이로드&quot; 문자열이 현지화되지 않는 문제를 해결했습니다. (TGT-51542)
-
-* [!UICONTROL 대상] 탭에서 **지역화되지 않은 &quot;승인자&quot; 문자열입니다.** [!UICONTROL 대상 라이브러리] 페이지의 [!UICONTROL Workspace] 열에서 &quot;승인자&quot; 문자열이 현지화되지 않은 문제가 해결되었습니다. (TGT-51751)
+* 5월 보고서에 대한 **CSV 다운로드 실패.** 5월에 대한 CSV 보고서를 다운로드하지 못하던 문제를 수정했습니다. (TGT-55524)
 
 +++
 

@@ -39,10 +39,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
+source-git-commit: 1175d9840a6607f7fea5e5ac6f768d12cdf52c8d
 workflow-type: tm+mt
-source-wordcount: 71133
-ht-degree: 49%
+source-wordcount: 71494
+ht-degree: 48%
 
 ---
 
@@ -57,6 +57,32 @@ ht-degree: 49%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.6.8(2026년 6월 24일)
+
+**활동**
+
++++세부 정보 보기
+
+* **API 및 MCP에 대한 Source 필터에서 리소스를 만들었습니다.** [!UICONTROL Adobe Target API] 또는 [!UICONTROL Adobe Target MCP]에 의한 필터링이 활동, 대상 및 오퍼 목록 페이지에서 작동하지 않는 문제를 해결했습니다. (TGT-55236)
+
+* **활동 원본 필터 값입니다.** [!UICONTROL Adobe Target API] 또는 [!UICONTROL Adobe Target MCP] 원본 필터에 새로 API에서 만든 대상이 표시되지 않던 문제를 수정했습니다. (TGT-55237)
+
++++
+
+**로컬라이제이션**
+
++++세부 정보 보기
+
+* **JSON 오퍼 만들기 모달에서 지역화되지 않은 문자열 입니다.** [!UICONTROL 이름] 및 [!UICONTROL Workspace]을(를) 포함한 [!UICONTROL JSON 오퍼 만들기] 모달의 문자열이 활동 생성 중에 현지화되지 않는 문제가 해결되었습니다. (TGT-50084)
+
+* **지역화되지 않은 toast 메시지([!UICONTROL 권장 사항] 활동).** 양식 기반 [!UICONTROL 권장 사항] 활동에서 권장 사항을 추가할 때 지역화되지 않은 toast 메시지가 표시되는 문제를 해결했습니다. (TGT-50463)
+
+* **[!UICONTROL 컬렉션] 및 [!UICONTROL 제외] 대화 상자에 지역화되지 않은 문자열.** [!UICONTROL 권장 사항]의 [!UICONTROL 컬렉션] 및 [!UICONTROL 제외] 대화 상자에서 &quot;항목 페이로드&quot; 문자열이 현지화되지 않는 문제를 해결했습니다. (TGT-51542)
+
+* [!UICONTROL 대상] 탭에서 **지역화되지 않은 &quot;승인자&quot; 문자열입니다.** [!UICONTROL 대상 라이브러리] 페이지의 [!UICONTROL Workspace] 열에서 &quot;승인자&quot; 문자열이 현지화되지 않은 문제가 해결되었습니다. (TGT-51751)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.5(2026년 6월 17일)
 
@@ -405,7 +431,7 @@ ht-degree: 49%
 
 +++세부 정보 보기
 
-* **대상 인터페이스의 대상 원본 레이블 정확도입니다.** Adobe Experience Platform의 Adobe Target v2 대상에서 오는 대상자가 **Adobe Experience Platform** 대신 **Adobe Experience Cloud**&#x200B;을(를) 소스로 사용할 수 있는 문제가 해결되었습니다. 이 업데이트는 대상자를 필터링하고 검토할 때 소스 레이블 일관성을 향상시킵니다. (TGT-54802)
+* **대상 인터페이스의 대상 원본 레이블 정확도입니다.** Adobe Experience Platform의 Adobe Target v2 대상에서 오는 대상자가 **Adobe Experience Platform** 대신 소스로 **Adobe Experience Cloud**&#x200B;와(과) 함께 나타날 수 있는 문제를 해결했습니다. 이 업데이트는 대상자를 필터링하고 검토할 때 소스 레이블 일관성을 향상시킵니다. (TGT-54802)
 
 +++
 
@@ -781,8 +807,7 @@ ht-degree: 49%
 * **활동 만들기 UI에서 작성 안정성이 복원되었습니다.** 작성에 실패하고 링크를 예기치 않게 클릭할 수 있게 하여 사용자를 페이지에서 멀리 리디렉션하는 VEC UI의 간헐적인 문제를 해결했습니다. (TGT-53153)
 * **활동 만들기 UI에서 저장된 활동에 대한 편집이 복원되었습니다.** 수정 사항을 저장한 후 사용자가 활동을 편집할 수 없는 문제를 해결했습니다. 영향을 받는 활동이 &quot;[!UICONTROL 초기 수정 적용]&quot;에서 중지되어 추가 업데이트가 차단되고 [!UICONTROL 취소] 단추가 숨겨졌습니다. (TGT-53631)
 * **VEC가 더 이상 &quot;[!UICONTROL 초기 수정 적용]&quot;에서 중지되지 않습니다.** 많은 수정 사항으로 경험을 로드할 때 오랜 지연을 초래했던 VEC의 성능 문제를 해결했습니다. 영향을 받는 사용자는 특히 경험 B 시나리오에서 몇 분 동안 &quot;[!UICONTROL 초기 수정 적용]&quot;에서 UI가 중단된 것을 확인했습니다. (TGT-53727)
-* **이제 VEC가 루트 요소 없이 수정 내용을 로드합니다.**
-명확한 루트 요소가 부족한 수정 사항을 로드할 때 경험이 중단되는 VEC의 문제를 해결했습니다. 이러한 수정으로 인해 이전에 &quot;A[!UICONTROL 초기 수정 적용]&quot;에서 UI가 무기한 중단되었습니다(TGT-53799).
+* **이제 VEC가 루트 요소 없이 수정 내용을 로드합니다.명확한 루트 요소가 부족한 수정 사항을 로드할 때 경험이 중단되는 VEC의 문제를 해결했습니다. 이러한 수정으로 인해 이전에 &quot;A[!UICONTROL 초기 수정 적용]&quot;에서 UI가 무기한 중단되었습니다. (TGT-53799)
 * **이제 활동의 변경 내용을 저장하는 것이 예상대로 작동합니다.** 사용자가 활동에서 목표 및 고급 설정을 편집할 때 변경 사항을 저장할 수 없는 새 만들기 UI의 권한 관련 문제를 해결했습니다. 해당하는 사용자는 적절한 액세스 권한이 있음에도 불구하고 빨간색 오류 리본과 &quot;Forbidden.Resource&quot; 메시지를 표시했습니다. (TGT-53816)
 * **VEC UI는 이제 보기 간에 환경 수정 사항을 유지합니다.** 경험 개발에 영향을 준 업데이트된 VEC의 여러 문제가 해결되었습니다. 특히 HTML 오퍼를 사용하거나 보기 간에 전환할 때 수정 사항이 올바르게 지속되지 않았습니다. (TGT-53825)
 * **수정 사항이 여러 경험에 걸쳐 적용되면 모든 보기가 올바르게 표시됩니다.** 수정이 여러 보기에 걸쳐 적용되면 하나의 보기만 표시되는 활동 만들기 UI의 문제를 해결했습니다. 수정이 올바르게 적용되었는데도 마우스로 가리키면 연결된 보기가 모두 나열되지 않습니다. (TGT-53827)
@@ -811,8 +836,7 @@ ht-degree: 49%
 
 +++로컬라이제이션
 
-* **&quot;전체 세부 정보 보기&quot;의 중국어 간체 번역에서 용어 불일치가 수정되었습니다.**
-이전에는 용어 &quot;세부 정보&quot;가 중국어 간체(zh_CN) 로케일에서 &quot;详情&quot;로 잘못 번역되어 설정된 용어 지침을 위반했습니다. 이는 용어 와의 일관성을 보장하기 위해 &quot;详细信息&quot;로 수정되었습니다. (TGT-53741)
+* **중국어 간체 번역의 &quot;전체 세부 정보 보기&quot;에서 용어 불일치가 수정되었습니다.이전에는 용어 &quot;세부 정보&quot;가 중국어 간체(zh_CN) 로케일에서 &quot;详情&quot;로 잘못 번역되어 설정된 용어 지침을 위반했습니다. 이는 용어 와의 일관성을 보장하기 위해 &quot;详细信息&quot;로 수정되었습니다. (TGT-53741)
 
 +++
 
@@ -829,8 +853,7 @@ ht-degree: 49%
 
 * **자동화된 Personalization에서 임시 오퍼를 생성[!UICONTROL 합니다.] 활동으로 인해 보고가 일치하지 않습니다.** AP([!UICONTROL Automated Personalization]) 활동에서 임시 오퍼 생성 기능을 사용하면 보고가 부정확해졌습니다. 특히 오퍼 ID가 여러 위치에서 재사용되었기 때문에 보고 데이터가 잘못 사용되거나 덮어쓰기되었습니다. 이제 애드혹 오퍼는 위치당 고유한 식별자를 사용하여 생성되므로, 구성된 모든 경험에서 정확한 추적 및 보고를 수행할 수 있습니다. (TGT-53757)
 * JavaScript 오류로 인해 **활동 보고서를 로드하지 못했습니다.** 고객이 특정 활동에 대한 [!UICONTROL 보고서] 탭에 액세스할 때 &quot;문제가 발생했습니다&quot;라는 메시지가 발생했습니다. JavaScript 예외로 인해 오류가 발생했습니다. `getAnalyticsReportSummary` GraphQL 호출 동안 트리거된 정의되지 않은 속성을 읽을 수 없습니다(&#39;indexOf&#39; 읽기). 이제 보고서가 올바르게 로드되며, 업데이트된 활동 만들기 워크플로우에서 유사한 오류를 방지하기 위해 오류 처리가 개선되었습니다. (TGT-53797)
-* **스크롤 막대와 상호 작용한 후 보고서가 충돌했습니다.** [!UICONTROL 보고서] 탭에서 스크롤 막대를 클릭하면 페이지가 충돌하고 JavaScript 오류가 발생했습니다.
-  이제 `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` 보고서가 오류 또는 충돌을 트리거하지 않고 올바르게 로드되고 스크롤됩니다. (TGT-53828)
+* **스크롤 막대와 상호 작용한 후 보고서가 충돌했습니다.** [!UICONTROL 보고서] 탭에서 스크롤 막대를 클릭하면 페이지가 충돌하고 JavaScript 오류가 발생합니다.  이제 `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` 보고서가 오류 또는 충돌을 트리거하지 않고 올바르게 로드되고 스크롤됩니다. (TGT-53828)
 * **보고서에 기본 지표가 표시되지 않았습니다.** mbox를 사용하여 전환 지표로 구성된 기본 지표가 활동 보고서에서 누락되었습니다. 지표 이름 또는 mbox 이름으로 검색해도 결과가 없으므로 주요 성능 데이터가 표시되지 않습니다. 이제 기본 지표가 [!UICONTROL 보고서] 탭에 올바르게 표시되어 캠페인 성과를 정확하게 추적하고 분석할 수 있습니다. (TGT-53773)
 * **업데이트된 UI의 [!UICONTROL 보고서] 탭이 가로 스크롤 막대와 상호 작용할 때 충돌했습니다.** 가로 스크롤 막대를 사용하여 지표를 볼 수 없도록 액세스할 때 &quot;문제가 발생했습니다&quot; 오류가 발생하여 [!UICONTROL 보고서] 보기가 간헐적으로 중단되었습니다. 스크롤 막대가 이제 안정적으로 작동하므로 고객은 확대/축소나 시프트 스크롤 사용과 같은 해결 방법 없이 모든 지표를 보고 분석할 수 있습니다. (TGT-53824)
 
@@ -838,8 +861,7 @@ ht-degree: 49%
 
 +++[!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)
 
-* **VEC에서 탐색 표시를 클릭해도 편집 메뉴가 일관되게 표시되지 않습니다.**
-(VEC)의 이동 경로를 통해 HTML 요소를 선택할 때 편집 메뉴가 간헐적으로 나타나지 않거나 빠르게 사라져 요소 선택을 신뢰할 수 없습니다. 이제 이동 경로를 통해 탐색할 때 편집 메뉴가 일관되게 표시되므로 업데이트된 활동 만들기 프로세스에서 요소 선택 워크플로가 개선됩니다. (TGT-52873)
+* **VEC에서 탐색 표시를 클릭해도 편집 메뉴가 일관되게 표시되지 않습니다.(VEC)의 이동 경로를 통해 HTML 요소를 선택할 때 편집 메뉴가 간헐적으로 나타나지 않거나 빠르게 사라져 요소 선택을 신뢰할 수 없습니다. 이제 이동 경로를 통해 탐색할 때 편집 메뉴가 일관되게 표시되므로 업데이트된 활동 만들기 프로세스에서 요소 선택 워크플로가 개선됩니다. (TGT-52873)
 * **컨텍스트 메뉴가 간헐적으로 VEC에 표시되지 않습니다.** 업데이트된 VEC UI의 컨텍스트 메뉴가 요소를 클릭할 때 일관되게 표시되지 않아서 편집 옵션에 액세스하는 데 어려움이 있습니다. 이제 요소 선택 시 컨텍스트 메뉴가 안정적으로 표시되므로 업데이트된 활동 만들기 프로세스에서 편집 워크플로와 전반적인 유용성이 향상됩니다. (TGT-53015)
 * **VEC의 특정 요소에 대해 컨텍스트 메뉴가 표시되지 않습니다.** 업데이트된 VEC에서 특정 요소를 선택할 때 컨텍스트 메뉴가 표시되지 않아서 수정 사항을 적용하기 어려웠습니다. 이제 지원되는 모든 요소에 대해 컨텍스트 메뉴가 일관되게 표시되므로 업데이트된 활동 만들기 워크플로우에서 편집 환경의 안정성과 유용성이 개선됩니다. (TGT-53248)
 * **VEC에서 탐색 표시를 사용할 때 처음 클릭할 때 컨텍스트 메뉴가 사라졌습니다.** VEC에서 이동 경로를 통해 상위 요소를 선택하면 컨텍스트 메뉴가 잠시 나타났다가 사라져 편집 옵션에 액세스하는 데 어려움이 있습니다. 이제 컨텍스트 메뉴가 이동 경로를 통해 요소를 탐색할 때 표시 및 작동 상태로 유지되므로 업데이트된 활동 만들기 프로세스에서 요소 선택 워크플로의 안정성이 향상됩니다. (TGT-53424)
@@ -1613,8 +1635,7 @@ ht-degree: 49%
 
 * 기존 활동을 복사하고 보고 소스를 [!DNL Adobe Analytics]&#x200B;(A4T)으로 변경하면 &quot;잘못된 사용자 입력&quot; 오류가 발생하는 문제를 해결했습니다. `restart_same_experience`, `restart_random_experience` 및 `restart_new_experience`과(와) 같이 [!DNL Analytics] 보고와 호환되지 않는 특정 지표 작업이 원래 활동에서 유지된 경우 오류가 트리거되었습니다. (TGT-52900)
 * [!UICONTROL 목표 및 설정] 단계에서 [!DNL Adobe Analytics]&#x200B;(A4T)을(를) 보고 소스로 선택할 때 고객이 활동을 만들거나 저장할 수 없도록 하는 문제를 해결했습니다. 특히 [!UICONTROL 사용자 지정 이벤트] 지표(예: &quot;사용자 지정 이벤트 16&quot;)를 선택할 때 문제가 발생하여 &quot;잘못된 사용자 입력&quot; 오류가 발생했습니다. (TGT-52910)
-* &quot;[!UICONTROL Analytics에서 보기]&quot; 링크를 클릭하면 의도한 [!DNL Analytics] 대시보드가 아닌 홈 페이지로 리디렉션되는 문제가 해결되었습니다. (TGT-53092 및 TGT-53093)
-  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* &quot;[!UICONTROL Analytics에서 보기]&quot; 링크를 클릭하면 의도한 [!DNL Analytics] 대시보드가 아닌 홈 페이지로 리디렉션되는 문제가 해결되었습니다. (TGT-53092 및 TGT-53093)  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
 * [!DNL Adobe Analytics]&#x200B;(A4T)을(를) 보고 소스로 선택한 경우 업데이트된 [!UICONTROL 개요] UI에서 [!DNL Recommendations] 활동을 볼 때 [!UICONTROL 목표 및 설정] 섹션이 로드되지 않는 문제를 해결했습니다. 다음 오류 메시지가 표시되었습니다. &quot;문제가 발생했습니다. 요청을 완료할 수 없습니다. 문제가 지속되면 Adobe 클라이언트 지원 센터에 문의하십시오.”라는 오류 메시지가 표시됩니다. (TGT-52999)
 
 +++
@@ -4792,8 +4813,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 * 이제 사용자가 전체 지표 이름을 보기 위해 각 지표를 확장하지 않아도 지표 이름이 [!UICONTROL 목표 및 설정] 페이지에 표시됩니다. 이를 통해 사용자는 지표를 보다 빠르고 효율적으로 편집할 수 있습니다. (TGT-21276)
 * 이제 다른 기준과 마찬가지로 [!DNL Recommendations] 포함 규칙을 사용자 지정 기준(CSV를 통해 업로드됨)에 적용할 수 있습니다. (TGT-21896)
 * 특히, 폴더를 생성 또는 관리하고 오퍼를 만들 때 [!UICONTROL 오퍼] 페이지의 사용자 인터페이스가 개선되고 보다 편리해졌습니다. (TGT-22509 및 TGT-22187)
-* 숨기려는 항목을 선택할 때 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)의 사용자 경험이 개선되었습니다.
-(TGT-22224)
+* 숨기려는 항목을 선택할 때 VEC([!UICONTROL 시각적 경험 작성기])의 사용자 경험이 개선되었습니다.(TGT-22224)
 * [!UICONTROL 양식 기반 경험 작성기]를 사용하여 활동을 만들 때 사용자 경험이 개선되었습니다. mbox 위치를 선택할 때 [!UICONTROL 다음]를 클릭하면 유효성 검사 테두리가 강조 표시된 상태를 유지합니다. (TGT-22221)
 * 활성 오퍼와 삭제된 오퍼 간을 구분하도록 다운로드된 보고서가 개선되었습니다. (TGT-22449)
 * Experience Cloud Assets 핵심 서비스 사용자 인터페이스에서 제한 없이 스크롤되는 에셋 목록에 이전 에셋이 표시되지 않도록 하는 문제가 수정되었습니다. (TGT-19733)
@@ -5772,8 +5792,8 @@ target/r_release-notes-2015.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 프로필 스크립트 생성 및 편집 </td> 
-   <td colname="col2"> <p>프로필 스크립트는 각 mbox 요청에서 프로필 속성 "catchers"를 실행합니다. mbox 요청이 수신되면 Target은 관련 프로필 스크립트를 실행하고, 실행해야 하는 활동을 확인하고, 해당 활동 및 경험에 적합한 콘텐츠를 표시한 후 활동 성공 여부를 추적합니다. 이렇게 하면 방문자의 위치, 시각, 방문자가 사이트에 있었던 횟수, 전에 구입한 적이 있었는지 여부 등과 같은 방문에 대한 정보를 추적할 수 있습니다. 그런 다음 이러한 정보가 방문자의 프로필에 추가되므로 방문자의 사이트 활동을 더 잘 추적할 수 있습니다. </p> <p><a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> 프로필 속성 </a>을 참조하십시오. 
-     <!--(Copy help from Classic)--> </p> </td> 
+   <td colname="col2"> <p>프로필 스크립트는 각 mbox 요청에서 프로필 속성 "catchers"를 실행합니다. mbox 요청이 수신되면 Target은 관련 프로필 스크립트를 실행하고, 실행해야 하는 활동을 확인하고, 해당 활동 및 경험에 적합한 콘텐츠를 표시한 후 활동 성공 여부를 추적합니다. 이렇게 하면 방문자의 위치, 시각, 방문자가 사이트에 있었던 횟수, 전에 구입한 적이 있었는지 여부 등과 같은 방문에 대한 정보를 추적할 수 있습니다. 그런 다음 이러한 정보가 방문자의 프로필에 추가되므로 방문자의 사이트 활동을 더 잘 추적할 수 있습니다. </p> <p><a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> 프로필 특성 </a>을(를) 참조하십시오. 
+      </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 이진 지표에 대한 신뢰 구간 </td> 
