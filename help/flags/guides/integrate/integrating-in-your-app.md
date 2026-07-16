@@ -3,9 +3,9 @@ title: 앱에 플래그 통합
 description: 웹 서비스, 웹 속성, 모바일 앱 또는 데스크탑 애플리케이션이든 관계없이 플래그를 애플리케이션에 통합하는 방법을 알아봅니다.
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ ht-degree: 0%
 ## 애플리케이션 유형 개요 {#overview}
 
 | 애플리케이션 유형 | 권장 통합 |
-|---|---|
+| --- | --- |
 | **웹 서비스/백 엔드** | Java SDK 또는 Node.js SDK |
 | **웹 응용 프로그램** | 웹 SDK(준비 중) |
-| **모바일 응용 프로그램** | Mobile SDK (준비 중) |
+| **모바일 응용 프로그램** | AEP Mobile SDK — [Android](../sdk-releases/android/android-extension-integration-guide.md) 및 [iOS](../sdk-releases/ios/ios-extension-integration-guide.md) 안내서 참조 |
 | **데스크톱 응용 프로그램** | SDK (준비 중) |
 
 <!-- -->

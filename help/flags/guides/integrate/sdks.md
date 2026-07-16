@@ -3,9 +3,9 @@ title: SDK
 description: 플래그의 SDK 아키텍처와 사용 가능한 AEP Web SDK 및 AEP Mobile SDK 확장 기능에 대해 알아봅니다.
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
@@ -20,14 +20,18 @@ ht-degree: 3%
 
 * **초기화** — SDK이 시작 시 구성되어 있으며 Flags 서비스에 등록됩니다.
 * **기능 검색** — SDK은 기능 플래그 데이터를 검색하고 플래그를 로컬로 평가합니다.
-* **캐싱** — SDK은 기능 플래그 데이터를 캐시하고 TTL(Configurable Polling Interval)에 새로 고칩니다.
+* **캐싱** — SDK은 기능 플래그 데이터를 캐시하고 구성 가능한 폴링 간격에 따라 새로 고칩니다.
 * **오류 처리** — 서비스를 사용할 수 없는 경우 SDK은 로컬 캐시에서 기능 플래그 평가를 계속 제공합니다.
 
 ## 사용 가능한 SDK {#available-sdks}
 
 ### AEP 웹 SDK {#web-sdk}
 
-웹용 Flags 확장은 Adobe Experience Platform 웹 SDK과 통합되어 웹 애플리케이션에서 플래그를 평가할 수 있습니다.
+웹용 Flags 확장은 Adobe Experience Platform 웹 SDK과 통합됩니다.
+
+>[!NOTE]
+>
+>웹 SDK 지원이 곧 제공될 예정입니다. 조기 액세스 지침은 Adobe 담당자에게 문의하십시오.
 
 ### Android 확장 {#android-extension}
 
