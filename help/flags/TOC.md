@@ -3,10 +3,10 @@ audience: user
 user-guide-title: 플래그
 user-guide-description: Adobe Target에서 플래그 를 사용하여 애플리케이션 전반의 기능 플래그, 제어된 롤아웃 및 타깃팅된 릴리스를 관리하는 방법을 알아봅니다.
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '169'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
    + [점진적 롤아웃](concepts/gradual-rollout.md)
 + 콘솔 시작하기 {#console}
    + [플래그에 로그인](guides/console/log-in-to-the-console.md)
-   + [샌드박스 선택](guides/console/environments-overview.md)
+   + [환경 개요](guides/console/environments-overview.md)
    + [액세스 요청](guides/console/request-access.md)
 + 애플리케이션 {#applications}
    + [애플리케이션 관리](guides/applications/manage-applications.md)
@@ -46,7 +46,7 @@ ht-degree: 8%
    + [기능 그룹 만들기](guides/feature-flags/create-a-feature-group.md)
    + [기능 그룹을 설정하여 점진적으로 롤아웃](guides/feature-flags/set-feature-group-gradual-rollout.md)
    + [기능 플래그를 사용하여 A/B 테스트](guides/feature-flags/a-b-testing.md)
-   + [Analytics](guides/feature-flags/analytics.md)
+   + [보고](guides/feature-flags/analytics.md)
 + 대상 기준 {#audience}
    + [기능 플래그 및 기능 그룹의 대상자](guides/audience/audience-in-feature-flags-and-feature-groups.md)
    + [대상 규칙에서 컨텍스트 사용](guides/audience/using-context-in-audience-rules.md)

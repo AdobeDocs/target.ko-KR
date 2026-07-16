@@ -1,16 +1,16 @@
 ---
-title: 샌드박스 선택
+title: 환경 개요
 description: 플래그에서 작업할 때 올바른 Adobe Experience Platform 샌드박스를 선택하는 방법을 알아봅니다.
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 2%
+source-wordcount: '88'
+ht-degree: 6%
 
 ---
 
-# 샌드박스 선택 {#sandbox}
+# 환경 개요 {#environments-overview}
 
 플래그는 Adobe Experience Platform에 빌드됩니다. 기능 플래그를 사용하여 작업하기 전에 다른 Adobe Experience Platform 애플리케이션에서 하듯이 현재 환경에 해당하는 샌드박스를 선택합니다.
 
