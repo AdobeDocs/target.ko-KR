@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
+source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 58%
+source-wordcount: 573
+ht-degree: 47%
 
 ---
 
@@ -30,6 +30,34 @@ ht-degree: 58%
 [!DNL Adobe Target]의 최신 기능, 개선 사항 및 수정 사항을 살펴보십시오. 이러한 릴리스 노트는 해당되는 경우 [!DNL Target]개의 API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 구성 요소에 대한 업데이트도 다룹니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 26.7.2(2026년 7월 16일)
+
+**활동**
+
++++세부 정보 보기
+
+* **[!UICONTROL 활동 개요] 페이지에서 목표 정보가 잘못되었습니다.** [!DNL Automated Personalization] 활동에 대한 [!UICONTROL 활동 개요] 페이지에 최적화 목표 대신 추가 목표가 표시되는 문제가 해결되었습니다. (TGT-55553)
+
+* [!UICONTROL 찾아보기] 모드에서 페이지를 탐색할 때 **응답하지 않는 화면.** [!UICONTROL 찾아보기] 모드에서 페이지 사이를 탐색할 때 화면이 응답하지 않는 문제를 해결했습니다. (TGT-55565)
+
++++
+
+**홈 페이지**
+
++++세부 정보 보기
+
+* **상위 수행자 및 [!UICONTROL 저장]에 대한 UI 변경** 최상위 수행자에 대한 UI가 업데이트되고 경험이 저장됩니다. (TGT-54975)
+
++++
+
+**대상자**
+
++++세부 정보 보기
+
+* **프로필 스크립트 만들기 대화 상자에서 지역화되지 않은 문자열 입니다.** [!UICONTROL 프로필 스크립트 만들기] 대화 상자의 문자열이 현지화되지 않는 문제를 해결했습니다. (TGT-51527)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.1(2026년 7월 9일)
 
