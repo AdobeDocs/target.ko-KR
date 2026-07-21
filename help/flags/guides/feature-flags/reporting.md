@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ![실험, 제어 변형 및 지표 선택기를 사용한 실험 패널](assets/experimentation-selection.png)
 
-이러한 지표를 계산하는 방법에 대한 자세한 내용은 [실험 패널 설명서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation)를 참조하십시오.
+이러한 지표를 계산하는 방법에 대한 자세한 내용은 [실험 패널 설명서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation)를 참조하십시오.
 
 ![변형별 상승도, 신뢰도 및 전환율을 보여 주는 실험 결과](assets/experimentation.png)
 
