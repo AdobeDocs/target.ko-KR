@@ -3,9 +3,9 @@ title: 기능 플래그 가져오기
 description: 플래그 구성을 수동으로 다시 생성하지 않도록 기능 플래그를 한 샌드박스에서 다른 샌드박스로 플래그로 가져오는 방법을 알아봅니다.
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 ## 1단계: 대상 샌드박스 및 애플리케이션으로 이동 {#step-1}
 
-**destination** 샌드박스(*into* 플래그를 가져올 샌드박스)의 콘솔에 로그인합니다. 기능 플래그 페이지의 응용 프로그램 드롭다운에서 플래그를 가져올 응용 프로그램을 선택합니다.
+**destination** 샌드박스(플래그를 가져올 샌드박스)의 콘솔에 로그인합니다. **기능 플래그 가져오기**&#x200B;를 클릭한 다음 플래그를 가져올 응용 프로그램을 응용 프로그램 드롭다운에서 선택합니다.
+
+![기능 플래그 페이지의 기능 플래그 가져오기 단추](assets/import-feature-flags.png)
 
 >[!IMPORTANT]
 >
