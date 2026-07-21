@@ -3,9 +3,9 @@ title: 환경 개요
 description: 플래그에서 작업할 때 올바른 Adobe Experience Platform 샌드박스를 선택하는 방법을 알아봅니다.
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '94'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 6%
 ## 샌드박스를 선택하는 방법 {#how-to}
 
 기능 플래그를 만들거나 수정하기 전에 플래그 콘솔의 위쪽 탐색 막대에 있는 샌드박스 전환기를 사용하여 올바른 샌드박스를 선택합니다.
+
+![플래그 콘솔의 샌드박스 전환기](assets/sandbox-selection.png)
 
 ## 참조: {#see-also}
 

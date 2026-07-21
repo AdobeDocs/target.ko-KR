@@ -3,10 +3,10 @@ title: 기능 플래그를 사용하여 A/B 테스트
 description: 기능 플래그 세트에 대해 여러 변형을 구성하여 플래그의 기능 그룹을 사용하여 A/B 테스트를 실행하는 방법을 알아봅니다.
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 콘솔에 액세스할 수 있습니다. [콘솔에 로그인](../console/log-in-to-the-console.md)을 참조하세요.
 * 팀에 속해 있고 애플리케이션이 온보딩되었습니다.
-* **개발자** 또는 **제품 릴리스 소유자** 역할이 있습니다.
+* **제품 릴리스 소유자** 역할이 있습니다.
 * 테스트할 기능 플래그를 만들었습니다. [첫 번째 기능 플래그 만들기](create-your-first-feature-flag.md)를 참조하십시오.
 
 ## 1단계: 여러 변형이 있는 기능 그룹 만들기 {#create}
@@ -37,10 +37,6 @@ ht-degree: 0%
 
 **대상** 탭에서 대상 기준을 추가하고 포함할 응용 프로그램을 선택합니다. 기능 그룹은 동일한 팀 내에서 여러 애플리케이션을 포괄할 수 있습니다.
 
->[!NOTE]
->
->A/B 테스트에서 외부 사용자를 타깃팅하려면 **제품 릴리스 소유자** 역할이 있어야 합니다. 개발자 역할은 샌드박스로 제공되며 비공개 테스트로 제한됩니다.
-
 ## 3단계: 변형당 기능 추가 {#features}
 
 **기능** 탭 아래에 각 변형의 탭이 있습니다. 각 변형에 적절한 기능 플래그를 추가하여 비교하려는 다양한 경험을 정의합니다.
@@ -57,6 +53,6 @@ ht-degree: 0%
 
 * [기능 그룹 만들기](create-a-feature-group.md)
 * [기능 그룹을 설정하여 점진적으로 롤아웃](set-feature-group-gradual-rollout.md)
-* [보고](analytics.md)
+* [보고](reporting.md)
 
 <!-- -->
