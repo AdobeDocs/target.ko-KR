@@ -7,9 +7,17 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
 source-wordcount: 3045
@@ -121,7 +129,7 @@ ht-degree: 0%
 * 장바구니 기반 권장 사항
 * [!UICONTROL 추천]
 
-[!DNL Target] 추천 알고리즘 세트에 대한 가장 최근의 추가 사항은 [!UICONTROL 사용자를 위한 추천] 및 일련의 장바구니 기반 추천 알고리즘입니다. 두 유형의 알고리즘 모두 협업 필터링 기법을 사용하여 개별 항목 기반 추천을 형성합니다. 그런 다음, 서비스 시 사용자의 검색 기록([!UICONTROL 사용자에게 권장]용) 또는 사용자의 현재 장바구니({장바구니 기반 권장 사항)에 있는 여러 항목을 사용하여 이러한 항목 기반 권장 사항을 검색한 다음 병합하여 최종 권장 사항 목록을 만듭니다. 개인화된 추천 알고리즘의 다양한 유형이 존재한다는 점을 참고하십시오. 다중 키 알고리즘의 선택은 방문자가 검색 기록을 가지고 있고 최신 방문자 행동에 대응하기 위해 권장 사항을 업데이트할 수 있는 직후에 권장 사항을 사용할 수 있음을 의미합니다.
+[!DNL Target] 추천 알고리즘 세트에 대한 가장 최근의 추가 사항은 [!UICONTROL 사용자를 위한 추천] 및 일련의 장바구니 기반 추천 알고리즘입니다. 두 유형의 알고리즘 모두 협업 필터링 기법을 사용하여 개별 항목 기반 추천을 형성합니다. 그런 다음, 서비스 시 사용자의 검색 기록([!UICONTROL 사용자에게 권장]용) 또는 사용자의 현재 장바구니(&lbrace;장바구니 기반 권장 사항)에 있는 여러 항목을 사용하여 이러한 항목 기반 권장 사항을 검색한 다음 병합하여 최종 권장 사항 목록을 만듭니다. 개인화된 추천 알고리즘의 다양한 유형이 존재한다는 점을 참고하십시오. 다중 키 알고리즘의 선택은 방문자가 검색 기록을 가지고 있고 최신 방문자 행동에 대응하기 위해 권장 사항을 업데이트할 수 있는 직후에 권장 사항을 사용할 수 있음을 의미합니다.
 
 이러한 알고리즘은 항목 기반 권장 사항 섹션에 설명된 기본 공동 작업 필터링 기술을 기반으로 하지만 하이퍼파라미터 튜닝을 통합하여 항목 간 최적의 유사성 지표를 결정합니다. 이 알고리즘은 각 사용자에 대해 행동 데이터를 시간별로 분할하고, 사용자가 나중에 보거나 구매하는 항목을 예측하려고 시도하는 동안 이전 데이터에 대한 추천 모델을 교육합니다. 그런 다음 최적의 [평균 평균 정밀도]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))를 생성하는 유사성 지표가 선택됩니다.
 
