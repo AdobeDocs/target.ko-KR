@@ -6,19 +6,13 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 4049
-ht-degree: 28%
+source-wordcount: 4405
+ht-degree: 26%
 
 ---
 
@@ -31,7 +25,7 @@ ht-degree: 28%
 | 알고리즘 유형 | 사용 가능한 알고리즘 |
 | --- | --- |
 | [!UICONTROL 장바구니 기반] | 사용자의 장바구니 콘텐츠를 기반으로 추천을 제공합니다.<ul><li>[!UICONTROL 열람한 사람, 열람한 사람]</li><li>[!UICONTROL 열람한 사람, 구입한 사람]</li><li>[!UICONTROL 구매한 사람, 구매한 사람]</li></ul> |
-| [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. <ul><li>[!UICONTROL 사이트에서 가장 많이 본 항목]</li><li>[!UICONTROL 범주별 가장 많이 본 항목]</li><li>[!UICONTROL 가장 많이 본 항목 특성]</li><li>[!UICONTROL 사이트 전체 최상위 판매자]</li><li>[!UICONTROL 범주별 최상위 판매자]</li><li>[!UICONTROL 항목 특성별 최상위 판매자]</li><li>Analytics 지표로 [!UICONTROL 상위]</li></ul> |
+| [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. <ul><li>[!UICONTROL 사이트에서 가장 많이 본 항목]</li><li>[!UICONTROL 범주별 가장 많이 본 항목]</li><li>[!UICONTROL 가장 많이 본 항목 특성]</li><li>[!UICONTROL 가장 많이 본 프로필 특성]</li><li>[!UICONTROL 사이트 전체 최상위 판매자]</li><li>[!UICONTROL 범주별 최상위 판매자]</li><li>[!UICONTROL 항목 특성별 최상위 판매자]</li><li>[!UICONTROL 프로필 특성별 최상위 판매자]</li><li>Analytics 지표로 [!UICONTROL 상위]</li></ul> |
 | [!UICONTROL 항목 기반] | 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾은 후 권장 사항을 제공합니다. <ul><li>[!UICONTROL 이 항목을 보고 다른 항목도 본 사람]</li><li>[!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]</li><li>[!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]</li><li>[!UICONTROL 비슷한 특성을 가진 항목]</li></ul> |
 | [!UICONTROL 사용자 기반] | 사용자의 행동을 기반으로 권장 사항을 제공합니다. <ul><li>[!UICONTROL 최근에 본 항목]</li><li>[!UICONTROL 추천]</li></ul> |
 | [!UICONTROL 사용자 지정 기준] | 업로드하는 사용자 지정 파일을 기반으로 권장 사항을 제공합니다. <ul><li>사용자 지정 알고리즘</li></ul> |
@@ -44,7 +38,7 @@ ht-degree: 28%
 
 ## 장바구니 기반 {#cart-based}
 
-[!UICONTROL 장바구니 기반] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 내용에 따라 항목을 추천할 수 있습니다. 권장 사항 키는 [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을(를) 통해 쉼표로 구분된 값으로 제공됩니다. 처음 10개의 값만 고려됩니다.
+[!UICONTROL 장바구니 기반] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 내용에 따라 항목을 추천할 수 있습니다. 권장 사항 키는 [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을(를) 통해 쉼표로 구분된 값으로 제공됩니다. 처음 10개의 값만 고려됩니다.
 
 장바구니 기반 권장 사항 논리는 &quot;[!UICONTROL 사용자에게 권장]&quot; 사용자 기반 알고리즘 및 &quot;[!UICONTROL 이러한 항목을 보고 구입하는 사용자]&quot; 및 &quot;[!UICONTROL 이러한 항목을 구입하고 구입하는 사용자]&quot; 항목 기반 알고리즘과 유사합니다.
 
@@ -179,6 +173,38 @@ ht-degree: 28%
 이 알고리즘을 사용하면 &quot;이름&quot; 또는 &quot;브랜드&quot;와 같이 권장 사항의 기반이 되는 항목 속성을 선택할 수 있습니다.
 
 그런 다음 방문자의 프로필에 저장된 프로필 속성 중 일치시킬 프로필 속성을 선택합니다(예: &quot;Favorite Brand&quot;, &quot;Last Item Added to Cart&quot; 또는 &quot;Most Viewed Show&quot;).
+
+### [!UICONTROL 가장 많이 본 프로필 특성]
+
+[!UICONTROL 항목별로 가장 많이 본 항목] 및 [!UICONTROL 항목별로 가장 많이 본 항목]과 같이 항목 정보보다는 방문자 프로필 특성별로 그룹화된 가장 많이 본 항목을 권장합니다. [!DNL Target]은(는) 특성 값마다 별도의 등급 목록을 유지하며 배달 시 각 방문자에게 저장된 값과 일치하는 목록을 표시합니다.
+
+이 알고리즘은 프로필 스크립트에 따라 특성을 채우며, [!DNL Target]에서 `user.recsAttribute<Name>`(으)로 저장하도록 스크립트 이름이 `recsAttribute` 접두사로 시작해야 합니다. 사용 사례와 관련된 방문자 특성에 대한 스크립트를 작성할 수 있습니다.
+
+[이 페이지](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)에서 프로필 스크립트를 사용하여 프로필 속성을 설정하는 방법에 대해 자세히 알아보세요.
+
+예를 들어 방문자의 영역에 권장 사항을 기반으로 하는 `recsAttributeRegion` 스크립트는 다음과 같을 수 있습니다.
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+스크립트를 만들고 활성화하면 기준 만들기 창의 프로필 특성 드롭다운에서 해당 [!UICONTROL Region] 항목을 사용할 수 있습니다. `recsAttribute` 접두사 자체는 드롭다운에 표시되지 않습니다.
+
+### [!UICONTROL 프로필 특성별 최상위 판매자]
+
+[!UICONTROL 카테고리별 최상위 판매자] 및 [!UICONTROL 항목 속성별 최상위 판매자]와 같이 항목 정보가 아닌 방문자 프로필 특성별로 그룹화된 최상위 판매 항목을 권장합니다. [!DNL Target]은(는) 특성 값마다 별도의 최상위 판매자 목록을 유지하고 배달 시 각 방문자에게 저장된 값과 일치하는 목록을 표시합니다.
+
+[!UICONTROL 가장 많이 본 프로필 특성]과 마찬가지로 이 알고리즘은 프로필 스크립트에 따라 특성을 채우며 스크립트 이름은 `recsAttribute` 접두사로 시작해야 하므로 [!DNL Target]에서 `user.recsAttribute<Name>`(으)로 저장합니다. 사용 사례와 관련된 방문자 특성에 대한 스크립트를 작성할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)에서 프로필 스크립트를 사용하여 프로필 속성을 설정하는 방법에 대해 자세히 알아보세요.
+
+예를 들어 방문자의 충성도 계층에 권장 사항을 기반으로 하는 `recsAttributeLoyaltyTier` 스크립트는 다음과 같을 수 있습니다.
+
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+스크립트를 만들고 활성화하면 기준 만들기 창의 프로필 특성 드롭다운에서 해당 [!UICONTROL 충성도 계층] 항목을 사용할 수 있습니다. `recsAttribute` 접두사 자체는 드롭다운에 표시되지 않습니다.
 
 ### Analytics 지표로 [!UICONTROL 상위]
 
