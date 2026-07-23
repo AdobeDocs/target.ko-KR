@@ -1,11 +1,12 @@
 ---
 title: 플래그 소개
 description: Adobe Target의 Flags가 타겟팅된 대상자에게 점진적으로 기능을 배포하기 위해 제어된 릴리스 시스템을 제공하는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 2%
 
 ---

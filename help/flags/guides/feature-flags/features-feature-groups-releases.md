@@ -1,11 +1,12 @@
 ---
 title: 기능 및 기능 그룹
 description: 플래그의 기능 플래그와 기능 그룹 간의 차이점 및 각 기능을 사용해야 하는 시기에 대해 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 3%
 
 ---

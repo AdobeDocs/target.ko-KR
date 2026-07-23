@@ -1,12 +1,13 @@
 ---
 title: 릴리스 요청
 description: 플래그에서 새로운 조정된 릴리스를 요청하는 방법 및 제공할 정보에 대해 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 3%
 
 ---
 

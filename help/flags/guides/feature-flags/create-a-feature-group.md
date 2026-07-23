@@ -1,11 +1,12 @@
 ---
 title: 기능 그룹 만들기
 description: 플래그에서 기능 그룹을 만들어 팀 내 여러 애플리케이션에서 여러 기능 플래그를 단일 단위로 관리하는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---

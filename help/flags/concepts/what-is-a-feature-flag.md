@@ -1,11 +1,12 @@
 ---
 title: 기능 플래그란 무엇입니까
 description: 기능 플래그가 무엇이며 재배포 없이 런타임에 애플리케이션 기능을 켜거나 끌 수 있는지 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: c4ed4ab5-0d73-4697-b05c-476d6e4010ce
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---

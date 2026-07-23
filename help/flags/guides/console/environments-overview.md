@@ -1,12 +1,13 @@
 ---
 title: 환경 개요
 description: 플래그에서 작업할 때 올바른 Adobe Experience Platform 샌드박스를 선택하는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 6%
+source-wordcount: '95'
+ht-degree: 7%
 
 ---
 

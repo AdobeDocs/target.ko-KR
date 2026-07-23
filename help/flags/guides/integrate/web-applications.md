@@ -1,12 +1,13 @@
 ---
 title: 웹 애플리케이션
 description: 웹 SDK을 사용하여 웹 애플리케이션에 플래그를 통합하는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 14%
+source-wordcount: '42'
+ht-degree: 16%
 
 ---
 

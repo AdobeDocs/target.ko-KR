@@ -1,11 +1,12 @@
 ---
 title: 릴리스 상태
 description: 각 상태의 의미와 허용되는 전환을 포함하여 플래그로 된 릴리스의 라이프사이클 상태에 대해 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 3%
 
 ---
