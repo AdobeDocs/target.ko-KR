@@ -1,11 +1,12 @@
 ---
 title: 기능을 활성화 및 비활성화하는 기능 플래그
 description: 플래그의 기능 플래그를 통해 기능 가용성을 제어하고, 종속성을 관리하며, 배포 위험을 줄이는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---

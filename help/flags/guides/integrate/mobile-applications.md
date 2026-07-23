@@ -1,12 +1,13 @@
 ---
 title: 모바일 애플리케이션
 description: Android 및 iOS용 AEP Mobile SDK 확장 기능을 사용하여 모바일 애플리케이션에 Flags를 통합하는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d
-source-git-commit: 045bd3321fd4041fe7f723ce300a400102ed7274
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 11%
+source-wordcount: '60'
+ht-degree: 13%
 
 ---
 

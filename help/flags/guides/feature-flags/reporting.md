@@ -1,12 +1,13 @@
 ---
 title: 보고
 description: Customer Journey Analytics을 사용하여 플래그에서 기능 플래그 보고를 보는 방법에 대해 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 보고서를 보려면 다음을 확인하십시오.
 
-1. 응용 프로그램에 대한 보고가 설정되어 있습니다. [Customer Journey Analytics을 사용하여 보고 설정](#setup)을 참조하십시오.
+1. 응용 프로그램에 대한 보고가 설정되어 있습니다. [기능 플래그 보고에 대한 CJA 설정](set-up-cja-reporting.md)을 참조하세요.
 1. 기능 플래그 또는 기능 그룹이 활성화되었으며 데이터가 누적되었습니다.
 
 ## 보고서 보기 {#view-report}
@@ -66,28 +67,9 @@ ht-degree: 0%
 
 ![변형별 상승도, 신뢰도 및 전환율을 보여 주는 실험 결과](assets/experimentation.png)
 
-### CJA에서 분석(선택 사항) {#analyze-in-cja}
-
-보고서가 로드되면 보고서 탭의 오른쪽 상단에 **CJA에서 분석** 단추가 나타납니다. 이 옵션을 선택하면 Customer Journey Analytics의 동일한 보고서 전체 페이지가 새 브라우저 탭에 열립니다. 이 탭에서 더 심층적이고 애드혹 분석을 위한 전체 CJA 도구 세트가 제공됩니다.
-
-![Customer Journey Analytics 작업 영역에서 플래그 개요 보고서를 열었습니다](assets/cja-workspace.png)
-
->[!IMPORTANT]
->
->보고서가 저장되지 않은 임시 프로젝트로 열립니다. CJA에서 사용자 지정(지표 추가, 패널 변경, 필터 조정 등)하고 이러한 변경 사항을 유지하려면 **프로젝트 > 템플릿으로 저장**&#x200B;을 사용하여 저장합니다. 그렇지 않으면 보고서를 닫을 때 편집 내용이 손실됩니다.
-
-![템플릿으로 저장이 강조 표시된 프로젝트 메뉴](assets/save-as-template.png)
-
-## Customer Journey Analytics을 사용하여 보고 설정 {#setup}
-
-보고에는 Flags 애플리케이션에 연결된 Customer Journey Analytics 데이터 세트가 필요합니다. 플래그지원팀 또는 Adobe 담당자에게 문의하여 애플리케이션에 대한 보고를 사용하도록 설정합니다.
-
->[!NOTE]
->
->기능 요청에서 전달된 ID는 프로필에 연결할 필요가 없습니다. 평가는 런타임에 수행되며 이벤트는 Customer Journey Analytics으로 전송됩니다.
-
 ## 참조: {#see-also}
 
+* [기능 플래그 보고를 위한 CJA 설정](set-up-cja-reporting.md)
 * [첫 번째 기능 플래그 만들기](create-your-first-feature-flag.md)
 * [기능 플래그를 사용하여 A/B 테스트](a-b-testing.md)
 * [기능 그룹 만들기](create-a-feature-group.md)

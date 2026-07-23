@@ -1,11 +1,12 @@
 ---
 title: 앱에 플래그 통합
 description: 웹 서비스, 웹 속성, 모바일 앱 또는 데스크탑 애플리케이션이든 관계없이 플래그를 애플리케이션에 통합하는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---

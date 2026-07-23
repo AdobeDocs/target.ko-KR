@@ -3,9 +3,9 @@ audience: user
 user-guide-title: 플래그
 user-guide-description: Adobe Target에서 플래그 를 사용하여 애플리케이션 전반의 기능 플래그, 제어된 롤아웃 및 타깃팅된 릴리스를 관리하는 방법을 알아봅니다.
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 56c59c705d33c1e9edf336c03c2627654869ef81
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 9%
   + [기능 그룹을 설정하여 점진적으로 롤아웃](guides/feature-flags/set-feature-group-gradual-rollout.md)
   + [기능 플래그를 사용하여 A/B 테스트](guides/feature-flags/a-b-testing.md)
   + [보고](guides/feature-flags/reporting.md)
+  + [기능 플래그 보고를 위한 CJA 설정](guides/feature-flags/set-up-cja-reporting.md)
 + 대상 기준 {#audience}
   + [기능 플래그 및 기능 그룹의 대상자](guides/audience/audience-in-feature-flags-and-feature-groups.md)
   + [대상 규칙에서 컨텍스트 사용](guides/audience/using-context-in-audience-rules.md)

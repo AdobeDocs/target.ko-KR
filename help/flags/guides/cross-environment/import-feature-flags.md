@@ -1,11 +1,12 @@
 ---
 title: 기능 플래그 가져오기
 description: 플래그 구성을 수동으로 다시 생성하지 않도록 기능 플래그를 한 샌드박스에서 다른 샌드박스로 플래그로 가져오는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---

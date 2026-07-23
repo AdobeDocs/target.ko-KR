@@ -1,10 +1,11 @@
 ---
 title: 컨텍스트 속성 만들기
 description: 대상 기준에서 사용할 수 있도록 플래그에서 컨텍스트 속성 및 컨텍스트 그룹을 만들고 구성하는 방법에 대해 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 5%
 
 ---

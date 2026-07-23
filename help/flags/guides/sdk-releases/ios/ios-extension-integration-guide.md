@@ -1,10 +1,11 @@
 ---
 title: iOS 통합 안내서의 플래그 확장
 description: Flags 확장을 iOS의 Adobe Experience Platform Mobile SDK과 통합하는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1036'
 ht-degree: 5%
 
 ---

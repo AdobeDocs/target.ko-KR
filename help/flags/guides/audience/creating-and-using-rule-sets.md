@@ -1,10 +1,11 @@
 ---
 title: 규칙 세트 만들기 및 사용
 description: 플래그에서 재사용 가능한 규칙 세트 대상 컨텍스트 기준을 만들고 기능 플래그 및 기능 그룹으로 가져오는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---

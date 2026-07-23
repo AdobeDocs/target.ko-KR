@@ -1,11 +1,12 @@
 ---
 title: 여러 기능을 제어하는 기능 그룹
 description: 플래그의 기능 그룹을 통해 여러 애플리케이션에서 관련된 기능 플래그를 단일 단위로 번들로 제공하고 관리하는 방법에 대해 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---

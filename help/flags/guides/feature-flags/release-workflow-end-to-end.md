@@ -1,11 +1,12 @@
 ---
 title: 전체 워크플로 릴리스
 description: 기능 플래그 정의부터 라이브까지, 플래그에서 조정된 릴리스를 관리하는 엔드 투 엔드 워크플로우에 대해 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '350'
 ht-degree: 2%
 
 ---

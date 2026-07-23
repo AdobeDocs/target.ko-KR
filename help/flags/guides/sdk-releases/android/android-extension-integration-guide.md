@@ -1,12 +1,13 @@
 ---
 title: Android 통합 안내서의 플래그 확장
 description: Flags 확장을 Android의 Adobe Experience Platform Mobile SDK과 통합하는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 4%
+source-wordcount: '984'
+ht-degree: 5%
 
 ---
 

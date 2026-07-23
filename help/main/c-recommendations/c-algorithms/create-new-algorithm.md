@@ -15,10 +15,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2900
-ht-degree: 46%
+source-wordcount: 2984
+ht-degree: 44%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 46%
    | 알고리즘 유형 | 사용 가능한 알고리즘 |
    | --- | --- |
    | [!UICONTROL 장바구니 기반] | 사용자의 장바구니 콘텐츠를 기반으로 추천을 제공합니다. <ul><li>[!UICONTROL 열람한 사람, 열람한 사람] </li><li>[!UICONTROL 열람한 사람, 구입한 사람]</li><li>[!UICONTROL 구매한 사람, 구매한 사람]</li></ul> |
-   | [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. <ul><li>[!UICONTROL 사이트에서 가장 많이 본 항목]</li><li>[!UICONTROL 범주별 가장 많이 본 항목]</li><li>[!UICONTROL 가장 많이 본 항목 특성]</li><li>[!UICONTROL 사이트 전체 최상위 판매자]</li><li>[!UICONTROL 범주별 최상위 판매자]</li><li>[!UICONTROL 항목 특성별 최상위 판매자]</li><li>Analytics 지표로 [!UICONTROL 상위]</li></ul> |
+   | [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. <ul><li>[!UICONTROL 사이트에서 가장 많이 본 항목]</li><li>[!UICONTROL 범주별 가장 많이 본 항목]</li><li>[!UICONTROL 가장 많이 본 항목 특성]</li><li>[!UICONTROL 가장 많이 본 프로필 특성]</li><li>[!UICONTROL 사이트 전체 최상위 판매자]</li><li>[!UICONTROL 범주별 최상위 판매자]</li><li>[!UICONTROL 항목 특성별 최상위 판매자]</li><li>[!UICONTROL 프로필 특성별 최상위 판매자]</li><li>Analytics 지표로 [!UICONTROL 상위]</li></ul> |
    | [!UICONTROL 항목 기반] | 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾은 후 권장 사항을 제공합니다. <ul><li>[!UICONTROL 이 항목을 보고 다른 항목도 본 사람]</li><li>[!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]</li><li>[!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]</li><li>[!UICONTROL 비슷한 특성을 가진 항목]</li></ul> |
    | [!UICONTROL 사용자 기반] | 사용자의 행동을 기반으로 권장 사항을 제공합니다.<ul><li>[!UICONTROL 최근에 본 항목]</li><li>[!UICONTROL 추천]</li></ul> |
    | [!UICONTROL 사용자 지정 기준] | 업로드하는 사용자 지정 파일을 기반으로 권장 사항을 제공합니다.<ul><li>사용자 지정 알고리즘</li></ul> |
@@ -100,6 +100,8 @@ ht-degree: 46%
 1. 필요에 따라 **항목 특성** 및 **일치하는 프로필 특성**, **권장 사항 키**, **필터링 키** 및/또는 **분석 지표**&#x200B;를 선택하여 알고리즘을 구성하십시오.
 
 나머지 알고리즘 구성 옵션은 선택한 알고리즘에 따라 달라집니다. 알고리즘 구성을 완료하려면 [!UICONTROL 권장 사항 키], [!UICONTROL 필터링 키], [!UICONTROL 동시 발생 기준], [!UICONTROL 분석 지표] 및/또는 [!UICONTROL 항목 특성] 및 [!UICONTROL 일치하는 프로필 특성]을 선택하세요.
+
+[!UICONTROL 프로필 특성별 가장 많이 본 항목] 또는 [!UICONTROL 프로필 특성별 최상위 판매자]를 선택하는 경우 **[!UICONTROL 프로필 특성]**&#x200B;을(를) 선택하여 인터랙션 데이터를 그룹화합니다. 프로필 특성은 지역 또는 국가와 같은 방문자 특성을 캡처하는 프로필 스크립트에서 가져오며, 스크립트 이름에는 `recsAttribute` 접두사가 있어야 하므로 `user.recsAttribute<Name>`(예: `user.recsAttributeRegion`)으로 저장됩니다. 배달 시 [!DNL Target]은(는) 각 방문자에게 해당 특성의 고유 값에 해당하는 등급 목록을 제공합니다.
 
 [!UICONTROL 권장 사항 키]를 선택하는 방법에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)를 참조하십시오.
 

@@ -1,11 +1,12 @@
 ---
 title: 대상 규칙에서 컨텍스트 사용
 description: 플래그의 기능 플래그 및 기능 그룹에 대한 대상 규칙의 컨텍스트 속성을 사용하는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 1%
 
 ---
