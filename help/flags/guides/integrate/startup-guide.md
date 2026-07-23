@@ -45,7 +45,7 @@ ht-degree: 1%
 
 태그 기반 접근 방식(웹 또는 모바일)을 통해 통합하는 경우 SDK을 초기화하기 전에 태그 속성을 구성하십시오.
 
-1. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/#/data-collection)에서 [태그 속성이 없는 경우 ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)을(를) 만들거나 기존 태그 속성을 사용하십시오.
+1. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/#/data-collection)에서 [태그 속성이 없는 경우 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)을(를) 만들거나 기존 태그 속성을 사용하십시오.
 1. 모바일 또는 웹 태그 속성을 열고 [확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)&#x200B;(으)로 이동합니다.
 1. **Edge Network** 확장을 설치하고 구성합니다. 그런 다음 **플래그** 확장을 설치합니다.
 1. **데이터스트림**(Customer Journey Analytics 데이터 세트가 포함되어야 함)을 선택하고 Edge 도메인을 구성합니다.
