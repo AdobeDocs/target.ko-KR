@@ -2,19 +2,13 @@
 keywords: 기준;알고리즘;업계 카테고리;페이지 유형;권장 사항 키;권장 사항 논리;논리;데이터 범위;전환 확인 기간;동작 데이터 소스;부분 디자인;백업 권장 사항;포함 규칙;속성 가중치;현재 카테고리;사용자 지정 속성;마지막 구매 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기 카테고리;인기;최근에 본 항목;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;최근에 본 항목
 description: ' [!DNL Recommendations] 활동의 콘텐츠를 제어하는 기준을 만들어 활동에 가장 적합한 권장 사항을 표시하는 방법에 대해 알아봅니다.'
 title: ' [!DNL Recommendations]에서 [!UICONTROL 기준]을(를) 만들려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
 source-wordcount: 2984
@@ -88,7 +82,7 @@ ht-degree: 44%
    | 알고리즘 유형 | 사용 가능한 알고리즘 |
    | --- | --- |
    | [!UICONTROL 장바구니 기반] | 사용자의 장바구니 콘텐츠를 기반으로 추천을 제공합니다. <ul><li>[!UICONTROL 열람한 사람, 열람한 사람] </li><li>[!UICONTROL 열람한 사람, 구입한 사람]</li><li>[!UICONTROL 구매한 사람, 구매한 사람]</li></ul> |
-   | [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. <ul><li>[!UICONTROL 사이트에서 가장 많이 본 항목]</li><li>[!UICONTROL 범주별 가장 많이 본 항목]</li><li>[!UICONTROL 가장 많이 본 항목 특성]</li><li>[!UICONTROL 가장 많이 본 프로필 특성]</li><li>[!UICONTROL 사이트 전체 최상위 판매자]</li><li>[!UICONTROL 범주별 최상위 판매자]</li><li>[!UICONTROL 항목 특성별 최상위 판매자]</li><li>[!UICONTROL 프로필 특성별 최상위 판매자]</li><li>Analytics 지표로 [!UICONTROL 상위]</li></ul> |
+   | [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. <ul><li>[!UICONTROL 사이트에서 가장 많이 본 항목]</li><li>[!UICONTROL 범주별 가장 많이 본 항목]</li><li>[!UICONTROL 가장 많이 본 항목 특성]</li><li>[!UICONTROL 프로필 속성별로 가장 많이 조회한 항목]</li><li>[!UICONTROL 사이트 전체 최상위 판매자]</li><li>[!UICONTROL 범주별 최상위 판매자]</li><li>[!UICONTROL 항목 특성별 최상위 판매자]</li><li>[!UICONTROL 프로필 특성별 최상위 판매자]</li><li>Analytics 지표로 [!UICONTROL 상위]</li></ul> |
    | [!UICONTROL 항목 기반] | 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾은 후 권장 사항을 제공합니다. <ul><li>[!UICONTROL 이 항목을 보고 다른 항목도 본 사람]</li><li>[!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]</li><li>[!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]</li><li>[!UICONTROL 비슷한 특성을 가진 항목]</li></ul> |
    | [!UICONTROL 사용자 기반] | 사용자의 행동을 기반으로 권장 사항을 제공합니다.<ul><li>[!UICONTROL 최근에 본 항목]</li><li>[!UICONTROL 추천]</li></ul> |
    | [!UICONTROL 사용자 지정 기준] | 업로드하는 사용자 지정 파일을 기반으로 권장 사항을 제공합니다.<ul><li>사용자 지정 알고리즘</li></ul> |
@@ -268,4 +262,4 @@ ht-degree: 44%
 
 완료되면 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-새 [!UICONTROL 권장 사항] 활동을 만들거나 기존 항목을 편집하는 경우 기본적으로 **나중에 사용하기 위해 기준 저장** 확인란이 선택됩니다. 다른 활동에서 해당 기준을 사용하지 않으려면 저장하기 전에 이 확인란을 선택 취소합니다.
+새 [!UICONTROL 권장 사항] 활동을 만들거나 기존 항목을 편집하는 경우 기본적으로 ]**나중에 사용하기 위해 기준 저장**[!UICONTROL  확인란이 선택됩니다. 다른 활동에서 해당 기준을 사용하지 않으려면 저장하기 전에 이 확인란을 선택 취소합니다.
