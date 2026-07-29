@@ -88,7 +88,7 @@ ht-degree: 44%
    | 알고리즘 유형 | 사용 가능한 알고리즘 |
    | --- | --- |
    | [!UICONTROL 장바구니 기반] | 사용자의 장바구니 콘텐츠를 기반으로 추천을 제공합니다. <ul><li>[!UICONTROL 열람한 사람, 열람한 사람] </li><li>[!UICONTROL 열람한 사람, 구입한 사람]</li><li>[!UICONTROL 구매한 사람, 구매한 사람]</li></ul> |
-   | [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. <ul><li>[!UICONTROL 사이트에서 가장 많이 본 항목]</li><li>[!UICONTROL 범주별 가장 많이 본 항목]</li><li>[!UICONTROL 가장 많이 본 항목 특성]</li><li>[!UICONTROL 가장 많이 본 프로필 특성]</li><li>[!UICONTROL 사이트 전체 최상위 판매자]</li><li>[!UICONTROL 범주별 최상위 판매자]</li><li>[!UICONTROL 항목 특성별 최상위 판매자]</li><li>[!UICONTROL 프로필 특성별 최상위 판매자]</li><li>Analytics 지표로 [!UICONTROL 상위]</li></ul> |
+   | [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. <ul><li>[!UICONTROL 사이트에서 가장 많이 본 항목]</li><li>[!UICONTROL 범주별 가장 많이 본 항목]</li><li>[!UICONTROL 가장 많이 본 항목 특성]</li><li>[!UICONTROL 프로필 속성별로 가장 많이 조회한 항목]</li><li>[!UICONTROL 사이트 전체 최상위 판매자]</li><li>[!UICONTROL 범주별 최상위 판매자]</li><li>[!UICONTROL 항목 특성별 최상위 판매자]</li><li>[!UICONTROL 프로필 특성별 최상위 판매자]</li><li>Analytics 지표로 [!UICONTROL 상위]</li></ul> |
    | [!UICONTROL 항목 기반] | 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾은 후 권장 사항을 제공합니다. <ul><li>[!UICONTROL 이 항목을 보고 다른 항목도 본 사람]</li><li>[!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]</li><li>[!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]</li><li>[!UICONTROL 비슷한 특성을 가진 항목]</li></ul> |
    | [!UICONTROL 사용자 기반] | 사용자의 행동을 기반으로 권장 사항을 제공합니다.<ul><li>[!UICONTROL 최근에 본 항목]</li><li>[!UICONTROL 추천]</li></ul> |
    | [!UICONTROL 사용자 지정 기준] | 업로드하는 사용자 지정 파일을 기반으로 권장 사항을 제공합니다.<ul><li>사용자 지정 알고리즘</li></ul> |
