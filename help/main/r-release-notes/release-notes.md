@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
+source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 29%
+source-wordcount: 1046
+ht-degree: 26%
 
 ---
 
@@ -30,6 +30,26 @@ ht-degree: 29%
 [!DNL Adobe Target]의 최신 기능, 개선 사항 및 수정 사항을 살펴보십시오. 이러한 릴리스 노트는 해당되는 경우 [!DNL Target]개의 API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 구성 요소에 대한 업데이트도 다룹니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 26.7.5(2026년 7월 30일)
+
+**활동**
+
++++세부 정보 보기
+
+* [!DNL A/B Test (Manual)] 활동에 대한 **베이지안 통계** [!DNL A/B Test (Manual)] 활동은 이제 Welch의 t-테스트에 대한 대안으로 베이지안 통계를 지원합니다. [!UICONTROL 목표 및 설정]에서 통계 방법을 선택하십시오. 베이지안 활동의 보고서에는 [!UICONTROL 통제 이길 확률]과 같은 확률 기반 결정 지표와 빈번한 신뢰 구간 대신 신뢰할 수 있는 구간이 표시됩니다. [자세히 알아보기](../c-reports/statistical-methodology/statistical-calculations.md)
+
+* [!DNL Auto-Allocate]개 활동에 대한 **[!DNL Customer Journey Analytics]보고 중.** [!DNL Auto-Allocate] 활동에서는 이제 [!DNL Target] 및 [!DNL Adobe Analytics]&#x200B;(A4T) 외에 [!DNL Customer Journey Analytics]을(를) 보고 소스로 사용할 수 있습니다. [자세히 알아보기](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+
++++
+
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
+
++++세부 정보 보기
+
+* **활동에서 HTML 오퍼를 선택하거나 수정할 수 없습니다.** 활동에 특정 HTML 또는 경험 조각 오퍼를 추가하면 [!UICONTROL 시각적 경험 작성기]가 충돌하여 오퍼가 선택되거나 수정되지 않는 문제가 해결되었습니다. (TGT-55732)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.4(2026년 7월 23일)
 

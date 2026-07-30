@@ -14,10 +14,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: d0846dd933f267d990069a95532a8643bb4bf792
 workflow-type: tm+mt
-source-wordcount: 1292
-ht-degree: 33%
+source-wordcount: 1546
+ht-degree: 29%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 33%
 |--- |--- |
 | [!UICONTROL 목표] | 추가 목표를 입력합니다. 목표는 사용자와 팀 구성원이 활동을 식별하는 데 도움이 되는 모든 정보일 수 있습니다. |
 | [!UICONTROL 우선순위] | 설정에 따라 [!UICONTROL 우선 순위]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. [!UICONTROL 낮음], [!UICONTROL Medium] 또는 [!UICONTROL 높음]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다.<P>대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>이 옵션이 [!UICONTROL 관리]&#x200B;(기본값)에서 활성화되지 않으면 우선 순위를 지정하십시오. [!UICONTROL 낮음], [!UICONTROL Medium] 또는 [!UICONTROL 높음].<P>[세분화된 우선 순위](/help/main/administrating-target/reporting.md)를 사용하려면 [!UICONTROL 관리] > [!UICONTROL 보고]를 클릭한 다음 [!UICONTROL 세분화된 우선 순위 사용] 옵션을 &quot;켜기&quot; 위치로 전환하십시오. <P>이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오. 0 = [!UICONTROL 낮음] 및 999 = [!UICONTROL 높음]. <P>이전 버전의 [!DNL Target]에서 만든 활동의 경우 [!UICONTROL 낮음] 우선순위는 0으로, [!UICONTROL Medium]은(는) 5로, [!UICONTROL 높음]은(는) 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.<P>참고: 세분화된 우선순위를 사용한 후에 이 선택 사항을 비활성화하려면 먼저 모든 우선순위를 0, 5, 10으로 다시 설정해야 합니다. |
-| [!UICONTROL 기간] | 활동은 승인될 때 시작되거나 특정 날짜 및 시간을 설정하여 시작할 수 있습니다. 이와 마찬가지로, 활동은 비활성화될 때 종료되거나 날짜 및 시간을 설정하여 종료할 수 있습니다. 시간 선택기는 24시간 시계를 사용하며 00:00은(는) 자정입니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오. |
+| [!UICONTROL 기간] | 활동은 승인될 때 시작되거나 특정 날짜 및 시간을 설정하여 시작할 수 있습니다. 이와 마찬가지로, 활동은 비활성화될 때 종료되거나 날짜 및 시간을 설정하여 종료할 수 있습니다. 시간 선택기는 24시간 형식을 사용하며 00:00은 자정을 나타냅니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오. |
 
 ## [!UICONTROL 보고 설정] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -43,10 +43,13 @@ ht-degree: 33%
 
 | 설정의 지침을 완료하여 이 설정을 변경할 수 있습니다 | 설명 |
 |--- |--- |
-| [!UICONTROL Source 보고] | 수집할 솔루션 데이터 지정:<ul><li>[!DNL Adobe Target]</li><li>[!DNL Adobe Analytics]</li><li>[!DNL Adobe Customer Journey Analytics]</li></ul>[계정 설정](/help/main/administrating-target/reporting.md)에 보고 소스가 지정되어 있으면 지정된 소스가 사용되며 이 설정은 표시되지 않습니다.<P>보고서 일관성을 유지하기 위해 활동이 활성 상태가 되면 보고 소스를 변경할 수 없습니다.<P>**Adobe Analytics**: 보고 솔루션과 각 솔루션의 이점 간의 차이점에 대해 알아보려면 [Target용 보고 Source으로서의 Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)을 참조하십시오. [!DNL Target]에 대한 보고 소스로 [!DNL Analytics]을(를) 선택할 때 [!DNL Target] 활동 데이터를 받을 [!DNL Analytics] 보고서 세트를 선택합니다.<P>보고 소스를 지정하려면 먼저 사용자 계정이 연결된 [!DNL Analytics] 회사 중에서 선택한 다음 활동에 대한 보고서 세트를 선택합니다. [!DNL Adobe Target]에 연결하기 위해 제공된 보고서 세트만 선택할 수 있습니다. 예상한 보고서 세트가 표시되지 않으면 먼저 로그아웃했다가 [!DNL Adobe Experience Cloud]에 다시 로그인하여 다시 시도하십시오. 보고서 세트가 여전히 목록에서 누락된 경우 고객 지원 센터에 문의하십시오.<P><P>**Adobe Customer Journey Analytics**: [!DNL Adobe Customer Journey Analytics]과(와) [!DNL Target] 간의 통합에 대한 자세한 내용은 [[!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)를 참조하십시오.<P>[!DNL Customer Journey Analytics]의 [!DNL Target] 보고는 수동 트래픽 분할을 사용하는 A/B 활동에서 지원됩니다. [!UICONTROL 자동 타겟] 및 [!UICONTROL 자동 할당] A/B 활동은 [!DNL Customer Journey Analytics]에서 [!DNL Target] 보고를 사용할 수 없습니다. |
+| [!UICONTROL Source 보고] | 수집할 솔루션 데이터 지정:<ul><li>[!DNL Adobe Target]</li><li>[!DNL Adobe Analytics]</li><li>[!DNL Adobe Customer Journey Analytics]</li></ul>[계정 설정](/help/main/administrating-target/reporting.md)에 보고 소스가 지정되어 있으면 지정된 소스가 사용되며 이 설정은 표시되지 않습니다.<P>보고서 일관성을 유지하기 위해 활동이 활성 상태가 되면 보고 소스를 변경할 수 없습니다.<P>**Adobe Analytics**: 보고 솔루션과 각 솔루션의 이점 간의 차이점에 대해 알아보려면 [Target용 보고 Source으로서의 Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)을 참조하십시오. [!DNL Target]에 대한 보고 소스로 [!DNL Analytics]을(를) 선택할 때 [!DNL Target] 활동 데이터를 받을 [!DNL Analytics] 보고서 세트를 선택합니다.<P>보고 소스를 지정하려면 먼저 사용자 계정이 연결된 [!DNL Analytics] 회사 중에서 선택한 다음 활동에 대한 보고서 세트를 선택합니다. [!DNL Adobe Target]에 연결하기 위해 제공된 보고서 세트만 선택할 수 있습니다. 예상한 보고서 세트가 표시되지 않으면 먼저 로그아웃했다가 [!DNL Adobe Experience Cloud]에 다시 로그인하여 다시 시도하십시오. 보고서 세트가 여전히 목록에서 누락된 경우 고객 지원 센터에 문의하십시오.<P><P>**Adobe Customer Journey Analytics**: [!DNL Customer Journey Analytics]에서 지원되는 활동 유형, 샌드박스 및 데이터 보기 선택, 목표 지표 및 보고 설정에 대해서는 [[!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)를 참조하십시오. |
 | [!UICONTROL 목표 지표] | 목표를 달성하려면 방문자가 수행한 동작을 선택합니다. 예를 들어 [!UICONTROL 전환] 지표를 선택한 다음 성공 시기를 결정하는 매개 변수를 설정합니다. 지표 설정에 대한 자세한 내용은 [지표 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)을 참조하십시오.<P>참고: 보고 솔루션을 [!DNL Analytics]&#x200B;(으)로 설정하면 사용 가능한 목표 지표는 [!UICONTROL 전환]뿐입니다. [!DNL Analytics] 지표를 목표로 선택할 수 없습니다. 성공 지표를 선택하면 선택기가 표시됩니다. 이 선택기를 사용하여 성공 지표의 자세한 정보를 선택합니다.<P>사용하도록 설정하면 [!UICONTROL 전환 예상 값] 필드([!UICONTROL 페이지 점수] 지표에 사용할 수 없음)가 목표 값을 제공하지만 다른 지표에 대해서는 제공하지 않습니다. 이 값을 통해 [!DNL Target]이 예상 매출액 상승도를 계산할 수 있습니다. 이 필드는 선택 사항이지만, 이 필드의 값이 없으면 비매출액 지표의 증분 수익을 계산할 수 없습니다. 모든 매출 지표([!UICONTROL 방문자당 매출], [!UICONTROL 평균 주문 가격], [!UICONTROL 총 매출] 및 [!UICONTROL 주문 수])에 대해 예상 값은 [!UICONTROL 방문자당 매출]을 사용합니다. 데이터 유형은 통화입니다.<P>활동 목표에 도달한 후에는 우선순위가 높은 활동에 방문자가 적격한 경우를 제외하고 방문자에게 활동 콘텐츠가 계속 표시됩니다. 해당 방문자가 목표에 다시 도달하면 다른 전환으로 카운트됩니다. 이는 방문자가 활동을 다시 볼 경우 새 방문자로 계산되는 [!DNL Target Classic]의 기본 비헤이비어와 다릅니다. |
 | [!UICONTROL 추가 지표] | 추가 성공 지표를 만듭니다. 보고 솔루션을 [!DNL Analytics]&#x200B;(으)로 설정한 경우에는 이 설정을 사용할 수 없습니다. 이 경우 [!DNL Analytics] 보고서 세트에 대해 정의된 지표가 적용됩니다. |
 | [!UICONTROL 보고할 대상] | 기본적으로 보고서에는 자격을 갖춘 모든 방문자의 결과가 표시됩니다. 보고서 대상을 추가하여 특정 대상에만 대한 정보를 표시할 수 있습니다. [!DNL Analytics]을(를) 보고 솔루션으로 선택하는 경우에는 이 설정을 사용할 수 없습니다. [!DNL Analytics] 보고서 세트에 대해 정의된 대상이 적용됩니다. |
+| [!UICONTROL 통계 방법] | 실험 결과를 분석하는 방법을 선택합니다. 이 선택은 이 활동의 [!UICONTROL 전환] 목표 지표에 사용되는 통계 프레임워크, 결과 지표 및 결정 기준을 결정합니다.<ul><li>**[!UICONTROL 베이지안]**: 데이터가 도착하면 신념을 업데이트하는 확률 기반 의사 결정이며 지속적인 모니터링과 더 작은 샘플 크기를 지원합니다. 결과는 한 변형이 다른 변형보다 나을 확률로 표현됩니다(예: &quot;변형 B가 제어를 이길 확률 92%&quot;). [!UICONTROL 베이지안]은(는) 더 작은 샘플 크기, 지속적인 모니터링, 확률을 선호하는 이해 당사자 또는 적용할 과거 테스트의 사전 지식이 있는 경우에 가장 적합합니다. 엄격한 규제 또는 규정 준수 승인이 필요하거나 기존 p-값이 필요한 경우에는 이상적이지 않습니다. 보고서에 빈도가 높은 [!UICONTROL 신뢰도] 열 대신 [!UICONTROL 제어를 이길 가능성] 및 신뢰할 수 있는 간격이 표시됩니다.</li><li>**[!UICONTROL Welch의 t-test(Frequentist)]**: 기존 가설-테스트 방법론입니다. p 값을 사용하며 고정된 샘플 크기가 필요합니다. 보고서에 [!UICONTROL 신뢰도] 백분율 및 신뢰 구간이 표시됩니다.</li></ul>이 설정은 기본 목표 지표가 [!UICONTROL 전환]이고 [!UICONTROL 매출] 또는 [!UICONTROL 참여]의 기본 목표가 있는 활동은 항상 [!UICONTROL Welch의 t-test]을(를) 사용하는 활동에만 사용할 수 있습니다. 각 방법론의 계산 및 보고 방법에 대한 자세한 내용은 [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)을 참조하십시오. |
+| [!UICONTROL 베이지안 구성] | [!UICONTROL 베이지안]이(가) [!UICONTROL 통계 방법]&#x200B;(으)로 선택된 경우에만 표시됩니다. 다음 옵션을 구성합니다.<ul><li>[!UICONTROL 신뢰할 수 있는 간격]: 실제 효과가 떨어질 범위를 설정합니다.</li><li>[!UICONTROL 결정 임계값]: 승자로 선언하기 전에 [!UICONTROL 제어]를 기준으로 변형이 도달해야 하는 최소 확률을 설정합니다. </li><li>[!UICONTROL 과거 테스트의 사전 지식을 사용하시겠습니까?]: [!UICONTROL 베이지안] 계산을 알리기 위해 과거 성능에서 사전 지식을 제공하려면 이 옵션을 켜십시오.</li></ul> |
+
 
 ## 고급 설정 {#section_E2FE441AFB324E498793ABB025ED9974}
 

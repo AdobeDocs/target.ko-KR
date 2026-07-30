@@ -15,10 +15,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 283e20be405890a7f53ca95d370e3eef5820f437
 workflow-type: tm+mt
-source-wordcount: 795
-ht-degree: 22%
+source-wordcount: 823
+ht-degree: 21%
 
 ---
 
@@ -68,11 +68,11 @@ ht-degree: 22%
 
 * **[!DNL Customer Journey Analytics]**: [!DNL Customer Journey Analytics]에서 [!DNL Target] 보고를 사용하는 지원되는 활동의 매트릭스는 [!DNL Adobe Customer Journey Analytics]*에서*[!DNL Target] 보고의 [지원되는 활동 유형](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities)을(를) 참조하십시오.
 
-  선택한 보고 소스와 관계없이 [!UICONTROL Automated Personalization]&#x200B;(AP), [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동 만들기 및 활성화가 허용됩니다. [Adobe Customer Journey Analytics을 보고 소스로](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)하면 이러한 활동이 지원되지 않습니다.
+  [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟] 활동 만들기 및 활성화는 계정 수준에서 선택한 보고 소스와 관계없이 허용됩니다. 활동에 대해 [Adobe Customer Journey Analytics을 보고 소스로](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)을(를) 선택하는 경우 이러한 활동 유형은 지원되지 않습니다.
 
-  [!DNL Customer Journey Analytics]을(를) 보고 소스로 지정하더라도 [!DNL Target]은(는) [!DNL Automated Personalization] 활동에 대한 보고 소스로 사용됩니다.
+  계정 수준에서 [!DNL Customer Journey Analytics]을(를) 보고 소스로 지정하더라도 [!DNL Target]은(는) [!DNL Automated Personalization] 활동에 대한 보고 소스로 사용됩니다.
 
-  [!UICONTROL 자동 할당] 또는 [!UICONTROL 자동 타겟] 활동에 대해 [!DNL Customer Journey Analytics]을(를) 보고 소스로 지정하는 경우 [!DNL Target] 또는 [!DNL Analytics]을(를) 보고 소스로 사용할 수 있습니다.
+  [!UICONTROL 자동 할당] 활동은 [!DNL Customer Journey Analytics]을(를) 보고 소스로 사용할 수 있습니다. [!DNL Adobe Customer Journey Analytics]*의*[!DNL Target] 보고에서 [보고 소스로  [!DNL Customer Journey Analytics] 을(를) 사용하는 활동 만들기](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source)를 참조하십시오. [!UICONTROL 자동 타겟] 활동에 대한 보고 소스로 [!DNL Customer Journey Analytics]을(를) 지정하는 경우 [!DNL Target] 또는 [!DNL Analytics]을(를) 보고 소스로 사용할 수 있습니다.
 
 ## 보고를 위한 시간대
 
