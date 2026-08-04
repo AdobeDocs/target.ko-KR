@@ -20,7 +20,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2109
+source-wordcount: 2110
 ht-degree: 83%
 
 ---
@@ -206,4 +206,4 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 ## 데모
 
-위에서 설명한 추천 단계에 표시된 작업을 완료하면 최종 추천이 표시됩니다. [!DNL Target]에서 제품 내 데모를 시청하려면 아래 링크와 연결된 *Adobe Target 기본 사항 웨비나*&#x200B;에서 21:00부터 데모를 시작합니다.
+위에서 설명한 추천 단계에 표시된 작업을 완료하면 최종 추천이 표시됩니다. [!DNL Target]에서 제품 내 데모를 시청하려면 아래 링크와 연결된 *Adobe Target 기본 사항 웨비나*&#x200B;에서 21시에 시작됩니다.
