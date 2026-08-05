@@ -138,7 +138,7 @@ Target 및 RTCDP를 통한 향상된 개인화에 대한 자세한 내용은 다
 
 자세한 내용은 *Platform 튜토리얼* 안내서에서 [Real-Time CDP 및 Adobe Target을 사용한 다음 히트 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ko){target=_blank}를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342980?captions=kor&quality=12&learn=on)
 
 ### 비디오: [!DNL Real-Time Customer Data Platform]에서 [!DNL Adobe Target] 대상 구성하기
 
