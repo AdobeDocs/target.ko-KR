@@ -5,9 +5,18 @@ title: ' [!DNL Target]을(를) 사용하여 콘텐츠를 개인화하고 페이�
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 TQID: https://experienceleague.adobe.com/q3-Z8r2eEWTISBkZBBJTJ8XarLi-lTa2qsqj961hhEQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
 source-wordcount: 2648
@@ -80,7 +89,7 @@ ht-degree: 25%
 | [!UICONTROL 상태] | 활동 상태별로 필터링합니다.<ul><li>**[!UICONTROL Live]**: 활동이 현재 실행 중입니다.</li><li>**[!UICONTROL 예약됨]**: 지정한 시작 날짜 및 시간이 되면 활동을 활성화할 준비가 되었습니다.</li><li>**[!UICONTROL 비활성]**: 활동이 일시 중지되었거나 비활성화되었습니다.</li><li>**[!UICONTROL 종료]**: 활동의 지정한 종료 날짜 및 시간에 도달하여 활동이 더 이상 지원되지 않습니다.</li><li>**[!UICONTROL 보관됨]**: 활동이 보관되었습니다. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.</li></ul>더 이상 사용되지 않는 [!UICONTROL 초안으로 저장] 및 [!UICONTROL 동기화 중] 상태에 대한 자세한 내용은 이 표 아래의 메모를 참조하십시오. |
 | [!UICONTROL Source 보고] | 보고 소스로 필터링합니다.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): [!UICONTROL Analytics for Target]&#x200B;(A4T)을 보고 소스로 사용하는 활동을 표시합니다.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): [!DNL Target]을(를) 보고 소스로 사용하는 활동을 표시합니다.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): [!DNL Adobe Customer Analytics]을(를) 보고 소스로 사용하는 활동을 표시합니다.</li></ul> |
 | [!UICONTROL 경험 작성기] | 활동을 만드는 동안 경험 작성기가 사용된 기준 필터링:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 사용하여 만든 활동을 표시합니다.</li><li>[양식 기반](/help/main/c-experiences/form-experience-composer.md): [!UICONTROL 양식 기반 경험 작성기]를 사용하여 만든 활동을 표시합니다.</li></ul> |
-| [!UICONTROL 지표 유형] | 활동을 만드는 동안 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md)를 선택한 기준 필터링.<ul><li>[!UICONTROL 전환]</li><li>[!UICONTROL 매출 ]</li><li>[!UICONTROL 참여]</li><li>[!UICONTROL Analytics 지표 사용]</lI></ul> |
+| [!UICONTROL 지표 유형] | 활동을 만드는 동안 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md)를 선택한 기준 필터링.<ul><li>[!UICONTROL 전환]</li><li>[!UICONTROL 매출 &#x200B;]</li><li>[!UICONTROL 참여]</li><li>[!UICONTROL Analytics 지표 사용]</lI></ul> |
 | [!UICONTROL 의사 결정 메서드] | 각 활동에 사용된 의사 결정 방법으로 필터링합니다.<ul><li>[서버측](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ko-KR): 서버측 의사 결정을 사용하는 활동을 표시합니다.</li><li>[클라이언트측](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): 클라이언트측 의사 결정을 사용하는 활동을 표시합니다.</li></ul> |
 | [!UICONTROL 활동 Source] | 각 활동을 만드는 데 사용되는 활동 소스로 필터링합니다.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html)</li><li>[[!DNL Adobe Target] MCP 서버](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL 속성] | 활동을 만든 [속성](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)(으)로 필터링합니다. |
