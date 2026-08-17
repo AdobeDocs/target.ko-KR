@@ -5,19 +5,13 @@ title: 대상 목록은 어떻게 사용합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 TQID: https://experienceleague.adobe.com/nILXQc8jdwte7CL1S0v7NDmyeh72N8yeI-gwBP2wz8g
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 28%
+source-wordcount: 844
+ht-degree: 27%
 
 ---
 
@@ -46,16 +40,18 @@ ht-degree: 28%
 
 ![[!UICONTROL 대상자] 목록](assets/audiences_list.png)
 
-[!UICONTROL 대상] 목록에는 활동에 사용할 수 있는 대상이 포함되어 있습니다. [!UICONTROL 대상] 목록을 사용하여 대상을 만들거나 편집하거나 복제하거나 조합합니다. 대상이 만들어진 소스도 이 목록에 표시됩니다.
+[!UICONTROL 대상] 목록에는 활동에 사용할 수 있는 대상이 포함되어 있습니다. [!UICONTROL 대상] 목록을 사용하여 대상을 만들거나 편집하거나 복제하거나 조합합니다. [!DNL Adobe Target] API 또는 [[!DNL Adobe Target] MCP 서버](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)를 통해 만든 대상을 포함하여 모든 대상을 편집할 수 있습니다. 대상이 만들어진 소스도 이 목록에 표시됩니다.
 
 * [!DNL Adobe Target]
+* [!DNL Adobe Target] API
+* [!DNL Adobe Target] MCP 서버
 * [!DNL Adobe Target Classic]
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
   >[!NOTE]
   >
-  >[!DNL Adobe Experience Platform] 소스는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}를 사용하는 모든 [!DNL Target] 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
+  >[!DNL Adobe Experience Platform] 소스는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}를 사용하는 모든 [!DNL Target] 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
   >
   >AEP/RTCDP([!DNL Real-time Customer Data Platform])에서 [!DNL Target] [!UICONTROL 대상] 카드를 구성하려면 [!DNL Target]에서 [!UICONTROL 승인자] 이상 상태를 사용해야 합니다.
   >
@@ -133,4 +129,4 @@ Keep the following points in mind as you work with imported audiences:
 * 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/30527?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

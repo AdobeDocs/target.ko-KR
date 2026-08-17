@@ -5,21 +5,12 @@ title: ' [!DNL Target]을(를) 사용하여 콘텐츠를 개인화하고 페이�
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 TQID: https://experienceleague.adobe.com/q3-Z8r2eEWTISBkZBBJTJ8XarLi-lTa2qsqj961hhEQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 2633
+source-wordcount: 2648
 ht-degree: 25%
 
 ---
@@ -47,7 +38,7 @@ ht-degree: 25%
 | [!UICONTROL 필터 표시] 아이콘<P>![필터 표시 아이콘](/help/main/assets/icons/Filter.svg) | 목록 맨 위에 있는 **[!UICONTROL 필터 표시]** 아이콘을 클릭하여 필터에 액세스하여 활동을 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 Source], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형], [!UICONTROL 의사 결정 Source], [!UICONTROL 활동 Source] 및 [!UICONTROL 속성]별로 필터링합니다.<P>구성하는 필터는 현재 세션에서 영구적입니다.<P>자세한 내용은 아래의 [[!UICONTROL 활동] 목록에 필터 적용](#filters)을 참조하세요. |
 | 필드 검색 | 활동을 빠르게 찾거나 [!UICONTROL 활동] 목록에 표시되는 활동 수를 줄이십시오. 드롭다운을 사용하여 [!UICONTROL 활동 이름], [!UICONTROL URL] 또는 [!UICONTROL ID]별로 검색할 수 있습니다.<P>사용자가 구성하는 검색 옵션은 현재 세션에서 지속됩니다. |
 | [!UICONTROL 활동 만들기] | 활동을 만듭니다.<P>다양한 활동 유형 만들기에 대한 자세한 내용은 다음을 참조하십시오. <ul><li>[A/B 테스트 [!UICONTROL 만들기] 활동](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[자동 할당[!UICONTROL 활동 만들기]](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[[!UICONTROL 자동 타겟 만들기] 활동 만들기](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[[!UICONTROL Automated Personalization] 활동 만들기](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[경험 타깃팅 [!UICONTROL 만들기] 활동](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[활동 만들기](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[[!UICONTROL 권장 사항] 활동 만들기](/help/main/c-recommendations/recommendations.md)</li></ul>각 유형에 대한 자세한 내용은 아래의 [활동 유형](#types)을 참조하세요. |
-| [!UICONTROL 모바일 미리 보기 링크 만들기]<P>![추가 작업 메뉴](/help/main/assets/icons/MoreVertical.svg) | [모바일 미리 보기 링크](https://experienceleague.adobe.com/ko/docs/target-dev/developer/mobile-apps/target-mobile-preview)를 사용하여 모바일 앱 활동에 대한 간단한 전체 QA를 수행합니다.<P>**추가 옵션** 아이콘을 클릭하고 **모바일 미리 보기 링크 만들기**&#x200B;를 선택한 다음 모바일에서 테스트할 활동을 선택하십시오. |
+| [!UICONTROL 모바일 미리 보기 링크 만들기]<P>![추가 작업 메뉴](/help/main/assets/icons/MoreVertical.svg) | [모바일 미리 보기 링크](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview)를 사용하여 모바일 앱 활동에 대한 간단한 전체 QA를 수행합니다.<P>**추가 옵션** 아이콘을 클릭하고 **모바일 미리 보기 링크 만들기**&#x200B;를 선택한 다음 모바일에서 테스트할 활동을 선택하십시오. |
 | 표 맞춤화<P>![표 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg) | 페이지 오른쪽 상단에 있는 **[!UICONTROL 표 사용자 지정]** 아이콘을 클릭한 다음 원하는 열을 선택하거나 선택 취소하여 [!UICONTROL 활동] 목록에 표시되는 열을 변경합니다.<P>변경 내용은 계정에 적용되며 [!DNL Target]에서 로그아웃한 후에도 활성 상태로 유지됩니다. |
 | 대량 작업 확인란<P>![일괄 작업 아이콘](/help/main/assets/icons/Rectangle.svg) | 모든 활동 또는 선택한 활동에 대해 일괄 작업을 수행합니다.<P>사용 권한 및 활동 상태에 따라 사용 가능한 작업 목록을 보려면 아래의 [빠른 작업 수행](#quick-actions)을 참조하십시오. |
 | [!UICONTROL 유형] | 활동 유형. [!UICONTROL Type] 열을 사용하면 유형별로 각 활동을 빠르게 식별할 수 있습니다. <ul><li>**AB-M**: 수동 [!UICONTROL A/B 테스트]</li><li>**AB-AA**: [!UICONTROL 자동 할당]</li><li>**AB-AT**: [!UICONTROL 자동 타겟]</li><li>**AP**: [!UICONTROL Automated Personalization]</li><li>**XT**: [!UICONTROL 경험 타깃팅]</li><li>**MVT**: [!UICONTROL 다변량 테스트]</li><li>**REC**: [!UICONTROL 권장 사항]</li></ul>각 유형에 대한 자세한 내용은 아래의 [활동 유형](#types)을 참조하세요. |
@@ -57,7 +48,7 @@ ht-degree: 25%
 | [!UICONTROL 우선순위] | 활동의 우선 순위입니다.<P>대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>[설정](/help/main/administrating-target/reporting.md)에 따라 [!UICONTROL 우선 순위]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. [!UICONTROL 낮음], [!UICONTROL Medium] 또는 [!UICONTROL 높음]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다.<P>우선 순위 설정에 대한 자세한 내용은 *목표 및 설정*&#x200B;의 *활동 설정*&#x200B;에서 [우선 순위](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)를 참조하십시오. |
 | [!UICONTROL 속성] | 활동에 대한 [속성](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 표시합니다.<P>Enterprise 사용자 권한은 [Target Premium](/help/main/c-intro/intro.md#premium) 기능입니다. |
 | [!UICONTROL 매출액에서 예상되는 향상도] | 대상의 100%에게 가장 성과가 좋은 경험이 표시되는 경우 수입의 예상되는 증가를 보여줍니다.<P>다음 공식을 사용하여 계산됩니다.<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>압축 양식에서 소수 앞에 한자릿수만 있으면 최대 소수 첫째 자리로 반올림됩니다. 예를 들어, $1.6M, $60K, $900, $8.5K, $205K와 같습니다.<P>승자를 확정하기에 충분한 데이터가 없거나 예상 비용이 없는 활동의 경우 이 열에 &quot;---&quot;이 표시됩니다.<P>자세한 내용은 [매출 상승도 평가](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오. |
-| [!UICONTROL Source] | 활동이 만들어진 위치를 표시합니다. [!DNL Adobe Target], [Adobe Target API](https://experienceleague.adobe.com/ko/docs/target-dev/developer/overview), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ko) 또는 [Adobe 모바일 서비스](https://developer.adobe.com/client-sdks/documentation/). |
+| [!UICONTROL Source] | 활동이 만들어진 위치를 표시합니다. [!DNL Adobe Target], [Adobe Target API](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview), [[!DNL Adobe Target] MCP 서버](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html) 또는 [Adobe 모바일 서비스](https://developer.adobe.com/client-sdks/documentation/). |
 | [!UICONTROL 작성자] | 활동을 만든 사람의 이름입니다. |
 | [!UICONTROL 의사 결정 메서드] | 각 활동에 사용된 의사 결정 메서드: [서버측](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ko-KR) 또는 [클라이언트측](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html). |
 
@@ -89,9 +80,9 @@ ht-degree: 25%
 | [!UICONTROL 상태] | 활동 상태별로 필터링합니다.<ul><li>**[!UICONTROL Live]**: 활동이 현재 실행 중입니다.</li><li>**[!UICONTROL 예약됨]**: 지정한 시작 날짜 및 시간이 되면 활동을 활성화할 준비가 되었습니다.</li><li>**[!UICONTROL 비활성]**: 활동이 일시 중지되었거나 비활성화되었습니다.</li><li>**[!UICONTROL 종료]**: 활동의 지정한 종료 날짜 및 시간에 도달하여 활동이 더 이상 지원되지 않습니다.</li><li>**[!UICONTROL 보관됨]**: 활동이 보관되었습니다. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.</li></ul>더 이상 사용되지 않는 [!UICONTROL 초안으로 저장] 및 [!UICONTROL 동기화 중] 상태에 대한 자세한 내용은 이 표 아래의 메모를 참조하십시오. |
 | [!UICONTROL Source 보고] | 보고 소스로 필터링합니다.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): [!UICONTROL Analytics for Target]&#x200B;(A4T)을 보고 소스로 사용하는 활동을 표시합니다.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): [!DNL Target]을(를) 보고 소스로 사용하는 활동을 표시합니다.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): [!DNL Adobe Customer Analytics]을(를) 보고 소스로 사용하는 활동을 표시합니다.</li></ul> |
 | [!UICONTROL 경험 작성기] | 활동을 만드는 동안 경험 작성기가 사용된 기준 필터링:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 사용하여 만든 활동을 표시합니다.</li><li>[양식 기반](/help/main/c-experiences/form-experience-composer.md): [!UICONTROL 양식 기반 경험 작성기]를 사용하여 만든 활동을 표시합니다.</li></ul> |
-| [!UICONTROL 지표 유형] | 활동을 만드는 동안 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md)를 선택한 기준 필터링.<ul><li>[!UICONTROL 전환]</li><li>[!UICONTROL 매출 &#x200B;]</li><li>[!UICONTROL 참여]</li><li>[!UICONTROL Analytics 지표 사용]</lI></ul> |
+| [!UICONTROL 지표 유형] | 활동을 만드는 동안 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md)를 선택한 기준 필터링.<ul><li>[!UICONTROL 전환]</li><li>[!UICONTROL 매출 ]</li><li>[!UICONTROL 참여]</li><li>[!UICONTROL Analytics 지표 사용]</lI></ul> |
 | [!UICONTROL 의사 결정 메서드] | 각 활동에 사용된 의사 결정 방법으로 필터링합니다.<ul><li>[서버측](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ko-KR): 서버측 의사 결정을 사용하는 활동을 표시합니다.</li><li>[클라이언트측](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): 클라이언트측 의사 결정을 사용하는 활동을 표시합니다.</li></ul> |
-| [!UICONTROL 활동 Source] | 각 활동을 만드는 데 사용되는 활동 소스로 필터링합니다.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ko)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
+| [!UICONTROL 활동 Source] | 각 활동을 만드는 데 사용되는 활동 소스로 필터링합니다.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html)</li><li>[[!DNL Adobe Target] MCP 서버](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL 속성] | 활동을 만든 [속성](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)(으)로 필터링합니다. |
 
 
@@ -111,7 +102,7 @@ ht-degree: 25%
 
 | 액션 | 설명 |
 | --- | --- |
-| [!UICONTROL 편집] | 활동을 변경합니다. 모든 활동은 편집할 수 있습니다.<P>활동을 편집할 수 있는 다양한 방법에 대한 자세한 내용은 [활동 편집 또는 초안으로 저장](/help/main/c-activities/edit-activity.md)을 참조하십시오. |
+| [!UICONTROL 편집] | 활동을 변경합니다. [!DNL Adobe Target] API 또는 [!DNL Adobe Target] MCP 서버를 통해 만든 활동을 포함하여 모든 활동을 편집할 수 있습니다.<P>활동을 편집할 수 있는 다양한 방법에 대한 자세한 내용은 [활동 편집 또는 초안으로 저장](/help/main/c-activities/edit-activity.md)을 참조하십시오. |
 | [!UICONTROL 비활성화] | 라이브 또는 예약된 활동을 중지합니다. 비활성화된 활동은 다시 활성화하거나 보관할 수 있습니다.<P>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |
 | [!UICONTROL 활성화] | 비활성 활동 또는 활성화할 준비가 된 활동을 시작합니다. |
 | [!UICONTROL 보관] | 활동을 보관 파일에 보냅니다. 기본적으로 보관된 활동은 더 이상 [!UICONTROL 활동] 목록에 표시되지 않습니다. 보관된 활동을 포함하도록 [!UICONTROL 활동] 목록에 대한 필터를 변경하십시오. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.<P>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |
@@ -127,11 +118,11 @@ ht-degree: 25%
 * [!UICONTROL Automated Personalization]&#x200B;(AP), [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 이외의 모든 활동 유형에서는 [!DNL Target] 또는 [!DNL Adobe Analytics]을(를) 데이터 소스로 사용하도록 선택할 수 있습니다. [!UICONTROL Automated Personalization], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] *항상*&#x200B;에서 [!DNL Target] 데이터를 사용합니다.
 * 활동은 몇 가지 채널에서 사용할 수 있습니다.
 
-   * 웹 및 모바일 사이트
-   * 키오스크 및 ATM을 포함하는 인터넷이 연결된 스크린 및 장치
-   * 이메일 및 기타 획득 채널 또는 파트너 사이트
-   * 모바일 앱
-   * 태그된 콘텐츠를 제공할 수 있는 그 밖의 모든 곳
+  * 웹 및 모바일 사이트
+  * 키오스크 및 ATM을 포함하는 인터넷이 연결된 스크린 및 장치
+  * 이메일 및 기타 획득 채널 또는 파트너 사이트
+  * 모바일 앱
+  * 태그된 콘텐츠를 제공할 수 있는 그 밖의 모든 곳
 
 ## 제한 {#section_049D4684403A4E07B998067EB8E9BE56}
 
