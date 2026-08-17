@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ff60ed8b6fedd553d6df67e122a8a0b6520cce9
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 529
-ht-degree: 50%
+source-wordcount: 564
+ht-degree: 47%
 
 ---
 
@@ -30,6 +30,16 @@ ht-degree: 50%
 [!DNL Adobe Target]의 최신 기능, 개선 사항 및 수정 사항을 살펴보십시오. 이러한 릴리스 노트는 해당되는 경우 [!DNL Target]개의 API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 구성 요소에 대한 업데이트도 다룹니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 26.8.3(2026년 8월 13일)
+
+**활동 및 대상**
+
++++세부 정보 보기
+
+* **API/MCP에서 만든 활동 및 대상에 대해 편집 사용.** [!DNL Adobe Target] 관리 API 및 [!DNL Target] MCP를 통해 만든 활동 및 대상은 이제 [!DNL Target] UI에서 편집할 수 있습니다.
+
++++
 
 ## [!DNL Target Standard/Premium] 26.8.2(2026년 8월 11일)
 

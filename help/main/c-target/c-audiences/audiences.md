@@ -14,10 +14,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 28%
+source-wordcount: 844
+ht-degree: 27%
 
 ---
 
@@ -46,9 +46,11 @@ ht-degree: 28%
 
 ![[!UICONTROL 대상자] 목록](assets/audiences_list.png)
 
-[!UICONTROL 대상] 목록에는 활동에 사용할 수 있는 대상이 포함되어 있습니다. [!UICONTROL 대상] 목록을 사용하여 대상을 만들거나 편집하거나 복제하거나 조합합니다. 대상이 만들어진 소스도 이 목록에 표시됩니다.
+[!UICONTROL 대상] 목록에는 활동에 사용할 수 있는 대상이 포함되어 있습니다. [!UICONTROL 대상] 목록을 사용하여 대상을 만들거나 편집하거나 복제하거나 조합합니다. [!DNL Adobe Target] API 또는 [[!DNL Adobe Target] MCP 서버](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)를 통해 만든 대상을 포함하여 모든 대상을 편집할 수 있습니다. 대상이 만들어진 소스도 이 목록에 표시됩니다.
 
 * [!DNL Adobe Target]
+* [!DNL Adobe Target] API
+* [!DNL Adobe Target] MCP 서버
 * [!DNL Adobe Target Classic]
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
