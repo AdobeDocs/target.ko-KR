@@ -31,11 +31,11 @@ ht-degree: 67%
 
 [!DNL Adobe Experience Platform] 플랫폼을 기반으로 구축된 [!DNL Real-Time Customer Data Platform] (RTCDP)은 기업이 여러 엔터프라이즈 소스의 알려진 데이터와 익명 데이터를 통합할 수 있도록 지원합니다. RTCDP를 통해 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
-RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}를 참조하십시오.
+RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko){target=_blank}를 참조하십시오.
 
 >[!NOTE]
 >
->이 문서에서는 [!DNL Target]/RTCDP 통합에 중점을 둡니다. 2026년 8월부터 Experience Platform 대상 카탈로그의 기본 **[!UICONTROL Adobe Target]** 대상은 Real-Time CDP이 없는 [!DNL Adobe Journey Optimizer]을(를) 가진 조직에서도 사용할 수 있습니다. 각 권한 유형에 사용할 수 있는 기능에 대한 자세한 내용은 *Adobe Target 연결* 안내서의 [권한](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html#entitlement){target=_blank}을 참조하십시오.
+>이 문서에서는 [!DNL Target]/RTCDP 통합에 중점을 둡니다. 2026년 8월부터 Experience Platform 대상 카탈로그의 기본 **[!UICONTROL Adobe Target]** 대상은 Real-Time CDP이 없는 [!DNL Adobe Journey Optimizer]을(를) 가진 조직에서도 사용할 수 있습니다. 각 권한 유형에 사용할 수 있는 기능에 대한 자세한 내용은 *Adobe Target 연결* 안내서의 [권한](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko#entitlement){target=_blank}을 참조하십시오.
 
 ## 주요 기능
 
@@ -83,7 +83,7 @@ RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](ht
 
 ## [!DNL Adobe Experience Platform]의 대상자 사용 {#aep}
 
-[!DNL Adobe Experience Platform]에서 생성된 [대상자](/help/main/c-target/c-audiences/audiences.md)를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. [!DNL Adobe Experience Platform]을(를) 기반으로 구축된 [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCDP)은 기업이 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
+[!DNL Adobe Experience Platform]에서 생성된 [대상자](/help/main/c-target/c-audiences/audiences.md)를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. [!DNL Adobe Experience Platform]을(를) 기반으로 구축된 [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko){target=_blank}(RTCDP)은 기업이 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
 [!DNL Target]을 [!DNL Real-Time Customer Data Platform]에 연결하면 고객은 웹 개인화를 강화할 수 있습니다. 이 통합을 통해 이전에는 [!DNL Target]에서 액세스할 수 없었던 새로운 세그먼트의 잠금을 해제하여 고객의 웹 방문 첫 페이지에서 실시간 밀리초 개인화를 활성화할 수 있습니다. [!DNL Adobe Experience Platform]에서 생성된 대상자 및 프로필 속성을 사용하면 사용 가능한 데이터 포인트를 확장하여 보다 풍부한 개인화를 수행할 수 있습니다.
 
@@ -126,11 +126,11 @@ AEP/통합 프로필 속성을 [!DNL Target]과 공유하기 위한 JSON 오퍼�
 자세한 내용은 다음 주제를 참조하십시오.
 
 * *Adobe Experience Platform 릴리스 노트*&#x200B;의 [대상 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko#destinations){target=_blank}
-* *대상 개요* 안내서에서 [동일 페이지 및 다음 페이지 개인화에 대한 개인화 대상을 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}합니다.
-* *대상 개요* 안내서의 [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
+* *대상 개요* 안내서에서 [동일 페이지 및 다음 페이지 개인화에 대한 개인화 대상을 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ko){target=_blank}합니다.
+* *대상 개요* 안내서의 [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko){target=_blank}
 * *대상 개요* 안내서의 [특성 매핑](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ko#map-attributes){target=_blank}.
-* *대상 개요* 안내서의 [Edge 개인화 대상에 대해 대상을 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank}.
-* *대상 개요* 안내서의 &quot;자주 묻는 질문&quot;에서  [!DNL Adobe Target] 및 사용자 지정 Personalization 대상[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank}을(를) 통한 같은 페이지 및 다음 페이지 개인화
+* *대상 개요* 안내서의 [Edge 개인화 대상에 대해 대상을 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=ko){target=_blank}.
+* *대상 개요* 안내서의 &quot;자주 묻는 질문&quot;에서  [!DNL Adobe Target] 및 사용자 지정 Personalization 대상[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=ko#same-next-page-personalization){target=_blank}을(를) 통한 같은 페이지 및 다음 페이지 개인화
 
 ## 비디오 및 블로그 게시물 {#videos-blogs}
 
@@ -140,7 +140,7 @@ Target 및 RTCDP를 통한 향상된 개인화에 대한 자세한 내용은 다
 
 [!DNL Real-Time Customer Data Platform] 및 [!DNL Adobe Target]을 사용하여 다음 히트를 개인화하는 방법을 알아보십시오. [!DNL Real-Time CDP]의 [!DNL Adobe Target] 대상을 통해 [!DNL Adobe Target]의 [!DNL Experience Platform] 세그먼트를 사용하여 거버넌스 및 개인정보 보호 지원 기능을 제공받으며 동일 페이지 개인화 및 다음 페이지 개인화를 수행할 수 있습니다.
 
-자세한 내용은 *Platform 튜토리얼* 안내서에서 [Real-Time CDP 및 Adobe Target을 사용한 다음 히트 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank}를 참조하십시오.
+자세한 내용은 *Platform 튜토리얼* 안내서에서 [Real-Time CDP 및 Adobe Target을 사용한 다음 히트 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ko){target=_blank}를 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
