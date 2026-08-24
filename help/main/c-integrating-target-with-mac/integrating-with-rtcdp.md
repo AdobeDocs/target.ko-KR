@@ -20,10 +20,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 6d72a6d0a1de27d8cd0286c799e61028d6419761
 workflow-type: tm+mt
-source-wordcount: 1173
-ht-degree: 71%
+source-wordcount: 1239
+ht-degree: 67%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 71%
 [!DNL Adobe Experience Platform] 플랫폼을 기반으로 구축된 [!DNL Real-Time Customer Data Platform] (RTCDP)은 기업이 여러 엔터프라이즈 소스의 알려진 데이터와 익명 데이터를 통합할 수 있도록 지원합니다. RTCDP를 통해 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
 RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko){target=_blank}를 참조하십시오.
+
+>[!NOTE]
+>
+>이 문서에서는 [!DNL Target]/RTCDP 통합에 중점을 둡니다. 2026년 8월부터 Experience Platform 대상 카탈로그의 기본 **[!UICONTROL Adobe Target]** 대상은 Real-Time CDP이 없는 [!DNL Adobe Journey Optimizer]을(를) 가진 조직에서도 사용할 수 있습니다. 각 권한 유형에 사용할 수 있는 기능에 대한 자세한 내용은 *Adobe Target 연결* 안내서의 [권한](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ko#entitlement){target=_blank}을 참조하십시오.
 
 ## 주요 기능
 
