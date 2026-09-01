@@ -7,21 +7,14 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 411
+ht-degree: 65%
 
 ---
 
@@ -31,43 +24,13 @@ ht-degree: 47%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 26.8.3(2026년 8월 13일)
+## [!DNL Target Standard/Premium] 26.9.1(2026년 9월 1일)
 
-**활동 및 대상**
-
-+++세부 정보 보기
-
-* **API/MCP에서 만든 활동 및 대상에 대해 편집 사용.** [!DNL Adobe Target] 관리 API 및 [!DNL Target] MCP를 통해 만든 활동 및 대상은 이제 [!DNL Target] UI에서 편집할 수 있습니다.
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.2(2026년 8월 11일)
-
-**대상자**
+**[!UICONTROL 대상자]**
 
 +++세부 정보 보기
 
-* **활동 전용 대상을 사용하여 활동에서 사용자 지정 코드 수정 내용을 복사하고 저장할 수 없습니다.** 사용자 지정 코드 수정을 추가한 후 활동 전용 대상을 사용한 활동 복사가 &quot;잘못된 대상 ID&quot; 오류와 함께 저장되지 않는 문제를 해결했습니다. (TGT-55785)
-
-+++
-
-**로컬라이제이션**
-
-+++세부 정보 보기
-
-* **활동 URL에서 손상된 멀티바이트 문자** [!UICONTROL 시각적 경험 작성기] 및 **[!UICONTROL 충돌]** 탭에서 활동 URL의 멀티바이트 문자가 손상된 것으로 표시되는 문제가 수정되었습니다. (TGT-55708)
-
-* **삭제된 디자인을 열 때 지역화되지 않은 오류 메시지가 표시됩니다.** 다른 사용자가 삭제한 디자인을 열려고 할 때 **[!UICONTROL 요청한 리소스를 찾을 수 없습니다]** 오류 메시지가 현지화되지 않는 문제를 해결했습니다. (TGT-50902)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.1(2026년 8월 4일)
-
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
-
-+++세부 정보 보기
-
-* [!UICONTROL 경험 대상] 패널에서 **잘린 아이콘.** 활동을 만드는 동안 **[!UICONTROL 경험 대상]** 패널에서 **[!UICONTROL 추가]** 및 확장/축소 아이콘이 숨겨지거나 잘렸던 문제가 수정되었습니다. (TGT-55372)
+* **활동 전용 대상이 있는 활동을 복사할 수 없습니다**. A/B 활동이 활동 전용(로컬에서 범위 지정) 대상 규칙과 사용자 지정 코드 수정을 사용하는 경우 &quot;잘못된 대상 ID&quot; 오류와 함께 복사 및 복사 저장이 실패합니다. (TGT-55785)
 
 +++
 
