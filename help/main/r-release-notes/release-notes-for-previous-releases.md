@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 72205
+source-wordcount: 72534
 ht-degree: 48%
 
 ---
@@ -57,6 +57,66 @@ ht-degree: 48%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2026
+
+## [!DNL Target Standard/Premium] 26.8.5(2026년 8월 18일)
+
+**추천**
+
++++세부 정보 보기
+
+* **제외 및 컬렉션에 대한 Null 값 필터** 이제 [!DNL Recommendations]에서 제외 규칙 및 컬렉션 필터를 정의할 때 **값이 있음** 및 **값이 없음** 연산자를 사용할 수 있습니다. (TGT-55790)
+
++++
+
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
+
++++세부 정보 보기
+
+* **활동을 저장한 후 VEC 편집기에 지표 요소가 표시되지 않습니다.** [!UICONTROL 시각적 경험 작성기]에서 활동에 대한 목표 및 지표를 편집할 때 활동 보고서에서 지표가 계속 올바르게 추적되더라도 이전에 구성한 클릭 지표가 표시되지 않는 문제를 해결했습니다. (TGT-55826)
+
+* **VEC에 간헐적으로 &quot;수정 없음&quot; 메시지가 표시됩니다.** 활성 경험 타기팅 활동의 기존 수정 사항에 대해 **[!UICONTROL 수정 사항]** 패널이 간헐적으로 &quot;수정 사항 없음&quot;으로 표시되는 문제를 해결했습니다. (TGT-55842)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.3(2026년 8월 13일)
+
+**활동 및 대상**
+
++++세부 정보 보기
+
+* **API/MCP에서 만든 활동 및 대상에 대해 편집 사용.** [!DNL Adobe Target] 관리 API 및 [!DNL Target] MCP를 통해 만든 활동 및 대상은 이제 [!DNL Target] UI에서 편집할 수 있습니다.
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.2(2026년 8월 11일)
+
+**대상자**
+
++++세부 정보 보기
+
+* **활동 전용 대상을 사용하여 활동에서 사용자 지정 코드 수정 내용을 복사하고 저장할 수 없습니다.** 사용자 지정 코드 수정을 추가한 후 활동 전용 대상을 사용한 활동 복사가 &quot;잘못된 대상 ID&quot; 오류와 함께 저장되지 않는 문제를 해결했습니다. (TGT-55785)
+
++++
+
+**로컬라이제이션**
+
++++세부 정보 보기
+
+* **활동 URL에서 손상된 멀티바이트 문자** [!UICONTROL 시각적 경험 작성기] 및 **[!UICONTROL 충돌]** 탭에서 활동 URL의 멀티바이트 문자가 손상된 것으로 표시되는 문제가 수정되었습니다. (TGT-55708)
+
+* **삭제된 디자인을 열 때 지역화되지 않은 오류 메시지가 표시됩니다.** 다른 사용자가 삭제한 디자인을 열려고 할 때 **[!UICONTROL 요청한 리소스를 찾을 수 없습니다]** 오류 메시지가 현지화되지 않는 문제를 해결했습니다. (TGT-50902)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1(2026년 8월 4일)
+
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
+
++++세부 정보 보기
+
+* [!UICONTROL 경험 대상] 패널에서 **잘린 아이콘.** 활동을 만드는 동안 **[!UICONTROL 경험 대상]** 패널에서 **[!UICONTROL 추가]** 및 확장/축소 아이콘이 숨겨지거나 잘렸던 문제가 수정되었습니다. (TGT-55372)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.5(2026년 7월 30일)
 
@@ -4499,7 +4559,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>모바일 배치 및 프리페치 전달 </p> </td> 
-   <td colname="col2"> <p><b>업데이트 날짜: 2017년 10월 12일</b> </p> <p> 여러 mbox용 콘텐츠를 단일 호출로 미리 가져온 후, 최종 사용자가 콘텐츠를 보는 방법, 시기 및 보는지 여부를 신경쓰지 않고 디바이스에 로컬로 캐시할 수 있습니다. </p> <p>이 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=ko" format="dita" scope="local"> 미리 가져오기 오퍼 콘텐츠 </a>을(를) 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><b>업데이트 날짜: 2017년 10월 12일</b> </p> <p> 여러 mbox용 콘텐츠를 단일 호출로 미리 가져온 후, 최종 사용자가 콘텐츠를 보는 방법, 시기 및 보는지 여부를 신경쓰지 않고 디바이스에 로컬로 캐시할 수 있습니다. </p> <p>이 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> 미리 가져오기 오퍼 콘텐츠 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>활동 </p> </td> 
