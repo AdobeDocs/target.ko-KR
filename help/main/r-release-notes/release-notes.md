@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
+source-git-commit: 35d7254f67314c1c89050379b0a7850a8db8b5e9
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 65%
+source-wordcount: 495
+ht-degree: 54%
 
 ---
 
@@ -30,6 +30,25 @@ ht-degree: 65%
 [!DNL Adobe Target]의 최신 기능, 개선 사항 및 수정 사항을 살펴보십시오. 이러한 릴리스 노트는 해당되는 경우 [!DNL Target]개의 API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 구성 요소에 대한 업데이트도 다룹니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 26.9.2(2026년 9월 8일)
+
+
+**[!UICONTROL 추천]**
+
++++세부 정보 보기
+
+* **[!DNL New]사용자 인터페이스가 피드 URL을 잘못 인코딩합니다**. 새 [!DNL Target] 인터페이스의 URL에서 권장 사항 피드를 만들 때 피드 URL이 잘못 인코딩되어 알 수 없는 오류로 인해 피드 만들기가 실패합니다. (TGT-56084)
+
++++
+
+**[!UICONTROL 보고]**
+
++++세부 정보 보기
+
+* **자동화된 세그먼트 보고서에 특성 값이 일관되게 표시되지 않습니다**. 자동화된 세그먼트 보고서는 [!DNL Automated Personalization] 및 [!DNL Auto-Target] 활동에 대해 일관되지 않게 표시된 특성 값과 범위를 보고합니다. 일부 자동화된 세그먼트에는 관련 값 또는 범위 대신 속성 이름만 표시되었습니다. (TGT-55855)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.1(2026년 9월 1일)
 
