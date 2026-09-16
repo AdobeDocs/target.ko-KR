@@ -1,35 +1,58 @@
 ---
 keywords: 릴리스 정보;새로운 기능;릴리스;업데이트;업데이트;릴리스;향상;향상;수정;버그 수정;업데이트;현재 업데이트
 description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능 및 개선, 수정 사항에 대해 알아봅니다.
-landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
-short-description: ' [!DNL Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
+landing-page-description: '[!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
+short-description: '[!DNL Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 35d7254f67314c1c89050379b0a7850a8db8b5e9
+    internal-label: Administration
+source-git-commit: 965473d15c55d4a728ace2f67a5dd0b16a4ef55b
 workflow-type: tm+mt
-source-wordcount: 495
-ht-degree: 54%
-
+source-wordcount: '578'
+ht-degree: 47%
 ---
-
 # [!DNL Target] 릴리스 정보 (현재)
 
 [!DNL Adobe Target]의 최신 기능, 개선 사항 및 수정 사항을 살펴보십시오. 이러한 릴리스 노트는 해당되는 경우 [!DNL Target]개의 API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 구성 요소에 대한 업데이트도 다룹니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 26.9.3(2026년 9월 16일)
+
+**[!UICONTROL 보고]**
+
++++세부 정보 보기
+
+* **일부 [!DNL A4T Auto-Target] 보고서에 [!UICONTROL 상승도] 및 [!UICONTROL 신뢰도] 값이 없음**. **[!UICONTROL 방문 전환율 최대화]** 최적화 목표를 사용하는 [!DNL A4T Auto-Target] 활동의 경우 기본 **[!UICONTROL 내 기본 지표]** 보고서 지표가 올바르게 확인되지 않아 **[!UICONTROL 상승도]** 및 **[!UICONTROL 신뢰도]**&#x200B;이(가) 비어 있습니다. (TGT-56137)
+
++++
+
+**[!UICONTROL Analytics for Target]**
+
++++세부 정보 보기
+
+* **[!UICONTROL 보고 Source] 필드는 이제 [!DNL Analytics] 액세스 권한이 없는 라이브 활동에 대해 읽기 전용입니다**. 이전에는 라이브 활동 소유자가 [!DNL Adobe Analytics]에 액세스할 수 없는 경우 **[!UICONTROL 보고 Source]** 필드 및 관련 필드를 편집할 수 있었습니다. (TGT-56089)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.2(2026년 9월 8일)
 
