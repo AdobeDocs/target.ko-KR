@@ -26,12 +26,103 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 9a55efe5570867a822e4f6c0494a505e456bd536
+source-git-commit: 2cecb1f8ae52fd6c47e543710bb14e00503c06ef
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 33%
 ---
 # [!DNL Target] 소개
+
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_ab_daily_traffic"
+>title="일별 트래픽"
+>abstract="하루에 몇 명의 사용자가 실험에 참여합니까? 일일 트래픽을 모르는 경우 위의 \&quot;트래픽 볼륨\&quot;을 선택하면 계산기가 다른 입력을 사용하여 이를 해결합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_setup"
+>title="테스트 설정"
+>abstract="이러한 필드는 A/B 테스트, 표시되는 내용 및 결과에 대한 자신감이 어느 정도인지 정의합니다. 위에서 선택한 항목과 연결된 필드는 자동으로 해결됩니다. 나머지는 예상 값으로 채우십시오."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_number_experiences"
+>title="경험 수"
+>abstract="제어를 포함한 실험의 변형 수입니다. A/B 테스트에는 두 개의 팔이 있습니다. 5개의 변형과 하나의 컨트롤은 6입니다. 더 많은 무기는 통계적 힘을 유지하기 위해 비례적으로 더 많은 트래픽을 요구합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_duration"
+>title="A/B 테스트 기간"
+>abstract="실험이 며칠 동안 실행되는지 여부. 기간이 길수록 실험에서 데이터를 수집하는 시간이 길어져 더 작은 효과를 안정적으로 감지할 수 있습니다. 지속 시간이 짧을수록 신뢰할 수 있는 결과에 도달하기 위해 더 큰 효과나 더 많은 일일 트래픽이 필요합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_minimum_detectable_effect"
+>title="최소 감지 가능한 효과"
+>abstract="감지할 만한 가장 작은 개선 사항, 작업할 지표의 최소 변경 사항입니다. 기준선을 기준으로 한 퍼센트 변경이 아니라 상승도의 백분율 포인트 크기입니다. 예를 들어 베이스라인이 5%이고 1% 포인트 상승도가 중요한 경우 1을 입력합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_expected_improvement"
+>title="예상되는 개선 사항"
+>abstract="실험이 만들어낼 것으로 기대하는 개선 사항입니다."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_variance"
+>title="분산"
+>abstract="지표의 평균이 아니라 값을 분산하는 방법입니다. 클릭률(대부분 0초 및 1초)과 같은 지표는 분산이 낮고, 사용자당 매출과 같은 지표(소수의 높은 지출자, 다수의 낮은 지출자)는 분산이 훨씬 높을 수 있습니다. 확실하지 않은 경우 기본값 1을 둡니다."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_confidence_level"
+>title="신뢰도 수준"
+>abstract="어떤 결과가 통계적 유의성에 대한 기준인 실재라고 하기 전에 무작위적인 우연이 아니라고 확신할 수 있는가? 95% 신뢰 수준은 긍정 오류(false positive)의 가능성이 최대 5%임을 의미합니다. 값이 높을수록 긍정 오류(false positive)는 감소하지만 더 많은 데이터가 필요합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_statistical_power"
+>title="통계적 검증력"
+>abstract="실제로 존재하는 경우 효과를 감지할 확률, 실험의 민감도. 80%의 전력은 실제 효과를 감지할 확률이 80%임을 의미합니다. 높은 전력은 거짓 음성을 감소시키지만 더 많은 트래픽 또는 더 긴 런타임을 필요로 합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_traffic_mode"
+>title="트래픽 모드"
+>abstract="사용자가 실험을 입력하는 방법입니다. 연속: 사용자가 실험 기간 동안 매일 입력합니다. 트래픽이 결과가 나올 때 더 나은 성과를 내는 변형으로 자동 이동합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_metric_type"
+>title="지표 유형"
+>abstract="측정 중인 지표 유형. 백분율: 각 사용자가 작업을 수행하거나 수행하지 않는 클릭 또는 전환과 같은 이진 결과에 사용합니다. 숫자: 사용자마다 값이 크게 다를 수 있는 매출액 또는 페이지 보기 수와 같은 지표에 사용합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_auto_daily_traffic"
+>title="일별 트래픽"
+>abstract="하루에 몇 명의 사용자가 실험에 참여합니까? 여러 날에 걸쳐 실행되는 연속 실험에 사용되며 결과가 나올 때 트래픽이 자동으로 더 나은 성능 변형으로 이동합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_baseline_metric_rate"
+>title="기준 지표 비율"
+>abstract="실험이 시작되기 전 현재 성능은 평균 제어 팔입니다. 항상 필요합니다. 비율 지표에 백분율로 을 입력합니다. 방문자의 5%가 오늘 구매를 클릭할 경우 5를 입력합니다. 카운트 지표의 경우 원시 십진수 값을 입력합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="기본 지표"
+>abstract="기본 지표는 보고 설정에서 자동으로 가져옵니다. 변경하려면 목표 및 설정에서 목표 지표를 수정합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="가설"
+>abstract="가설은 실험의 예상 결과를 설명하는 당신이 정의하는 진술이다. 변경되는 항목과 위치에 대한 설명을 포함한 다음 변경할 지표와 방법을 명시합니다."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_insights"
+>title="통찰력"
+>abstract="실험 인사이트는 실험 데이터가 통계적 유의성을 충족했을 때 AI가 발견한 학습 내용입니다."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="기회"
+>abstract="실험 기회는 AI가 실험 스크린샷과 결과에서 발견한 패턴을 기반으로 제안한 치료 아이디어입니다."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="처리 세부 정보"
+>abstract="치료 세부 정보는 사용자가 치료 자격을 얻을 때 치료의 모습을 보여주는 이미지입니다. 모든 실험에 대해 이러한 이미지를 검토할 수 있습니다. 일부 실험에서는 이미지를 확인하거나 필요한 경우 교체하도록 요청할 수 있습니다."
 
 [!DNL Adobe Experience Cloud]의 일부인 [!DNL Adobe Target]은(는) 웹, 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 고객 경험을 개인화할 수 있는 포괄적인 도구를 제공합니다.
 
@@ -130,92 +221,4 @@ Beta 기능을 설명하는 [!DNL Target] 가이드의 문서에는 각 페이�
 
 >[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
 
->[!CONTEXTUALHELP]
->id="target_sample_size_ab_daily_traffic"
->title="일별 트래픽"
->abstract="하루에 몇 명의 사용자가 실험에 참여합니까? 일일 트래픽을 모르는 경우 위의 \&quot;트래픽 볼륨\&quot;을 선택하면 계산기가 다른 입력을 사용하여 이를 해결합니다."
 
->[!CONTEXTUALHELP]
->id="target_sample_size_setup"
->title="테스트 설정"
->abstract="이러한 필드는 A/B 테스트, 표시되는 내용 및 결과에 대한 자신감이 어느 정도인지 정의합니다. 위에서 선택한 항목과 연결된 필드는 자동으로 해결됩니다. 나머지는 예상 값으로 채우십시오."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_number_experiences"
->title="경험 수"
->abstract="제어를 포함한 실험의 변형 수입니다. A/B 테스트에는 두 개의 팔이 있습니다. 5개의 변형과 하나의 컨트롤은 6입니다. 더 많은 무기는 통계적 힘을 유지하기 위해 비례적으로 더 많은 트래픽을 요구합니다."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_duration"
->title="A/B 테스트 기간"
->abstract="실험이 며칠 동안 실행되는지 여부. 기간이 길수록 실험에서 데이터를 수집하는 시간이 길어져 더 작은 효과를 안정적으로 감지할 수 있습니다. 지속 시간이 짧을수록 신뢰할 수 있는 결과에 도달하기 위해 더 큰 효과나 더 많은 일일 트래픽이 필요합니다."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_minimum_detectable_effect"
->title="최소 감지 가능한 효과"
->abstract="감지할 만한 가장 작은 개선 사항, 작업할 지표의 최소 변경 사항입니다. 기준선을 기준으로 한 퍼센트 변경이 아니라 상승도의 백분율 포인트 크기입니다. 예를 들어 베이스라인이 5%이고 1% 포인트 상승도가 중요한 경우 1을 입력합니다."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_expected_improvement"
->title="예상되는 개선 사항"
->abstract="실험이 만들어낼 것으로 기대하는 개선 사항입니다."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_variance"
->title="분산"
->abstract="지표의 평균이 아니라 값을 분산하는 방법입니다. 클릭률(대부분 0초 및 1초)과 같은 지표는 분산이 낮고, 사용자당 매출과 같은 지표(소수의 높은 지출자, 다수의 낮은 지출자)는 분산이 훨씬 높을 수 있습니다. 확실하지 않은 경우 기본값 1을 둡니다."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_confidence_level"
->title="신뢰도 수준"
->abstract="어떤 결과가 통계적 유의성에 대한 기준인 실재라고 하기 전에 무작위적인 우연이 아니라고 확신할 수 있는가? 95% 신뢰 수준은 긍정 오류(false positive)의 가능성이 최대 5%임을 의미합니다. 값이 높을수록 긍정 오류(false positive)는 감소하지만 더 많은 데이터가 필요합니다."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_statistical_power"
->title="통계적 검증력"
->abstract="실제로 존재하는 경우 효과를 감지할 확률, 실험의 민감도. 80%의 전력은 실제 효과를 감지할 확률이 80%임을 의미합니다. 높은 전력은 거짓 음성을 감소시키지만 더 많은 트래픽 또는 더 긴 런타임을 필요로 합니다."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_traffic_mode"
->title="트래픽 모드"
->abstract="사용자가 실험을 입력하는 방법입니다. 연속: 사용자가 실험 기간 동안 매일 입력합니다. 트래픽이 결과가 나올 때 더 나은 성과를 내는 변형으로 자동 이동합니다."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_metric_type"
->title="지표 유형"
->abstract="측정 중인 지표 유형. 백분율: 각 사용자가 작업을 수행하거나 수행하지 않는 클릭 또는 전환과 같은 이진 결과에 사용합니다. 숫자: 사용자마다 값이 크게 다를 수 있는 매출액 또는 페이지 보기 수와 같은 지표에 사용합니다."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_auto_daily_traffic"
->title="일별 트래픽"
->abstract="하루에 몇 명의 사용자가 실험에 참여합니까? 여러 날에 걸쳐 실행되는 연속 실험에 사용되며 결과가 나올 때 트래픽이 자동으로 더 나은 성능 변형으로 이동합니다."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_baseline_metric_rate"
->title="기준 지표 비율"
->abstract="실험이 시작되기 전 현재 성능은 평균 제어 팔입니다. 항상 필요합니다. 비율 지표에 백분율로 을 입력합니다. 방문자의 5%가 오늘 구매를 클릭할 경우 5를 입력합니다. 카운트 지표의 경우 원시 십진수 값을 입력합니다."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="기본 지표"
->abstract="기본 지표는 보고 설정에서 자동으로 가져옵니다. 변경하려면 목표 및 설정에서 목표 지표를 수정합니다."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="가설"
->abstract="가설은 실험의 예상 결과를 설명하는 당신이 정의하는 진술이다. 변경되는 항목과 위치에 대한 설명을 포함한 다음 변경할 지표와 방법을 명시합니다."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="통찰력"
->abstract="실험 인사이트는 실험 데이터가 통계적 유의성을 충족했을 때 AI가 발견한 학습 내용입니다."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="기회"
->abstract="실험 기회는 AI가 실험 스크린샷과 결과에서 발견한 패턴을 기반으로 제안한 치료 아이디어입니다."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="처리 세부 정보"
->abstract="치료 세부 정보는 사용자가 치료 자격을 얻을 때 치료의 모습을 보여주는 이미지입니다. 모든 실험에 대해 이러한 이미지를 검토할 수 있습니다. 일부 실험에서는 이미지를 확인하거나 필요한 경우 교체하도록 요청할 수 있습니다."
