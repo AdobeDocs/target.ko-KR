@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '3804'
 ht-degree: 14%
-
 ---
-
 # [!DNL Adobe Target] MCP 서버 도구 참조 {#target-mcp-tools-reference}
 
 >[!AVAILABILITY]
@@ -72,7 +70,7 @@ ht-degree: 14%
 | `offset` | 정수 | 아니요 | 페이지 매김을 위해 건너뛸 활동 수 |
 | `sort_by` | string | 아니요 | 정렬 기준 필드. 내림차순(예: `-modifiedAt`)에 대해 `-`을(를) 접두사로 사용합니다. 옵션: `id`, `name`, `state`, `priority`, `startsAt`, `endsAt`, `lifetimeStart`, `lifetimeEnd`, `createdAt`, `createdBy`, `modifiedAt`, `modifiedBy`, `type`, `thirdPartyId` |
 | `state` | string | 아니요 | 활동 상태별로 필터링: `approved`(실시간/활성), `deactivated`(비활성), `paused`, `saved`(초안) |
-| `activity_type` | string | 아니오 | 유형별 필터링: `ab`(A/B 테스트), `xt`(경험 타깃팅), `abt`(Automated Personalization), `auto_allocate`(자동 할당), `mvt`(다변량 테스트), `recs`(권장 사항) |
+| `activity_type` | string | 아니요 | 유형별 필터링: `ab`(A/B 테스트), `xt`(경험 타깃팅), `abt`(Automated Personalization), `auto_allocate`(자동 할당), `mvt`(다변량 테스트), `recs`(권장 사항) |
 | `name_contains` | string | 아니요 | 이름에 이 문자열이 포함된 활동 필터링(대/소문자 구분 안 함) |
 | `starts_after` | string | 아니요 | ISO 8601 날짜 - 이 날짜 이후에 시작하는 활동 |
 | `starts_before` | string | 아니요 | ISO 8601 날짜 - 이 날짜 이전에 시작하는 활동 |
@@ -122,15 +120,15 @@ ht-degree: 14%
 | 매개 변수 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `name` | string | 예 | 활동 이름 |
-| `state` | string | 아니오 | 초기 상태: `approved`, `deactivated` 또는 `saved`(기본값: `saved`) |
+| `state` | string | 아니요 | 초기 상태: `approved`, `deactivated` 또는 `saved`(기본값: `saved`) |
 | `priority` | 정수 | 아니요 | 활동 우선 순위(0~999, 기본값: 0) |
-| `starts_at` | string | 아니오 | 활동 시작 날짜(ISO 8601) |
-| `ends_at` | string | 아니오 | 활동 종료일(ISO 8601) |
+| `starts_at` | string | 아니요 | 활동 시작 날짜(ISO 8601) |
+| `ends_at` | string | 아니요 | 활동 종료일(ISO 8601) |
 | `experiences` | 배열 | 예 | 경험 구성 목록 |
 | `locations` | 배열 | 예 | 위치/mbox 구성 목록 |
 | `goals` | 오브젝트 | 아니오 | 기본 및 보조 목표 지표 |
 | `audiences` | 배열 | 아니요 | Target 대상 구성 |
-| `workspace_id` | string | 아니오 | 활동용 Workspace ID |
+| `workspace_id` | string | 아니요 | 활동용 Workspace ID |
 
 **반환:** ID가 할당된 활동 개체가 만들어졌습니다.
 
@@ -149,14 +147,14 @@ ht-degree: 14%
 | 매개 변수 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `name` | string | 예 | 활동 이름 |
-| `state` | string | 아니오 | 초기 상태: `approved`, `deactivated` 또는 `saved`(기본값: `saved`) |
+| `state` | string | 아니요 | 초기 상태: `approved`, `deactivated` 또는 `saved`(기본값: `saved`) |
 | `priority` | 정수 | 아니요 | 활동 우선 순위(0~999, 기본값: 0) |
-| `starts_at` | string | 아니오 | 활동 시작 날짜(ISO 8601) |
-| `ends_at` | string | 아니오 | 활동 종료일(ISO 8601) |
+| `starts_at` | string | 아니요 | 활동 시작 날짜(ISO 8601) |
+| `ends_at` | string | 아니요 | 활동 종료일(ISO 8601) |
 | `experiences` | 배열 | 예 | 대상 매핑이 포함된 경험 구성 목록 |
 | `locations` | 배열 | 예 | 위치/mbox 구성 목록 |
 | `goals` | 오브젝트 | 아니오 | 기본 및 보조 목표 지표 |
-| `workspace_id` | string | 아니오 | 활동용 Workspace ID |
+| `workspace_id` | string | 아니요 | 활동용 Workspace ID |
 
 **반환:** ID가 할당된 활동 개체가 만들어졌습니다.
 
@@ -194,8 +192,8 @@ ht-degree: 14%
 | 매개 변수 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `activity_id` | 정수 | 예 | 활동에 대한 고유 식별자 |
-| `starts_at` | string | 아니오 | 새 시작 날짜(ISO 8601) |
-| `ends_at` | string | 아니오 | 새 종료일(ISO 8601) |
+| `starts_at` | string | 아니요 | 새 시작 날짜(ISO 8601) |
+| `ends_at` | string | 아니요 | 새 종료일(ISO 8601) |
 
 **반환:** 일정 업데이트 확인.
 
@@ -272,7 +270,7 @@ ht-degree: 14%
 | `activity_type` | string | 예 | 활동 유형: `ab`, `xt` 또는 `abt` |
 | `variant_name` | string | 예 | 새 경험/변형 이름 |
 | `offer_id` | 정수 | 아니요 | (양식 기반) 사용할 기존 오퍼 ID |
-| `offer_content` | string | 아니오 | (양식 기반) 새 인라인 오퍼에 대한 HTML 컨텐츠 |
+| `offer_content` | string | 아니요 | (양식 기반) 새 인라인 오퍼에 대한 HTML 컨텐츠 |
 | `traffic_percentage` | 정수 | 아니요 | 새 변형에 대한 트래픽 %(1-99)입니다. 생략하면 트래픽의 균형이 균일하게 조정됩니다. |
 | `audience_id` | 정수 | 아니요 | 변형에 대한 대상 ID(XT 활동) |
 | `modifications` | 배열 | 아니요 | (VEC) CSS 선택기 기반 수정 사항 목록 |
@@ -317,7 +315,7 @@ ht-degree: 14%
 | `activity_type` | string | 예 | 활동 유형: `ab`, `xt` 또는 `abt` |
 | `variant_name` | string | 예 | 업데이트할 경험/변형의 이름 |
 | `offer_id` | 정수 | 아니요 | (양식 기반) 새 오퍼 ID |
-| `offer_content` | string | 아니오 | (양식 기반) 새 인라인 오퍼에 대한 HTML 컨텐츠 |
+| `offer_content` | string | 아니요 | (양식 기반) 새 인라인 오퍼에 대한 HTML 컨텐츠 |
 | `modifications` | 배열 | 아니요 | (VEC) CSS 선택기 기반 수정 사항의 새 목록 |
 
 **반환:** 업데이트된 활동 개체입니다.
@@ -395,7 +393,7 @@ ht-degree: 14%
 |---|---|---|---|
 | `name` | string | 예 | 오퍼 이름 |
 | `content` | string | 예 | 오퍼에 대한 HTML 또는 텍스트 컨텐츠 |
-| `workspace_id` | string | 아니오 | 오퍼에 대한 Workspace ID |
+| `workspace_id` | string | 아니요 | 오퍼에 대한 Workspace ID |
 
 **반환:** 할당된 ID로 만들어진 오퍼입니다.
 
@@ -413,7 +411,7 @@ ht-degree: 14%
 |---|---|---|---|
 | `name` | string | 예 | 오퍼 이름 |
 | `content` | 오브젝트 | 예 | 오퍼에 대한 JSON 콘텐츠 |
-| `workspace_id` | string | 아니오 | 오퍼에 대한 Workspace ID |
+| `workspace_id` | string | 아니요 | 오퍼에 대한 Workspace ID |
 
 **반환:** 할당된 ID로 만들어진 오퍼입니다.
 
@@ -430,7 +428,7 @@ ht-degree: 14%
 | 매개 변수 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `offer_id` | 정수 | 예 | 업데이트할 오퍼의 고유 식별자 |
-| `name` | string | 아니오 | 업데이트된 오퍼 이름 |
+| `name` | string | 아니요 | 업데이트된 오퍼 이름 |
 | `content` | 문자열 또는 개체 | 아니요 | 업데이트된 오퍼 콘텐츠 |
 
 **반환:** 업데이트된 오퍼 개체입니다.
@@ -485,9 +483,9 @@ ht-degree: 14%
 | 매개 변수 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `name` | string | 예 | 대상자 이름 |
-| `description` | string | 아니오 | 대상자에 대한 설명 |
+| `description` | string | 아니요 | 대상자에 대한 설명 |
 | `targetRule` | 오브젝트 | 아니오 | 타깃팅 규칙(지역, 브라우저, 사용자 지정 속성 등) |
-| `workspace_id` | string | 아니오 | 대상자용 Workspace ID |
+| `workspace_id` | string | 아니요 | 대상자용 Workspace ID |
 
 **반환:** 할당된 ID로 생성된 대상자입니다.
 
@@ -755,6 +753,143 @@ ID별로 특정 엔티티의 모든 수정 사항을 가져옵니다.
 
 +++
 
+## 권장 사항 도구 {#tools-recommendations}
+
+>[!NOTE]
+>
+>* 권장 사항 도구를 사용하려면 **Target Premium**&#x200B;이(가) 있는 권장 사항 사용 테넌트가 필요합니다. Premium이 아닌 계정의 경우 이러한 도구는 클라이언트의 도구 목록에 표시되지 않으며, 기본 API는 403 오류를 반환합니다.
+>* 이러한 도구는 기준, 컬렉션, 디자인, 프로모션 및 제외에 대한 목록, 가져오기, 만들기 및 업데이트 작업을 지원합니다. 삭제 작업은 MCP 서버를 통해 노출되지 않습니다.
+
++++기준
+
+**도구:** `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`
+
+기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 항목을 결정하는 규칙입니다. 기준은 `category`, `custom`, `item`, `cart`, `popularity`, `profileattribute`, `recent`, `sequence`, `userhistory` 형식의 9개 계열로 그룹화됩니다.
+
+| 매개 변수 | 유형 | 필수 | 설명 |
+|---|---|---|---|
+| `criteria_id` | 정수 | 가져오기/업데이트용 | 기준의 고유 식별자 |
+| `criteria_type` | string | 형식화된 작업 | 9가지 기준 제품군 중 하나 |
+| `limit` / `offset` | 정수 | 아니요 | 쪽 매기기 |
+| `name` | string | 예(만들기) | 기준의 고유 이름 |
+| `criteriaTitle` | string | 아니요 | `$criteria.title`을(를) 통해 디자인에 사용된 표시 제목 |
+| `description` | string | 아니요 | 기준에 대한 설명 |
+| `key` | string | 예(만들기/업데이트, 대부분의 유형) | 권장 사항 키(예: `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED`, `PROFILE_ATTRIBUTE`) |
+| `type` | string | 예(만들기/업데이트, 대부분의 유형) | 권장 사항 논리(예: `VIEWED_BOUGHT`, `BOUGHT_CF`, `VIEWED_CF`, `SITE_AFFINITY`, `SIMILARITY`) |
+| `configuration` | 오브젝트 | 예(만들기/업데이트) | 포함 규칙, 속성 가중치, 가격 필터 및 기타 제품군별 설정 |
+| `daysCount` | string | 다양함 | 이전 시간 범위를 고려했습니다(예: `ONE_DAY`에서 `TWO_MONTHS`). |
+
+`list_target_criteria` 및 `get_target_criteria`이(가) 최소 제품군 간 기준 메타데이터(`id`, `name`, `criteriaTitle`, `criteriaGroup`)를 반환합니다. `criteria_type`과(와) 함께 `list_target_criteria_by_type`/`get_target_criteria_by_type`(또는 `create_target_criteria`/`update_target_criteria`)을(를) 사용하여 유형별 전체 구성으로 작업하십시오. 필드 요구 사항은 제품군마다 다릅니다. 전체 유형별 스키마는 [!DNL Adobe] [Recommendations API 참조](https://developer.adobe.com/target/administer/recommendations-api/){target="_blank"}를 참조하십시오.
+
+**반환:** 기준 개체 또는 `offset`, `limit`, `total` 및 `list`이(가) 포함된 페이지 매김된 목록입니다.
+
+**예제 프롬프트:** &quot;이 계정에 구성된 모든 권장 사항 기준을 나열하고 사용 중인 알고리즘 유형을 요약합니다.&quot;
+
++++
+
++++컬렉션
+
+**도구:** `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`
+
+컬렉션은 기준 및 프로모션에 사용하기 위해 일치하는 규칙으로 카탈로그 엔티티를 그룹화합니다.
+
+| 매개 변수 | 유형 | 필수 | 설명 |
+|---|---|---|---|
+| `collection_id` | 정수 | 가져오기/업데이트용 | 컬렉션에 대한 고유 식별자 |
+| `limit` / `offset` | 정수 | 아니요 | 쪽 매기기 |
+| `name` | string | 예 | 고유 컬렉션 이름(최대 250자) |
+| `description` | string | 아니요 | 컬렉션에 대한 설명(최대 1,000자) |
+| `rules` | 배열 | 예 | 카탈로그 멤버십을 결정하는 1-1000개의 규칙(`attribute` + 연산자/피연산자) |
+
+**반환:** 컬렉션 개체로 `id`, `name`, `description`, `rules` 및 마지막으로 수정한 메타데이터가 포함됩니다.
+
+**예제 프롬프트:** &quot;어떤 컬렉션이 있고 어떤 카탈로그 특성을 필터링합니까?&quot;
+
++++
+
++++디자인
+
+**도구:** `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`
+
+디자인은 권장 엔티티가 렌더링되는 방식을 제어하는 Velocity 또는 HTML 템플릿입니다.
+
+| 매개 변수 | 유형 | 필수 | 설명 |
+|---|---|---|---|
+| `design_id` | 정수 | 가져오기/업데이트용 | 디자인에 대한 고유 식별자 |
+| `limit` / `offset` | 정수 | 아니요 | 쪽 매기기 |
+| `includeScript` | 부울 | 아니요 | 디자인의 템플릿 콘텐츠 포함 여부 |
+| `name` | string | 예 | 디자인에 대한 고유 이름(최대 250자) |
+| `script` | string | 예 | 하나 이상의 엔티티 오브젝트를 참조하는 속도 템플릿(최대 65,000자) |
+| `type` | string | 아니요 | 스크립트의 콘텐츠 형식: `HTML`, `JSON` 또는 `OTHER`(기본값) |
+
+**반환:** 디자인 개체(`id`, `name`, `script` 및 `type` 포함)입니다.
+
+**예제 프롬프트:** &quot;추천에 대해 구성한 디자인과 컬렉션은 무엇입니까?&quot;
+
++++
+
++++프로모션
+
+**도구:** `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`
+
+프로모션을 통해 특정 엔티티가 권장 사항 결과로 강제 적용되며 기준 및 백업 권장 사항보다 우선합니다.
+
+| 매개 변수 | 유형 | 필수 | 설명 |
+|---|---|---|---|
+| `promotion_id` | 정수 | 가져오기/업데이트용 | 프로모션의 고유 식별자 |
+| `limit` / `offset` | 정수 | 아니요 | 쪽 매기기 |
+| `name` | string | 예 | 프로모션에 대한 고유 이름(최대 250자) |
+| `type` | string | 예 | 현재 `EXTERNAL`만 지원됩니다. |
+| `key` | string | 아니요 | 프로모션 키: `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED` 또는 `PROFILE_ATTRIBUTE` |
+| `attribute` | string | 아니요 | 프로필 속성 이름, `key`이(가) `PROFILE_ATTRIBUTE`인 경우 적용 가능 |
+| `schedule` | 오브젝트 | 아니오 | 프로모션이 적용되는 시작/종료 시간 창 |
+| `order` | 오브젝트 | 아니오 | 프로모션된 엔티티에 대한 구성 순서 지정 |
+| `configuration` | 오브젝트 | 아니오 | 승격된 항목에 대한 컬렉션 참조(`rules`이(가) 비어 있는 경우 사용됨) |
+| `rules` | 배열 | 아니요 | 홍보할 엔티티를 식별하는 포함 규칙 |
+
+**반환:** 프로모션 개체입니다.
+
+**예제 프롬프트:** &quot;8월 말까지 &#39;배낭 텐트&#39; 컬렉션을 제공하는 외부 프로모션을 만드십시오.&quot;
+
++++
+
++++제외
+
+**도구:** `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`
+
+제외는 추천 결과에서 일치하는 엔티티를 제거합니다. 제외는 모든 기준 및 활동에 걸쳐 계정 전체에 적용됩니다.
+
+| 매개 변수 | 유형 | 필수 | 설명 |
+|---|---|---|---|
+| `exclusion_id` | 정수 | 가져오기/업데이트용 | 제외의 고유 식별자 |
+| `name` | string | 예 | 제외 고유 이름(최대 250자) |
+| `description` | string | 아니요 | 제외 설명(최대 1,000자) |
+| `rule` | 오브젝트 | 아니오 | 제외할 엔터티를 식별하는 단일 규칙(`attribute` + 연산자/피연산자)입니다 |
+
+**반환:** 제외 개체입니다.
+
+**예제 프롬프트:** &quot;현재 계정 전체의 제외가 구성되어 있으며 어떤 항목을 필터링합니까?&quot;
+
++++
+
++++카탈로그
+
+**도구:** `get_target_entity`, `search_target_catalog`
+
+권장 사항 제품/콘텐츠 카탈로그를 검사하기 위한 읽기 전용 도구입니다. MCP 서버를 통한 카탈로그 엔티티 생성, 업데이트 또는 삭제 도구가 없습니다.
+
+| 매개 변수 | 유형 | 필수 | 설명 |
+|---|---|---|---|
+| `catalog_entity_id` | string | 예(get) | 카탈로그 엔티티 ID(예: SKU) |
+| `environment_id` | string | 아니요 | 엔티티를 조회할 환경 |
+| `query` | 오브젝트 | 예(검색) | `meta` 블록(`environmentId`, 선택적 `displayFields`) + `query` 블록(`simple` 또는 `compound`); 단순 쿼리는 `queryFields`, `operator`(`eq`, `lt`, `gt`, `le`, `ge`, `contains`) 및 `matchValue`을 사용합니다. |
+
+**반환:** `get_target_entity`이(가) 엔터티의 카탈로그 특성을 반환합니다. `search_target_catalog`이(가) `entities` 배열에서 일치 항목을 반환합니다. `query`의 필드 이름은 테넌트에 대해 구성된 실제 카탈로그 특성이어야 합니다.
+
+**예제 프롬프트:** &quot;재고가 1000 미만인 제품이 있는지 카탈로그를 검색하십시오.&quot;
+
++++
+
 ## 도구 요약 {#tools-summary}
 
 | 카테고리 | 계수 | 도구 |
@@ -770,7 +905,8 @@ ID별로 특정 엔티티의 모든 수정 사항을 가져옵니다.
 | 개정 | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | 템플릿 | 1 | `list_target_templates` |
-| **합계** | **38** | |
+| 추천 | 24 | `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`, `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`, `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`, `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`, `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`, `get_target_entity`, `search_target_catalog` |
+| **합계** | **62** | |
 
 ## 관련 리소스 {#tools-related}
 

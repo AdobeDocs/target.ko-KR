@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 40%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # [!DNL Target] 릴리스 정보 (현재)
 
@@ -48,11 +48,11 @@ ht-degree: 40%
 
 ## [!DNL Target Standard/Premium] 26.9.4(2026년 9월 17일)
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
-* 가장 위쪽 페이지 요소&#x200B;**에서 [!DNL Experience Fragments]에 대한**&#x200B;[!UICONTROL &#x200B;다음 항목 앞에 삽입] 컨트롤에 액세스할 수 없습니다. 시각적 경험 작성기에서 페이지에서 맨 위 요소를 선택하면 페이지가 위쪽으로 스크롤되어 **[!UICONTROL 다음 항목 앞에 삽입]** 컨트롤이 선택할 수 없는 표시된 뷰포트 위에 렌더링됩니다. (TGT-55829)
+* 가장 위쪽 페이지 요소&#x200B;**에서 [!DNL Experience Fragments]에 대한**[!UICONTROL &#x200B;다음 항목 앞에 삽입] 컨트롤에 액세스할 수 없습니다. 시각적 경험 작성기에서 페이지에서 맨 위 요소를 선택하면 페이지가 위쪽으로 스크롤되어 **[!UICONTROL 다음 항목 앞에 삽입]** 컨트롤이 선택할 수 없는 표시된 뷰포트 위에 렌더링됩니다. (TGT-55829)
 
 +++
 
@@ -100,6 +100,18 @@ ht-degree: 40%
 +++세부 정보 보기
 
 * **활동 전용 대상이 있는 활동을 복사할 수 없습니다**. A/B 활동이 활동 전용(로컬에서 범위 지정) 대상 규칙과 사용자 지정 코드 수정을 사용하는 경우 &quot;잘못된 대상 ID&quot; 오류와 함께 복사 및 복사 저장이 실패합니다. (TGT-55785)
+
++++
+
+**[!DNL Adobe Target]MCP 서버 — 권장 사항 도구(공개 Beta)**
+
++++세부 정보 보기
+
+[!DNL Adobe Target] MCP 서버는 이제 추천 도구를 노출하므로 기준, 컬렉션, 디자인, 프로모션 및 제외를 나열, 검사, 만들기 및 업데이트하고 AI 어시스턴트에서 직접 제품 카탈로그를 검색할 수 있습니다.
+
+이 기능을 사용하려면 **Target Premium**&#x200B;이(가) 있는 권장 사항 사용 테넌트가 필요합니다. Premium이 아닌 계정에서는 사용할 수 없습니다.
+
+자세한 내용은 [MCP 서버 도구 참조](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)를 참조하십시오.
 
 +++
 
