@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1039'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Target] MCP 서버 {#target-mcp}
 
 [!DNL Adobe Target] MCP 통합을 통해 A/B 테스트 및 개인화 활동을 AI 어시스턴트에서 직접 검사, 분석 및 관리할 수 있습니다. [!DNL Target]의 실험 및 개인화 데이터를 일반 언어 워크플로우로 전환합니다. UI를 탐색하거나 API 호출을 작성하지 않고도 실험 포트폴리오를 감사하고, 성능 보고서를 검토하고, 대상 및 오퍼를 탐색하고, 활동을 만들고, 업데이트를 수행할 수 있습니다.
@@ -48,10 +46,10 @@ ht-degree: 0%
 * **활동 살펴보기** - A/B 및 XT 활동을 나열, 검사 및 분석합니다.
 * **활동 만들기 및 업데이트** - 새 A/B 및 경험 타깃팅 활동 만들기, 구성 업데이트, 트래픽 분할 관리, 변형 추가 또는 제거, 활동 상태 제어(활성화, 일시 중지, 비활성화).
 * **대상 및 오퍼 탐색 및 관리** - 대상, HTML 오퍼 및 JSON 오퍼를 나열, 검사, 만들기 및 업데이트합니다.
-<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
+* **권장 사항 관리** - 기준, 컬렉션, 디자인, 프로모션 및 제외를 나열, 검사, 만들기 및 업데이트하고 제품 카탈로그를 검색합니다. Target Premium 권한이 필요합니다.
 * **구현 감사** - at.js 설정, 응답 토큰 및 엔터티별 개정 기록을 검토합니다.
 
-[!DNL Adobe Target] MCP 서버는 활동 생성 및 보고에서 대상 관리 및 QA 미리 보기에 이르기까지 10개 범주에 걸쳐 41개의 도구를 노출합니다. 전체 매개 변수 참조에 대해서는 [MCP 서버 도구 참조](target-mcp-tools-reference.md)를 참조하십시오.
+[!DNL Adobe Target] MCP 서버는 활동 생성 및 보고에서 대상 관리, QA 미리 보기 및 권장 사항 구성에 이르기까지 11개 범주에 걸쳐 62개의 도구를 노출합니다. 전체 매개 변수 참조에 대해서는 [MCP 서버 도구 참조](target-mcp-tools-reference.md)를 참조하십시오.
 
 단계별 안내 연습을 포함하여 [!DNL Adobe Target] MCP 서버로 수행할 수 있는 작업을 살펴보려면 [사용 사례 및 연습](target-mcp-use-cases.md)을 참조하세요.
 
@@ -66,7 +64,7 @@ ht-degree: 0%
 
 +++MCP를 통해 액세스할 수 있는 [!DNL Adobe Target] 개체는 무엇입니까?
 
-활동(A/B, XT, AP), 대상, 오퍼, 속성, mbox, 응답 토큰, at.js 구성, A4T 보고서 및 엔티티 개정 내역에 액세스하고 관리할 수 있습니다. MCP 서버는 읽기 및 쓰기 작업을 모두 다루는 41개의 도구를 노출합니다.
+활동(A/B, XT, AP), 대상, 오퍼, 속성, mbox, 응답 토큰, at.js 구성, A4T 보고서, 엔티티 개정 내역 및 권장 사항 구성(기준, 컬렉션, 디자인, 프로모션, 제외 및 카탈로그 검색)에 액세스하고 관리할 수 있습니다. MCP 서버는 읽기 및 쓰기 작업을 모두 다루는 62개의 도구를 노출합니다. 권장 사항 도구는 Target Premium 권한이 필요하며 Premium이 아닌 계정에서는 사용할 수 없습니다.
 +++
 
 +++MCP 서버는 활동을 생성하거나 수정할 수 있습니까?

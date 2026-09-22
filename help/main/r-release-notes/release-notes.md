@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 42%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # [!DNL Target] 릴리스 정보 (현재)
 
 [!DNL Adobe Target]의 최신 기능, 개선 사항 및 수정 사항을 살펴보십시오. 이러한 릴리스 노트는 해당되는 경우 [!DNL Target]개의 API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 구성 요소에 대한 업데이트도 다룹니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 26.9.5(2026년 9월 21일)
+
+**[!UICONTROL Analytics for Target]**
+
++++세부 정보 보기
+
+* **A4T 보고서 링크가 [!DNL Target] UI에 생성되지 않음**. [!DNL A4T] 활동의 경우 기본 보고서 데이터가 [!DNL Target] UI와 [!DNL Adobe Analytics] UI 모두에 표시되었더라도 **[!UICONTROL 보고서]** 섹션에서 보고서 링크가 생성되지 않았습니다. (TGT-56247)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.4(2026년 9월 17일)
 
@@ -90,6 +100,18 @@ ht-degree: 42%
 +++세부 정보 보기
 
 * **활동 전용 대상이 있는 활동을 복사할 수 없습니다**. A/B 활동이 활동 전용(로컬에서 범위 지정) 대상 규칙과 사용자 지정 코드 수정을 사용하는 경우 &quot;잘못된 대상 ID&quot; 오류와 함께 복사 및 복사 저장이 실패합니다. (TGT-55785)
+
++++
+
+**[!DNL Adobe Target]MCP 서버 — 권장 사항 도구(공개 Beta)**
+
++++세부 정보 보기
+
+[!DNL Adobe Target] MCP 서버는 이제 추천 도구를 노출하므로 기준, 컬렉션, 디자인, 프로모션 및 제외를 나열, 검사, 만들기 및 업데이트하고 AI 어시스턴트에서 직접 제품 카탈로그를 검색할 수 있습니다.
+
+이 기능을 사용하려면 **Target Premium**&#x200B;이(가) 있는 권장 사항 사용 테넌트가 필요합니다. Premium이 아닌 계정에서는 사용할 수 없습니다.
+
+자세한 내용은 [MCP 서버 도구 참조](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)를 참조하십시오.
 
 +++
 
