@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
+source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 42%
+source-wordcount: '680'
+ht-degree: 40%
 ---
 # [!DNL Target] 릴리스 정보 (현재)
 
@@ -36,13 +36,23 @@ ht-degree: 42%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 26.9.4(2026년 9월 17일)
+## [!DNL Target Standard/Premium] 26.9.5(2026년 9월 21일)
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL Analytics for Target]**
 
 +++세부 정보 보기
 
-* 가장 위쪽 페이지 요소&#x200B;**에서 [!DNL Experience Fragments]에 대한**&#x200B;[!UICONTROL &#x200B;다음 항목 앞에 삽입] 컨트롤에 액세스할 수 없습니다. 시각적 경험 작성기에서 페이지에서 맨 위 요소를 선택하면 페이지가 위쪽으로 스크롤되어 **[!UICONTROL 다음 항목 앞에 삽입]** 컨트롤이 선택할 수 없는 표시된 뷰포트 위에 렌더링됩니다. (TGT-55829)
+* **A4T 보고서 링크가 [!DNL Target] UI에 생성되지 않음**. [!DNL A4T] 활동의 경우 기본 보고서 데이터가 [!DNL Target] UI와 [!DNL Adobe Analytics] UI 모두에 표시되었더라도 **[!UICONTROL 보고서]** 섹션에서 보고서 링크가 생성되지 않았습니다. (TGT-56247)
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.4(2026년 9월 17일)
+
+**[!UICONTROL 시각적 경험 작성기](VEC)**
+
++++세부 정보 보기
+
+* 가장 위쪽 페이지 요소&#x200B;**에서 [!DNL Experience Fragments]에 대한**[!UICONTROL &#x200B;다음 항목 앞에 삽입] 컨트롤에 액세스할 수 없습니다. 시각적 경험 작성기에서 페이지에서 맨 위 요소를 선택하면 페이지가 위쪽으로 스크롤되어 **[!UICONTROL 다음 항목 앞에 삽입]** 컨트롤이 선택할 수 없는 표시된 뷰포트 위에 렌더링됩니다. (TGT-55829)
 
 +++
 
