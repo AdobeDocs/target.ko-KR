@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
+source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 36%
+source-wordcount: '816'
+ht-degree: 34%
 ---
 # [!DNL Target] 릴리스 정보 (현재)
 
@@ -37,6 +37,27 @@ ht-degree: 36%
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
 ## [!DNL Target Standard/Premium] 26.9.5(2026년 9월 21일)
+
+### 기능
+
+<table>
+<thead>
+<tr>
+<th><strong>콘텐츠 사전 숨김</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>콘텐츠 사전 숨김을 사용하면 Adobe Target 개인화가 변경되려고 하는 섹션만 숨겨 페이지 깜박임을 줄이고 콘텐츠를 로드하는 동안 더 원활한 경험을 제공할 수 있습니다. 이 접근 방식은 전체 페이지를 숨기지 않고 새 활동을 시작할 때 구현 노력을 최소화하는 데 도움이 됩니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>자세한 내용은 <a href="../administrating-target/content-pre-hiding.md">세부 문서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항
 
 **[!UICONTROL Analytics for Target]**
 
