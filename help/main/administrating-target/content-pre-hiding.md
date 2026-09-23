@@ -4,20 +4,12 @@ description: 계정 수준 설정, 간단한 페이지 라이브러리 및 활�
 title: 개인화된 경험을 위한 콘텐츠 사전 숨김
 feature: Administration & Configuration
 role: Admin
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
-hide: true
-source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
+source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 3%
-
+source-wordcount: '596'
+ht-degree: 1%
 ---
-
 # 개인화된 경험을 위한 콘텐츠 사전 숨김
-
->[!AVAILABILITY]
->
->개인화된 콘텐츠에 대한 콘텐츠 사전 숨김은 **베타** 기능으로 사용할 수 있습니다.
 
 방문자가 페이지를 로드할 때 기본 콘텐츠가 잠깐 나타났다가 [!DNL Adobe Target]에서 개인화된 콘텐츠로 바뀔 수 있습니다. 보이는 스위치를 종종 **깜박임**&#x200B;이라고 하며 이는 개인화 프로그램의 일반적인 경험 문제입니다.
 
@@ -55,7 +47,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 그러면 플리커 관리 설정이 인스턴스에 적용됩니다.
 
-1. 활성화하면 **[!UICONTROL 다운로드]**&#x200B;를 클릭한 다음 [!DNL at.js] 또는 [!DNL Web SDK] 전에 로드되도록 `<head>` 페이지에 파일을 추가하십시오. 전체 구현 지침은 [콘텐츠 사전 숨김 SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/prehide-sdk)을 참조하십시오.
+1. 활성화하면 **[!UICONTROL 다운로드]**&#x200B;를 클릭한 다음 [!DNL at.js] 또는 [!DNL Web SDK] 전에 로드되도록 `<head>` 페이지에 파일을 추가하십시오. 전체 구현 지침은 [콘텐츠 사전 숨김 SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)을 참조하십시오.
 
    ![](assets/content-pre-hiding-2.png)
 
