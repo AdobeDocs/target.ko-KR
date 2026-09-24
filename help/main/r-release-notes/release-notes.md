@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
+source-git-commit: 4d083419d76b0287c3c254a0fc382abc7444cc75
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 34%
+source-wordcount: '874'
+ht-degree: 32%
 ---
 # [!DNL Target] 릴리스 정보 (현재)
 
 [!DNL Adobe Target]의 최신 기능, 개선 사항 및 수정 사항을 살펴보십시오. 이러한 릴리스 노트는 해당되는 경우 [!DNL Target]개의 API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 구성 요소에 대한 업데이트도 다룹니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 26.9.6(2026년 9월 24일)
+
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
+
++++세부 정보 보기
+
+* **Visual Experience Composer를 통해 SSO 인증 페이지에 액세스할 때 무한 리디렉션 루프**&#x200B;가 있습니다. 시각적 경험 작성기에 로드된 페이지 URL이 SSO/로그인 리디렉션 흐름을 거쳤을 때 시각적 경험 작성기가 무한 리디렉션 루프를 시작했고 의도한 페이지에 도달하지 않았습니다. (TGT-56233)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.5(2026년 9월 21일)
 
