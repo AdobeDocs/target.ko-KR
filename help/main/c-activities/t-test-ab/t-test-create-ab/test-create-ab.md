@@ -1,6 +1,6 @@
 ---
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: '[!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
+description: '[!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
 title: A/B 테스트를 만들려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb

@@ -1,7 +1,7 @@
 ---
 keywords: 경험;json;aem;adobe experience manager;adobe target에 내보내기;경험 조각;조각;XF
 description: '[!DNL Adobe Target] 활동에서 [!DNL Adobe Experience Manager]개의 경험 조각을 사용하는 방법을 알아봅니다.'
-title: '[!DNL Adobe Experience Manager](AEM) 경험 조각을 사용하려면 어떻게 해야 합니까?'
+title: '[!DNL Adobe Experience Manager] (AEM) 경험 조각을 사용하려면 어떻게 해야 합니까?'
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
 TQID: 'https://experienceleague.adobe.com/Cp4jbwxmIVlbwIc-Y4z5Y98M0svVST-IaXCUcCQFvyQ'

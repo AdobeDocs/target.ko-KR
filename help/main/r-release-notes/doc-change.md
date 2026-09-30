@@ -91,7 +91,7 @@ ht-degree: 27%
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
 | 11월 5일 | [[!DNL Adobe Targe]t [!DNL Bulk Profile Update API]](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api#empty){target=_blank} | 새 섹션 추가: [!DNL Bulk Profile Update API]에서 빈 값을 처리합니다. |
-| 10월 28일 | [허용 목록 [!DNL Target] 에지 노드}](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | IP 주소를 업데이트 할 수 있습니다. |
+| 10월 28일 | [허용 목록 [!DNL Target] 에지 노드&rbrace;](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | IP 주소를 업데이트 할 수 있습니다. |
 | 10월 27일 | [제한 사항](/help/main/r-troubleshooting-target/target-limits.md) | *일괄 처리 mbox v2* 및 *배달 API 끝점*&#x200B;에서 프로필 매개 변수 값 최대 길이의 제한이 수정되었습니다. |
 | 10월 22일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.10.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
@@ -186,7 +186,7 @@ ht-degree: 27%
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
 | 4월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.5 릴리스에 대한 릴리스 정보가 추가되었습니다. |
-| 4월 23일 | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations)과 통합 | *Real-Time CDP 프로필 특성 기능 제한 및 고려 사항* 섹션에 다음을 추가했습니다. <ul><li>[!DNL Target]은(는) 오퍼에 사용할 [!DNL Adobe Experience Platform] 프로필 특성에 대해 &quot;문자열&quot; 데이터 형식만 지원합니다. &quot;Map&quot; 및 &quot;Array&quot; 유형 속성은 아직 지원되지 않습니다.</li></ul> |
+| 4월 23일 | [&#x200B; [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations)과 통합 | *Real-Time CDP 프로필 특성 기능 제한 및 고려 사항* 섹션에 다음을 추가했습니다. <ul><li>[!DNL Target]은(는) 오퍼에 사용할 [!DNL Adobe Experience Platform] 프로필 특성에 대해 &quot;문자열&quot; 데이터 형식만 지원합니다. &quot;Map&quot; 및 &quot;Array&quot; 유형 속성은 아직 지원되지 않습니다.</li></ul> |
 | 4월 17일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.4 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 25.4.5 릴리스에 대한 프리릴리스 정보 날짜가 추가되었습니다. |
 | 4월 11일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |

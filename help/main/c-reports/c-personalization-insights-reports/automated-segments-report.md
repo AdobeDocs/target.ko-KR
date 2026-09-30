@@ -162,7 +162,7 @@ Personalization Insights 보고([!UICONTROL 자동화된 세그먼트] 및 [!UIC
 
 **[!UICONTROL Personalization 인사이트]를 만드는 방법은 무엇입니까?**
 
-[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. ] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
+[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. &#x200B;] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
 
 **[!UICONTROL 자동화된 세그먼트] 보고서의 총 방문자 트래픽 데이터가 AP 또는 AT 요약/성과 보고서와 일치하지 않는 이유는 무엇입니까?**
 

@@ -1,7 +1,7 @@
 ---
 keywords: 요약
-description: '[!DNL Adobe Target]에서 활동에 대한 시각적 개요를 제공하는 [!UICONTROL 다변량 테스트](MVT) 활동의 요약을 봅니다.'
-title: '[!UICONTROL 다변량 테스트](MVT) 활동의 요약을 보려면 어떻게 해야 합니까?'
+description: '[!DNL Adobe Target]에서 활동에 대한 시각적 개요를 제공하는 [!UICONTROL 다변량 테스트] (MVT) 활동의 요약을 봅니다.'
+title: '[!UICONTROL 다변량 테스트] (MVT) 활동의 요약을 보려면 어떻게 해야 합니까?'
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
 TQID: 'https://experienceleague.adobe.com/qPe34s7dkRzaGLO-ZUhiTxu3Dz5NUpVk7nBRLQBz7ZM'

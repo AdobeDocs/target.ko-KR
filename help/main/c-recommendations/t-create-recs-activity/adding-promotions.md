@@ -63,7 +63,7 @@ ht-degree: 41%
 
    * **[!UICONTROL 항목 목록]**&#x200B;을 선택하고 홍보할 특정 항목의 `entity.id` 값을 쉼표로 구분하여 입력하십시오.
 
-   * ]**속성별 판촉**[!UICONTROL &#x200B;을 선택하고 규칙을 추가하여 판촉할 항목의 속성을 정의합니다.
+   * **속성별 판촉**&#x200B;을 선택하고 규칙을 추가하여 판촉할 항목의 속성을 정의합니다.
 
      [!UICONTROL 속성별 승격]을 선택하면 동적 일치를 만들 수 있습니다. 자세한 내용은 [동적 및 정적 포함 규칙 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하세요.
 

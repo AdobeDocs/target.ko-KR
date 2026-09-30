@@ -1,6 +1,6 @@
 ---
 keywords: 중복 제거;중복 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼 허용 안 함;제외;기본 컨텐츠;제외 그룹;
-description: '[!DNL Adobe Target] [!UICONTROL Automated Personalization](AP) 활동에서 제외를 관리합니다. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 콘텐츠를 제외합니다.'
+description: '[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 활동에서 제외를 관리합니다. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 콘텐츠를 제외합니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 제외를 관리하려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
@@ -131,7 +131,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상자를 제한할 수도 �
 
    ![exclude_content_vec_4 이미지](assets/exclude_content_vec_4.png)
 
-**양식 기반 경험 작성기를 사용하여 기본 콘텐츠를 제외하려면]:**[!UICONTROL 
+**양식 기반 경험 작성기를 사용하여 기본 콘텐츠를 제외하려면:**
 
 1. AP 활동을 작성하거나 편집할 때 **[!UICONTROL 컨텐츠]**&#x200B;에서 **[!UICONTROL 텍스트/HTML 변경]** 또는 **[!UICONTROL 이미지 오퍼 변경]**&#x200B;을 클릭합니다.
 1. 대화 상자에서 새 콘텐츠를 만들고 기본 콘텐츠의 오른쪽에 있는 **[!UICONTROL 포함]**&#x200B;을 선택 취소합니다(또는 [!UICONTROL 콘텐츠 선택] 화면에서 기본 이미지/비디오를 선택 취소합니다.).

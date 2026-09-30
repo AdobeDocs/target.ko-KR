@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ## 사전 요구 사항
 
-1.  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)의 [활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
+1. [!DNL Adobe Target]&#x200B;[&#128279;](/help/main/c-intro/enabling-ai-assistant.md)의 활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
 
    * 조직은 먼저 법률 약관에 동의해야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
    * 관리자가 [!DNL AI Assistant]에 액세스할 수 있는 충분한 권한을 부여해야 합니다.
@@ -74,7 +74,7 @@ ht-degree: 1%
 
    * **음색**: 텍스트 음색이 대상자에게 울려 퍼집니다. [!DNL AI Assistant]이(가) 유익하거나, 흥미롭고, 장난스럽거나, 설득력 있게 들리도록 들릴지 여부에 관계없이 메시지를 적절히 조정할 수 있습니다.
 
-     옵션은 다음과 같습니다. [!UICONTROL 없음], [!UICONTROL 전문], [!UICONTROL 공감적], [!UICONTROL 유머], [!UICONTROL 흥미], [!UICONTROL 영감을 주는], [!UICONTROL 설득력], [!UICONTROL 친화적], [!UICONTROL 정형적], [!UICONTROL 아포로틱], [!UICONTROL 적극적], [!UICONTROL  스토리 텔링] 및 [!UICONTROL 대화].
+     옵션은 다음과 같습니다. [!UICONTROL 없음], [!UICONTROL 전문], [!UICONTROL 공감적], [!UICONTROL 유머], [!UICONTROL 흥미], [!UICONTROL 영감을 주는], [!UICONTROL 설득력], [!UICONTROL 친화적], [!UICONTROL 정형적], [!UICONTROL 아포로틱], [!UICONTROL 적극적], [!UICONTROL &#x200B; 스토리 텔링] 및 [!UICONTROL 대화].
 
 1. 슬라이더를 사용하여 짧음에서 길음 사이의 텍스트 길이를 선택합니다.
 

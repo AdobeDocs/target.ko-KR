@@ -1,7 +1,7 @@
 ---
 keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 편집;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 바꾸기;오퍼 바꾸기;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨기기;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기 조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행;사용자 지정 이벤트;웹 구성 요소;오퍼 결정;오퍼 의사 결정
-description: '[!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기](VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
-title: '[!UICONTROL 시각적 경험 작성기](VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
+description: '[!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
+title: '[!UICONTROL 시각적 경험 작성기] (VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 product_v2:
@@ -182,7 +182,7 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
   * [!UICONTROL 흐림 효과]
   * [!UICONTROL 불투명도]
   * [!UICONTROL 반전]
-    *[!UICONTROL  색조-회전]
+    *[!UICONTROL &#x200B; 색조-회전]
   * [!UICONTROL 채도]
 
 * **[!UICONTROL CSS 편집기]**
@@ -221,7 +221,7 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
 ### [!UICONTROL 오퍼 결정]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}에서 만든 [오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}에서 만든 오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL 경험 타깃팅]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -253,7 +253,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 ### [!UICONTROL 오퍼 결정]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}에서 만든 [오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}에서 만든 오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL 경험 타깃팅]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -285,7 +285,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 ### [!UICONTROL 오퍼 결정]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}에서 만든 [오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}에서 만든 오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL 경험 타깃팅]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -313,7 +313,7 @@ Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제
 
 [!UICONTROL 콘텐츠 라이브러리]에서 다른 오퍼를 선택하십시오.
 
-**참고:**[!DNL Target] HTML 오퍼는 서버에 저장됩니다.
+**참고:**&#x200B;[!DNL Target] HTML 오퍼는 서버에 저장됩니다.
 
 HTML 오퍼는 최대 256KB까지 가능합니다.
 

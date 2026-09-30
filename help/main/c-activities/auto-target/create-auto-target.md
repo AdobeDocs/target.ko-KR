@@ -1,6 +1,6 @@
 ---
 keywords: 자동 타겟 만들기;A/B 테스트;자동 타겟 활동;새 a/b 활동;자동 타겟;개인화된 경험에 대한 자동 타겟;개인화된;최적화
-description: '[!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!UICONTROL 자동 타겟] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
+description: '[!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!UICONTROL 자동 타겟] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL 자동 타겟] 활동을 만드는 방법'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target

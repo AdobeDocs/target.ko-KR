@@ -1,6 +1,6 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;활동 설정
-description: Analytics for [!DNL Target](A4T)을(를) 사용할 때 활동 설정에 대한 질문에 대한 답변을 찾아보십시오. A4T를 사용하면 [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
+description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 활동 설정에 대한 질문에 대한 답변을 찾아보십시오. A4T를 사용하면 [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
 title: A4T의 활동 설정에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61

@@ -81,7 +81,7 @@ Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 �
 다음 리소스에는 [!DNL Experience Platform Web SDK] 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
 * [[!DNL Adobe Experience Platform Web SDK] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [ [!DNL Adobe Experience Platform]을(를) 사용하여  [!DNL Target] 구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [&#x200B; [!DNL Adobe Experience Platform]을(를) 사용하여  [!DNL Target] 구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 실시간 요청이 타기팅 시스템으로 전송되어 제공할 콘텐츠를 결정합니다. 이 요청은 마케터가 관리하는 활동 및 경험에 의해 제어되며, 페이지가 로드될 때마다 만들어지고 이행됩니다. 콘텐츠는 개별 사이트 방문자를 대상으로 하며 응답률, 획득률 및 매출을 극대화합니다. 개인화된 컨텐츠는 방문자가 반응하거나, 상호 작용하거나, 구매할 수 있도록 하는 데 도움이 됩니다.
 

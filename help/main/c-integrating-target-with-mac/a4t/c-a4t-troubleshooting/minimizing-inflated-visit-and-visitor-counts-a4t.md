@@ -1,6 +1,6 @@
 ---
 keywords: 부분 데이터;부분 데이터;A4T;불일치;Analytics for Target;고립됨;가상 보고서 세트;가상;문제 해결;연결되지 않음;부풀려짐;지정되지 않음
-description: Analytics for [!DNL Target](A4t)을(를) 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 방법에 대해 알아봅니다. “부분 데이터”의 의미와 이를 줄이는 방법에 대해 알아봅니다.
+description: Analytics for [!DNL Target] (A4t)을(를) 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 방법에 대해 알아봅니다. “부분 데이터”의 의미와 이를 줄이는 방법에 대해 알아봅니다.
 title: A4T에서 부풀려진 방문 및 방문자 카운트 최소화를 최소화 하려면 어떻게 해야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
@@ -94,7 +94,7 @@ Adobe는 [!DNL Analytics]에서 높은 비율의 부분 데이터를 가지고 �
 * And
 * 종료 링크 인스턴스: 없음
 
-**고립된 히트: ** 드문 경우이지만 사용자가 Analytics 호출을 위해 충분히 오래 페이지에 머무르지 않았으며 Target이 적절한 MCID를 얻지 못했습니다. Adobe에서는 이러한 히트를 “고립된” 히트라고 정의합니다. 이러한 히트는 거의 재방문하지 않는 고객을 나타내며, 방문 및 방문자 수를 부적절하게 부풀립니다.
+**고립된 히트: &#x200B;** 드문 경우이지만 사용자가 Analytics 호출을 위해 충분히 오래 페이지에 머무르지 않았으며 Target이 적절한 MCID를 얻지 못했습니다. Adobe에서는 이러한 히트를 “고립된” 히트라고 정의합니다. 이러한 히트는 거의 재방문하지 않는 고객을 나타내며, 방문 및 방문자 수를 부적절하게 부풀립니다.
 
 이러한 &quot;고립된&quot; 히트를 최소화하기 위해 위에서 설명된 것처럼 해당 히트를 제외하는 [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)를 만들 수 있습니다.
 

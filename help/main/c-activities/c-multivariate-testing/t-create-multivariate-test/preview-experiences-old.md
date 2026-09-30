@@ -1,7 +1,7 @@
 ---
 keywords: 다변량;mvt;미리 보기;경험
-description: '[!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Adobe Target]의 [!UICONTROL 다변량 테스트](MVT) 활동에서 각 경험을 미리 보는 방법에 대해 알아봅니다.'
-title: '[!UICONTROL 다변량 테스트](MVT)에 대한 경험을 미리 보려면 어떻게 해야 합니까?'
+description: '[!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Adobe Target]의 [!UICONTROL 다변량 테스트] (MVT) 활동에서 각 경험을 미리 보는 방법에 대해 알아봅니다.'
+title: '[!UICONTROL 다변량 테스트] (MVT)에 대한 경험을 미리 보려면 어떻게 해야 합니까?'
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 product_v2:

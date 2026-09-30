@@ -1,6 +1,6 @@
 ---
 keywords: ai 도우미, 인공 지능 도우미
-description: '[!DNL  Adobe Target]에서 [!DNL AI Assistant]을(를) 활성화하는 방법을 알아봅니다.'
+description: '[!DNL &#x200B; Adobe Target]에서 [!DNL AI Assistant]을(를) 활성화하는 방법을 알아봅니다.'
 title: '[!DNL Target]에서 [!DNL AI Assistant]을(를) 활성화하려면 어떻게 해야 합니까?'
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6

@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;경험;경험 추가;경험 추가
-description: '[!DNL Adobe Target]에서 [!UICONTROL 시각적 경험 작성기](VEC)를 사용하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]에서 [!UICONTROL 시각적 경험 작성기] (VEC)를 사용하는 방법을 알아봅니다.'
 title: '[!DNL Target] A/B 활동에서 경험을 추가하려면 어떻게 합니까?'
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d

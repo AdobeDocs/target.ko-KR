@@ -1,6 +1,6 @@
 ---
 keywords: 활동 설정;경험 타깃팅 목표 및 설정;xt 목표 및 설정;경험 타깃팅;목표 및 설정;보고 설정;목표 지표;성공 지표;종속 성공 지표;고급 설정;기본 목표;추가 지표;목표;우선순위;지속 기간;보고 솔루션;목표;보고 대상자;이 지표를 늘리려면 어떤 성공 지표에 도달해야 합니까;사용자가 이 목표 지표를 접하면 어떻게 됩니까;메모
-description: '[!DNL Adobe Target]의 [!UICONTROL 목표 및 설정] 페이지를 사용하여 [!UICONTROL 경험 타깃팅](XT) 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]의 [!UICONTROL 목표 및 설정] 페이지를 사용하여 [!UICONTROL 경험 타깃팅] (XT) 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
 title: '[!UICONTROL 경험 타깃팅] 활동에서 [!UICONTROL 목표 및 설정]을(를) 지정하려면 어떻게 합니까?'
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9

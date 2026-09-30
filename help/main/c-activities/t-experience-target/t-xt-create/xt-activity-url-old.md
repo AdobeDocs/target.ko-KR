@@ -1,7 +1,7 @@
 ---
 keywords: 경험 타깃팅;xt;활동 url;url
 description: '[!UICONTROL 경험 타깃팅] 활동이 [!DNL Adobe Target]을(를) 사용하여 디자인될 때 열리는 테스트에 사용되는 페이지를 결정하는 [!UICONTROL 활동 URL]을(를) 지정하는 방법을 알아봅니다.'
-title: '[!UICONTROL 경험 타깃팅](XT) 활동에서 [!UICONTROL 활동 URL]은(는) 무엇입니까?'
+title: '[!UICONTROL 경험 타깃팅] (XT) 활동에서 [!UICONTROL 활동 URL]은(는) 무엇입니까?'
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 product_v2:

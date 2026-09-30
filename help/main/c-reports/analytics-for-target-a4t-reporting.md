@@ -1,7 +1,7 @@
 ---
 keywords: analytics for target;a4t;보고 소스로 분석
 description: '[!DNL Target]용 Analytics(A4T)를 사용하는 방법을 알아봅니다. A4T 통합을 통해 Adobe [!DNL Target] 활동에 대한 강력한 Adobe Analytics 보고서에 액세스할 수 있습니다.'
-title: '[!DNL Target](A4T) 보고에 Analytics를 사용하는 방법은 무엇입니까?'
+title: '[!DNL Target] (A4T) 보고에 Analytics를 사용하는 방법은 무엇입니까?'
 feature: Analytics for Target (A4T)
 exl-id: 43d31231-e258-458e-b371-08214fd903b9
 TQID: 'https://experienceleague.adobe.com/SmWas6sI1hPY6auF2ixWkPkAFi6vrkAAJPxdwXp9f5o'

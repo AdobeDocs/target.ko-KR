@@ -37,7 +37,7 @@ ht-degree: 29%
 ---
 # [!UICONTROL Personalization 통찰력] 보고서
 
-두 개의 전문 보고서는 [!UICONTROL AP(Automated Personalization]) 및 AT(Auto-Target]) 활동인 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 특성] 보고서의 사용자가 사용할 수 있습니다.[!UICONTROL 
+두 개의 전문 보고서는 [!UICONTROL AP(Automated Personalization]) 및 AT(Auto-Target) 활동인 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 특성] 보고서의 사용자가 사용할 수 있습니다.
 
 ## 고려 사항
 

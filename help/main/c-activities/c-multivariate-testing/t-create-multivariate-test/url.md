@@ -1,7 +1,7 @@
 ---
 keywords: 다변량 테스트;활동 url
 description: '[!UICONTROL 다변량 테스트] 활동이 [!DNL Adobe Target]을(를) 사용하여 디자인될 때 열리는 테스트에 사용되는 페이지를 결정하는 활동 URL을 지정하는 방법을 알아봅니다.'
-title: '[!UICONTROL 다변량 테스트](MVT) 활동의 활동 URL은 무엇입니까?'
+title: '[!UICONTROL 다변량 테스트] (MVT) 활동의 활동 URL은 무엇입니까?'
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 TQID: 'https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM'
@@ -37,7 +37,7 @@ ht-degree: 38%
 
    추가 규칙은 다음 중 하나를 기반으로 할 수 있습니다.
 
-   * [!UICONTROL  URL]
+   * [!UICONTROL &#x200B; URL]
    * [!UICONTROL 도메인]
    * [!UICONTROL 경로]
    * [!UICONTROL 해시(#) 조각]

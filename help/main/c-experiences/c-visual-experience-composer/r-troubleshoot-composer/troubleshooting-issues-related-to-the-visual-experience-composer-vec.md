@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;tls;tls 1.2
-description: '[!UICONTROL 시각적 경험 작성기](VEC)에서 문제를 해결하는 방법을 알아봅니다.'
+description: '[!UICONTROL 시각적 경험 작성기] (VEC)에서 문제를 해결하는 방법을 알아봅니다.'
 title: '[!UICONTROL 시각적 경험 작성기]와 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1

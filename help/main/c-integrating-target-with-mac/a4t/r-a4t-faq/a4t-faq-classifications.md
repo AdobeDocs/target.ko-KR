@@ -1,6 +1,6 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;분류;분류;분류 가져오기;post-tnt-action;이벤트 코드
-description: 분류 및 [!UICONTROL Analytics for Target](A4T) 사용에 대한 질문에 대한 답변을 찾아보십시오.
+description: 분류 및 [!UICONTROL Analytics for Target] (A4T) 사용에 대한 질문에 대한 답변을 찾아보십시오.
 title: A4T를 사용하는 분류에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20

@@ -37,7 +37,7 @@ MDN(*[!DNL Mozilla Developer Network]*)의 [Selectors](https://developer.mozilla
 
 >[!NOTE]
 >
->요소 클래스는 [!UICONTROL A/B 테스트], [!UICONTROL Automated Personalization] 및[!UICONTROL  다변량 테스트] 활동에서 선택기로 사용할 수 있습니다.
+>요소 클래스는 [!UICONTROL A/B 테스트], [!UICONTROL Automated Personalization] 및[!UICONTROL &#x200B; 다변량 테스트] 활동에서 선택기로 사용할 수 있습니다.
 
 CSS 선택기를 사용할 시점과 고유한 ID를 사용할 시점에 대해서는 [시각적 경험 작성기 우수 사례 및 제한 사항](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)을 참조하십시오.
 

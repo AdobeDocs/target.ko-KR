@@ -1,6 +1,6 @@
 ---
 keywords: 자동화된 개인화;ap;대상;앙상블;랜덤 포레스트;multi-armed bandit;thompson 샘플링;ml;머신 러닝
-description: 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시키는 [!DNL Adobe Target]의 [!UICONTROL Automated Personalization](AP) 활동을 사용하는 방법에 대해 알아봅니다.
+description: 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시키는 [!DNL Adobe Target]의 [!UICONTROL Automated Personalization] (AP) 활동을 사용하는 방법에 대해 알아봅니다.
 title: AP([!UICONTROL Automated Personalization]) 활동이란 무엇입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization

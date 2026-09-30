@@ -1,6 +1,6 @@
 ---
 keywords: 데이터 분산;분석;차이;분산;a4t;analytics for target;보고 소스로 분석;불일치;일치하지 않음
-description: Analytics for [!DNL Target](A4T)을 사용하지 않아 데이터 분산이 모두 삭제될 때 Adobe [!DNL Target]과(와) Analytics 간의 예상 데이터 분산에 대해 알아봅니다.
+description: Analytics for [!DNL Target] (A4T)을 사용하지 않아 데이터 분산이 모두 삭제될 때 Adobe [!DNL Target]과(와) Analytics 간의 예상 데이터 분산에 대해 알아봅니다.
 title: Analytics와 A4T 간의 예상 데이터 차이는 무엇입니까?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6

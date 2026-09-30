@@ -183,7 +183,7 @@ ht-degree: 51%
 **고정된 시간에 활동을 시작 및 종료하도록 예약할 수 있습니까?**
 
 +++세부 정보 보기
-시작 및 종료 날짜를 지정하여 3파트 활동 워크플로 중 [!UICONTROL 목표 및 설정]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) 단계의 [예약 기능을 사용하십시오.
+시작 및 종료 날짜를 지정하여 3파트 활동 워크플로 중 [!UICONTROL 목표 및 설정]&#x200B;[&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) 단계의 예약 기능을 사용하십시오.
 
 활동을 활성화해야 합니다. 라이브 활동만 지정된 일정을 준수합니다. 종료 날짜에 도달하면 활동이 [!UICONTROL 종료됨] 상태로 전환됩니다.
 
@@ -199,7 +199,7 @@ ht-degree: 51%
 **특정 단계를 유지하면서 활동(예: 오퍼 텍스트 또는 사용자 지정 코드)을 계속 수정한 후 다른 탭에서 QA를 수행할 수 있습니까?**
 
 +++세부 정보 보기
-가능합니다. [사용할 수 있는 [!UICONTROL 저장] 옵션을 사용하면 ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다.
+가능합니다. [사용할 수 있는 [!UICONTROL 저장] 옵션을 사용하면 &#x200B;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다.
 
 +++
 

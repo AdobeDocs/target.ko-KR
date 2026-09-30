@@ -1,6 +1,6 @@
 ---
 keywords: 추천
-description: Analytics for [!DNL Target](A4T)에 대한 구현 요구 사항과 이 통합을 구현하기 전에 고려해야 할 사항에 대해 알아봅니다.
+description: Analytics for [!DNL Target] (A4T)에 대한 구현 요구 사항과 이 통합을 구현하기 전에 고려해야 할 사항에 대해 알아봅니다.
 title: A4T를 구현하기 전에 알아야 할 사항은 무엇입니까?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
