@@ -117,7 +117,7 @@ AP 또는 자동 Target 모델에 사용되는 [!UICONTROL 개인화 인사이�
 
 ## 교육 비디오: Personalization Insights 보고서 사용 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/30949?captions=kor)
 
 자세한 내용은 [Adobe Target에서 Personalization 통찰력 보고서 사용](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)을 참조하십시오.
 
