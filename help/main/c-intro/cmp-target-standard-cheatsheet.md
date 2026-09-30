@@ -87,14 +87,14 @@ ht-degree: 51%
 **[!DNL Adobe]에 [!DNL Target]에 대한 답변과 추가 정보를 찾을 수 있는 커뮤니티/포럼이 있습니까?**
 
 +++세부 정보 보기
-[Target 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}에서 동료 [!DNL Target] 실무자와 연결합니다. [!DNL Target]을(를) 사용하여 개인 맞춤화 및 실험을 추진하는 다른 사용자와 전문성을 공유하고 질문하고 공동 작업하십시오. 번영하는 공동체는 적극적인 참여에 달려 있다. 귀하의 통찰력과 경험은 다른 사람이 성공하는 데 도움이 될 수 있습니다. 뛰어들어 기여하고 필요한 답변을 찾아보십시오.
+[Target 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko){target=_blank}에서 동료 [!DNL Target] 실무자와 연결합니다. [!DNL Target]을(를) 사용하여 개인 맞춤화 및 실험을 추진하는 다른 사용자와 전문성을 공유하고 질문하고 공동 작업하십시오. 번영하는 공동체는 적극적인 참여에 달려 있다. 귀하의 통찰력과 경험은 다른 사람이 성공하는 데 도움이 될 수 있습니다. 뛰어들어 기여하고 필요한 답변을 찾아보십시오.
 
 +++
 
 **[!DNL Target]에서 지원하는 브라우저는 무엇입니까?**
 
 +++세부 정보 보기
-자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} 표를 참조하십시오. 데스크톱/장치에서는 [!DNL Target Standard/Premium] 인터페이스 지원과 최종 사용자 브라우저 지원의 두 가지 측면이 있습니다.
+자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko){target=_blank} 표를 참조하십시오. 데스크톱/장치에서는 [!DNL Target Standard/Premium] 인터페이스 지원과 최종 사용자 브라우저 지원의 두 가지 측면이 있습니다.
 
 +++
 
@@ -272,7 +272,7 @@ Target의 안내가 있는 3가지 부분 워크플로의 [2단계(타깃팅 페
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -419,7 +419,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -493,6 +493,6 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **API [!DNL Target]에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
 +++세부 정보 보기
-API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 추천 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}를 참조하십시오.
+API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 추천 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}를 참조하십시오.
 
 +++

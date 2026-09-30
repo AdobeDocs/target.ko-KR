@@ -52,7 +52,7 @@ Target 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 T
 
 대화에 참여하여 전문 지식을 전달하고 필요한 답변을 한 곳에서 얻을 수 있습니다.
 
-시작하려면 [Target 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) 을 방문하십시오.
+시작하려면 [Target 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko) 을 방문하십시오.
 
 ## Target 기본 사항 웨비나 시리즈 {#concept_11902FAC95C64479AABE020557A7EEE4}
 
@@ -71,7 +71,7 @@ Target 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 T
 
 | 주제/런타임/촬영 날짜 | 학습 내용 |
 |--- |--- |
-| [at.js 팁 및 개요](https://helpx.adobe.com/kr/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019년 6월 26일 | 배울 내용:<ul><li>at.js 사용의 이점</li><li>at.js 설정</li><li>플리커 처리</li><li>at.js 디버깅</li><li>알려진 문제</li><li>FAQ</li></ul>자세한 내용은 [at.js 작동 방식](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}을 참조하십시오. |
+| [at.js 팁 및 개요](https://helpx.adobe.com/kr/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019년 6월 26일 | 배울 내용:<ul><li>at.js 사용의 이점</li><li>at.js 설정</li><li>플리커 처리</li><li>at.js 디버깅</li><li>알려진 문제</li><li>FAQ</li></ul>자세한 내용은 [at.js 작동 방식](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank}을 참조하십시오. |
 | [Target Premium 작업 공간](https://helpx.adobe.com/kr/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018년 9월 4일 | 배울 내용:<ul><li>작업 영역(제품 프로필) 만들기</li><li>속성 만들기</li><li>사용자 추가</li><li>구현 업데이트</li></ul>자세한 내용은 [엔터프라이즈 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 참조하십시오. |
 | [시각적 경험 작성기(VEC)](https://helpx.adobe.com/kr/customer-care-office-hours/target/premium-workspaces.html)<br>50:23<br>2017년 12월 | 배울 내용:<ul><li>VEC 작동 방식</li><li>VEC에서 일반적인 문제가 발생하지 않도록 하는 방법</li><li>VEC에서 사용할 수 있는 해결 방법 사례</li></ul>이 안내서에서 자세한 내용은 [경험](/help/main/c-experiences/experiences.md)을 참조하세요. |
 | [Adobe Target: Analytics/Target 통합(A4T)](https://helpx.adobe.com/kr/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018년 1월 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Analytics as the Reporting Source for Adobe Target(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)을 참조하십시오. |
@@ -91,11 +91,11 @@ Target에 대한 세션 외에 Analytics, Campaign, AEM(Adobe Experience Manager
 
 Target을 사용하는 동안 문제가 발생하거나 질문이 있을 경우, 많은 선택 사항이 있습니다.
 
-질문이 있는 경우 [Adobe Target 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}의 Adobe Target 전문가에게 문의하십시오.
+질문이 있는 경우 [Adobe Target 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko){target=_blank}의 Adobe Target 전문가에게 문의하십시오.
 
 기술적인 문제가 있거나 버그를 기록하려면 고객 지원 센터에 문의하십시오. 고객 지원 센터에 문의하려면 1-800-497-0335번으로 전화해 주십시오. 미국 외 지역의 무료 전화번호는 [Adobe Digital Marketing 고객 지원 센터 지역 전화번호](https://helpx.adobe.com/kr/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) 페이지에서 확인할 수 있습니다. 제품에 대한 옵션을 선택하라는 메시지가 표시되면 3을 눌러 Target 팀으로 연락하십시오.
 
-[Adobe 고객 지원 센터에 문의](https://helpx.adobe.com/contact.html){target=_blank}합니다.
+[Adobe 고객 지원 센터에 문의](https://helpx.adobe.com/kr/contact.html){target=_blank}합니다.
 
 문제에 대한 빠른 상담을 원하는 경우, 문의할 때 다음의 기본 정보를 제공해 주십시오.
 
@@ -112,7 +112,7 @@ Target을 사용하는 동안 문제가 발생하거나 질문이 있을 경우,
 
 ### 작동 중지 상황 {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-서비스 중단이 있는 것으로 의심되는 경우에는 먼저 [Experience Cloud 시스템 상태 페이지](https://status.adobe.com) ( [!DNL https://status.adobe.com])를 확인하십시오. 여기에는 Target을 포함한 Experience Cloud 솔루션에 대한 모든 서비스 중지, 사고 및 유지 관리 기록이 있으며, Adobe의 Tech Ops 팀에서 제공하는 최신 업데이트도 포함되어 있습니다. 여전히 지원이 필요할 경우에는, 고객 지원 센터에 연락할 때 위에 나열된 정보 외에 다음 사항을 알아 두십시오.
+서비스 중단이 있는 것으로 의심되는 경우에는 먼저 [Experience Cloud 시스템 상태 페이지](https://status.adobe.com/ko-kr) ( [!DNL https://status.adobe.com/ko-kr])를 확인하십시오. 여기에는 Target을 포함한 Experience Cloud 솔루션에 대한 모든 서비스 중지, 사고 및 유지 관리 기록이 있으며, Adobe의 Tech Ops 팀에서 제공하는 최신 업데이트도 포함되어 있습니다. 여전히 지원이 필요할 경우에는, 고객 지원 센터에 연락할 때 위에 나열된 정보 외에 다음 사항을 알아 두십시오.
 
 * 작동 중지가 시작된 시간
 * 발생 상황에 대한 설명
@@ -128,9 +128,9 @@ Target을 사용하는 동안 문제가 발생하거나 질문이 있을 경우,
 Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구성되었으며 고객들이 참여할 수 있는 많은 메커니즘을 제공합니다.
 
 * [Experience Cloud 도움말 페이지에서 조언, 팁 및 FAQ 확인](https://helpx.adobe.com/kr/marketing-cloud.html)
-* [지원에서 도움을 받기 위해 티켓 열기](https://experienceleague.adobe.com/?support-solution=Target#support)
+* [지원에서 도움을 받기 위해 티켓 열기](https://experienceleague.adobe.com/ko?support-solution=Target#support)
 * [고객 지원 팀에 직접 문의](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
-* [Experience Cloud 솔루션의 가용성 및 상태 확인](https://status.adobe.com/)
+* [Experience Cloud 솔루션의 가용성 및 상태 확인](https://status.adobe.com/ko-kr/)
 
 예정된 제품 향상에 대한 미리 알림을 받으려면 Adobe 우선 순위 제품 업데이트에 등록하십시오.
 
@@ -142,7 +142,7 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 
 ### 피드백 {#section_8154D6D712054220A90D85FA8E92933E}
 
-이 솔루션과 관련된 모든 제안이나 피드백을 환영합니다. [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)에 개선 아이디어와 제안을 추가할 수 있습니다. [!UICONTROL 아이디어] 탭을 클릭합니다.
+이 솔루션과 관련된 모든 제안이나 피드백을 환영합니다. [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko)에 개선 아이디어와 제안을 추가할 수 있습니다. [!UICONTROL 아이디어] 탭을 클릭합니다.
 
 ### 법적 정보 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
