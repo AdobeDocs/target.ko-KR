@@ -4,26 +4,36 @@ description: Adobe Target에서 첫 번째 활동을 생성했습니다. 다음�
 title: 타겟을 보다 효과적으로 사용할 수 있는 추가 리소스를 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
+TQID: 'https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: '701'
 ht-degree: 79%
-
 ---
-
 # 9장: 다음 단계 및 리소스
 
 첫 번째 활동을 실행하는 기본 사항에 대해 알아보았습니다. 이 활동을 통해 귀하와 귀사에서 [!DNL Adobe Target] 을 사용하여 최적화하고 개인화하는 것이 비즈니스 수익에 영향을 미칠 수 있는 놀라운 잠재력을 확인하셨기를 바랍니다. 이는 단지 시작에 불과합니다. 두 번째 활동을 위해 어떤 것에 집중할 것인지 생각해 볼 때입니다. 실행할 활동의 우선 순위 목록을 만드는 것이 좋습니다. 활동별 활동을 통해 고객 경험을 개선하고 비즈니스 성공을 이끄는 방법을 얼마나 빨리 발견하는지 알게 되면 놀랄 것입니다.
@@ -48,8 +58,8 @@ ht-degree: 79%
 * **웨비나 시리즈**: Adobe Target 기본 사항. Adobe Target 사용자와 함께 최적화의 기본 사항을 살펴보는 고객 성공 웹 세미나에 참여하십시오. [Target 기본 사항 웨비나 시리즈](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4)를 참조하십시오.
 * **Adobe 고객 지원 센터 운영 시간**: &quot;운영 시간&quot;은 Adobe 고객 지원 센터 팀이 주도하는 이니셔티브입니다. 이러한 세션은 참가자가 문제를 해결하도록 관련 정보를 제공하여 도움을 주며, [!DNL Target]을 포함하여 [!DNL Adobe Experience Cloud] 솔루션을 제대로 사용할 수 있는 팁과 트릭을 제시합니다. [Adobe 고객 지원 센터 운영 시간](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)을 참조하십시오.
 * **Adobe Summit**: 디지털 마케팅 담당자를 위한 연중 가장 큰 전문 행사에 참석하십시오.
-   * [Adobe Summit](https://summit.adobe.com/na/) (북미)
-   * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
+  * [Adobe Summit](https://summit.adobe.com/na/) (북미)
+  * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
 
 ## 추가 리소스
 

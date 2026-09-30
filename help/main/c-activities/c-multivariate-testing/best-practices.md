@@ -1,21 +1,24 @@
 ---
 keywords: mvt;다변량 테스트;다변량 테스트 모범 사례;mvt 모범 사례;mvt 조합;mvt 보고서
-description: ' [!DNL Adobe Target]에서 [!UICONTROL 다변량 테스트] 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]에서 [!UICONTROL 다변량 테스트] 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 방법을 알아봅니다.'
 title: '[!UICONTROL 다변량 테스트] 활동에 대한 모범 사례는 무엇입니까?'
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
+TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 55%
-
 ---
-
 # [!UICONTROL 다변량 테스트] 모범 사례
 
 [!DNL Adobe Target]에서 [!UICONTROL 다변량 테스트]&#x200B;(MVT) 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 데 도움이 되는 팁입니다.
@@ -62,11 +65,11 @@ ht-degree: 55%
 
   경험 이름과 보고서를 재설정하는 특정 작업은 다음과 같습니다.
 
-   * 새 위치 추가
-   * 위치 삭제
-   * 새 오퍼 추가 또는 기존 위치에서 오퍼 삭제
-   * 서식 있는 텍스트 오퍼 편집
-   * 배경색 오퍼 편집
+  * 새 위치 추가
+  * 위치 삭제
+  * 새 오퍼 추가 또는 기존 위치에서 오퍼 삭제
+  * 서식 있는 텍스트 오퍼 편집
+  * 배경색 오퍼 편집
 
 * MVT 테스트 다음에 하나 이상의 A/B 테스트를 실행하면 원하는 결과에 대해 가능성이 가장 높은 콘텐츠를 판단할 수 있습니다.
 

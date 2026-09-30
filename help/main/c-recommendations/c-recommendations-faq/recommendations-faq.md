@@ -1,23 +1,30 @@
 ---
 keywords: 문제 해결, 자주 묻는 질문, FAQ, FAQ, 권장 사항, 특수 문자, 속성 가중치, 콘텐츠 유사성
-description: ' [!DNL Target Recommendations] 활동에 대해 자주 묻는 질문과 대답 목록을 봅니다.'
-title: ' [!DNL Recommendations]에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
+description: '[!DNL Target Recommendations] 활동에 대해 자주 묻는 질문과 대답 목록을 봅니다.'
+title: '[!DNL Recommendations]에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3578
+source-wordcount: '3579'
 ht-degree: 80%
-
 ---
-
 # 권장 사항 FAQ
 
 [!DNL Adobe Target] [!DNL Recommendations] 활동에 대한 FAQ 목록.
@@ -73,9 +80,9 @@ ht-degree: 80%
 * 프로모션 설정의 변경은 사이트에 반영되기까지 최대 5시간 소요될 수 있습니다.
 * 다른 기준 설정의 변경은 다음 알고리즘이 실행될 때까지 반영되지 않을 수 있음:
 
-   * 일부 기준 설정(예: &quot;동적 포함 규칙 추가&quot;)은 즉시 반영됩니다.
-   * 다른 기준 설정(예: &quot;동적 포함 규칙 제거&quot;, 전환 확인 기간 변경 등)은 다음 알고리즘이 실행될 때까지 통합될 수 없습니다.
-   * 알고리즘 실행은 이러한 변경에 의해 트리거될 수 있으나 완료까지 최대 24시간 소요될 수 있습니다. 또한 12-24시간마다 예약된 방식으로도 알고리즘이 실행됩니다.
+  * 일부 기준 설정(예: &quot;동적 포함 규칙 추가&quot;)은 즉시 반영됩니다.
+  * 다른 기준 설정(예: &quot;동적 포함 규칙 제거&quot;, 전환 확인 기간 변경 등)은 다음 알고리즘이 실행될 때까지 통합될 수 없습니다.
+  * 알고리즘 실행은 이러한 변경에 의해 트리거될 수 있으나 완료까지 최대 24시간 소요될 수 있습니다. 또한 12-24시간마다 예약된 방식으로도 알고리즘이 실행됩니다.
 
 ## 사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 ** 사용자가 받는 Recommendations에 반영되려면 얼마나 걸립니까?
 

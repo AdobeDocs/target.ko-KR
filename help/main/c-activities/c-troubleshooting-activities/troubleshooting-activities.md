@@ -1,23 +1,28 @@
 ---
 keywords: target 문제 해결, target 문제 해결, 기본 콘텐츠, 테스트가 라이브가 아님, 활동이 라이브가 아님, 타기팅이 작동하지 않음, 이전 경험이 표시됨, 활동을 만들 수 없음, 활동을 만들 수 없음, 활동 만들기, 페이지 구조가 변경됨, 페이지 구조가 수정됨, 오류 메시지, 프로필 스크립트 삭제 오류, ajax가 작동하지 않음
-description: Adobe [!DNL Target] 활동이 사이트에 나타나지 않는 경우, 문제 해결 제안을 찾아보십시오.
+description: Adobe [!DNL Target] 활동이 사이트에 나타나지 않는 경우 문제 해결 제안을 찾아보십시오.
 title: 활동 문제를 해결하려면 어떻게 합니까?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-TQID: https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s
+TQID: 'https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 43%
-
+source-wordcount: '867'
+ht-degree: 41%
 ---
-
 # 활동 문제 해결
 
 [!DNL Adobe Target] 활동이 사이트에 나타나지 않는 경우 이 문제 해결 제안은 해결 방법을 찾는 데 도움이 될 것입니다.

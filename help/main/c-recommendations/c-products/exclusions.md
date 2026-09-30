@@ -1,22 +1,29 @@
 ---
 keywords: 제외
-description: ' [!DNL Target Recommendations] 에서 제외를 만들어 제품 또는 콘텐츠를 방문자에게 추천하지 않도록 하는 방법에 대해 알아봅니다.'
+description: '[!DNL Target Recommendations]에서 제외를 만들어 제품 또는 콘텐츠를 방문자에게 추천하지 않도록 하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL 권장 사항] 활동에서 제외를 사용하는 방법은 무엇입니까?'
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
+TQID: 'https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '529'
 ht-degree: 13%
-
 ---
-
 # 제외
 
 제품 또는 콘텐츠가 방문자에게 추천되지 않도록 하려면 [!DNL Adobe Target Recommendations]에서 제외를 만드십시오. 제외는 방문자에게 권장해서는 안 되는 제품 또는 콘텐츠의 하위 집합입니다.

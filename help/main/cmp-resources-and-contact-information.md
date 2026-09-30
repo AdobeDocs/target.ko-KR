@@ -1,29 +1,41 @@
 ---
 keywords: 연락처;법률;기술 지원;기술 지원;지원;서비스;기능;청구;피드백
-description: ' [!DNL Target]  기능에 대해 학습하는 데 도움이 되는 추가 리소스 및  [!DNL Target]에 대한 도움이 필요할 때 Adobe에 문의하는 방법에 대해 알아보십시오.'
+description: Adobe [!DNL Target] 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 [!DNL Target]에 대한 도움이 필요할 때 Adobe에 문의하는 방법에 대해 알아보십시오.
 title: Target에 대한 리소스 및 연락처 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-TQID: https://experienceleague.adobe.com/wwItoNoGUkLkNZED9frN7e5FE7O-iozDzMd2ekDdgfM
+TQID: 'https://experienceleague.adobe.com/wwItoNoGUkLkNZED9frN7e5FE7O-iozDzMd2ekDdgfM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 78%
-
+source-wordcount: '1332'
+ht-degree: 76%
 ---
-
 # 리소스 및 연락처 정보
 
 Target 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 Target에 대한 도움이 필요할 때 Adobe에 문의하는 방법에 대한 정보입니다.

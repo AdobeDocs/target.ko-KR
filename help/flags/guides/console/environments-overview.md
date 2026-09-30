@@ -4,13 +4,14 @@ description: 플래그에서 작업할 때 올바른 Adobe Experience Platform �
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 7%
-
 ---
-
 # 환경 개요 {#environments-overview}
 
 플래그는 Adobe Experience Platform에 빌드됩니다. 기능 플래그를 사용하여 작업하기 전에 다른 Adobe Experience Platform 애플리케이션에서 하듯이 현재 환경에 해당하는 샌드박스를 선택합니다.

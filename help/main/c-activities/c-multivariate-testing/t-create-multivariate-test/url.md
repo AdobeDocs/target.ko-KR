@@ -1,21 +1,24 @@
 ---
 keywords: 다변량 테스트;활동 url
-description: '[!UICONTROL 다변량 테스트] 활동이  [!DNL Adobe Target]을(를) 사용하여 디자인될 때 열리는 테스트에 사용되는 페이지를 결정하는 활동 URL을 지정하는 방법을 알아봅니다.'
-title: '[!UICONTROL 다변량 테스트]​(MVT) 활동의 활동 URL은 무엇입니까?'
+description: '[!UICONTROL 다변량 테스트] 활동이 [!DNL Adobe Target]을(를) 사용하여 디자인될 때 열리는 테스트에 사용되는 페이지를 결정하는 활동 URL을 지정하는 방법을 알아봅니다.'
+title: '[!UICONTROL 다변량 테스트] (MVT) 활동의 활동 URL은 무엇입니까?'
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-TQID: https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM
+TQID: 'https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 38%
-
 ---
-
 # 활동 URL
 
 활동 URL은 MVT([!UICONTROL Multivariate Test])에 사용되는 페이지를 결정하며 테스트가 [!DNL Adobe Target]에 디자인될 때 열립니다.

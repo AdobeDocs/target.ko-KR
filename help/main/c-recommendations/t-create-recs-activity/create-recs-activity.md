@@ -1,25 +1,32 @@
 ---
 keywords: 권장 사항 만들기;권장 사항 활동;새 권장 사항;권장 사항 개요
-description: VEC( [!DNL Target] [!UICONTROL 시각적 경험 작성기])를 사용하여  [!DNL Recommendations] 활동을 만드는 방법을 알아봅니다.
-title: ' [!DNL Recommendations] 활동을 만드는 방법'
+description: '[!DNL Target] [!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Recommendations] 활동을 만드는 방법을 알아봅니다.'
+title: '[!DNL Recommendations] 활동을 만드는 방법'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA
+TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: '1306'
 ht-degree: 52%
-
 ---
-
 # [!DNL Recommendations] 활동 만들기
 
 [!DNL Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 사용하여 [!DNL Target]을(를) 사용할 수 있는 페이지에서 직접 [!DNL Recommendations] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.

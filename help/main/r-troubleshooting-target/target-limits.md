@@ -1,32 +1,44 @@
 ---
 keywords: 문자 제한;mbox 매개 변수;배치 게재 api;프로필 매개 변수;제한;내장 프로필;최대값;제한;제한;문자;모범 사례;orderid;orderTotal;mbox3rdPartyID;범주;categoryID;문제 해결
-description: ' [!DNL Adobe Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한 목록을 봅니다.'
-title: ' [!DNL Adobe Target]의 다양한 문자, 크기 및 기타 제한 사항은 무엇입니까?'
+description: '[!DNL Adobe Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한 목록을 봅니다.'
+title: '[!DNL Adobe Target]의 다양한 문자, 크기 및 기타 제한 사항은 무엇입니까?'
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-TQID: https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4
+TQID: 'https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1772
+source-wordcount: '1772'
 ht-degree: 73%
-
 ---
-
 # 제한
 
 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등) [!DNL Adobe Target]의 활동 및 기타 요소에 영향을 줍니다.
@@ -81,17 +93,17 @@ ht-degree: 73%
 
   고객이 지정된 사용자 세션에 대해 100개의 동시 [!DNL Target] 콘텐츠 전달 요청을 초과하면 해당 사용자 세션에 대한 모든 후속 요청이 차단됩니다. 둘 이상의 요청은 응답이 수신되기 전에 모두 [!DNL Target] 서버로 전송된 경우 동시에 전송되었다고 간주됩니다. [!DNL Target] 은 동일한 세션에 대한 동시 요청을 순차적으로 처리합니다.
 
-   * **오류 비헤이비어**:
+  * **오류 비헤이비어**:
 
-      * 게재 API 및 배치 Mbox v2:
-         * 오류 코드: HTTP 420 요청이 너무 많음
-         * 오류 메시지: “동일한 세션 ID를 가진 요청이 너무 많음”
+    * 게재 API 및 배치 Mbox v2:
+      * 오류 코드: HTTP 420 요청이 너무 많음
+      * 오류 메시지: “동일한 세션 ID를 가진 요청이 너무 많음”
 
-      * 기존 mbox API:
-         * “동일한 세션 ID를 가진 요청이 너무 많음”이라는 주석이 있는 기본 콘텐츠
+    * 기존 mbox API:
+      * “동일한 세션 ID를 가진 요청이 너무 많음”이라는 주석이 있는 기본 콘텐츠
 
-      * at.js:
-         * 표시된 기본 콘텐츠
+    * at.js:
+      * 표시된 기본 콘텐츠
 
 * **제한**: [!DNL Target] 콘텐츠 게재 일괄 처리 mbox 요청당 50개 mbox.
 
@@ -139,8 +151,8 @@ ht-degree: 73%
 
 * **문자 제한**: 최대 문자 길이는 언어에 따라 다릅니다.
 
-   * 15,000자(단일 값, 1바이트 및 2바이트 언어)
-   * 500개 값, 값당 100자(다중 값)
+  * 15,000자(단일 값, 1바이트 및 2바이트 언어)
+  * 500개 값, 값당 100자(다중 값)
 
   단일 값 엔티티 사용자 지정 속성의 최대 길이는 15,000자(영어 및 기타 라틴어 스크립트 알파벳과 같은 1바이트 및 2바이트 UTF-8 인코딩 언어인 경우) 또는 10,000자(중국어, 일본어 및 한국어와 같은 3바이트 UTF-8 인코딩 언어인 경우)입니다.
 
@@ -212,9 +224,9 @@ ht-degree: 73%
 
   표준 mbox 호출의 경우:
 
-   * mbox 매개 변수: mbox당 500개 매개 변수.
-   * 프로필 매개 변수: mbox당 500개의 매개 변수 프로필 매개 변수.
-   * 기타 매개 변수(URL, 참조 URL 등): 다른 매개 변수 유형에 대해 mbox당 50개입니다.
+  * mbox 매개 변수: mbox당 500개 매개 변수.
+  * 프로필 매개 변수: mbox당 500개의 매개 변수 프로필 매개 변수.
+  * 기타 매개 변수(URL, 참조 URL 등): 다른 매개 변수 유형에 대해 mbox당 50개입니다.
 
   웹 브라우저 제한으로 인해 요청이 축소되지 않는 한 이러한 제한이 적용됩니다.
 
@@ -228,25 +240,25 @@ ht-degree: 73%
 
   **배치 mbox v2**:
 
-   * mbox 매개 변수 100
-   * mbox 매개 변수 이름 최대 길이 128
-   * mbox 매개 변수 값은 null일 수 없음
-   * mbox 매개 변수 값 5000
-   * 프로필 매개 변수 50
-   * 프로필 매개 변수 이름 최대 길이 128
-   * 프로필 매개 변수 값은 null일 수 없음
-   * 프로필 매개 변수 값 최대 길이 256
+  * mbox 매개 변수 100
+  * mbox 매개 변수 이름 최대 길이 128
+  * mbox 매개 변수 값은 null일 수 없음
+  * mbox 매개 변수 값 5000
+  * 프로필 매개 변수 50
+  * 프로필 매개 변수 이름 최대 길이 128
+  * 프로필 매개 변수 값은 null일 수 없음
+  * 프로필 매개 변수 값 최대 길이 256
 
   **게재 API 끝점**:
 
-   * mbox 매개 변수 100
-   * mbox 매개 변수 이름 최대 길이 128
-   * mbox 매개 변수 값은 null일 수 없음
-   * mbox 매개 변수 값 5000
-   * 프로필 매개 변수 50
-   * 프로필 매개 변수 이름 최대 길이 128
-   * 프로필 매개 변수 값은 null일 수 없음
-   * 프로필 매개 변수 값 최대 길이 256
+  * mbox 매개 변수 100
+  * mbox 매개 변수 이름 최대 길이 128
+  * mbox 매개 변수 값은 null일 수 없음
+  * mbox 매개 변수 값 5000
+  * 프로필 매개 변수 50
+  * 프로필 매개 변수 이름 최대 길이 128
+  * 프로필 매개 변수 값은 null일 수 없음
+  * 프로필 매개 변수 값 최대 길이 256
 
 ### mbox 요청 URL
 

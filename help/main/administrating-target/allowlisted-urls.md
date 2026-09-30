@@ -8,13 +8,23 @@ role: Admin
 level: Intermediate
 solution: Target
 product: Target
-source-git-commit: 882c91244e5dae0977c8a6a1e5878525f497a720
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
-
 ---
-
 # 허용 목록에추가된 URL
 
 허용 목록에추가된 URL은 원격 또는 리디렉션 오퍼를 사용하는 경우를 포함하여 조직에서 [!DNL Adobe Target] 경험을 만들고 실행할 수 있는 신뢰할 수 있는 URL 패턴을 정의합니다. 이 목록은 [호스트 관리](/help/main/administrating-target/hosts.md) 및 [환경](/help/main/administrating-target/environments.md)과(와) 함께 작동하지만, 특히 허용된 원격 오퍼 URL 패턴 및 관련 유효성 검사에 적용됩니다.

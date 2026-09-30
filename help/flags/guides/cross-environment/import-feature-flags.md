@@ -4,13 +4,14 @@ description: 플래그 구성을 수동으로 다시 생성하지 않도록 기�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
-
 ---
-
 # 기능 플래그 가져오기 {#import-feature-flags}
 
 플래그를 사용하면 한 샌드박스(예: 샌드박스 1)에서 다른 샌드박스(예: 샌드박스 2)로 기능 플래그를 가져올 수 있습니다. 이렇게 하면 플래그 구성을 수동으로 다시 만들 필요가 없고 샌드박스 간 구성 드리프트가 발생할 위험이 줄어듭니다.

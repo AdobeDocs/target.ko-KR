@@ -1,16 +1,23 @@
 ---
 keywords: 타깃팅;경험;경험 추가;경험 추가
-description: ' [!DNL Adobe Target]에서 [!UICONTROL 시각적 경험 작성기]​(VEC)를 사용하는 방법을 알아봅니다.'
-title: A [!DNL Target] A/B 활동에서 경험을 추가하려면 어떻게 합니까?
+description: '[!DNL Adobe Target]에서 [!UICONTROL 시각적 경험 작성기] (VEC)를 사용하는 방법을 알아봅니다.'
+title: '[!DNL Target] A/B 활동에서 경험을 추가하려면 어떻게 합니까?'
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 41%
-
 ---
-
 # 경험 추가
 
 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)는 페이지에서 경험을 추가 및 편집하기 위한 시각적 인터페이스를 제공합니다.
@@ -104,4 +111,4 @@ ht-degree: 41%
 * 페이지 콘텐츠 변경
 * 페이지 레이아웃 변경
 
->[!VIDEO](https://video.tv.adobe.com/v/30516?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

@@ -1,16 +1,20 @@
 ---
 keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 편집;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 바꾸기;오퍼 바꾸기;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨기기;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기 조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행;사용자 지정 이벤트;웹 구성 요소;오퍼 결정;오퍼 의사 결정
-description: ' [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
-title: '[!UICONTROL 시각적 경험 작성기]​(VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
+description: '[!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
+title: '[!UICONTROL 시각적 경험 작성기] (VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3014'
 ht-degree: 55%
-
 ---
-
 # 시각적 경험 작성기 옵션
 
 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다.
@@ -74,15 +78,15 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
   배경색 및 이미지를 변경합니다.
 
-   * 색상(색상 코드 지정 또는 색상 선택기 사용)
-   * 이미지(이미지 선택기에서 이미지 선택)
-   * 이미지 소스(외부 URL 지정)
-   * 첨부 파일
-      * 맨 위 드롭다운 목록을 클릭하여 스크롤, 고정 또는 로컬 선택
-      * 맨 아래 드롭다운 목록을 클릭하여 repeat, repeat-x, repeat-y, no-repeat, space 또는 round 선택
-   * 클립
-      * 맨 위 드롭다운 목록을 클릭하여 테두리 상자, 패딩 상자, 콘텐츠 상자 또는 텍스트 선택
-      * 맨 아래 드롭다운 목록을 클릭하여 자동 오디오 또는 오디오 선택
+  * 색상(색상 코드 지정 또는 색상 선택기 사용)
+  * 이미지(이미지 선택기에서 이미지 선택)
+  * 이미지 소스(외부 URL 지정)
+  * 첨부 파일
+    * 맨 위 드롭다운 목록을 클릭하여 스크롤, 고정 또는 로컬 선택
+    * 맨 아래 드롭다운 목록을 클릭하여 repeat, repeat-x, repeat-y, no-repeat, space 또는 round 선택
+  * 클립
+    * 맨 위 드롭다운 목록을 클릭하여 테두리 상자, 패딩 상자, 콘텐츠 상자 또는 텍스트 선택
+    * 맨 아래 드롭다운 목록을 클릭하여 자동 오디오 또는 오디오 선택
 
 * **[!UICONTROL 타이포그래피]**
 
@@ -92,13 +96,13 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
   다음과 같은 타이포그래피 스타일을 편집할 수 있습니다.
 
-   * [!UICONTROL 글꼴 크기]
-   * [!UICONTROL 글꼴 두께]
-   * [!UICONTROL 글꼴 스타일]
-   * [!UICONTROL 색상]&#x200B;(색상 코드 지정 또는 색상 선택기 사용)
-   * [!UICONTROL 단어 간격]
-   * [!UICONTROL 줄 높이]
-   * [!UICONTROL 텍스트 정렬]
+  * [!UICONTROL 글꼴 크기]
+  * [!UICONTROL 글꼴 두께]
+  * [!UICONTROL 글꼴 스타일]
+  * [!UICONTROL 색상]&#x200B;(색상 코드 지정 또는 색상 선택기 사용)
+  * [!UICONTROL 단어 간격]
+  * [!UICONTROL 줄 높이]
+  * [!UICONTROL 텍스트 정렬]
 
 * **[!UICONTROL 여백]**
 
@@ -106,8 +110,8 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
   각 여백에 대한 드롭다운 아이콘을 클릭하여 다음 옵션 중에서 선택합니다.
 
-   * [!UICONTROL 자동]
-   * [!UICONTROL 값]&#x200B;(슬라이더를 드래그하여 여백을 설정하거나 각 여백에 대한 픽셀 수 지정)
+  * [!UICONTROL 자동]
+  * [!UICONTROL 값]&#x200B;(슬라이더를 드래그하여 여백을 설정하거나 각 여백에 대한 픽셀 수 지정)
 
   여백은 양수 및 음수 값을 지원합니다.
 
@@ -129,9 +133,9 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
   각 테두리(위쪽, 오른쪽, 아래쪽, 왼쪽)에 대한 다음 스타일을 편집할 수 있습니다.
 
-   * [!UICONTROL 테두리 스타일]&#x200B;(없음, 숨김, 점선, 파선, 단색 또는 이중)
-   * [!UICONTROL 테두리 색상]&#x200B;(색상 코드 지정 또는 색상 선택기 사용)
-   * [!UICONTROL 테두리 폭]&#x200B;(슬라이더를 드래그하여 테두리 폭을 선택하거나 폭을 픽셀 단위로 지정)
+  * [!UICONTROL 테두리 스타일]&#x200B;(없음, 숨김, 점선, 파선, 단색 또는 이중)
+  * [!UICONTROL 테두리 색상]&#x200B;(색상 코드 지정 또는 색상 선택기 사용)
+  * [!UICONTROL 테두리 폭]&#x200B;(슬라이더를 드래그하여 테두리 폭을 선택하거나 폭을 픽셀 단위로 지정)
 
   테두리는 폭 조절을 0부터 지원합니다.
 
@@ -143,16 +147,16 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
   [!UICONTROL 정적] 드롭다운 목록을 클릭하여 다음 위치 옵션 중에서 선택합니다.
 
-   * [!UICONTROL 정적]
-   * [!UICONTROL 상대]
-   * [!UICONTROL 절대]
-   * [!UICONTROL 고정]
-   * [!UICONTROL 고정]
+  * [!UICONTROL 정적]
+  * [!UICONTROL 상대]
+  * [!UICONTROL 절대]
+  * [!UICONTROL 고정]
+  * [!UICONTROL 고정]
 
   각 위치에 대한 드롭다운 아이콘을 클릭하여 다음 옵션 중에서 선택합니다.
 
-   * [!UICONTROL 자동]
-   * [!UICONTROL 값]&#x200B;(슬라이더를 드래그하여 요소를 배치하거나 요소를 이동할 픽셀 수 지정)
+  * [!UICONTROL 자동]
+  * [!UICONTROL 값]&#x200B;(슬라이더를 드래그하여 요소를 배치하거나 요소를 이동할 픽셀 수 지정)
 
   위치는 양수 및 음수 값을 지원합니다.
 
@@ -164,22 +168,22 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
   [!UICONTROL 너비] 및 [!UICONTROL 높이] 옆에 있는 드롭다운 아이콘을 클릭하여 다음 옵션 중에서 선택합니다.
 
-   * [!UICONTROL 자동]
-   * [!UICONTROL 값]&#x200B;(슬라이더를 드래그하여 요소의 크기를 지정하거나 각 차원의 픽셀 수 지정)
+  * [!UICONTROL 자동]
+  * [!UICONTROL 값]&#x200B;(슬라이더를 드래그하여 요소의 크기를 지정하거나 각 차원의 픽셀 수 지정)
 
 * **[!UICONTROL 필터]**
 
   각 필터 옵션에 대한 슬라이더를 드래그하거나 원하는 백분율 지정:
 
-   * [!UICONTROL 세피아]
-   * [!UICONTROL 대비]
-   * [!UICONTROL 밝기]
-   * [!UICONTROL 회색 음영]
-   * [!UICONTROL 흐림 효과]
-   * [!UICONTROL 불투명도]
-   * [!UICONTROL 반전]
-*[!UICONTROL &#x200B; 색조-회전]
-   * [!UICONTROL 채도]
+  * [!UICONTROL 세피아]
+  * [!UICONTROL 대비]
+  * [!UICONTROL 밝기]
+  * [!UICONTROL 회색 음영]
+  * [!UICONTROL 흐림 효과]
+  * [!UICONTROL 불투명도]
+  * [!UICONTROL 반전]
+    *[!UICONTROL &#x200B; 색조-회전]
+  * [!UICONTROL 채도]
 
 * **[!UICONTROL CSS 편집기]**
 
@@ -217,7 +221,7 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
 ### [!UICONTROL 오퍼 결정]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}에서 만든 오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}에서 만든 오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL 경험 타깃팅]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -249,7 +253,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 ### [!UICONTROL 오퍼 결정]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}에서 만든 오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}에서 만든 오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL 경험 타깃팅]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -281,7 +285,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 ### [!UICONTROL 오퍼 결정]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}에서 만든 오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면  [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}에서 만든 오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL 경험 타깃팅]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -388,16 +392,16 @@ VEC는 사용자 지정 요소 및 사용자 지정 요소 내부의 요소에 �
 사용자 지정 요소에서는 다음 작업을 사용할 수 없습니다.
 
 * [!UICONTROL 편집]
-   * [!UICONTROL 텍스트/HTML]
-   * [!UICONTROL 링크]
-   * [!UICONTROL Source 편집]
+  * [!UICONTROL 텍스트/HTML]
+  * [!UICONTROL 링크]
+  * [!UICONTROL Source 편집]
 
 * [!UICONTROL 콘텐츠 바꾸기]
 
 사용자 지정 요소 내에서는 다음 작업을 사용할 수 없습니다.
 
 * [!UICONTROL 레이아웃]
-   * [!UICONTROL 다시 정렬]
+  * [!UICONTROL 다시 정렬]
 
 ## DOM 경로를 사용하여 요소 탐색 {#dom-path}
 

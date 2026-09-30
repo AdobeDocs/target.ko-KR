@@ -4,13 +4,17 @@ description: Adobe Target에서 시각적 경험 작성기(VEC) 사용의 기본
 title: 시각적 경험 작성기(VEC)를 사용하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1382'
 ht-degree: 75%
-
 ---
-
 # 시각적 경험 작성기(VEC)
 
 [!DNL Adobe Target]에서 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 사용에 대한 정보입니다.
@@ -113,7 +117,7 @@ VEC 내에서 페이지 로드를 취소하려면 페이지를 로드하는 동�
 * 페이지 콘텐츠 변경
 * 페이지 레이아웃 변경
 
->[!VIDEO](https://video.tv.adobe.com/v/30516?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
 ### 시각적 경험 작성기(2/2) (7:29) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

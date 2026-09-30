@@ -1,16 +1,23 @@
 ---
 keywords: 제외
-description: Adobe에서 제외를 만드는 방법 [!DNL Target] 방문자에게 제품이나 콘텐츠를 추천하지 않도록 하는 방법에 대해 알아봅니다.
+description: Adobe [!DNL Target] 권장 사항에서 제외를 만들어 제품 또는 콘텐츠를 방문자에게 추천하지 않도록 하는 방법에 대해 알아봅니다.
 title: 권장 사항 활동에서 제외를 사용하는 방법은 무엇입니까?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '630'
 ht-degree: 30%
-
 ---
-
 # 제외
 
 제품 또는 콘텐츠가 방문자에게 추천되지 않도록 하려면 [!DNL Adobe Target Recommendations]에서 제외를 만드십시오. 제외는 방문자에게 권장해서는 안 되는 제품 또는 콘텐츠의 하위 집합입니다.

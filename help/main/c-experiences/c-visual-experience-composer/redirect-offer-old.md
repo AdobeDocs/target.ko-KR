@@ -1,16 +1,20 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 방문자를 같은 페이지에 표시하는 대신 다른 페이지로 보내려는 경우  [!DNL Target] Adobe에서 URL로 리디렉션 옵션을 사용하는 방법에 대해 알아봅니다.
+description: 방문자를 동일한 페이지에 콘텐츠를 표시하지 않고 다른 페이지로 보내려는 경우 Adobe [!DNL Target]에서 URL로 리디렉션 옵션을 사용하는 방법에 대해 알아봅니다.
 title: 페이지를 다른 URL로 리디렉션할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 82%
-
 ---
-
 # URL로 리디렉션
 
 방문자를 동일한 페이지에 콘텐츠를 표시하지 않고 다른 페이지로 보내려면 [!DNL Adobe Target]에서 [!UICONTROL URL로 리디렉션] 옵션을 사용하십시오.

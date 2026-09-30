@@ -4,13 +4,14 @@ description: 기능 플래그 정의부터 라이브까지, 플래그에서 조�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 2%
-
 ---
-
 # 전체 워크플로 릴리스 {#release-workflow}
 
 이 페이지에서는 Release Manager에서 관리하는 조정된 릴리스와 관련된 작업의 전체 시퀀스에 대해 설명합니다.

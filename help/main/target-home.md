@@ -1,27 +1,37 @@
 ---
 keywords: Target;홈;인기 항목;adobe target;target standard;target premium;target 설명서;adobe target 설명서;실무자 안내서;사용 안내서
 title: Adobe Target 비즈니스 실무자 안내서
-description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
+description: Adobe [!DNL Target]을(를) 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-TQID: https://experienceleague.adobe.com/FZseZZEVSfBXtgdDTjo08FJoJ1OesGwoxcMiCxrkegM
+TQID: 'https://experienceleague.adobe.com/FZseZZEVSfBXtgdDTjo08FJoJ1OesGwoxcMiCxrkegM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 723
-ht-degree: 32%
-
+source-wordcount: '724'
+ht-degree: 28%
 ---
-
 # [!DNL Adobe Target] 비즈니스 실무자 안내서
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.

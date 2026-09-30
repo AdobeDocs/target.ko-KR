@@ -1,21 +1,27 @@
 ---
 keywords: 경험 타깃팅;xt;활동 url;url
-description: '[!UICONTROL 경험 타깃팅] 활동이  [!DNL Adobe Target]을(를) 사용하여 디자인될 때 열리는 테스트에 사용되는 페이지를 결정하는 [!UICONTROL 활동 URL]을(를) 지정하는 방법을 알아봅니다.'
-title: '[!UICONTROL 경험 타깃팅]​(XT) 활동에서 [!UICONTROL 활동 URL]은(는) 무엇입니까?'
+description: '[!UICONTROL 경험 타깃팅] 활동이 [!DNL Adobe Target]을(를) 사용하여 디자인될 때 열리는 테스트에 사용되는 페이지를 결정하는 [!UICONTROL 활동 URL]을(를) 지정하는 방법을 알아봅니다.'
+title: '[!UICONTROL 경험 타깃팅] (XT) 활동에서 [!UICONTROL 활동 URL]은(는) 무엇입니까?'
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
+TQID: 'https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 35%
-
 ---
-
 # [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동의 활동 URL
 
 [!UICONTROL 활동 URL]은(는) [!DNL Adobe Target] [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동에서 사용되는 페이지를 결정합니다. 활동을 디자인할 때 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 또는 [!UICONTROL 양식 기반 경험 작성기]에서 열리는 페이지입니다.

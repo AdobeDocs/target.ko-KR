@@ -1,29 +1,37 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;리디렉션;리디렉션 오퍼;adobe-mc-sdid;adobe_mc_ref
-description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 리디렉션 오퍼 사용에 대한 질문에 대한 답변을 찾아보십시오. A4T를 사용하면  [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
+description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 리디렉션 오퍼 사용에 대한 질문에 대한 답변을 찾아보십시오. A4T를 사용하면 [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
 title: A4T를 사용하는 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-TQID: https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA
+TQID: 'https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1472
+source-wordcount: '1473'
 ht-degree: 50%
-
 ---
-
 # 리디렉션 오퍼 - A4T FAQ
 
 이 주제에서는 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target]의 보고 소스로 사용(A4T)할 때의 리디렉션 오퍼 사용에 대한 FAQ 답변을 제공합니다.

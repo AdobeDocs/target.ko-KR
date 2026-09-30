@@ -1,22 +1,28 @@
 ---
 keywords: 사용자 지정 디자인;속도;소수점;쉼표;디자인 사용자 지정
-description: 공개 소스 [!DNL Velocity] 디자인 언어를 사용하여 [!DNL Target] 권장 사항에서 권장 사항 디자인을 사용자 지정하는 방법을 알아봅니다.
+description: 오픈 소스 [!DNL Velocity] 디자인 언어를 사용하여 [!DNL Target] 권장 사항에서 권장 사항 디자인을 사용자 지정하는 방법을 알아봅니다.
 title: Velocity를 사용하여 디자인을 사용자 지정하는 방법
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-TQID: https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU
+TQID: 'https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: '1091'
 ht-degree: 32%
-
 ---
-
 # [!DNL Velocity]을(를) 사용하여 디자인 사용자 지정
 
 [!DNL Adobe Target Recommendations]에서 권장 사항 디자인을 사용자 지정하려면 공개 원본 [!DNL Velocity] 디자인 언어를 사용하십시오.

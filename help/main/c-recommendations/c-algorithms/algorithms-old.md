@@ -1,17 +1,24 @@
 ---
 keywords: 권장 사항;권장 사항 활동;기준;알고리즘;권장 사항 키;사용자 지정 키;업계 카테고리;소매;전자 상거래;리드 생성;b2b;금융 서비스;미디어;게시
 description: Adobe [!DNL Target] [!DNL Recommendations]에서 기준을 사용하는 방법을 알아봅니다.
-title: ' [!DNL Target] 추천에서 기준을 사용하는 방법'
+title: '[!DNL Target] 권장 사항에서 기준을 사용하는 방법'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '737'
 ht-degree: 22%
-
 ---
-
 # 기준
 
 [!DNL Adobe Target] [!DNL Recommendations]의 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품 또는 콘텐츠를 결정하는 규칙입니다. 기준은 인기 있는 추세, 방문자의 현재 및 과거 행동 또는 유사한 제품 및 콘텐츠를 기반으로 지정할 수 있습니다. 여러 알고리즘을 추가하여 여러 권장 사항 유형을 서로 비교하면서 테스트할 수 있습니다.

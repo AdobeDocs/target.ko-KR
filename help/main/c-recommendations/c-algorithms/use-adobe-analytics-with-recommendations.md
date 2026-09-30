@@ -1,26 +1,34 @@
 ---
 keywords: 동작 데이터 소스;분석;권장 사항;기준;제품 변수
-description: ' [!DNL Target Recommendations]에서 동작 데이터 소스로  [!DNL Adobe Analytics] 을(를) 사용하는 방법을 알아보세요.'
-title: ' [!DNL Adobe Analytics] with [!DNL Target Recommendations]을(를) 사용하려면 어떻게 합니까?'
+description: '[!DNL Target Recommendations]에서 동작 데이터 원본으로 [!DNL Adobe Analytics]을(를) 사용하는 방법을 알아봅니다.'
+title: '[!DNL Target Recommendations]에 [!DNL Adobe Analytics]을(를) 사용하려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-TQID: https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs
+TQID: 'https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '806'
 ht-degree: 0%
-
 ---
-
 # [!DNL Recommendations]과(와) 함께 [!DNL Adobe Analytics] 사용
 
 [!DNL Adobe Analytics]을(를) 동작 데이터 소스로 사용하면 클라이언트가 [!DNL Adobe Target Recommendations] 활동에서 [!DNL Analytics]의 보기 기반 및 구매 기반 동작 데이터를 사용할 수 있습니다. 이 기능은 [!DNL Target Recommendations] 설정이 처음이고 [!DNL Analytics]에 사용할 내역 데이터가 많은 경우 특히 유용합니다.

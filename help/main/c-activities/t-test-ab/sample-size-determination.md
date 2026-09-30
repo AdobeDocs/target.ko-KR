@@ -1,25 +1,33 @@
 ---
 keywords: AB;A/B;AB...n;샘플 크기;샘플 크기 계산기;자동 할당;자동 할당;계산기
-description: A/B 테스트를 실행하는 데 걸리는 시간을 알아봅니다.  [!DNL Adobe Target] 에서 A/B 테스트를 성공적으로 수행하려면 전환율을 향상할 수 있는 충분한 방문자(샘플 크기)가 필요합니다.
+description: A/B 테스트를 실행하는 데 걸리는 시간을 알아봅니다. [!DNL Adobe Target]에서 A/B 테스트를 성공적으로 수행하려면 전환율을 향상할 수 있는 충분한 방문자(샘플 크기)가 필요합니다.
 title: A/B 테스트를 얼마 동안 실행해야 합니까?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-TQID: https://experienceleague.adobe.com/KZ0Egi-KsoAgR7NBXsTXFXhanum8OgFEZz94lGaIQjs
+TQID: 'https://experienceleague.adobe.com/KZ0Egi-KsoAgR7NBXsTXFXhanum8OgFEZz94lGaIQjs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Optimization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3184
+source-wordcount: '3185'
 ht-degree: 47%
-
 ---
-
 # A/B 테스트를 얼마 동안 실행해야 합니까?
 
 [!DNL Adobe Target]에서 [!UICONTROL A/B 테스트] 활동이 성공하려면 전환율을 향상시키기에 충분한 방문자(샘플 크기)가 필요합니다. A/B 테스트를 실행하는 데 걸리는 시간을 어떻게 알 수 있습니까? 이 문서에는 [!UICONTROL 자동 할당] 활동 및 [!UICONTROL Adobe Target] 샘플 크기 계산기에 대한 정보가 포함되어 있어 활동에 목표를 달성할 수 있는 방문자가 충분한지 확인할 수 있습니다.

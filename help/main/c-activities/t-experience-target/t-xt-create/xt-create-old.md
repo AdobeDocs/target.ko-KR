@@ -1,16 +1,23 @@
 ---
 keywords: 경험 타깃팅;xt;만들기
-description: ' [!DNL Adobe Target] 의 [!UICONTROL 시각적 경험 작성기]​(VEC)를 사용하여 [!UICONTROL 경험 타깃팅]​(XT) 활동을 만드는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]에서 [!UICONTROL VEC(시각적 경험 작성기)를 사용하여 [!UICONTROL 경험 타깃팅] (XT) 활동을 만드는 방법을 알아봅니다.]'
 title: '[!UICONTROL 경험 타깃팅] 활동을 만들려면 어떻게 해야 합니까?'
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 35%
-
 ---
-
 # [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동 만들기
 
 [!DNL Target]을(를) 사용할 수 있는 페이지에서 [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동을 만들고 [!DNL Adobe Target] 내에서 해당 페이지의 부분을 수정하려면 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 사용하십시오.

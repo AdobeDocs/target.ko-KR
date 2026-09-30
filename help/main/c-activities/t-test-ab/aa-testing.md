@@ -4,19 +4,26 @@ description: A/A 테스트의 정의, A/A 테스트를 수행할 수 있는 이�
 title: A/A 테스트란 무엇입니까?
 feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
-TQID: https://experienceleague.adobe.com/-kLz0mG8LaFqEbB-9M89vJWTFjfypupbcOQ3MjQz-jQ
+TQID: 'https://experienceleague.adobe.com/-kLz0mG8LaFqEbB-9M89vJWTFjfypupbcOQ3MjQz-jQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 949
+source-wordcount: '949'
 ht-degree: 1%
-
 ---
-
 # A/A 테스트
 
 [!DNL Adobe Target]을(를) 사용하여 사이트에서 A/A 테스트를 수행하기 전에 A/A 테스트의 정의, A/A 테스트를 수행할 수 있는 이유, 테스트를 실행해야 하는 시간 및 결과를 해석하는 방법을 이해하는 것이 중요합니다.

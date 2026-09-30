@@ -4,27 +4,36 @@ description: Adobe [!DNL Target] QA URL을 사용하여, 변경되지 않는 미
 title: 활동을 QA하려면 어떻게 합니까?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-TQID: https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI
+TQID: 'https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: '1816'
 ht-degree: 28%
-
 ---
-
 # 활동 QA
 
 [!DNL Adobe Target]의 QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간편한 엔드 투 엔드 활동 QA, 선택적 대상 타깃팅, 라이브 활동 데이터에서 세그먼트화된 QA 보고를 수행할 수 있습니다.
@@ -55,8 +64,8 @@ ht-degree: 28%
 
      이 설정을 &quot;끔&quot;으로 전환하는 경우, 다음을 고려하십시오.
 
-      * 테스트 중인 활동과 다른 라이브 활동 간에 충돌이 있으면 [일반 우선 순위 규칙](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)이 적용됩니다. 충돌 때문에 QA하려는 활동을 볼 수 없을 수도 있습니다.
-      * 표시된 활동에 대한 지표 증가가 QA 보고 환경에서만 발생합니다.
+     * 테스트 중인 활동과 다른 라이브 활동 간에 충돌이 있으면 [일반 우선 순위 규칙](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)이 적용됩니다. 충돌 때문에 QA하려는 활동을 볼 수 없을 수도 있습니다.
+     * 표시된 활동에 대한 지표 증가가 QA 보고 환경에서만 발생합니다.
 
 1. **[!UICONTROL 완료]**&#x200B;를 클릭하여 변경 내용을 저장합니다.
 1. 테스트를 위해 조직의 구성원과 활동 링크 URL을 공유합니다.

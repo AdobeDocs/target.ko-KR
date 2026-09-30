@@ -1,24 +1,28 @@
 ---
 keywords: 설정;우선순위
-description: 사용 중인  [!DNL Target] 인터페이스 및 활동 만들기 기능에 따라  [!DNL Adobe Target] 페이지에 전달할 활동을 다르게 결정하는 방법에 대해 알아봅니다.
-title: ' [!DNL Target] 다른 활동에 우선 순위를 할당하는 방법'
+description: '[!DNL Adobe Target]이(가) 사용 중인 [!DNL Target] 인터페이스와 활동 만들기 기능에 따라 페이지에 전달할 활동을 다르게 결정하는 방법을 알아봅니다.'
+title: '[!DNL Target]은(는) 다른 활동에 우선 순위를 어떻게 할당합니까?'
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-TQID: https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ
+TQID: 'https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '991'
 ht-degree: 34%
-
 ---
-
 # 우선순위
 
 [!DNL Adobe Target]은(는) 사용 중인 [!DNL Target] 인터페이스와 활동 만들기 기능([[!UICONTROL 시각적 경험 작성기(VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 또는 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md))에 따라 페이지에 전달할 활동을 다르게 결정합니다.

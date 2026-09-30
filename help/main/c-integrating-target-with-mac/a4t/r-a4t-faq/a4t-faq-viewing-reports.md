@@ -1,27 +1,33 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;보고서;보고서;보고서 보기;보고;계산 방법론;노출 횟수;방문자 수;방문 횟수;기본 지표;활동 전환;지정되지 않음
-description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 보고서를 보는 것과 관련하여 자주 묻는 질문에 대한 답변을 찾아보십시오. A4T를 사용하면  [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
+description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 보고서를 보는 것과 관련하여 자주 묻는 질문에 대한 답변을 찾아보십시오. A4T를 사용하면 [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
 title: A4T를 사용하여 보고서를 보는 것과 관련된 질문에 대한 답변을 찾으시나요?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
+TQID: 'https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: '2700'
 ht-degree: 27%
-
 ---
-
 # 보고서 보기 - A4T FAQ
 
 이 주제에서는 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target]의 보고 소스로 사용(A4T)할 때의 보고서 보기에 대한 FAQ 답변을 제공합니다.

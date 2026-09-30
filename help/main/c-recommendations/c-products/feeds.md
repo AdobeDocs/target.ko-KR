@@ -1,25 +1,32 @@
 ---
 keywords: 권장 사항 피드, 피드, SAINT, ftp, csv, 분류, 분석 분류
-description: 피드가 CSV 파일,  [!DNL Google Product Search] 피드 형식 및  [!DNL Analytics] 제품 분류를 사용하여  [!DNL Adobe Target] [!DNL Recommendations]에 엔티티를 가져오는 방법에 대해 알아봅니다.
-title: ' [!DNL Target Recommendations]에서 [!UICONTROL 피드]를 사용하려면 어떻게 해야 합니까?'
+description: 피드가 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Analytics] 제품 분류를 사용하여 [!DNL Adobe Target] [!DNL Recommendations] (으)로 엔터티를 가져오는 방법을 알아봅니다.
+title: '[!DNL Target Recommendations]에서 [!UICONTROL 피드]를 사용하려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
+TQID: 'https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2725
+source-wordcount: '2734'
 ht-degree: 36%
-
 ---
-
 # 피드
 
 피드를 사용하여 [!DNL Adobe Target] [!DNL Recommendations]&#x200B;(으)로 가져온 엔터티를 가져옵니다. 엔터티는 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
@@ -252,10 +259,10 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
      지원되는 FTP 서버 설정:
 
-      * FTP 및 FTPS는 수동 FTP를 사용하도록 설정되어야 합니다.
-      * FTPS의 경우, 명시적 FTPS 연결을 허용하도록 서버를 구성합니다.
-      * SFTP는 지원되지 않습니다.
-      * 연결을 시작할 포트를 수동으로 지정할 수 있습니다(예: `ftp://ftp.yoursite.com:2121`). 포트를 지정하지 않으면 기본 FTP 또는 FTPS 포트가 사용됩니다.
+     * FTP 및 FTPS는 수동 FTP를 사용하도록 설정되어야 합니다.
+     * FTPS의 경우, 명시적 FTPS 연결을 허용하도록 서버를 구성합니다.
+     * SFTP는 지원되지 않습니다.
+     * 연결을 시작할 포트를 수동으로 지정할 수 있습니다(예: `ftp://ftp.yoursite.com:2121`). 포트를 지정하지 않으면 기본 FTP 또는 FTPS 포트가 사용됩니다.
 
    * **URL**: [!UICONTROL URL]을(를) 선택하는 경우 URL을 지정하십시오.
 
@@ -331,15 +338,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 **예제 1:**
 
-* 1일: 매일 오전 9시(PST)에 피드 처리:00
-* 2일: 오후 3:30이고 피드가 어제 이후 오전 9:00에 실행되지 않습니다.
+* 1일: 매일 오전 9시(PST)에 피드 처리
+* 2일째: 오후 3시 30분인데 피드가 어제 오전 9시 이후에 실행되지 않았습니다.
 
 약 6.5시간 전에 색인이 실행되어야 했는데 그렇지 않으므로 상태는 노란색이어야 합니다. 6.5시간 +24는 피드 창의 127%입니다.
 
 **예제 2:**
 
-* 1월 1일: 매월 피드 프로세스는 오전 9시(PST)에 있습니다.:00
-* 2월 3일: 오전 10:00이며 피드가 한 달, 하루, 한 시간 전에 실행되지 않습니다.
+* 1월 1일: 매월 피드 프로세스는 오전 9시(PST)입니다.
+* 2월 3일: 오전 10시이며 피드가 한 달, 하루, 한 시간 전에 실행되지 않습니다.
 
 약 1일 1시간 전에 색인이 실행되어야 했는데 그렇지 않으므로 상태는 노란색이어야 합니다. 이것은 빈도 설정의 (31+(1/25))/30 = 1.03%에 불과하지만 하루 지연의 최대값을 초과했습니다.
 
@@ -347,7 +354,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 권장 사항(3:01)의 피드 이해 ![개요 배지](/help/main/assets/overview.png)
+### 권장 사항에서 피드 이해(3:01) ![개요 배지](/help/main/assets/overview.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 

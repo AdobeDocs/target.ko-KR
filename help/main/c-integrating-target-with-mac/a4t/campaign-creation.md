@@ -1,24 +1,28 @@
 ---
 keywords: a4t;A4T;Analytics를 Target의 보고 소스로 사용
-description: Adobe Analytics을 보고 소스(A4T)로 사용하는 Adobe [!DNL Target] 에서 활동을 구성하는 방법에 대해 알아봅니다.
+description: Adobe Analytics을 보고 소스로 사용(A4T)하는 Adobe [!DNL Target]의 활동을 구성하는 방법에 대해 알아봅니다.
 title: A4T를 사용하는 활동을 만들려면 어떻게 해야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
-TQID: https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI
+TQID: 'https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '663'
 ht-degree: 29%
-
 ---
-
 # Analytics를 보고 소스로 사용하는 활동 만들기
 
 [!DNL Adobe Analytics]을(를) 보고 원본(A4T)으로 사용하도록 [!DNL Adobe Target]에서 활동을 구성할 수 있습니다.

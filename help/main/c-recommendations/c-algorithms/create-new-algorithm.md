@@ -1,27 +1,36 @@
 ---
 keywords: 기준;알고리즘;업계 카테고리;페이지 유형;권장 사항 키;권장 사항 논리;논리;데이터 범위;전환 확인 기간;동작 데이터 소스;부분 디자인;백업 권장 사항;포함 규칙;속성 가중치;현재 카테고리;사용자 지정 속성;마지막 구매 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기 카테고리;인기;최근에 본 항목;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;최근에 본 항목
-description: ' [!DNL Recommendations] 활동의 콘텐츠를 제어하는 기준을 만들어 활동에 가장 적합한 권장 사항을 표시하는 방법에 대해 알아봅니다.'
-title: ' [!DNL Recommendations]에서 [!UICONTROL 기준]을(를) 만들려면 어떻게 해야 합니까?'
+description: '[!DNL Recommendations] 활동의 콘텐츠를 제어하는 기준을 만들어 활동에 가장 적합한 권장 사항을 표시하는 방법에 대해 알아봅니다.'
+title: '[!DNL Recommendations]에서 [!UICONTROL 기준]을(를) 만들려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
+TQID: 'https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2984
+source-wordcount: '2985'
 ht-degree: 44%
-
 ---
-
 # 기준 만들기
 
 [!UICONTROL Adobe Target] [!UICONTROL 권장 사항]의 기준은 [!UICONTROL 권장 사항] 활동의 콘텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오. 이러한 기준은 방문자의 작업을 사용하여 표시할 콘텐츠 또는 제품을 결정합니다.

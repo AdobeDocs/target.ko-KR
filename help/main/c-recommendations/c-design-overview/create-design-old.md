@@ -5,13 +5,20 @@ title: Recommendations에서 디자인을 만들려면 어떻게 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1063'
 ht-degree: 25%
-
 ---
-
 # 디자인 만들기
 
 디자인은 페이지에 권장 사항이 어떻게 나타나는지를 정의합니다.
@@ -320,7 +327,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## 교육 비디오: 권장 사항(3:20)에서 사용자 지정 디자인 만들기 ![개요 배지](/help/main/assets/overview.png)
+## 교육 비디오: 권장 사항에서 사용자 지정 디자인 만들기(3:20) ![개요 배지](/help/main/assets/overview.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 

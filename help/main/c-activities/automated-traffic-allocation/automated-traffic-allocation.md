@@ -1,27 +1,37 @@
 ---
 keywords: 자동화된 트래픽 할당;타깃팅;증분 카운트 및 사용자를 활동에 유지;트래픽 할당;자동 할당;자동 할당
-description: 둘 이상의 경험에서 승자를 식별하고 더 많은 트래픽을 승자에게 자동으로 재할당하는  [!DNL Adobe Target] 의 [!UICONTROL 자동 할당] 활동을 사용하는 방법을 알아봅니다.
+description: 두 개 이상의 경험에서 승자를 식별하고 더 많은 트래픽을 승자에게 자동으로 재할당하는 [!DNL Adobe Target]의 [!UICONTROL 자동 할당] 활동을 사용하는 방법을 알아봅니다.
 title: '[!UICONTROL 자동 할당] 활동이란 무엇입니까?'
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+TQID: 'https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3756
+source-wordcount: '3760'
 ht-degree: 34%
-
 ---
-
 # [!UICONTROL 자동 할당] 개요
 
 [!DNL Adobe Target]의 [!UICONTROL 자동 할당] 활동은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.
@@ -134,9 +144,9 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
   예:
 
-   * &quot;다행히도 오늘은 금요일이다&quot;라는 소식으로 금요일에 더 많은 사람들이 이에 동의한다.
-   * 월요일부터 점프스타트=월요일의 전환율은 더 높다.
-   * &quot;동해안 겨울을 위한 장비 설치&quot;는 동해안 또는 겨울이 고통받는 지역에서 더 높은 전환을 제공합니다.
+  * &quot;다행히도 오늘은 금요일이다&quot;라는 소식으로 금요일에 더 많은 사람들이 이에 동의한다.
+  * 월요일부터 점프스타트=월요일의 전환율은 더 높다.
+  * &quot;동해안 겨울을 위한 장비 설치&quot;는 동해안 또는 겨울이 고통받는 지역에서 더 높은 전환을 제공합니다.
 
   상황에 맞는 관련성이 다양한 경험을 사용하면 A/B 테스트는 오랜 기간에 걸쳐 결과를 분석하므로 A/B 테스트보다 [!UICONTROL 자동 할당] 테스트에서 결과를 왜곡할 수 있습니다.
 
@@ -252,7 +262,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 ### A/B 테스트 만들기(8:36) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
-다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 A/B 테스트를 작성하는 방법을 보여줍니다. [!UICONTROL 자동 할당]은(는) 4:45부터 논의됩니다.
+다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 A/B 테스트를 작성하는 방법을 보여줍니다. [!UICONTROL 자동 할당]은(는) 4시 45분부터 논의됩니다.
 
 * [!DNL Adobe Target]에서 A/B 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당

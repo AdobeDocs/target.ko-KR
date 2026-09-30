@@ -1,25 +1,30 @@
 ---
 keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 편집;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 바꾸기;오퍼 바꾸기;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨기기;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기 조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행;사용자 지정 이벤트;웹 구성 요소;오퍼 결정;오퍼 의사 결정
-description: ' [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
-title: '[!UICONTROL 시각적 경험 작성기]​(VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
+description: '[!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
+title: '[!UICONTROL 시각적 경험 작성기] (VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
+TQID: 'https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 7%
-
+source-wordcount: '2271'
+ht-degree: 8%
 ---
-
 # [!UICONTROL 시각적 경험 작성기] 옵션
 
 [!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 17일)에서는 업데이트된 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)가 도입되었습니다. 이 문서에서는 업데이트된 UI 및 해당 옵션에 대해 설명합니다.
@@ -105,17 +110,17 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
    사용 가능한 구성 요소는 논리 컨테이너로 그룹화됩니다.
 
    * [!UICONTROL 기본]
-      * [!UICONTROL 분할기]
-      * [!UICONTROL HTML]
-      * [!UICONTROL 이미지]
+     * [!UICONTROL 분할기]
+     * [!UICONTROL HTML]
+     * [!UICONTROL 이미지]
    * [!UICONTROL 텍스트]
-      * [!UICONTROL 머리글]
-      * [!UICONTROL 단락]
-      * [!UICONTROL 링크]
+     * [!UICONTROL 머리글]
+     * [!UICONTROL 단락]
+     * [!UICONTROL 링크]
    * [!UICONTROL 동적]
-      * [[!UICONTROL 권장 사항]](/help/main/c-recommendations/recommendations-as-an-offer.md)
-      * [[!UICONTROL 경험 조각]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-      * [[!UICONTROL HTML 오퍼]](/help/main/c-experiences/c-manage-content/manage-content.md)
+     * [[!UICONTROL 권장 사항]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+     * [[!UICONTROL 경험 조각]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+     * [[!UICONTROL HTML 오퍼]](/help/main/c-experiences/c-manage-content/manage-content.md)
 
 1. 구성 요소를 [!UICONTROL 디자인] 캔버스의 기존 페이지 요소 위로 끌어서 놓습니다.
 1. 선택한 요소를 바꾸거나 선택한 요소 뒤에 구성 요소를 삽입하도록 선택합니다.

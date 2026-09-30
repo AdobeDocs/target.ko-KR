@@ -1,27 +1,34 @@
 ---
 keywords: 보고서;보고서;보고;experience cloud 솔루션;시간대;시간대;통화;IP 제외;매출액에서 예상되는 향상도;매출;매출액에서 상승도;세분화된 우선순위;세분화된 우선순위
-description: 보고 소스로  [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] 을(를) 사용하고 기본 표준 시간대 및 통화 형식을 지정하고, 보고에서 제외할 IP 주소를 추가하는 등의 작업을 수행합니다.
-title: ' [!DNL Target]에서 보고를 구성하는 방법'
+description: '[!DNL Target], [!DNL Adobe Analytics] 또는 [!DNL Adobe Customer Journey Analytics]을(를) 보고 소스로 사용하고, 기본 표준 시간대 및 통화 형식을 지정하고, 보고에서 제외할 IP 주소를 추가하는 등의 작업을 수행합니다.'
+title: '[!DNL Target]에서 보고를 구성하는 방법'
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-TQID: https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY
+TQID: 'https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 283e20be405890a7f53ca95d370e3eef5820f437
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '825'
 ht-degree: 21%
-
 ---
-
 # [!DNL Target]에서 보고 구성
 
 전체 [!DNL Target] 계정에 적용되는 [!DNL Adobe Target] 보고에 사용할 일반 설정을 구성하십시오.

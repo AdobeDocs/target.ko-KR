@@ -1,16 +1,23 @@
 ---
 keywords: 대상자;대상자 선택;대상자 선택;선택기
 description: 대상은 Adobe [!DNL Target] 활동에 입력된 사이트 방문자를 결정합니다.
-title: A [!DNL Target] A/B 활동에서 대상을 선택하려면 어떻게 해야 합니까?
+title: '[!DNL Target] A/B 활동에서 대상을 선택하려면 어떻게 해야 합니까?'
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 68%
-
+source-wordcount: '440'
+ht-degree: 67%
 ---
-
 # 대상자 선택
 
 대상은 [!DNL Adobe Target] 활동에 입력된 사이트 방문자를 결정합니다.
@@ -58,7 +65,7 @@ ht-degree: 68%
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### Adobe Target(6:21)에서 대상 사용 ![개요 배지](/help/main/assets/overview.png)
+### Adobe Target에서 대상 사용(6:21) ![개요 배지](/help/main/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 대상자를 사용하는 방법을 설명합니다.
 

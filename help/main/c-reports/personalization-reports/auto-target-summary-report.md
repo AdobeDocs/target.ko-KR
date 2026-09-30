@@ -5,21 +5,27 @@ title: 자동 타겟 요약 보고서는 어떻게 사용합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-TQID: https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8
+TQID: 'https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: '666'
 ht-degree: 35%
-
 ---
-
 # [!UICONTROL Auto-Target 요약 보고서]
 
 [!DNL Adobe Target]의 [!UICONTROL 자동 타겟 요약] 보고서를 해석하는 방법에 대한 정보입니다.
@@ -47,14 +53,14 @@ ht-degree: 35%
 
 * 표의 다양한 행은 활동 성능을 이해하는 데 도움이 됩니다.
 
-   * 보고 페이지의 표 맨 위 두 행은 컨트롤에 할당된 방문자(즉, 임의로 제공된 경험)와 개인화 알고리즘에 할당된 방문자 간의 A/B 테스트 결과를 보여 줍니다. 이 정보는 무작위로 제공된 제어와 비교하여 개인화 알고리즘이 수행되는 방법을 측정하는 데 사용될 수 있다.
-   * 나머지 행은 경험 수준의 결과를 보여줍니다. 각 경험에 대해서는, 해당 경험이 임의로 제공되는 통제 경험으로서 표시된 방문자의 평균 응답과 경험이 개인화 알고리즘을 사용하는 것으로 표시된 방문자의 평균 응답 간 비교가 있습니다.
+  * 보고 페이지의 표 맨 위 두 행은 컨트롤에 할당된 방문자(즉, 임의로 제공된 경험)와 개인화 알고리즘에 할당된 방문자 간의 A/B 테스트 결과를 보여 줍니다. 이 정보는 무작위로 제공된 제어와 비교하여 개인화 알고리즘이 수행되는 방법을 측정하는 데 사용될 수 있다.
+  * 나머지 행은 경험 수준의 결과를 보여줍니다. 각 경험에 대해서는, 해당 경험이 임의로 제공되는 통제 경험으로서 표시된 방문자의 평균 응답과 경험이 개인화 알고리즘을 사용하는 것으로 표시된 방문자의 평균 응답 간 비교가 있습니다.
 
 * 보고서에서 각 경험 옆에 있는 녹색 확인 아이콘은 해당 경험에 대해 개인화된 머신 러닝 모델이 생성되었음을 나타냅니다. 시계 아이콘은 모델을 만들 수 있는 충분한 트래픽이 제공되지 않았음을 나타냅니다.
 
-   * 모델은 경험마다 만들어지므로 녹색 확인 아이콘이 있는 경험과 시계 아이콘이 있는 다른 경험들을 위한 모델이 표시될 수 있습니다.
-   * 이 경우 모든 경험을 위해 모델을 만드는 활동의 속도를 높이기 위해 아직 만들어지지 않은 모델이 있는 경험에 추가 트래픽이 전송됩니다.
-   * 개인화를 시작하려면 구축된 모델(녹색 확인 표시)이 있는 경험이 두 개 이상 있어야 합니다.
+  * 모델은 경험마다 만들어지므로 녹색 확인 아이콘이 있는 경험과 시계 아이콘이 있는 다른 경험들을 위한 모델이 표시될 수 있습니다.
+  * 이 경우 모든 경험을 위해 모델을 만드는 활동의 속도를 높이기 위해 아직 만들어지지 않은 모델이 있는 경험에 추가 트래픽이 전송됩니다.
+  * 개인화를 시작하려면 구축된 모델(녹색 확인 표시)이 있는 경험이 두 개 이상 있어야 합니다.
 
 * 경험 A의 전환율과 경험 B의 전환율을 비교하는 것은 [!UICONTROL 자동 타겟]에서 올바른 비교가 아닙니다. 문제는 지능적인 방식으로 제공될 때와 임의 방식(다시 말해 통제군 사용)으로 제공될 때 중 언제 경험 A가 더 나은 성과를 보이는가 하는 것입니다. 또한 개인화 알고리즘은 개별 경험이 아니라 전체 활동에 대한 성공 지표에 대해 최적화하려고 시도하므로 마케터는 개별 경험의 상승도 해석에 대해 주의해야 합니다.
 * 상승도가 가장 높은 경험은 모집단 내에서 분화가 가장 큰 것으로 이해할 수 있습니다. 즉, 알고리즘이 해당 특정 경험을 가장 좋아하는 세그먼트를 발견했습니다.

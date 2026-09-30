@@ -1,24 +1,31 @@
 ---
 keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
-description: 온라인 도움말, 튜토리얼, 비디오 및 개발자 설명서(SDK, API 및 JavaScript 라이브러리)를 포함한 Adobe  [!DNL Adobe Target] 설명서 및 리소스에 액세스합니다.
-title: ' [!DNL Adobe Target]에 대한 설명서와 리소스는 어디에서 찾을 수 있습니까?'
+description: 온라인 도움말, 튜토리얼, 비디오 및 개발자 설명서(SDK, API 및 JavaScript 라이브러리)를 포함한 [!DNL Adobe Target] 설명서 및 자료에 액세스합니다.
+title: '[!DNL Adobe Target]에 대한 설명서 및 리소스는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-TQID: https://experienceleague.adobe.com/68ZfYI2cTljrtoOwDja1bb3ZdZYMi-zOSPB7NgL3EbA
+TQID: 'https://experienceleague.adobe.com/68ZfYI2cTljrtoOwDja1bb3ZdZYMi-zOSPB7NgL3EbA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 511
-ht-degree: 89%
-
+source-wordcount: '512'
+ht-degree: 84%
 ---
-
 # [!DNL Target]설명서 및 리소스 개요
 
 [!DNL Adobe Target]설명서 및 리소스는 [!DNL Target] UI 사용 안내서, 개발자 정보(SDK 및 API 포함), 튜토리얼, 커뮤니티 포럼, 비디오 및 웨비나를 포함하여 다양한 형식으로 제공됩니다.

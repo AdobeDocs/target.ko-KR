@@ -1,32 +1,46 @@
 ---
 keywords: Automated Personalization;ap;데이터 업로드;오프라인 데이터;개인화 알고리즘;자동 타겟;자동 타겟;우수 사례
-description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] 활동에서 개인화 모델을 만들 때 오프라인 데이터를 업로드하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] 활동에서 개인화 모델을 만들 때 오프라인 데이터를 업로드하는 방법을 알아봅니다.'
 title: Personalization 알고리즘을 위해 데이터를 업로드하려면 어떻게 해야 합니까?
 feature: Automated Personalization, Auto-Target
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-TQID: https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0
+TQID: 'https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '324'
 ht-degree: 12%
-
 ---
-
 # [!DNL Target] 개인화 알고리즘에 대한 데이터 업로드
 
 CRM 정보 또는 고객 이탈 성향 점수와 같은 오프라인 데이터는 [!DNL Adobe Target] [!UICONTROL AP(Automated Personalization]) 및 [!UICONTROL 자동 타겟] 활동에서 개인화 모델을 만들 때 매우 유용할 수 있습니다.

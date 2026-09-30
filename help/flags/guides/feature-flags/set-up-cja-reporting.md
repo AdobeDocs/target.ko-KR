@@ -4,13 +4,14 @@ description: Customer Journey Analytics을 통해 기능 플래그 및 기능 �
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 57bd1106-2b3d-4e03-882a-acfef1c0df66
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 4%
-
 ---
-
 # 기능 플래그 보고를 위한 CJA 설정 {#set-up-cja-reporting}
 
 플래그와 Adobe Customer Journey Analytics(CJA) 간의 통합은 기능 플래그 변형의 비즈니스 영향을 측정하는 통합된 방법을 제공합니다. 언제든지 CJA 성공 지표를 플래그 보고서에 적용하고 [실험 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation)과 같은 Customer Journey Analytics 기능을 활용하여 실험 성능을 평가하고 기능 변형이 고객 행동에 미치는 영향을 파악합니다.

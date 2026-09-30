@@ -1,23 +1,30 @@
 ---
 keywords: 카탈로그 검색;카탈로그;검색;제외;컬렉션;필터;권장 사항
-description: ' [!DNL Recommendations] [!UICONTROL 카탈로그 검색]을 사용하여 제품 또는 콘텐츠를 찾고 카탈로그에서 항목을 제거하는 방법에 대해 알아봅니다.'
-title: ' [!DNL Recommendations] [!UICONTROL 카탈로그 검색]을 사용하려면 어떻게 합니까?'
+description: '[!DNL Recommendations] [!UICONTROL 카탈로그 검색]을(를) 사용하여 제품 또는 콘텐츠를 찾고 카탈로그에서 항목을 제거하는 방법에 대해 알아봅니다.'
+title: '[!DNL Recommendations] [!UICONTROL 카탈로그 검색]을 사용하려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
+TQID: 'https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 552
-ht-degree: 21%
-
+source-wordcount: '554'
+ht-degree: 20%
 ---
-
 # [!UICONTROL 카탈로그 검색]
 
 [!DNL Adobe Recommendations]의 [!UICONTROL 카탈로그 검색] 페이지는 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고 패싯을 필터링하고 테이블에서 열을 수정하고 새 검색 패싯을 추가하는 등의 작업을 수행할 수 있습니다.

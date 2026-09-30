@@ -1,18 +1,29 @@
 ---
 keywords: 경험;제어;자동화된 개인화;자동 타겟
-description: ' [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization]​(AP) 또는 [!UICONTROL 자동 타겟] 활동을 만드는 동안 컨트롤로 사용할 환경을 선택하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]에서 [!UICONTROL Automated Personalization] (AP) 또는 [!UICONTROL 자동 타겟] 활동을 만드는 동안 컨트롤로 사용할 환경을 선택하는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 특정 환경을 제어로 사용하려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 39%
-
 ---
-
 # [!UICONTROL Automated Personalization] 또는 [!UICONTROL 자동 타겟] 활동에 대한 컨트롤 선택
 
 AP([[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md)) 또는 AT([[!UICONTROL 자동 타겟]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)) 활동을 만드는 동안 제어로 사용할 특정 경험이나 임의로 제공된 경험을 선택할 수 있습니다.
@@ -49,6 +60,6 @@ AP([[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-
 * 모든 제어 트래픽은 제어로 경험을 선택할 때 단일 경험 또는 오퍼 세트로 전환되므로(제어 트래픽 양이 활동의 경험 또는 오퍼 수로 분할되는 임의에 비해) 일반적으로 제어로 유입되는 트래픽이 많이 필요하지 않습니다. 10%는 시작하기에 좋은 장소입니다.
 * 특정 경험이 있는 라이브 활동에 다음 중 하나를 제어로 수행하면 제어가 이전에 선택한 특정 경험 대신 임의로 제공된 경험으로 자동 재설정됩니다.
 
-   * 경험 삭제
-   * 위치 또는 오퍼 제거([!UICONTROL Automated Personalization]만 해당)
-   * 중복 오퍼 제거 또는 제외 그룹을 통해 수동으로 경험 제외([!UICONTROL Automated Personalization]만 해당)
+  * 경험 삭제
+  * 위치 또는 오퍼 제거([!UICONTROL Automated Personalization]만 해당)
+  * 중복 오퍼 제거 또는 제외 그룹을 통해 수동으로 경험 제외([!UICONTROL Automated Personalization]만 해당)

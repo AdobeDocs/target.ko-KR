@@ -4,20 +4,23 @@ description: Adobe Target에서 활동을 올바르게 구성하여 동일한 �
 title: 활동 충돌을 피하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-TQID: https://experienceleague.adobe.com/R6cwp4KnoYPO9Wxr47HswtBX6jKPJ0i-UGdtA1ZHawU
+TQID: 'https://experienceleague.adobe.com/R6cwp4KnoYPO9Wxr47HswtBX6jKPJ0i-UGdtA1ZHawU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 45%
-
 ---
-
 # 활동 충돌
 
 [!DNL Adobe Target]의 [!UICONTROL 활동 개요] 페이지에 있는 [!UICONTROL 충돌] 탭에는 사이트의 활동 충돌이 나열됩니다.

@@ -3,13 +3,14 @@ title: 컨텍스트 속성 만들기
 description: 대상 기준에서 사용할 수 있도록 플래그에서 컨텍스트 속성 및 컨텍스트 그룹을 만들고 구성하는 방법에 대해 알아봅니다.
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
-
 ---
-
 # 컨텍스트 속성 만들기 {#creating-your-context-attributes}
 
 컨텍스트 속성은 사용자, 세션 또는 애플리케이션 컨텍스트(예: 구독 계층, 앱 버전 또는 지역)를 설명하는 사용자 지정 데이터 필드입니다. 컨텍스트 속성을 사용하여 기능 플래그에 대한 대상 기준을 정의합니다.

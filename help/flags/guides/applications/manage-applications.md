@@ -4,13 +4,14 @@ description: 새 애플리케이션 추가를 포함하여 플래그의 애플�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 3%
-
 ---
-
 # 애플리케이션 관리 {#manage-applications}
 
 Flags의 **application**&#x200B;은(는) 기능 플래그로 제어할 서비스 또는 제품을 나타냅니다. 기능 플래그를 만들려면 먼저 하나 이상의 애플리케이션을 콘솔에 온보딩해야 합니다.

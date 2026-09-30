@@ -1,21 +1,27 @@
 ---
 keywords: 자동화된 트래픽 할당;타깃팅;자동 할당;자동 할당
-description: ' [!DNL Adobe Target] 의 [!UICONTROL 자동 할당] 활동이 둘 이상의 경험에서 승자를 식별하고 더 많은 트래픽을 승자에게 자동으로 재할당하는 방법에 대해 알아봅니다.'
+description: '[!DNL Adobe Target]의 [!UICONTROL 자동 할당] 활동이 둘 이상의 경험에서 승자를 식별하고 더 많은 트래픽을 승자에게 자동으로 재할당하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL 자동 할당] 활동이 더 빠른 결과와 더 높은 매출을 얻을 수 있습니까?'
 feature: Auto-Allocate
 exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
-TQID: https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk
+TQID: 'https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: '561'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL 자동 할당]은(는) 수동 테스트보다 더 빠른 테스트 결과와 더 높은 매출을 제공합니다.
 
 수동 A/B 활동에서는 활동이 완료될 때까지 전체 대상자에게 우승 경험을 전달할 수 없기 때문에 전환율이 손실될 수 있습니다. 트래픽 분산은 일부 경험이 다른 경험보다 뛰어난 성과를 보인다는 사실을 인식하더라도 고정된 상태를 유지하며, 승자에게 조치를 취하려면 먼저 활동이 전체 과정을 실행해야 합니다.

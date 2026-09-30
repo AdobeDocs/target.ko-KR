@@ -1,25 +1,30 @@
 ---
 keywords: 데이터 분산;분석;차이;분산;a4t;analytics for target;보고 소스로 분석;불일치;일치하지 않음
-description: Analytics for [!DNL Target] (A4T)을 사용하지 않아 데이터 분산이 모두 삭제될 때 Adobe [!DNL Target] 과(와) Analytics 간의 예상 데이터 분산에 대해 알아봅니다.
+description: Analytics for [!DNL Target] (A4T)을 사용하지 않아 데이터 분산이 모두 삭제될 때 Adobe [!DNL Target]과(와) Analytics 간의 예상 데이터 분산에 대해 알아봅니다.
 title: Analytics와 A4T 간의 예상 데이터 차이는 무엇입니까?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-TQID: https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg
+TQID: 'https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 731
+source-wordcount: '732'
 ht-degree: 45%
-
 ---
-
 # A4T를 사용할 때와 사용하지 않을 때 Adobe [!DNL Target]과(와) Adobe Analytics 간에 예상되는 데이터 분산
 
 Analytics를 보고 소스(A4T)로 *사용*&#x200B;할 때와 *사용하지 않을* 때 [!DNL Target]와 Adobe [!DNL Analytics] 간에 예상되는 데이터 차이에 대한 정보입니다. A4T가 데이터 분산을 크게 줄임.

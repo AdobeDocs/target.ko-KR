@@ -1,16 +1,23 @@
 ---
 keywords: A/B;활동 지표;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
-description: '[!UICONTROL 전환], [!UICONTROL 매출], [!UICONTROL 참여]와 같이 방문이 성공적으로 수행된 시기를 결정하기 위해  [!DNL Adobe Target] A/B 활동에서 지표를 지정하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target] A/B 활동에서 지표를 지정하여 [!UICONTROL 전환], [!UICONTROL 매출], [!UICONTROL 참여]와 같이 방문이 성공적으로 수행된 시기를 결정하는 방법을 알아봅니다.'
 title: A/B 활동에서 목표 지표를 설정하려면 어떻게 합니까?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '345'
 ht-degree: 57%
-
 ---
-
 # 지표 설정
 
 [!DNL Adobe Target] A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.

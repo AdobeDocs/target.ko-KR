@@ -1,37 +1,55 @@
 ---
 keywords: Target Standard;faq;자주 묻는 질문;치트 시트;치트시트
-description: 자세한 정보를 보려면 정보 및 링크와 함께  [!DNL Target]의 기능 사용에 대한 자주 묻는 질문 목록을 살펴보십시오.
+description: 자세한 정보를 보려면 정보 및 링크와 함께 [!DNL Target]의 기능 사용에 대한 자주 묻는 질문 목록을 살펴보십시오.
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
+TQID: 'https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2871
+source-wordcount: '2871'
 ht-degree: 51%
-
 ---
-
 # Target 최적화 및 개인화 FAQ
 
 [!DNL Adobe Target] 기능 사용에 대한 FAQ에 대한 답변을 살펴보십시오. 심층적인 통찰력을 위한 직접 링크를 통해 실험을 최적화하고, 경험을 개인화하고, 유용한 리소스에 액세스하는 방법을 알아보십시오.
@@ -165,7 +183,7 @@ ht-degree: 51%
 **고정된 시간에 활동을 시작 및 종료하도록 예약할 수 있습니까?**
 
 +++세부 정보 보기
-시작 및 종료 날짜를 지정하여 3파트 활동 워크플로 중 [!UICONTROL 목표 및 설정][&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) 단계의 예약 기능을 사용하십시오.
+시작 및 종료 날짜를 지정하여 3파트 활동 워크플로 중 [!UICONTROL 목표 및 설정]&#x200B;[&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) 단계의 예약 기능을 사용하십시오.
 
 활동을 활성화해야 합니다. 라이브 활동만 지정된 일정을 준수합니다. 종료 날짜에 도달하면 활동이 [!UICONTROL 종료됨] 상태로 전환됩니다.
 

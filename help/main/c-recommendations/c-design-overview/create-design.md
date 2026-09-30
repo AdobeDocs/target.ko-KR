@@ -1,22 +1,28 @@
 ---
 keywords: 권장 사항 디자인;디자인 만들기;디자인 복사
-description: 기본 디자인을 사용하거나 페이지의 레이아웃에 가장 잘 맞는 사용자 지정 디자인을 만들어  [!DNL Target Recommendations] 디자인을 만드는 방법을 알아봅니다.
+description: 기본 디자인을 사용하거나 페이지 레이아웃에 가장 잘 맞는 사용자 지정 디자인을 만들어 [!DNL Target Recommendations] 디자인을 만드는 방법을 알아봅니다.
 title: Recommendations에서 디자인을 만들려면 어떻게 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+TQID: 'https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1065
+source-wordcount: '1067'
 ht-degree: 23%
-
 ---
-
 # 디자인 만들기
 
 디자인은 페이지에 권장 사항이 어떻게 나타나는지를 정의합니다.
@@ -318,7 +324,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## 교육 비디오: 권장 사항(3:20)에서 사용자 지정 디자인 만들기 ![개요 배지](/help/main/assets/overview.png)
+## 교육 비디오: 권장 사항에서 사용자 지정 디자인 만들기(3:20) ![개요 배지](/help/main/assets/overview.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 

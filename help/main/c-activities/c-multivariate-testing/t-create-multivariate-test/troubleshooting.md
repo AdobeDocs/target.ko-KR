@@ -1,22 +1,26 @@
 ---
 keywords: 다변량 테스트;문제 해결;문제 해결;mvt
-description: 제안된 해결 방법과 함께  [!DNL Adobe Target]의 [!UICONTROL 다변량 테스트]​(MVT) 활동을 사용하는 동안 발생할 수 있는 잠재적인 어려움에 대해 알아봅니다.
+description: 제안된 해결 방법과 함께 [!DNL Adobe Target]에서 [!UICONTROL 다변량 테스트] (MVT) 활동을 사용하는 동안 발생할 수 있는 잠재적인 문제를 살펴보십시오.
 title: '[!UICONTROL 다변량 테스트]의 문제를 해결하려면 어떻게 합니까?'
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
-TQID: https://experienceleague.adobe.com/O9lmC1PmICPCOxcMDYVcSdpRoM-bqwKR-79deFIG2mg
+TQID: 'https://experienceleague.adobe.com/O9lmC1PmICPCOxcMDYVcSdpRoM-bqwKR-79deFIG2mg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 174
+source-wordcount: '174'
 ht-degree: 21%
-
 ---
-
 # [!UICONTROL 다변량 테스트] 활동 문제 해결
 
 이 문서에는 [!DNL Adobe Target]에서 MVT([!UICONTROL 다변량 테스트])를 디자인할 때 발생할 수 있는 몇 가지 문제를 해결하기 위한 제안 사항이 포함되어 있습니다.
@@ -30,6 +34,6 @@ ht-degree: 21%
 
   경험 이름 및 보고서를 재설정하는 특정 작업은 다음과 같습니다.
 
-   * 새 위치 추가
-   * 위치 삭제
-   * 새 오퍼 추가 또는 기존 위치에서 오퍼 삭제
+  * 새 위치 추가
+  * 위치 삭제
+  * 새 오퍼 추가 또는 기존 위치에서 오퍼 삭제

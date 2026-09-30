@@ -1,16 +1,23 @@
 ---
 keywords: 템플릿 테스트;템플릿;유사한 페이지의 동일한 경험;템플릿 테스트
-description: Adobe [!DNL Target] 시각적 경험 작성기(VEC)를 사용하여 구조가 유사하거나 동일한 템플릿 요소를 포함하는 여러 페이지에 동일한 경험을 포함하는 방법에 대해 알아봅니다.
+description: Adobe [!DNL Target] VEC(시각적 경험 작성기)를 사용하여 구조가 유사하거나 동일한 템플릿 요소를 포함하는 여러 페이지에 동일한 경험을 포함하는 방법에 대해 알아봅니다.
 title: 유사한 페이지에 동일한 경험을 포함할 수 있습니까?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '625'
 ht-degree: 32%
-
 ---
-
 # 유사한 페이지에 동일한 경험 포함
 
 [!DNL Adobe Target]의 페이지 템플릿을 사용하여 페이지에 구조를 제공하거나 페이지에 유사한 요소가 포함되어 있는 경우 유사한 구조의 페이지 요소에서 또는 전체 도메인에서 변형을 테스트합니다.

@@ -4,13 +4,14 @@ description: 각 상태의 의미와 허용되는 전환을 포함하여 플래�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 3%
-
 ---
-
 # 릴리스 상태 {#release-states}
 
 릴리스 관리자는 콘솔 탐색 모음에서 직접 릴리스의 상태를 업데이트할 수 있습니다. 상태는 릴리스가 라이브인지, 테스트로 제한되는지, 완전히 롤아웃되는지 또는 종료되는지를 제어합니다.

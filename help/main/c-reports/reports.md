@@ -1,25 +1,32 @@
 ---
 keywords: 보고서;IP 주소 차단;IP 주소에서 방문자 차단;보고서 다운로드;csv;보고
-description: ' [!DNL Adobe Target]의 보고 기능을 마스터하여 활동을 최적화하여 의사 결정을 높이고 ROI를 높일 수 있습니다.'
+description: '[!DNL Adobe Target]의 보고 기능을 마스터하여 활동을 최적화하여 의사 결정을 높이고 ROI를 높일 수 있습니다.'
 title: 보고서를 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-TQID: https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI
+TQID: 'https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: '948'
 ht-degree: 24%
-
 ---
-
 # 보고서
 
 보고서는 데이터를 기반으로 결정을 내리는 데 도움이 되는 [!DNL Adobe Target] 활동의 진행 상황과 결과에 대한 정보를 제공합니다. 보고서 데이터를 통해 활동 종료 시점을 결정하고 우승자인 경험 또는 오퍼를 보여주고 다음 작업을 결정하는 데 필요한 인사이트 또는 통찰력을 제공할 수 있습니다.

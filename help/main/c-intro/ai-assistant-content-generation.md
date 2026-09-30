@@ -1,33 +1,41 @@
 ---
 keywords: ai 도우미;인공 지능 도우미;콘텐츠 생성;콘텐츠 가속기;콘텐츠 생성;콘텐츠 생성
-description: ' [!DNL AI Assistant]을(를) 사용하여 매력적인 콘텐츠를 생성하는 방법을 알아봅니다.'
-title: ' [!DNL AI Assistant] in [!DNL Target] 을(를) 사용하여 매력적인 콘텐츠를 만들려면 어떻게 해야 합니까?'
+description: '[!DNL AI Assistant]을(를) 사용하여 매력적인 콘텐츠를 생성하는 방법을 알아봅니다.'
+title: '[!DNL Target]의 [!DNL AI Assistant]을(를) 사용하여 매력적인 콘텐츠를 만들려면 어떻게 해야 합니까?'
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip="[!DNL Adobe Target]의 Beta 기능은 무엇입니까?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+TQID: 'https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 825
-ht-degree: 2%
-
+source-wordcount: '835'
+ht-degree: 1%
 ---
-
 # 콘텐츠 생성에 [!DNL Adobe Target]의 [!DNL AI Assistant] 사용
 
 [!DNL Adobe Target]에서 [!DNL AI Assistant]&#x200B;(으)로 참여 및 전환을 유도합니다. 생성 AI를 활용하여 대상자와 공감하고 활동 컨텐츠를 향상시키는 개인화되고 영향력이 큰 텍스트를 제작할 수 있습니다.
 
 ## 사전 요구 사항
 
-1. [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)의 활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
+1. [!DNL Adobe Target]&#x200B;[&#128279;](/help/main/c-intro/enabling-ai-assistant.md)의 활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
 
    * 조직은 먼저 법률 약관에 동의해야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
    * 관리자가 [!DNL AI Assistant]에 액세스할 수 있는 충분한 권한을 부여해야 합니다.

@@ -5,13 +5,20 @@ title: Automated Personalization 활동에서 경험 미리보기 URL을 사용�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 48%
-
 ---
-
 # 경험치 미리보기 URL을 사용하여 Automated Personalization 활동 미리보기
 
 미리 보기 및 QA 목적으로 활동이 라이브 상태가 되기 전에 사이트에서 직접 경험 콘텐츠를 볼 수 있도록 [!DNL Target] [!UICONTROL Automated Personalization] 활동에 대한 경험 미리 보기 URL을 생성할 수 있습니다. 경험 미리보기 URL은 타깃팅을 우회하여 특정 경험을 강제로 볼 수 있습니다.

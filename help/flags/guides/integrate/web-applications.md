@@ -4,13 +4,14 @@ description: 웹 SDK을 사용하여 웹 애플리케이션에 플래그를 통�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 16%
-
 ---
-
 # 웹 애플리케이션 {#web-applications}
 
 웹 애플리케이션은 웹 SDK을 통해 플래그와 통합됩니다.

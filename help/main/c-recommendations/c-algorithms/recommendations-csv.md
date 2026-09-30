@@ -1,22 +1,28 @@
 ---
 keywords: 사용자 지정 기준 만들기;알고리즘;기준;권장 사항 기준;csv;ftp;csv 업로드
-description: CSV 파일을 업로드하여 Adobe [!DNL Target] Recommendations에서 권장 사항을 사용자 지정하는 방법을 알아봅니다.
-title: ' [!DNL Recommendations]에서 사용자 지정 기준을 업로드하려면 어떻게 해야 합니까?'
+description: CSV 파일을 업로드하여 Adobe [!DNL Target] 권장 사항에서 권장 사항을 사용자 지정하는 방법을 알아봅니다.
+title: '[!DNL Recommendations]에서 사용자 지정 기준을 업로드하려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-TQID: https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50
+TQID: 'https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 696
+source-wordcount: '697'
 ht-degree: 32%
-
 ---
-
 # 사용자 지정 기준 업로드
 
 CSV 파일을 업로드하여 [!DNL Adobe Target]에서 권장 사항을 사용자 지정합니다.

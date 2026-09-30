@@ -1,40 +1,59 @@
 ---
 keywords: 알림;스킬 빌더;개발자 채팅;커피 브레이크;이벤트;forrester;gartner;웨비나
 description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등을 포함한 Adobe [!DNL Target] 이벤트에 등록하십시오.
-title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
+title: '[!DNL Target]개의 공지 및 이벤트 정보는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-TQID: https://experienceleague.adobe.com/jTTFaG0rC7XEmy7yzL3YSeCqEdMy-oH9mbCMvufT-FQ
+TQID: 'https://experienceleague.adobe.com/jTTFaG0rC7XEmy7yzL3YSeCqEdMy-oH9mbCMvufT-FQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: addf009e-030a-4310-8534-776a3e62ed48
+    internal-label: Customer lifecycle
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Privacy
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2199
-ht-degree: 95%
-
+source-wordcount: '2201'
+ht-degree: 94%
 ---
-
 # [!DNL Adobe Target] 공지 및 이벤트
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
@@ -57,7 +76,7 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 
 If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=ko){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=ko){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
 +++
 -->
@@ -88,7 +107,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   비즈니스의 판도를 바꾸고 참여와 매출을 증대시키는 추천 알고리즘에 대해 알아봅니다. 개인화된 제품 제안부터 콘텐츠 추천에 이르기까지 사용자의 여정을 원활하게 안내하는 기능은 비즈니스 성장을 크게 촉진하는 데 직접적으로 기여합니다.
 
-  [녹음 좀 들어 봐](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=ko#M3685){target=_blank}
+  [녹음 좀 들어 봐](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **AI 기반 개인화 잠금 해제**
 
@@ -151,10 +170,10 @@ Adobe 고객 성공 관리자인 Ramon Cespedes가 제시하는 개인화 제공
 
   이 세션에서는 다음에 대해 논의하여 [!DNL Adobe Target]의 새로운 기능을 활용하여 전환 상승도를 높이는 방법에 대해 알아보겠습니다.
 
-   * [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 활동 내 향상된 모델 컨트롤
-   * [!DNL Real-Time Customer Data Platform]의 [!DNL Adobe]에서 프로필 속성 및 고가치 세그먼트 평가 기능 사용
-   * 브랜드가 AI 기반 알고리즘을 세부 조정하여 더 빠른 속도와 의사 결정을 전달하는 방법
-   * 일대일 개인화 전달에 대한 고유한 사용 사례
+  * [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 활동 내 향상된 모델 컨트롤
+  * [!DNL Real-Time Customer Data Platform]의 [!DNL Adobe]에서 프로필 속성 및 고가치 세그먼트 평가 기능 사용
+  * 브랜드가 AI 기반 알고리즘을 세부 조정하여 더 빠른 속도와 의사 결정을 전달하는 방법
+  * 일대일 개인화 전달에 대한 고유한 사용 사례
 
   +++
 
@@ -174,11 +193,11 @@ Adobe 고객 성공 관리자인 Ramon Cespedes가 제시하는 개인화 제공
 
   교육 과정 맵:
 
-   * [!UICONTROL A/B 테스트], [!UICONTROL Multivariate Testing]&#x200B;(MVT), (XT), 자동화된 테스트 및 개인화
-   * 활동 설정에 대한 단계별 워크플로
-   * 배치 경험 프리페치, 모바일에 대한 개인화 항시 활성화
-   * 테스트에 대한 라이프사이클 지표 및 고객 경험 전반에 걸친 타겟팅
-   * Mobile SDK = 유연한 구현을 위한 API (iOS 및 Android 플랫폼)
+  * [!UICONTROL A/B 테스트], [!UICONTROL Multivariate Testing]&#x200B;(MVT), (XT), 자동화된 테스트 및 개인화
+  * 활동 설정에 대한 단계별 워크플로
+  * 배치 경험 프리페치, 모바일에 대한 개인화 항시 활성화
+  * 테스트에 대한 라이프사이클 지표 및 고객 경험 전반에 걸친 타겟팅
+  * Mobile SDK = 유연한 구현을 위한 API (iOS 및 Android 플랫폼)
 
   +++
 
@@ -192,9 +211,9 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
 
   다음에 대한 아이디어 살펴보기:
 
-   * 개인화를 사용하여 충성도를 구축하는 방법
-   * 경쟁 우위 확보를 위한 최적화
-   * 초개인화된 경험 만들기
+  * 개인화를 사용하여 충성도를 구축하는 방법
+  * 경쟁 우위 확보를 위한 최적화
+  * 초개인화된 경험 만들기
 
   +++
 
@@ -254,10 +273,10 @@ Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 �
 
   Dick&#39;s Sporting Goods가 어떻게 두 자릿수 성장을 이끌고 있는지 알아보십시오.
 
-   * 소매업을 위한 고성능 개인화 프로그램을 계획하고 시작하는 방법
-   * 조직 전체의 승인을 얻는 것이 장애물과 장애물을 극복하는 데 중요한 이유
-   * 웹 및 모바일에서 개인화 및 실험 활동을 확장함으로써 비즈니스에 미치는 전반적인 영향
-   * 분석 데이터를 사용하여 일반 방문자를 재방문 선수로 만들기 위한 소매 팁 및 요령
+  * 소매업을 위한 고성능 개인화 프로그램을 계획하고 시작하는 방법
+  * 조직 전체의 승인을 얻는 것이 장애물과 장애물을 극복하는 데 중요한 이유
+  * 웹 및 모바일에서 개인화 및 실험 활동을 확장함으로써 비즈니스에 미치는 전반적인 영향
+  * 분석 데이터를 사용하여 일반 방문자를 재방문 선수로 만들기 위한 소매 팁 및 요령
 
   +++
 
@@ -285,10 +304,10 @@ Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 �
 
   City National Bank가 [!DNL Target]을 활용하여 다음 작업을 수행하는 방법에 대해 알아보십시오.
 
-   * 규모 테스트 및 실험, 개인화 및 AI 자동화 활동
-   * 진정한 관계를 발전시키기 위해 크로스 채널을 통해 성공적인 경험을 구현하십시오.
-   * 참여도를 높이고 맞춤형 오퍼를 채택하여 비즈니스 성장 가속화
-   * 가치 창출 시간 및 ROI를 위해 멀티채널 캠페인을 최적화합니다.
+  * 규모 테스트 및 실험, 개인화 및 AI 자동화 활동
+  * 진정한 관계를 발전시키기 위해 크로스 채널을 통해 성공적인 경험을 구현하십시오.
+  * 참여도를 높이고 맞춤형 오퍼를 채택하여 비즈니스 성장 가속화
+  * 가치 창출 시간 및 ROI를 위해 멀티채널 캠페인을 최적화합니다.
 
   +++
 
@@ -316,11 +335,11 @@ Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 �
 
   Adobe 및 HSBC의 다음 웨비나에 가입하십시오.
 
-   * HSBC의 최적화 및 개인화 노력이 조직의 빠른 변화를 이끄는 방법
-   * AI 및 Analytics가 노력을 가속화하고 명확하고 중대한 비즈니스 영향을 제공하는 방법
-   * HSBC가 3000개 이상의 활동을 제공하는 규모로 성공적인 프로그램을 구축한 방법
+  * HSBC의 최적화 및 개인화 노력이 조직의 빠른 변화를 이끄는 방법
+  * AI 및 Analytics가 노력을 가속화하고 명확하고 중대한 비즈니스 영향을 제공하는 방법
+  * HSBC가 3000개 이상의 활동을 제공하는 규모로 성공적인 프로그램을 구축한 방법
 
-   * McKinsey 문서: “[COVID-19 복구는 디지털 방식](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),” 2020년 5월
+  * McKinsey 문서: “[COVID-19 복구는 디지털 방식](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),” 2020년 5월
 
   +++
 

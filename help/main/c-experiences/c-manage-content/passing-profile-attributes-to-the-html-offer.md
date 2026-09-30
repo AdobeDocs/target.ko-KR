@@ -1,24 +1,31 @@
 ---
 keywords: 동적 데이터;자산;데이터;오퍼;개인화된 오퍼;개인 오퍼;토큰 바꾸기
-description: ' [!DNL Adobe Target]의 오퍼에 동적 데이터를 전달하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]의 오퍼에 동적 데이터를 전달하는 방법을 알아봅니다.'
 title: 다이내믹 데이터를 오퍼에 전달하려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-TQID: https://experienceleague.adobe.com/SzzxgYAYlWviRCrG-LhAixFJbgHEN73shrt7jZOmp4Y
+TQID: 'https://experienceleague.adobe.com/SzzxgYAYlWviRCrG-LhAixFJbgHEN73shrt7jZOmp4Y'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 538
+source-wordcount: '547'
 ht-degree: 55%
-
 ---
-
 # 오퍼에 동적 데이터 전달
 
 [!DNL Adobe Target] 프로필에 저장된 방문자 정보를 동적으로 표시할 수 있습니다. 마찬가지로 활동 정보(예: 활동 이름 또는 경험 이름)를 사용하여 방문자의 관심 사항, 과거 동작 및 전체 프로필에 따라 개인화된 콘텐츠를 동적으로 반환하는 단일 오퍼를 생성할 수도 있습니다.

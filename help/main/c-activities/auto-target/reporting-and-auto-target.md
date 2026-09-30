@@ -1,26 +1,36 @@
 ---
 keywords: 자동 타겟;타깃팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제 해결;보고;보고서;자동 타겟 요약 보고서;요약 보고서;자동화된 세그먼트;중요 속성
-description: ' [!DNL Target]에서 [!UICONTROL 자동 타겟] 활동 보고서를 해석하는 방법을 알아봅니다.'
+description: '[!DNL Target]에서 [!UICONTROL 자동 타겟] 활동 보고서를 해석하는 방법을 알아봅니다.'
 title: '[!UICONTROL 자동 타겟] 보고서를 어떻게 해석합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
-TQID: https://experienceleague.adobe.com/kULapGCJA-c5IUDhu-2opyah6rRuU4l91KetAJ-oHYs
+TQID: 'https://experienceleague.adobe.com/kULapGCJA-c5IUDhu-2opyah6rRuU4l91KetAJ-oHYs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 223
+source-wordcount: '223'
 ht-degree: 12%
-
 ---
-
 # 보고 및 [!UICONTROL 자동 타겟]
 
 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 특성] 보고서를 포함하여 [!DNL Adobe Target]의 [!UICONTROL 자동 타겟 요약] 보고서를 해석하는 방법에 대한 정보입니다.

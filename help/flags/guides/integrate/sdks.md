@@ -4,13 +4,14 @@ description: 플래그의 SDK 아키텍처와 사용 가능한 AEP Web SDK 및 A
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 2%
-
 ---
-
 # SDK {#sdks}
 
 플래그는 기능 플래그를 애플리케이션에 통합하는 SDK를 제공합니다. 플래그는 AEP Web SDK 및 AEP Mobile SDK을 통해 배포됩니다.

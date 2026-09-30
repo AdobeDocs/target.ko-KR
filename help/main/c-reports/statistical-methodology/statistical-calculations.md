@@ -1,22 +1,26 @@
 ---
 keywords: 보고서;통계 방법론;통계 계산;통계;평균;전환율;방문자당 매출;rpv;신뢰 구간;상승도;상승도 t-테스트;오프라인 계산
-description: ' [!DNL Adobe Target]의 수동 [!UICONTROL A/B 테스트] 활동에 사용되는 통계 계산에 대해 알아봅니다.'
+description: '[!DNL Adobe Target]의 수동 [!UICONTROL A/B 테스트] 활동에 사용되는 통계 계산에 대해 알아봅니다.'
 title: '[!UICONTROL A/B 테스트] 활동에 사용된 통계 계산에 대해 어떻게 알 수 있습니까?'
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
+TQID: 'https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 224dafac8d5d0ba17baa4ee998ca7dd89b73b898
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: '1506'
 ht-degree: 1%
-
 ---
-
 # A/Bn 테스트의 통계 계산
 
 이 문서에서는 [!DNL Adobe Target]의 수동 A/Bn 테스트에 사용된 자세한 통계 계산을 문서화합니다. **[!UICONTROL 전환율]**, **[!UICONTROL 전환율의 신뢰 구간]**, **[!UICONTROL 상승도]**, **[!UICONTROL 상승도의 신뢰 구간]**, **[!UICONTROL 신뢰도]** 및 **[!UICONTROL 베이지안]** 결정 지표에 대한 정의가 제공됩니다.

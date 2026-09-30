@@ -4,13 +4,14 @@ description: 플래그의 기능 그룹을 통해 여러 애플리케이션에�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
-
 ---
-
 # 여러 기능을 제어하는 기능 그룹 {#feature-groups}
 
 [기능 플래그](what-is-a-feature-flag.md)는 단일 기능을 제어합니다. 여러 관련 기능 플래그를 함께 관리하고 동일한 대상에 도달하는지 확인해야 하는 경우 **기능 그룹**&#x200B;을 사용합니다.

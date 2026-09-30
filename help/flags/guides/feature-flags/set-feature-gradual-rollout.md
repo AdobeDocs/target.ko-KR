@@ -4,13 +4,14 @@ description: 플래그의 기능 플래그에 대한 비율 기반 점진적 롤
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 3%
-
 ---
-
 # 점진적으로 롤아웃할 기능 설정 {#gradual-rollout-feature}
 
 기능 플래그에 대한 롤아웃 비율이 **기본 정보** 탭에서 구성되었습니다. 롤아웃이 진행됨에 따라 언제든지 이 값을 위 또는 아래로 조정할 수 있습니다.
