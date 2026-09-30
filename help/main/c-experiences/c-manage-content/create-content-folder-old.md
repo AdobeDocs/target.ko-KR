@@ -4,13 +4,20 @@ description: 오퍼 라이브러리에서 폴더를 만들려면 어떻게 해�
 title: 코드 및 이미지 오퍼와 다른 폴더를 보관할 수 있도록 Adobe [!DNL Target] 오퍼 라이브러리에 폴더를 만드는 방법을 알아봅니다.
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 16%
-
 ---
-
 # 오퍼 폴더 만들기
 
 코드 오퍼, 이미지 오퍼와 다른 폴더를 보관할 Adobe Target 오퍼 라이브러리에 폴더를 만들어 하위 폴더 구조를 만듭니다.

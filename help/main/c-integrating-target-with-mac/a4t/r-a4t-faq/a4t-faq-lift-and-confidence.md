@@ -1,23 +1,28 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;상승도;ad hoc;report builder;신뢰도
-description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 상승도 및 신뢰도에 대한 질문에 대한 답변을 찾아보십시오. A4T를 사용하면  [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
+description: Analytics for [!DNL Target](A4T)을(를) 사용할 때 상승도 및 신뢰도에 대한 질문에 대한 답변을 찾아보십시오. A4T를 사용하면 [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
 title: A4T에서 상승도 및 신뢰도에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-TQID: https://experienceleague.adobe.com/QirHdzsM8SfNeGdQPEPM51KUqD5TDFUQmaB4th4-htY
+TQID: 'https://experienceleague.adobe.com/QirHdzsM8SfNeGdQPEPM51KUqD5TDFUQmaB4th4-htY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Optimization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: '549'
 ht-degree: 25%
-
 ---
-
 # 상승도 및 신뢰도 - A4T FAQ
 
 이 주제에서는 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target]의 보고 소스로 사용(A4T)할 때의 상승도 및 신뢰도와 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.

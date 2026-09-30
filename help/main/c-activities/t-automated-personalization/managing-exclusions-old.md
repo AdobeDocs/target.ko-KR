@@ -1,18 +1,27 @@
 ---
 keywords: 중복 제거;중복 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼 허용 안 함;제외;기본 컨텐츠;제외 그룹;
-description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 활동에서 제외를 관리합니다. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 콘텐츠를 제외합니다.'
+description: '[!DNL Adobe Target] [!UICONTROL Automated Personalization](AP) 활동에서 제외를 관리합니다. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 콘텐츠를 제외합니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 제외를 관리하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 47%
-
 ---
-
 # 제외 관리
 
 [!DNL Adobe Target]의 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동에서 제외 그룹을 만들고, 중복 오퍼를 제외하고, 특정 경험을 제외하고, 기본 콘텐츠를 제외하여 제외를 관리합니다.
@@ -122,7 +131,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상자를 제한할 수도 �
 
    ![exclude_content_vec_4 이미지](assets/exclude_content_vec_4.png)
 
-**양식 기반 경험 작성기를 사용하여 기본 콘텐츠를 제외하려면:**
+**양식 기반 경험 작성기를 사용하여 기본 콘텐츠를 제외하려면]:**[!UICONTROL 
 
 1. AP 활동을 작성하거나 편집할 때 **[!UICONTROL 컨텐츠]**&#x200B;에서 **[!UICONTROL 텍스트/HTML 변경]** 또는 **[!UICONTROL 이미지 오퍼 변경]**&#x200B;을 클릭합니다.
 1. 대화 상자에서 새 콘텐츠를 만들고 기본 콘텐츠의 오른쪽에 있는 **[!UICONTROL 포함]**&#x200B;을 선택 취소합니다(또는 [!UICONTROL 콘텐츠 선택] 화면에서 기본 이미지/비디오를 선택 취소합니다.).

@@ -1,24 +1,28 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;sitecatalyst;캠페인>레서피;test&target;통합
-description: Test&Target에 대한 이전 SiteCatalyst 통합과 Analytics for [!DNL Target] (A4T) 사용에 대해 자주 묻는 질문에 대한 답변을 살펴보십시오.
+description: Test&Target에 대한 이전 SiteCatalyst 통합과 Analytics for [!DNL Target](A4T) 사용에 대해 자주 묻는 질문에 대한 답변을 찾아보십시오.
 title: Test&Target 통합에 대한 SiteCatalyst에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
-TQID: https://experienceleague.adobe.com/mOxSRfT-QHQctFWFfIECidu639ybfGfGWPmFTf6jGLc
+TQID: 'https://experienceleague.adobe.com/mOxSRfT-QHQctFWFfIECidu639ybfGfGWPmFTf6jGLc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: '169'
 ht-degree: 39%
-
 ---
-
 # 기존 SiteCatalyst-Test&amp;Target 통합 - A4T FAQ
 
 이 주제에서는 기존 SiteCatalyst-Test&amp;Target 통합과 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target]&#x200B;(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.

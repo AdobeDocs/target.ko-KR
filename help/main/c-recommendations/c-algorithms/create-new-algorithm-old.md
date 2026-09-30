@@ -2,16 +2,23 @@
 keywords: 기준;알고리즘;업계 카테고리;페이지 유형;권장 사항 키;권장 사항 논리;논리;데이터 범위;전환 확인 기간;동작 데이터 소스;부분 디자인;백업 권장 사항;포함 규칙;속성 가중치;현재 카테고리;사용자 지정 속성;마지막 구매 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기 카테고리;인기;최근에 본 항목;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;최근에 본 항목
 description: Adobe Recommendations 활동의 콘텐츠를 제어하여 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드는 방법을 알아봅니다.
 title: 추천에서 기준을 만들려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2934'
 ht-degree: 48%
-
 ---
-
 # 기준 만들기
 
 [!UICONTROL Adobe Target] [!UICONTROL 권장 사항]의 기준은 [!UICONTROL 권장 사항] 활동의 콘텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오. 이러한 기준은 방문자의 작업을 사용하여 표시할 콘텐츠 또는 제품을 결정합니다.
@@ -68,7 +75,7 @@ ht-degree: 48%
 
    수직 시장 및 페이지 유형을 함께 사용하여 저장된 기준을 분류할 수 있습니다. 이렇게 하면 다른 [!DNL Recommendations] 활동에 대한 기준을 좀 더 쉽게 다시 사용할 수 있습니다.
 
-## [!UICONTROL 권장 사항 알고리즘] {#rec-algo}
+## [!UICONTROL 추천 알고리즘] {#rec-algo}
 
 1. **[!UICONTROL 알고리즘 유형]** 및 **[!UICONTROL 알고리즘]** 선택:
 
@@ -265,9 +272,9 @@ ht-degree: 48%
 
 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
-새 [!UICONTROL 권장 사항] 활동을 만들거나 기존 항목을 편집하는 경우 기본적으로 **나중에 사용하기 위해 기준 저장** 확인란이 선택됩니다. 다른 활동에서 해당 기준을 사용하지 않으려면 저장하기 전에 이 확인란을 선택 취소합니다.
+새 [!UICONTROL 권장 사항] 활동을 만들거나 기존 항목을 편집하는 경우 기본적으로 ]**나중에 사용하기 위해 기준 저장**[!UICONTROL  확인란이 선택됩니다. 다른 활동에서 해당 기준을 사용하지 않으려면 저장하기 전에 이 확인란을 선택 취소합니다.
 
-## 교육 비디오: 권장 사항(12:33)에서 기준 만들기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
+## 교육 비디오: 추천에서 기준 만들기(12:33) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
@@ -275,4 +282,4 @@ ht-degree: 48%
 * 기준 시퀀스 만들기
 * 사용자 지정 기준 업로드
 
->[!VIDEO](https://video.tv.adobe.com/v/35500?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

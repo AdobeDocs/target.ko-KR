@@ -1,22 +1,26 @@
 ---
 keywords: css 선택기;사용자 지정 코드;코드 편집기;모바일 웹 경험 편집기
-description: Adobe [!DNL Target] 의 수정 사항 패널을 사용하여 페이지 수정 사항을 보고 추가 수정 사항(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가하는 방법에 대해 알아봅니다.
+description: Adobe [!DNL Target]의 수정 사항 패널을 사용하여 페이지 수정 사항을 보고 추가 수정 사항(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가하는 방법에 대해 알아봅니다.
 title: 내 페이지를 어떻게 수정할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-TQID: https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU
+TQID: 'https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 82%
-
+source-wordcount: '2264'
+ht-degree: 81%
 ---
-
 # 수정 사항
 
 페이지 수정 사항을 보고 추가 수정 사항(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가할 수 있는 [!DNL Adobe Target]의 [!UICONTROL 수정 사항] 페이지에 대한 정보입니다.

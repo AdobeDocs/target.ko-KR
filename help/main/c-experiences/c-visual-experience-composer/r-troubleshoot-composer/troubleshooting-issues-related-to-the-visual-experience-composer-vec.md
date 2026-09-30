@@ -1,29 +1,37 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;tls;tls 1.2
-description: '[!UICONTROL 시각적 경험 작성기]​(VEC)에서 문제를 해결하는 방법을 알아봅니다.'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)에서 문제를 해결하는 방법을 알아봅니다.'
 title: '[!UICONTROL 시각적 경험 작성기]와 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
+TQID: 'https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 29%
-
 ---
-
 # [!UICONTROL 시각적 경험 작성기]와 관련된 문제 해결
 
 특정 조건에서 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)에 표시 문제가 발생하는 경우가 있습니다.
@@ -87,16 +95,16 @@ ht-degree: 29%
    * 규칙 이름
    * 수정 규칙
 
-      * **[!UICONTROL 추가]**&#x200B;에서 **[!UICONTROL 제거]**&#x200B;로 전환합니다.
-      * **[!UICONTROL 요청]**&#x200B;에서 **[!UICONTROL 응답]**&#x200B;으로 전환합니다.
-      * 헤더 이름으로 &quot;X-Frame-Options&quot;를 입력합니다.
-      * 이전 단계를 반복하고 헤더 이름으로 &quot;x-frame-options&quot;를 입력합니다.
+     * **[!UICONTROL 추가]**&#x200B;에서 **[!UICONTROL 제거]**&#x200B;로 전환합니다.
+     * **[!UICONTROL 요청]**&#x200B;에서 **[!UICONTROL 응답]**&#x200B;으로 전환합니다.
+     * 헤더 이름으로 &quot;X-Frame-Options&quot;를 입력합니다.
+     * 이전 단계를 반복하고 헤더 이름으로 &quot;x-frame-options&quot;를 입력합니다.
 
-        >[!NOTE]
-        >
-        >[!DNL Requestly]을(를) 통해 조작되는 헤더는 대/소문자를 구분합니다.
+       >[!NOTE]
+       >
+       >[!DNL Requestly]을(를) 통해 조작되는 헤더는 대/소문자를 구분합니다.
 
-      * 소스 URL에 대한 조건으로 **[!UICONTROL 다음과 같음]**&#x200B;을 **[!UICONTROL 포함]**&#x200B;으로 변경하고, VEC에 로드하려는 활동의 URL을 입력합니다.
+     * 소스 URL에 대한 조건으로 **[!UICONTROL 다음과 같음]**&#x200B;을 **[!UICONTROL 포함]**&#x200B;으로 변경하고, VEC에 로드하려는 활동의 URL을 입력합니다.
 
      ![chrome_extension 이미지](assets/chrome_extension.png)
 
@@ -140,14 +148,14 @@ ht-degree: 29%
 
 * 웹 페이지의 Javascript가 작성 라이브러리를 방해하지 않는지 확인합니다. 다음 예약된 이름을 사용하는 파일을 사용하거나 포함하지 마십시오.
 
-   * `target-vec-helper.js`
-   * `target-vec.js`
-   * `target.js`
-   * `admin.css`
-   * `sizzle.js`
-   * `mixContentCheck.html`
+  * `target-vec-helper.js`
+  * `target-vec.js`
+  * `target.js`
+  * `admin.css`
+  * `sizzle.js`
+  * `mixContentCheck.html`
 
-     또한 이러한 파일 내에 정의된 변수나 이벤트를 실수로 무시하면 VEC에 문제가 발생할 수 있습니다.
+    또한 이러한 파일 내에 정의된 변수나 이벤트를 실수로 무시하면 VEC에 문제가 발생할 수 있습니다.
 
 * 브라우저가 보안 사이트에서 비보안 페이지를 차단하고 있습니다.
 
@@ -161,7 +169,7 @@ ht-degree: 29%
 ## [!UICONTROL 찾아보기] 모드를 사용하면 VEC가 손상된 것으로 나타납니다. (VEC만 해당) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++세부 사항
-[!UICONTROL 찾아보기] 모드를 사용하는 동안 [!DNL Target] 라이브러리가 구현되지 않은 URL([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=ko){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank})에 액세스하거나 Frame-Buster 헤더를 포함하는 경우 VEC가 손상된 것으로 표시됩니다. 브라우저 보안 문제로 인해 [!DNL Target]이(가) 탐색한 URL에 제대로 액세스할 수 없거나 페이지가 로드될 경우 VEC URL이 일관되게 업데이트되지 않습니다.
+[!UICONTROL 찾아보기] 모드를 사용하는 동안 [!DNL Target] 라이브러리가 구현되지 않은 URL([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})에 액세스하거나 Frame-Buster 헤더를 포함하는 경우 VEC가 손상된 것으로 표시됩니다. 브라우저 보안 문제로 인해 [!DNL Target]이(가) 탐색한 URL에 제대로 액세스할 수 없거나 페이지가 로드될 경우 VEC URL이 일관되게 업데이트되지 않습니다.
 
 이 문제는 VEC가 `<iframe>`에서 웹 페이지를 로드하기 때문에 발생합니다. 브라우저의 현재 보안 메커니즘은 동일한 원본 정책으로 인해 [!DNL Target] UI가 지정된 프레임의 요소에 액세스하지 못하도록 합니다. 브라우저는 `location.href`과(와) 같은 정보를 포함하는 다른 원본의 프레임에 액세스하려는 스크립트를 차단합니다.
 

@@ -4,23 +4,32 @@ description: Adobe Target을 사용하여 테스트 및 개인화 활동에 대�
 title: 테스트 및 개인화 노력에 대한 영감을 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-TQID: https://experienceleague.adobe.com/8pCTZy1NR9Pt-TEWZFDinlS66fxhlYybFe69QrpMyT4
+TQID: 'https://experienceleague.adobe.com/8pCTZy1NR9Pt-TEWZFDinlS66fxhlYybFe69QrpMyT4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: '1073'
 ht-degree: 100%
-
 ---
-
 # 5장: 테스트 및 개인화 활동에 대한 영감.
 
 전환율과 매출을 높인 고객의 실제 활동에서 영감을 얻은 이러한 테스트 및 개인화 아이디어는 시도해 보거나 자신의 [!DNL Target] 활동에 대한 영감으로 사용할 가치가 있습니다. 비록 그 아이디어가 창의력과 브레인스토밍이 부족하여 여러분의 조직에 정확히 맞지 않더라도, 테스트 정신이나 개인화 아이디어에 기반한 활동을 개발하는 것을 고려해 보십시오.

@@ -1,17 +1,24 @@
 ---
 keywords: 트래픽 견적 도구;자동화된 개인화;ap;트래픽 예측
-description: ' [!DNL Adobe Target] [!UICONTROL 트래픽 견적 도구]를 사용하여 [!UICONTROL Automated Personalization] 활동을 성공시킬 트래픽이 충분한지 확인하십시오.'
+description: '[!DNL Adobe Target] [!UICONTROL 트래픽 견적 도구]를 사용하여 [!UICONTROL Automated Personalization] 활동을 성공시킬 충분한 트래픽이 있는지 확인하십시오.'
 title: 성공적인 [!UICONTROL Automated Personalization] 활동을 위해 필요한 트래픽의 양은 얼마입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '782'
 ht-degree: 9%
-
 ---
-
 # 성공에 필요한 트래픽 예측
 
 [!DNL Adobe Target] [!UICONTROL 트래픽 견적 도구]는 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동이 성공하기 위한 트래픽이 충분한지 여부를 알 수 있는 피드백을 제공합니다.

@@ -4,36 +4,56 @@ description: Adobe Target을 자세히 살펴보십시오. 사용 가능한 활�
 title: Target에 대한 높은 수준의 소개는 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-TQID: https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w
+TQID: 'https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f599e456-545c-47e5-8e50-b7dfe3579517
+    internal-label: Governance and control
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: a94ced60-8199-4549-b453-ede2acb4101e
+    internal-label: Hybrid implementation
   - id: b06652e6-189f-46a9-90c5-677f6d9cc699
+    internal-label: Adobe Admin Console for Enterprise
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2606
+source-wordcount: '2606'
 ht-degree: 72%
-
 ---
-
 # 2장: Adobe [!DNL Target] 개요
 
 [!DNL Adobe Target] 사용을 시작하기 전에 솔루션에 대한 높은 수준의 개요를 살펴보는 것이 도움이 될 수 있습니다. 이 장에서는 솔루션의 주요 기능, 이를 사용할 수 있는 브랜드 터치포인트, 구현 옵션, 중요한 사용자 인터페이스 기능 및 워크플로, 거버넌스 기능 및 전체 [!DNL Adobe Experience Cloud]에서 차지하는 역할에 대해 알아봅니다. [!DNL Adobe Target Premium] 기능으로 지정되지 않은 경우 이 장에 설명된 항목은 [!DNL Adobe Target Premium] 및 [!DNL Adobe Target Standard] 모두에서 사용할 수 있습니다. 자세한 내용은 [Target 소개](/help/main/c-intro/intro.md)를 참조하십시오.
@@ -75,8 +95,8 @@ ht-degree: 72%
 
 | 구현 유형 | 세부 사항 |
 | --- | --- |
-| 클라이언트측 | [!DNL Target]의 이러한 구현으로 [!DNL Target] 은 활동과 관련된 경험을 클라이언트 브라우저에 직접 전달합니다. 브라우저는 표시할 경험을 결정하고 표시합니다. 클라이언트측 구현에서는 WYSIWYG 편집기, **[!UICONTROL 시각적 경험 작성기]**(VEC) 또는 비시각적 인터페이스, **[!UICONTROL 양식 기반 경험 작성기]**&#x200B;를 사용하여 테스트 및 개인화 경험을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank} |
-| 서버측 | 이 유형의 [!DNL Target] 구현에서 클라이언트 디바이스는 서버를 통해 경험에 대한 요청을 하고, 서버는 [!DNL Target]에 요청을 보내고, [!DNL Target] 은 서버에 응답을 되돌려 보내며, 서버는 클라이언트 디바이스에 전달할 경험을 결정합니다. 경험은 음성 도우미를 통해 또는 시각적이지 않은 경험 또는 브라우저를 기반으로 하지 않는 디바이스를 통해 이메일이나 키오스크에 표시될 수 있습니다. 서버가 클라이언트와 [!DNL Target] 사이에 존재하기 때문에 제어력과 보안이 필요하거나 서버에서 실행하려는 복잡한 백엔드 프로세스가 있는 경우에 이러한 유형의 구현이 이상적입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank} |
+| 클라이언트측 | [!DNL Target]의 이러한 구현으로 [!DNL Target] 은 활동과 관련된 경험을 클라이언트 브라우저에 직접 전달합니다. 브라우저는 표시할 경험을 결정하고 표시합니다. 클라이언트측 구현에서는 WYSIWYG 편집기, **[!UICONTROL 시각적 경험 작성기]**(VEC) 또는 비시각적 인터페이스, **[!UICONTROL 양식 기반 경험 작성기]**&#x200B;를 사용하여 테스트 및 개인화 경험을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} |
+| 서버측 | 이 유형의 [!DNL Target] 구현에서 클라이언트 디바이스는 서버를 통해 경험에 대한 요청을 하고, 서버는 [!DNL Target]에 요청을 보내고, [!DNL Target] 은 서버에 응답을 되돌려 보내며, 서버는 클라이언트 디바이스에 전달할 경험을 결정합니다. 경험은 음성 도우미를 통해 또는 시각적이지 않은 경험 또는 브라우저를 기반으로 하지 않는 디바이스를 통해 이메일이나 키오스크에 표시될 수 있습니다. 서버가 클라이언트와 [!DNL Target] 사이에 존재하기 때문에 제어력과 보안이 필요하거나 서버에서 실행하려는 복잡한 백엔드 프로세스가 있는 경우에 이러한 유형의 구현이 이상적입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} |
 | 하이브리드 구현 | 이 구현에서는 주어진 사용 사례에 가장 적합한 구현 접근 방식을 선택합니다. 예를 들어 클라이언트측 구현을 사용하여 홈 페이지의 히어로 배너에서 A/B 제안을 테스트할 수 있지만, 서버측 구현을 사용하여 클라이언트 브라우저에 표시할 내부 검색 결과, 스마트 자동차 대시보드에 표시할 경험 또는 음성 지원에서 전달할 음성 응답을 결정할 수도 있습니다. |
 
 ## 활동 요소

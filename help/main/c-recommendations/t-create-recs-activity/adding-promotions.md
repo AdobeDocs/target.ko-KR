@@ -2,21 +2,27 @@
 keywords: 프로모션;전면 프로모션;후속 프로모션;프로모션 유형;항목 목록;속성별 프로모션;컬렉션 프로모션
 description: 프로모션된 항목을 추가하고 Adobe [!DNL Target] 권장 사항 디자인에서 해당 배치를 제어하는 방법에 대해 알아봅니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
 title: 권장 사항 디자인에서 프로모션을 추가하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-TQID: https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E
+TQID: 'https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '710'
 ht-degree: 41%
-
 ---
-
 # 프로모션 추가
 
 프로모션된 항목을 추가하고 [!DNL Adobe Target Recommendations] 디자인에서 해당 배치를 제어합니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
@@ -57,7 +63,7 @@ ht-degree: 41%
 
    * **[!UICONTROL 항목 목록]**&#x200B;을 선택하고 홍보할 특정 항목의 `entity.id` 값을 쉼표로 구분하여 입력하십시오.
 
-   * **속성별 판촉**&#x200B;을 선택하고 규칙을 추가하여 판촉할 항목의 속성을 정의합니다.
+   * ]**속성별 판촉**[!UICONTROL &#x200B;을 선택하고 규칙을 추가하여 판촉할 항목의 속성을 정의합니다.
 
      [!UICONTROL 속성별 승격]을 선택하면 동적 일치를 만들 수 있습니다. 자세한 내용은 [동적 및 정적 포함 규칙 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하세요.
 

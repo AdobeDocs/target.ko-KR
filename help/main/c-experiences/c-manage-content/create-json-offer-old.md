@@ -4,13 +4,20 @@ description: '[!UICONTROL 양식 기반 경험 작성기]에서 사용할 JSON �
 title: JSON 오퍼를 작성하는 방법
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 29%
-
 ---
-
 # JSON 오퍼 만들기
 
 [!UICONTROL 양식 기반 경험 작성기]에서 사용할 JSON 오퍼를 [!DNL Adobe Target]의 [!UICONTROL 오퍼 라이브러리]에 만듭니다.
@@ -23,7 +30,7 @@ JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시
 
 * JSON 오퍼는 현재 [!UICONTROL A/B 테스트], [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동에만 사용할 수 있습니다.
 * JSON 오퍼는 [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md)에서만 사용할 수 있습니다.
-* JSON 오퍼는 [Server Side API 및 Mobile Node.js, Java, .NET 및 Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}를 사용할 때 바로 검색할 수 있습니다.
+* JSON 오퍼는 [Server Side API 및 Mobile Node.js, Java, .NET 및 Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}를 사용할 때 바로 검색할 수 있습니다.
 * 브라우저에서 at.js 1.2.3(또는 이상)을 통해서만, `setJson` 작업을 사용하여 작업을 필터링함으로써 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}을(를) 사용하여 JSON 오퍼를 검색할 수 있습니다.
 * JSON 오퍼는 문자열이 아닌 기본 JSON 개체로 제공됩니다. 이러한 개체의 소비자는 개체를 문자열로 처리하고 JSON 개체로 변환하도록 더 이상 요구받지 않습니다.
 * JSON 오퍼는 비시각적 오퍼이므로 다른 오퍼(예: HTML 오퍼)와는 대조적으로 자동으로 적용되지 않습니다. 개발자는 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}을(를) 사용하여 오퍼를 명시적으로 가져오기 위한 코드를 작성해야 합니다.

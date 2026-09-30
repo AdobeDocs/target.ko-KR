@@ -1,22 +1,29 @@
 ---
 keywords: 시작 키트, 대상 환영 키트, 소개, 소개, 시작
-description: 실행 요약 결과 템플릿을 사용하여 Adobe  [!DNL Target]  활동과 성공 사례를 전달할 수 있습니다.
-title: 내  [!DNL Target]  활동의 결과를 조직과 어떻게 공유할 수 있습니까?
+description: 실행 요약 결과 템플릿을 사용하여 Adobe [!DNL Target] 활동과 성공 사례를 전달할 수 있습니다.
+title: 내 [!DNL Target] 활동의 결과를 조직과 어떻게 공유할 수 있습니까?
 feature: Overview
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-TQID: https://experienceleague.adobe.com/mO9F-HaF2IvFvB4m9uILZOondvs-POKUUGeb6Oq24EQ
+TQID: 'https://experienceleague.adobe.com/mO9F-HaF2IvFvB4m9uILZOondvs-POKUUGeb6Oq24EQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 100%
-
+source-wordcount: '218'
+ht-degree: 87%
 ---
-
 # 8장: 활동 결과 전달
 
 활동을 실행하고 놀라운 결과를 얻는 경우, 해당 결과를 조직과 공유해야 합니다. 고객을 더 많이 확보했거나, 매출이 늘었거나, 콜센터 통화를 줄여 비용을 절감했거나, 평균 주문 가격을 높였을 수 있습니다. [!DNL Target]을 통해 최적화하고 개인화하여 비즈니스에 어떤 도움이 될 수 있는지 이해 당사자에게 보여 주십시오.

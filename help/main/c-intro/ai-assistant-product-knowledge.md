@@ -1,27 +1,35 @@
 ---
 keywords: ai 도우미, 인공 지능 도우미
-description: ' [!DNL AI Assistant]을(를) 통해  [!DNL Target] 제품 지식을 얻는 방법에 대해 알아봅니다.'
-title: 제품 지식을 얻으려면  [!DNL AI Assistant] in [!DNL Target] 을(를) 어떻게 사용합니까?
+description: '[!DNL AI Assistant]을(를) 사용하여 [!DNL Target] 제품 지식을 얻는 방법에 대해 알아봅니다.'
+title: '[!DNL Target]의 [!DNL AI Assistant]을(를) 사용하여 제품 지식을 얻으려면 어떻게 해야 합니까?'
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-TQID: https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ
+TQID: 'https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 315
+source-wordcount: '318'
 ht-degree: 1%
-
 ---
-
 # 제품 지식을 배우려면 [!DNL Adobe Target]의 [!DNL AI Assistant]을(를) 사용하세요.
 
 [!DNL Adobe Experience Platform]의 [!DNL AI Assistant]은(는) [!DNL Adobe Target] 개념을 탐색하고 이해하는 데 사용할 수 있는 사용자 인터페이스 기능입니다.
@@ -38,7 +46,7 @@ ht-degree: 1%
 
 제품 지식을 위해 [!DNL AI Assistant]에 액세스하려면:
 
-1. [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)의 활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
+1.  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)의 [활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
 
    * 조직은 먼저 법률 약관에 동의해야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
    * 관리자가 [!DNL AI Assistant]에 액세스할 수 있는 충분한 권한을 부여해야 합니다.
@@ -77,10 +85,10 @@ ht-degree: 1%
 
 [!DNL AI Assistant]의 [!DNL Adobe Experience Platform] 응용 프로그램에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441031/?captions=kor&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### AI Assistant의 응답 유효성 검사
 
 [!DNL Adobe Experience Platform]의 [!DNL AI Assistant]이(가) 제공하는 응답을 확인하고 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441746/?captions=kor&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

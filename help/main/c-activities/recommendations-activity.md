@@ -1,22 +1,29 @@
 ---
 keywords: 권장 사항
-description: 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시하는 Adobe [!DNL Target] 의 권장 사항 활동에 대한 정보를 찾으십시오.
+description: 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시하는 Adobe [!DNL Target]의 권장 사항 활동에 대한 정보를 찾으십시오.
 title: 권장 사항 활동에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Recommendations
 exl-id: e4bc6e3b-a84d-4a8f-988e-a7f734892963
-TQID: https://experienceleague.adobe.com/LwiP0qW5PgOULjotz6ScScBmyHvmDKp8SdJytGWZogs
+TQID: 'https://experienceleague.adobe.com/LwiP0qW5PgOULjotz6ScScBmyHvmDKp8SdJytGWZogs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 81
-ht-degree: 33%
-
+source-wordcount: '82'
+ht-degree: 32%
 ---
-
 # 권장 사항 활동
 
 Adobe Target의 권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.

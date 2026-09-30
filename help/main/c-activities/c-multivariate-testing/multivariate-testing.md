@@ -1,24 +1,28 @@
 ---
 keywords: 다변량 테스트;mvt;전체 계승;mvt 또는 a/b;다변량 a/b;트래픽 견적 도구;mvt 사용 시기;mvt 고려 사항;다변량;부분 계승;부분 계승;전체 계승
-description: ' [!DNL Adobe Target] 의 [!UICONTROL MVT(다변량 테스트)]을(를) 사용하여 페이지의 요소 간에 오퍼 조합을 비교하여 성과가 가장 좋은 조합을 결정하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]에서 MVT([!UICONTROL Multivariate Test])를 사용하여 페이지의 요소 간에 오퍼 조합을 비교하여 성과가 가장 좋은 조합을 결정하는 방법을 알아봅니다.'
 title: '[!UICONTROL 다변량 테스트]란?'
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+TQID: 'https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1473
-ht-degree: 46%
-
+source-wordcount: '1477'
+ht-degree: 47%
 ---
-
 # [!UICONTROL 다변량 테스트] 개요
 
 [!DNL Adobe Target]의 [!UICONTROL Multivariate Test]&#x200B;(MVT) 활동은 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. [!UICONTROL 다변량 테스트] 활동은 또한 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
@@ -106,13 +110,13 @@ Target의 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testi
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### 다변량 테스트 만들기(9:25) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
-이 비디오에서는 Target의 안내가 있는 3단계 워크플로우를 사용하여 다변량 테스트를 이해하고 계획하고 만드는 방법을 설명합니다.
+이 비디오에서는 [!DNL]Target의 안내가 있는 3단계 워크플로우를 사용하여 다변량 테스트를 이해하고 계획하고 만드는 방법을 설명합니다.
 
 * 다변량 테스트 정의 및 디자인
 * 다변량 테스트 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

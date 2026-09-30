@@ -1,27 +1,33 @@
 ---
 keywords: analytics 추적 서버;A4T;Adobe Experience Cloud Debugger;Adobe Experience Platform debugger;보고 소스;개발자 도구
-description: 이전 버전의 at.js를 사용하는 경우 Analytics for [!DNL Target] (A4T)을(를) 사용하는 활동에 대한 Analytics 추적 서버를 지정하는 방법을 알아봅니다.
+description: 이전 버전의 at.js를 사용하는 경우 Analytics for [!DNL Target](A4T)을(를) 사용하는 활동에 대해 Analytics 추적 서버를 지정하는 방법을 알아봅니다.
 title: Analytics 추적 서버를 사용하려면 어떻게 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-TQID: https://experienceleague.adobe.com/mJM5kZPQfnWodzwQ3qDKxu1e1Oq2Y53fA2LpSB4SVSc
+TQID: 'https://experienceleague.adobe.com/mJM5kZPQfnWodzwQ3qDKxu1e1Oq2Y53fA2LpSB4SVSc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 708
+source-wordcount: '708'
 ht-degree: 17%
-
 ---
-
 # [!DNL Analytics] 추적 서버 사용
 
 이전 버전의 at.js를 사용하는 경우 [!DNL Adobe Target]에 대해 [!DNL Adobe Analytics]을(를) 사용하는 활동(A4T)에 대해 [!DNL Analytics] 추적 서버를 지정해야 합니다.
@@ -40,7 +46,7 @@ ht-degree: 17%
 
 1. 활동을 만드는 페이지에서 [!DNL Adobe Experience Platform Debugger]을(를) 엽니다.
 
-   디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 개요](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=ko)를 참조하십시오.
+   디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 개요](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)를 참조하십시오.
 
 1. 왼쪽 탐색 메뉴에서 **[!UICONTROL 분석]**&#x200B;을 클릭합니다.
 

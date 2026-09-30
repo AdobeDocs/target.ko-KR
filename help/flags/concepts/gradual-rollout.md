@@ -4,13 +4,14 @@ description: 플래그의 점진적인 롤아웃을 통해 실시간 피드백 �
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
-
 ---
-
 # 점진적 롤아웃 {#gradual-rollout}
 
 점진적 롤아웃은 모든 사용자에게 새로운 기능을 한 번에 활성화하는 대신 점진적으로 프로덕션에 새로운 기능을 적용합니다. 이 접근 방식은 위험을 줄이고 백엔드 로드를 관리하며 전체 릴리스 전에 엄격한 피드백 루프를 생성합니다.

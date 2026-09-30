@@ -1,16 +1,23 @@
 ---
 keywords: 타깃팅;성공;전환 지표;페이지 점수 지표;페이지 보기 지표;매출 지표;사이트에서 보낸 시간 지표;예상값;고급 설정;성공 지표;고급 설정;종속성;종속;증분 카운트 및 사용자를 활동에 유지;증분 카운트, 사용자 해제 및 재입력 허용;증분 카운트, 사용자 해제 및 재입력에서 막대
-description: 활동의 성공을 결정하는 데 도움이 되는 Adobe [!DNL Target] 의 성공 지표에 대해 알아봅니다. 성공 지표에는 전환, 매출, 페이지 보기 수, 사용자 지정 점수 및 사이트에서 보낸 시간이 포함됩니다.
+description: 활동의 성공을 결정하는 데 도움이 되는 Adobe [!DNL Target]의 성공 지표에 대해 알아봅니다. 성공 지표에는 전환, 매출, 페이지 보기 수, 사용자 지정 점수 및 사이트에서 보낸 시간이 포함됩니다.
 title: 성공 지표란 무엇입니까?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1279'
 ht-degree: 41%
-
 ---
-
 # 성공 지표
 
 [!DNL Adobe Target]에서 성공 지표는 활동의 성공을 측정하는 데 사용되는 매개 변수입니다. 성공 지표에는 [!DNL Target] 활동에서 주어진 경험 또는 오퍼의 성공을 결정할 수 있는 주요 비즈니스 조치가 포함되어 있습니다.

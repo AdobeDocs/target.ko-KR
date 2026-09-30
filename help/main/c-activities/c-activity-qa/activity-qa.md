@@ -4,27 +4,36 @@ description: Adobe [!DNL Target] QA URL을 사용하여, 변경되지 않는 미
 title: 활동을 QA하려면 어떻게 합니까?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-TQID: https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI
+TQID: 'https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: '1816'
 ht-degree: 28%
-
 ---
-
 # 활동 QA
 
 [!DNL Adobe Target]의 QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간편한 엔드 투 엔드 활동 QA, 선택적 대상 타깃팅, 라이브 활동 데이터에서 세그먼트화된 QA 보고를 수행할 수 있습니다.
@@ -55,8 +64,8 @@ ht-degree: 28%
 
      이 설정을 &quot;끔&quot;으로 전환하는 경우, 다음을 고려하십시오.
 
-      * 테스트 중인 활동과 다른 라이브 활동 간에 충돌이 있으면 [일반 우선 순위 규칙](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)이 적용됩니다. 충돌 때문에 QA하려는 활동을 볼 수 없을 수도 있습니다.
-      * 표시된 활동에 대한 지표 증가가 QA 보고 환경에서만 발생합니다.
+     * 테스트 중인 활동과 다른 라이브 활동 간에 충돌이 있으면 [일반 우선 순위 규칙](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)이 적용됩니다. 충돌 때문에 QA하려는 활동을 볼 수 없을 수도 있습니다.
+     * 표시된 활동에 대한 지표 증가가 QA 보고 환경에서만 발생합니다.
 
 1. **[!UICONTROL 완료]**&#x200B;를 클릭하여 변경 내용을 저장합니다.
 1. 테스트를 위해 조직의 구성원과 활동 링크 URL을 공유합니다.
@@ -85,7 +94,7 @@ ht-degree: 28%
 
 ### [!DNL Adobe Experience Platform Web SDK]
 
-사이트에 [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}이(가) 배포된 경우 값이 비어 있는 `at_qa_mode` 매개 변수로 사이트의 페이지를 로드하여 수동으로 나올 수 있습니다. 예:
+사이트에 [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}이(가) 배포된 경우 값이 비어 있는 `at_qa_mode` 매개 변수로 사이트의 페이지를 로드하여 수동으로 나올 수 있습니다. 예:
 
 `https://www.mysite.com/?at_qa_mode=`
 
@@ -98,7 +107,7 @@ ht-degree: 28%
 * [!DNL Target Classic]에서 [!DNL Target Standard/Premium]&#x200B;(으)로 가져온 활동은 QA URL을 지원하지 않습니다.
 * [!UICONTROL 자동 할당] 및 [!UICONTROL 권장 사항] 활동에서 모델은 [!UICONTROL 활동 QA]에서 캡처한 방문의 영향을 받지 않습니다.
 * 활동을 만드는 동안 &quot;URL은&quot;을 지정한 경우([양식 기반 작성기에서 개선](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기에서 페이지 전달 옵션)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), [!UICONTROL 활동 QA]가 URL 매개 변수를 추가하므로 QA URL이 작동하지 않습니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
-* at.js 1.*x*&#x200B;이(가) 있는 경우 Safari나 타사 쿠키를 차단하는 다른 브라우저를 사용하는 경우 [!UICONTROL 활동 QA] 모드가 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리보기 매개 변수를 추가해야 합니다. [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=ko){target=_blank}을(를) 구현한 경우에도 마찬가지입니다.
+* at.js 1.*x*&#x200B;이(가) 있는 경우 Safari나 타사 쿠키를 차단하는 다른 브라우저를 사용하는 경우 [!UICONTROL 활동 QA] 모드가 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리보기 매개 변수를 추가해야 합니다. [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}을(를) 구현한 경우에도 마찬가지입니다.
 * 활동에서 여러 경험 대상을 사용하는 경우(예를 들어, 동일한 활동에 포함된 미국 및 영국 사이트), QA 링크가 4개의 조합(경험 A/미국 사이트, 경험 A/영국 사이트, 경험 B/미국 사이트, 경험 B/영국 사이트)에 대해 생성되지 않습니다. 두 개의 QA 링크(경험 A와 경험 B)만 생성되고, 사용자는 페이지를 보려면 적절한 대상에 대한 자격이 있어야 합니다. 영국 QA 사람은 미국 사이트를 볼 수 없습니다.
 * 모든 `at_preview` 매개 변수와 값이 이미 URL로 인코딩되어 있습니다. 대부분의 경우 모든 것이 예상대로 작동합니다. 그러나 일부 고객은 쿼리 문자열 매개 변수를 다시 인코딩하려는 밸런서나 웹 서버를 로드해야 합니다.
 
@@ -125,9 +134,9 @@ ht-degree: 28%
 
 [!DNL Target]은(는) 다음 JavaScript 라이브러리를 지원합니다.
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko)
-* [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
 
 다음 표는 다양한 활동 유형을 나열하고 각 라이브러리에 대해 [!UICONTROL 활동 QA] 모드가 지원되는지 여부를 나타냅니다.
 

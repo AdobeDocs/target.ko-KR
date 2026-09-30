@@ -1,33 +1,47 @@
 ---
 keywords: 시작 키트, 대상 환영 키트, 소개, 소개, 시작
-description: 테스트 및 개인화 작업의 일부로 Adobe  [!DNL Target] 을 사용하는 방법에 대한 전문가 패널의 팁을 읽어 보십시오.
+description: 테스트 및 개인화 작업의 일부로 Adobe [!DNL Target]을(를) 사용하는 방법에 대한 전문가 패널의 팁을 읽어 보십시오.
 title: Target을 사용하기 위한 팁과 요령은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
+TQID: 'https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Audience segmentation
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2891
-ht-degree: 73%
-
+source-wordcount: '2961'
+ht-degree: 72%
 ---
-
 # 4장: Target 사용을 위한 팁
 
 많은 [!DNL Target] 사용자와의 작업을 기반으로 [!DNL Target] 솔루션을 통해 더 많은 가치를 얻을 수 있는 방법을 알아냈습니다. 이 장에 포함된 많은 팁에 이러한 정보를 요약했습니다. 이러한 아이디어를 당장 모두 사용할 준비가 되지 않았더라도 이 목록을 계속 유지하십시오. 솔루션에 대한 경험이 풍부해지고 프로그램의 완성도가 높아질수록 이러한 팁을 통해 [!DNL Target]을(를) 통해 더 많은 성과를 거둘 수 있는 방법에 대해 알게 될 것입니다.
@@ -42,7 +56,7 @@ ht-degree: 73%
 
 **알아 둘 사항**: [!DNL Target] 은 다양한 기술과 잘 작동하는 개방적이고 독립적인 플랫폼이기 때문에 CRM 또는 구매한 데이터를 다양한 방법으로 추가할 수 있습니다. 즉, 조직에 가장 적합한 방법을 선택할 수 있습니다.
 
-자세한 내용은 [Target으로 데이터를 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank} 을 참조하십시오.
+자세한 내용은 [Target으로 데이터를 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} 을 참조하십시오.
 
 ## 팁 2: [!DNL Target] 대상자를 다른 Adobe Experience Cloud 대상자와 혼합하여 보다 심층적으로 개인화할 수 있습니다.
 
@@ -169,7 +183,7 @@ Target Standard를 사용 중이십니까? 읽기 전용, 편집자 및 승인�
 QA 매개 변수를 사용하도록 활동을 설정할 때 얻을 수 있는 이점 중 하나는 해당 링크를 팀의 모든 사용자와 공유할 수 있다는 것입니다. 더 많은 사람들이 이 활동을 인식하도록 하고 테스트 변형에 부딪혔을 때 사이트가 제대로 작동하지 않는다고 추측하지 않도록 해야 합니다.
 
 테스트를 마친 후에는 캠페인 시작, 테스트 결과 및 특히 학습한 교훈을 전달하면 테스트 결과에 대한 인식과 관심을 높이는 데 도움이 됩니다. 또한 조직 내의 모든 사용자와 결과를 공유하면 가설을 다시 테스트하는 것을 피하고, 효과가 있는 것에 대해 모든 사람에게 교육하며, 발견한 것을 기반으로 효과가 있는 것에 대한 자신의 아이디어에 근본적으로 도전할 수 있습니다. 발견한 내용 및 주요 학습 내용을 공유하기 위해 매번 사용하는 템플릿을 준비하는 것이 좋습니다.
-그런 다음 이러한 학습을 누적하여 캡처하는 공유 가능한 책 또는 Microsoft PowerPoint 데크를 만드는 것이 좋습니다.
+그런 다음 이러한 학습을 누적하여 캡처하는 공유 가능한 책자나 Microsoft PowerPoint 데크를 만드는 것을 고려하십시오.
 
 ## 팁 20: 더 혁신적인 모바일 활동을 만들려면 모바일 기능을 활용하십시오.
 

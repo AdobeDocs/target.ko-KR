@@ -1,24 +1,32 @@
 ---
 keywords: 이메일;ESP;이메일 서비스 제공업체;rawbox;게재 API;다운로드 전용 템플릿;이메일 템플릿;배치;작성 시간 이메일
-description: ' [!DNL Target Recommendations], including using the [!DNL Target]  배달 API, Rawbox 템플릿 및 다운로드 전용 템플릿을 포함하여 이메일을 Adobe Target 추천과 통합하는 방법에 대해 알아 보십시오.'
+description: '[!DNL Target] 배달 API, rawbox 템플릿 및 다운로드 전용 템플릿을 포함하여 이메일을 Adobe [!DNL Target Recommendations]과(와) 통합하는 방법을 알아봅니다.'
 title: 추천를 이메일과 통합하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-TQID: https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE
+TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1768
-ht-degree: 87%
-
+source-wordcount: '1772'
+ht-degree: 86%
 ---
-
 # [!DNL Recommendations]을(를) 이메일과 통합
 
 [!DNL Adobe Target]은 이메일에 포함된 권장 사항의 전송 시간 개인 맞춤화를 지원합니다.
@@ -85,7 +93,7 @@ curl -X POST \
 >
 >모든 이메일 수신자(예: API 호출)에 대해 `sessionId` 및 `tntId` 또는 `thirdPartyId` 중 하나에 고유값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면, 단일 프로필 내에서 많은 이벤트가 생성되어 API 응답이 느려지거나 실패할 수 있습니다.
 
-자세한 내용은 [배달 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=ko){target=_blank}를 참조하십시오.
+자세한 내용은 [배달 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}를 참조하십시오.
 
 ## 방법 2: rawbox 이메일 템플릿 사용 {#rawbox}
 
@@ -114,9 +122,9 @@ rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 공급자)와 �
 
 * 이메일 애플리케이션은 해당 텍스트를 검색하여 오류를 처리할 수 있어야 합니다. 이메일 제공업체는 이 경우를 처리하는 여러 가지 옵션을 제공합니다.
 
-   * 다른 서버 호출을 즉시 시도합니다(시도 카운터를 사용하는 경우 권장됨).
-   * 특정 이메일을 제외하고 다음 이메일을 계속 실행합니다.
-   * 해당 이메일을 큐에 추가하고, 초기 실행이 완료되면 실패한 이메일을 배치로 다시 실행합니다.
+  * 다른 서버 호출을 즉시 시도합니다(시도 카운터를 사용하는 경우 권장됨).
+  * 특정 이메일을 제외하고 다음 이메일을 계속 실행합니다.
+  * 해당 이메일을 큐에 추가하고, 초기 실행이 완료되면 실패한 이메일을 배치로 다시 실행합니다.
 
 ### 샘플 요청 URL
 

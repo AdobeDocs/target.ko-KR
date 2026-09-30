@@ -1,25 +1,32 @@
 ---
 keywords: 보고서;IP 주소 차단;IP 주소에서 방문자 차단;보고서 다운로드;csv;보고
-description: ' [!DNL Adobe Target]의 보고 기능을 마스터하여 활동을 최적화하여 의사 결정을 높이고 ROI를 높일 수 있습니다.'
+description: '[!DNL Adobe Target]의 보고 기능을 마스터하여 활동을 최적화하여 의사 결정을 높이고 ROI를 높일 수 있습니다.'
 title: 보고서를 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-TQID: https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI
+TQID: 'https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: '948'
 ht-degree: 24%
-
 ---
-
 # 보고서
 
 보고서는 데이터를 기반으로 결정을 내리는 데 도움이 되는 [!DNL Adobe Target] 활동의 진행 상황과 결과에 대한 정보를 제공합니다. 보고서 데이터를 통해 활동 종료 시점을 결정하고 우승자인 경험 또는 오퍼를 보여주고 다음 작업을 결정하는 데 필요한 인사이트 또는 통찰력을 제공할 수 있습니다.
@@ -83,7 +90,7 @@ ht-degree: 24%
 | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | AP 활동에 대한 두 개의 [!UICONTROL Automated Personalization 요약] 보고서에 대한 정보: [!UICONTROL 활동 수준] 보고서 및 [!UICONTROL 오퍼 수준] 보고서. 자세한 내용은 [Automated Personalization 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md).<br>AT 및 AP 활동에 대한 두 개의 [!UICONTROL Personalization 인사이트] 보고서에 대한 정보: [!UICONTROL 자동화된 세그먼트] 보고서 및 [!UICONTROL 중요 특성] 보고서를 참조하십시오. 자세한 내용은 [개인화 인사이트 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)를 참조하십시오. |
 | [[!UICONTROL 다변량 테스트]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | MVT 활동에 대한 두 개 보고서인 [!UICONTROL 경험 성과] 보고서와 [!UICONTROL 위치 기여도] 보고서에 대한 정보입니다. 자세한 내용은 [경험 성과 보고서](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)(MVT) 및 [위치 기여도 보고서](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)(MVT)를 참조하십시오. |
 | [[!DNL Adobe Analytics] Adobe Target용 보고 Source](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T) | [!DNL Target]의 보고 소스로 [!DNL Adobe Analytics]을(를) 사용하는 방법(A4T)에 대한 정보입니다. A4T를 통해 [!DNL Target] 활동에 대한 [!DNL Analytics] 보고서에 액세스할 수 있습니다. 자세한 내용은 [Analytics for Target(A4T) 보고](/help/main/c-reports/analytics-for-target-a4t-reporting.md)를 참조하십시오. |
-| [[!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | 최적화 프로그램에 강력한 분석 및 시간 절약 도구를 제공하는 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics){target=_blank} 및 [!DNL Target] 간의 통합에 대한 정보입니다. |
+| [[!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | 최적화 프로그램에 강력한 분석 및 시간 절약 도구를 제공하는 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} 및 [!DNL Target] 간의 통합에 대한 정보입니다. |
 
 ## 지정된 IP 주소에서 보고 데이터 차단
 

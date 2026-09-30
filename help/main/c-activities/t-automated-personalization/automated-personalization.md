@@ -1,34 +1,48 @@
 ---
 keywords: 자동화된 개인화;ap;대상;앙상블;랜덤 포레스트;multi-armed bandit;thompson 샘플링;ml;머신 러닝
-description: 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시키는  [!DNL Adobe Target] 의 [!UICONTROL Automated Personalization]​(AP) 활동을 사용하는 방법에 대해 알아봅니다.
+description: 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시키는 [!DNL Adobe Target]의 [!UICONTROL Automated Personalization](AP) 활동을 사용하는 방법에 대해 알아봅니다.
 title: AP([!UICONTROL Automated Personalization]) 활동이란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-TQID: https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ
+TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1053'
 ht-degree: 29%
-
 ---
-
 # [!UICONTROL Automated Personalization] (AP)
 
 [!DNL Adobe Target]의 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동은 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 오퍼를 각 방문자와 연결하여 콘텐츠를 개인화하고 상승도를 유도합니다.
@@ -85,18 +99,18 @@ Random Forest는 선도적인 머신 러닝 방식입니다. 데이터 과학 �
 
 CRM 정보 또는 고객 이탈 성향 점수와 같은 오프라인 데이터는 개인화 모델을 구축할 때 매우 유용할 수 있습니다. AP([!UICONTROL Automated Personalization]) 및 [!UICONTROL 자동 타겟] 개인화 알고리즘에서 데이터를 입력하는 방법에는 여러 가지가 있습니다.
 
-* [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}
-* [프로필 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}
-* [프로필 업데이트를 위한 서버측 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}
+* [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [프로필 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [프로필 업데이트를 위한 서버측 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
 
 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 개인화 알고리즘에서 자동으로 수집 및 사용되는 데이터에 대한 자세한 내용은 [Automated Personalization 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을(를) 참조하십시오.
 
 ## 교육 비디오: 활동 유형
 
-다음 비디오에서는 [!DNL Target]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!UICONTROL Automated Personalization]은(는) 5:55부터 논의됩니다.
+다음 비디오에서는 [!DNL Target]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!UICONTROL Automated Personalization]에 대해서는 5시 55분부터 설명합니다.
 
 * [!DNL Adobe Target]에 포함된 활동 유형 설명
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

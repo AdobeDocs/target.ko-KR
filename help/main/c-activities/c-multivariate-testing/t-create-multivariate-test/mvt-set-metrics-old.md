@@ -1,16 +1,20 @@
 ---
 keywords: 다변량;mvt;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;수입;참여
-description: '[!UICONTROL 전환], [!UICONTROL 매출], [!UICONTROL 참여]와 같이 방문이 성공적으로 수행된 시기를 결정하기 위해  [!DNL Adobe Target] [!UICONTROL 다변량 테스트] 활동에서 지표를 지정하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target] [!UICONTROL 다변량 테스트] 활동에서 지표를 지정하여 [!UICONTROL 전환], [!UICONTROL 매출], [!UICONTROL 참여]와 같이 방문이 성공적으로 수행된 시기를 결정하는 방법을 알아봅니다.'
 title: MVT([!UICONTROL 다변량 테스트]) 활동에서 목표 지표를 설정하려면 어떻게 합니까?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 57%
-
+source-wordcount: '353'
+ht-degree: 56%
 ---
-
 # [!UICONTROL 다변량 테스트] 활동에 대한 지표 설정
 
 [!DNL Adobe Target] [!UICONTROL 다변량 테스트]에서 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
@@ -25,7 +29,7 @@ ht-degree: 57%
    [!UICONTROL 지표 선택] 페이지에 활동에 대해 선택할 수 있는 성공 지표가 나열됩니다. 성공 지표는 다음 카테고리로 구분됩니다.
 
    * [!UICONTROL 전환]
-   * [!UICONTROL 매출 &#x200B;]
+   * [!UICONTROL 매출 ]
    * [!UICONTROL 참여]
 
    사전 빌드된 지표 중 하나를 사용하거나 사용자 지정 성공 지표를 만들 수 있습니다. 성공 지표를 기본 지표로 표시할 수도 있습니다. 기본 측정 항목(설정된 경우)을 표시하려면 Experience Cloud 카드 기본값을 보고합니다.

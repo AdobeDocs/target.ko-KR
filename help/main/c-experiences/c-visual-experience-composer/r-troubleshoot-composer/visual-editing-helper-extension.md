@@ -1,30 +1,39 @@
 ---
 keywords: vec;시각적 경험 작성기; vec;iframe;확장 프로그램;브라우저;faq
-description: '[!UICONTROL 시각적 경험 작성기]​(VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아보십시오. [!UICONTROL Visual Editing Helper] 브라우저 확장 기능을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아보십시오. [!UICONTROL Visual Editing Helper] 브라우저 확장 기능을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
 title: '[!UICONTROL Visual Editing Helper] 확장 기능을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-TQID: https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus
+TQID: 'https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 52%
-
 ---
-
 # [!UICONTROL 시각적 편집 도우미] 확장
 
 [!DNL Google Chrome]용 [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 브라우저 확장 기능을 사용하면 웹 사이트를 [!UICONTROL Adobe Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)에 안정적으로 로드하여 웹 경험을 빠르게 작성 및 QA할 수 있습니다.
@@ -61,7 +70,7 @@ ht-degree: 52%
 
 * [모바일 뷰포트](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)은(는) EEC([!UICONTROL 고급 경험 작성기]) 없이도 지원됩니다.
 * [!DNL Target]을 처음 사용하는 고객은 IT 개발자가 아직 웹 사이트에서 [!DNL Target]을 구현하지 않았더라도 확장 기능을 사용하여 [!DNL Target]을 실험해 볼 수 있습니다.
-* 이제 여러 고객의 웹 사이트 및 [!DNL Target] 계정을 제공하는 파트너는 서드파티 도구에서 여러 규칙을 관리하는 대신 VEC 로드를 지원하는 단일 메커니즘을 보유합니다.
+* 이제 여러 고객의 웹 사이트 및 [!DNL Target] 계정을 제공하는 파트너는 타사 도구에서 여러 규칙을 관리하는 대신 VEC 로드를 지원하는 단일 메커니즘을 보유합니다.
 
 ## [!UICONTROL Visual Editing Helper] 브라우저 확장 기능 가져오기 및 설치
 
@@ -80,8 +89,8 @@ ht-degree: 52%
 * [QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md)에서 확장 기능을 사용하여 at.js를 삽입하는 경우 다른 Chrome 탭이 열려 있어야 합니다. 이 Chrome 탭은 활동을 만든 [!DNL Adobe Experience Cloud] 조직과 동일한 조직에서 인증되어야 합니다.
 * 다음 메시지는 사용자에게 계속 정보를 제공하는 데 도움이 됩니다.
 
-   * 로드하지 못하는 VEC를 사용하여 웹 사이트를 로드하려고 하면 [!UICONTROL Visual Editing Helper] 브라우저 확장 기능을 설치하라는 메시지가 표시됩니다.
-   * 웹 사이트에서 at.js 또는 alloy.js가 아직 구현되지 않은 경우 VEC에 확장 기능을 설치하라는 메시지가 표시됩니다.
+  * 로드하지 못하는 VEC를 사용하여 웹 사이트를 로드하려고 하면 [!UICONTROL Visual Editing Helper] 브라우저 확장 기능을 설치하라는 메시지가 표시됩니다.
+  * 웹 사이트에서 at.js 또는 alloy.js가 아직 구현되지 않은 경우 VEC에 확장 기능을 설치하라는 메시지가 표시됩니다.
 * 새로운 확장 기능을 사용해 보고 [이전 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)으로 돌아간 후 [!DNL Target]이 웹 사이트를 로드하지 못한다면 브라우저 데이터를 모두 지우고 새 확장 기능을 비활성화하십시오.
 
 ## 자주 묻는 질문

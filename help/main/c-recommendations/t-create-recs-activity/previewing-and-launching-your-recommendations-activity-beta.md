@@ -5,13 +5,20 @@ title: 권장 사항 활동을 미리 보고 시작하려면 어떻게 합니까
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1445'
 ht-degree: 14%
-
 ---
-
 # 권장 사항 활동 미리보기 및 시작
 
 [권장 사항 오퍼](/help/main/c-recommendations/recommendations-as-an-offer.md)가 포함된 [!UICONTROL 권장 사항], [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동을 만든 후에는 활동을 시작하기 전에 결과를 사용할 수 있도록 권장 사항을 미리 보고 싶습니다. [!DNL Target Recommendations]은(는) 권장 사항을 미리 보는 여러 가지 방법을 제공합니다.

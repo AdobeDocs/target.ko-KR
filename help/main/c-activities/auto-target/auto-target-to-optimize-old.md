@@ -1,17 +1,24 @@
 ---
 keywords: 자동 타겟;타깃팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제해결
-description: ' [!DNL Target] 의 [!UICONTROL 자동 타겟] 활동이 고객 프로필과 유사한 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공하는 방법에 대해 알아봅니다.'
+description: '[!DNL Target]의 [!UICONTROL 자동 타겟] 활동이 고객 프로필과 유사한 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL 자동 타겟] 활동이란?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2101'
 ht-degree: 20%
-
 ---
-
 # [!UICONTROL 자동 타겟] 개요
 
 [!DNL Adobe Target]의 [!UICONTROL 자동 타겟] 활동에서는 콘텐츠를 개인화하고 전환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택합니다. [!UICONTROL 자동 타겟]은(는) 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
@@ -73,8 +80,8 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 옵션을 사용하면 한 �
 | 용어 | 세부 사항 |
 |--- |--- |
 | [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 자동 타겟]과(와) [!UICONTROL Automated Personalization] 모두에서 사용되는 [!DNL Target]의 기본 개인화 알고리즘은 Random Forest입니다. Random Forest와 같은 앙상블 방법은 구성 학습 알고리즘 중 어느 것으로부터도 얻을 수 있는 것보다 더 나은 예측 성능을 얻기 위해 다중 학습 알고리즘을 사용한다. [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 활동의 Random Forest 알고리즘은 교육 시간에 다수의 의사 결정 트리를 구성하여 작동하는 분류 또는 회귀 방법입니다. |
-| [&#x200B; [!DNL Target]의 Personalization 알고리즘에 대한 데이터 업로드](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 자동 타겟] 및 [!UICONTROL Automated Personalization] 모델에 대한 데이터를 입력하는 방법에는 여러 가지가 있습니다. |
-| [&#x200B; [!DNL Target]의 Personalization 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]의 개인화 알고리즘에서 다양한 데이터를 자동으로 수집합니다. |
+| [ [!DNL Target]의 Personalization 알고리즘에 대한 데이터 업로드](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 자동 타겟] 및 [!UICONTROL Automated Personalization] 모델에 대한 데이터를 입력하는 방법에는 여러 가지가 있습니다. |
+| [ [!DNL Target]의 Personalization 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]의 개인화 알고리즘에서 다양한 데이터를 자동으로 수집합니다. |
 
 ## 트래픽 할당 결정 {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -136,7 +143,7 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 옵션을 사용하면 한 �
 
 ### 마케터는 오프라인 데이터, 성향 점수 또는 기타 사용자 지정 데이터를 업로드하여 개인화 모델을 만들 수 있습니다.
 
-* [!UICONTROL 자동 타겟] 및 [!UICONTROL Automated Personalization][&#128279;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)에 대한 데이터 업로드에 대해 자세히 알아보세요.
+* [!UICONTROL 자동 타겟] 및 [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)에 대한 [데이터 업로드에 대해 자세히 알아보세요.
 
 ## [!UICONTROL 자동 타겟]은(는) [!UICONTROL Automated Personalization]과(와) 어떻게 다릅니까? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
@@ -149,7 +156,7 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 옵션을 사용하면 한 �
 [!UICONTROL 자동 타겟]의 경우 간단한 경험 법칙을 사용하여 트래픽 요구 사항을 이해할 수 있습니다.
 
 * **[!UICONTROL 전환]이 성공 지표인 경우:** 경험당 하루에 1,000번의 방문과 최소 50번의 전환이 필요하며, 활동에는 최소 7,000번의 방문과 350번의 전환이 있어야 합니다.
-* **방문당 매출이 성공 지표인 경우:** 방문당 1,000회, 경험당 하루에 최소 50회 전환, 활동에는 경험당 최소 1,000회의 전환이 있어야 합니다. RPV를 사용할 때에는 전환율을 사용할 때와 비교하여 방문 매출에 일반적으로 존재하는 더 높은 데이터 분산으로 인해 모델을 만드는 데 더 많은 데이터가 필요합니다.
+* **방문당 매출]이 성공 지표인 경우:** 방문당 1,000회, 경험당 하루에 최소 50회 전환, 활동에는 경험당 최소 1,000회의 전환이 있어야 합니다. [!UICONTROL RPV를 사용할 때에는 전환율을 사용할 때와 비교하여 방문 매출에 일반적으로 존재하는 더 높은 데이터 분산으로 인해 모델을 만드는 데 더 많은 데이터가 필요합니다.
 
 ### [!UICONTROL 자동 타겟]에 완전한 설정 기능이 있습니다.
 

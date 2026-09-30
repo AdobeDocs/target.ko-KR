@@ -1,28 +1,35 @@
 ---
 keywords: Analytics 추적 서버;A4T;Analytics 세그먼트;보고서 세트;잘못된 데이터;고립됨;SDID;VisitorAPI.js;mboxMCSDID;가상;지정되지 않음
-description: 고객이 Analytics for [!DNL Target] (A4T)을 사용할 때 경험하는 일반적인 문제를 살펴봅니다.
+description: 고객이 Analytics for [!DNL Target](A4T)을(를) 사용할 때 경험하는 일반적인 문제를 살펴봅니다.
 title: Analytics 및 [!DNL Target] 통합 문제를 해결하는 방법(A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
+TQID: 'https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 965
-ht-degree: 89%
-
+source-wordcount: '966'
+ht-degree: 87%
 ---
-
 # Analytics 및 [!DNL Target] 통합 문제 해결(A4T)
 
 이 주제에서는 몇 가지 [!DNL Adobe Target]용 보고 소스로서의 [!DNL Adobe Analytics] (A4T)를 사용할 때 발생하는 일반적인 문제를 다룹니다.
@@ -104,7 +111,7 @@ A4T 활동을 생성하기 전에 올바른 권한이 있는지 확인하십시�
 
 보조 ID를 검사하는 가장 간편한 방법은 Adobe Experience Platform Debugger를 사용하는 것입니다.
 
-디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 소개](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html?lang=ko)를 참조하십시오.
+디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 소개](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)를 참조하십시오.
 
 ![디버거](/help/main/c-integrating-target-with-mac/a4t/assets/debugger.png)
 

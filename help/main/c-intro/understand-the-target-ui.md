@@ -1,27 +1,37 @@
 ---
 keywords: target 사용자 인터페이스;사용자 인터페이스;ui;공지;이벤트;알림
-description: 사용자 인터페이스를 숙지하고 보다 심층적인 정보에 대한 링크를 찾아  [!DNL Target]을(를) 최대한 활용하십시오.
-title: ' [!DNL Target] UI는 어떻게 사용합니까?'
+description: 사용자 인터페이스를 숙지하고 보다 심층적인 정보에 대한 링크를 찾아 [!DNL Target]을(를) 최대한 활용하십시오.
+title: '[!DNL Target] UI를 사용하는 방법'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
+TQID: 'https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1442
+source-wordcount: '1443'
 ht-degree: 23%
-
 ---
-
 # [!DNL Target] UI 이해
 
 사용자 인터페이스는 [!DNL Adobe Target]을 최대한 활용할 수 있도록 논리적이고 사용자에게 친숙한 형식으로 배열되어 있습니다. 다음의 간략한 개요는 [!DNL Target]에 익숙해지는 데 도움이 되며, 자세한 정보 및 단계별 지침을 위한 링크를 제공합니다.
@@ -92,9 +102,9 @@ ht-degree: 23%
 
   알림은 다음 샘플과 같은 형식으로 되어 있습니다.
 
-   * `Activity {target.activity.name} has been activated`
+  * `Activity {target.activity.name} has been activated`
 
-   * `Activity {target.activity.name} has been deactivated`
+  * `Activity {target.activity.name} has been deactivated`
 
 * **프로필 스크립트**: 프로필 스크립트가 수동으로 또는 [!DNL Target]에 의해 활성화되거나 비활성화될 때의 알림입니다.
 
@@ -102,8 +112,8 @@ ht-degree: 23%
 
   알림은 다음 샘플과 같은 형식으로 되어 있습니다.
 
-   * `Profile Script {target.profileScript.name} has been activated`
-   * `Profile Script {target.profileScript.name} has been deactivated`
+  * `Profile Script {target.profileScript.name} has been activated`
+  * `Profile Script {target.profileScript.name} has been deactivated`
 
 * **권장 사항 피드**: [!DNL Recommendations] 피드가 수동으로 또는 [!DNL Target]에 의해 활성화되거나 비활성화될 때 알림. [!DNL Recommendations] 피드가 실패하면 알림도 전송됩니다.
 
@@ -111,10 +121,10 @@ ht-degree: 23%
 
   알림은 다음 샘플과 같은 형식으로 되어 있습니다.
 
-   * `Feed  {target.feed.name} has been activated`
-   * `Feed {target.feed.name} has been deactivated`
-   * `Feed {target.feed.name} has failed`
-   * `Feed {target.feed.name} has failed to import from source`
+  * `Feed  {target.feed.name} has been activated`
+  * `Feed {target.feed.name} has been deactivated`
+  * `Feed {target.feed.name} has failed`
+  * `Feed {target.feed.name} has failed to import from source`
 
 원하는 알림 위로 마우스를 이동한 다음 [!UICONTROL 읽은 상태로 표시]&#x200B;( ![읽은 상태로 표시](/help/main/assets/icons/CheckmarkCircle.svg) ) 아이콘을 클릭하여 개별 알림을 읽은 상태로 표시할 수 있습니다. 패널 하단의 [!UICONTROL 읽은 상태로 표시] 또는 [!UICONTROL 모두 보기]를 클릭하여 모든 알림을 읽은 상태로 표시하거나 모든 알림을 볼 수 있습니다.
 
@@ -124,7 +134,7 @@ ht-degree: 23%
 
 사전 알림은 중단 이벤트 및 유지 관리 이벤트를 알려 줍니다.
 
-자세한 내용은 [Adobe Status](https://status.adobe.com/ko-kr/) 페이지에서 확인할 수 있습니다.
+자세한 내용은 [Adobe Status](https://status.adobe.com/) 페이지에서 확인할 수 있습니다.
 
 ### 알림 및 공지 구성
 

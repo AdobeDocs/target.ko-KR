@@ -2,17 +2,24 @@
 keywords: 추천;오퍼
 description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe 추천를 사용하는 방법에 대해 알아봅니다.
 title: 다른 활동 유형에서 추천를 제안으로 사용하는 방법은 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 42%
-
 ---
-
 # 오퍼로서의 추천
 
 이제 [!UICONTROL A/B 테스트]&#x200B;([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 포함)와 [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동 내에 권장 사항을 포함할 수 있습니다.

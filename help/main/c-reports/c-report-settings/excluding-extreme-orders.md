@@ -1,21 +1,24 @@
 ---
 keywords: Target;보고서;보고서 설정;예외적인 주문;예외적인 값
-description: 예외적인 몇 가지 주문이 활동 결과에 영향을 주지 않도록 Adobe의 보고서에 영향을 주지 않도록 예외적인 값을 제외하는 방법을 알아봅니다 [!DNL Target] .
+description: 몇 가지 비정상적인 주문이 활동 결과에 영향을 주지 않도록 Adobe [!DNL Target]의 보고서에 영향을 주지 않는 예외적인 값을 제외하는 방법에 대해 알아봅니다.
 title: 보고서에서 예외적인 값을 제외하려면 어떻게 합니까?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-TQID: https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI
+TQID: 'https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '333'
 ht-degree: 62%
-
 ---
-
 # 예외적인 값 제외
 
 [!DNL Adobe Target]의 보고서에 영향을 주지 않는 예외적인 값을 제외할 수 있으므로 몇 가지 예외적인 주문은 활동 결과에 영향을 주지 않습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
@@ -38,4 +41,4 @@ ht-degree: 62%
 1. 보고서 설정( ![보고서 설정 아이콘](/help/main/assets/icons/Setting.svg) ) 아이콘을 클릭하여 **[!UICONTROL 설정]** 대화 상자를 표시합니다.
 
 1. 원하는 대로 **[!UICONTROL 예외적인 값 제외]** 토글을 &quot;켜기&quot; 또는 &quot;끄기&quot; 위치로 밉니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL [저장]]**&#x200B;을 클릭합니다.

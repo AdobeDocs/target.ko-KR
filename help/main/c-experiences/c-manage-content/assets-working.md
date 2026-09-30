@@ -4,19 +4,26 @@ description: '[!UICONTROL 오퍼] 라이브러리 내에서 코드 및 이미지
 title: '[!UICONTROL 오퍼] 라이브러리에서 콘텐츠 관리 탐색'
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
+TQID: 'https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 11%
-
 ---
-
 # [!UICONTROL 자산] 라이브러리의 콘텐츠로 작업
 
 [!UICONTROL Adobe Target] [!UICONTROL 컨텐츠 라이브러리]의 자산에 대해 수행할 수 있는 작업을 알아봅니다. 작업에는 속성 주석 달기, 복사, 삭제, 다운로드, 편집, 공유 및 보기가 포함됩니다.
@@ -50,21 +57,21 @@ ht-degree: 11%
 
 * **폴더**: 다음 작업을 수행할 폴더를 하나 이상 선택하십시오.
 
-   * 다운로드: 폴더 및 해당 컨텐츠를 다운로드합니다.
-   * 복사: 폴더 및 해당 컨텐츠를 복사합니다.
-   * 이동: **[!UICONTROL 이동]** 아이콘을 클릭하고 폴더 이름을 그대로 유지하거나 이름을 바꾸십시오. 폴더를 이동할 위치를 선택하려면 **[!UICONTROL 대상 선택]**&#x200B;을 클릭하고 **[!UICONTROL 이동]**&#x200B;을 클릭하십시오.
-   * 삭제(항목 삭제 시 [고려 사항](#delete) 참조)
+  * 다운로드: 폴더 및 해당 컨텐츠를 다운로드합니다.
+  * 복사: 폴더 및 해당 컨텐츠를 복사합니다.
+  * 이동: **[!UICONTROL 이동]** 아이콘을 클릭하고 폴더 이름을 그대로 유지하거나 이름을 바꾸십시오. 폴더를 이동할 위치를 선택하려면 **[!UICONTROL 대상 선택]**&#x200B;을 클릭하고 **[!UICONTROL 이동]**&#x200B;을 클릭하십시오.
+  * 삭제(항목 삭제 시 [고려 사항](#delete) 참조)
 
 * **오퍼**: 다음 작업을 수행할 하나 이상의 이미지 오퍼를 선택하십시오.
 
-   * [!UICONTROL 공유]: 조직의 사용자 또는 그룹에 이미지 오퍼를 공유합니다.
-   * [!UICONTROL 다운로드]: 이미지 오퍼 또는 폴더와 해당 콘텐츠를 다운로드합니다.
-   * [!UICONTROL 속성 보기]: 항목의 속성을 봅니다. 사용 가능한 모든 정보를 보려면 [!UICONTROL 기본] 탭과 [!UICONTROL 고급] 탭을 클릭하십시오. 속성을 편집하고 정보를 추가할 수 있습니다. 메타데이터 정보, 게시 상태 및 라이센스 데이터를 추가할 수 있습니다.
-   * [!UICONTROL 편집]: 폴더 또는 오퍼를 편집합니다.
-   * [!UICONTROL 주석]: 자산에 메모를 추가합니다. 자산을 클릭하고 주석을 추가할 영역을 선택한 후 참고를 입력합니다.
-   * [!UICONTROL 복사]: 오퍼를 복사합니다. 오퍼를 복사한 다음 편집하면 유사한 새 오퍼를 쉽게 만들 수 있습니다.
-   * [!UICONTROL 이동]: [!UICONTROL 이동] 아이콘을 클릭하고 오퍼 또는 폴더를 이동할 위치로 이동한 다음 **[!UICONTROL 이동]**&#x200B;을 클릭합니다. 예를 들어 하나 이상의 폴더를 다른 폴더로 이동하여 하위 폴더를 만들 수 있습니다.
-   * [!UICONTROL 삭제]: 오퍼를 삭제합니다. 자세한 내용은 아래의 [항목 삭제 시 고려 사항](#delete)을 참조하십시오.
+  * [!UICONTROL 공유]: 조직의 사용자 또는 그룹에 이미지 오퍼를 공유합니다.
+  * [!UICONTROL 다운로드]: 이미지 오퍼 또는 폴더와 해당 콘텐츠를 다운로드합니다.
+  * [!UICONTROL 속성 보기]: 항목의 속성을 봅니다. 사용 가능한 모든 정보를 보려면 [!UICONTROL 기본] 탭과 [!UICONTROL 고급] 탭을 클릭하십시오. 속성을 편집하고 정보를 추가할 수 있습니다. 메타데이터 정보, 게시 상태 및 라이센스 데이터를 추가할 수 있습니다.
+  * [!UICONTROL 편집]: 폴더 또는 오퍼를 편집합니다.
+  * [!UICONTROL 주석]: 자산에 메모를 추가합니다. 자산을 클릭하고 주석을 추가할 영역을 선택한 후 참고를 입력합니다.
+  * [!UICONTROL 복사]: 오퍼를 복사합니다. 오퍼를 복사한 다음 편집하면 유사한 새 오퍼를 쉽게 만들 수 있습니다.
+  * [!UICONTROL 이동]: [!UICONTROL 이동] 아이콘을 클릭하고 오퍼 또는 폴더를 이동할 위치로 이동한 다음 **[!UICONTROL 이동]**&#x200B;을 클릭합니다. 예를 들어 하나 이상의 폴더를 다른 폴더로 이동하여 하위 폴더를 만들 수 있습니다.
+  * [!UICONTROL 삭제]: 오퍼를 삭제합니다. 자세한 내용은 아래의 [항목 삭제 시 고려 사항](#delete)을 참조하십시오.
 
 ## 항목 삭제 시 고려 사항 {#delete}
 

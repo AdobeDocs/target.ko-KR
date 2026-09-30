@@ -1,28 +1,35 @@
 ---
 keywords: Analytics를 보고 소스로 사용;a4t;A4T;요구 사항
-description: A4T(Analytics for [!DNL Target] 을(를) 사용하여  [!DNL Target] Adobe에서 Adobe Analytics 기반 활동을 만드는 데 필요한 사용자 계정 요구 사항을 구성하는 방법에 대해 알아봅니다.
+description: A4T(Analytics for [!DNL Target])를 사용하여 Adobe [!DNL Target]에서 Adobe Analytics 기반 활동을 만드는 데 필요한 사용자 계정 요구 사항을 구성하는 방법에 대해 알아봅니다.
 title: A4T에 필요한 사용자 권한 요구 사항은 무엇입니까?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-TQID: https://experienceleague.adobe.com/SGNIoARqe3yN4WvKF4JPIp0t0JCMiSgj--zrjt-ZXJQ
+TQID: 'https://experienceleague.adobe.com/SGNIoARqe3yN4WvKF4JPIp0t0JCMiSgj--zrjt-ZXJQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: '308'
 ht-degree: 31%
-
 ---
-
 # 사용자 권한 요구 사항
 
 [!DNL Adobe Target] (A4T)에서 [!DNL Adobe Analytics] 기반 활동을 만들기 위한 사용자 계정 요구 사항에 대한 정보입니다.
@@ -39,13 +46,13 @@ ht-degree: 31%
 
 [!DNL Analytics] 및 [!DNL Target] 사용자 계정이 Adobe ID에 연결되어 있어야 합니다.
 
-자세한 내용은 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)을 참조하세요.
+자세한 내용은 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)을 참조하세요.
 
 ### Experience Cloud 그룹 멤버십 구성
 
 하나 이상의 [!DNL Experience Cloud] 그룹의 구성원으로서 [!DNL Analytics] 및 [!DNL Target]에 액세스할 수 있어야 합니다.
 
-자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko)를 참조하십시오.
+자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 

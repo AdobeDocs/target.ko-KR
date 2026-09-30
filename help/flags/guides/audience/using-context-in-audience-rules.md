@@ -4,13 +4,14 @@ description: 플래그의 기능 플래그 및 기능 그룹에 대한 대상 �
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
-
 ---
-
 # 대상 규칙에서 컨텍스트 사용 {#context-in-audience-rules}
 
 컨텍스트 속성은 런타임 시 클라이언트 응용 프로그램에서 제공하는 값입니다. 이를 통해 사용자의 활성 언어, 장치 유형 또는 애플리케이션 상태와 같은 동적 세션 수준 정보를 기반으로 사용자를 타깃팅할 수 있습니다.

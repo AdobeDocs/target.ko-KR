@@ -2,21 +2,27 @@
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;프로모션;동적 필터링;정적;정적 필터
 description: Adobe [!DNL Target] 권장 사항에서 포함 규칙을 사용하여 필터링할 하나 이상의 정적 값을 수동으로 입력하는 방법을 알아봅니다.
 title: 권장 사항 활동에서 정적 값을 기준으로 필터링하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-TQID: https://experienceleague.adobe.com/-HTJO4YFi0-isyA-5LbVUaEPu7YX1WFgPy-OexMSXFY
+TQID: 'https://experienceleague.adobe.com/-HTJO4YFi0-isyA-5LbVUaEPu7YX1WFgPy-OexMSXFY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 248
+source-wordcount: '249'
 ht-degree: 43%
-
 ---
-
 # [!UICONTROL 정적 필터]
 
 [!DNL Adobe Target Recommendations]의 포함 규칙을 사용하여 필터링할 정적 값을 하나 이상 수동으로 입력하십시오.

@@ -1,26 +1,32 @@
 ---
 keywords: Faq,자주 묻는 질문,Analytics For Target,세그먼트,A4T,보고서 공유
-description: Analytics for [!DNL Target] (A4T) 사용 시 지표, 대상 및 보고서 공유에 대한 FAQ를 찾으십시오. A4T를 사용하면 Adobe [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
+description: '[!DNL Target]용 Analytics(A4T)를 사용할 때 지표, 대상 및 보고서 공유에 대한 FAQ를 찾으십시오. A4T를 사용하면 Adobe [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.'
 title: A4T에서 지표, 대상 및 보고서를 공유하는 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a
-TQID: https://experienceleague.adobe.com/eCcPdeeOZ2h9wDrkT-wZxN2meh5dD0QW9rNsQU1ytLA
+TQID: 'https://experienceleague.adobe.com/eCcPdeeOZ2h9wDrkT-wZxN2meh5dD0QW9rNsQU1ytLA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Optimization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '250'
 ht-degree: 65%
-
 ---
-
 # 지표, 대상자 및 보고서 공유 - A4T FAQ
 
 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때의 지표, 대상자 및 보고서 공유와 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
@@ -30,7 +36,7 @@ ht-degree: 65%
 +++답변
 사용자가 테스트 결과를 보다 쉽게 확인할 수 있도록 여러 사용자 그룹을 위해 테스트 보기를 만들어야 하는 경우가 있습니다. Analytics에서는 지표, 날짜 범위, 세그먼트 및 기타 데이터를 포함하여 현재 보고서 보기를 저장하는 책갈피를 만들 수 있습니다.
 
-자세한 내용은 [책갈피 관리자](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html?lang=ko)를 참조하십시오.
+자세한 내용은 [책갈피 관리자](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html)를 참조하십시오.
 
 +++
 
@@ -39,6 +45,6 @@ ht-degree: 65%
 +++답변
 테스트에 특수 지표 및 세그먼트를 사용하는 경우 최적화 팀을 위한 사용자 그룹을 만드는 것이 좋습니다. 이러한 지표 및 세그먼트를 개별 구성원이 사용하는 것보다 그룹에서 공유하여 모든 구성원이 세그먼트 및 지표에 대한 액세스 권한을 가지도록 해야 합니다. 관리자만 그룹과 공유할 수 있습니다.
 
-[세그먼트 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html?lang=ko) 및 [계산된 지표 공유](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html?lang=ko)를 참조하십시오.
+[세그먼트 공유](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) 및 [계산된 지표 공유](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html)를 참조하십시오.
 
 +++

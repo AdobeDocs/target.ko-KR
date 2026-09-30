@@ -4,13 +4,14 @@ description: Customer Journey Analytics을 사용하여 플래그에서 기능 �
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
-
 ---
-
 # 보고 {#reporting}
 
 플래그는 **Customer Journey Analytics(CJA)**&#x200B;을 통해 보고를 전달합니다. **보고서** 탭은 모든 기능 플래그 및 기능 그룹 세부 정보 페이지에서 사용할 수 있습니다. 해당 특정 플래그 또는 그룹에 속한, 페이지에 직접 포함된 CJA 보고서를 볼 수 있습니다.
@@ -63,7 +64,7 @@ ht-degree: 1%
 
 ![실험, 제어 변형 및 지표 선택기를 사용한 실험 패널](assets/experimentation-selection.png)
 
-이러한 지표를 계산하는 방법에 대한 자세한 내용은 [실험 패널 설명서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation)를 참조하십시오.
+이러한 지표를 계산하는 방법에 대한 자세한 내용은 [실험 패널 설명서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation)를 참조하십시오.
 
 ![변형별 상승도, 신뢰도 및 전환율을 보여 주는 실험 결과](assets/experimentation.png)
 

@@ -1,16 +1,23 @@
 ---
 keywords: 경험 만들기;경험 생성;우선순위;대상자;경험;시각적 경험 작성기
-description: '[!UICONTROL 경험 타깃팅]​(XT) 활동에서 VEC(시각적 경험 작성기)를 사용하여 페이지에서 경험을 만들고 편집하는 방법에 대해 알아봅니다. [!DNL Adobe Target] '
+description: '[!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!UICONTROL 경험 타깃팅](XT) 활동에서 페이지에서 경험을 만들고 편집하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL 경험 타깃팅] 활동에서 경험을 만들려면 어떻게 해야 합니까?'
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '965'
 ht-degree: 32%
-
 ---
-
 # [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동에서 경험 만들기
 
 [!DNL Adobe Target]의 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)는 [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
@@ -112,17 +119,17 @@ ht-degree: 32%
 * 지리적 영역에 있는 대상자에게 위치 특정 콘텐츠를 전달하는 방법을 설명합니다.
 * 올바른 콘텐츠가 올바른 대상자에게 전달되도록 하기 위해 경험을 재정렬하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/30948?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### 활동 유형(9:03)
 
-다음 비디오에서는 [!DNL Target]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!UICONTROL 경험 타깃팅]은(는) 5:15부터 논의됩니다.
+다음 비디오에서는 [!DNL Target]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!UICONTROL 경험 타깃팅]은(는) 5시 15분부터 논의됩니다.
 
 * [!DNL Adobe Target]에 포함된 활동 유형 설명
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### [!UICONTROL 시각적 경험 작성기] 사용
 
@@ -131,4 +138,4 @@ ht-degree: 32%
 * 페이지 콘텐츠 변경
 * 페이지 레이아웃 변경
 
->[!VIDEO](https://video.tv.adobe.com/v/30516?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

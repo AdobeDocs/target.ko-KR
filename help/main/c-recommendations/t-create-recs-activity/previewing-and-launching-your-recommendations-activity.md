@@ -4,20 +4,28 @@ description: 활동을 시작하기 전에 결과를 사용할 수 있도록 Ado
 title: 권장 사항 활동을 미리 보고 시작하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+TQID: 'https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 13%
-
 ---
-
 # 권장 사항 활동 미리보기 및 시작
 
 [권장 사항 오퍼](/help/main/c-recommendations/recommendations-as-an-offer.md)가 포함된 [!UICONTROL 권장 사항], [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동을 만든 후에는 활동을 시작하기 전에 결과를 사용할 수 있도록 권장 사항을 미리 보고 싶습니다. [!DNL Target Recommendations]은(는) 권장 사항을 미리 보는 여러 가지 방법을 제공합니다.
@@ -110,13 +118,13 @@ CSV 다운로드 파일은 백엔드 기준 실행 후 생성된 결과를 일�
 
 * **인기도 기반 알고리즘(키가 아닌 알고리즘)의 경우 파일에 다음이 포함됩니다.**
 
-   * 앞에 * (별표)가 붙은 백업 권장 사항 행
-   * 알고리즘 설정을 기반으로 한 권장 사항을 나열하는 별도의 행
+  * 앞에 * (별표)가 붙은 백업 권장 사항 행
+  * 알고리즘 설정을 기반으로 한 권장 사항을 나열하는 별도의 행
 
 * **키 기반 알고리즘의 경우 파일에 다음이 포함됩니다.**
 
-   * 인기도 기반 알고리즘과 유사한 백업 행
-   * 첫 번째 항목이 키의 제품 ID이고 그 뒤에 추천 후보를 나타내는 쉼표로 구분된 제품 ID가 오는 키-값 형식의 여러 행
+  * 인기도 기반 알고리즘과 유사한 백업 행
+  * 첫 번째 항목이 키의 제품 ID이고 그 뒤에 추천 후보를 나타내는 쉼표로 구분된 제품 ID가 오는 키-값 형식의 여러 행
 
 ## 권장 사항 활동 활성화
 

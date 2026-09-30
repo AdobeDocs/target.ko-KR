@@ -1,21 +1,27 @@
 ---
 keywords: 권장 사항 디자인;템플릿;디자인 만들기;전달;출력
-description: Adobe의 디자인을 사용하는 방법 [!DNL Target] 권장 사항을 사용하여 페이지에 권장 사항이 표시되는 방식(1X4, 1X6, 2X2 등)을 정의하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] Recommendations의 디자인을 사용하여 페이지에 권장 사항이 표시되는 방식(1X4, 1X6, 2X2 등)을 정의하는 방법에 대해 알아봅니다.
 title: 추천에서 디자인을 사용하는 방법
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
-TQID: https://experienceleague.adobe.com/08jboJLkp6MhgXiISjkVzh2kVze5DRrxO8BbQBFLeA4
+TQID: 'https://experienceleague.adobe.com/08jboJLkp6MhgXiISjkVzh2kVze5DRrxO8BbQBFLeA4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 201
+source-wordcount: '202'
 ht-degree: 23%
-
 ---
-
 # 디자인 개요
 
 [!DNL Adobe Target Recommendations]의 디자인은 페이지에 권장 사항이 표시되는 방식을 정의합니다. 디자인은 권장 사항의 레이아웃과 형식을 정의하여 방문자 참여, 전환 및 매출을 향상시킵니다.

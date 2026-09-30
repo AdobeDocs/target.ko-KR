@@ -4,13 +4,20 @@ description: Adobe [!DNL Target] 오퍼 라이브러리에서 코드 및 이미�
 title: 오퍼 라이브러리에서 컨텐츠 작업은 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '773'
 ht-degree: 31%
-
 ---
-
 # 자산 라이브러리에서 컨텐츠 작업
 
 속성 주석 달기, 복사, 삭제, 다운로드, 편집, 공유 및 보기를 포함하여 [!DNL Adobe Target]의 콘텐츠 라이브러리에 있는 자산에 대해 수행할 수 있는 작업에 대한 정보입니다.
@@ -55,19 +62,19 @@ ht-degree: 31%
 
 * **선택**: 다음 작업을 수행할 폴더를 하나 이상 선택하십시오.
 
-   * 다운로드
-   * 복사
-   * 이동
-   * 삭제(항목 삭제 시 [고려 사항](#delete) 참조)
+  * 다운로드
+  * 복사
+  * 이동
+  * 삭제(항목 삭제 시 [고려 사항](#delete) 참조)
 
   다음 작업을 수행할 하나 이상의 이미지 오퍼를 선택하십시오.
 
-   * 공유
-   * 다운로드
-   * 속성 보기
-   * 편집
-   * 주석 달기
-   * 이동
+  * 공유
+  * 다운로드
+  * 속성 보기
+  * 편집
+  * 주석 달기
+  * 이동
 
 * **다운로드**: 이미지 오퍼 또는 폴더와 해당 콘텐츠를 다운로드합니다.
 * **속성 보기**: 항목의 속성을 봅니다. 사용 가능한 모든 정보를 보려면 [!UICONTROL 기본] 탭과 [!UICONTROL 고급] 탭을 클릭하십시오. 속성 페이지에서 연필 모양 아이콘을 클릭하여 속성을 편집하고 추가 정보를 추가합니다. 메타데이터 정보, 게시 상태 및 라이센스 데이터를 추가할 수 있습니다.
@@ -86,7 +93,7 @@ ht-degree: 31%
 
 이 비디오에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다. (4:56)
 
-* [Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=ko)와 Target 컨텐츠 라이브러리 간 연결
+* [Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)와 Target 컨텐츠 라이브러리 간 연결
 * 사용자 지정 HTML 오퍼
 * 시각적 경험 작성기의 사용자 지정 HTML 오퍼
 

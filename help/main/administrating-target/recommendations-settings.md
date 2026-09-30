@@ -1,29 +1,35 @@
 ---
 keywords: 권장 사항;권장 사항 구현;클라이언트 코드;인증 토큰;업계 카테고리;호환되지 않는 모드 필터링;기본 호스트 그룹;썸네일 기반;인증 토큰 생성;인증 토큰;
-description: ' [!DNL Adobe Target Recommendations]에 대한 설정을 구성하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target Recommendations]에 대한 설정을 구성하는 방법을 알아봅니다.'
 title: 권장 사항에 대한 설정을 구성하려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Administration & Configuration
 role: Admin
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
-TQID: https://experienceleague.adobe.com/cv-jSXG4lc-kTUwbPj-EWgDa-PLNtdAHMWJDgzbGhYk
+TQID: 'https://experienceleague.adobe.com/cv-jSXG4lc-kTUwbPj-EWgDa-PLNtdAHMWJDgzbGhYk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 133
+source-wordcount: '133'
 ht-degree: 0%
-
 ---
-
 # [!DNL Recommendations]에 대한 설정 구성
 
 [!DNL Adobe Target Recommendations]에 대한 설정을 구성하는 방법에 대해 알아봅니다.
@@ -42,4 +48,4 @@ ht-degree: 0%
 * 썸네일 기본 URL 지정
 * 사용자 지정 속성 키 구성
 
-자세한 내용은 **[!DNL Adobe Target]개발자 안내서**&#x200B;에서 [권장 사항 계획 및 구현](https://experienceleague.adobe.com/ko/docs/target-dev/developer/recommendations){target=_blank}을 참조하세요.
+자세한 내용은 **[!DNL Adobe Target]개발자 안내서**&#x200B;에서 [권장 사항 계획 및 구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}을 참조하세요.

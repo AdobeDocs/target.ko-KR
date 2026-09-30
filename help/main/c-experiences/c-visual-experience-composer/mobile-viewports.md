@@ -1,22 +1,26 @@
 ---
 keywords: 반응형;모바일 뷰포트;뷰포트;장치;모바일;반응형 웹 디자인;RWD
-description: 모바일 뷰포트는 사용자의 Adobe [!DNL Target] 활동이 다양한 크기의 화면에서 어떻게 표시되는지 보는 데 도움이 됩니다. 자주 찾는 장치 뷰포트 크기 및 해상도 목록을 확인하십시오.
+description: 모바일 뷰포트는 Adobe [!DNL Target] 활동이 다양한 크기의 Screens에서 어떻게 표시되는지 확인하는 데 도움이 됩니다. 자주 찾는 장치 뷰포트 크기 및 해상도 목록을 확인하십시오.
 title: 반응형 경험을 위해 모바일 뷰포트를 사용하는 방법은 무엇입니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
+TQID: 'https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1379
-ht-degree: 93%
-
+source-wordcount: '1382'
+ht-degree: 92%
 ---
-
 # 반응형 경험을 위한 모바일 뷰포트
 
 모바일 뷰포트를 사용하면 사용자의 [!DNL Adobe Target] 활동을 다양한 크기의 화면에서 미리 볼 수 있습니다.
@@ -180,10 +184,10 @@ ht-degree: 93%
 * 반응형 웹 사이트용 경험 미리보기 및 빌드
 * 오버레이를 사용하여 요소 유형을 강조 표시
 
->[!VIDEO](https://video.tv.adobe.com/v/30526?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Adobe Target ![개요 배지](/help/main/assets/overview.png)의 계정 환경 설정
 
-이 비디오에는 4:40부터 시작되는 모바일 뷰포트 설정에 대한 정보가 포함되어 있습니다.
+이 비디오에는 모바일 뷰포트 설정에 대한 정보(4:40)가 포함되어 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

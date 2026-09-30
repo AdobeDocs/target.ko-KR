@@ -1,23 +1,31 @@
 ---
 keywords: 시작 키트, 대상 환영 키트, 소개, 소개, 시작
-description: Adobe Target을 사용하여 최적화 및 개인화 프로그램을 시작하십시오. Adobe  [!DNL Target]  시작 키트는 좋은 출발점입니다.
+description: Adobe Target을 사용하여 최적화 및 개인화 프로그램을 시작하십시오. Adobe [!DNL Target] 시작 키트는 좋은 출발점입니다.
 title: Target을 시작하려면 어떻게 합니까?
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-TQID: https://experienceleague.adobe.com/trqV5-1-Fi8MRkvcnjDJPCgWnYXKP48JzzMpW8IpF44
+TQID: 'https://experienceleague.adobe.com/trqV5-1-Fi8MRkvcnjDJPCgWnYXKP48JzzMpW8IpF44'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 91%
-
+source-wordcount: '381'
+ht-degree: 88%
 ---
-
 # 1장: 소개
 
 오늘날 대부분의 비즈니스와 비슷하다면 디지털 마케팅 채널을 현대화한 것입니다. 이제 브랜드를 구별하여 무리에서 벗어나 매출, 전환율 및 기타 주요 비즈니스 지표를 높이는 방법을 찾고 있습니다. 이렇게 하는 한 가지 방법은 웹 사이트, 모바일 사이트, 모바일 앱 또는 기타 브랜드 터치포인트에서 고객의 상호 작용을 최대한 활용함으로써 고객에게 제공하는 디지털 경험을 최적화하고 개인화하는 것입니다. 이 최적화 및 개인화를 기존의 디지털 터치 포인트를 넘어 키오스크, 사물 인터넷(IoT) 장치, 콜 센터 상호 작용 및 Alexa와 같은 음성 지원 디바이스와 같은 터치 포인트까지 확장할 수도 있습니다. [!DNL Target] 을 사용하여 디지털 경험을 테스트하고 개인화한 브랜드는 놀라운 결과를 실현했습니다.

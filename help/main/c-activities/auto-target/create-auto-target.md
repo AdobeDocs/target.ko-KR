@@ -1,28 +1,38 @@
 ---
 keywords: 자동 타겟 만들기;A/B 테스트;자동 타겟 활동;새 a/b 활동;자동 타겟;개인화된 경험에 대한 자동 타겟;개인화된;최적화
-description: '[!UICONTROL 시각적 경험 작성기]​(VEC)를 사용하여 [!UICONTROL 자동 타겟] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!UICONTROL 자동 타겟] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL 자동 타겟] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-TQID: https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k
+TQID: 'https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1062
+source-wordcount: '1062'
 ht-degree: 16%
-
 ---
-
 # [!UICONTROL 자동 타겟] 활동 만들기
 
 [!DNL Adobe Target]의 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 사용하여 [!DNL Target]이(가) 활성화된 페이지에서 직접 [!UICONTROL 자동 타겟] [!UICONTROL A/B 테스트] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.

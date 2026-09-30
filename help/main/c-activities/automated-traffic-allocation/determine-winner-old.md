@@ -1,16 +1,23 @@
 ---
 keywords: 자동화된 트래픽 할당;타깃팅;승자;통계적 보장;신뢰도;승자 결정;상승도;신뢰도;기본값;기본 경험;자동 할당;자동 할당
-description: 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 Adobe [!DNL Target] 에서 [!UICONTROL 자동 할당] A/B 활동의 결과를 해석하는 방법에 대해 알아봅니다.
+description: 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 Adobe [!DNL Target]에서 [!UICONTROL 자동 할당] A/B 활동의 결과를 해석하는 방법에 대해 알아봅니다.
 title: '[!UICONTROL 자동 할당] 보고서를 어떻게 해석합니까?'
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1258'
 ht-degree: 22%
-
 ---
-
 # 자동 할당 보고서 해석
 
 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 [!UICONTROL Adobe Target]에서 [!UICONTROL 자동 할당] A/B 활동의 결과를 해석합니다.

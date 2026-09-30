@@ -1,25 +1,30 @@
 ---
 keywords: analytics for target;a4t;보고 소스로 분석;analytics
-description: Analytics for [!DNL Target] (A4T)을(를) 사용하는 방법을 알아봅니다. A4T에서는 Analytics 지표 및 대상 세그먼트를 사용하는  [!DNL Target] 활동에 대한 Analytics 보고서에 액세스할 수 있습니다.
+description: '[!DNL Target]용 Analytics(A4T)를 사용하는 방법을 알아봅니다. A4T에서는 Analytics 지표 및 대상 세그먼트를 사용하는 [!DNL Target] 활동에 대한 Analytics 보고서에 액세스할 수 있습니다.'
 title: A4T에서 보고를 사용하는 방법은 무엇입니까?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-TQID: https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY
+TQID: 'https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1316
+source-wordcount: '1317'
 ht-degree: 41%
-
 ---
-
 # A4T 보고
 
 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target]에 대한 보고 소스로 사용(A4T)하면 [!DNL Target] 활동에 대한 [!DNL Analytics] 보고서에 액세스할 수 있습니다.
@@ -98,7 +103,7 @@ A4T의 경우 연속 변수(이진 지표가 아님)에 대해 [Welch의 t-test]
 1. **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 데이터 웨어하우스 요청]** 탭에서 필드를 채웁니다.
 
-   각 필드에 대한 자세한 내용은 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=ko)의 &quot;데이터 웨어하우스 설명&quot;을 참조하십시오.
+   각 필드에 대한 자세한 내용은 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html)의 &quot;데이터 웨어하우스 설명&quot;을 참조하십시오.
 
    | 필드 | 지침 |
    |--- |--- |
@@ -118,5 +123,5 @@ A4T의 경우 연속 변수(이진 지표가 아님)에 대해 [Welch의 t-test]
 
 [!DNL Data Warehouse]에 대한 자세한 내용은 [!DNL Analytics] 도움말 설명서에서 다음 링크를 참조하십시오.
 
-* [Data Warehouse 요청 만들기](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=ko)
-* [Data Warehouse 우수 사례](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=ko)
+* [Data Warehouse 요청 만들기](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse 우수 사례](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

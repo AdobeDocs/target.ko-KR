@@ -4,13 +4,14 @@ description: 기능 플래그를 만들고 관리할 수 있도록 새 애플리
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 2%
-
+ht-degree: 5%
 ---
-
 # 애플리케이션 온보드 {#onboard-your-application}
 
 새 응용 프로그램을 추가하려면 **관리자** 역할이 있어야 합니다. 역할을 확인하거나 업데이트해야 하는 경우 관리자에게 문의하십시오.
@@ -29,7 +30,7 @@ ht-degree: 2%
 
 4. 다음 정보를 제공합니다.
 
-   *로 표시된 필드는 필수입니다.
+   * 표시된 필드는 필수 입력 사항입니다.
 
    | 필드 | 설명 |
    | --- | --- |

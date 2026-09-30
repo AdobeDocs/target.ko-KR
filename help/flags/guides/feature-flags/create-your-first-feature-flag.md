@@ -4,13 +4,14 @@ description: 사용자에게 롤아웃하기 전에 플래그에서 기능 플�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 2%
-
+ht-degree: 4%
 ---
-
 # 첫 번째 기능 플래그 만들기 {#create-feature-flag}
 
 ## 사전 요구 사항 {#prerequisites}
@@ -40,7 +41,7 @@ ht-degree: 2%
    | **ID** * | 플래그가 평가되는 ID(예: ECID)입니다. 기능 요청에서 전달된 ID입니다. |
    | **롤아웃 비율** | 이 기능에 제공되는 정의된 대상자의 백분율입니다. 기본값은 100%입니다. [점진적으로 롤아웃할 기능 설정](set-feature-gradual-rollout.md)을 참조하십시오. |
 
-   *로 표시된 필드는 필수입니다.
+   * 표시된 필드는 필수 입력 사항입니다.
 
 >[!IMPORTANT]
 >

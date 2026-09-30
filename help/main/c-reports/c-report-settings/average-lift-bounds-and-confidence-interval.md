@@ -4,13 +4,17 @@ description: 활동의 상승도 한계와 신뢰 수준을 이해하는 데 도
 title: 평균 상승도, 상승도 한계 및 신뢰 구간을 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '914'
 ht-degree: 59%
-
 ---
-
 # 평균 상승도, 상승도 한계 및 신뢰 구간
 
 보고서에는 [!DNL Adobe Target] 활동과 관련된 상승도 한계 및 신뢰 수준을 파악하여 우승자를 보다 정확하게 결정하는 데 도움이 되는 몇 가지 데이터 포인트와 시각화 표현이 포함되어 있습니다.

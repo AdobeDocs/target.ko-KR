@@ -1,23 +1,28 @@
 ---
 keywords: 혼합 콘텐츠;보안;비보안;Chrome;문제 해결;VEC;시각적 경험 작성기;비보안;HTTP;HTTPS;Firefox;Internet Explorer
-description: ' [!DNL Chrome], [!DNL Firefox] 및  [!DNL Edge]에서 혼합 콘텐츠를 활성화하는 방법에 대해 알아봅니다.'
+description: '[!DNL Chrome], [!DNL Firefox] 및 [!DNL Edge]에서 혼합 콘텐츠를 활성화하는 방법에 대해 알아봅니다.'
 title: 내 브라우저에서 혼합 콘텐츠를 활성화하는 방법
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-TQID: https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw
+TQID: 'https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Security
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 85%
-
+source-wordcount: '566'
+ht-degree: 84%
 ---
-
 # 브라우저에서 혼합 콘텐츠 사용
 
 혼합 콘텐츠는 초기 요청이 HTTPS에서는 안전하지만 HTTPS *및* HTTP 콘텐츠가 로드되어 웹 페이지를 표시하는 경우 발생합니다. HTTPS 콘텐츠는 안전합니다. HTTP 콘텐츠는 불안전합니다.

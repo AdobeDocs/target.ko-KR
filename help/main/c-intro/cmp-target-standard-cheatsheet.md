@@ -1,37 +1,55 @@
 ---
 keywords: Target Standard;faq;자주 묻는 질문;치트 시트;치트시트
-description: 자세한 정보를 보려면 정보 및 링크와 함께  [!DNL Target]의 기능 사용에 대한 자주 묻는 질문 목록을 살펴보십시오.
+description: 자세한 정보를 보려면 정보 및 링크와 함께 [!DNL Target]의 기능 사용에 대한 자주 묻는 질문 목록을 살펴보십시오.
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
+TQID: 'https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2871
+source-wordcount: '2871'
 ht-degree: 51%
-
 ---
-
 # Target 최적화 및 개인화 FAQ
 
 [!DNL Adobe Target] 기능 사용에 대한 FAQ에 대한 답변을 살펴보십시오. 심층적인 통찰력을 위한 직접 링크를 통해 실험을 최적화하고, 경험을 개인화하고, 유용한 리소스에 액세스하는 방법을 알아보십시오.
@@ -69,14 +87,14 @@ ht-degree: 51%
 **[!DNL Adobe]에 [!DNL Target]에 대한 답변과 추가 정보를 찾을 수 있는 커뮤니티/포럼이 있습니까?**
 
 +++세부 정보 보기
-[Target 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko){target=_blank}에서 동료 [!DNL Target] 실무자와 연결합니다. [!DNL Target]을(를) 사용하여 개인 맞춤화 및 실험을 추진하는 다른 사용자와 전문성을 공유하고 질문하고 공동 작업하십시오. 번영하는 공동체는 적극적인 참여에 달려 있다. 귀하의 통찰력과 경험은 다른 사람이 성공하는 데 도움이 될 수 있습니다. 뛰어들어 기여하고 필요한 답변을 찾아보십시오.
+[Target 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}에서 동료 [!DNL Target] 실무자와 연결합니다. [!DNL Target]을(를) 사용하여 개인 맞춤화 및 실험을 추진하는 다른 사용자와 전문성을 공유하고 질문하고 공동 작업하십시오. 번영하는 공동체는 적극적인 참여에 달려 있다. 귀하의 통찰력과 경험은 다른 사람이 성공하는 데 도움이 될 수 있습니다. 뛰어들어 기여하고 필요한 답변을 찾아보십시오.
 
 +++
 
 **[!DNL Target]에서 지원하는 브라우저는 무엇입니까?**
 
 +++세부 정보 보기
-자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko){target=_blank} 표를 참조하십시오. 데스크톱/장치에서는 [!DNL Target Standard/Premium] 인터페이스 지원과 최종 사용자 브라우저 지원의 두 가지 측면이 있습니다.
+자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} 표를 참조하십시오. 데스크톱/장치에서는 [!DNL Target Standard/Premium] 인터페이스 지원과 최종 사용자 브라우저 지원의 두 가지 측면이 있습니다.
 
 +++
 
@@ -165,7 +183,7 @@ ht-degree: 51%
 **고정된 시간에 활동을 시작 및 종료하도록 예약할 수 있습니까?**
 
 +++세부 정보 보기
-시작 및 종료 날짜를 지정하여 3파트 활동 워크플로 중 [!UICONTROL 목표 및 설정][&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) 단계의 예약 기능을 사용하십시오.
+시작 및 종료 날짜를 지정하여 3파트 활동 워크플로 중 [!UICONTROL 목표 및 설정]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) 단계의 [예약 기능을 사용하십시오.
 
 활동을 활성화해야 합니다. 라이브 활동만 지정된 일정을 준수합니다. 종료 날짜에 도달하면 활동이 [!UICONTROL 종료됨] 상태로 전환됩니다.
 
@@ -181,7 +199,7 @@ ht-degree: 51%
 **특정 단계를 유지하면서 활동(예: 오퍼 텍스트 또는 사용자 지정 코드)을 계속 수정한 후 다른 탭에서 QA를 수행할 수 있습니까?**
 
 +++세부 정보 보기
-가능합니다. [사용할 수 있는 [!UICONTROL 저장] 옵션을 사용하면 &#x200B;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다.
+가능합니다. [사용할 수 있는 [!UICONTROL 저장] 옵션을 사용하면 ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다.
 
 +++
 
@@ -254,7 +272,7 @@ Target의 안내가 있는 3가지 부분 워크플로의 [2단계(타깃팅 페
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -401,7 +419,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -475,6 +493,6 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **API [!DNL Target]에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
 +++세부 정보 보기
-API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 추천 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}를 참조하십시오.
+API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 추천 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}를 참조하십시오.
 
 +++

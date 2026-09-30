@@ -1,22 +1,29 @@
 ---
 keywords: 경험 타깃팅;xt;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
-description: '[!UICONTROL 전환], [!UICONTROL 매출] 또는 [!UICONTROL 참여]와 같이 방문이 성공적으로 수행된 시기를 결정하기 위해  [!DNL Adobe Target] [!UICONTROL 경험 타깃팅] 활동에서 지표를 지정하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target] [!UICONTROL 경험 타깃팅] 활동에서 지표를 지정하여 [!UICONTROL 전환], [!UICONTROL 매출] 또는 [!UICONTROL 참여]와 같이 방문이 성공적으로 수행된 시기를 결정하는 방법을 알아봅니다.'
 title: '[!UICONTROL 경험 타깃팅] 활동에서 목표 지표를 설정하려면 어떻게 해야 합니까?'
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
-TQID: https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA
+TQID: 'https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: '353'
 ht-degree: 52%
-
 ---
-
 # [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동에서 지표 설정
 
 [!DNL Adobe Target] [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동에서 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
@@ -31,7 +38,7 @@ ht-degree: 52%
    [!UICONTROL 지표 선택] 페이지에 활동에 대해 선택할 수 있는 성공 지표가 나열됩니다. 성공 지표는 다음 카테고리로 구분됩니다.
 
    * [!UICONTROL 전환]
-   * [!UICONTROL 매출 &#x200B;]
+   * [!UICONTROL 매출 ]
    * [!UICONTROL 참여]
 
    사전 제작된 성공 지표를 사용하거나 사용자 지정 성공 지표를 만들 수 있습니다. 성공 지표를 기본 지표로 표시할 수도 있습니다. 기본 측정 항목(설정된 경우)을 표시하려면 Experience Cloud 카드 기본값을 보고합니다.

@@ -5,30 +5,41 @@ title: 호스트는 무엇이며 어떻게 사용할 수 있습니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+TQID: 'https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: '1095'
 ht-degree: 21%
-
 ---
-
 # 호스트
 
 [!DNL Adobe Target]에서 쉽게 관리하고 개별적으로 보고하도록 사이트 및 사전 프로덕션 환경을 구성하십시오.
@@ -50,8 +61,8 @@ ht-degree: 21%
 * 호스트에 하나 이상의 [!DNL Target] 요청이 있어야 합니다.
 * 호스트의 페이지에는 다음 항목이 있어야 합니다.
 
-   * 정확한 at.js 참조
-   * [!DNL Target] 요청 또는 자동 생성된 글로벌 [!DNL Target] 요청
+  * 정확한 at.js 참조
+  * [!DNL Target] 요청 또는 자동 생성된 글로벌 [!DNL Target] 요청
 
 * [!DNL Target] 요청이 있는 페이지는 브라우저에서 봐야 합니다.
 
@@ -76,7 +87,7 @@ ht-degree: 21%
 
 ## 호스트 목록 정렬 또는 검색 {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-[!UICONTROL 호스트] 목록을 정렬하려면 원하는 열 헤더([!UICONTROL 이름], [!UICONTROL 환경] 또는 [!UICONTROL 마지막으로 요청한 &#x200B;])를 클릭하여 목록을 오름차순 또는 내림차순으로 정렬하십시오.
+[!UICONTROL 호스트] 목록을 정렬하려면 원하는 열 헤더([!UICONTROL 이름], [!UICONTROL 환경] 또는 [!UICONTROL 마지막으로 요청한 ])를 클릭하여 목록을 오름차순 또는 내림차순으로 정렬하십시오.
 
 [!UICONTROL 호스트] 목록을 검색하려면 [!UICONTROL 호스트 검색] 상자에 검색어를 입력하십시오.
 
@@ -102,7 +113,7 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->**보안 모범 사례**: [!DNL Target]을(를) 사용하는 경우 이 허용 목록에 추가하다의 ubox 기능은 [리디렉터](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=ko){target=_blank}가 탐색할 수 있는 도메인 목록도 제어합니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가해야 합니다. 허용 목록에 추가하다를 지정하지 않고 [!DNL Adobe]을(를) 지정하지 않으면 리디렉션 URL을 확인할 수 없습니다.
+>**보안 모범 사례**: [!DNL Target]을(를) 사용하는 경우 이 허용 목록에 추가하다의 ubox 기능은 [리디렉터](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}가 탐색할 수 있는 도메인 목록도 제어합니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가해야 합니다. 허용 목록에 추가하다를 지정하지 않고 [!DNL Adobe]을(를) 지정하지 않으면 리디렉션 URL을 확인할 수 없습니다.
 >
 >허용 목록이 환경보다 우선합니다. 허용 목록에 추가하다 기능을 사용하기 전에 허용 목록에 추가하다에서 허용된 호스트를 모두 지운 다음 호스트 목록에 만 나타납니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 

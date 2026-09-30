@@ -1,30 +1,39 @@
 ---
 keywords: 문제 해결;지표 불일치;FAQ;보고서;새 방문자;새 방문자;재방문자;재방문자;재방문자;새 방문
 description: Adobe [!DNL Target] 보고에 대한 FAQ 및 답변 목록을 살펴보십시오.
-title: ' [!DNL Target] 보고에 대한 질문에 대한 답변은 어디에서 찾을 수 있습니까?'
+title: '[!DNL Target] 보고에 대한 질문에 대한 답변은 어디에서 찾을 수 있습니까?'
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-TQID: https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM
+TQID: 'https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1324
-ht-degree: 24%
-
+source-wordcount: '1393'
+ht-degree: 23%
 ---
-
 # 보고 FAQ
 
 [!DNL Adobe Target]의 보고에 대한 FAQ 목록
@@ -139,6 +148,6 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 * A/B 및 MVT 테스트의 모범 사례는 트래픽 분할을 균일하게 유지하는 것입니다. 테스트 중에 경험 간의 트래픽 분포(예: 90/10에서 50/50)를 변경하면 경험 간에 방문자가 고르지 않을 수 있습니다. 낮은 트래픽 경험은 &quot;따라잡을 수 없음&quot;일 수 있습니다.
 * 위의 모범 사례를 따르고 있고 트래픽 분할이 시간이 지남에 따라 정규화되지 않는 경우 다음을 확인해야 합니다.
 
-   * 최신 at.js 라이브러리를 사용하고 있습니까? 현재 버전 및 관련 릴리스 정보에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오.
+  * 최신 at.js 라이브러리를 사용하고 있습니까? 현재 버전 및 관련 릴리스 정보에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오.
 
-   * 리디렉션 테스트입니까? 페이지에서 태그가 실행되는 타이밍이 올바르지 않으면 트래픽 분할이 균일하지 않을 수 있습니다. 특히 [!DNL Analytics]을(를) [!DNL Target] 활동의 데이터 소스로 사용할 때 그렇습니다. Analytics for Target(A4T)을 사용하는 리디렉션 활동에 대한 트래픽 분포가 불균일한 문제를 해결하기 위한 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)를 참조하십시오.
+  * 리디렉션 테스트입니까? 페이지에서 태그가 실행되는 타이밍이 올바르지 않으면 트래픽 분할이 균일하지 않을 수 있습니다. 특히 [!DNL Analytics]을(를) [!DNL Target] 활동의 데이터 소스로 사용할 때 그렇습니다. Analytics for Target(A4T)을 사용하는 리디렉션 활동에 대한 트래픽 분포가 불균일한 문제를 해결하기 위한 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)를 참조하십시오.

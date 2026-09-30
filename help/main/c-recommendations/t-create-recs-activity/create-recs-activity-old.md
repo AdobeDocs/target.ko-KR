@@ -1,17 +1,24 @@
 ---
 keywords: 권장 사항 만들기;권장 사항 활동;새 권장 사항;권장 사항 개요
-description: Adobe [!DNL Target] VEC(시각적 경험 작성기)를 사용하여  [!DNL Target] 사용 페이지에서 바로 권장 사항 활동을 만드는 방법을 알아봅니다.
+description: Adobe [!DNL Target] VEC(시각적 경험 작성기)를 사용하여 [!DNL Target] 사용 페이지에서 바로 권장 사항 활동을 만드는 방법을 알아봅니다.
 title: 권장 사항 활동을 만들려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1342'
 ht-degree: 58%
-
 ---
-
 # 권장 사항 활동 만들기
 
 Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target 시각적 경험 작성기(VEC)를 사용하십시오.
@@ -30,7 +37,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >이전 그림에서 [[!UICONTROL [Choose Workplace]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/main/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.
+   >이전 그림에서 [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/main/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.
 
 1. (조건부) [Target Premium 고객](/help/main/c-intro/intro.md#premium)인 경우 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
 
@@ -77,7 +84,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    >[!NOTE]
    >
-   >모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]** 선택란을 선택 취소하십시오. 권장 사항 설정(**[!UICONTROL 권장 사항]** > **[!UICONTROL 설정]** > **[!UICONTROL 호환되지 않는 기준 필터링]**)에 따라 [!UICONTROL 호환] 옵션이 표시되지 않을 수 있습니다. 자세한 내용은 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하십시오.
+   >모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]** 선택란을 선택 취소하십시오. 권장 사항 설정(**[!UICONTROL 권장 사항]** > **[!UICONTROL 설정]** > **[!UICONTROL 호환되지 않는 기준 필터링]**)에 따라 [!UICONTROL 호환] 옵션이 표시되지 않을 수 있습니다. 자세한 내용은 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하십시오.
 
    ![기준 선택 대화 상자](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -178,4 +185,4 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
 ## 교육 비디오: 권장 사항 활동 만들기(7:15) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33986?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

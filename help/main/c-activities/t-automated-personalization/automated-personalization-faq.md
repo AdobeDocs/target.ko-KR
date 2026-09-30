@@ -1,29 +1,40 @@
 ---
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;자동화된 개인화;제어;기본 경험;우수 사례
-description: '[!UICONTROL Adobe Target]의 [!UICONTROL Automated Personalization]​(AP) 활동에 대한 FAQ 및 답변 목록을 살펴보십시오.'
+description: '[!UICONTROL Adobe Target]의 [!UICONTROL Automated Personalization](AP) 활동에 대한 FAQ 및 답변 목록을 살펴보십시오.'
 title: '[!UICONTROL Automated Personalization] 활동에 대한 FAQ를 찾으려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 18%
-
 ---
-
 # AUTOMATED PERSONALIZATION FAQ
 
 [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization] 활동과 함께 작업할 때 다음 FAQ 및 답변을 참조하십시오.
@@ -57,32 +68,32 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 * 낮은 트래픽의 페이지를 개인화하거나 개인화하는 경험을 구조적으로 변경하려면 [!UICONTROL Automated Personalization] 대신 [!UICONTROL 자동 타겟] 활동을 사용하는 것이 좋습니다. [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 참조하세요.
 * [!UICONTROL Automated Personalization] 활동에서 사용할 오퍼와 위치 간에 [!UICONTROL A/B 테스트] 활동을 완료하여 위치 및 오퍼가 최적화 목표에 영향을 주는지 확인해 보십시오. [!UICONTROL A/B 테스트] 활동이 상당한 차이를 보이지 않는 경우 [!UICONTROL Automated Personalization]도 향상되지 않을 수 있습니다.
 
-   * A/B...N 테스트에서 경험 간에 통계적으로 중요한 차이가 없는 경우 다음 상황 중 하나 이상이 원인일 수 있습니다.
+  * A/B...N 테스트에서 경험 간에 통계적으로 중요한 차이가 없는 경우 다음 상황 중 하나 이상이 원인일 수 있습니다.
 
-      * 오퍼는 서로 충분히 다르지 않을 수 있습니다.
-      * 선택한 위치는 성공 지표에 영향을 주지 않습니다.
-      * 전환 funnel에서 최적화 목표가 너무 멀어서 선택한 오퍼의 영향을 받을 수 없습니다.
+    * 오퍼는 서로 충분히 다르지 않을 수 있습니다.
+    * 선택한 위치는 성공 지표에 영향을 주지 않습니다.
+    * 전환 funnel에서 최적화 목표가 너무 멀어서 선택한 오퍼의 영향을 받을 수 없습니다.
 
 * [!UICONTROL Automated Personalization] 활동에서 개인화 모델을 만드는 데 걸리는 시간을 파악할 수 있도록 [트래픽 견적 도구](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)를 사용하십시오.
 * 목표를 기반으로 활동을 시작하기 전에 통제와 타깃팅 간의 할당을 결정합니다.
 
   활동의 목표와 선택한 제어 유형에 따라 고려할 시나리오가 세 가지가 있습니다.
 
-   * **제어 및 활동 목표로서의 무작위 경험은 개인화 알고리즘의 효과를 테스트하는 것입니다**: 개인화 알고리즘을 평가하는 것이 목표라면 리프트를 정확하게 파악하고자 합니다. 또한 단순히 [!UICONTROL A/B 테스트]&#x200B;(임의로 제공된 제어)를 수행한 경우 경험 또는 오퍼에 대한 전환율을 비교하려고 할 수 있습니다. 이 경우, 임의로 제공된 환경에 대한 제어에 50% 할당을 사용하는 것이 좋습니다.
-   * **&quot;무작위 경험&quot;을 제어 및 활동 목표로 사용하여 개인화된 트래픽을 최대화하는 것입니다**: 알고리즘을 사용하는 데 익숙하고 최대 트래픽 양을 개인화하려는 경우 제어에 10%~30%를 할당하는 것이 좋습니다. 여기서 장점은 리프트 정보에 표시되는 정확도입니다. 제어 트래픽으로 유입되는 트래픽이 감소하므로 제어 트래픽의 신뢰 구간이 더 큽니다.
-   * **다음 두 가지 목표 유형을 사용하여 특정 경험을 제어로 사용**: 특정 마케터 중심의 경험을 개인화 모델과 비교하려면 제어의 10%~30% 할당이 권장됩니다. 한 개의 경험만 제어로 선택하면 활동의 모든 오퍼 또는 경험에 트래픽이 분산되지 않습니다.
+  * **제어 및 활동 목표로서의 무작위 경험은 개인화 알고리즘의 효과를 테스트하는 것입니다**: 개인화 알고리즘을 평가하는 것이 목표라면 리프트를 정확하게 파악하고자 합니다. 또한 단순히 [!UICONTROL A/B 테스트]&#x200B;(임의로 제공된 제어)를 수행한 경우 경험 또는 오퍼에 대한 전환율을 비교하려고 할 수 있습니다. 이 경우, 임의로 제공된 환경에 대한 제어에 50% 할당을 사용하는 것이 좋습니다.
+  * **&quot;무작위 경험&quot;을 제어 및 활동 목표로 사용하여 개인화된 트래픽을 최대화하는 것입니다**: 알고리즘을 사용하는 데 익숙하고 최대 트래픽 양을 개인화하려는 경우 제어에 10%~30%를 할당하는 것이 좋습니다. 여기서 장점은 리프트 정보에 표시되는 정확도입니다. 제어 트래픽으로 유입되는 트래픽이 감소하므로 제어 트래픽의 신뢰 구간이 더 큽니다.
+  * **다음 두 가지 목표 유형을 사용하여 특정 경험을 제어로 사용**: 특정 마케터 중심의 경험을 개인화 모델과 비교하려면 제어의 10%~30% 할당이 권장됩니다. 한 개의 경험만 제어로 선택하면 활동의 모든 오퍼 또는 경험에 트래픽이 분산되지 않습니다.
 
 * 타깃팅 규칙은 모델의 최적화 기능을 방해할 수 있으므로 가능한 한 덜 사용해야 합니다.
 * 보고 그룹은 [!UICONTROL Automated Personalization] 활동의 성공을 제한할 수 있습니다. 특정 조건에서만 보고 그룹 사용:
 
-   * 다음 조건이 충족되는 경우에만 보고 그룹을 사용하십시오.
+  * 다음 조건이 충족되는 경우에만 보고 그룹을 사용하십시오.
 
-      * 활동이 실행되는 동안 새 오퍼를 바꾸거나 추가할 계획입니다.
-      * 보고 그룹의 오퍼는 동일한 방문자에게 어필됩니다.
-      * 해당 보고 그룹의 오퍼의 전체 응답률은 거의 동일합니다.
+    * 활동이 실행되는 동안 새 오퍼를 바꾸거나 추가할 계획입니다.
+    * 보고 그룹의 오퍼는 동일한 방문자에게 어필됩니다.
+    * 해당 보고 그룹의 오퍼의 전체 응답률은 거의 동일합니다.
 
-   * 보고 그룹의 오퍼 간에는 개인화가 없습니다. 오퍼는 개인화 모델에 의해 모두 동일하게 처리됩니다.
-   * 활동에 있는 모든 오퍼를 하나의 보고 그룹에 넣지 마십시오. 이렇게 하면 활동의 모든 방문자에게 모든 오퍼가 균일하게 임의로 제공됩니다.
+  * 보고 그룹의 오퍼 간에는 개인화가 없습니다. 오퍼는 개인화 모델에 의해 모두 동일하게 처리됩니다.
+  * 활동에 있는 모든 오퍼를 하나의 보고 그룹에 넣지 마십시오. 이렇게 하면 활동의 모든 방문자에게 모든 오퍼가 균일하게 임의로 제공됩니다.
 
 +++
 

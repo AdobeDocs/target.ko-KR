@@ -1,26 +1,31 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 방문자를 같은 페이지에 표시하는 대신 다른 페이지로 보내려는 경우  [!DNL Target] Adobe에서 URL로 리디렉션 옵션을 사용하는 방법에 대해 알아봅니다.
+description: 방문자를 동일한 페이지에 콘텐츠를 표시하지 않고 다른 페이지로 보내려는 경우 Adobe [!DNL Target]에서 URL로 리디렉션 옵션을 사용하는 방법에 대해 알아봅니다.
 title: 페이지를 다른 URL로 리디렉션할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-TQID: https://experienceleague.adobe.com/8Bh5z7SRWw3QqKQMHZck01GKVBtMufwLbw9JxLsSACU
+TQID: 'https://experienceleague.adobe.com/8Bh5z7SRWw3QqKQMHZck01GKVBtMufwLbw9JxLsSACU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: '486'
 ht-degree: 80%
-
 ---
-
 # URL로 리디렉션
 
 방문자를 동일한 페이지에 콘텐츠를 표시하지 않고 다른 페이지로 보내려면 [!DNL Adobe Target]에서 [!UICONTROL URL로 리디렉션] 옵션을 사용하십시오.

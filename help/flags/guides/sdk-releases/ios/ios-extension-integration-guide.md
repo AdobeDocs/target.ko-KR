@@ -3,13 +3,14 @@ title: iOS 통합 안내서의 플래그 확장
 description: Flags 확장을 iOS의 Adobe Experience Platform Mobile SDK과 통합하는 방법을 알아봅니다.
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 5%
-
+source-wordcount: '1046'
+ht-degree: 6%
 ---
-
 # iOS용 플래그 확장 {#ios-extension-integration-guide}
 
 이 안내서에서는 iOS에서 Adobe Experience Platform Mobile SDK과 플래그 확장을 통합하는 방법을 설명합니다.
@@ -51,7 +52,7 @@ Flags 확장을 사용하려면 다음 Adobe Experience Platform 확장이 필�
    | 애플리케이션 ID | 플래그의 애플리케이션 고유 식별자 |
 
 1. **저장**&#x200B;을 선택합니다.
-1. 구성을 업데이트하려면 [게시 프로세스](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)를 따르십시오.
+1. 구성을 업데이트하려면 [게시 프로세스](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)를 따르십시오.
 
 ### 환경 파일 ID 가져오기 {#environment-file-id}
 

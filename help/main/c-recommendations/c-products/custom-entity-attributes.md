@@ -2,22 +2,28 @@
 keywords: 다중 값 엔티티 속성;사용자 지정 엔티티 속성;올바른 JSON;엔티티 속성값;JSON 배열;다중 값;복수 값
 description: 단일 및 다중 값 사용자 지정 엔티티 특성을 사용하여 Adobe [!DNL Target] Recommendations 카탈로그의 항목에 대한 추가 정보를 정의하는 방법을 알아봅니다.
 title: 사용자 지정 엔티티 속성을 사용하는 방법
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-TQID: https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q
+TQID: 'https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1504
+source-wordcount: '1505'
 ht-degree: 80%
-
 ---
-
 # 사용자 지정 엔티티 속성
 
 [!DNL Adobe Target Recommendations]에서 단일 및 다중 값 사용자 지정 엔터티 특성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
@@ -132,7 +138,7 @@ mbox 매개 변수의 배달 API를 이스케이프 처리된 JSON 배열을 포
   }
 ```
 
-배달 및 저장 엔터티 API 사용에 대한 자세한 내용은 [Adobe Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}를 참조하세요.
+배달 및 저장 엔터티 API 사용에 대한 자세한 내용은 [Adobe Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}를 참조하세요.
 
 ## 다중 값 속성에 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

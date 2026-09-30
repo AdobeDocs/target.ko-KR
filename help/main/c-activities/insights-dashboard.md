@@ -1,16 +1,20 @@
 ---
 keywords: 활동;활동;통찰력 대시보드
-description: '[!UICONTROL Adobe Target 대시보드]를 통해 조직의 사용 방법을 전체적으로 볼 수 있으며 [!DNL Target] 시간이 지남에 따라 채택, 활동 볼륨 및 실험 사용 현황을 한눈에 볼 수 있습니다.'
+description: '[!UICONTROL Adobe Target 대시보드]를 통해 조직에서 시간이 지남에 따라 [!DNL Target]을(를) 사용하는 방식을 한눈에 표시하여 살펴볼 수 있습니다.'
 title: Adobe Target 통찰력 대시보드
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
-source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 1%
-
 ---
-
 # Adobe Target 통찰력 대시보드
 
 [!UICONTROL Adobe Target 대시보드]를 통해 조직에서 시간이 지남에 따라 [!DNL Adobe Target]을(를) 사용하는 방식을 개괄적으로 볼 수 있습니다. 팀이 채택, 활동 볼륨 및 실험 사용을 한 눈에 이해할 수 있도록 도와줍니다.

@@ -2,31 +2,42 @@
 keywords: 타기팅;AP 보고서;자동화된 개인화 보고서;자동 타깃;자동 타깃;자동 타깃 보고서;자동 타깃 보고서;개인화;인사이트;faq;자주 묻는 질문;중요 속성
 description: 개인화 모델에 영향을 준 상위 특성 및 상대적 중요도를 보여 주는 [!UICONTROL 중요 특성] 보고서를 사용하는 방법을 알아봅니다.
 title: 중요 속성 보고서란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-TQID: https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo
+TQID: 'https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1937
+source-wordcount: '1937'
 ht-degree: 61%
-
 ---
-
 # 중요 속성 보고서
 
 [!UICONTROL 중요 특성] 보고서에 대한 정보이며, 두 전문 보고서 중 하나는 [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟]&#x200B;(AT) 활동의 사용자가 사용할 수 있습니다.
@@ -107,13 +118,13 @@ ht-degree: 61%
 
 속성은 트래픽을 개인화하는 방법을 학습하기 위해 개인화 알고리즘에 사용된 방문자 또는 방문자의 특정 방문에 대한 정보입니다. 예를 들어, 브라우저 유형, 위치, 방문 요일 등이 속성이 될 수 있습니다.
 
-개인화 모델에서 [!DNL Target]이 사용하는 속성에 대한 자세한 내용은 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. Target의 개인화 모델에 사용할 새 속성을 Target에 업로드하는 방법에 대한 자세한 내용은 [데이터를 Target에 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}을 참조하십시오.
+개인화 모델에서 [!DNL Target]이 사용하는 속성에 대한 자세한 내용은 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. Target의 개인화 모델에 사용할 새 속성을 Target에 업로드하는 방법에 대한 자세한 내용은 [데이터를 Target에 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}을 참조하십시오.
 
 ### 모델에서 교육에 사용하지 않으려는 하나 이상의 속성이 표시됩니다. 교육 모델에서 해당 속성을 제거할 수 있습니까? {#models-api}
 
 차단 목록에 추가하다 API라고도 하는 [!UICONTROL 모델 API]를 통해 사용자는 [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟]&#x200B;(AT) 활동을 위한 머신 러닝 모델에 사용되는 특성(기능이라고도 함) 목록을 관리하고 관리할 수 있습니다. AP 또는 AT 활동용 모델에서 하나 이상의 속성을 사용하지 못하도록 하려면 모델 API를 사용하여 이러한 속성을 &quot;차단 목록&quot;에 추가할 수 있습니다.
 
-자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [모델 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ko){target=_blank}를 참조하십시오. API를 사용하여 특성을 차단하려면 [모델 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=ko){target=_blank}를 참조하십시오.
+자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [모델 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}를 참조하십시오. API를 사용하여 특성을 차단하려면 [모델 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}를 참조하십시오.
 
 ### [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 특성] 보고서의 정보가 CSV 다운로드와 동일합니까?
 
@@ -125,7 +136,7 @@ ht-degree: 61%
 
 ### [!UICONTROL Personalization Insights]는 어떻게 만들어집니까?
 
-[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. &#x200B;] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
+[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. ] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
 
 ### 수익 기반 모델링 목표/기본 목표에 [!UICONTROL Personalization Insights]를 사용할 수 있습니까?
 

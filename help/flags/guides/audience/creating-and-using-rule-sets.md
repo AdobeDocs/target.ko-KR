@@ -3,13 +3,14 @@ title: 규칙 세트 만들기 및 사용
 description: 플래그에서 재사용 가능한 규칙 세트 대상 컨텍스트 기준을 만들고 기능 플래그 및 기능 그룹으로 가져오는 방법을 알아봅니다.
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 1%
-
 ---
-
 # 규칙 세트 만들기 및 사용 {#creating-and-using-rule-sets}
 
 규칙 세트는 대상 컨텍스트 기준의 재사용 가능한 컬렉션입니다. 여러 기능 플래그 또는 기능 그룹에 동일한 대상이 필요한 경우 규칙 세트를 만듭니다. 그런 다음 각 기능에 대한 대상 기준을 다시 만드는 대신 규칙 세트를 가져올 수 있습니다.

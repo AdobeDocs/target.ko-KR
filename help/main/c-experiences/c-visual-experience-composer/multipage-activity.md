@@ -1,22 +1,26 @@
 ---
 keywords: 다중 페이지;여정 테스트;다중 페이지 활동
-description: Adobe에서 다중 페이지 활동을 만드는 방법을 알아봅니다 [!DNL Target] 에서는 각 페이지별로 다른 디자인을 사용하여 여러 페이지에 걸쳐 스토리를 만들 수 있습니다.
+description: Adobe [!DNL Target]에서 다중 페이지 활동을 만드는 방법에 대해 알아봅니다. 이를 통해 각 페이지별로 다른 디자인을 사용하여 여러 페이지에 걸쳐 스토리를 만들 수 있습니다.
 title: 다중 페이지 활동을 만들려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-TQID: https://experienceleague.adobe.com/ZFqgbNp-sLF-ahG-uXKvWY0XPcxO0oZScGkpNX8hDHY
+TQID: 'https://experienceleague.adobe.com/ZFqgbNp-sLF-ahG-uXKvWY0XPcxO0oZScGkpNX8hDHY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Mobile experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '354'
 ht-degree: 54%
-
 ---
-
 # 다중 페이지 활동
 
 [!DNL Adobe Target]의 다중 페이지 활동을 사용하면 각 페이지별로 다른 디자인을 사용하여 여러 페이지에 걸쳐 스토리를 만들 수 있습니다.

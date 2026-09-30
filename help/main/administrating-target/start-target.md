@@ -1,26 +1,32 @@
 ---
 keywords: 관리;승인자 역할;승인자
-description: ' [!DNL Adobe Target] 관리자가  [!DNL Adobe Experience Cloud]에 대한 전자 메일 초대를 받은 후 수행해야 하는 첫 번째 작업을 수행합니다.'
-title: ' [!DNL Target] 관리를 시작하려면 어디서 시작해야 합니까?'
+description: '[!DNL Adobe Target] 관리자가 [!DNL Adobe Experience Cloud]에 대한 전자 메일 초대를 받은 후 수행해야 하는 첫 번째 작업을 수행합니다.'
+title: '[!DNL Target] 관리를 시작하려면 어디서 시작해야 합니까?'
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
+TQID: 'https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 30%
-
+source-wordcount: '474'
+ht-degree: 29%
 ---
-
 # 관리자의 첫 단계
 
 이 문서에는 [!DNL Adobe Target] 관리자가 [!DNL Adobe Experience Cloud]에 대한 이메일 초대를 받은 후 수행해야 하는 첫 번째 단계가 포함되어 있습니다.
@@ -29,7 +35,7 @@ ht-degree: 30%
 
 [!DNL Adobe Admin Console]의 시스템 관리자가 귀하를 가입하도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 제품 프로필(사용자 그룹)에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행됩니다.
 
-자세한 내용은 [사용자 그룹 관리](https://helpx.adobe.com/kr/enterprise/using/users.html)를 참조하십시오.
+자세한 내용은 [사용자 그룹 관리](https://helpx.adobe.com/enterprise/using/users.html)를 참조하십시오.
 
 시스템 관리자가 이러한 단계를 수행하면 초대 이메일을 받게 됩니다.
 

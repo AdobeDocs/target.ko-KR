@@ -1,16 +1,23 @@
 ---
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: Adobe [!DNL Target] 에서 VEC(시각적 경험 작성기)를 사용하여  [!DNL Target] 사용 페이지에서 직접 A/B 테스트 활동을 만드는 방법을 알아봅니다.
+description: Adobe [!DNL Target]에서 VEC(시각적 경험 작성기)를 사용하여 [!DNL Target]이 활성화된 페이지에서 바로 A/B 테스트 활동을 만드는 방법에 대해 알아봅니다.
 title: A/B 테스트를 만들려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '949'
 ht-degree: 35%
-
 ---
-
 # A/B 테스트 만들기
 
 [!DNL Target]을(를) 사용할 수 있는 페이지에서 직접 [!UICONTROL A/B 테스트] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정하려면 [!DNL Adobe Target]의 [!UICONTROL VEC(시각적 경험 작성기)를 사용하십시오.]
@@ -132,4 +139,4 @@ ht-degree: 35%
 * [!DNL Adobe Target]에서 [!UICONTROL A/B 테스트] 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/30529?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

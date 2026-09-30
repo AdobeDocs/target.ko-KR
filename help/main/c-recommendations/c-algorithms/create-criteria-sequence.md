@@ -2,21 +2,27 @@
 keywords: 기준 시퀀스;여러 기준;알고리즘;기준;권장 사항 기준;시퀀스;반환되는 항목 수 제한;슬롯 수준 제어;슬롯
 description: 최대 5개의 기준 시퀀스를 설정하여 Recommendations 활동에 표시되는 항목을 보다 강력하게 제어하는 방법에 대해 알아봅니다.
 title: 권장 사항에서 기준 시퀀스를 만들려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-TQID: https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU
+TQID: 'https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 833
+source-wordcount: '833'
 ht-degree: 21%
-
 ---
-
 # 기준 시퀀스 만들기
 
 최대 5개의 기준 시퀀스를 사용하여 [!DNL Adobe Target] [!UICONTROL 권장 사항] 활동에 나타나는 항목을 보다 세밀하게 제어할 수 있습니다. 반환되는 항목의 수를 제한할 수도 있습니다(&quot;슬롯 수준 제어&quot;라고도 함).

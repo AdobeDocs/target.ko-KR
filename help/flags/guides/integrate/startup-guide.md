@@ -4,13 +4,14 @@ description: 액세스 요청에서 첫 번째 기능 플래그 만들기에 이
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 339de89fff7bb14eb8146d42482b30c86feeedef
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
-
 ---
-
 # 시작 안내서 {#startup-guide}
 
 플래그를 애플리케이션에 통합하려면 다음 단계를 따르십시오.
@@ -45,8 +46,8 @@ ht-degree: 1%
 
 태그 기반 접근 방식(웹 또는 모바일)을 통해 통합하는 경우 SDK을 초기화하기 전에 태그 속성을 구성하십시오.
 
-1. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/#/data-collection)에서 [태그 속성이 없는 경우 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/get-started/quick-start)을(를) 만들거나 기존 태그 속성을 사용하십시오.
-1. 모바일 또는 웹 태그 속성을 열고 [확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/extensions/overview)&#x200B;(으)로 이동합니다.
+1. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/#/data-collection)에서 [태그 속성이 없는 경우 ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)을(를) 만들거나 기존 태그 속성을 사용하십시오.
+1. 모바일 또는 웹 태그 속성을 열고 [확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)&#x200B;(으)로 이동합니다.
 1. **Edge Network** 확장을 설치하고 구성합니다. 그런 다음 **플래그** 확장을 설치합니다.
 1. **데이터스트림**(Customer Journey Analytics 데이터 세트가 포함되어야 함)을 선택하고 Edge 도메인을 구성합니다.
 1. **프로덕션의 개발 → 스테이징**→ 통해 구성을 게시합니다.

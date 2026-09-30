@@ -1,34 +1,47 @@
 ---
 keywords: 추천
-description: Analytics for [!DNL Target] (A4T)에 대한 구현 요구 사항과 이 통합을 구현하기 전에 고려해야 할 사항에 대해 알아봅니다.
+description: Analytics for [!DNL Target](A4T)에 대한 구현 요구 사항과 이 통합을 구현하기 전에 고려해야 할 사항에 대해 알아봅니다.
 title: A4T를 구현하기 전에 알아야 할 사항은 무엇입니까?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-TQID: https://experienceleague.adobe.com/KtHxPpwI1XiyK-Wz8BegBgsBfdPpcW8f9v08jCgVv0k
+TQID: 'https://experienceleague.adobe.com/KtHxPpwI1XiyK-Wz8BegBgsBfdPpcW8f9v08jCgVv0k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: '1034'
 ht-degree: 26%
-
 ---
-
 # at.js로 Analytics for Target(A4T)을 구현하기 전
 
 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target]에 대한 보고 소스로 사용(A4T)할 때 데이터 수집 프로세스에 몇 가지 변경 사항이 발생합니다.
@@ -37,7 +50,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->이 문서는 at.js 구현에만 적용됩니다. [!DNL Adobe Experience Platform Web SDK]을(를) 사용하여 [!UICONTROL Analytics for Target]&#x200B;(A4T)을 구현하는 방법에 대한 자세한 내용은 Experience Platform Web SDK에서 [Analytics for Target(A4T) 로깅](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=ko){target=_blank}을 참조하십시오.
+>이 문서는 at.js 구현에만 적용됩니다. [!DNL Adobe Experience Platform Web SDK]을(를) 사용하여 [!UICONTROL Analytics for Target]&#x200B;(A4T)을 구현하는 방법에 대한 자세한 내용은 Experience Platform Web SDK에서 [Analytics for Target(A4T) 로깅](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}을 참조하십시오.
 
 ## 구현 요구 사항 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -59,7 +72,7 @@ A4T와 함께 리디렉션 오퍼를 사용하지 않을 경우, 이 A4T 통합�
 * [!DNL Adobe Target]: at.js 버전 0.9.1
 * Adobe Analytics: appMeasurement.js 버전 1.7.0
 
-[!DNL Platform Web SDK]을(를) 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}을(를) 참조하십시오.
+[!DNL Platform Web SDK]을(를) 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}을(를) 참조하십시오.
 
 ### A4T에서 리디렉션 오퍼를 사용할 경우 필요한 요구 사항
 
@@ -77,7 +90,7 @@ A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버�
 
 다운로드 및 배포 지침은 [Analytics for Target 구현](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)에 나열되어 있습니다.
 
-[!DNL Platform Web SDK]을(를) 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}을(를) 참조하십시오.
+[!DNL Platform Web SDK]을(를) 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}을(를) 참조하십시오.
 
 ## 구현하기 전에 알아야 할 사항 {#section_50D49CC52E11414089C89FB67F9B88F5}
 
@@ -101,7 +114,7 @@ A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버�
 
 콘텐츠를 전달하거나 목표 지표를 기록하기 위해 A4T 활동에서 사용하는 모든 [!DNL Target] 호출에는 A4T가 제대로 작동하도록 보조 ID를 공유하는 해당 [!DNL Analytics] 히트가 있어야 합니다.
 
-[!DNL Analytics] 및 [!DNL Target]의 데이터가 포함된 히트에 보조 데이터 ID가 포함되어 있습니다. 이 ID는 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)에서 `sdid` 매개 변수로 표시됩니다. 예: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. 이 ID는 다음 기준이 충족될 때 생성됩니다.
+[!DNL Analytics] 및 [!DNL Target]의 데이터가 포함된 히트에 보조 데이터 ID가 포함되어 있습니다. 이 ID는 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)에서 `sdid` 매개 변수로 표시됩니다. 예: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. 이 ID는 다음 기준이 충족될 때 생성됩니다.
 
 * 방문자 ID 서비스가 구현됨
 

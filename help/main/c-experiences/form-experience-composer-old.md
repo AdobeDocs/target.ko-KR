@@ -4,13 +4,20 @@ description: 비시각적 경험 작성에 Adobe [!DNL Target] 양식 기반 경
 title: 양식 기반 경험 작성기를 사용하려면 어떻게 해야 합니까?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c3941678-bb9e-4bea-bdba-ce89c7d01eba
+    internal-label: Activity tools
+subfeature_v2:
+  - id: b39680ca-97f2-4fca-8fdd-bea7ed8010de
+    internal-label: Form based Experience Composer
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '889'
 ht-degree: 39%
-
 ---
-
 # 양식 기반 경험 작성기
 
 [!DNL Adobe Target] [!UICONTROL 양식 기반 경험 작성기]는 VEC([!UICONTROL 시각적 경험 작성기])를 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL A/B 테스트], [!UICONTROL 경험 타깃팅], [!UICONTROL Automated Personalization] 및 [!UICONTROL 권장 사항] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 경험 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.

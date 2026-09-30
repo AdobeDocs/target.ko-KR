@@ -1,26 +1,35 @@
 ---
 keywords: 활동 설정;경험 타깃팅 목표 및 설정;xt 목표 및 설정;경험 타깃팅;목표 및 설정;보고 설정;목표 지표;성공 지표;종속 성공 지표;고급 설정;기본 목표;추가 지표;목표;우선순위;지속 기간;보고 솔루션;목표;보고 대상자;이 지표를 늘리려면 어떤 성공 지표에 도달해야 합니까;사용자가 이 목표 지표를 접하면 어떻게 됩니까;메모
-description: ' [!DNL Adobe Target] 의 [!UICONTROL 목표 및 설정] 페이지를 사용하여 [!UICONTROL 경험 타깃팅]​(XT) 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]의 [!UICONTROL 목표 및 설정] 페이지를 사용하여 [!UICONTROL 경험 타깃팅](XT) 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
 title: '[!UICONTROL 경험 타깃팅] 활동에서 [!UICONTROL 목표 및 설정]을(를) 지정하려면 어떻게 합니까?'
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
-TQID: https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0
+TQID: 'https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1285
+source-wordcount: '1288'
 ht-degree: 42%
-
 ---
-
 # [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동의 목표 및 설정
 
 [!UICONTROL 목표 및 설정] 페이지에서 테스트 목표에 대한 정보를 입력할 수 있습니다.
@@ -62,7 +71,7 @@ ht-degree: 42%
 
 ### [!UICONTROL 기간]
 
-활동은 승인될 때 시작되거나 특정 날짜 및 시간을 설정하여 시작할 수 있습니다. 마찬가지로, 활동이 비활성화되거나 활동이 종료되는 날짜 및 시간을 설정할 수 있습니다. 시간 선택기는 24시간 시계를 사용하며 00:00은(는) 자정입니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오.
+활동은 승인될 때 시작되거나 특정 날짜 및 시간을 설정하여 시작할 수 있습니다. 마찬가지로, 활동이 비활성화되거나 활동이 종료되는 날짜 및 시간을 설정할 수 있습니다. 시간 선택기는 24시간 형식을 사용하며 00:00은 자정을 나타냅니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오.
 
 ## [!UICONTROL 보고 설정] {#section_13119392051044FBA6387D9B3B1C43CF}
 

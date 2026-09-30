@@ -1,27 +1,36 @@
 ---
 keywords: 권장 사항;권장 사항 기준;권장 사항 알고리즘;권장 사항 활동;기준;권장 사항 타기팅;recs
-description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe  [!DNL Target] 의 권장 사항 활동에 대해 알아보십시오.
-title: ' [!DNL Target]  추천이란 무엇입니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+description: 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe [!DNL Target]의 권장 사항 활동에 대해 알아봅니다.
+title: '[!DNL Target] 추천이란?'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-TQID: https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA
+TQID: 'https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 94%
-
+source-wordcount: '869'
+ht-degree: 91%
 ---
-
 # 추천
 
 [!DNL Adobe Target Recommendations] 활동은 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자의 흥미를 끌 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시합니다. [!DNL Target Recommendations] 는 방문자가 모를 수 있는 관련 항목을 방문자에게 표시하는 데 도움이 됩니다. [!DNL Recommendations] 를 사용하면 방문자에게 적절한 시간과 장소에 관련 콘텐츠를 제공할 수 있습니다.
@@ -74,13 +83,13 @@ ht-degree: 94%
 
 ## 교육 비디오: 활동 유형 ![개요 배지](/help/main/assets/overview.png)
 
-다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!DNL Recommendations]은(는) 7:20부터 논의됩니다.
+다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!DNL Recommendations]은(는) 7시 20분부터 논의됩니다.
 
 * [!DNL Adobe Target]에 포함된 활동 유형 설명
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 <!--
 ## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}

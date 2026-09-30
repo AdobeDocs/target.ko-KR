@@ -1,28 +1,36 @@
 ---
 keywords: 엔티티;엔티티 속성;추천로 정보 전달;행동 데이터;데이터 카운터;상대 URL 정의;재고 수준 표시;가격 정의;수익 마진 정의;사용자 지정 속성
-description: 엔터티 특성을 사용하여  [!DNL Target] 권장 사항에 제품 또는 콘텐츠 정보를 전달하는 방법을 알아봅니다.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+description: 엔터티 특성을 사용하여 [!DNL Target] 권장 사항에 제품 또는 콘텐츠 정보를 전달하는 방법을 알아봅니다.
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 title: 엔티티 속성은 어떻게 사용합니까?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-TQID: https://experienceleague.adobe.com/GXQOxQxTV0vTYsWy9Ky9wPNEqoRSAhIA5zlBd4Cr4Ec
+TQID: 'https://experienceleague.adobe.com/GXQOxQxTV0vTYsWy9Ky9wPNEqoRSAhIA5zlBd4Cr4Ec'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1125
+source-wordcount: '1126'
 ht-degree: 45%
-
 ---
-
 # 엔티티 속성
 
 엔터티 특성을 사용하여 제품 또는 콘텐츠 정보를 [!DNL Adobe Target Recommendations]에 전달합니다.
@@ -42,7 +50,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->at.js 2.*x*&#x200B;을(를) 사용하는 경우 다음 예에서 사용한 `mboxCreate`은(는) 더 이상 지원되지 않습니다. at.js 2.*x*&#x200B;을(를) 사용하여 [!DNL Recommendations]에 제품 또는 콘텐츠 정보를 전달하려면 [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}을(를) 사용하십시오. 예를 들어 [권장 사항 계획 및 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하세요.
+>at.js 2.*x*&#x200B;을(를) 사용하는 경우 다음 예에서 사용한 `mboxCreate`은(는) 더 이상 지원되지 않습니다. at.js 2.*x*&#x200B;을(를) 사용하여 [!DNL Recommendations]에 제품 또는 콘텐츠 정보를 전달하려면 [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}을(를) 사용하십시오. 예를 들어 [권장 사항 계획 및 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하세요.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

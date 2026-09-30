@@ -4,18 +4,24 @@ description: '[!UICONTROL 오퍼] 라이브러리에서 코드 및 이미지 오
 title: 오퍼 라이브러리에서 콘텐츠를 검색하려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-TQID: https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw
+TQID: 'https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: '281'
 ht-degree: 0%
-
 ---
-
 # 콘텐츠 검색 및 필터링
 
 [!DNL Adobe Target]의 [!UICONTROL 오퍼] 라이브러리에서 키워드로 자산을 검색합니다.
@@ -41,10 +47,10 @@ ht-degree: 0%
    다음을 기준으로 필터링할 수 있습니다.
 
    * **[!UICONTROL 파일 형식]**:
-      * [!UICONTROL 이미지]
-      * [!UICONTROL 문서]
-      * [!UICONTROL 멀티미디어]
-      * [!UICONTROL 보관]
+     * [!UICONTROL 이미지]
+     * [!UICONTROL 문서]
+     * [!UICONTROL 멀티미디어]
+     * [!UICONTROL 보관]
    * **[!UICONTROL 파일 크기]**: 슬라이더를 사용하여 원하는 파일 크기를 선택하십시오. [!UICONTROL 가장 작게], [!UICONTROL 작게], [!UICONTROL Medium], [!UICONTROL 크게] 또는 [!UICONTROL 가장 크게].
    * **[!UICONTROL 마지막 수정일]**: 슬라이더를 사용하여 기간을 선택하십시오. [!UICONTROL 최근], [!UICONTROL 시간], [!UICONTROL 일], [!UICONTROL 주], [!UICONTROL 월], [!UICONTROL 년] 또는 [!UICONTROL 모든 Assets].
    * **[!UICONTROL 승인 상태]**: [!UICONTROL 승인됨] 또는 [!UICONTROL 거부됨]

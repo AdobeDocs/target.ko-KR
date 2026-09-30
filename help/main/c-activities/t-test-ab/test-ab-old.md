@@ -1,16 +1,23 @@
 ---
 keywords: AB;A/B;AB...n;경험 비교;타깃팅;콘텐츠 비교;자동 타겟;자동 할당
-description: Adobe [!DNL Target] - 수동, 자동 할당 및 자동 타겟의 다양한 A/B 테스트 활동 유형에 대해 알아봅니다. 당신에게 맞는 것을 고르세요.
+description: Adobe [!DNL Target]의 다양한 A/B 테스트 활동 유형(수동, 자동 할당 및 자동 타겟)에 대해 알아봅니다. 당신에게 맞는 것을 고르세요.
 title: Target에서 사용할 수 있는 A/B 활동 유형은 무엇입니까?
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 22%
-
 ---
-
 # A/B 테스트 개요
 
 수동 [!UICONTROL A/B 테스트] 활동에서는 웹 사이트 콘텐츠의 버전을 두 개 이상 비교하여 사전 지정된 테스트 기간 동안 전환율이 가장 많이 향상된 버전을 확인합니다.
@@ -66,4 +73,4 @@ A/B 테스트를 설정할 때 각 경험을 보는 방문자의 비율을 결�
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

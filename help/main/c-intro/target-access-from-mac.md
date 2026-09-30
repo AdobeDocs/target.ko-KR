@@ -1,21 +1,27 @@
 ---
 keywords: Experience Cloud;로그인;언어;기본 ui 언어;기본 언어
-description: Adobe Experience Cloud에서  [!DNL Target] 에 액세스하고 기본 조직을 설정하고  [!DNL Target] UI 및 설명서의 언어를 변경하는 방법에 대해 알아봅니다.
-title: Adobe Experience Cloud에서  [!DNL Target] 에 액세스하려면 어떻게 합니까?
+description: Adobe Experience Cloud에서 [!DNL Target]에 액세스하고 기본 조직을 설정하고 [!DNL Target] UI 및 설명서의 언어를 변경하는 방법에 대해 알아봅니다.
+title: Adobe Experience Cloud에서 [!DNL Target]에 액세스하려면 어떻게 합니까?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-TQID: https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis
+TQID: 'https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 49%
-
+source-wordcount: '370'
+ht-degree: 46%
 ---
-
 # Adobe Experience Cloud에서 [!DNL Target]에 액세스
 
 [!DNL Adobe Target] 에서 [!DNL Adobe Experience Cloud]에 액세스, 기본 랜딩 페이지 설정 및 [!DNL Target] 사용자 인터페이스 언어 변경에 대한 정보입니다.

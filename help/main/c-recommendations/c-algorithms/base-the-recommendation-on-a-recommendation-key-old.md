@@ -1,17 +1,24 @@
 ---
 keywords: 권장 사항 키;권장 사항 논리;현재 범주;사용자 지정 속성;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기 범주;인기도;최근에 본 항목;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기;최근에 본 항목
-description: 방문자 행동 컨텍스트를 사용하여 Adobe [!DNL Target] 권장 사항 활동에서 관련 결과를 표시하는 키를 기반으로 권장 사항을 사용하는 방법에 대해 알아봅니다.
+description: Adobe [!DNL Target] 권장 사항 활동에서 방문자 동작 컨텍스트를 사용하여 관련 결과를 표시하는 키를 기반으로 권장 사항을 사용하는 방법에 대해 알아봅니다.
 title: 권장 사항 키를 기반으로 권장 사항을 만들려면 어떻게 합니까?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '4021'
+source-wordcount: '4075'
 ht-degree: 32%
-
 ---
-
 # 권장 사항 키를 기반으로 권장 사항 만들기
 
 알고리즘을 기반으로 한 권장 사항은 방문자 동작 컨텍스트를 사용하여 [!DNL Adobe Target] [!DNL Recommendations] 활동에서 관련 결과를 표시합니다.
@@ -34,7 +41,7 @@ ht-degree: 32%
 
 ## 장바구니 기반 {#cart-based}
 
-[!UICONTROL 장바구니 기반] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 내용에 따라 항목을 추천할 수 있습니다. 권장 사항 키는 [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을(를) 통해 쉼표로 구분된 값으로 제공됩니다. 처음 10개의 값만 고려됩니다.
+[!UICONTROL 장바구니 기반] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 내용에 따라 항목을 추천할 수 있습니다. 권장 사항 키는 [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을(를) 통해 쉼표로 구분된 값으로 제공됩니다. 처음 10개의 값만 고려됩니다.
 
 장바구니 기반 권장 사항 논리는 &quot;[!UICONTROL 사용자에게 권장]&quot; 사용자 기반 알고리즘 및 &quot;[!UICONTROL 이러한 항목을 보고 구입하는 사용자]&quot; 및 &quot;[!UICONTROL 이러한 항목을 구입하고 구입하는 사용자]&quot; 항목 기반 알고리즘과 유사합니다.
 

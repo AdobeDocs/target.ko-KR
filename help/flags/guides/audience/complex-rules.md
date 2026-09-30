@@ -4,13 +4,14 @@ description: 벌크 값 제한 및 여러 조건에 규칙을 분할하는 방�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37e037b6-45eb-4261-b580-30d94d8e55da
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 3%
-
 ---
-
 # 복잡한 대상 규칙 {#complex-rules}
 
 ## 복잡한 규칙에 중첩 논리 사용 {#nested-logic}

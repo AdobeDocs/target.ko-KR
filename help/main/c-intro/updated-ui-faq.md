@@ -1,31 +1,43 @@
 ---
 keywords: target 사용자 인터페이스;사용자 인터페이스;ui;자주 묻는 질문;faq
-description: 업데이트된  [!DNL Target]t 사용자 인터페이스에 대한 질문과 대답입니다.
+description: 업데이트된 [!DNL Target]t 사용자 인터페이스에 대한 질문과 대답입니다.
 title: 업데이트된 [!DNL Target] UI에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-TQID: https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0
+TQID: 'https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2013
+source-wordcount: '2015'
 ht-degree: 1%
-
 ---
-
 # [!DNL Target] UI 업데이트 FAQ
 
 2025년에 새로 설계된 [!DNL Adobe Target] 사용자 인터페이스는 모든 사용자에게 보다 깨끗하고 직관적인 환경을 제공합니다. 이 FAQ에서는 탐색 변경, 기능 배치 및 임시 UI 토글 제거를 포함하여 [!DNL Target] UI 및 [!UICONTROL VEC(시각적 경험 작성기])에 대한 주요 업데이트를 다룹니다. 마케터, 개발자 또는 관리자이든, 원활한 전환과 스마트한 워크플로우에 대한 안내서입니다.
@@ -47,8 +59,8 @@ ht-degree: 1%
 
 * **2025년 6월 30일**: [업데이트됨 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)는 UI 버전 전환을 사용하도록 설정한 모든 IMS 조직의 기본 환경이 되었습니다.
 
-   * 현재 기존 UI가 표시되는 고객은 기본적으로 이제 로그인 시 업데이트된 UI가 표시됩니다.
-   * UI 버전 토글 기능은 7월 말까지 계속 사용할 수 있으며, 필요한 경우 다시 전환할 수 있습니다.
+  * 현재 기존 UI가 표시되는 고객은 기본적으로 이제 로그인 시 업데이트된 UI가 표시됩니다.
+  * UI 버전 토글 기능은 7월 말까지 계속 사용할 수 있으며, 필요한 경우 다시 전환할 수 있습니다.
 
   >[!IMPORTANT]
   >
@@ -56,8 +68,8 @@ ht-degree: 1%
 
 * **7월 15일부터 2025년 7월 30일까지**: UI 버전 토글이 단계적으로 영구적으로 비활성화됩니다. 영향을 받는 IMS 조직은 더 이상 기존 UI로 되돌릴 수 없습니다.
 
-   * 예외는 사안별로 검토됩니다.
-   * 전환 중단 지연은 차단 문제가 해결되는 동안 잠시(며칠) 동안만 부여됩니다.
+  * 예외는 사안별로 검토됩니다.
+  * 전환 중단 지연은 차단 문제가 해결되는 동안 잠시(며칠) 동안만 부여됩니다.
 
 문제가 있거나 이 전환 중에 문제가 예상되면 [Adobe 고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)에 문의하십시오.
 
@@ -250,7 +262,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 [!DNL Adobe Analytics]&#x200B;(AA) 또는 [!DNL Customer Journey Analytics]&#x200B;(CJA)을(를) [!DNL Target]과(와) 통합하는 범위는 현재 설정에 따라 중간에서 고급 작업까지 다양할 수 있습니다. [!DNL Adobe Experience Platform]을(를) 사용하고 [!DNL Platform Web SDK]을(를) 구현한 경우 통합이 보다 간소화됩니다. 그러나 at.js 또는 AppMeasurement을 사용하는 기존 구현에는 다음을 포함한 추가 구성이 필요할 수 있습니다.
 
 * [Analytics for Target(A4T) 통합 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
-* [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)에서 [!DNL Target] 보고 통합.
+*  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)에서 [[!DNL Target] 보고 통합.
 * 보고서 세트 및 데이터 보기 매핑
 * 일관된 ID 확인(ECID)
 * 데이터 수집 및 속성 설정 유효성 검사

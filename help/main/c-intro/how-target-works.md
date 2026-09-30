@@ -1,38 +1,57 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;검색 엔진 최적화;검색 엔진 최적화;seo;에지 클러스터, 중앙 클러스터;at.js;mbox.js;
-description: JavaScript 라이브러리(AEP Web SDK at.js), 서버 호출 사용 전략, 사용, Adobe 데이터 센터, SEO 테스트 및 봇에 대한 정보를 포함하여  [!DNL Adobe Target] 의 작동 방식에 대해 알아봅니다.
-title: ' [!DNL Target] 은 어떻게 작동합니까?'
+description: JavaScript 라이브러리(AEP Web SDK at.js), 서버 호출 사용 전략, 사용, Adobe 데이터 센터, SEO 테스트 및 봇에 대한 정보를 포함하여 [!DNL Adobe Target]의 작동 방식에 대해 알아봅니다.
+title: '[!DNL Target]은(는) 어떻게 작동합니까?'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
+TQID: 'https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2421
-ht-degree: 25%
-
+source-wordcount: '2424'
+ht-degree: 24%
 ---
-
 # [!DNL Adobe Target] 작동 방식
 
 JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)에 대한 세부 사항을 포함하여 [!DNL Adobe Target]의 작동 방식에 대해 알아봅니다. 이 문서에서는 만들 수 있는 다양한 활동 유형, [!DNL Target] 사용 계산 전략, [!DNL Target] Edge Network, SEO 및 봇 탐지도 다룹니다.
@@ -50,19 +69,19 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 
 Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 사이트와 통합됩니다.
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: 이 클라이언트측 JavaScript 라이브러리를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform Edge Network]을(를) 통해 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe]은(는) 새 [!DNL Target] 고객이 [!DNL Experience Platform Web SDK]을(를) 구현할 것을 권장합니다.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: 이 클라이언트측 JavaScript 라이브러리를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform Edge Network]을(를) 통해 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe]은(는) 새 [!DNL Target] 고객이 [!DNL Experience Platform Web SDK]을(를) 구현할 것을 권장합니다.
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: [!DNL Target]에 대한 이 구현 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 옵션을 제공합니다. 새 기능으로 자주 업데이트되는 [!DNL Adobe]에서는 모든 [at.js 사용자를 최신 버전으로 업데이트할 것을 권장합니다](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >mbox.js 라이브러리는 [!DNL Target]에 대한 레거시 구현이며 2021년 3월 31일 이후에는 더 이상 지원되지 않습니다. [!UICONTROL Experience Platform Web SDK]&#x200B;(기본 설정) 또는 최신 버전의 at.js로 업그레이드하십시오.
 
-사이트의 모든 페이지에서 [!UICONTROL Experience Platform Web SDK] 또는 at.js를 참조합니다. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가합니다. 또는 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home){target=_blank}를 사용하여 [!DNL Target]을(를) 구현합니다.
+사이트의 모든 페이지에서 [!UICONTROL Experience Platform Web SDK] 또는 at.js를 참조합니다. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가합니다. 또는 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}를 사용하여 [!DNL Target]을(를) 구현합니다.
 
 다음 리소스에는 [!DNL Experience Platform Web SDK] 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
-* [[!DNL Adobe Experience Platform Web SDK] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ko){target=_blank}
-* [&#x200B; [!DNL Adobe Experience Platform]을(를) 사용하여  [!DNL Target] 구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [ [!DNL Adobe Experience Platform]을(를) 사용하여  [!DNL Target] 구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 실시간 요청이 타기팅 시스템으로 전송되어 제공할 콘텐츠를 결정합니다. 이 요청은 마케터가 관리하는 활동 및 경험에 의해 제어되며, 페이지가 로드될 때마다 만들어지고 이행됩니다. 콘텐츠는 개별 사이트 방문자를 대상으로 하며 응답률, 획득률 및 매출을 극대화합니다. 개인화된 컨텐츠는 방문자가 반응하거나, 상호 작용하거나, 구매할 수 있도록 하는 데 도움이 됩니다.
 
@@ -194,7 +213,7 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 >
 >[!DNL Target]은(는) 현재 중국에 Edge 클러스터가 없으므로 해당 지역의 [!DNL Target] 고객에 대한 방문자 성능이 제한됩니다. 방화벽과 Edge 클러스터 부재는 사이트 경험에 영향을 주어 느린 렌더링 및 페이지 로드 시간을 초래할 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
 
-원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/ko/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}를 참조하십시오.
+원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}를 참조하십시오.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

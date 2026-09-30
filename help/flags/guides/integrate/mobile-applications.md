@@ -4,13 +4,14 @@ description: Android 및 iOS용 AEP Mobile SDK 확장 기능을 사용하여 모
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 13%
-
 ---
-
 # 모바일 애플리케이션 {#mobile-applications}
 
 모바일 애플리케이션은 Android 및 iOS용 AEP Mobile SDK 확장 기능을 통해 플래그와 통합됩니다.

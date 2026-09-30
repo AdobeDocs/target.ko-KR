@@ -1,26 +1,32 @@
 ---
 keywords: 활동 설정;목표 및 설정;다변량;mvt
-description: ' [!DNL Adobe Target] 의 [!UICONTROL 목표 및 설정] 페이지를 사용하여 [!UICONTROL 다변량 테스트]​(MVT) 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]의 [!UICONTROL 목표 및 설정] 페이지를 사용하여 [!UICONTROL 다변량 테스트](MVT) 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
 title: MVT([!UICONTROL 다변량 테스트]) 활동에서 목표와 설정을 지정하려면 어떻게 합니까?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+TQID: 'https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 39%
-
+source-wordcount: '1266'
+ht-degree: 40%
 ---
-
 # 목표 및 설정([!UICONTROL 다변량 테스트])
 
 [!DNL Adobe Target]의 [!UICONTROL 목표 및 설정] 페이지에서 [!UICONTROL 다변량 테스트]&#x200B;(MVT) 활동의 목표에 대한 정보를 입력할 수 있습니다.
@@ -64,7 +70,7 @@ ht-degree: 39%
 
 ### 지속 시간
 
-활동은 승인될 때 시작되거나 특정 날짜 및 시간을 설정하여 시작할 수 있습니다. 이와 마찬가지로, 활동은 비활성화될 때 종료되거나 날짜 및 시간을 설정하여 종료할 수 있습니다. 시간 선택기는 24시간 시계를 사용하며 00:00은(는) 자정입니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오.
+활동은 승인될 때 시작되거나 특정 날짜 및 시간을 설정하여 시작할 수 있습니다. 이와 마찬가지로, 활동은 비활성화될 때 종료되거나 날짜 및 시간을 설정하여 종료할 수 있습니다. 시간 선택기는 24시간 형식을 사용하며 00:00은 자정을 나타냅니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오.
 
 ## 보고 설정 {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -183,9 +189,9 @@ ht-degree: 39%
 
 ### 다변량 테스트 만들기(9:25)
 
-이 비디오에서는 안내가 있는 [!DNL Target] 3단계 워크플로우를 사용하여 다변량 테스트를 만드는 방법을 보여 줍니다. 목표 및 설정은 7:00부터 논의됩니다.
+이 비디오에서는 안내가 있는 [!DNL Target] 3단계 워크플로우를 사용하여 다변량 테스트를 만드는 방법을 보여 줍니다. 목표 및 설정은 7시 00분부터 논의됩니다.
 
 * 다변량 테스트 정의 및 디자인
 * 다변량 테스트 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

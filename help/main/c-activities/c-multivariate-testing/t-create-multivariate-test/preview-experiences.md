@@ -1,22 +1,26 @@
 ---
 keywords: 다변량;mvt;미리 보기;경험
-description: ' [!DNL Adobe Target] VEC([!UICONTROL 시각적 경험 작성기])를 사용하여 [!UICONTROL MVT(다변량 테스트]) 활동에서 각 경험을 미리 보는 방법에 대해 알아봅니다.'
-title: '[!UICONTROL 다변량 테스트]​(MVT)에 대한 경험을 미리 보려면 어떻게 해야 합니까?'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Adobe Target]의 [!UICONTROL 다변량 테스트](MVT) 활동에서 각 경험을 미리 보는 방법에 대해 알아봅니다.'
+title: '[!UICONTROL 다변량 테스트](MVT)에 대한 경험을 미리 보려면 어떻게 해야 합니까?'
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-TQID: https://experienceleague.adobe.com/IswPThtgoGod4lcCbHWbsSp6-cTzhI6hi0CvTZ1al9A
+TQID: 'https://experienceleague.adobe.com/IswPThtgoGod4lcCbHWbsSp6-cTzhI6hi0CvTZ1al9A'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: '230'
 ht-degree: 8%
-
 ---
-
 # [!UICONTROL 다변량 테스트]에 대한 경험 미리 보기
 
 [!DNL Adobe Target]의 [!UICONTROL 다변량 테스트]는 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.

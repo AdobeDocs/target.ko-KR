@@ -4,20 +4,23 @@ description: 기존 활동을 편집할 수 있는 다양한 방법에 대해 �
 title: 활동을 편집하려면 어떻게 해야 합니까?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+TQID: 'https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: '1049'
 ht-degree: 21%
-
 ---
-
 # 활동 편집
 
 [!DNL Adobe Target]에서 기존 활동을 편집하는 방법을 알아봅니다. 이 문서에서는 [!DNL Target] 인터페이스에서 활동 수정에 사용할 수 있는 다양한 방법에 대해 설명합니다. 경험을 업데이트하든, 타깃팅 규칙을 조정하든, 목표를 구성하든 간에 [!DNL Target]은(는) 활성화 전에 변경 내용을 안전하게 저장하는지 확인합니다.
@@ -70,33 +73,33 @@ ht-degree: 21%
 
 * 동일한 작업 영역 내 또는 기본 작업 영역에서 기본이 아닌 작업 영역으로 활동을 복사하면 활동 마법사가 자동으로 열립니다. 작업 영역 간 복사본에서는 활동 속성만 업데이트하면 됩니다.
 * 활동이 기본이 아닌 작업 영역에서 다른 작업 영역으로 복사되면(기본이 아니든) 활동 마법사가 열리며 설정을 완료하려면 몇 가지 수동 입력이 필요합니다.
-   * **[!UICONTROL 속성]**: 작업 영역마다 속성이 다를 수 있습니다. 이 경우 경고가 트리거될 수 있습니다.
+  * **[!UICONTROL 속성]**: 작업 영역마다 속성이 다를 수 있습니다. 이 경우 경고가 트리거될 수 있습니다.
 
-      * [!UICONTROL 양식 기반 경험 작성기]에서 즉각적인 가시성을 위해 경고가 사용자 인터페이스 내에 직접 표시됩니다.
+    * [!UICONTROL 양식 기반 경험 작성기]에서 즉각적인 가시성을 위해 경고가 사용자 인터페이스 내에 직접 표시됩니다.
 
-        ![양식 기반 작업 영역 경고](/help/main/c-activities/assets/form-based-warning.png)
+      ![양식 기반 작업 영역 경고](/help/main/c-activities/assets/form-based-warning.png)
 
-      * VEC에서 [!UICONTROL 구성] > [!UICONTROL 속성]을 클릭하면 경고가 표시됩니다.
+    * VEC에서 [!UICONTROL 구성] > [!UICONTROL 속성]을 클릭하면 경고가 표시됩니다.
 
-        ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
+      ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
 
-        이 문제를 해결하려면 [!UICONTROL 추가/제거]를 클릭하여 선택 가능한 대상 작업 영역에서 사용할 수 있는 속성만 표시합니다.
+      이 문제를 해결하려면 [!UICONTROL 추가/제거]를 클릭하여 선택 가능한 대상 작업 영역에서 사용할 수 있는 속성만 표시합니다.
 
-   * **대상 및 오퍼**: 활동을 새 작업 영역에 복사할 때 원본 작업 영역의 연결된 모든 [!DNL Target] 또는 임시 대상 및 오퍼가 [!DNL Target]개 대상 및 임시 오퍼 `<Entity Name>`의 경우 `<Entity Name> Copy <Date>` 형식을 사용하여 복제됩니다.
+  * **대상 및 오퍼**: 활동을 새 작업 영역에 복사할 때 원본 작업 영역의 연결된 모든 [!DNL Target] 또는 임시 대상 및 오퍼가 [!DNL Target]개 대상 및 임시 오퍼 `<Entity Name>`의 경우 `<Entity Name> Copy <Date>` 형식을 사용하여 복제됩니다.
 
-     동작 세부 사항:
+    동작 세부 사항:
 
-      * 복사된 대상 및 오퍼는 활동을 저장하고 다시 열기 전까지 [!UICONTROL 대상] 및 [!UICONTROL 오퍼] 목록에 표시되지 않습니다.
-      * 이러한 엔티티는 복사 직후 편집할 수 없습니다. 고객은 초기 편집 세션 중에 이러한 항목에 대한 VEC의 빈 콘텐츠를 볼 수 있습니다.
-      * 고객은 필요한 경우 복사한 대상자 또는 오퍼를 대상 작업 공간의 다른 대상자로 바꿀 수 있습니다.
+    * 복사된 대상 및 오퍼는 활동을 저장하고 다시 열기 전까지 [!UICONTROL 대상] 및 [!UICONTROL 오퍼] 목록에 표시되지 않습니다.
+    * 이러한 엔티티는 복사 직후 편집할 수 없습니다. 고객은 초기 편집 세션 중에 이러한 항목에 대한 VEC의 빈 콘텐츠를 볼 수 있습니다.
+    * 고객은 필요한 경우 복사한 대상자 또는 오퍼를 대상 작업 공간의 다른 대상자로 바꿀 수 있습니다.
 
-     이 프로세스를 통해 사용자 정의 유연성을 유지하면서 작업 영역 간 작업을 보다 원활하게 복제할 수 있습니다.
+    이 프로세스를 통해 사용자 정의 유연성을 유지하면서 작업 영역 간 작업을 보다 원활하게 복제할 수 있습니다.
 
-     활동을 복사할 때 현재 작업 공간이나 기본 작업 공간에 저장되지 않은 비타겟 대상 및 오퍼는 수동으로 교체해야 합니다.
+    활동을 복사할 때 현재 작업 공간이나 기본 작업 공간에 저장되지 않은 비타겟 대상 및 오퍼는 수동으로 교체해야 합니다.
 
-     이러한 비타겟 대상 및 오퍼를 수동으로 바꾸면 복사한 활동에서 유효하고 액세스 가능한 엔티티만 사용되고 편집하거나 전달하는 동안 오류가 방지됩니다.
+    이러한 비타겟 대상 및 오퍼를 수동으로 바꾸면 복사한 활동에서 유효하고 액세스 가능한 엔티티만 사용되고 편집하거나 전달하는 동안 오류가 방지됩니다.
 
-     ![경고 메시지](/help/main/c-activities/assets/copy.png)
+    ![경고 메시지](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >

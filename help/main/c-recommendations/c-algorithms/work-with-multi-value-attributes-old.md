@@ -1,16 +1,23 @@
 ---
 keywords: 다중 값;속성;권장 사항;다중 값;다중 값;다중 값
-description: Adobe에서 다중 값 필드를 사용하여 작업하는 방법에 대해 알아봅니다 [!DNL Target] 여러 배우와 함께 영화를 추천할 때 특수한 다중 값 연산자를 사용하여 권장 사항을 제공합니다.
+description: 여러 배우와 함께 영화를 추천할 때 특별한 다중 값 연산자를 사용하여 Adobe [!DNL Target] 권장 사항에서 다중 값 필드로 작업하는 방법을 알아봅니다.
 title: Recommendations에서 다중 값 속성을 사용할 수 있습니까?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 8%
-
 ---
-
 # 다중 값 속성 관련 작업
 
 다중 값 필드로 작업하는 경우가 있습니다. 다음 예를 생각해 보십시오.

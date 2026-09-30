@@ -4,13 +4,14 @@ description: 플래그의 기능 플래그와 기능 그룹 간의 차이점 및
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 3%
-
 ---
-
 # 기능 및 기능 그룹 {#features-feature-groups}
 
 플래그는 기능 롤아웃 관리를 위한 두 가지 아티팩트를 제공합니다. 올바른 옵션을 선택하는 것은 롤아웃 범위와 관련된 기능의 수에 따라 다릅니다.

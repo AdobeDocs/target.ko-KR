@@ -3,13 +3,14 @@ title: 웹 통합 안내서에 대한 플래그 확장
 description: 웹 애플리케이션용 Adobe Experience Platform 웹 SDK(Alloy)와 Flags 확장을 통합하는 방법을 알아봅니다.
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 8%
-
 ---
-
 # 웹용 플래그 확장 {#web-extension-integration-guide}
 
 이 안내서에서는 웹 애플리케이션용 Adobe Experience Platform 웹 SDK(Alloy)와 Flags 확장을 통합하는 방법을 설명합니다. 플래그 확장을 사용하면 웹 경험에 대한 기능 플래그 관리 및 제어된 롤아웃을 사용할 수 있습니다.

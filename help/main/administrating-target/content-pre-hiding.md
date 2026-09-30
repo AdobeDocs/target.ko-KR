@@ -4,7 +4,16 @@ description: 계정 수준 설정, 간단한 페이지 라이브러리 및 활�
 title: 개인화된 경험을 위한 콘텐츠 사전 숨김
 feature: Administration & Configuration
 role: Admin
-source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -47,7 +56,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 그러면 플리커 관리 설정이 인스턴스에 적용됩니다.
 
-1. 활성화하면 **[!UICONTROL 다운로드]**&#x200B;를 클릭한 다음 [!DNL at.js] 또는 [!DNL Web SDK] 전에 로드되도록 `<head>` 페이지에 파일을 추가하십시오. 전체 구현 지침은 [콘텐츠 사전 숨김 SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/prehide-sdk)을 참조하십시오.
+1. 활성화하면 **[!UICONTROL 다운로드]**&#x200B;를 클릭한 다음 [!DNL at.js] 또는 [!DNL Web SDK] 전에 로드되도록 `<head>` 페이지에 파일을 추가하십시오. 전체 구현 지침은 [콘텐츠 사전 숨김 SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)을 참조하십시오.
 
    ![](assets/content-pre-hiding-2.png)
 

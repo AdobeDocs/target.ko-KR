@@ -1,26 +1,32 @@
 ---
 keywords: 목표 및 설정;목표;우선순위;지속 기간
-description: Adobe [!DNL Target] 에서 활동 설정을 사용하여 활동의 목표, 우선 순위 및 기간을 관리하는 방법을 알아봅니다.
+description: Adobe [!DNL Target]에서 활동 설정을 사용하여 활동의 목표, 우선 순위 및 기간을 관리하는 방법을 알아봅니다.
 title: 활동 설정을 지정하는 방법
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
-TQID: https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o
+TQID: 'https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 432
-ht-degree: 77%
-
+source-wordcount: '434'
+ht-degree: 79%
 ---
-
 # 활동 설정
 
 활동의 목표, 우선 순위 및 기간을 관리하려면 [!DNL Adobe Target]의 [!UICONTROL 활동 설정]을 사용하세요.
@@ -51,7 +57,7 @@ ht-degree: 77%
 
 1. 활동의 지속 기간을 설정하십시오.
 
-   활동을 수동으로 활성화 및 비활성화하거나 활동 전달을 위한 날짜 및 시간을 지정할 수 있습니다. 시간 컨트롤은 24시간 시계를 사용하며, 00:00은(는) 자정입니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오.
+   활동을 수동으로 활성화 및 비활성화하거나 활동 전달을 위한 날짜 및 시간을 지정할 수 있습니다. 시간 컨트롤은 24시간 형식을 사용하며 00:00은 자정을 나타냅니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오.
 
    >[!NOTE]
    >

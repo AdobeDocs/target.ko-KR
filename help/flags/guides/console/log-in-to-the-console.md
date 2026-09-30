@@ -4,13 +4,14 @@ description: Adobe Target 내에서 액세스를 요청하고 플래그를 열�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 2%
-
 ---
-
 # Adobe Target의 플래그 액세스 {#log-in}
 
 플래그를 시작하려면 액세스를 요청한 다음 Adobe Target 내에서 플래그를 엽니다.

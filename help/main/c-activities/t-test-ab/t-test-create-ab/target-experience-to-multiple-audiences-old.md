@@ -1,16 +1,23 @@
 ---
 keywords: 여러 대상자;경험 버전;target 경험 버전
-description: ' [!DNL Adobe Target] A/B 활동에서 동일한 경험의 버전을 다양한 대상자에게 타깃팅하는 방법에 대해 알아봅니다.'
+description: '[!DNL Adobe Target] A/B 활동에서 동일한 경험의 버전을 다른 대상자에게 타깃팅하는 방법에 대해 알아봅니다.'
 title: A/B 활동에서 여러 경험 버전을 사용할 수 있습니까?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '609'
 ht-degree: 51%
-
 ---
-
 # A/B 테스트의 여러 경험 대상자
 
 [!DNL Adobe Target] A/B 활동에서 동일한 경험의 버전을 다른 대상자에게 타깃팅할 수 있습니다. [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 또는 양식 기반 경험 작성기에서 경험에 대한 여러 대상을 설정할 수 있습니다.

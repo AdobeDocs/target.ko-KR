@@ -1,27 +1,33 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;보고서;보고서;보고서 보기;보고;계산 방법론;노출 횟수;방문자 수;방문 횟수;기본 지표;활동 전환;지정되지 않음
-description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 보고서를 보는 것과 관련하여 자주 묻는 질문에 대한 답변을 찾아보십시오. A4T를 사용하면  [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
+description: Analytics for [!DNL Target](A4T)을(를) 사용할 때 보고서를 보는 것과 관련하여 자주 묻는 질문에 대한 답변을 찾아보십시오. A4T를 사용하면 [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
 title: A4T를 사용하여 보고서를 보는 것과 관련된 질문에 대한 답변을 찾으시나요?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
+TQID: 'https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: '2700'
 ht-degree: 27%
-
 ---
-
 # 보고서 보기 - A4T FAQ
 
 이 주제에서는 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target]의 보고 소스로 사용(A4T)할 때의 보고서 보기에 대한 FAQ 답변을 제공합니다.
@@ -94,7 +100,7 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 +++답변
 [!DNL Reports & Analytics]은(는) &quot;활동 노출 수&quot; 및 &quot;활동 전환&quot;에 동일한 터치 속성 모델을 적용하지만 [!DNL Analysis Workspace]은(는) [!DNL Target] 차원의 지속성으로 인해 부풀려진 것처럼 보일 수 있는 원시 지표를 표시합니다.
 
-[!DNL Analysis Workspace]에서 정확한 [!UICONTROL 활동 노출 수] 및 [!UICONTROL 활동 전환] 지표를 평가하려면 두 지표 모두에 [!UICONTROL 동일한 터치] 속성 모델이 적용되어 있는지 확인하십시오. 열 설정 톱니바퀴를 클릭하고 [!UICONTROL 기본값이 아닌 속성 모델]을 활성화한 다음 [!UICONTROL 동일한 터치]를 선택하여 모델을 적용할 수 있습니다. *Analytics 도구 안내서*&#x200B;의 [특성 IQ 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=ko)에서 특성에 대해 자세히 알아보세요.
+[!DNL Analysis Workspace]에서 정확한 [!UICONTROL 활동 노출 수] 및 [!UICONTROL 활동 전환] 지표를 평가하려면 두 지표 모두에 [!UICONTROL 동일한 터치] 속성 모델이 적용되어 있는지 확인하십시오. 열 설정 톱니바퀴를 클릭하고 [!UICONTROL 기본값이 아닌 속성 모델]을 활성화한 다음 [!UICONTROL 동일한 터치]를 선택하여 모델을 적용할 수 있습니다. *Analytics 도구 안내서*&#x200B;의 [특성 IQ 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html)에서 특성에 대해 자세히 알아보세요.
 
 +++
 
@@ -160,7 +166,7 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 
 두 경험 모두 전환 전에 표시되었기 때문에 두 경험 모두 주문에 대한 &quot;크레딧&quot;을 받습니다. 그러나 주문은 시스템에서 하나만 발생했고 합계에 이렇게 반영됩니다. [!DNL Target] 보고의 경우 다른 활동에 대해 [!DNL Target] 활동을 적용하여 어느 활동이 더 성공적인지 확인하지 않으므로 사용자가 본 모든 활동이 크레딧을 받은 것은 문제가 되지 않습니다. 단일 활동 내에 있는 두 항목의 결과를 비교하고 있습니다. 사용자가 동일한 활동에서 다른 경험을 볼 수 없으므로 주문 크레딧의 교차 오염에 대해 걱정할 필요가 없습니다.
 
-자세한 내용은 *Analytics 관리 안내서*&#x200B;의 [전환 변수(eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=ko))를 참조하십시오.
+자세한 내용은 *Analytics 관리 안내서*&#x200B;의 [전환 변수(eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html))를 참조하십시오.
 
 +++
 
@@ -232,7 +238,7 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 [!DNL Analysis Workspace]에서 활동 노출 횟수를 보려면:
 
 1. [!DNL Target] UI에서 **[!UICONTROL Analytics에서 보기]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 활동 노출 수]** 열을 [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko){target=_blank} 보고서에 추가합니다.
+1. **[!UICONTROL 활동 노출 수]** 열을 [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} 보고서에 추가합니다.
 1. **[!UICONTROL 활동 노출 수]** 열에서 [!UICONTROL 톱니바퀴] 아이콘을 클릭합니다.
 1. **[!UICONTROL 기본값이 아닌 속성 모델 사용]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 동일한 터치 모델]** > **[!UICONTROL 적용]**&#x200B;을 선택합니다.

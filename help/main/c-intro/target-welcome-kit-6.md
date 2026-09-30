@@ -1,24 +1,33 @@
 ---
 keywords: 시작 키트, 대상 환영 키트, 소개, 소개, 시작
-description: Adobe  [!DNL Target] 을 테스트 및 개인화 전략의 일부로 사용할 때 같은 실수를 하지 않도록 다른 사람의 실수를 통해 배우십시오.
-title: ' [!DNL Target] 을 사용할 때 흔히 저지르는 실수는 무엇이며, 어떻게 피할 수 있습니까?'
+description: 테스트 및 개인화 전략의 일부로 Adobe [!DNL Target]을(를) 사용할 때 같은 실수를 하지 않도록 다른 사람의 실수를 통해 배우십시오.
+title: '[!DNL Target]을(를) 사용할 때 흔히 저지르는 실수는 무엇이며 어떻게 피할 수 있습니까?'
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-TQID: https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos
+TQID: 'https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 400
-ht-degree: 89%
-
+source-wordcount: '402'
+ht-degree: 81%
 ---
-
 # 6장: 쉽게 피할 수 있는 위험
 
 지금 최적화와 개인화 프로그램을 시작함으로써 좋은 점은 한동안 이를 해왔던 사람들이 이미 저지르기 쉬운 많은 실수들을 발견했다는 것입니다. 이러한 위험을 알면 쉽게 피하거나 해결할 수 있습니다.

@@ -1,25 +1,33 @@
 ---
 keywords: 클릭 추적;클릭 수 추적;클릭 수;AppMeasurement
-description: ' [!DNL Adobe Target] 요소에 대한 클릭 수를 성공 지표로 추적하는 방법에 대해 알아봅니다.'
+description: '[!DNL Adobe Target]을(를) 통해 요소에 대한 클릭 수를 성공 지표로 추적하는 방법에 대해 알아봅니다.'
 title: 클릭 추적이란?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
+TQID: 'https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: '943'
 ht-degree: 55%
-
 ---
-
 # 클릭 추적
 
 [!DNL Adobe Target]을(를) 사용하면 요소에 대한 클릭 수를 성공 지표로 추적할 수 있습니다. 클릭 추적은 웹 페이지 또는 경험 내의 요소에 대한 사용자 상호 작용(특히, 클릭)을 모니터링하고 기록하는 프로세스를 말합니다. 이는 A/B 테스트, 다변량 테스트 및 개인화 활동에서 참여 및 성과를 측정하는 데 있어 핵심 부분입니다.
@@ -92,14 +100,14 @@ ht-degree: 55%
 
   클릭 추적 이벤트가 [!DNL at.js] (링크) 태그 또는 `A` 태그에 첨부된 경우 `FORM`에서 다음 단계가 실행됩니다.
 
-   1. `event.preventDefault()`를 호출합니다.
+  1. `event.preventDefault()`를 호출합니다.
 
-   1. [!DNL Target] 요청을 실행합니다.
+  1. [!DNL Target] 요청을 실행합니다.
 
-   1. [!DNL Target] 요청 성공 또는 오류 콜백에서 기본 동작을 실행하십시오.
+  1. [!DNL Target] 요청 성공 또는 오류 콜백에서 기본 동작을 실행하십시오.
 
-      * `A` (링크) 태그: 기본 동작은 HREF 속성으로 정의된 URL로 이동하는 것입니다.
-      * `FORM` 태그: 기본 동작은 양식을 제출하는 것입니다.
+     * `A` (링크) 태그: 기본 동작은 HREF 속성으로 정의된 URL로 이동하는 것입니다.
+     * `FORM` 태그: 기본 동작은 양식을 제출하는 것입니다.
 
   이 기본 동작은 [!DNL Analytics] 클릭 추적을 방해할 수 있습니다. [!DNL Analytics]을(를) 사용하는 경우 [!DNL Target]이(가) 아닌 클릭 추적을 위해 [!DNL Analytics]을(를) 사용해야 합니다.
 

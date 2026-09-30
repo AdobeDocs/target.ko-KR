@@ -1,23 +1,28 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;활동 설정
-description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 활동 설정에 대한 질문에 대한 답변을 찾아보십시오. A4T를 사용하면  [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
+description: Analytics for [!DNL Target](A4T)을(를) 사용할 때 활동 설정에 대한 질문에 대한 답변을 찾아보십시오. A4T를 사용하면 [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
 title: A4T의 활동 설정에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-TQID: https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8
+TQID: 'https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '643'
 ht-degree: 14%
-
 ---
-
 # 활동 설정 - A4T FAQ
 
 이 주제에서는 활동 설정과 [!DNL Analytics]을(를) [!DNL Target]&#x200B;(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.

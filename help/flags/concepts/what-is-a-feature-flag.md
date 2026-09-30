@@ -4,13 +4,14 @@ description: 기능 플래그가 무엇이며 재배포 없이 런타임에 애�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: c4ed4ab5-0d73-4697-b05c-476d6e4010ce
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
-
 ---
-
 # 기능 플래그란 무엇입니까 {#what-is-a-feature-flag}
 
 기능 플래그는 코드를 재배포하지 않고도 런타임 시 응용 프로그램의 기능을 켜거나 끌 수 있는 메커니즘입니다.

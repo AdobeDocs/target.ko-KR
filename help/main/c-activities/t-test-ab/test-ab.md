@@ -1,23 +1,31 @@
 ---
 keywords: AB;A/B;AB...n;경험 비교;타깃팅;콘텐츠 비교;자동 타겟;자동 할당
-description: ' [!DNL Target] - [!UICONTROL 수동], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]에서 A/B 테스트 활동을 살펴보십시오.'
-title: ' [!DNL Target]에서 사용할 수 있는 A/B 테스트 활동을 살펴보십시오.'
+description: '[!DNL Target] - [!UICONTROL 수동], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]에서 A/B 테스트 활동을 살펴보십시오.'
+title: '[!DNL Target]에서 사용할 수 있는 A/B 테스트 활동을 검색합니다.'
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-TQID: https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg
+TQID: 'https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: '757'
 ht-degree: 19%
-
 ---
-
 # A/B 테스트 개요
 
 수동 [!UICONTROL A/B 테스트] 활동(A/B...N 테스트라고도 함)은 웹 사이트 콘텐츠의 버전을 두 개 이상 비교하여 전환, 판매 또는 식별한 기타 지표를 가장 잘 활용하는 버전을 확인합니다. A/B 테스트에서 페이지의 변경 사항을 기본 페이지 디자인과 비교하여 최상의 결과를 산출하는 경험을 확인합니다.

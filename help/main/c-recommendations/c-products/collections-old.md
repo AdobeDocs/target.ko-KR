@@ -1,17 +1,24 @@
 ---
 keywords: 컬렉션;타깃팅
-description: ' [!DNL Target Recommendations]에서 제품 컬렉션 또는 항목을 사용하는 방법을 알아봅니다.'
+description: '[!DNL Target Recommendations]에서 제품 또는 항목의 컬렉션을 사용하는 방법을 알아보세요.'
 title: Recommendations 활동에서 컬렉션을 사용하는 방법은 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 42%
-
+source-wordcount: '898'
+ht-degree: 41%
 ---
-
 # 컬렉션
 
 컬렉션은 권장 사항에 적합한 제품 또는 항목 세트입니다. 컬렉션의 일부가 되기 위해 항목에서 충족해야 하는 조건을 지정하여 컬렉션을 정의합니다.
@@ -46,7 +53,7 @@ ht-degree: 42%
 
    ![가리킨 아이콘: 편집, 복사 및 삭제](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 컬렉션] 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하십시오.
+   [!UICONTROL 컬렉션] 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하십시오.
 
 1. **[!UICONTROL 컬렉션 만들기]**&#x200B;를 클릭합니다.
 
@@ -109,4 +116,4 @@ ht-degree: 42%
 * 컬렉션 만들기
 * 제외 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/35499?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

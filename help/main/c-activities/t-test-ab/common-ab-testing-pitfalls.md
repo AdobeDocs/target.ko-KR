@@ -1,23 +1,31 @@
 ---
 keywords: AB;A/B;AB...n;실수;위험;실수;위험;유의성;우승자;통계적 차이점;통계적;통계적 힘;트래픽 할당;할당;
-description: ' [!DNL Adobe Target] 의 A/B 테스트 및 기타 테스트 솔루션을 수행할 때 기업에서 발생하는 가장 일반적인 위험 및 실수를 방지하는 방법에 대해 알아봅니다.'
+description: '[!DNL Adobe Target] 및 기타 테스트 솔루션에서 A/B 테스트를 수행할 때 기업에서 발생하는 가장 일반적인 위험 및 실수를 방지하는 방법에 대해 알아봅니다.'
 title: 일반적인 A/B 테스트 실수를 방지하려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+TQID: 'https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3983
-ht-degree: 100%
-
+source-wordcount: '3984'
+ht-degree: 99%
 ---
-
 # 10가지 일반적인 A/B 테스트 위험 및 이를 방지하는 방법
 
 [!DNL Adobe Target] 의 A/B 테스트는 대부분의 디지털 마케팅 최적화 프로그램의 중추를 형성하여 마케터가 방문자 및 고객에게 최적의 목표 경험을 제공할 수 있도록 합니다. 이 문서에서는 A/B 테스트를 수행할 때 기업에서 발생하는 가장 중요한 10가지 위험에 대해 설명합니다. 또한 여기에는 회사가 테스트 노력을 통해 더 많은 ROI를 달성하고 보고된 A/B 테스트 결과를 더욱 신뢰할 수 있도록 이러한 위험을 방지하는 방법도 포함되어 있습니다.

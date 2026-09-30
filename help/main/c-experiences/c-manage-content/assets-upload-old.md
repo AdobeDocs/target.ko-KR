@@ -4,13 +4,20 @@ description: Adobe Target에서 이미지 오퍼로 사용할 이미지를 업�
 title: 오퍼 라이브러리에 콘텐츠를 업로드하려면 어떻게 해야 합니까?
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 17%
-
 ---
-
 # 업로드 컨텐츠
 
 [!DNL Adobe Target]의 [!UICONTROL 이미지 오퍼] 목록에 이미지를 업로드하여 활동에서 이미지 오퍼로 사용할 수 있습니다. 활동에 이미지 오퍼가 더 이상 필요하지 않은 경우에도 삭제할 수 있습니다.
@@ -39,7 +46,7 @@ ht-degree: 17%
 
 이 비디오에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다.
 
-* [Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=ko)와 Target 컨텐츠 라이브러리 간 연결
+* [Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)와 Target 컨텐츠 라이브러리 간 연결
 * 사용자 지정 HTML 오퍼
 * 시각적 경험 작성기의 사용자 지정 HTML 오퍼
 

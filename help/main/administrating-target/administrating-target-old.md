@@ -5,13 +5,20 @@ title: Target을 관리하려면 어떻게 해야 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 11%
-
 ---
-
 # [!DNL Target] 관리 개요
 
 VEC(시각적 경험 작성기)에 대한 구성 설정, 보고, Scene7 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자를 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다.

@@ -4,19 +4,23 @@ description: 각 요소 및 각 오퍼의 성과를 보여 주는 Adobe [!DNL Ta
 title: '[!UICONTROL 다변량 테스트] 활동에 대해 [!UICONTROL 위치 기여도] 보고서를 사용하려면 어떻게 해야 합니까?'
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-TQID: https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc
+TQID: 'https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 32%
-
+source-wordcount: '285'
+ht-degree: 35%
 ---
-
 # [!UICONTROL 위치 기여도] 보고서(MVT)
 
 [!UICONTROL 위치 기여도] 보고서는 각 요소 및 각 오퍼의 성과를 보여줍니다.
@@ -41,6 +45,6 @@ ht-degree: 32%
 
 ## 교육 비디오: MVT 테스트 만들기
 
-이 비디오에서는 안내가 있는 [!DNL Target] 3단계 워크플로우를 사용하여 다변량 테스트를 만드는 방법을 보여 줍니다. 위치 기여도 보고서는 8:45부터 시작됩니다.
+이 비디오에서는 안내가 있는 [!DNL Target] 3단계 워크플로우를 사용하여 다변량 테스트를 만드는 방법을 보여 줍니다. 위치 기여도 보고서는 8:45부터 설명됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

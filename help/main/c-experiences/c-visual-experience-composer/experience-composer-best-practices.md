@@ -1,29 +1,37 @@
 ---
 keywords: 시각적 경험 작성기;시각적 경험 작성기 우수 사례;시각적 경험 작성기 제한 사항;시각적 경험 작성기 주의 사항;vec 우수 사례;vec
-description: '[!UICONTROL 시각적 경험 작성기]​(VEC)를 사용할 때 경험이 예상대로 작동하도록 하는 모범 사례에 대해 알아봅니다.'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)를 사용할 때 경험이 예상대로 작동하도록 하는 모범 사례에 대해 알아봅니다.'
 title: '[!UICONTROL 시각적 경험 작성기] 모범 사례 및 제한 사항은 무엇입니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-TQID: https://experienceleague.adobe.com/upZDSyuS9VqUmYskNXrlYazhwRHmZGBpSR-cR-qliRs
+TQID: 'https://experienceleague.adobe.com/upZDSyuS9VqUmYskNXrlYazhwRHmZGBpSR-cR-qliRs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2552
+source-wordcount: '2552'
 ht-degree: 49%
-
 ---
-
 # [!UICONTROL 시각적 경험 작성기] 모범 사례 및 제한 사항
 
 경험이 의도한 대로 작동하도록 하려면 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 사용할 때 모범 사례를 따르십시오. 성능을 극대화하고 일반적인 문제를 방지하기 위한 주요 팁과 제한 사항을 알아 두십시오.
@@ -135,7 +143,7 @@ VEC는 링크를 업데이트하는 프록시 서버를 사용하여 백그라�
 
 다시 말해, 텍스트가 있는 요소를 추가하면, 다른 텍스트로 해당 요소를 편집하는 별도의 작업에서 코드 편집기에 두 작업이 모두 별도의 요소로 표시됩니다. 요소를 편집한 경우 편집된 텍스트를 포함하고 여러분이 만든 원본을 수정하는 새 요소가 만들어진 것입니다. 만약 원래 요소를 삭제하면 편집된 텍스트는 편집된 요소를 찾을 수 없으며 표시되지 않습니다. 두 번째 요소는 요소 목록에는 남아 있지만, 변경되는 요소가 더 이상 존재하지 않으므로 이 요소는 페이지에 영향을 주지 않습니다.
 
-[[!UICONTROL 시각적 경험 작성기에 사용된 [요소 선택기]]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)를 참조하십시오.
+[!UICONTROL 시각적 경험 작성기에 사용된 [요소 선택기]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)를 참조하십시오.
 
 +++
 
@@ -315,7 +323,7 @@ VEC를 사용할 때는 다음 제한 사항을 고려하십시오.
 ### [!DNL Chrome] 확장 정책 변경 사항과 VEC 호환성을 처리하는 중입니다. {#ext}
 
 +++세부 사항
-Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}의 업데이트된 V3 매니페스트 정책으로 인해 확장에서 브라우저에서 구문 분석하기 전에 원본 DOM을 더 이상 수정할 수 없습니다. 따라서 iframe 버스팅 구현과 같은 특정 보안 스크립트는 VEC에서 페이지가 로드되지 않도록 차단할 수 있습니다.
+Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}의 업데이트된 [V3 매니페스트 정책으로 인해 확장에서 브라우저에서 구문 분석하기 전에 원본 DOM을 더 이상 수정할 수 없습니다. 따라서 iframe 버스팅 구현과 같은 특정 보안 스크립트는 VEC에서 페이지가 로드되지 않도록 차단할 수 있습니다.
 
 호환성을 보장하려면 페이지가 [!DNL Target] iframe 내부에 로드될 때 이러한 스크립트를 조건부로 비활성화해야 합니다. VEC 로드 중에 [!DNL Target]에서 삽입한 `window.adobeVecExtension` 개체가 있는지 확인하여 이 프로세스를 안전하게 수행할 수 있습니다.
 

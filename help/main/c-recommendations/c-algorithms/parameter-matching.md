@@ -1,22 +1,28 @@
 ---
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;프로모션;동적 필터링;동적;매개 변수 일치
-description: 항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 Adobe [!DNL Target] Recommendations에서 동적으로 필터링하는 방법을 알아봅니다.
+description: 항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 Adobe [!DNL Target] 권장 사항에서 동적으로 필터링하는 방법을 알아봅니다.
 title: 권장 사항 활동에서 매개 변수 일치로 필터링하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
-TQID: https://experienceleague.adobe.com/GTli-O1p4Gm2Fg9J-L0ukQ8dSw2t-da8OatFLP8Ks9g
+TQID: 'https://experienceleague.adobe.com/GTli-O1p4Gm2Fg9J-L0ukQ8dSw2t-da8OatFLP8Ks9g'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '351'
 ht-degree: 10%
-
 ---
-
 # [!UICONTROL 매개 변수 일치]
 
 항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 동적으로 필터링합니다.

@@ -4,13 +4,14 @@ description: Adobe Target의 Flags 팀에 대한 액세스 권한을 요청하�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 2%
-
 ---
-
 # 액세스 요청 {#request-access}
 
 플래그에 대한 액세스는 팀 수준에서 관리됩니다. 플래그를 사용하려면 적절한 역할을 가진 팀에 추가되어야 합니다.

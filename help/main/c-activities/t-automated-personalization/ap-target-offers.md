@@ -1,27 +1,35 @@
 ---
 keywords: 자동화된 개인화;오퍼;타겟;대상;타깃팅 규칙;타깃팅
-description: '[!UICONTROL Automated Personalization]​(AP) 활동을 사용하여 특정 대상에게 개별 오퍼를 타깃팅하는 방법을 알아봅니다.'
+description: '[!UICONTROL Automated Personalization](AP) 활동을 사용하여 특정 대상에게 개별 오퍼를 타깃팅하는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 오퍼를 타깃팅하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
-TQID: https://experienceleague.adobe.com/AVqyD-Von-gzuVXC09N9qHY5hEe1QLQwSavCE0mp7Ok
+TQID: 'https://experienceleague.adobe.com/AVqyD-Von-gzuVXC09N9qHY5hEe1QLQwSavCE0mp7Ok'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: '409'
 ht-degree: 18%
-
 ---
-
 # [!UICONTROL Automated Personalization] 오퍼 타깃팅
 
 [!DNL Adobe Target] [!DNL Automated Personalization]&#x200B;(AP) 활동에서 오퍼를 특정 대상에 타깃팅할 수 있습니다.

@@ -1,26 +1,33 @@
 ---
 keywords: 릴리스 정보;릴리스;업데이트;향후 릴리스;향상;새로운 기능;수정;업데이트;프리릴리스;조기 액세스
-description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Target]의 예정된 릴리스에 포함된 새로운 기능 및 개선, 수정 사항에 대해 알아봅니다.
-title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
+description: SDK, API 및 JavaScript 라이브러리를 포함하여 [!DNL Target]의 예정된 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
+title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능 및 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-TQID: https://experienceleague.adobe.com/ITCtRvL0t6ZyT-BRkO7oYDq6-D08qoUP6XIQTe9RPKY
+TQID: 'https://experienceleague.adobe.com/ITCtRvL0t6ZyT-BRkO7oYDq6-D08qoUP6XIQTe9RPKY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 203
-ht-degree: 80%
-
+source-wordcount: '204'
+ht-degree: 65%
 ---
-
 # [!DNL Target] 릴리스 정보 (프리릴리스)
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.

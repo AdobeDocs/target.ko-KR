@@ -1,17 +1,24 @@
 ---
 keywords: 사용자 지정 기준 만들기;알고리즘;기준;권장 사항 기준;csv;ftp;csv 업로드
-description: CSV 파일을 업로드하여 Adobe [!DNL Target] Recommendations에서 권장 사항을 사용자 지정하는 방법을 알아봅니다.
+description: CSV 파일을 업로드하여 Adobe [!DNL Target] 권장 사항에서 권장 사항을 사용자 지정하는 방법을 알아봅니다.
 title: Recommendations에서 사용자 지정 기준을 업로드하는 방법은 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '736'
 ht-degree: 32%
-
 ---
-
 # 사용자 지정 기준 업로드
 
 CSV 파일을 업로드하여 [!DNL Adobe Target]에서 권장 사항을 사용자 지정합니다.
@@ -80,7 +87,7 @@ CSV 파일을 업로드하여 [!DNL Adobe Target]에서 권장 사항을 사용�
   | 디렉토리를 찾을 수 없음 | 서버에 존재하는 디렉토리를 지정합니다. |
   | 파일을 찾을 수 없음 | 표시된 디렉토리의 서버에 있는 파일의 이름을 제공합니다. |
 
-## 교육 비디오: 권장 사항(12:33)에서 기준 만들기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
+## 교육 비디오: 추천에서 기준 만들기(12:33) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함되어 있습니다(사용자 지정 기준 업로드에 대한 세부 정보는 11:43부터 시작).
 
@@ -88,4 +95,4 @@ CSV 파일을 업로드하여 [!DNL Adobe Target]에서 권장 사항을 사용�
 * 기준 시퀀스 만들기
 * 사용자 지정 기준 업로드
 
->[!VIDEO](https://video.tv.adobe.com/v/35500?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

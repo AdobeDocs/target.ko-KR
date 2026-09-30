@@ -1,16 +1,23 @@
 ---
 keywords: 경험 타깃팅;xt;활동 url;url
-description: '[!UICONTROL 경험 타깃팅] 활동이  [!DNL Adobe Target]을(를) 사용하여 디자인될 때 열리는 테스트에 사용되는 페이지를 결정하는 [!UICONTROL 활동 URL]을(를) 지정하는 방법을 알아봅니다.'
-title: '[!UICONTROL 경험 타깃팅]​(XT) 활동에서 [!UICONTROL 활동 URL]은(는) 무엇입니까?'
+description: '[!UICONTROL 경험 타깃팅] 활동이 [!DNL Adobe Target]을(를) 사용하여 디자인될 때 열리는 테스트에 사용되는 페이지를 결정하는 [!UICONTROL 활동 URL]을(를) 지정하는 방법을 알아봅니다.'
+title: '[!UICONTROL 경험 타깃팅](XT) 활동에서 [!UICONTROL 활동 URL]은(는) 무엇입니까?'
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 36%
-
 ---
-
 # [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동의 활동 URL
 
 [!UICONTROL 활동 URL]은(는) [!DNL Adobe Target] [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동에서 사용되는 페이지를 결정합니다. 활동을 디자인할 때 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 또는 [!UICONTROL 양식 기반 경험 작성기]에서 열리는 페이지입니다.
@@ -23,7 +30,7 @@ ht-degree: 36%
    >
    >기본적으로 VEC 또는 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)는 [시각적 경험 작성기 설정](/help/main/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
    >
-   >[[!DNL Target] at.js JavaScript 라이브러리 또는 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ko){target=_blank}이(가) 포함되지 않은 사이트 URL을 지정하면 페이지 요소를 선택할 수 없습니다.
+   >[[!DNL Target] at.js JavaScript 라이브러리 또는 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}이(가) 포함되지 않은 사이트 URL을 지정하면 페이지 요소를 선택할 수 없습니다.
 
 1. (조건부) VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성]**&#x200B;을 클릭하고 **[!UICONTROL 페이지 배달]**&#x200B;을 선택한 다음 [!UICONTROL URL] 필드에 URL을 지정하십시오.
 
