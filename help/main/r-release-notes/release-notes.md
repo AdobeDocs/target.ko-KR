@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
+source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 30%
+source-wordcount: '1062'
+ht-degree: 28%
 ---
 # [!DNL Target] 릴리스 정보 (현재)
 
@@ -41,6 +41,46 @@ ht-degree: 30%
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
 ## [!DNL Target Standard/Premium] 26.9.7(2026년 9월 28일)
+
+### 기능
+
+<table>
+<thead>
+<tr>
+<th><strong>샘플 크기 계산기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>샘플 크기 계산기 를 사용하면 필요한 트래픽, 테스트 기간, 경험 수 또는 안정적으로 감지할 수 있는 최소 효과를 예측하여 실행 전에 실험을 계획할 수 있습니다. 활동 메뉴에서 사용할 수 있으며, 입력에 따라 테스트에 필요한 리소스 및 런타임을 결정할 수 있습니다.</p>
+<p>샘플 크기 계산기 기능은 현재 Beta 기능으로 사용할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../c-activities/sample-size-calculator.md">세부 문서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI 인사이트</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI 인사이트는 수동 트래픽 할당을 통해 A/B 테스트 활동에 대한 AI가 생성한 실험 학습과 최적화 기회를 제공합니다. 일단 실험이 통계적 중요도에 도달하면 인사이트는 성능에 기여했을 수 있는 우승 경험의 속성을 강조 표시합니다. 제안된 기회에는 전환율을 개선하는 데 도움이 되는 새로운 경험 아이디어, 가설 및 구현 지침이 포함됩니다.</p>
+<p>AI 인사이트 기능은 현재 베타 기능으로 사용할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../c-activities/ai-insights.md">세부 문서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항
+
+
 
 **[!UICONTROL 추천]**
 
@@ -53,7 +93,7 @@ ht-degree: 30%
 
 ## [!DNL Target Standard/Premium] 26.9.6(2026년 9월 24일)
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
@@ -94,11 +134,11 @@ ht-degree: 30%
 
 ## [!DNL Target Standard/Premium] 26.9.4(2026년 9월 17일)
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
-* 가장 위쪽 페이지 요소&#x200B;**에서 [!DNL Experience Fragments]에 대한**&#x200B;[!UICONTROL &#x200B;다음 항목 앞에 삽입] 컨트롤에 액세스할 수 없습니다. 시각적 경험 작성기에서 페이지에서 맨 위 요소를 선택하면 페이지가 위쪽으로 스크롤되어 **[!UICONTROL 다음 항목 앞에 삽입]** 컨트롤이 선택할 수 없는 표시된 뷰포트 위에 렌더링됩니다. (TGT-55829)
+* 가장 위쪽 페이지 요소&#x200B;**에서 [!DNL Experience Fragments]에 대한**[!UICONTROL &#x200B;다음 항목 앞에 삽입] 컨트롤에 액세스할 수 없습니다. 시각적 경험 작성기에서 페이지에서 맨 위 요소를 선택하면 페이지가 위쪽으로 스크롤되어 **[!UICONTROL 다음 항목 앞에 삽입]** 컨트롤이 선택할 수 없는 표시된 뷰포트 위에 렌더링됩니다. (TGT-55829)
 
 +++
 

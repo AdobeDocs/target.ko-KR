@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱, 소셜 채널에서 고객 경험을 개인화하여 수익을 증대시키는 방법에 대해 알아봅니다.
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: d56bda63de533f7a1d0fb4f7297242a58064403f
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1322'
 ht-degree: 83%
 ---
 
@@ -123,6 +123,7 @@ ht-degree: 83%
 + 활동 {#activities}
   + [활동 개요](c-activities/activities.md)
   + [Insights 대시보드](c-activities/insights-dashboard.md)
+  + [샘플 크기 계산기](c-activities/sample-size-calculator.md)
   + [Target 활동 유형](c-activities/target-activities-guide.md)
   + A/B 테스트 {#abtest}
     + [A/B 테스트 개요](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +195,7 @@ ht-degree: 83%
     + [클릭 추적](c-activities/r-success-metrics/click-tracking.md)
     + [캡처 점수](c-activities/r-success-metrics/capture-score.md)
   + [활동 변경 로그](c-activities/change-log.md)
+  + [AI 인사이트](c-activities/ai-insights.md)
   + 활동 문제 해결 {#troubleshoot-activities}
     + [활동 문제 해결 개요](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [콘텐츠 전달 문제 해결](c-activities/c-troubleshooting-activities/content-trouble.md)
