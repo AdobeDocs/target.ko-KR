@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: de649ea8b193a832eb55d398c7443a95675abb44
+source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
 workflow-type: tm+mt
-source-wordcount: '3949'
+source-wordcount: '3955'
 ht-degree: 56%
 ---
 # SPA(단일 페이지 앱) 시각적 경험 작성기
@@ -90,128 +90,134 @@ SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA �
 
 Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개념을 활용하여 마케터가 VEC를 통해 SPA에서 A/B 및 XT 테스트를 실행하도록 지원할 수 있습니다. 이렇게 하려면 일회용 개발자 설정이 필요합니다. 이 설정을 수행하는 단계를 살펴보겠습니다.
 
-1. at.js 2.x를 설치합니다.
++++ at.js 2.x를 설치합니다.
 
-   먼저 at.js 2.x를 설치해야 합니다. 이 at.js 버전은 SPA를 염두에 두고 개발되었습니다. 이전 버전의 at.js는에서 Adobe Target 보기 및 SPA용 VEC를 지원하지 않습니다.
+먼저 at.js 2.x를 설치해야 합니다. 이 at.js 버전은 SPA를 염두에 두고 개발되었습니다. 이전 버전의 at.js는에서 Adobe Target 보기 및 SPA용 VEC를 지원하지 않습니다.
 
-   ![구현 세부 사항 대화 상자](/help/main/c-experiences/assets/imp-200.png)
+![구현 세부 사항 대화 상자](/help/main/c-experiences/assets/imp-200.png)
 
-   [!UICONTROL 관리 > 구현]에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. at.js 2.x는 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}의 태그를 통해 배포할 수도 있습니다. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
+[!UICONTROL 관리 > 구현]에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. at.js 2.x는 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}의 태그를 통해 배포할 수도 있습니다. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
 
-1. at.js 2.x의 최신 함수인 [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}을(를) 사이트에 구현합니다.
++++
 
-   A/B 또는 XT 테스트를 실행할 SPA의 보기를 정의한 후에는 매개 변수로서 전달된 보기를 사용하여 at.js 2.x의 `triggerView()` 함수를 구현하십시오. 이렇게 하면 마케터는 VEC를 사용하여 정의된 해당 보기에 대한 A/B 및 XT 테스트를 디자인하고 실행할 수 있습니다. 해당 보기에 대해 `triggerView()` 함수가 정의되지 않은 경우 VEC가 보기를 감지하지 않으므로 마케터는 VEC를 사용하여 A/B 및 XT 테스트를 디자인하고 실행할 수 없습니다.
++++ at.js 2.x의 최신 함수 구현
 
-   **`adobe.target.triggerView(viewName, options)`**
+사이트에서 at.js 2.x의 최신 함수 [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}을(를) 구현합니다.
 
-   | 매개 변수 | 유형 | 필수? | 유효성 검사 | 설명 |
-   | --- | --- | --- | --- | --- |
-   | viewName | 문자열 | 예 | &#x200B;1. 후행 공백이 없습니다.<br>2. 비워 둘 수 없습니다.<br>3. 보기 이름은 모든 페이지에 대해 고유해야 합니다.<br>4. **경고**: 보기 이름을 &#39;`/`&#39;로 시작하거나 종료해서는 안 됩니다. 일반적으로 고객은 URL 경로에서 보기 이름을 추출하기 때문입니다. &quot;home&quot; 및 &quot;`/home`&quot;이(가) 다릅니다.<br>5. **경고**: `{page: true}` 선택 사항을 사용하여 동일한 보기를 여러 번 연속적으로 트리거할 수 없습니다. | 보기를 표현할 문자열 유형으로 모든 이름을 전달합니다. 이 보기 이름은 마케터가 작업을 만들고 A/B 및 XT 활동을 실행하는 VEC의 [!UICONTROL 수정 사항] 패널에 표시됩니다. |
-   | options | 개체 | 아니오 |  |  |
-   | options > page | 부울 | 아니오 |  | **TRUE**: 페이지의 기본값은 true입니다. `page=true`일 때 노출 수가 증가하면 Edge 서버로 알림이 전송됩니다.<br>**FALSE**: `page=false`일 때 노출 수가 증가하면 알림이 전송되지 않습니다. 이 값은 오퍼가 있는 페이지에서 구성 요소를 다시 렌더링하려는 경우에만 사용해야 합니다. |
+A/B 또는 XT 테스트를 실행할 SPA의 보기를 정의한 후에는 매개 변수로서 전달된 보기를 사용하여 at.js 2.x의 `triggerView()` 함수를 구현하십시오. 이렇게 하면 마케터는 VEC를 사용하여 정의된 해당 보기에 대한 A/B 및 XT 테스트를 디자인하고 실행할 수 있습니다. 해당 보기에 대해 `triggerView()` 함수가 정의되지 않은 경우 VEC가 보기를 감지하지 않으므로 마케터는 VEC를 사용하여 A/B 및 XT 테스트를 디자인하고 실행할 수 없습니다.
 
-   이제 가상의 전자 상거래 SPA에 대해 React에서 `triggerView()` 함수를 호출하는 방법에 대한 몇 가지 사용 사례를 살펴보겠습니다.
+**`adobe.target.triggerView(viewName, options)`**
 
-   **링크: [홈 사이트](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+| 매개 변수 | 유형 | 필수? | 유효성 검사 | 설명 |
+| --- | --- | --- | --- | --- |
+| viewName | 문자열 | 예 | &#x200B;1. 후행 공백이 없습니다.<br>2. 비워 둘 수 없습니다.<br>3. 보기 이름은 모든 페이지에 대해 고유해야 합니다.<br>4. **경고**: 보기 이름을 &#39;`/`&#39;로 시작하거나 종료해서는 안 됩니다. 일반적으로 고객은 URL 경로에서 보기 이름을 추출하기 때문입니다. &quot;home&quot; 및 &quot;`/home`&quot;이(가) 다릅니다.<br>5. **경고**: `{page: true}` 선택 사항을 사용하여 동일한 보기를 여러 번 연속적으로 트리거할 수 없습니다. | 보기를 표현할 문자열 유형으로 모든 이름을 전달합니다. 이 보기 이름은 마케터가 작업을 만들고 A/B 및 XT 활동을 실행하는 VEC의 [!UICONTROL 수정 사항] 패널에 표시됩니다. |
+| options | 개체 | 아니오 |  |  |
+| options > page | 부울 | 아니오 |  | **TRUE**: 페이지의 기본값은 true입니다. `page=true`일 때 노출 수가 증가하면 Edge 서버로 알림이 전송됩니다.<br>**FALSE**: `page=false`일 때 노출 수가 증가하면 알림이 전송되지 않습니다. 이 값은 오퍼가 있는 페이지에서 구성 요소를 다시 렌더링하려는 경우에만 사용해야 합니다. |
 
-   ![home-react-1](/help/main/c-experiences/assets/react1.png)
+이제 가상의 전자 상거래 SPA에 대해 React에서 `triggerView()` 함수를 호출하는 방법에 대한 몇 가지 사용 사례를 살펴보겠습니다.
 
-   마케터는 전체 홈 사이트에서 A/B 테스트를 실행하려는 경우 URL에서 추출할 수 있는 &quot;홈&quot; 보기의 이름을 지정할 수 있습니다.
+**링크: [홈 사이트](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
-   ```javascript
-   function targetView() {
-     var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
-   
-     viewName = viewName || 'home'; // view name cannot be empty
-   
-     // Sanitize viewName to get rid of any trailing symbols derived from URL
-     if (viewName.startsWith('#') || viewName.startsWith('/')) {
-       viewName = viewName.substr(1);
-     }
-   
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   // react router v4
-   const history = syncHistoryWithStore(createBrowserHistory(), store);
-   history.listen(targetView);
-   
-   // react router v3
-   <Router history={hashHistory} onUpdate={targetView} >
-   ```
+![home-react-1](/help/main/c-experiences/assets/react1.png)
 
-   **링크: [제품 사이트](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+마케터는 전체 홈 사이트에서 A/B 테스트를 실행하려는 경우 URL에서 추출할 수 있는 &quot;홈&quot; 보기의 이름을 지정할 수 있습니다.
 
-   이제 좀 더 복잡한 예를 살펴보겠습니다. 마케터는 사용자가 [추가 로드] 단추를 클릭한 후 가격 레이블 색상을 빨간색으로 변경함으로써 제품의 두 번째 행을 개인화하려고 합니다.
+```javascript
+function targetView() {
+  var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
 
-   ![React 제품](/help/main/c-experiences/assets/react4.png)
+  viewName = viewName || 'home'; // view name cannot be empty
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Products extends Component {
-     render() {
-       return (
-         <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
-       );
-     }
-   
-     handleLoadMoreClicked() {
-       var page = this.state.page + 1; // assuming page number is derived from component's state
-       this.setState({page: page});
-       targetView('PRODUCTS-PAGE-' + page);
-     }
-   }
-   ```
+  // Sanitize viewName to get rid of any trailing symbols derived from URL
+  if (viewName.startsWith('#') || viewName.startsWith('/')) {
+    viewName = viewName.substr(1);
+  }
 
-   **링크: [체크아웃](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
 
-   ![React 체크아웃](/help/main/c-experiences/assets/react6.png)
+// react router v4
+const history = syncHistoryWithStore(createBrowserHistory(), store);
+history.listen(targetView);
 
-   마케터가 선택된 배송 환경 설정에 따라 사이트에서 콘텐츠를 개인화하려는 경우 각 배달 환경 설정에 대해 &quot;보기&quot;를 만들 수 있습니다. 이 경우 일반 배달을 선택하면 보기의 이름을 &quot;일반 배달&quot;로 지정할 수 있습니다. 빠른 배달을 선택한 경우 보기의 이름을 &quot;빠른 배달&quot;로 지정할 수 있습니다.
+// react router v3
+<Router history={hashHistory} onUpdate={targetView} >
+```
 
-   이제 마케터는 빠른 배달을 선택했을 때 단추 색상을 두 배달 선택 사항 모두에 대해 파란색으로 유지하는 것과 대조적으로 색상을 파란색에서 빨간색으로 변경하는 것이 전환을 더 끌어올릴 수 있을지 여부를 확인하기 위해 A/B 테스트를 실행할 수 있습니다.
+**링크: [제품 사이트](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Checkout extends Component {
-     render() {
-       return (
-         <div onChange={this.onDeliveryPreferenceChanged}>
-           <label>
-             <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
-             <span> Normal Delivery (7-10 business days)</span>
-           </label>
-   
-           <label>
-             <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
-             <span> Express Delivery* (2-3 business days)</span>
-           </label>
-         </div>
-       );
-     }
-     onDeliveryPreferenceChanged(evt) {
-       var selectedPreferenceValue = evt.target.value;
-       targetView(selectedPreferenceValue);
-     }
-   }
-   ```
+이제 좀 더 복잡한 예를 살펴보겠습니다. 마케터는 사용자가 [추가 로드] 단추를 클릭한 후 가격 레이블 색상을 빨간색으로 변경함으로써 제품의 두 번째 행을 개인화하려고 합니다.
 
-1. VEC를 통해 A/B 또는 XT 활동을 실행합니다.
+![React 제품](/help/main/c-experiences/assets/react4.png)
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Products extends Component {
+  render() {
+    return (
+      <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
+    );
+  }
+
+  handleLoadMoreClicked() {
+    var page = this.state.page + 1; // assuming page number is derived from component's state
+    this.setState({page: page});
+    targetView('PRODUCTS-PAGE-' + page);
+  }
+}
+```
+
+**링크: [체크아웃](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+
+![React 체크아웃](/help/main/c-experiences/assets/react6.png)
+
+마케터가 선택된 배송 환경 설정에 따라 사이트에서 콘텐츠를 개인화하려는 경우 각 배달 환경 설정에 대해 &quot;보기&quot;를 만들 수 있습니다. 이 경우 일반 배달을 선택하면 보기의 이름을 &quot;일반 배달&quot;로 지정할 수 있습니다. 빠른 배달을 선택한 경우 보기의 이름을 &quot;빠른 배달&quot;로 지정할 수 있습니다.
+
+이제 마케터는 빠른 배달을 선택했을 때 단추 색상을 두 배달 선택 사항 모두에 대해 파란색으로 유지하는 것과 대조적으로 색상을 파란색에서 빨간색으로 변경하는 것이 전환을 더 끌어올릴 수 있을지 여부를 확인하기 위해 A/B 테스트를 실행할 수 있습니다.
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Checkout extends Component {
+  render() {
+    return (
+      <div onChange={this.onDeliveryPreferenceChanged}>
+        <label>
+          <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
+          <span> Normal Delivery (7-10 business days)</span>
+        </label>
+
+        <label>
+          <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
+          <span> Express Delivery* (2-3 business days)</span>
+        </label>
+      </div>
+    );
+  }
+  onDeliveryPreferenceChanged(evt) {
+    var selectedPreferenceValue = evt.target.value;
+    targetView(selectedPreferenceValue);
+  }
+}
+```
+
++++
+
++++ VEC를 통해 A/B 또는 XT 활동을 실행합니다.
 
 `adobe.target.triggerView()`가 매개 변수로서 전달되는 보기 이름이 있는 SPA에서 구현되면 VEC는 이러한 보기를 감지하고 사용자가 A/B 또는 XT 활동에 대한 작업 및 수정 사항을 만드는 것을 허용할 수 있습니다.
 
@@ -284,6 +290,8 @@ PRODUCTS-PAGE-2 보기를 만든 위의 예를 살펴보겠습니다. 우리의 
 >[!NOTE]
 >
 >CHECKOUT-EXPRESS 보기는 빠른 배달 라디오 단추를 클릭하기 전까지 수정 패널에 표시되지 않습니다. 이것은 빠른 배달 라디오 단추가 선택되어 있을 때 `triggerView()` 함수가 트리거되며 이것은 VEC가 수정 패널에 표시할 보기가 있음을 알 때 뿐이기 때문입니다.
+
++++
 
 ## at.js 및 SPA에 대해 깊이 들여다보기
 
@@ -385,7 +393,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 예 |
 | [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md) | 예 |
-| [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko){target=_blank} | 예 |
+| [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | 예 |
 | [AEM 경험 구성요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 예 |
 
 ## 지원되는 기능 {#supported-features}
@@ -408,7 +416,7 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 ![페이지 전달 옵션 대화 상자](/help/main/c-experiences/assets/page-delivery.png)
 
-예를 들어, 위에 표시된 [!UICONTROL 페이지 전달] 설정에 정의된 대로 방문자가 `https://www.adobe.com` *에 직접 방문하거나 `https://www.adobe.com/kr/products`이(가) 포함된 URL에 방문하면 Target 활동이 정규화되고 실행됩니다.* 이 활동은 페이지와의 모든 상호 작용이 페이지 재로드를 호출하는 모든 다중 페이지 애플리케이션에 완벽하게 작동합니다. 여기서 at.js는 사용자가 탐색하는 URL을 대상으로 하는 활동을 검색합니다.
+예를 들어, 위에 표시된 [!UICONTROL 페이지 전달] 설정에 정의된 대로 방문자가 `https://www.adobe.com` *에 직접 방문하거나 `https://www.adobe.com/products`이(가) 포함된 URL에 방문하면 Target 활동이 정규화되고 실행됩니다.* 이 활동은 페이지와의 모든 상호 작용이 페이지 재로드를 호출하는 모든 다중 페이지 애플리케이션에 완벽하게 작동합니다. 여기서 at.js는 사용자가 탐색하는 URL을 대상으로 하는 활동을 검색합니다.
 
 그러나 SPA는 다르게 작동하므로 SPA VEC 활동에 정의된 대로 모든 작업을 보기에 적용할 수 있는 방식으로 [!UICONTROL 페이지 배달] 설정을 구성해야 합니다.
 
@@ -468,7 +476,7 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 ## 교육 비디오: Adobe Target에서의 SPA용 VEC 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/34786?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 자세한 내용은 [Adobe Target에서 SPA VEC(단일 페이지 애플리케이션용 시각적 경험 작성기) 사용](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)을 참조하십시오.
 

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
+source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 28%
+source-wordcount: '1112'
+ht-degree: 26%
 ---
 # [!DNL Target] 릴리스 정보 (현재)
 
@@ -40,7 +40,7 @@ ht-degree: 28%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 26.9.7(2026년 9월 28일)
+## [!DNL Target Standard/Premium] 26.9.8(2026년 9월 30일)
 
 ### 기능
 
@@ -80,6 +80,15 @@ ht-degree: 28%
 
 ### 개선 사항
 
+**[!UICONTROL 관리]**
+
++++ 세부 정보 보기
+
+* **사용자에게 AI 권한을 부여할 수 없습니다**. 제품 관리자 및 시스템 관리자 액세스 권한이 있는 사용자가 다른 사용자에게 AI 권한을 부여할 수 없습니다. 조직에 대해 AI가 활성화된 경우에도 AI 권한을 활성화하려고 하면 `Unauthorized` 오류가 발생했습니다. (TGT-56261)
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.7(2026년 9월 28일)
 
 
 **[!UICONTROL 추천]**
@@ -93,7 +102,7 @@ ht-degree: 28%
 
 ## [!DNL Target Standard/Premium] 26.9.6(2026년 9월 24일)
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
@@ -134,11 +143,11 @@ ht-degree: 28%
 
 ## [!DNL Target Standard/Premium] 26.9.4(2026년 9월 17일)
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
-* 가장 위쪽 페이지 요소&#x200B;**에서 [!DNL Experience Fragments]에 대한**&#x200B;[!UICONTROL &#x200B;다음 항목 앞에 삽입] 컨트롤에 액세스할 수 없습니다. 시각적 경험 작성기에서 페이지에서 맨 위 요소를 선택하면 페이지가 위쪽으로 스크롤되어 **[!UICONTROL 다음 항목 앞에 삽입]** 컨트롤이 선택할 수 없는 표시된 뷰포트 위에 렌더링됩니다. (TGT-55829)
+* 가장 위쪽 페이지 요소&#x200B;**에서 [!DNL Experience Fragments]에 대한**[!UICONTROL &#x200B;다음 항목 앞에 삽입] 컨트롤에 액세스할 수 없습니다. 시각적 경험 작성기에서 페이지에서 맨 위 요소를 선택하면 페이지가 위쪽으로 스크롤되어 **[!UICONTROL 다음 항목 앞에 삽입]** 컨트롤이 선택할 수 없는 표시된 뷰포트 위에 렌더링됩니다. (TGT-55829)
 
 +++
 
