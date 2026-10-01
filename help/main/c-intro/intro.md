@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 70%
+source-wordcount: '1510'
+ht-degree: 68%
 ---
 # [!DNL Target] 소개
 
@@ -104,30 +104,6 @@ ht-degree: 70%
 >title="기준선 지표 비율"
 >abstract="실험이 시작되기 전의 현재 성과를 나타내며 통제군의 평균값을 의미합니다. 항상 필요합니다. 백분율 지표의 경우 백분율로 입력하십시오. 방문자의 5%가 &#39;지금 구매&#39;를 클릭하는 경우 5를 입력합니다. 수 지표의 경우 원시 십진 값을 입력하십시오."
 
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="기본 지표"
->abstract="기본 지표는 보고 설정에서 자동으로 가져옵니다. 변경하려면 목표 및 설정에서 목표 지표를 수정하십시오."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="가설"
->abstract="가설은 실험의 예상 결과를 설명하기 위해 정의하는 진술입니다. 어떤 대상이 어디에서 변경되는지 설명한 후 어떤 지표가 어떻게 변경될 것으로 예상하는지 명시하십시오."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="통찰력"
->abstract="실험 인사이트는 실험 데이터가 통계적 유의성을 충족했을 때 AI가 발견한 학습 내용입니다."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="기회"
->abstract="실험 기회는 AI가 실험 스크린샷과 결과에서 발견한 패턴을 기반으로 제안한 처리 아이디어입니다."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="처리 세부 정보"
->abstract="처리 세부 정보는 사용자가 처리 자격을 얻을 때 처리가 어떤 모습인지 보여 주는 이미지를 제공합니다. 모든 실험에 대해 해당 이미지를 검토할 수 있습니다. 일부 실험에서는 이미지를 확인하거나 필요한 경우 교체하도록 요청할 수 있습니다."
 
 [!DNL Adobe Experience Cloud]의 일부인 [!DNL Adobe Target]은(는) 웹, 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 고객 경험을 개인화할 수 있는 포괄적인 도구를 제공합니다.
 

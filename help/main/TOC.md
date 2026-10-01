@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱, 소셜 채널에서 고객 경험을 개인화하여 수익을 증대시키는 방법에 대해 알아봅니다.
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1327'
 ht-degree: 83%
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 83%
     + [AI Assistant 활성화](/help/main/c-intro/enabling-ai-assistant.md)
     + [AI Assistant를 사용하여 제품 지식 얻기](/help/main/c-intro/ai-assistant-product-knowledge.md)
     + {hide-from-toc}[콘텐츠 생성에 AI Assistant 사용](/help/main/c-intro/ai-assistant-content-generation.md)
+  + [Adobe Target을 위한 동료 기술](c-intro/coworker-skills.md)
   + Adobe Target 시작 키트 {#welcome}
     + [Target 시작 키트 개요](/help/main/c-intro/target-welcome-kit.md)
     + [1장: 소개](/help/main/c-intro/target-welcome-kit-1.md)
@@ -123,6 +124,7 @@ ht-degree: 83%
 + 활동 {#activities}
   + [활동 개요](c-activities/activities.md)
   + [Insights 대시보드](c-activities/insights-dashboard.md)
+  + [샘플 크기 계산기](c-activities/sample-size-calculator.md)
   + [Target 활동 유형](c-activities/target-activities-guide.md)
   + A/B 테스트 {#abtest}
     + [A/B 테스트 개요](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +196,7 @@ ht-degree: 83%
     + [클릭 추적](c-activities/r-success-metrics/click-tracking.md)
     + [캡처 점수](c-activities/r-success-metrics/capture-score.md)
   + [활동 변경 로그](c-activities/change-log.md)
+  + [AI 인사이트](c-activities/ai-insights.md)
   + 활동 문제 해결 {#troubleshoot-activities}
     + [활동 문제 해결 개요](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [콘텐츠 전달 문제 해결](c-activities/c-troubleshooting-activities/content-trouble.md)
