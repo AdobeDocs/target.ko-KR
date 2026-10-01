@@ -4,10 +4,10 @@ description: Adobe Target 활동 개요에서 Experimentation Accelerator에서 
 title: 활동 개요의 AI 인사이트
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 18%
+source-wordcount: '766'
+ht-degree: 31%
 ---
 # AI 인사이트
 
@@ -40,6 +40,26 @@ ht-degree: 18%
 >id="target_ai_insights_treatment_details"
 >title="경험 세부 정보"
 >abstract="경험 세부 사항은 사용자가 자격을 얻을 때 경험의 모습을 보여 줍니다. 모든 실험에 대해 해당 이미지를 검토할 수 있습니다. 일부 실험에서는 이미지를 확인하거나 필요한 경우 교체하도록 요청할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="기본 지표"
+>abstract="기본 지표는 보고 설정에서 자동으로 가져옵니다. 변경하려면 목표 및 설정에서 목표 지표를 수정하십시오."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="가설"
+>abstract="가설은 실험의 예상 결과를 설명하기 위해 정의하는 진술입니다. 어떤 대상이 어디에서 변경되는지 설명한 후 어떤 지표가 어떻게 변경될 것으로 예상하는지 명시하십시오."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="기회"
+>abstract="실험 기회는 AI가 실험 스크린샷과 결과에서 발견한 패턴을 기반으로 제안한 처리 아이디어입니다."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="처리 세부 정보"
+>abstract="처리 세부 정보는 사용자가 처리 자격을 얻을 때 처리가 어떤 모습인지 보여 주는 이미지를 제공합니다. 모든 실험에 대해 해당 이미지를 검토할 수 있습니다. 일부 실험에서는 이미지를 확인하거나 필요한 경우 교체하도록 요청할 수 있습니다."
 
 AI가 생성한 인사이트 및 기회에 액세스하려면 먼저 기본 지표, 가설 및 경험 스크린샷을 확인하여 활동을 설정해야 합니다.
 
