@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1627'
 ht-degree: 70%
 ---
 # [!DNL Target] 소개
@@ -113,11 +113,6 @@ ht-degree: 70%
 >id="target_ai_insights_hypothesis"
 >title="가설"
 >abstract="가설은 실험의 예상 결과를 설명하기 위해 정의하는 진술입니다. 어떤 대상이 어디에서 변경되는지 설명한 후 어떤 지표가 어떻게 변경될 것으로 예상하는지 명시하십시오."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="통찰력"
->abstract="실험 인사이트는 실험 데이터가 통계적 유의성을 충족했을 때 AI가 발견한 학습 내용입니다."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
@@ -224,6 +219,6 @@ Beta 기능을 설명하는 [!DNL Target] 가이드의 문서에는 각 페이�
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

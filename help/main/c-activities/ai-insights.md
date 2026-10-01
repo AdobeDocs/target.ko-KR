@@ -4,10 +4,10 @@ description: Adobe Target 활동 개요에서 Experimentation Accelerator에서 
 title: 활동 개요의 AI 인사이트
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 643b30757e9212388dcb6921580f86feb0704338
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 18%
 ---
 # AI 인사이트
 
@@ -20,6 +20,11 @@ ht-degree: 16%
 **[!UICONTROL 활동 개요]**&#x200B;의 **[!UICONTROL AI 인사이트]** 메뉴를 통해 인사이트 및 최적화 기회에 액세스할 수 있습니다. 이 탭을 사용하여 실험 학습을 검토하고, 처리를 비교하고, 전환율을 향상시킬 수 있는 변경 사항을 식별합니다.
 
 ## AI 인사이트 및 기회 설정
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights"
+>title="통찰력"
+>abstract="실험 인사이트는 실험 데이터가 통계적 유의성을 충족했을 때 AI가 발견한 학습 내용입니다."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -69,10 +74,10 @@ AI가 생성한 인사이트 및 기회에 액세스하려면 먼저 기본 지�
 
 설정이 완료되면 활동이 기회를 생성할 준비가 되었습니다. 실험이 통계적 유효성 검사에 대한 충분한 데이터를 가지고 필요한 실험 세부 사항이 확인되면 통찰력을 사용할 수 있습니다.
 
-## 통찰력
+## 통찰력 {#insights}
 
 >[!CONTEXTUALHELP]
->id="target_ai_insights"
+>id="target_ai_insights_insights"
 >title="통찰력"
 >abstract="실험 인사이트는 실험 데이터가 통계적 유의성을 충족했을 때 AI가 발견한 학습 내용입니다."
 
