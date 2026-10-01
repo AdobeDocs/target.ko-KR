@@ -4,10 +4,10 @@ description: Adobe Target 활동 개요에서 Experimentation Accelerator에서 
 title: 활동 개요의 AI 인사이트
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 31%
+source-wordcount: '763'
+ht-degree: 27%
 ---
 # AI 인사이트
 
@@ -24,7 +24,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="통찰력"
->abstract="실험 인사이트는 실험 데이터가 통계적 유의성을 충족했을 때 AI가 발견한 학습 내용입니다."
+>abstract="인사이트는 실험이 통계적 중요도에 도달하면 사용할 수 있는 AI 생성 검색 결과입니다."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ AI가 생성한 인사이트 및 기회에 액세스하려면 먼저 기본 지�
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="통찰력"
->abstract="실험 인사이트는 실험 데이터가 통계적 유의성을 충족했을 때 AI가 발견한 학습 내용입니다."
+>abstract="실험 인사이트는 실험이 통계적 중요도에 도달하면 사용할 수 있는 AI 생성 학습입니다."
 
 실험 인사이트는 이 실험에서 파생된 AI 생성 학습입니다. 이러한 통찰력은 실험이 통계적 중요도에 도달하면 사용할 수 있으며 성공에 기여한 부분에 대한 컨텍스트를 제공합니다. 이 섹션에서는 대조군과 구별되며 결과에 영향을 미칠 수 있는 우승 경험에 있는 주요 속성을 강조합니다.
 
