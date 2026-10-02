@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1442'
 ht-degree: 23%
 ---
 # [!DNL Target] UI 이해
@@ -62,11 +62,11 @@ ht-degree: 23%
 
 피드백에 대한 설명을 제공하고, 적용 가능한 파일 또는 스크린샷과 필요한 추가 세부 정보를 포함한 다음 **[!UICONTROL 제출]**&#x200B;을 클릭하십시오.
 
-### [!DNL AI Assistant]
+### [!DNL Coworker]
 
-(조건부) 조직에서 [!DNL AI Assistant]을(를) 사용할 수 있는 권한을 부여한 경우 [!DNL AI Assistant] 아이콘을 클릭합니다.
+(조건부) 조직에서 [!DNL Coworker]을(를) 사용할 수 있는 권한을 부여한 경우 [!DNL Coworker] 아이콘을 클릭합니다.
 
-자세한 내용은 [Adobe Experience Platform AI Assistant 개요](/help/main/c-intro/ai-assistant.md)를 참조하십시오.
+자세한 내용은 [Adobe Target의 동료 기술](/help/main/c-intro/coworker-skills.md)을 참조하세요.
 
 ### 도움말
 
@@ -186,7 +186,7 @@ ht-degree: 23%
 
 [!DNL Target]에서 사용할 수 있는 활동 유형에 대한 자세한 내용과 [!UICONTROL 활동] 목록의 사용자 인터페이스에 대한 자세한 내용은 [활동](/help/main/c-activities/activities.md)을 참조하세요.
 
-## 대상자
+## 대상
 
 대상을 만들고 기존 대상을 관리할 수 있는 [!UICONTROL 대상] 목록을 표시하려면 **[!UICONTROL 대상]** 탭을 클릭하십시오.
 

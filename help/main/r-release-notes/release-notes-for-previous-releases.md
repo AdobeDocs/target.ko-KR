@@ -73,9 +73,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '72534'
+source-wordcount: '72418'
 ht-degree: 48%
 ---
 # 이전 릴리스에 대한 릴리스 정보
@@ -2085,15 +2085,17 @@ ht-degree: 48%
 * 대상 기간이 잘못된 경우 사용자에게 경고하는 오류 메시지가 추가되었습니다. (TGT52522)
 * 유형이 다른 중복 대상을 지원하도록 활동 구조가 업데이트되었습니다. (TGT-51200)
 
-### [!DNL Adobe Target] [!DNL AI Assistant] 릴리스(2025년 5월 16일)
+<!--
+### [!DNL Adobe Target] [!DNL AI Assistant] release (May 16, 2025)
 
-[!DNL Adobe Target]에 [!DNL AI Assistant]의 시작을 알려드리겠습니다! 이 강력한 사용자 인터페이스 기능은 [!DNL Target] 개념을 쉽게 탐색하고 이해할 수 있도록 설계되었습니다. [!DNL Target]을(를) 포함하여 [!DNL Adobe Experience Cloud]의 여러 제품에서 사용할 수 있습니다. [!DNL AI Assistant]이(가) 사용자의 경험을 혁신하기 위해 여기에 있습니다.
+We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe Target]! This powerful user interface feature is designed to help you navigate and understand [!DNL Target] concepts with ease. Available across multiple products in [!DNL Adobe Experience Cloud], including [!DNL Target], [!DNL AI Assistant] is here to revolutionize your experience.
 
-[!UICONTROL Target]의 [!DNL AI Assistant]은(는) [!DNL Experience Platform]개의 응용 프로그램 및 서비스를 통해 워크플로를 가속화하는 데 사용할 수 있는 대화 도구입니다. [!DNL AI Assistant]을(를) 사용하여 전반적인 생산성을 높이고 제품 지식을 이해합니다.
+[!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-[!DNL Target]에서 [!DNL AI Assistant]의 첫 번째 단계는 [!DNL Experience League] 설명서에 기반을 둔 중요한 제품 지식을 제공합니다. 프로필 스크립트를 설정하든, 오류를 해결하든 아니면 AEP Web SDK으로 업그레이드하든 관계없이 [!DNL AI Assistant]에서 다루었습니다.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
-자세한 내용은 [Adobe Experience Platform AI Assistant 개요](/help/main/c-intro/ai-assistant.md)를 참조하십시오.
+For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
+-->
 
 ### [!DNL Target Standard/Premium] 25.5.2(2025년 5월 8일)
 
