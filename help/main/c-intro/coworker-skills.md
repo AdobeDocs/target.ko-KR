@@ -25,7 +25,7 @@ ht-degree: 2%
 [!DNL Adobe Target] MCP 도구 및 Coworker는 별도로 문서화되어 있으며 다양한 기능을 제공합니다.
 
 * [Target MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) 지원되는 활동 유형, 매개 변수, 권한, 읽기 또는 쓰기 범위를 포함하여 직접 MCP 서버에 의해 노출된 개별 도구를 문서화합니다.
-* [Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences)에서는 기능을 결합하고 추가 워크플로를 적용할 수 있는 별도의 자연어 오케스트레이션 계층을 제공합니다.
+* [Coworker](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences)에서는 기능을 결합하고 추가 워크플로를 적용할 수 있는 별도의 자연어 오케스트레이션 계층을 제공합니다.
 
 다음 표는 관련 기능을 개략적으로 비교한 것입니다.
 
