@@ -1,27 +1,31 @@
 ---
 keywords: 타깃팅;모바일;target 모바일;deviceatlas;iPhone;iPhone 모델;장치 atlas;displaywidth;디스플레이 너비;디스플레이 높이;장치 유형;displayheight;휴대폰;태블릿;태블릿;장치 모델
-description: ' [!DNL Adobe Target] 에서 대상자를 만들어 모바일 장치를 타깃팅하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]에서 대상을 만들어 모바일 장치를 타깃팅하는 방법에 대해 알아봅니다.'
 title: 모바일 옵션에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 39%
-
+source-wordcount: '828'
+ht-degree: 33%
 ---
-
 # 모바일
 
 모바일 장치, 장치 유형, 장치 공급업체, 화면 치수 등의 매개 변수를 기반으로 모바일 장치를 타깃팅할 대상을 [!DNL Adobe Target]에서 만듭니다.
@@ -89,6 +93,14 @@ iOS 12.2 이상 업데이트는 iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 
 ### Safari 14.0.2 이상을 실행하는 타깃팅 장치
 
 모바일 규칙을 사용하여 macOS에서 Safari 버전 14.0.2 이상을 실행하는 장치를 타깃팅할 때, Apple의 사용자 에이전트 및 DeviceAtlas와 관련된 알려진 문제로 인해 [!DNL Target]에서 Mac 및 iPad 장치의 Safari를 잘못 식별합니다. 이 문제는 차후에 해결될 것입니다.
+
+### 사용자 에이전트를 덮어쓰는 사용자 지정 스크립트 {#custom-scripts-overwrite-user-agent}
+
+모바일 장치 타깃팅은 사용자 에이전트 문자열을 사용하므로 [!DNL Target]이(가) 읽기 전에 `navigator.userAgent`을(를) 수정하는 페이지의 모든 사용자 지정 스크립트로 인해 장치 타깃팅이 실패할 수 있습니다.
+
+웹 사이트에 필요한 특정 이벤트 대신 모든 이벤트를 수신하는 사용자 지정 스크립트가 있는 경우 의도하지 않게 [!DNL Web SDK] 이벤트를 가로채고 `navigator.userAgent`을(를) 덮어쓸 수 있습니다. 따라서 [!DNL Target]이(가) 방문자의 실제 장치 대신 잘못된 장치 정보를 받게 되고 예상 경험이 전달되지 않습니다.
+
+모바일 장치 타깃팅이 예상대로 작동하지 않는 경우 페이지의 사용자 지정 스크립트 또는 이벤트 리스너가 `navigator.userAgent`을(를) 수정하는지 확인하고 해당 리스너의 범위를 가능한 한 좁게 지정하여 [!DNL Target] 또는 웹 SDK 이벤트를 실수로 가로채지 않도록 하십시오.
 
 ## 교육 비디오: 대상자 만들기
 
