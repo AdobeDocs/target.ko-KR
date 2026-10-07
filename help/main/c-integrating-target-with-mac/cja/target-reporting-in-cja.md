@@ -138,7 +138,7 @@ ht-degree: 21%
 
 1. [!DNL Customer Journey Analytics]에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 연결]**(으)로 이동한 다음 **[!UICONTROL 새 연결 만들기]**&#x200B;를 클릭합니다.
 
-   [!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/assets/create-connection.png)에서 ![새 연결 링크 만들기
+   [!DNL Customer Journey Analytics]![&#128279;](/help/main/c-integrating-target-with-mac/cja/assets/create-connection.png)에서 새 연결 링크 만들기
 
 1. 활동에 대해 선택한 동일한 [!DNL Adobe Experience Platform] 샌드박스를 포함하여 올바른 정보로 [연결 및 데이터 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview){target=_blank}을 구성하십시오.
 1. 데이터스트림을 구성할 때 사용한 이벤트 데이터 세트를 추가합니다.
