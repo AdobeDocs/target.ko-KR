@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3560'
 ht-degree: 80%
 ---
 # 권장 사항 FAQ
@@ -310,5 +310,4 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 * [!DNL Target] 이 getOffer()와 함께 JSON 오퍼를 반환하면 JSON 유형으로 반환됩니다. 그러나 JSON 추천 설계를 반환하면 HTML 형식으로 반환됩니다.
 * 피드나 API를 통해 업데이트를 받지 못한 후 60일이 지나면 만료된 엔티티가 올바르게 만료됩니다. 그러나 만료된 엔티티는 만료 후 카탈로그 검색 색인에서 제거되지 않습니다. 피드 또는 API를 통해 삭제된 엔티티도 현재 카탈로그 검색 색인에서 제거되지 않습니다. (IRI-857)
 * A/B 및 Experience 타겟팅 활동의 추천 오퍼는 추천 트레이의 시각적 미리보기를 표시하지 않습니다(TGT-33426).
-* API를 통해 생성된 추천 활동은 사용자 인터페이스에서 볼 수 있지만 API를 통해서만 편집할 수 있습니다.
 * 기준 목록(카드) 보기에 표시된 사용자 정의 기준 피드 상태는 10분마다 새로 고침되며 특수한 상황에서 10분 이상 걸릴 수 있습니다. 사용자 정의 기준 편집 보기에 표시된 상태를 실시간으로 가져오며 상태는 항상 최신입니다. (TGT-35896, TGT-36173)

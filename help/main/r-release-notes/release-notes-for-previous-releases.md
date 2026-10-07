@@ -73,9 +73,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '72418'
+source-wordcount: '72436'
 ht-degree: 48%
 ---
 # 이전 릴리스에 대한 릴리스 정보
@@ -112,11 +112,11 @@ ht-degree: 48%
 
 ## [!DNL Target Standard/Premium] 26.8.3(2026년 8월 13일)
 
-**활동 및 대상**
+**활동, 오퍼 및 대상자**
 
 +++세부 정보 보기
 
-* **API/MCP에서 만든 활동 및 대상에 대해 편집 사용.** [!DNL Adobe Target] 관리 API 및 [!DNL Target] MCP를 통해 만든 활동 및 대상은 이제 [!DNL Target] UI에서 편집할 수 있습니다.
+* **API/MCP에서 만든 활동, 오퍼 및 대상에 대해 편집 기능을 사용할 수 있습니다.** [!DNL Adobe Target] 관리 API 및 [!DNL Target] MCP를 통해 만든 활동, 오퍼 및 대상은 이제 [!DNL Target] UI에서 편집할 수 있습니다. API에서 만든 활동이 UI에서 편집되면 UI에서 수정된 것으로 처리됩니다. 사용 권한 및 활동 상태에 따라 [!UICONTROL 복사] 및 [!UICONTROL 삭제]를 포함하여 이전에 제한된 작업을 사용할 수 있습니다. (TGT-55116)
 
 +++
 

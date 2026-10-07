@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '2649'
-ht-degree: 25%
+source-wordcount: '2682'
+ht-degree: 24%
 ---
 # 활동 개요
 
@@ -120,7 +120,7 @@ ht-degree: 25%
 
 | 액션 | 설명 |
 | --- | --- |
-| [!UICONTROL 편집] | 활동을 변경합니다. [!DNL Adobe Target] API 또는 [!DNL Adobe Target] MCP 서버를 통해 만든 활동을 포함하여 모든 활동을 편집할 수 있습니다.<P>활동을 편집할 수 있는 다양한 방법에 대한 자세한 내용은 [활동 편집 또는 초안으로 저장](/help/main/c-activities/edit-activity.md)을 참조하십시오. |
+| [!UICONTROL 편집] | 활동을 변경합니다. [!DNL Adobe Target] API 또는 [!DNL Adobe Target] MCP 서버를 통해 만든 활동을 포함하여 모든 활동을 편집할 수 있습니다. API에서 만든 활동이 UI에서 편집되면 UI에서 수정된 것으로 처리됩니다. 사용 권한 및 활동 상태에 따라 [!UICONTROL 복사] 및 [!UICONTROL 삭제]를 포함하여 이전에 제한된 작업을 사용할 수 있습니다.<P>활동을 편집할 수 있는 다양한 방법에 대한 자세한 내용은 [활동 편집 또는 초안으로 저장](/help/main/c-activities/edit-activity.md)을 참조하십시오. |
 | [!UICONTROL 비활성화] | 라이브 또는 예약된 활동을 중지합니다. 비활성화된 활동은 다시 활성화하거나 보관할 수 있습니다.<P>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |
 | [!UICONTROL 활성화] | 비활성 활동 또는 활성화할 준비가 된 활동을 시작합니다. |
 | [!UICONTROL 보관] | 활동을 보관 파일에 보냅니다. 기본적으로 보관된 활동은 더 이상 [!UICONTROL 활동] 목록에 표시되지 않습니다. 보관된 활동을 포함하도록 [!UICONTROL 활동] 목록에 대한 필터를 변경하십시오. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.<P>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |

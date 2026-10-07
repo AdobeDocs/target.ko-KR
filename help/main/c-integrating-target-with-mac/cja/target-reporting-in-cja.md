@@ -1,34 +1,45 @@
 ---
 keywords: 고객 여정 분석;target용 고객 여정 분석;고객 여정 분석 보고 소스;target용 보고 소스로서의 고객 여정 분석;cja의 target 보고;Customer Journey Analytics의 target 보고
-description: ' [!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytics] 를 사용하여 [!DNL Customer Journey Analytics] 전환 지표 및 대상 세그먼트를 기반으로 하는 활동을 만들고 [!DNL Customer Journey Analytics] 보고서를 사용하여 결과를 검사하십시오.'
-title: ' [!DNL Adobe Customer Journey Analytics]에서  [!DNL Target] 보고 중'
+description: '[!DNL Adobe Customer Journey Analytics]에서 [!DNL Target] 보고를 사용하여 [!DNL Customer Journey Analytics] 전환 지표 및 대상 세그먼트를 기반으로 하는 활동을 만들고 [!DNL Customer Journey Analytics] 보고서를 사용하여 결과를 검사하십시오.'
+title: '[!DNL Adobe Customer Journey Analytics]에서 [!DNL Target] 보고란 무엇입니까?'
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 TQID: https://experienceleague.adobe.com/bEwtqdwOsXyDbBUdxZKMl3I3LLTgxdxURvXjrfco-WI
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5b60a40e83437c535ccb3a7e7800493619fc62c8
+    internal-label: Administration
+source-git-commit: f5c3f6f1b0cc044f0daaafb59643b8ffb3e3f8e4
 workflow-type: tm+mt
-source-wordcount: 1754
-ht-degree: 20%
-
+source-wordcount: '1826'
+ht-degree: 21%
 ---
-
 # [!DNL Adobe Customer Journey Analytics]의 [!DNL Target] 보고
 
 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics){target=_blank}과(와) [!DNL Target] 간의 통합은 최적화 프로그램에 강력한 분석과 시간 절약에 유용한 도구를 제공합니다.
@@ -55,7 +66,7 @@ ht-degree: 20%
 * [!DNL Customer Journey Analytics]을(를) 보고 소스로 사용하는 [!DNL Target] 활동을 설정하려면 [!DNL Adobe Experience Platform]의 역할에 속해야 합니다. 자세한 내용은 *데이터 설계자 및 엔지니어 자습서에서*&#x200B;권한 구성&#x200B;*의 [역할 추가 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank}를 참조하십시오.*
 * 설정에 따라 활동별로 또는 조직 수준에서 보고가 변경될 수 있습니다. *Target의 보고 구성*&#x200B;에서 [Cloud 솔루션 보고](/help/main/administrating-target/reporting.md#solution)를 참조하십시오.
 * 하나의 보고 소스 또는 다른 보고 소스를 사용하십시오. 여러 보고 소스에서 한 활동에 대한 데이터를 수집할 수 없습니다.
-* [!DNL Customer Journey Analytics]을(를) 보고 소스로 설정하면 보고할 샌드박스 및 데이터 보기를 지정하라는 메시지가 표시됩니다. 구성하는 동안 액세스 권한이 있는 샌드박스 및 데이터 보기만 표시됩니다.
+* [!DNL Customer Journey Analytics]를 보고 소스로 설정하면 보고용 샌드박스를 지정하라는 메시지가 표시됩니다. 수동 트래픽 분할 또는 [!UICONTROL 자동 할당]을 사용하는 A/B 활동의 경우 [!DNL Target]에서 데이터 보기와 [!DNL Customer Journey Analytics] 지표를 선택할 수도 있습니다. 이러한 선택 옵션은 [!UICONTROL 경험 타깃팅], [!UICONTROL 다변량 테스트] 또는 [!UICONTROL 권장 사항] 활동에 사용할 수 없습니다. 구성하는 동안 액세스 권한이 있는 샌드박스 및 데이터 보기만 표시됩니다.
 * 기존의 모든 [!DNL Target] 활동은 [!DNL Target] 데이터 수집을 계속 사용하며 이 통합을 활성화해도 영향을 받지 않습니다.
 * 이 통합을 사용하려면 기본 구현 방법에 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/ko/docs/experience-platform){target=_blank} 및 [!DNL Target]이(가) [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}을(를) 통해 구현되었습니다.
 
@@ -73,15 +84,15 @@ ht-degree: 20%
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} 또는 [at.js](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript 라이브러리를 사용할 때 다음 활동 유형이 지원됩니다.
 
-| 활동 유형 | 지원됨? |
-|--- |--- |
-| [수동 트래픽 분할을 사용하는 A/B 활동](/help/main/c-activities/t-test-ab/test-ab.md) | 예 |
-| [자동 할당을 사용하는 A/B 활동](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 예 |
-| [자동 타겟팅을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 아니요 |
-| [경험 타겟팅(XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 예 |
-| [다변량 테스트(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 예 |
-| [Automated Personalization(AP) 활동](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니요 |
-| [추천 활동](/help/main/c-recommendations/recommendations.md) | 예 |
+| 활동 유형 | 지원됨? | 데이터 보기가 지원됩니까? |
+|--- |--- |--- |
+| [수동 트래픽 분할을 사용하는 A/B 활동](/help/main/c-activities/t-test-ab/test-ab.md) | 예 | 예 |
+| [자동 할당을 사용하는 A/B 활동](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 예 | 예 |
+| [자동 타겟팅을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 아니요 | 아니오 |
+| [경험 타겟팅(XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 예 | 아니오 |
+| [다변량 테스트(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 예 | 아니오 |
+| [Automated Personalization(AP) 활동](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니요 | 아니요 |
+| [추천 활동](/help/main/c-recommendations/recommendations.md) | 예 | 아니오 |
 
 [!UICONTROL 자동 타겟] 및 [!UICONTROL Automated Personalization] 활동은 아직 보고 소스로 [!DNL Customer Journey Analytics]을(를) 지원하지 않습니다.
 
@@ -107,7 +118,7 @@ ht-degree: 20%
 
    ![샌드박스 옵션 선택](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
-1. **[!UICONTROL 데이터 보기]**&#x200B;를 선택하십시오. 데이터 보기는 [!DNL Customer Journey Analytics] 보고를 위한 [!DNL Analytics] 보고서 세트와 같은 기능을 합니다. 액세스 권한이 있는 선택한 샌드박스의 데이터 보기만 표시됩니다.
+1. 수동 트래픽 분할 또는 [!UICONTROL 자동 할당]을 사용하는 A/B 활동의 경우 **[!UICONTROL 데이터 보기]**&#x200B;를 선택하십시오. 데이터 보기는 [!DNL Customer Journey Analytics] 보고를 위한 [!DNL Analytics] 보고서 세트와 같은 기능을 합니다. 액세스 권한이 있는 선택한 샌드박스의 데이터 보기만 표시됩니다.
 
    ➡️ [Adobe Customer Journey Analytics 설명서에서 데이터 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)
 
@@ -115,7 +126,7 @@ ht-degree: 20%
 
    * **[!UICONTROL 전환]**: 목표에 도달했음을 나타내기 위해 대상자가 수행해야 하는 작업을 선택합니다. [성공 지표에 대해 자세히 알아보세요](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
-   * **[!UICONTROL Customer Journey Analytics 지표 사용]**: 선택한 데이터 보기에서 [!DNL Customer Journey Analytics] 지표 또는 계산된 지표를 선택합니다. 이 지표는 최적화 기준 역할을 합니다. 모델이 [!DNL Customer Journey Analytics] 데이터에 대해 실행되고 [!DNL Customer Journey Analytics] 보고에 사용된 것과 동일한 케이던스로 성능 데이터를 새로 고칩니다.
+   * **[!UICONTROL Customer Journey Analytics 지표 사용]**: 수동 트래픽 분할 또는 [!UICONTROL 자동 할당]을 사용하는 A/B 활동에만 사용할 수 있습니다. 선택한 데이터 보기에서 [!DNL Customer Journey Analytics] 지표 또는 계산된 지표를 선택합니다. 이 지표는 최적화 기준 역할을 합니다. 모델이 [!DNL Customer Journey Analytics] 데이터에 대해 실행되고 [!DNL Customer Journey Analytics] 보고에 사용된 것과 동일한 케이던스로 성능 데이터를 새로 고칩니다.
 
    ![목표 지표에서 Customer Journey Analytics 지표 옵션 사용](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 

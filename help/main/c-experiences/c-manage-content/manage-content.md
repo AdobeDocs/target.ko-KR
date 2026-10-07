@@ -17,9 +17,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '974'
 ht-degree: 7%
 ---
 # 오퍼
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 ![오퍼 페이지](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-[!UICONTROL 오퍼] 라이브러리에는 [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager]&#x200B;(AEM), [!DNL Adobe Mobile Services]&#x200B;(AMS) 및 API를 통해 설정한 오퍼가 있습니다. [!DNL Target Classic] 또는 기타 솔루션에서 만든 오퍼는 [!DNL Target Standard/Premium]에서 편집할 수 있습니다.
+[!UICONTROL 오퍼] 라이브러리에는 [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager]&#x200B;(AEM), [!DNL Adobe Mobile Services]&#x200B;(AMS) 및 API를 통해 설정한 오퍼가 있습니다. [!DNL Target Classic] 또는 기타 솔루션에서 만든 오퍼는 [!DNL Target Standard/Premium]에서 편집할 수 있습니다. [!DNL Adobe Target] API 또는 [!DNL Adobe Target] MCP 서버를 통해 만든 오퍼는 [!DNL Target] UI에서도 편집할 수 있습니다.
 
 [!UICONTROL 오퍼] 라이브러리는 모든 코드 및 이미지 오퍼에 대한 개요를 제공하며 사용자가 다양한 작업을 수행할 수 있도록 합니다.
 

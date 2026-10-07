@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 65%
+source-wordcount: '2219'
+ht-degree: 62%
 ---
 # [!UICONTROL 자동화된 세그먼트] 보고서
 
@@ -92,9 +92,9 @@ ht-degree: 65%
 
 | 요소 | 세부 사항 |
 |--- |--- |
-| 왼쪽 패널 | 왼쪽 패널에는 이 활동에 대해 Target의 개인화 모델에서 식별한 20개의 가장 큰 &quot;자동화된 세그먼트&quot;가 나열됩니다. &quot;자동화된 세그먼트&quot;는 대상과 비슷하지만, 마케터가 아닌 Target의 개인화 모델로 정의됩니다. 자동화된 각 세그먼트는 특정 속성의 특정 값(또는 값 범위)으로 구성됩니다.<br>자동화된 세그먼트가 겹칠 수 있습니다. 자동화된 세그먼트는 1개, 2개, 3개 또는 4개의 속성으로 정의할 수 있습니다. 자세한 내용은 아래 예제를 참조하십시오.<br>Target의 개인화 모델에 대해 알려면 [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)을 참조하십시오. Target의 개인화 모델에서 자동화된 세그먼트를 만드는 데 사용하는 속성에 대해 알려면 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. |
+| 왼쪽 패널 | 왼쪽 패널에는 이 활동에 대한 Target의 개인화 모델로 식별된 가장 큰 &quot;자동화된 세그먼트&quot;가 최대 100개까지 나열됩니다. &quot;자동화된 세그먼트&quot;는 대상과 비슷하지만, 마케터가 아닌 Target의 개인화 모델로 정의됩니다. 자동화된 각 세그먼트는 특정 속성의 특정 값(또는 값 범위)으로 구성됩니다.<br>자동화된 세그먼트가 겹칠 수 있습니다. 자동화된 세그먼트는 1개, 2개, 3개 또는 4개의 속성으로 정의할 수 있습니다. 자세한 내용은 아래 예제를 참조하십시오.<br>Target의 개인화 모델에 대해 알려면 [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)을 참조하십시오. Target의 개인화 모델에서 자동화된 세그먼트를 만드는 데 사용하는 속성에 대해 알려면 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. |
 | 가운데 그래프 | 가운데 그래프는 강조 표시된 자동화된 세그먼트에 대해 활동 콘텐츠가 수행된 방식을 표시합니다. 왼쪽 패널에서 다른 세그먼트를 클릭하면 가운데 그래프가 업데이트됩니다. |
-| 파이 차트 | 가운데 패널의 맨 위에 있는 파이 차트는 자동화된 세그먼트의 크기뿐만 아니라, 활동에서 총 개인화 방문 횟수(예: 개인화 모델에서 제공한 이 활동에 대한 트래픽. 전체 승자 모델에서 제공한 제어 트래픽이나 트래픽은 포함되지 않음)를 보여 줍니다. 세그먼트 크기는 개인화된 방문 횟수만을 기반으로 합니다.<br>![원형 차트](/help/main/c-reports/assets/pie.png) |
+| 파이 차트 | 중앙 패널 위쪽에 있는 파이 차트에는 자동화된 세그먼트의 크기와 활동에서 개인화된 방문의 총 수가 표시됩니다. 개인화된 방문에는 Target의 개인화 모델이 오퍼 또는 경험을 선택한 트래픽만 포함됩니다. 컨트롤 트래픽, 전체 승자 모델에서 제공하는 트래픽 및 모델을 계속 교육하는 데 사용되는 무작위 트래픽은 제외됩니다. 세그먼트 크기는 개인화된 방문 횟수만을 기반으로 합니다.<br>![원형 차트](/help/main/c-reports/assets/pie.png) |
 | 이중 축 막대 차트 | 이중 축 막대 차트에는 자동화 특정 세그먼트에 대한 오퍼 또는 경험에 따른 방문 및 변환 정보가 포함되어 있습니다. |
 | 분홍색 막대 | 분홍색 막대는 전환율을 나타내고, 그래프의 맨 아래 축을 사용합니다. 막대를 마우스로 가리키면 자세한 정보를 볼 수 있습니다. |
 | 파란색 막대 | 파란색 막대는 방문 횟수를 나타내며, 그래프의 맨 위 축을 사용합니다. 막대를 마우스로 가리키면 자세한 정보를 볼 수 있습니다. |
