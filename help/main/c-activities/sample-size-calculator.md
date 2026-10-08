@@ -7,29 +7,29 @@ badge: label="Beta" type="Informative"
 source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
 workflow-type: tm+mt
 source-wordcount: '1604'
-ht-degree: 11%
+ht-degree: 35%
 ---
 # 샘플 크기 계산기
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="일별 트래픽"
->abstract="매일 실험에 참여하는 사용자 수입니다. 이 값을 모를 경우 위의 트래픽 볼륨을 선택하면 계산기가 다른 입력을 사용하여 이를 해결합니다."
+>abstract="매일 실험에 참여하는 사용자 수입니다. 이 값을 모르는 경우 위의 트래픽 볼륨을 선택하면 계산기가 다른 입력 값을 사용하여 해당 값을 계산합니다."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="신뢰 수준"
->abstract="결과가 중요하다고 하기 전에 무작위로 우연한 기회에 의한 것이 아니라는 것을 얼마나 확신할 수 있는가? 95% 신뢰 수준은 긍정 오류(false positive)가 발생할 가능성이 최대 5%임을 의미합니다. 값이 높을수록 긍정 오류(false positive)는 감소하지만 더 많은 데이터가 필요합니다."
+>abstract="특정 결과가 우연히 발생한 것이 아니라 유의미한 결과라고 확신하는 데 필요한 신뢰 수준입니다. 95% 신뢰 수준은 긍정 오류(false positive)가 발생할 가능성이 최대 5%임을 의미합니다. 값이 높을수록 긍정 오류(false positive)는 감소하지만 동시에 더 많은 데이터가 필요합니다."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="통계적 검증력"
->abstract="실제 효과가 존재하는 경우 이를 감지할 확률. 80% 전력 레벨은 실제 효과를 감지할 확률이 80%임을 의미합니다. 높은 전력은 거짓 음성을 감소시키지만, 더 많은 트래픽 또는 더 긴 런타임이 필요합니다."
+>abstract="실제 효과가 존재할 경우 이를 감지할 확률입니다. 80% 검정력 수준은 실제 효과를 감지할 확률이 80%임을 의미합니다. 검정력이 높을수록 부정 오류(false negative)는 감소하지만 더 많은 트래픽 또는 더 긴 실행 시간이 필요합니다."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup_cja"
 >title="테스트 설정"
->abstract="이 필드에서는 실험, 예상 결과 및 결과에 대한 신뢰 임계값을 정의합니다. 위에서 선택한 값에 연결된 필드는 자동으로 해결됩니다. 나머지 필드는 예상 값으로 완료하십시오."
+>abstract="이 필드는 실험, 예상 결과, 결과에 대한 신뢰 임계값을 정의합니다. 위에서 선택한 값에 연결된 필드는 자동으로 계산됩니다. 나머지 필드에는 예상 값을 입력하십시오."
 
 
 >[!AVAILABILITY]
@@ -42,32 +42,32 @@ ht-degree: 11%
 
 ![](assets/calculator_menu.png)
 
-## A/B(타겟 보고)
+## A/B(Target 보고)
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_bonferroni"
 >title="본페로니 교정"
->abstract="두 개 이상의 오퍼를 제어와 동시에 비교하기 위해 신뢰 수준을 조정합니다. 오퍼 수가 2개 이상인 경우에만 문제가 됩니다. 이는 Adobe의 공개 Target Calculator 도구에 사용된 것과 동일한 수정 사항과 일치합니다."
+>abstract="두 개 이상의 오퍼와 통제군을 동시에 비교하는 상황을 고려하기 위해 신뢰 수준을 조정합니다. 이 기능은 오퍼 수가 두 개보다 많을 때만 의미가 있습니다. Adobe의 공개 Target 계산기 도구에서 사용되는 동일한 교정과 일치합니다."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="지표 유형"
->abstract="측정 중인 지표 유형입니다. 각 사용자가 작업을 완료하거나 완료하지 않는 클릭 또는 전환과 같은 이진 결과에 백분율을 사용합니다. 사용자마다 값이 크게 다를 수 있는 매출액 또는 페이지 보기 수와 같은 지표에 숫자를 사용하십시오."
+>abstract="측정 중인 지표 유형입니다. 각 사용자가 작업을 완료하거나 완료하지 않는, 클릭이나 전환과 같은 이진 결과에 백분율을 사용합니다. 사용자마다 값이 크게 다를 수 있는, 매출이나 페이지 조회수와 같은 지표에 숫자를 사용합니다."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_offers"
 >title="오퍼 수"
->abstract="제어를 포함한 실험의 경험 수입니다. 두 개 이상의 오퍼가 모든 비교에서 전체 신뢰 수준을 정확하게 유지하기 위해 Bonferroni 수정 (활성화된 경우)을 자동으로 적용합니다."
+>abstract="통제군을 포함한 실험의 경험 수입니다. 오퍼가 두 개를 초과하면 본페로니 교정(활성화된 경우)이 자동으로 적용되어 모든 비교 작업에서 전체 신뢰 수준을 정확하게 유지합니다."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_lift"
 >title="상승도"
->abstract="감지하려는 기준선에 대한 상대적 개선 사항입니다. 베이스라인의 백분율로 입력합니다. 예를 들어 11.8% 기준 요소 전환율에 대한 5% 상승도는 12.39%를 목표로 합니다."
+>abstract="감지하려는, 기준선 대비 상대적인 개선도입니다. 기준선에 대한 백분율로 입력하십시오. 예를 들어 11.8%의 기준선 전환율에서 5% 상승도는 12.39%를 목표로 합니다."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_conversion_rate"
 >title="베이스라인 전환율"
->abstract="실험이 시작되기 전의 현재 전환율, 즉 컨트롤 암 평균입니다. 이 값은 항상 필요합니다. 백분율 지표에 5%와 같은 백분율을 입력합니다. 수 지표의 경우 원시 십진 값을 입력하십시오."
+>abstract="실험이 시작되기 전의 현재 전환율을 나타내며 통제군의 평균값을 의미합니다. 이 값은 항상 필요합니다. 백분율 지표의 경우 5%를 나타내려면 5와 같이 백분율을 입력하십시오. 수 지표의 경우 원시 십진 값을 입력하십시오."
 
 A/B 테스트를 계획하고 실행하는 데 필요한 입력 예측 이러한 값은 필요한 트래픽의 양, 테스트를 실행해야 하는 시간, 그리고 실제로 감지할 수 있는 효과 크기를 결정하는 데 도움이 됩니다.
 
@@ -108,7 +108,7 @@ A/B 테스트를 계획하고 실행하는 데 필요한 입력 예측 이러한
 
 계산기는 실험을 계획하기 위한 추정치를 제공한다. 활동 실행 시간을 결정할 때 실험 설계, 예상 트래픽, 기준 성능 및 통계 요구 사항과 함께 결과를 사용합니다.
 
-## A/B (CJA/Adobe Analytics)
+## A/B(CJA/Adobe Analytics)
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_experiences"
@@ -128,7 +128,7 @@ A/B 테스트를 계획하고 실행하는 데 필요한 입력 예측 이러한
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="분산"
->abstract="평균값이 아닌 지표 값을 분산하는 방법입니다. 클릭률(대부분 0초 및 1초)과 같은 지표는 일반적으로 변량이 적은 반면, 사용자당 매출과 같은 지표는 변량이 훨씬 높을 수 있습니다. 확실하지 않은 경우 기본값을 1로 둡니다."
+>abstract="지표 값의 분산 정도를 나타내며 평균값을 의미하지 않습니다. 클릭률(대개 0 및 1)과 같은 지표는 일반적으로 분산이 낮지만, 사용자당 매출과 같은 지표는 분산이 훨씬 더 높을 수 있습니다. 확실하지 않은 경우 기본값인 1을 그대로 두십시오."
 
 Adobe Analytics 또는 Customer Journey Analytics 데이터에 의존하는 A/B 활동에 대한 계획 입력을 예측합니다. 활동을 시작하기 전에 실험 크기, 예상 상승도 및 테스트 기간을 정의하는 데 도움이 됩니다.
 
@@ -155,9 +155,9 @@ Adobe Analytics 또는 Customer Journey Analytics 데이터에 의존하는 A/B 
 
    * **[!UICONTROL 예상되는 개선 사항]**: 실험이 만들어낼 것으로 기대하는 개선 사항입니다.
 
-   * **[!UICONTROL 분산]**: 지표 값의 분산 정도. 클릭스루 비율은 일반적으로 변량이 적으므로 사용자당 매출이 훨씬 높을 수 있습니다. 확실하지 않은 경우 기본값을 1로 둡니다.
+   * **[!UICONTROL 분산]**: 지표 값의 분산 정도. 클릭스루 비율은 일반적으로 변량이 적으므로 사용자당 매출이 훨씬 높을 수 있습니다. 확실하지 않은 경우 기본값인 1을 그대로 두십시오.
 
-     [Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)에서 **[!UICONTROL 분산]**&#x200B;을 계산하는 방법을 알아봅니다.
+     [Analytics 설명서](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)에서 **[!UICONTROL 분산]**&#x200B;을 계산하는 방법을 알아봅니다.
 
      ![](assets/calculator-cja-analytics-2.png)
 
