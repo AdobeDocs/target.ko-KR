@@ -157,7 +157,7 @@ Adobe Analytics 또는 Customer Journey Analytics 데이터에 의존하는 A/B 
 
    * **[!UICONTROL 분산]**: 지표 값의 분산 정도. 클릭스루 비율은 일반적으로 변량이 적으므로 사용자당 매출이 훨씬 높을 수 있습니다. 확실하지 않은 경우 기본값인 1을 그대로 두십시오.
 
-     [Analytics 설명서](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)에서 **[!UICONTROL 분산]**&#x200B;을 계산하는 방법을 알아봅니다.
+     [Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)에서 **[!UICONTROL 분산]**&#x200B;을 계산하는 방법을 알아봅니다.
 
      ![](assets/calculator-cja-analytics-2.png)
 
