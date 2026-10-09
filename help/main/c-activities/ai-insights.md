@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 27%
+ht-degree: 36%
 ---
 # AI 인사이트
 
@@ -24,7 +24,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="통찰력"
->abstract="인사이트는 실험이 통계적 중요도에 도달하면 사용할 수 있는 AI 생성 검색 결과입니다."
+>abstract="인사이트는 실험이 통계적 유의성에 도달할 때 제공되는 AI 생성 결과입니다."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -39,7 +39,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
 >title="경험 세부 정보"
->abstract="경험 세부 사항은 사용자가 자격을 얻을 때 경험의 모습을 보여 줍니다. 모든 실험에 대해 해당 이미지를 검토할 수 있습니다. 일부 실험에서는 이미지를 확인하거나 필요한 경우 교체하도록 요청할 수 있습니다."
+>abstract="경험 세부 정보는 사용자가 경험 자격을 얻을 때 경험이 어떤 모습인지 보여 주는 이미지를 제공합니다. 모든 실험에 대해 해당 이미지를 검토할 수 있습니다. 일부 실험에서는 이미지를 확인하거나 필요한 경우 교체하도록 요청할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ AI가 생성한 인사이트 및 기회에 액세스하려면 먼저 기본 지�
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="통찰력"
->abstract="실험 인사이트는 실험이 통계적 중요도에 도달하면 사용할 수 있는 AI 생성 학습입니다."
+>abstract="실험 인사이트는 실험이 통계적 유의성에 도달할 때 제공되는 AI 생성 학습입니다."
 
 실험 인사이트는 이 실험에서 파생된 AI 생성 학습입니다. 이러한 통찰력은 실험이 통계적 중요도에 도달하면 사용할 수 있으며 성공에 기여한 부분에 대한 컨텍스트를 제공합니다. 이 섹션에서는 대조군과 구별되며 결과에 영향을 미칠 수 있는 우승 경험에 있는 주요 속성을 강조합니다.
 
@@ -118,7 +118,7 @@ AI가 생성한 인사이트 및 기회에 액세스하려면 먼저 기본 지�
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="기회"
->abstract="실험 기회는 실험 스크린샷 및 결과에서 발견된 AI의 패턴에 기반한 AI 제안 경험 아이디어입니다."
+>abstract="실험 기회는 AI가 실험 스크린샷과 결과에서 발견한 패턴을 기반으로 제안한 경험 아이디어입니다."
 
 **[!UICONTROL 기회]** 패널에는 테스트 성능을 개선하고 더 광범위한 비즈니스 목표와 KPI에 맞게 설계된 AI가 생성한 권장 사항이 표시됩니다.
 
