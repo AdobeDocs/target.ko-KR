@@ -30,7 +30,7 @@ ht-degree: 15%
 >
 >구현 검토를 완료하고 2025년 2월 3일까지 문제를 해결할 수 없는 경우 6개월 1회 연장을 요청할 수 있습니다. 2025년 1월 31일까지 요청이 제출되었는지 확인합니다. Adobe에서 요청을 검토하고 결정합니다.
 
-수동 제안 렌더링의 경우 이 최적화를 활용하려면 [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}을(를) 검토하여 경험을 수동으로 렌더링한 후 또는 `applyPropositions` 메서드(또는 해당 [!DNL Launch] 작업을 도우미로 사용)를 사용하여 경험을 렌더링할 때 알림을 보내고 있는지 확인하십시오.
+수동 제안 렌더링의 경우 이 최적화를 활용하려면 [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}을(를) 검토하여 경험을 수동으로 렌더링한 후 또는 `applyPropositions` 메서드(또는 해당 [!DNL Launch] 작업을 도우미로 사용)를 사용하여 경험을 렌더링할 때 알림을 보내고 있는지 확인하십시오.
 
 경험을 수동으로 렌더링할 때 가장 일반적인 시나리오는 다음과 같습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 15%
 * [[!UICONTROL 양식 기반 경험 작성기]](/help/main/c-experiences/form-experience-composer.md)에서 만든 활동에서 사용자 지정 결정 범위 사용
 * 전역 `__view__` 범위를 사용하는 [!UICONTROL 양식 기반 경험 작성기]를 사용하여 만든 활동을 가져올 때 `renderDecisions: true`을(를) 사용하지 않음
 
-알림이 *데이터 수집* 가이드의 [개인화된 콘텐츠 렌더링](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank}에 설명된 대로 구현되지 않으면 보고 데이터가 [!DNL Target] 및 [Analytics for Target 보고](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)에서 누락될 수 있습니다. 특정 시나리오에서는 보고 데이터가 캡처되지 않기 때문에 잘못된 트래픽 분할을 볼 수 있습니다. 또는 다른 시나리오에서 동일한 이벤트를 반복적으로 보고합니다.
+알림이 *데이터 수집* 가이드의 [개인화된 콘텐츠 렌더링](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank}에 설명된 대로 구현되지 않으면 보고 데이터가 [!DNL Target] 및 [Analytics for Target 보고](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)에서 누락될 수 있습니다. 특정 시나리오에서는 보고 데이터가 캡처되지 않기 때문에 잘못된 트래픽 분할을 볼 수 있습니다. 또는 다른 시나리오에서 동일한 이벤트를 반복적으로 보고합니다.
 
 구현에 따라 [!DNL Analytics] 및 A4T 보고 영향을 확인하십시오.
 
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 * **분할 호출(페이지 이벤트의 상단 및 하단이라고도 함)을 사용합니다.**
 
-  이 구현 유형은 [!DNL Adobe]이(가) 권장하는 새로운 [분할 호출 구현 접근 방식](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank}입니다. 이 방법을 사용하면 새 최적화는 [!DNL Analytics] 또는 A4T 보고서에 영향을 주지 않습니다.
+  이 구현 유형은 [!DNL Adobe]이(가) 권장하는 새로운 [분할 호출 구현 접근 방식](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank}입니다. 이 방법을 사용하면 새 최적화는 [!DNL Analytics] 또는 A4T 보고서에 영향을 주지 않습니다.
 
 질문이 있는 경우 [Adobe 고객 지원 센터](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오. (KB-2179)
 
@@ -67,12 +67,12 @@ at.js 릴리스에 대한 자세한 내용은 *Adobe Target 개발자 안내서*
 
 ### [!DNL Adobe Customer Journey Analytics]의 [!DNL Target] 보고(2024년 5월 8일)
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}과(와) [!DNL Target] 간의 통합은 최적화 프로그램에 강력한 분석과 시간 절약에 유용한 도구를 제공합니다.
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics){target=_blank}과(와) [!DNL Target] 간의 통합은 최적화 프로그램에 강력한 분석과 시간 절약에 유용한 도구를 제공합니다.
 
 [!DNL Customer Journey Analytics]를 [!DNL Target]에 대한 보고 소스로 사용하는 경우의 주요 이점은 다음과 같습니다.
 
 * 마케터가 언제든지 [!DNL Customer Journey Analytics] 성공 지표 또는 보고 세그먼트를 [!DNL Target] 활동 보고서에 동적으로 적용할 수 있습니다. 활동을 실행하기 전에 모든 항목을 지정할 필요는 없습니다.
-* 마케터는 [실험 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}과 같은 [!DNL Customer Journey Analytics] 기능을 사용하여 웹 사이트 개인화를 추가로 분석할 수 있습니다.
+* 마케터는 [실험 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}과 같은 [!DNL Customer Journey Analytics] 기능을 사용하여 웹 사이트 개인화를 추가로 분석할 수 있습니다.
 
 자세한 내용은 [Adobe Customer Journey Analytics의 Target 보고](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)를 참조하십시오.
 
