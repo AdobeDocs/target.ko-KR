@@ -50,7 +50,7 @@ ht-degree: 58%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 

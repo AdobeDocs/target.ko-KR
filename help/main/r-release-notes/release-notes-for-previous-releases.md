@@ -152,7 +152,7 @@ ht-degree: 2%
 
 ## [!DNL Target Standard/Premium] 26.9.6(2026년 9월 24일)
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -193,11 +193,11 @@ ht-degree: 2%
 
 ## [!DNL Target Standard/Premium] 26.9.4(2026년 9월 17일)
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
-* 가장 위쪽 페이지 요소&#x200B;**에서 [!DNL Experience Fragments]에 대한**[!UICONTROL &#x200B;다음 항목 앞에 삽입] 컨트롤에 액세스할 수 없습니다. 시각적 경험 작성기에서 페이지에서 맨 위 요소를 선택하면 페이지가 위쪽으로 스크롤되어 **[!UICONTROL 다음 항목 앞에 삽입]** 컨트롤이 선택할 수 없는 표시된 뷰포트 위에 렌더링됩니다. (TGT-55829)
+* 가장 위쪽 페이지 요소&#x200B;**에서 [!DNL Experience Fragments]에 대한**&#x200B;[!UICONTROL &#x200B;다음 항목 앞에 삽입] 컨트롤에 액세스할 수 없습니다. 시각적 경험 작성기에서 페이지에서 맨 위 요소를 선택하면 페이지가 위쪽으로 스크롤되어 **[!UICONTROL 다음 항목 앞에 삽입]** 컨트롤이 선택할 수 없는 표시된 뷰포트 위에 렌더링됩니다. (TGT-55829)
 
 +++
 
@@ -270,7 +270,7 @@ ht-degree: 2%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -312,7 +312,7 @@ ht-degree: 2%
 
 ## [!DNL Target Standard/Premium] 26.8.1(2026년 8월 4일)
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -332,7 +332,7 @@ ht-degree: 2%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -360,7 +360,7 @@ ht-degree: 2%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -410,7 +410,7 @@ ht-degree: 2%
 
 +++세부 정보 보기
 
-* **상위 수행자] 및 [!UICONTROL 저장]에 대한 UI 변경** [!UICONTROL 최상위 수행자에 대한 UI가 업데이트되고 경험이 저장됩니다. (TGT-54975)
+* **상위 수행자 및 [!UICONTROL 저장]에 대한 UI 변경** 최상위 수행자에 대한 UI가 업데이트되고 경험이 저장됩니다. (TGT-54975)
 
 +++
 
@@ -418,7 +418,7 @@ ht-degree: 2%
 
 +++세부 정보 보기
 
-* **프로필 스크립트 만들기] 대화 상자에서 지역화되지 않은 문자열 [!UICONTROL 입니다.** [!UICONTROL 프로필 스크립트 만들기] 대화 상자의 문자열이 현지화되지 않는 문제를 해결했습니다. (TGT-51527)
+* **프로필 스크립트 만들기 대화 상자에서 지역화되지 않은 문자열 입니다.** [!UICONTROL 프로필 스크립트 만들기] 대화 상자의 문자열이 현지화되지 않는 문제를 해결했습니다. (TGT-51527)
 
 +++
 
@@ -466,7 +466,7 @@ ht-degree: 2%
 
 +++세부 정보 보기
 
-* **JSON 오퍼 만들기] 모달에서 지역화되지 않은 문자열 [!UICONTROL 입니다.** [!UICONTROL 이름] 및 [!UICONTROL Workspace]을(를) 포함한 [!UICONTROL JSON 오퍼 만들기] 모달의 문자열이 활동 생성 중에 현지화되지 않는 문제가 해결되었습니다. (TGT-50084)
+* **JSON 오퍼 만들기 모달에서 지역화되지 않은 문자열 입니다.** [!UICONTROL 이름] 및 [!UICONTROL Workspace]을(를) 포함한 [!UICONTROL JSON 오퍼 만들기] 모달의 문자열이 활동 생성 중에 현지화되지 않는 문제가 해결되었습니다. (TGT-50084)
 
 * **지역화되지 않은 toast 메시지([!UICONTROL 권장 사항] 활동).** 양식 기반 [!UICONTROL 권장 사항] 활동에서 권장 사항을 추가할 때 지역화되지 않은 toast 메시지가 표시되는 문제를 해결했습니다. (TGT-50463)
 
@@ -486,7 +486,7 @@ ht-degree: 2%
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++세부 정보 보기
 
@@ -574,7 +574,7 @@ ht-degree: 2%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -688,7 +688,7 @@ ht-degree: 2%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -726,7 +726,7 @@ ht-degree: 2%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -807,7 +807,7 @@ ht-degree: 2%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -829,7 +829,7 @@ ht-degree: 2%
 
 ## [!DNL Target Standard/Premium] 26.3.6(2026년 3월 23일)
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -839,7 +839,7 @@ ht-degree: 2%
 
 ## [!DNL Target Standard/Premium] 26.3.4(2026년 3월 19일)
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -875,7 +875,7 @@ ht-degree: 2%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -917,7 +917,7 @@ ht-degree: 2%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -927,7 +927,7 @@ ht-degree: 2%
 
 ### [!DNL Target Standard/Premium] 26.2.2(2026년 2월 16일)
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
@@ -1023,7 +1023,7 @@ ht-degree: 2%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기](VEC)**
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
 
 +++세부 정보 보기
 
