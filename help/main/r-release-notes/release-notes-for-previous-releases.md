@@ -75,7 +75,7 @@ topic_v2:
     internal-label: Customer profiles
 source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '72436'
+source-wordcount: '72456'
 ht-degree: 48%
 ---
 # 이전 릴리스에 대한 릴리스 정보
