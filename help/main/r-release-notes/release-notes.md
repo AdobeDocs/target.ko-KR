@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
+source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 26%
+source-wordcount: '462'
+ht-degree: 58%
 ---
 # [!DNL Target] 릴리스 정보 (현재)
 
@@ -40,173 +40,21 @@ ht-degree: 26%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 26.9.8(2026년 9월 30일)
-
-### 기능
-
-<table>
-<thead>
-<tr>
-<th><strong>샘플 크기 계산기</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>샘플 크기 계산기 를 사용하면 필요한 트래픽, 테스트 기간, 경험 수 또는 안정적으로 감지할 수 있는 최소 효과를 예측하여 실행 전에 실험을 계획할 수 있습니다. 활동 메뉴에서 사용할 수 있으며, 입력에 따라 테스트에 필요한 리소스 및 런타임을 결정할 수 있습니다.</p>
-<p>샘플 크기 계산기 기능은 현재 Beta 기능으로 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../c-activities/sample-size-calculator.md">세부 문서</a>를 참조하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>AI 인사이트</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI 인사이트는 수동 트래픽 할당을 통해 A/B 테스트 활동에 대한 AI가 생성한 실험 학습과 최적화 기회를 제공합니다. 일단 실험이 통계적 중요도에 도달하면 인사이트는 성능에 기여했을 수 있는 우승 경험의 속성을 강조 표시합니다. 제안된 기회에는 전환율을 개선하는 데 도움이 되는 새로운 경험 아이디어, 가설 및 구현 지침이 포함됩니다.</p>
-<p>AI 인사이트 기능은 현재 베타 기능으로 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../c-activities/ai-insights.md">세부 문서</a>를 참조하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### 개선 사항
-
-**[!UICONTROL 관리]**
-
-+++ 세부 정보 보기
-
-* **사용자에게 AI 권한을 부여할 수 없습니다**. 제품 관리자 및 시스템 관리자 액세스 권한이 있는 사용자가 다른 사용자에게 AI 권한을 부여할 수 없습니다. 조직에 대해 AI가 활성화된 경우에도 AI 권한을 활성화하려고 하면 `Unauthorized` 오류가 발생했습니다. (TGT-56261)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.7(2026년 9월 28일)
-
-
-**[!UICONTROL 추천]**
-
-+++ 세부 정보 보기
-
-* 시각적 경험 작성기 **에서**&quot;잘못된 사용자 입력&quot; 오류가 발생했습니다. 시각적 경험 작성기에서 권장 사항 활동을 편집할 때 활동을 저장하고 닫으려고 할 때 &quot;잘못된 사용자 입력&quot; 오류가 발생했습니다.
-
-+++
-
-
-## [!DNL Target Standard/Premium] 26.9.6(2026년 9월 24일)
-
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
-
-+++세부 정보 보기
-
-* **Visual Experience Composer를 통해 SSO 인증 페이지에 액세스할 때 무한 리디렉션 루프**&#x200B;가 있습니다. 시각적 경험 작성기에 로드된 페이지 URL이 SSO/로그인 리디렉션 흐름을 거쳤을 때 시각적 경험 작성기가 무한 리디렉션 루프를 시작했고 의도한 페이지에 도달하지 않았습니다. (TGT-56233)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.5(2026년 9월 21일)
-
-### 기능
-
-<table>
-<thead>
-<tr>
-<th><strong>콘텐츠 사전 숨김</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>콘텐츠 사전 숨김을 사용하면 Adobe Target 개인화가 변경되려고 하는 섹션만 숨겨 페이지 깜박임을 줄이고 콘텐츠를 로드하는 동안 더 원활한 경험을 제공할 수 있습니다. 이 접근 방식은 전체 페이지를 숨기지 않고 새 활동을 시작할 때 구현 노력을 최소화하는 데 도움이 됩니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>자세한 내용은 <a href="../administrating-target/content-pre-hiding.md">세부 문서</a>를 참조하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### 개선 사항
+## [!DNL Target Standard/Premium] 26.10.1(2026년 10월 13일)
 
 **[!UICONTROL Analytics for Target]**
 
 +++세부 정보 보기
 
-* **A4T 보고서 링크가 [!DNL Target] UI에 생성되지 않음**. [!DNL A4T] 활동의 경우 기본 보고서 데이터가 [!DNL Target] UI와 [!DNL Adobe Analytics] UI 모두에 표시되었더라도 **[!UICONTROL 보고서]** 섹션에서 보고서 링크가 생성되지 않았습니다. (TGT-56247)
+* **A4T 보고에 실패하고 &quot;문제가 발생했습니다&quot; 오류가 발생했습니다**. 새로 추가된 보고서 세트를 사용하는 [!DNL A4T] 활동에서 [!DNL Target] 보고서에 결과가 아닌 &quot;문제가 발생했습니다&quot; 오류가 표시되던 문제를 해결했습니다. **[!UICONTROL 분석에서 보기]**&#x200B;를 클릭하면 [!DNL Analytics for Target] 분류 정보가 누락된 &quot;호환되지 않는 보고서 세트&quot; 메시지도 표시됩니다. (TGT-56389)
 
 +++
 
-## [!DNL Target Standard/Premium] 26.9.4(2026년 9월 17일)
-
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
-* 가장 위쪽 페이지 요소&#x200B;**에서 [!DNL Experience Fragments]에 대한**&#x200B;[!UICONTROL &#x200B;다음 항목 앞에 삽입] 컨트롤에 액세스할 수 없습니다. 시각적 경험 작성기에서 페이지에서 맨 위 요소를 선택하면 페이지가 위쪽으로 스크롤되어 **[!UICONTROL 다음 항목 앞에 삽입]** 컨트롤이 선택할 수 없는 표시된 뷰포트 위에 렌더링됩니다. (TGT-55829)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.3(2026년 9월 16일)
-
-**[!UICONTROL 보고]**
-
-+++세부 정보 보기
-
-* **일부 [!DNL A4T Auto-Target] 보고서에 [!UICONTROL 상승도] 및 [!UICONTROL 신뢰도] 값이 없음**. **[!UICONTROL 방문 전환율 최대화]** 최적화 목표를 사용하는 [!DNL A4T Auto-Target] 활동의 경우 기본 **[!UICONTROL 내 기본 지표]** 보고서 지표가 올바르게 확인되지 않아 **[!UICONTROL 상승도]** 및 **[!UICONTROL 신뢰도]**&#x200B;이(가) 비어 있습니다. (TGT-56137)
-
-+++
-
-**[!UICONTROL Analytics for Target]**
-
-+++세부 정보 보기
-
-* **[!UICONTROL 보고 Source] 필드는 이제 [!DNL Analytics] 액세스 권한이 없는 라이브 활동에 대해 읽기 전용입니다**. 이전에는 라이브 활동 소유자가 [!DNL Adobe Analytics]에 액세스할 수 없는 경우 **[!UICONTROL 보고 Source]** 필드 및 관련 필드를 편집할 수 있었습니다. (TGT-56089)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.2(2026년 9월 8일)
-
-
-**[!UICONTROL 추천]**
-
-+++세부 정보 보기
-
-* **[!DNL New]사용자 인터페이스가 피드 URL을 잘못 인코딩합니다**. 새 [!DNL Target] 인터페이스의 URL에서 권장 사항 피드를 만들 때 피드 URL이 잘못 인코딩되어 알 수 없는 오류로 인해 피드 만들기가 실패합니다. (TGT-56084)
-
-+++
-
-**[!UICONTROL 보고]**
-
-+++세부 정보 보기
-
-* **자동화된 세그먼트 보고서에 특성 값이 일관되게 표시되지 않습니다**. 자동화된 세그먼트 보고서는 [!DNL Automated Personalization] 및 [!DNL Auto-Target] 활동에 대해 일관되지 않게 표시된 특성 값과 범위를 보고합니다. 일부 자동화된 세그먼트에는 관련 값 또는 범위 대신 속성 이름만 표시되었습니다. (TGT-55855)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.1(2026년 9월 1일)
-
-**[!UICONTROL 대상자]**
-
-+++세부 정보 보기
-
-* **활동 전용 대상이 있는 활동을 복사할 수 없습니다**. A/B 활동이 활동 전용(로컬에서 범위 지정) 대상 규칙과 사용자 지정 코드 수정을 사용하는 경우 &quot;잘못된 대상 ID&quot; 오류와 함께 복사 및 복사 저장이 실패합니다. (TGT-55785)
-
-+++
-
-**[!DNL Adobe Target]MCP 서버 — 권장 사항 도구(공개 Beta)**
-
-+++세부 정보 보기
-
-[!DNL Adobe Target] MCP 서버는 이제 추천 도구를 노출하므로 기준, 컬렉션, 디자인, 프로모션 및 제외를 나열, 검사, 만들기 및 업데이트하고 AI 어시스턴트에서 직접 제품 카탈로그를 검색할 수 있습니다.
-
-이 기능을 사용하려면 **Target Premium**&#x200B;이(가) 있는 권장 사항 사용 테넌트가 필요합니다. Premium이 아닌 계정에서는 사용할 수 없습니다.
-
-자세한 내용은 [MCP 서버 도구 참조](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)를 참조하십시오.
+* **mbox를 통해 전달된 [!DNL Experience Fragments]의 오퍼 이름 대신 원시 HTML이 표시됨**. [!DNL Experience Fragment]이(가) mbox를 통해 배달될 때 **[!UICONTROL 수정 사항]** 패널에 오퍼 이름 대신 원시 HTML/코드가 표시되는 문제가 해결되었습니다. (TGT-56241)
 
 +++
 
