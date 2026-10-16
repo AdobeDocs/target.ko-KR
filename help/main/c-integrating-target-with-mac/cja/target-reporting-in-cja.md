@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c3f6f1b0cc044f0daaafb59643b8ffb3e3f8e4
+source-git-commit: 525737d4f8973f0b1ff04becd00c361c64b111e2
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 21%
+source-wordcount: '1877'
+ht-degree: 20%
 ---
 # [!DNL Adobe Customer Journey Analytics]의 [!DNL Target] 보고
 
@@ -120,6 +120,8 @@ ht-degree: 21%
 
 1. 수동 트래픽 분할 또는 [!UICONTROL 자동 할당]을 사용하는 A/B 활동의 경우 **[!UICONTROL 데이터 보기]**&#x200B;를 선택하십시오. 데이터 보기는 [!DNL Customer Journey Analytics] 보고를 위한 [!DNL Analytics] 보고서 세트와 같은 기능을 합니다. 액세스 권한이 있는 선택한 샌드박스의 데이터 보기만 표시됩니다.
 
+   [!UICONTROL 자동 할당] 활동에는 데이터 보기가 필요합니다. 수동 트래픽 분할이 있는 A/B 활동에는 선택 사항입니다.
+
    ➡️ [Adobe Customer Journey Analytics 설명서에서 데이터 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)
 
 1. 목표 지표를 지정합니다. 다음 옵션 중 하나를 선택합니다.
@@ -127,6 +129,8 @@ ht-degree: 21%
    * **[!UICONTROL 전환]**: 목표에 도달했음을 나타내기 위해 대상자가 수행해야 하는 작업을 선택합니다. [성공 지표에 대해 자세히 알아보세요](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
    * **[!UICONTROL Customer Journey Analytics 지표 사용]**: 수동 트래픽 분할 또는 [!UICONTROL 자동 할당]을 사용하는 A/B 활동에만 사용할 수 있습니다. 선택한 데이터 보기에서 [!DNL Customer Journey Analytics] 지표 또는 계산된 지표를 선택합니다. 이 지표는 최적화 기준 역할을 합니다. 모델이 [!DNL Customer Journey Analytics] 데이터에 대해 실행되고 [!DNL Customer Journey Analytics] 보고에 사용된 것과 동일한 케이던스로 성능 데이터를 새로 고칩니다.
+
+     [!UICONTROL 자동 할당] 활동에 지표가 필요합니다. 수동 트래픽 분할이 있는 A/B 활동에는 선택 사항입니다. 지표를 선택하는 경우 데이터 보기도 선택해야 합니다.
 
    ![목표 지표에서 Customer Journey Analytics 지표 옵션 사용](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 

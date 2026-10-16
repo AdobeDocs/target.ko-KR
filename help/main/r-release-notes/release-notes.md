@@ -29,16 +29,51 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
+source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 58%
+source-wordcount: '645'
+ht-degree: 42%
 ---
 # [!DNL Target] 릴리스 정보 (현재)
 
 [!DNL Adobe Target]의 최신 기능, 개선 사항 및 수정 사항을 살펴보십시오. 이러한 릴리스 노트는 해당되는 경우 [!DNL Target]개의 API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 구성 요소에 대한 업데이트도 다룹니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 26.10.2(2026년 10월 15일)
+
+**[!UICONTROL 활동]**
+
++++세부 정보 보기
+
+* **활동 개요에 잘못된 목표 설정이 표시됨**. 활동의 **[!UICONTROL 개요]** 페이지에 표시된 목표 설정이 올바르지 않은 문제가 해결되었습니다. 예를 들어 실제 목표 구성이 올바르지만 `https://`이(가) 페이지 URL에 추가되고 **[!UICONTROL URL 포함]** 조건이 표시되지 않습니다. (TGT-56326)
+
++++
+
+**[!UICONTROL 추천]**
+
++++세부 정보 보기
+
+* **실시간 활동에서 프로모션이 업데이트된 후 표시되는 백업 권장 사항**. [!DNL Recommendations] 라이브 활동에서 프로모션을 편집하면 [!DNL Target]이(가) 해당 정의에서 변경된 사항이 없음에도 새 프로모션 및 권장 사항 단위를 만드는 문제가 해결되었습니다. (TGT-56369)
+
++++
+
+**[!UICONTROL 보고서]**
+
++++세부 정보 보기
+
+* **보고 사전 설정이 2주 후에 삭제됨**. 사용자가 활동에 대해 저장한 보고 사전 설정이 약 2주 후에 자동으로 삭제되는 문제를 해결했습니다. (TGT-56374)
+
++++
+
+**[!UICONTROL 시각적 경험 작성기] (VEC)**
+
++++세부 정보 보기
+
+* **Safari 지원이[!DNL Adobe Target]**&#x200B;에 추가되었습니다. [!DNL Target]은(는) 이제 [!DNL Safari] 브라우저에서 지원됩니다. 시각적 경험 작성기 및 [!DNL Enhanced Experience Composer]은(는) [!DNL Safari]에서 지원되지 않습니다. 따라서 이제 [!DNL VEC]에 오버레이가 표시되어 사용자에게 편집기를 사용하려면 [!DNL Chrome]&#x200B;(으)로 전환해야 함을 알립니다. (TGT-55853)
+  [자세히 알아보기](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.1(2026년 10월 13일)
 

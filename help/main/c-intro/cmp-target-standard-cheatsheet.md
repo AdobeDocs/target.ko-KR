@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '2871'
-ht-degree: 51%
+source-wordcount: '2913'
+ht-degree: 50%
 ---
 # Target 최적화 및 개인화 FAQ
 
@@ -95,6 +95,8 @@ ht-degree: 51%
 
 +++세부 정보 보기
 자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko){target=_blank} 표를 참조하십시오. 데스크톱/장치에서는 [!DNL Target Standard/Premium] 인터페이스 지원과 최종 사용자 브라우저 지원의 두 가지 측면이 있습니다.
+
+[!DNL Target] 인터페이스에 대해 [!DNL Safari]이(가) 지원됩니다. [!DNL Safari]에서 양식 기반 활동을 만들고 [!DNL Safari]에서 지원되지 않는 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 및 [!UICONTROL 향상된 경험 작성기]&#x200B;(EEC)를 제외한 모든 기능을 사용할 수 있습니다. VEC 또는 EEC에서 경험을 편집하려면 [!DNL Google Chrome]을(를) 사용합니다.
 
 +++
 

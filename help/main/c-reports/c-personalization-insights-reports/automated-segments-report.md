@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
+source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 62%
+source-wordcount: '2340'
+ht-degree: 58%
 ---
 # [!UICONTROL 자동화된 세그먼트] 보고서
 
@@ -139,6 +139,11 @@ Target의 개인화 모델의 기반이 되는 Random Forest 개인화 알고리
 **자동화된 세그먼트의 순서를 결정하는 것은 무엇입니까?**
 
 점수는 각 세그먼트의 크기 및 활동의 컨텐츠에 대해 세그먼트가 얼마나 다르게 수행되었는지를 기반으로 하여 각 세그먼트에 대해 계산됩니다. 이러한 입력의 조합에 따라 자동화된 세그먼트의 순서가 결정되므로, 다른 컨텐츠에 응답하는 방식에 큰 차이가 세그먼트가 많을수록 그러한 세그먼트가 목록에서 거의 맨 위에 표시됩니다.
+
+**&quot;클릭한 모든 카드&quot;를 사용할 때 다중 카드 AP 경험의 모든 카드에 동일한 전환율이 표시되는 이유는 무엇입니까?**
+
+[!UICONTROL Automated Personalization]에서 최적화 및 보고는 개별 카드 또는 구성 요소 수준이 아닌 경험 수준에서 평가됩니다. 방문자가 경험에서 하나 이상의 카드를 클릭할 때 [!UICONTROL 클릭한 모든 카드] 성공 지표가 하나의 전환을 기록합니다.
+클릭은 전체적으로 경험에 기인하므로 해당 경험의 모든 카드는 [!UICONTROL 자동화된 세그먼트]를 포함하여 보고서에 동일한 전환 수와 전환율을 표시할 수 있습니다. 이 동작은 [!UICONTROL Automated Personalization]이(가) 개별 카드가 아닌 콘텐츠 조합을 최적화하는 방법을 반영합니다.
 
 **내 오퍼/경험 중 일부만 자동화된 세그먼트 보고서에 표시되는 이유는 무엇입니까?**
 

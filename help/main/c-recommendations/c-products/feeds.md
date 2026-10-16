@@ -1,5 +1,5 @@
 ---
-keywords: 권장 사항 피드, 피드, SAINT, ftp, csv, 분류, 분석 분류
+keywords: 권장 사항 피드, 피드, SAINT, ftp, sftp, csv, 분류, 분석 분류
 description: 피드가 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Analytics] 제품 분류를 사용하여 [!DNL Adobe Target] [!DNL Recommendations] (으)로 엔터티를 가져오는 방법을 알아봅니다.
 title: '[!DNL Target Recommendations]에서 [!UICONTROL 피드]를 사용하려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 36%
+source-wordcount: '2785'
+ht-degree: 31%
 ---
 # 피드
 
@@ -128,31 +128,28 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-[!DNL Google Product Search] 피드 형식은 [!DNL Google] 형식을 사용합니다. [!DNL Adobe] 소유 CSV 업로드 형식과 다릅니다.
-
-기존 [!DNL Google Product Feed]이(가) 있는 경우 가져오기 파일로 사용할 수 있습니다.
+[!DNL Google Product Search] 피드 유형은 [!DNL Adobe] 소유 CSV 형식이 아닌 [!DNL Google] 형식을 사용합니다. 기존 [!DNL Google Product Feed]을(를) 다시 사용하여 제품 데이터를 [!DNL Recommendations]&#x200B;(으)로 가져올 수 있습니다.
 
 >[!NOTE]
 >
->[!DNL Google] 데이터를 사용할 필요는 없습니다. [!DNL Recommendations]은(는) [!DNL Google]과(와) 동일한 형식을 사용합니다. 이 방법을 사용하여 보유하고 있는 데이터를 업로드하고 사용 가능한 예약 기능을 이용할 수 있습니다. 그러나 파일을 설정할 때 미리 정의된 특성 이름 [!DNL Google]을(를) 유지해야 합니다.
+>데이터를 [!DNL Google]에 제출할 필요가 없습니다. 파일에서 미리 정의된 [!DNL Google] 특성 이름을 사용하는 경우 자신의 데이터를 가져오고 업데이트를 예약할 수 있습니다.
 
-대부분의 소매업체는 제품을 [!DNL Google]에 업로드하므로 방문자가 [!DNL Google] 제품 검색을 사용하면 해당 제품이 표시됩니다. [!DNL Recommendations]은(는) 정확히 엔터티 피드에 대해 [!DNL Google] 사양을 따릅니다. 엔터티 피드는 .xml, .txt 또는 .tsv를 통해 [!DNL Recommendations]에 전송될 수 있으며, Google에서 정의한 [특성을 사용할 수 있습니다](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). 결과는 [[!DNL Google] 쇼핑 페이지](https://www.google.com/prdhp)에서 검색할 수 있습니다.
+[!DNL Recommendations]은(는) [!DNL Google] 피드 사양을 따르고 Google에서 정의한 [특성을 사용하는 .xml, .txt 및 .tsv 파일을 허용합니다](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). [!DNL Recommendations] 서버가 파일을 검색하고 카탈로그를 빌드할 수 있도록 피드의 URL 또는 FTP 위치를 지정하십시오.
 
 >[!NOTE]
 >
->POST 메서드는 [!DNL Google] 피드 콘텐츠를 호스팅하는 서버에서 허용되어야 합니다.
+>[!DNL Google] 피드를 호스팅하는 서버는 POST 메서드를 허용해야 합니다.
 
-[!DNL Recommendations]명의 사용자가 이미 URL 또는 FTP를 통해 [!DNL Google]에게 전송할 .xml 또는 .txt 피드를 구성했으므로, 엔터티 피드는 해당 제품 데이터를 수락하고 이를 사용하여 권장 사항 카탈로그를 만듭니다. 피드가 존재하며 권장 사항 서버가 데이터를 검색하는 위치를 지정합니다.
+다음 요구 사항 및 제한 사항을 염두에 두십시오.
 
-엔터티 피드 업로드에 [!DNL Google Product Search]을(를) 사용하는 경우, 권장 사항을 표시하거나 보기를 기반으로 알고리즘 전달을 위한 제품 보기를 추적하려면 페이지에 제품 페이지 mbox가 있어야 합니다.
+* 제품 페이지 mbox는 여전히 해당 페이지에 권장 사항을 표시하거나 보기 기반 알고리즘을 위한 제품 보기를 추적하는 데 필요합니다.
+* [!DNL Google] 피드는 사용자 지정 특성에 대해 여러 값을 지원하지 않습니다.
 
-[!DNL Google] 피드는 사용자 지정 특성에 대해 여러 값을 지원하지 않습니다.
+피드를 저장하고 활성화하면 피드가 실행되며, 처음 실행 시간보다 1시간 늦게 매일 실행됩니다.
 
-피드는 저장하고 활성화할 때 실행됩니다. 피드를 저장할 때 실행된 다음 한 시간 후 매일 실행됩니다.
+다음 예제에서는 .xml 형식의 [!DNL Google Product Search] 피드를 보여 줍니다.
 
-다음은 [!DNL Google Product Search] 피드 .xml 파일에 대한 샘플 코드입니다.
-
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
 <feed xmlns="https://www.w3.org/2005/Atom" xmlns:ns2="https://base.google.com/ns/1.0" xmlns:ns3="https://base.google.com/cns/1.0"> 
     <title>Product Feed</title> 
@@ -257,12 +254,28 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
    * **FTP**: FTP를 선택하는 경우 FTP 서버 정보, 로그인 자격 증명, 파일 이름 및 FTP 디렉토리를 제공하십시오. 보다 안전한 업로드를 위해 SSL을 사용하는 FTP(FTPS)를 사용할 수 있습니다.
 
-     지원되는 FTP 서버 설정:
+     +++ 지원되는 FTP 서버 설정
 
      * FTP 및 FTPS는 수동 FTP를 사용하도록 설정되어야 합니다.
      * FTPS의 경우, 명시적 FTPS 연결을 허용하도록 서버를 구성합니다.
-     * SFTP는 지원되지 않습니다.
      * 연결을 시작할 포트를 수동으로 지정할 수 있습니다(예: `ftp://ftp.yoursite.com:2121`). 포트를 지정하지 않으면 기본 FTP 또는 FTPS 포트가 사용됩니다.
+
+   +++
+
+   * **SFTP**: SFTP 서버의 호스트 이름 또는 IP 주소, 포트(기본값: 22), 사용자 이름, 디렉터리 및 파일 이름을 입력합니다. 인증을 위해 암호, SSH 개인 키 또는 둘 다 제공하십시오.
+
+     +++ 지원되는 SFTP 서버 설정 및 제한 사항
+
+     * 인증은 암호, SSH 개인 키 또는 둘 다를 사용합니다. 하나 이상이 필요합니다.
+     * 고객은 키 쌍을 생성하고 소유합니다. SFTP 사용자의 `authorized_keys` 파일에 공개 키를 설치한 다음 개인 키를 Target에 PEM 텍스트로 붙여넣습니다. 허용되는 주요 유형은 PEM(`-----BEGIN RSA PRIVATE KEY-----`), PKCS#8(`-----BEGIN PRIVATE KEY-----`) 또는 OpenSSH(`-----BEGIN OPENSSH PRIVATE KEY-----`) 형식의 RSA, Ed25519 및 ECDSA입니다.
+     * 암호로 보호된 비공개 키는 지원되지 않으므로 피드를 1과 함께 저장할 수 없습니다.
+     * Target은 암호화된 개인 키를 저장하고 다시 표시하지 않습니다. 회전하려면 피드를 편집하고 새 키를 입력합니다.
+     * `sftp://` 접두사, 포트 또는 경로 없이 기본 호스트 이름 또는 IP 주소를 입력하십시오. 기본이 아닌 포트의 경우 Port 필드를 사용합니다.
+     * 서버 호스트 키는 첫 번째 연결에서 허용되므로 Adobe과의 지문 교환이 필요하지 않습니다.
+     * SFTP는 Target 인터페이스 및 권장 사항 API에서 사용할 수 있지만 이전 Recommendations Classic 관리 인터페이스에서는 사용할 수 없습니다. Adobe은 SFTP 끝점을 호스팅하지 않습니다. 고객 호스팅 서버를 사용하십시오.
+     * SFTP 서버는 인터넷에서 연결할 수 있어야 하며 Adobe Target의 다운로드 주소에서 인바운드 연결을 허용해야 합니다. 프로덕션 IP 목록은 이 업데이트를 게시하기 전에 엔지니어링에서 확인해야 합니다.
+
+   +++
 
    * **URL**: [!UICONTROL URL]을(를) 선택하는 경우 URL을 지정하십시오.
 
@@ -289,11 +302,11 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-피드를 만들거나 편집한 후 피드가 즉시 실행됩니다. 그러면 피드는 사용자가 설정한 매개 변수에 따라 업데이트됩니다. 정보가 나오려면 시간이 좀 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태는 [!UICONTROL 피드] 목록의 [피드 상태](/help/main/c-recommendations/c-products/feeds.md#status)에 표시됩니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
+피드를 만들거나 편집한 후 즉시 실행된 다음 설정에 따라 업데이트됩니다. 데이터를 사용하려면 피드가 동기화, 처리 및 색인화되어야 합니다. [!UICONTROL 피드] 목록에서 [피드 상태](/help/main/c-recommendations/c-products/feeds.md#status)를 확인합니다. [!DNL Target]을(를) 닫아도 처리가 계속됩니다.
 
-색인화가 진행 중인 동안 개별 값이 색인화되기 전에 제품 및 피드 헤더가 표시됩니다. 이렇게 하면 색인화가 완료되기 전에 컬렉션, 제외, 디자인 및 활동을 만들 수 있도록 제품을 검색하고 볼 수 있습니다.
+색인화하는 동안 제품 및 피드 헤더가 개별 값 앞에 표시되므로 색인화가 완료되기 전에 제품을 검색하고 컬렉션, 제외, 디자인 및 활동을 만들 수 있습니다.
 
-상태에 &quot;성공&quot;이 표시되면 이것은 파일을 찾았으며 올바로 구문 분석했음을 의미합니다. 파일이 색인화되기 전까지는 [!DNL Recommendations]에서 이 정보를 사용할 수 없습니다. 색인화는 파일의 크기에 따라 시간이 좀 걸릴 수 있습니다. 프로세스가 실패하면 파일을 찾을 수 없음을 의미합니다. 예를 들어 잘못된 URL을 사용했거나 FTP 정보가 잘못되었거나 구문 분석 오류가 있습니다.
+&quot;성공&quot; 상태는 파일을 찾아서 올바로 구문 분석했음을 의미합니다. 해당 데이터는 인덱싱한 후에만 [!DNL Recommendations]에서 사용할 수 있으며, 파일 크기에 따라 시간이 소요됩니다. 실패는 잘못된 URL 또는 FTP 정보, 누락된 파일 또는 구문 분석 오류로 인해 발생할 수 있습니다.
 
 ## 피드 상태 및 표시기 {#concept_E475986720D1400999868B3DFD14A7A0}
 
@@ -315,7 +328,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 | 피드를 *시간 내에* 성공적으로 가져옴 | [!DNL Target]이(가) 피드 파일을 콘텐츠 전달 시스템으로 가져왔습니다. 항목 속성에 대한 변경 사항은 콘텐츠 전달 시스템에서 만들어졌으며, 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않으면 다시 시도하여 권장 사항이 포함된 페이지를 새로 고치십시오.<br>참고:<ul><li>항목의 속성에 대한 변경 사항으로 인해 항목이 권장 사항에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 특성을 변경하면 해당 항목이 권장 사항에서 더 이상 제외되지 *않습니다*. 이 경우 24시간 내에 다음 알고리즘 업데이트가 발생할 때까지 반영되지 않습니다.</li><li>이 상태가 표시되면 업데이트가 [!UICONTROL 카탈로그 검색] UI에 아직 반영되지 않았을 수 있습니다. 검색 가능한 카탈로그가 마지막으로 업데이트된 시간을 나타내는 별도의 상태가 [!UICONTROL 카탈로그 검색]에 나열됩니다.</li></ul> |
 | 부분 가져오기 실패 | 이전에는 모든 행이 업로드되지 않은 경우에도 피드가 성공으로 표시되었습니다. 따라서 피드가 성공적으로 표시되었을 때 모든 행이 업로드되었다는 잘못된 인상을 만듭니다.<P>다음은 부분 피드 가져오기가 발생할 수 있는 이유에 대한 시나리오입니다.<ul><li>프로덕션 환경에 대한 피드 파일(예: 100개 행)을 업로드했습니다.</li><li>피드가 실행되어 해당 행 중 80개를 업로드하고 잘못된 형식, 필드 초과 문자 등으로 인해 20개의 행을 삭제했습니다.</li><li>UI에서 피드가 성공으로 표시되어 100개의 행이 모두 업로드된 것처럼 보입니다.</li><li>활동 전달에 20개 제품 중 일부가 예상되지만 발생하지 않습니다.</li><li> 해당 제품에 대한 제품 세부 사항이 있는 피드를 업로드했기 때문에 이 시점에서 혼란스럽습니다. Entity API를 통해 쿼리할 때 백엔드에 표시되지 않는데, 이는 해당 API가 백엔드에 없음을 나타냅니다.</li></ul>이러한 혼동을 제거하기 위해 피드에 발생한 사항을 정확히 알 수 있도록 메시지가 개선됩니다. 성공으로 표시하기보다는 이제 부분 가져오기 실패로 표시됩니다. |
 | [!UICONTROL 색인화 실패] | 색인 작업에 실패했습니다. 다시 시도하십시오. |
-| [!UICONTROL 서버를 찾을 수 없음] | FTP 또는 URL 위치가 잘못되었거나 접속할 수 없습니다. |
+| [!UICONTROL 서버를 찾을 수 없음] | FTP, SFTP 또는 URL 위치가 잘못되었거나 연결할 수 없습니다. |
 
 피드를 업데이트하려면(예를 들어, 피드 구성이나 피드 파일 변경) 피드를 열고 원하는 대로 변경하고 **[!UICONTROL 저장]**&#x200B;을 클릭하십시오.
 
