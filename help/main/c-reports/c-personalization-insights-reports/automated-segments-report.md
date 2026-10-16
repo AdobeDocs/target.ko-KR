@@ -2,7 +2,7 @@
 keywords: 타기팅;AP 보고서;자동화된 개인화 보고서;자동 타깃;자동 타깃;자동 타깃 보고서;자동 타깃 보고서;개인화;인사이트;자동화된 세그먼트;faq;자주 묻는 질문;중요 속성
 description: Adobe [!DNL Target] 개인화 모델로 정의되는 서로 다른 세그먼트가 자동화된 세그먼트 보고서를 보고 활동의 오퍼/경험에 어떻게 반응하는지 알아봅니다.
 title: 자동화된 세그먼트 보고서란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: 'https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg'
@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
+source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 62%
+source-wordcount: '2340'
+ht-degree: 58%
 ---
 # [!UICONTROL 자동화된 세그먼트] 보고서
 
@@ -126,7 +126,7 @@ ht-degree: 62%
 
 속성은 트래픽을 개인화하는 방법을 학습하기 위해 개인화 알고리즘에 사용된 방문자 또는 방문자의 특정 방문에 대한 정보입니다. 예를 들어, 브라우저 유형, 위치, 방문 요일 등이 속성이 될 수 있습니다.
 
-개인화 모델에서 [!DNL Target]이 사용하는 속성에 대한 자세한 내용은 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. Target의 개인화 모델에 사용할 새 속성을 Target에 업로드하는 방법에 대한 자세한 내용은 [데이터를 Target에 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}을 참조하십시오.
+개인화 모델에서 [!DNL Target]이 사용하는 속성에 대한 자세한 내용은 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. Target의 개인화 모델에 사용할 새 속성을 Target에 업로드하는 방법에 대한 자세한 내용은 [데이터를 Target에 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}을 참조하십시오.
 
 **자동화된 세그먼트란?**
 
@@ -139,6 +139,11 @@ Target의 개인화 모델의 기반이 되는 Random Forest 개인화 알고리
 **자동화된 세그먼트의 순서를 결정하는 것은 무엇입니까?**
 
 점수는 각 세그먼트의 크기 및 활동의 컨텐츠에 대해 세그먼트가 얼마나 다르게 수행되었는지를 기반으로 하여 각 세그먼트에 대해 계산됩니다. 이러한 입력의 조합에 따라 자동화된 세그먼트의 순서가 결정되므로, 다른 컨텐츠에 응답하는 방식에 큰 차이가 세그먼트가 많을수록 그러한 세그먼트가 목록에서 거의 맨 위에 표시됩니다.
+
+**&quot;클릭한 모든 카드&quot;를 사용할 때 다중 카드 AP 경험의 모든 카드에 동일한 전환율이 표시되는 이유는 무엇입니까?**
+
+[!UICONTROL Automated Personalization]에서 최적화 및 보고는 개별 카드 또는 구성 요소 수준이 아닌 경험 수준에서 평가됩니다. 방문자가 경험에서 하나 이상의 카드를 클릭할 때 [!UICONTROL 클릭한 모든 카드] 성공 지표가 하나의 전환을 기록합니다.
+클릭은 전체적으로 경험에 기인하므로 해당 경험의 모든 카드는 [!UICONTROL 자동화된 세그먼트]를 포함하여 보고서에 동일한 전환 수와 전환율을 표시할 수 있습니다. 이 동작은 [!UICONTROL Automated Personalization]이(가) 개별 카드가 아닌 콘텐츠 조합을 최적화하는 방법을 반영합니다.
 
 **내 오퍼/경험 중 일부만 자동화된 세그먼트 보고서에 표시되는 이유는 무엇입니까?**
 
@@ -162,7 +167,7 @@ Personalization Insights 보고([!UICONTROL 자동화된 세그먼트] 및 [!UIC
 
 **[!UICONTROL Personalization 인사이트]를 만드는 방법은 무엇입니까?**
 
-[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. &#x200B;] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
+[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. ] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
 
 **[!UICONTROL 자동화된 세그먼트] 보고서의 총 방문자 트래픽 데이터가 AP 또는 AT 요약/성과 보고서와 일치하지 않는 이유는 무엇입니까?**
 
