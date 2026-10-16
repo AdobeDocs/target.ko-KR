@@ -1,8 +1,8 @@
 ---
-keywords: 사용자 지정 기준 만들기;알고리즘;기준;권장 사항 기준;csv;ftp;csv 업로드
+keywords: 사용자 지정 기준 만들기;알고리즘;기준;권장 사항 기준;csv;ftp;sftp;csv 업로드
 description: CSV 파일을 업로드하여 Adobe [!DNL Target] 권장 사항에서 권장 사항을 사용자 지정하는 방법을 알아봅니다.
 title: '[!DNL Recommendations]에서 사용자 지정 기준을 업로드하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 TQID: 'https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 32%
+source-wordcount: '762'
+ht-degree: 27%
 ---
 # 사용자 지정 기준 업로드
 
@@ -57,9 +57,13 @@ CSV 파일을 업로드하여 [!DNL Adobe Target]에서 권장 사항을 사용�
 
    CSV 파일을 성공적으로 업로드하려면 형식이 올바르게 지정되어야 합니다. **[!UICONTROL CSV 템플릿 다운로드]**&#x200B;를 클릭하여 올바른 형식의 CSV 파일을 가져옵니다.
 
-   다음 두 가지 위치 옵션이 있습니다.
+   다음과 같은 세 가지 위치 옵션이 있습니다.
 
    * **FTP:** FTP 서버에서 CSV 파일을 업로드하려면 **[!UICONTROL FTP]**&#x200B;을 선택한 다음 필요한 정보를 입력합니다. SSL을 사용할 수 있습니다. SSL은 FTPS 프로토콜을 사용하여 CSV 파일을 안전하게 전송합니다.
+
+   * **SFTP:** SFTP 서버에서 CSV 파일을 업로드하려면 **[!UICONTROL SFTP]**&#x200B;을(를) 선택한 다음 호스트 이름 또는 IP 주소, 포트(기본값 22), 사용자 이름, 암호 및/또는 SSH 개인 키, 디렉터리 및 파일 이름을 입력하십시오. 자세한 내용은 [지원되는 SFTP 서버 설정](/help/main/c-recommendations/c-products/feeds.md#sftp-settings)을 참조하세요.
+
+     SFTP는 사용자 지정 기준 CSV 형식을 변경하지 않습니다. `# Key,Recommendation_1,...` 형식을 사용하십시오. 다른 피드 형식의 형식을 사용하면 가져오기가 실패합니다.
 
    * **URL:** URL에서 CSV 파일을 업로드하려면 **[!UICONTROL URL]**&#x200B;을 선택한 다음 피드 URL을 입력하십시오.
 
