@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 06cdc2613d49e3c71c2d29c6ee1307d39215ac84
+source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '645'
 ht-degree: 42%
 ---
 # [!DNL Target] 릴리스 정보 (현재)
@@ -66,12 +66,12 @@ ht-degree: 42%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
 * **Safari 지원이[!DNL Adobe Target]**&#x200B;에 추가되었습니다. [!DNL Target]은(는) 이제 [!DNL Safari] 브라우저에서 지원됩니다. 시각적 경험 작성기 및 [!DNL Enhanced Experience Composer]은(는) [!DNL Safari]에서 지원되지 않습니다. 따라서 이제 [!DNL VEC]에 오버레이가 표시되어 사용자에게 편집기를 사용하려면 [!DNL Chrome]&#x200B;(으)로 전환해야 함을 알립니다. (TGT-55853)
-
+  [자세히 알아보기](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
 +++
 
 
@@ -85,7 +85,7 @@ ht-degree: 42%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 

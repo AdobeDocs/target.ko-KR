@@ -18,96 +18,101 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 47%
+source-wordcount: '889'
+ht-degree: 0%
 ---
 # [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)
 
-[!DNL Adobe Target]의 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)는 고객이 코드를 편집할 필요 없이 웹 사이트 또는 모바일 웹 페이지에서 직접 개인화된 경험을 만들고 테스트할 수 있는 WYSIWYG 편집기입니다.
+[!DNL Adobe Target]의 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)는 코드를 편집하지 않고 웹 사이트 및 모바일 웹 페이지에서 직접 개인화된 경험을 만들고 테스트하기 위한 WYSIWYG 편집기입니다.
 
->[!NOTE]
->
->[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스에는 VEC의 업데이트된 버전이 포함되어 있습니다. 업데이트된 VEC가 이전 버전과 어떻게 다른지에 대한 자세한 내용은 [시각적 경험 작성기 변경 사항](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)을 참조하십시오. 업데이트된 VEC의 다양한 옵션에 대한 개요는 [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오.
+요소를 드래그 앤 드롭하고, 콘텐츠를 교체하고, 페이지 레이아웃을 변경하여 [!DNL Target] 활동에 대한 경험과 오퍼를 만드십시오. 작성기는 HTML 및 JavaScript 편집 옵션도 제공합니다.
 
-VEC를 사용하면 사이트 컨텍스트에서 개인화된 경험과 오퍼를 쉽게 만들고 테스트할 수 있습니다. 웹 페이지(또는 오퍼) 또는 모바일 웹 페이지의 레이아웃 및 콘텐츠를 드래그 앤 드롭하고, 교체하고, 수정하여 [!DNL Target] 활동에 대한 경험과 오퍼를 만들 수 있습니다.
+## 브라우저 요구 사항 {#browser-requirements}
 
-VEC는 [!DNL Target]의 주요 기능 중 하나입니다. VEC를 통해 마케터와 디자이너가 시각적 인터페이스를 사용하여 콘텐츠를 만들고 변경할 수 있습니다. 코드를 직접 편집하지 않고도 많은 디자인을 작성할 수 있습니다. 또한 작성기에서 사용 가능한 편집 선택 사항을 사용하여 HTML 및 JavaScript를 편집할 수도 있습니다.
+[!DNL Adobe Target] 인터페이스에 대해 [!DNL Safari]이(가) 지원됩니다. [!DNL Safari]에서 양식 기반 활동을 만들고 VEC 및 [!UICONTROL 고급 경험 작성기]&#x200B;(EEC)를 제외한 모든 기능을 사용할 수 있습니다. [!DNL Safari]에서 시각적 경험 작성기를 열면 경험을 편집하려면 [!DNL Google Chrome]&#x200B;(으)로 전환하라는 오버레이가 표시됩니다.
 
-[!DNL Target] **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]** 탭에서 기본 [!UICONTROL 시각적 경험 작성기] URL을 입력할 수 있습니다.
+[!DNL Firefox]과(와) 같은 브라우저에서는 보안 사이트 내의 비보안 페이지와 같이 혼합 콘텐츠가 포함된 페이지가 VEC에 표시되지 않도록 차단할 수 있습니다. 페이지가 표시되지 않으면 브라우저 주소 표시줄에서 URL 옆에 있는 아이콘을 클릭한 다음 **[!UICONTROL 이 페이지에서 보호 사용 안 함을 클릭합니다]**. 이 문제는 사이트 방문자에게 페이지가 표시되는 방식에는 영향을 주지 않습니다.
 
-이 URL은 VEC를 열 때 시작되는 위치를 결정합니다. 기본 URL을 입력하지 않으면 편집기를 열 때 빈 페이지로 시작한 다음 URL을 지정할 수 있습니다.
+## VEC 열기 {#open-the-vec}
+
+VEC에서 기본적으로 열리는 페이지를 설정하려면 [!DNL Target] **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]** 탭에 기본 [!UICONTROL 시각적 경험 작성기] URL을 입력하십시오.
+
+기본 URL을 설정하지 않으면 VEC가 열리고 URL을 지정할 수 있는 빈 페이지가 표시됩니다.
 
 ![강조 표시된 VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
->[!NOTE]
->
->특정 브라우저(예: [!DNL Firefox])는 페이지에 혼합 콘텐츠(예: 보안 사이트의 비보안 페이지)가 포함된 경우 VEC에 표시되지 않도록 페이지를 차단할 수 있습니다. 페이지가 표시되지 않으면 브라우저 주소 표시줄에서 URL 옆에 있는 아이콘을 클릭하고 **[!UICONTROL 이 페이지에서 보호 사용 안 함을 클릭합니다]**. 이 문제는 사이트 방문자에 대한 페이지 표시에는 영향을 주지 않습니다.
+## 경험 편집 {#edit-experiences}
 
-페이지에서 iframe 내에 있는 콘텐츠는 VEC에서 수정할 수 없습니다. iframe 내의 콘텐츠를 편집하려면 iframe 문서가 [!DNL Target]에서 사용할 수 있도록 설정되어 있는지 확인한 다음 VEC에서 해당 iframe URL을 로드하십시오.
+### 경험 보기 및 이름 지정 {#view-and-name-experiences}
 
-[!UICONTROL 경험] 레일의 탭을 사용하여 다른 대상자나 다른 경험이 있는 페이지를 볼 수 있습니다. 각 경험의 이름을 제공할 수 있습니다. 예를 들어 탐색 막대에서 홈 링크의 위치를 테스트하는 경우 홈 링크가 먼저 나타나는 경험의 이름을 지정할 수 있습니다. 예를 들어 &quot;홈 링크&quot;를 사용하면 목록에서 경험을 보다 쉽게 식별할 수 있습니다.
+[!UICONTROL 경험] 레일의 탭을 사용하여 다양한 대상자 또는 다양한 경험을 가진 사용자에게 페이지가 표시되는 방식을 확인합니다. 목록에서 더 쉽게 식별할 수 있도록 각 경험에 수사적 이름을 지정합니다.
 
->[!NOTE]
->
->해당 페이지에서 만든 활동에 사용된 위치에 영향을 주는 페이지 구조를 변경하면 경험 편집에 문제가 발생할 수 있습니다. 위치가 VEC 외부에서 변경된 경우 [!DNL Target]에서 콘텐츠가 변경된 위치를 찾지 못할 수 있습니다.
+예를 들어 탐색 막대에서 홈 링크의 위치를 테스트할 때 처음 표시되는 경험의 이름을 &quot;홈 링크 우선&quot;으로 지정합니다.
 
-페이지 주변으로 마우스를 이동하면 상황에 맞는 상자가 커서를 따르면서 페이지의 요소를 강조 표시합니다.
+![경험 레일에서 경험 이름 바꾸기](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)
 
-<!--
-Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+### 요소 선택 및 수정 {#select-and-modify-elements}
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
--->
+커서를 페이지 위로 이동하면 상황에 맞는 상자로 개별 요소를 강조 표시합니다.
 
-해당 요소 유형에 사용할 수 있는 옵션 메뉴에 대해 강조 표시된 요소를 클릭합니다. 예를 들어 이미지를 클릭하고 **[!UICONTROL 이미지 변경]**&#x200B;을 선택하여 이미지를 다른 이미지로 변경할 수 있습니다. 또는 단추를 클릭하고 텍스트 색상을 변경합니다.
+강조 표시된 요소를 클릭하여 해당 요소 유형에 대한 편집 옵션을 표시합니다. 예를 들어 이미지를 선택하고 **[!UICONTROL 이미지 소스 변경]**&#x200B;을 클릭하여 바꾸거나 단추를 선택하여 텍스트 색상을 변경합니다.
 
-**[!UICONTROL 찾아보기]**&#x200B;를 클릭한 다음 배송 페이지나 장바구니와 같은 기본 페이지에서 사용할 수 있는 페이지로 이동하여 해당 페이지의 변경 사항을 테스트할 수도 있습니다. 플라이아웃 메뉴나 미니 장바구니와 같이 마우스로 가리키고 사용할 수 있는 페이지 요소에 액세스할 수도 있습니다. 페이지 탐색이 끝나면 **[!UICONTROL 디자인]**&#x200B;을 클릭하여 환경을 편집합니다. 예를 들어, 장바구니 드롭다운이나 이미지 슬라이드의 디자인을 변경할 수 있습니다.
+![선택한 요소에 대한 옵션 편집](/help/main/c-experiences/c-visual-experience-composer/assets/properties-exp.png)
 
->[!NOTE]
->
->마우스로 가리키기 상태가 JavaScript에 따라 다를 경우 **[!UICONTROL JavaScript 비활성화]**&#x200B;를 선택하지 않았는지 확인하십시오. JavaScript 요소를 편집하려면 JavaScript를 활성화해야 합니다.
+페이지에 포함된 iframe 내의 컨텐츠는 편집할 수 없습니다. 해당 콘텐츠를 편집하려면 iframe 문서가 [!DNL Target]에서 사용할 수 있도록 설정되어 있는지 확인한 다음 VEC에서 직접 iframe URL을 로드하십시오.
 
-VEC에서 사용할 수 있는 옵션에 대한 자세한 내용은 [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)을 참조하십시오.
+VEC 외부의 페이지 구조를 변경하면 활동에서 사용하는 위치에 영향을 줄 수 있습니다. 해당 위치가 변경되면 [!DNL Target]에서 수정한 요소를 찾지 못할 수 있으며 이로 인해 환경을 편집할 때 문제가 발생할 수 있습니다.
 
-페이지를 로드하는 동안(또는 페이지 로드가 실패한 후) 페이지에서 일부 수정 작업을 수행하거나 VEC에서 페이지 로드를 취소할 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
+### 찾아보기 및 디자인 {#browse-and-design}
 
-* [페이지를 로드하는 동안 또는 페이지 로드가 실패한 후 페이지 편집](#loading)
-* [VEC 내에서 페이지 로드 취소](#cancel-loading)
+배송 페이지나 장바구니와 같이 현재 페이지에서 액세스할 수 있는 페이지로 이동하여 변경 내용을 테스트하려면 **[!UICONTROL 찾아보기]**&#x200B;를 클릭합니다.
 
-## 페이지를 로드하는 동안 또는 페이지 로드가 실패한 후 페이지 편집 {#loading}
+![VEC에서 찾아보기 모드](/help/main/c-experiences/c-visual-experience-composer/assets/browse_exp.png)
 
-페이지가 VEC에 로드되기 전에 또는 페이지가 완전히 로드되지 않은 경우에도 여러 작업을 수행할 수 있습니다(예: 사용자 지정 코드가 더 이상 작동하지 않음).
+찾아보기 모드에서 플라이아웃 메뉴 및 미니 장바구니와 같이 마우스로 가리키면 표시되는 요소에 액세스할 수도 있습니다. 편집할 페이지 또는 요소에 도달하면 **[!UICONTROL 디자인]**&#x200B;을 클릭하여 환경을 편집합니다.
 
-VEC 내에서 로드하는 동안 또는 페이지 로드가 실패한 후 페이지에 액세스하거나 페이지를 편집할 수 있는 몇 가지 이유는 다음과 같습니다.
+마우스로 가리키기 상태가 JavaScript에 따라 다를 경우 **[!UICONTROL JavaScript 비활성화]**&#x200B;가 선택되어 있지 않은지 확인하십시오. 종속된 요소를 편집하려면 JavaScript을 활성화해야 합니다.
 
-* 사용자 지정 코드 추가 또는 경험 이름 변경 등을 위해 페이지를 간단하게 수정하기 위해
-* 더 이상 액세스할 수 없는 페이지에서 기존 사용자 지정 코드를 복사하기 위해
-* 페이지가 VEC 내에서 로드되지 않는다는 것을 알고 있지만 간단하게 편집하기 위해
+사용 가능한 편집 옵션에 대한 자세한 내용은 [시각적 경험 작성기 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)을 참조하십시오.
 
-페이지가 로드되는 동안(또는 페이지 로드가 실패한 후) [!UICONTROL 경험] 레일, [!UICONTROL 구성 요소] 레일 및 [!UICONTROL 구성] 옵션에 액세스할 수 있습니다.
+## 페이지 로드 관리 {#manage-page-loading}
 
-## VEC 내에서 페이지 로드 취소 {#cancel-loading}
+일부 편집 옵션은 페이지가 로드되는 동안 또는 페이지 로드가 실패한 후에도 계속 사용할 수 있습니다. 기다리지 않고 이러한 옵션에 액세스하기 위해 페이지 로드를 취소할 수도 있습니다.
 
-페이지가 로드될 때까지 기다리지 않고 활동 편집을 잠금 해제하기 위해 VEC 내에서 페이지 로드를 취소할 수 있습니다. 이 기능을 사용하면 시간을 절약할 수 있고, VEC 내에서 페이지가 로드될 때까지 기다릴 필요 없이 사용자 지정 코드를 보다 효율적으로 편집하거나 삽입할 수 있습니다.
+### 페이지를 로드하는 동안 또는 페이지 로드가 실패한 후 페이지 편집 {#loading}
 
-VEC 내에서 페이지 로드를 취소할 수 있는 몇 가지 이유는 다음과 같습니다.
+예를 들어 사용자 지정 코드가 더 이상 작동하지 않으므로 VEC에서 페이지 로드가 완료되기 전이나 페이지 로드가 실패한 후 일부 내용을 변경할 수 있습니다.
 
-* 기존 수정 사항을 약간 편집하려는 경우
-* 하나 이상의 기존 수정 사항을 삭제하려는 경우
-* 사용자 지정 코드를 삽입하거나 편집하려는 경우
-* 페이지 URL을 실수로 잘못 입력한 경우
-* VEC에서 페이지를 로드하기 전에 JavaScript를 활성화하거나 비활성화하려는 경우
-* [!UICONTROL 페이지 게재] 기준에 템플릿 테스트 규칙을 더 추가하려는 경우
-* EEC 또는 iframe만을 통해 페이지를 로드할 때 전역 [!UICONTROL 고급 경험 작성기]&#x200B;(EEC) 전환을 재정의하려고 합니다.
+사용 가능한 편집 옵션을 사용하여 다음을 수행합니다.
 
-VEC에서 페이지 로드를 취소하면 페이지가 로드될 때까지 기다리지 않고 활동에서 경험 간에 전환할 수 있습니다. VEC에서 페이지를 다시 보려면 **[!UICONTROL 다시 로드]** 단추를 클릭해야 합니다.
+* 사용자 지정 코드 추가 또는 경험 이름 변경과 같은 간단한 변경 작업 수행
+* 더 이상 액세스할 수 없는 페이지에서 기존 사용자 지정 코드 복사
+* VEC에서 로드할 수 없는 페이지를 간단하게 편집합니다.
+
+[!UICONTROL 경험] 레일, [!UICONTROL 구성 요소] 레일 및 [!UICONTROL 구성] 옵션은 페이지가 로드되는 동안 또는 페이지 로드가 실패한 후에도 계속 액세스할 수 있습니다.
+
+### VEC 내에서 페이지 로드 취소 {#cancel-loading}
+
+페이지 로드가 완료될 때까지 기다리지 않고 활동을 편집하려면 VEC에서 페이지 로드를 취소하십시오.
+
+페이지 로드 취소는 다음과 같은 경우에 유용합니다.
+
+* 기존 수정 사항을 약간 편집합니다.
+* 하나 이상의 기존 수정 사항 삭제
+* 사용자 지정 코드 삽입 또는 편집
+* 잘못 입력한 페이지 URL 수정
+* VEC에서 페이지를 로드하기 전에 JavaScript을 활성화하거나 비활성화합니다.
+* [!UICONTROL 페이지 게재] 기준에 템플릿 테스트 규칙 추가
+* EEC를 통해 페이지를 로드할 때 또는 iframe 전용 모드에서 전역 [!UICONTROL 고급 경험 작성기]&#x200B;(EEC) 전환을 재정의합니다.
+
+페이지 로드를 취소한 후 페이지가 로드될 때까지 기다리지 않고 활동에서 경험 간에 전환할 수 있습니다. VEC에서 페이지를 다시 표시하려면 **[!UICONTROL 다시 로드]**&#x200B;를 클릭합니다.
 
 >[!IMPORTANT]
 >
->사용자 지정 코드 또는 수정 사항이 있는 경우 VEC 내에서 로드를 취소하도록 선택하여 코딩 또는 변경이 제대로 수행되었는지 확인해야 합니다. 사용자 지정 코드와 기타 수정 사항이 예상대로 전달되도록 하려면 적절한 QA를 수행했는지 확인합니다.
+>페이지 로드를 취소한 후 사용자 지정 코드를 편집하거나 다른 내용을 수정하는 경우 QA(품질 보증) 테스트를 수행하여 변경 사항이 예상대로 전달되는지 확인하십시오.
 
-VEC 내에서 페이지 로드를 취소하려면 페이지를 로드하는 동안 **[!UICONTROL 로드 취소]** 단추를 클릭합니다. 현재 편집 세션 중에는 이 활동에 대한 페이지가 VEC에서 로드되지 않습니다.
+페이지 로드를 중지하려면 페이지를 로드하는 동안 **[!UICONTROL 로드 취소]**&#x200B;를 클릭합니다. 페이지를 다시 로드하지 않는 한 현재 편집 세션 중에 이 활동에 대해 페이지가 언로드된 상태로 유지됩니다.
 
-현재 활동에서 경험을 계속 관리하거나 새로운 수정 사항을 추가하려면 **[!UICONTROL 다시 로드]** 단추를 클릭해야 합니다.
+현재 활동에서 환경 관리를 다시 시작하거나 새로운 수정 사항을 추가하려면 **[!UICONTROL 다시 로드]**&#x200B;를 클릭하세요.

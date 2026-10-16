@@ -8,28 +8,38 @@ exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 TQID: https://experienceleague.adobe.com/E1ck4-aG4txqaFLs3t3-8bN-BQIoY8stRASTRJfhZMY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: '733'
 ht-degree: 47%
-
 ---
-
 # [!UICONTROL 시각적 경험 작성기 구성]
 
 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 구성하십시오.
@@ -57,6 +67,8 @@ ht-degree: 47%
 ### 고급 경험 작성기 활성화 {#eec}
 
 iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트가 확장 버전과 호환되지 않을 수 있습니다. 원래 [!UICONTROL 시각적 경험 작성기]&#x200B;(으)로 되돌리려면 이 옵션을 선택 취소합니다. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
+
+[!UICONTROL 향상된 경험 작성기]는 [!DNL Safari]에서 지원되지 않습니다.
 
 자세한 내용은 [시각적 경험 작성기 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
 
@@ -116,7 +128,7 @@ iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] 및 [!UICONTROL Multivariate Testing] 활동에서는 활동별 설정을 재정의할 수 없습니다.  선택기에 대한 추가 정보는 [&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)시각적 경험 작성기에서 사용되는 요소 선택기를 참조하십시오.
+>[!UICONTROL Automated Personalization] 및 [!UICONTROL Multivariate Testing] 활동에서는 활동별 설정을 재정의할 수 없습니다.  선택기에 대한 추가 정보는 ](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)시각적 경험 작성기에서 사용되는 요소 선택기[를 참조하십시오.
 
 ## 교육 비디오: 계정 환경 설정(7:33) ![개요 배지](/help/main/assets/overview.png)
 
