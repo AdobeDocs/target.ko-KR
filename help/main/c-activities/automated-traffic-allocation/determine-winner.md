@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: cfab6f04bc59cc7480d871f327fde9ce0a2d6e8f
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 20%
+source-wordcount: '1288'
+ht-degree: 19%
 ---
 # [!UICONTROL 자동 할당] 보고서 해석
 
@@ -41,6 +41,8 @@ ht-degree: 20%
 명백한 승자를 선언하면 [!DNL Target]에 &quot;우승자: 경험 *X*&quot; 배지가 표시됩니다.
 
 ![우승자 배지](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
+
+우승자 배지는 [!UICONTROL 활동] 목록에 있는 활동의 정보 팝업에도 표시되므로 [!UICONTROL 자동 할당] 활동을 열지 않고도 상태를 볼 수 있습니다.
 
 >[!NOTE]
 >
@@ -92,6 +94,6 @@ FAQ에 대한 다음 답변을 고려하십시오.
 
 ### [!UICONTROL Analytics를 보고 소스로 사용]&#x200B;(A4T)하는 [!UICONTROL 자동 할당] 활동에 &quot;우승자 없음&quot;, &quot;우승자&quot; 및 &quot;별&quot; 배지를 사용할 수 있습니까?
 
-&quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지는 현재 [!DNL Analysis Workspace]의 [!UICONTROL A4T] 패널에서 사용할 수 없습니다. 같은 보고서를 [!DNL Target]에서 보는 경우에는 이 배지도 사용할 수 없습니다. A4T를 사용하는 [!UICONTROL 자동 할당] 활동에 대한 [!DNL Target] 보고서에 표시된 우승자 &quot;별&quot; 배지는 무시해야 합니다.
+[!UICONTROL 활동] 목록의 활동 정보 팝업에 &quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지가 나타납니다. 이러한 데이터는 [!DNL Analysis Workspace]의 [!UICONTROL A4T] 패널에 나타나지 않거나 [!DNL Target]에서 동일한 보고서를 볼 때 나타나지 않습니다. A4T [!UICONTROL 자동 할당] 활동에 대한 [!DNL Target] 보고서에 우승자 &quot;별&quot; 배지가 표시되면 무시하십시오.
 
 이 제한 사항과 기타 제한 사항 및 메모에 대한 자세한 내용은 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동&#x200B;*에 대한* A4T 지원의 [자동 할당](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)을 참조하십시오.
