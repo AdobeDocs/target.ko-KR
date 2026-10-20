@@ -26,7 +26,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->[!DNL Target]은 URL 프로토콜([!DNL https]와 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com`] 및 [!DNL `https://www.adobe.com`]이(가) 모두 일치합니다.
+>[!DNL Target]은 URL 프로토콜([!DNL https]와 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com/kr`] 및 [!DNL `https://www.adobe.com/kr`]이(가) 모두 일치합니다.
 
 ## 다른 URL 지정
 

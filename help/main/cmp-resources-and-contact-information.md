@@ -149,7 +149,7 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 * © 2023 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[사용 약관](https://www.adobe.com/legal/terms.html)
+[사용 약관](https://www.adobe.com/kr/legal/terms.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. 상표 기호(®, ™ 등) 는 Adobe 상표를 나타냅니다.
 
