@@ -23,7 +23,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->[!DNL Target]은 URL 프로토콜([!DNL https]와 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `https://www.adobe.com`] 및 [!DNL `http://www.adobe.com`]이(가) 모두 일치합니다.
+>[!DNL Target]은 URL 프로토콜([!DNL https]와 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `https://www.adobe.com/kr`] 및 [!DNL `http://www.adobe.com/kr`]이(가) 모두 일치합니다.
 
 기본적으로 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)는 [시각적 경험 작성기 설정](/help/main/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
 

@@ -250,7 +250,7 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 
 * **rel=&quot;canonical&quot;** 사용: 경우에 따라 A/B 테스트에는 변형에 대한 다른 URL이 필요합니다. 이 경우, 모든 변형은 원래(통제) URL을 참조하는 rel=&quot;canonical&quot; 태그를 포함해야 합니다. 예를 들어 [!DNL Adobe]이(가) 각 변형에 대해 서로 다른 URL을 사용하여 홈 페이지를 테스트하는 경우 홈 페이지에 대한 다음 표준 태그를 각 변형의 `<head>` 태그에 배치해야 합니다.
 
-  `<link rel="canonical" href="https://www.adobe.com" />`
+  `<link rel="canonical" href="https://www.adobe.com/kr" />`
 
 * **302(임시) 리디렉션 사용**: 테스트에서 변형 페이지에 별도의 URL을 사용하는 경우 [!DNL Google]에서는 302 리디렉션을 사용하여 트래픽을 테스트 변형으로 전달하는 것을 권장합니다. 302 리디렉션은 테스트가 실행되는 동안에만 리디렉션이 일시적이고 활성임을 검색 엔진에 알립니다.
 

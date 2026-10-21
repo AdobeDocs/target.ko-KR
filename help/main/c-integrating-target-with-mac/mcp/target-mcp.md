@@ -95,7 +95,7 @@ ht-degree: 0%
 
 +++[!DNL Adobe Target] 데이터가 MCP 클라이언트 공급자로 전송되었습니까?
 
-프롬프트를 제출하면 MCP 클라이언트는 관련 컨텍스트(MCP 서버에서 반환된 [!DNL Adobe Target] 데이터 포함)를 처리를 위해 해당 모델로 보낼 수 있습니다. 프로덕션 데이터에 연결하기 전에 MCP 클라이언트 공급자의 개인정보 보호 및 데이터 처리 정책을 검토하십시오. Adobe의 데이터 처리는 [Adobe 개인정보 처리방침](https://www.adobe.com/privacy.html) 및 [데이터 보호 약관](https://www.adobe.com/go/dpt-ww)의 적용을 받습니다.
+프롬프트를 제출하면 MCP 클라이언트는 관련 컨텍스트(MCP 서버에서 반환된 [!DNL Adobe Target] 데이터 포함)를 처리를 위해 해당 모델로 보낼 수 있습니다. 프로덕션 데이터에 연결하기 전에 MCP 클라이언트 공급자의 개인정보 보호 및 데이터 처리 정책을 검토하십시오. Adobe의 데이터 처리는 [Adobe 개인정보 처리방침](https://www.adobe.com/kr/privacy.html) 및 [데이터 보호 약관](https://www.adobe.com/go/dpt-ww)의 적용을 받습니다.
 +++
 
 +++쓰기 작업으로 인해 라이브 활동에 의도하지 않은 변경이 발생할 수 있습니까?
