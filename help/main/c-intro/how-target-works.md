@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 24%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # [!DNL Adobe Target] 작동 방식
 
@@ -236,13 +236,7 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 
 [!DNL Adobe Target]은 테스트를 위한 검색 엔진 지침을 따릅니다.
 
-자세한 내용은 다음 Google 리소스를 참조하십시오.
-
-* [웹 사이트 테스트 및 Google 검색](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [실험 및 클로킹](https://support.google.com/analytics/answer/12979939?hl)
-
-
-지침은 [Google 웹마스터 센터 블로그](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) 게시물에 나와 있습니다. 게시 날짜가 2012년으로 거슬러 올라가지만 이 문제에 대한 [!DNL Google]의 최신 설명으로 남아 있으며 지침은 여전히 적절합니다.
+자세한 내용은 [Google 설명서](https://developers.google.com/search/docs/crawling-indexing/website-testing)를 참조하세요.
 
 * **클로킹 없음**: 클로킹 작업에는 봇을 명확히 식별하고 다른 콘텐츠를 공급함으로써 사용자에게 하나의 콘텐츠 세트와 검색 엔진 봇에 대한 다른 콘텐츠 세트가 표시됩니다.
 
@@ -266,13 +260,7 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 
   또한 테스트 중인 페이지의 접근성을 고려하십시오. 페이지가 검색 엔진에 액세스할 수 없고 유기 검색 순위에 포함될 의도가 없는 경우 이러한 고려 사항이 적용되지 않습니다. 한 가지 예는 이메일 캠페인 전용 랜딩 페이지입니다.
 
-Google에서는 이러한 지침을 따르는 것이 &quot;테스트에서 검색 결과에 있는 여러분의 사이트에 영향을 거의 주지 않거나 전혀 주지 않는다&quot;고 명시합니다.
-
-Google에서는 이 지침 외에도 콘텐츠 실험 도구에 대해 설명서에서 다음과 같은 지침을 하나 더 제공합니다.
-
-* 대안 페이지는 원본 페이지의 콘텐츠와 본질적인 측면에서 동일해야 합니다. 원본 콘텐츠의 의미와 사용자가 원본 콘텐츠에서 인식하는 일반적인 개념이 대안 페이지에서 바뀌지 않는 것이 좋습니다.
-
-Google에서는 한 예로 &quot;사이트의 원본 페이지를 로드한 키워드가 사용자에게 표시되는 조합과 관련이 없을 경우 Google은 해당 사이트를 Google 색인에서 제외할 수 있다&quot;고 명시하고 있습니다.
+Google은 테스트의 변형이 검색 결과 코드 조각 또는 페이지 순위에 거의 영향을 주지 않거나 영향을 주지 않는다고 설명합니다.
 
 [!UICONTROL Adobe]은(는) 테스트 변형 내에서 원래 콘텐츠의 의미를 의도하지 않게 변경하기는 어렵다고 느끼고 있습니다. 그러나 [!UICONTROL Adobe]에서는 페이지의 키워드 테마를 인식하고 해당 테마를 유지 관리할 것을 권장합니다. 특히 관련 키워드를 추가하거나 삭제하는 등의 페이지 콘텐츠 변경은 유기 검색에서 URL에 대한 순위 변경을 초래할 수 있습니다. [!DNL Adobe]는 테스트 프로토콜의 일부로서 SEO 파트너와 협력할 것을 권장합니다.
 
