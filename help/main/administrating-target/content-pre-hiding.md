@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a12dea5df94b20aecd8bf30da62646d01b0b07fe
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '591'
 ht-degree: 1%
 ---
 # 개인화된 경험을 위한 콘텐츠 사전 숨김
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 그러면 플리커 관리 설정이 인스턴스에 적용됩니다.
 
-1. 활성화하면 **[!UICONTROL 다운로드]**&#x200B;를 클릭한 다음 [!DNL at.js] 또는 [!DNL Web SDK] 전에 로드되도록 `<head>` 페이지에 파일을 추가하십시오. 전체 구현 지침은 [콘텐츠 사전 숨김 SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/prehide-sdk)을 참조하십시오.
+1. 활성화하면 **[!UICONTROL 다운로드]**&#x200B;를 클릭한 다음 [!DNL at.js] 또는 [!DNL Web SDK] 전에 로드되도록 `<head>` 페이지에 파일을 추가하십시오. 전체 구현 지침은 [콘텐츠 사전 숨김 SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)을 참조하십시오.
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 인스턴스에 대해 사전 숨김을 사용하도록 설정한 상태에서 각 활동이 **[!UICONTROL 목표 및 설정]**&#x200B;에서 이를 사용하는지 여부를 선택합니다. 사전 숨김을 활성화하는 활동은 라이브 상태일 때 타깃팅된 동작에 포함됩니다.
 
-그런 다음 [!DNL Target]은(는) [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 및 [!UICONTROL 양식 기반 작성기]에서 작성된 라이브 활동에서 간단한 규칙 집합을 만들어 전달이 변경될 수 있는 선택기와 영역을 설명합니다.
+그런 다음 [!DNL Target]은(는) [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)에서 작성된 라이브 활동에서 게재가 변경될 수 있는 선택기와 영역을 설명하는 간단한 규칙 집합을 만듭니다.
 
 활동을 만들거나 편집할 때:
 
