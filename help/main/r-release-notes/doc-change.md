@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c358f8940302be125c1f7ddab4f695846c46580b
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2623'
 ht-degree: 27%
 ---
 # 설명서 변경 내용
@@ -67,7 +67,6 @@ ht-degree: 27%
 |  | [MCP 서버 [!DNL Adobe Target] 시작](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md) | 신규 문서. 사전 요구 사항, 클라이언트 구성 및 문제 해결 등 [!DNL Adobe Target] MCP 서버를 AI Assistant에 연결하는 방법에 대해 알아봅니다. |
 |  | [[!DNL Adobe Target] MCP 서버 — 사용 사례 및 연습](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md) | 신규 문서. [!DNL Adobe Target] MCP 서버에 대한 일반적인 사용 사례와 단계별 프롬프트 연습을 살펴봅니다. |
 |  | [[!DNL Adobe Target] MCP 서버 도구 참조](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | 신규 문서. [!DNL Adobe Target] MCP 서버에서 노출된 모든 읽기 전용 도구에 대한 전체 매개 변수 참조입니다. |
-|  | [MCP 서버를 자체 호스팅 [!DNL Adobe Target] 합니다](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md) | 신규 문서. Python, Docker 또는 로컬 개발 환경을 사용하여 [!DNL Adobe Target] MCP 서버의 자체 인스턴스를 실행하는 방법을 알아봅니다. |
 | 5월 7일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 26.5.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ### [!DNL Target Standard/Premium] 26.1.1 (2026년 1월 18일 월요일)
