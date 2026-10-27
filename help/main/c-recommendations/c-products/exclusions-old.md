@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 30%
 ---
 # 제외
@@ -44,7 +44,7 @@ ht-degree: 30%
 
    ![exclusions_list 이미지](assets/exclusions_list.png)
 
-   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하십시오.
+   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하십시오.
 
 1. **[!UICONTROL 제외 만들기]**&#x200B;를 클릭합니다.
 
@@ -89,4 +89,4 @@ ht-degree: 30%
 * 컬렉션 만들기
 * 제외 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/35499?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

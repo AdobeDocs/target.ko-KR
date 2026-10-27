@@ -1,9 +1,8 @@
 ---
-source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 0%
-
 ---
 # 기여
 
@@ -53,4 +52,4 @@ submitting a pull request!
 
 ## 보안 문제
 
-보안 문제는 이 문제 추적기에 보고하면 안 됩니다. 대신 [보안 전문가에게 문제를 제출하세요](https://helpx.adobe.com/kr/security/alertus.html)
+보안 문제는 이 문제 추적기에 보고하면 안 됩니다. 대신 [보안 전문가에게 문제를 제출하세요](https://helpx.adobe.com/security/alertus.html)

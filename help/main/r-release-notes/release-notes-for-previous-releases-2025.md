@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 2025년 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 TQID: 'https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw'
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '25397'
+source-wordcount: '25402'
 ht-degree: 5%
 ---
 # 이전 릴리스에 대한 릴리스 정보
@@ -98,19 +98,19 @@ ht-degree: 5%
 
 +++세부 정보 보기
 
-* **[!UICONTROL 다변량 테스트] (MVT) 위치 및 그래프 보고 문제로 인해 보고서를 생성할 수 없습니다.** MVT 활동이 Target UI에서 [!UICONTROL 위치 기여도] 및 그래프 보고서를 생성하지 못하고 &quot;문제가 발생했습니다&quot;라는 오류가 표시되는 문제를 해결했습니다. 요청을 완료할 수 없습니다.&quot; 이제 보고서가 UI 내에서 올바르게 로드되어 전체 가시성이 보장됩니다. (TGT-53654)
+* **[!UICONTROL 다변량 테스트](MVT) 위치 및 그래프 보고 문제로 인해 보고서를 생성할 수 없습니다.** MVT 활동이 Target UI에서 [!UICONTROL 위치 기여도] 및 그래프 보고서를 생성하지 못하고 &quot;문제가 발생했습니다&quot;라는 오류가 표시되는 문제를 해결했습니다. 요청을 완료할 수 없습니다.&quot; 이제 보고서가 UI 내에서 올바르게 로드되어 전체 가시성이 보장됩니다. (TGT-53654)
 * [!UICONTROL 요소] 기여 보고서 오류로 인해 **MVT 보고서가 로드되지 않습니다.** MVT 활동 보고서가 Target UI에 로드되지 않고 &quot;요소 기여도 보고서를 가져올 수 없음&quot; 오류가 표시되는 문제가 해결되었습니다. 이제 보고서가 올바르게 표시되므로 요소 기여도를 완전히 볼 수 있습니다. (TGT-53691)
-* **XT(경험 타깃팅) 활동 [!UICONTROL CSV로 주문 세부 사항을 내보냅니다** &#x200B;]XT 활동에 대해 [!UICONTROL 주문 세부 정보를 CSV로 내보내기] 옵션이 잘못 표시되고 빈 파일이 반환되던 문제가 해결되었습니다. 이제 AP 활동에 대해서만 옵션이 표시되므로 정확한 내보내기 기능을 보장하고 혼동을 방지할 수 있습니다. (TGT-53798)
+* **XT(경험 타깃팅) 활동 [!UICONTROL CSV로 주문 세부 사항을 내보냅니다** ]XT 활동에 대해 [!UICONTROL 주문 세부 정보를 CSV로 내보내기] 옵션이 잘못 표시되고 빈 파일이 반환되던 문제가 해결되었습니다. 이제 AP 활동에 대해서만 옵션이 표시되므로 정확한 내보내기 기능을 보장하고 혼동을 방지할 수 있습니다. (TGT-53798)
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
 * **[!UICONTROL 수정 삭제] 단추 문제로 인해 활동 수정 사항을 제거할 수 없습니다.** [!DNL Target] UI의 [!UICONTROL 수정 사항 삭제] 단추가 작동하지 않아 사용자가 활동 내에서 수정 사항을 제거할 수 없는 문제가 해결되었습니다. 이제 버튼이 예상대로 작동하므로 수정 사항을 지연 없이 안정적으로 삭제할 수 있습니다. (TGT-53728)
 * **업데이트된 UI에서 기본 선택기를 인식할 수 없습니다.** 업데이트된 UI에서 `data-target-component-id`과(와) 같은 기본 설정 선택기가 VEC 내의 CSS 선택기 목록에 표시되지 않는 문제를 해결했습니다. 이제 사용자는 동적으로 생성된 클래스 이름 대신 기본 속성을 안정적으로 선택하여 SPA 페이지 업데이트 전반에 걸쳐 안정적인 타겟팅을 보장할 수 있습니다. (TGT-53908)
-* **[!UICONTROL 편집]과(와) [!UICONTROL 개요] 페이지 간에 활동 위치 정렬이 일치하지 않습니다.** [!UICONTROL 개요] 페이지의 활동 위치 번호 매기기가 [!UICONTROL &#x200B; 경험 편집] 페이지에서 수행한 업데이트와 일치하지 않던 문제를 해결했습니다. 이제 위치가 두 보기에서 일관되게 유지되므로 정확한 정렬을 보장하고 위치 누락 또는 번호가 잘못 지정되는 것을 방지할 수 있습니다. (TGT-53960 및 TGT-53954)
+* **[!UICONTROL 편집]과(와) [!UICONTROL 개요] 페이지 간에 활동 위치 정렬이 일치하지 않습니다.** [!UICONTROL 개요] 페이지의 활동 위치 번호 매기기가 [!UICONTROL  경험 편집] 페이지에서 수행한 업데이트와 일치하지 않던 문제를 해결했습니다. 이제 위치가 두 보기에서 일관되게 유지되므로 정확한 정렬을 보장하고 위치 누락 또는 번호가 잘못 지정되는 것을 방지할 수 있습니다. (TGT-53960 및 TGT-53954)
 * **업데이트된 VEC에서 [!UICONTROL 디자인] 모드로 다시 전환할 수 없습니다.** [!UICONTROL 찾아보기] 모드에서 새 페이지로 이동한 후 사용자가 [!UICONTROL 디자인] 모드로 다시 전환할 수 없는 업데이트된 VEC UI의 문제를 해결했습니다. 이제 [!UICONTROL 디자인] 토글이 올바르게 작동하여 페이지 간에 수정 사항을 매끄럽게 적용할 수 있습니다. (TGT-53988 및 TGT-53993)
 * **활동 개요에 쿼리 매개 변수가 표시되지 않습니다.** 활동에 대한 [!UICONTROL 개요] 페이지에 쿼리 매개 변수가 표시되지 않아 [!UICONTROL 개요]와 페이지 배달 URL 간에 불일치가 발생하는 업데이트된 UI의 문제를 해결했습니다. 이제 쿼리 매개 변수가 올바르게 표시되므로 활동 위치가 보기 간에 완전히 표시되고 일관되게 표시됩니다. (TGT-53701)
 
@@ -267,7 +267,7 @@ ht-degree: 5%
 +++세부 정보 보기
 
 * **잘못된 대상 ID로 인해 활동을 복사할 수 없는 문제가 해결되었습니다.** 업데이트된 활동 만들기 프로세스에서 활동을 복사하려는 고객에게 잘못된 대상 ID(예: -1752722444307)로 인해 오류가 발생했습니다. 이 백엔드 유효성 검사 문제로 인해 동일한 작업 영역 내에서 활동이 중복되지 않았습니다. 이 문제는 해결되었으며 이제 대상 관련 오류 없이 활동을 복사할 수 있습니다. (TGT-53717)
-* **[!UICONTROL 콘텐츠 관리] 모달에서 [!UICONTROL Automated Personalization] 활동의 활동 전용 대상에 대해 잘못된 사용자 입력 오류가 표시되는 문제를 해결했습니다.** 고객이 AP 활동에 대한 [!UICONTROL &#x200B; 콘텐츠 관리] 모달에서 활동 전용 대상을 구성할 때 잘못된 사용자 입력 오류가 발생했습니다. 대상이 이전에 성공적으로 사용되었지만 이 문제가 발생했습니다. 이제 결합된 대상 구성이 유효성 검사 오류를 트리거하지 않고 올바르게 저장됩니다. (TGT-53749)
+* **[!UICONTROL 콘텐츠 관리] 모달에서 [!UICONTROL Automated Personalization] 활동의 활동 전용 대상에 대해 잘못된 사용자 입력 오류가 표시되는 문제를 해결했습니다.** 고객이 AP 활동에 대한 [!UICONTROL  콘텐츠 관리] 모달에서 활동 전용 대상을 구성할 때 잘못된 사용자 입력 오류가 발생했습니다. 대상이 이전에 성공적으로 사용되었지만 이 문제가 발생했습니다. 이제 결합된 대상 구성이 유효성 검사 오류를 트리거하지 않고 올바르게 저장됩니다. (TGT-53749)
 
 +++
 
@@ -275,7 +275,7 @@ ht-degree: 5%
 
 +++세부 정보 보기
 
-* **Target별 웹 SDK 문서 페이지를 Adobe Target 저장소로 이동했습니다.** 웹 SDK 문서 재구성의 일부로 [!DNL Target]별 콘텐츠가 일반 웹 SDK 문서에서 [!DNL Adobe Target] [개발자 안내서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}(으)로 마이그레이션되었습니다. 이 변경 사항은 콘텐츠 검색 기능을 향상시키고 솔루션별 지침을 해당 제품 팀이 유지할 수 있도록 합니다. (TGT-53374)
+* **Target별 웹 SDK 문서 페이지를 Adobe Target 저장소로 이동했습니다.** 웹 SDK 문서 재구성의 일부로 [!DNL Target]별 콘텐츠가 일반 웹 SDK 문서에서 [!DNL Adobe Target] [개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}(으)로 마이그레이션되었습니다. 이 변경 사항은 콘텐츠 검색 기능을 향상시키고 솔루션별 지침을 해당 제품 팀이 유지할 수 있도록 합니다. (TGT-53374)
 
 +++
 
@@ -356,7 +356,7 @@ ht-degree: 5%
 * 동일한 데이터 스트림 ID는 서로 다른 샌드박스에 구성된 경우에만 서로 다른 연결에 사용할 수 있습니다.
 * 이 규칙은 &quot;없음&quot;을 선택한 경우를 포함하여 모든 데이터 스트림 선택 사항에 적용됩니다.
 
-이 업데이트는 일관된 구성을 보장하며 다중 샌드박스 환경 간의 충돌을 방지합니다. 자세한 내용은 *Adobe Target 대상* 안내서의 [Experience Platform 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}을 참조하십시오.
+이 업데이트는 일관된 구성을 보장하며 다중 샌드박스 환경 간의 충돌을 방지합니다. 자세한 내용은 *Adobe Target 대상* 안내서의 [Experience Platform 연결](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}을 참조하십시오.
 
 ### [!DNL Target Standard/Premium] 25.9.1(2025년 9월 5일)
 
@@ -407,7 +407,7 @@ ht-degree: 5%
 
   * mbox 매개 변수가 비어 있을 때 규칙 만들기 방지
   * 잘못된 규칙 상태에 대한 적절한 오류 메시지 표시
-  * 피연산자 값이 필요 없는 단항 및 매개 변수 기반 연산자에 대한 유효성 검사 논리 수정
+  * 피연산자 값이 필요하지 않은 단항 및 매개변수 기반 연산자에 대한 검증 논리 수정
   * 저장 기능을 복원하여 단항 연산자로 해시 조각 규칙 활성화
 
   이러한 업데이트는 정확한 규칙 구성을 보장하고 복잡한 페이지 전달 시나리오에서 유용성을 향상시킵니다. (TGT-53722)
@@ -452,7 +452,7 @@ ht-degree: 5%
 * [!UICONTROL 보고서] 섹션의 **[!UICONTROL 그래프 보기]에[!DNL Analytics]**&#x200B;의 값이 표시되지 않음: Re포트 섹션의 [!UICONTROL 그래프 보기]에 액세스하는 고객에게 데이터가 누락되었습니다. 모든 값은 0으로 표시됩니다. 이 문제는 [!UICONTROL Analytics]에서 잘못된 데이터 검색으로 인해 발생했습니다. 이제 [!UICONTROL 그래프 보기]에 예상대로 정확한 값이 표시됩니다. (TGT-52792)
 +++
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
@@ -486,7 +486,7 @@ ht-degree: 5%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++세부 정보 보기
 
@@ -525,7 +525,7 @@ ht-degree: 5%
 +++세부 정보 보기
 
 * **사용자 지정 기준 CSV 다운로드가 404 오류를 반환하는 [!DNL Recommendations] UI의 문제가 해결되었습니다**: 고객이 활동 만들기 프로세스에서 사용자 지정 기준 CSV를 다운로드할 수 없는 문제가 해결되었습니다. 이제 다운로드 링크가 제대로 작동하여 고객이 예상대로 사용자 지정 기준을 내보낼 수 있습니다. (TGT-51966)
-* **[!UICONTROL 카탈로그 검색]**&#x200B;에서 일관되지 않은 이미지 로드 문제 해결: [!UICONTROL &#x200B; 카탈로그 검색]의 썸네일 및 이미지가 활동 만들기 프로세스에서 일관되게 로드되지 않는 문제가 해결되었습니다. 이미지가 나타나지 않는 한 &quot;썸네일 URL&quot; 열이 표시되고 일부 제품 이미지가 탐색 또는 검색 작업 후 부분적으로 로드되거나 전혀 로드되지 않습니다. 이미지 로드 동작이 안정되었으며 이제 열 가시성 또는 탐색 동작에 관계없이 썸네일이 안정적으로 표시됩니다. (TGT-52778)
+* **[!UICONTROL 카탈로그 검색]**&#x200B;에서 일관되지 않은 이미지 로드 문제 해결: [!UICONTROL  카탈로그 검색]의 썸네일 및 이미지가 활동 만들기 프로세스에서 일관되게 로드되지 않는 문제가 해결되었습니다. 이미지가 나타나지 않는 한 &quot;썸네일 URL&quot; 열이 표시되고 일부 제품 이미지가 탐색 또는 검색 작업 후 부분적으로 로드되거나 전혀 로드되지 않습니다. 이미지 로드 동작이 안정되었으며 이제 열 가시성 또는 탐색 동작에 관계없이 썸네일이 안정적으로 표시됩니다. (TGT-52778)
 * **중복된 경험에서 권장 사항을 편집하면 원본 경험에 영향을 주는 문제가 해결되었습니다.**: 중복된 경험에서 권장 사항을 수정하면 의도하지 않게 원본 경험이 변경되었다고 고객이 보고했습니다. 특히 활동 만들기 프로세스에서 경험 B를 복제하고 해당 디자인 또는 기준을 편집한 후에는 별도의 엔티티임에도 불구하고 원래 경험 B에 동일한 변경 사항이 반영되었습니다. 이제 중복된 경험은 별도의 구성을 유지하므로, 한 경험에 대한 편집 내용이 원본에 영향을 주지 않습니다. (TGT-53369)
 * **중복된 경험에 대한 변경 내용이 활동의 원래 경험에 의도하지 않게 영향을 주는 문제를 해결했습니다.**: 고객이 활동 내에서 경험을 복제하고 새 대상을 할당할 때 중복된 경험의 디자인 또는 기준에 대한 변경 내용이 원래 경험에도 반영되었다고 보고했습니다. 이 문제는 원래 버전을 직접 편집하지 않았더라도 발생하며, 동일한 활동 내에서 독립적인 변형을 만드는 기능에 영향을 줍니다. 활동 만들기 프로세스는 이제 복제된 경험을 올바르게 격리하여 한 경험에 대한 편집 내용이 원본에 영향을 주지 않도록 합니다. (TGT-53361)
 * **[!UICONTROL 권장 사항 카탈로그]에서 간헐적으로 전체 제품 특성 데이터를 표시하지 못하는 문제가 해결되었습니다.**: 업데이트된 [!DNL Recommendations] UI에서 데이터가 피드에 존재하더라도 고객에게 메시지와 같은 특정 제품 특성이 [!UICONTROL 카탈로그 검색] 결과에 일관되게 표시되지 않는 문제가 발생했습니다. 이 문제는 고객이 누락된 값을 검색하기 위해 열 가시성을 수동으로 다시 구성해야 했습니다. [!UICONTROL 카탈로그 검색]에 구성된 모든 특성이 안정적으로 표시되므로 열을 수동으로 다시 설정할 필요가 없습니다. (TGT-52769)
@@ -546,7 +546,7 @@ ht-degree: 5%
 
 +++세부 정보 보기
 
-* **자동화된 세그먼트 보고서에 null 대상 값이 표시되던 문제를 해결했습니다**: 고객이 활동 보고서의 [!UICONTROL 자동화된 세그먼트]가 대상 데이터에 대해 null을 표시한다고 보고하여 세그먼트 성능을 정확하게 분석할 수 없습니다. 이 문제는 올바른 대상 데이터가 필요하지만 [!UICONTROL 보고서] 섹션에 액세스하고 [!UICONTROL 자동화된 세그먼트]를 선택할 때 발생했습니다. [!UICONTROL 자동화된 세그먼트]는 이제 대상 값을 올바르게 표시하므로 안정적인 보고 및 세분화 통찰력을 보장합니다. (TGT-52793)
+* **자동화된 세그먼트] 보고서에 null 대상 값이 표시되던 문제를 해결했습니다**: 고객이 활동 보고서의 [!UICONTROL 자동화된 세그먼트]가 대상 데이터에 대해 null을 표시한다고 보고하여 세그먼트 성능을 정확하게 분석할 수 없습니다. [!UICONTROL 이 문제는 올바른 대상 데이터가 필요하지만 [!UICONTROL 보고서] 섹션에 액세스하고 [!UICONTROL 자동화된 세그먼트]를 선택할 때 발생했습니다. [!UICONTROL 자동화된 세그먼트]는 이제 대상 값을 올바르게 표시하므로 안정적인 보고 및 세분화 통찰력을 보장합니다. (TGT-52793)
 
 +++
 
@@ -558,7 +558,7 @@ ht-degree: 5%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
@@ -623,7 +623,7 @@ ht-degree: 5%
 * **제품 메시지가 권장 사항 보기에 표시되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다**: 메시지가 있어도 [!DNL Recommendations] 보기의 [!UICONTROL 메시지] 열에 제품 데이터가 표시되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다. 고객은 콘텐츠를 일시적으로 표시하기 위해 열을 수동으로 제거하고 다시 추가해야 했는데, 스크롤하거나 검색할 때 종종 다시 사라집니다. 이 업데이트는 제품 메시지의 일관된 가시성을 복원하여 카탈로그 탐색 및 검토 워크플로우를 개선합니다. (TGT-52777)
 * **권장 사항 보기에서 &#39;모든 호스트 그룹&#39;을 선택하면 결과가 반환되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다**: [!DNL Recommendations] 보기에서 &#39;모든 호스트 그룹&#39; 환경을 선택하면 결과가 반환되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다. 이제 고객은 모든 호스트 그룹의 제품 데이터를 예상대로 볼 수 있으므로 활동 설정 중 가시성과 필터링 정확성이 향상됩니다. (TGT-53006)
 * **저장한 후 전면 프로모션 전환이 지속되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다.**: 활동 설정에서 전면 프로모션 전환을 사용하지 않도록 설정하는 것이 저장한 후 지속되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다. 전면 프로모션을 제거하려는 고객이 활동 재방문 시 토글이 다시 활성화되어 적절한 사용자 지정이 되지 않았음을 발견했습니다. 이 업데이트를 통해 변경 사항을 안정적으로 저장할 수 있으므로 고객은 프로모션 설정을 완벽하게 제어할 수 있습니다. (TGT-53215)
-* **마지막으로 업데이트한 날짜 열별로 일관되지 않은 정렬 문제를 해결했습니다.** [!UICONTROL 마지막으로 업데이트한 날짜] 열별로 카탈로그를 정렬하면 일관되지 않은 결과가 발생하는 활동 만들기 프로세스의 문제를 해결했습니다. 고객이 업데이트 타임스탬프를 기반으로 제품 데이터를 안정적으로 구성할 수 없어 카탈로그 검토 및 관리가 더욱 어려웠습니다. 이제 정렬이 예상대로 작동하여 업데이트된 UI의 정확도와 유용성이 개선됩니다. (TGT-53116)
+* **마지막으로 업데이트한 날짜] 열별로 일관되지 않은 정렬 문제를 해결했습니다.** [!UICONTROL 마지막으로 업데이트한 날짜] 열별로 카탈로그를 정렬하면 일관되지 않은 결과가 발생하는 활동 만들기 프로세스의 문제를 해결했습니다. [!UICONTROL 고객이 업데이트 타임스탬프를 기반으로 제품 데이터를 안정적으로 구성할 수 없어 카탈로그 검토 및 관리가 더욱 어려웠습니다. 이제 정렬이 예상대로 작동하여 업데이트된 UI의 정확도와 유용성이 개선됩니다. (TGT-53116)
 
 +++
 
@@ -661,7 +661,7 @@ ht-degree: 5%
 
 +++세부 정보 보기
 
-* 컨텐츠 전달에서 올바르게 작동하지만 XF(경험 조각) 컨텐츠가 [!UICONTROL VEC(시각적 경험 작성기) 미리 보기에서 렌더링되지 않는 문제를 해결했습니다. &#x200B;]&#x200B;(TGT-53318)
+* 컨텐츠 전달에서 올바르게 작동하지만 XF(경험 조각) 컨텐츠가 [!UICONTROL VEC(시각적 경험 작성기) 미리 보기에서 렌더링되지 않는 문제를 해결했습니다. ]&#x200B;(TGT-53318)
 
 +++
 
@@ -897,7 +897,7 @@ ht-degree: 5%
 
 +++세부 정보 보기
 
-* 저장하지 않은 변경 내용으로 활동 편집을 취소할 때 확인 경고가 추가되었습니다. &quot;이 활동을 저장하시겠습니까? 저장하지 않으면 변경 내용이 모두 손실됩니다.&quot; 이 메시지는 우발적인 데이터 손실을 방지하는 데 도움이 됩니다. (TGT-52865)
+* 저장하지 않은 변경 내용으로 활동 편집을 취소할 때 확인 경고가 추가되었습니다. &quot;이 활동을 저장하시겠습니까? 저장하지 않으면 변경 사항이 모두 손실됩니다.&quot; 이 메시지는 우발적인 데이터 손실을 방지하는 데 도움이 됩니다. (TGT-52865)
 * [!UICONTROL 목표 및 설정]의 [!UICONTROL 우선 순위] 슬라이더에 레거시 기능을 복원하여 고객이 레거시 UI에서 지원되는 대로 숫자 값을 직접 입력할 수 있도록 했습니다. (TGT-53185 및 TGT-53219)
 
 +++
@@ -910,7 +910,7 @@ ht-degree: 5%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++세부 정보 보기
 
@@ -954,7 +954,7 @@ ht-degree: 5%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
@@ -1009,7 +1009,7 @@ ht-degree: 5%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++세부 정보 보기
 
@@ -1071,7 +1071,7 @@ ht-degree: 5%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
@@ -1232,7 +1232,7 @@ ht-degree: 5%
 * [!DNL Target]이(가) 웹 사이트 URL에서 &quot;#&quot; 문자를 인식하지 못하게 하는 문제를 해결했습니다. (TGT-52093)
 * [!DNL Recommendations] 활동을 편집하여 프로모션을 추가하거나 업데이트하지 못했으며, 이로 인해 저장 실패 및 프로모션 중복이 발생하는 문제를 해결했습니다. (TGT-52343)
 * [!DNL Recommendations] 활동에서 기준이나 디자인을 변경할 수 없어 &quot;잘못된 JSON: 인식할 수 없는 속성 이름&quot; 오류가 발생하는 문제를 해결했습니다. (TGT-52375)
-* [!DNL Recommendations] 활동에 대한 [!UICONTROL VEC(시각적 경험 작성기)에서 시퀀스 기준이 올바르게 표시되지 않는 문제가 수정되었습니다. &#x200B;]&#x200B;(TGT-52435)
+* [!DNL Recommendations] 활동에 대한 [!UICONTROL VEC(시각적 경험 작성기)에서 시퀀스 기준이 올바르게 표시되지 않는 문제가 수정되었습니다. ]&#x200B;(TGT-52435)
 * [!DNL Adobe Experience Platform Web SDK]을(를) 사용할 때 SPA 페이지에서 보기가 올바르게 식별되지 않는 문제를 해결했습니다. (TGT-52106)
 * 일괄 처리 작업 페이로드에 포함되더라도 ODS(온디바이스 의사 결정) 세부 사항이 올바르게 저장되지 않는 문제가 해결되었습니다. (TGT-52406)
 * 편집 중에 읽고 업데이트할 수 있는 `audienceMetadata` 필드를 활동에 추가했습니다. (TGT-51004)
@@ -1246,7 +1246,7 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 [!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you are setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
 For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 -->
@@ -1257,7 +1257,7 @@ For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/
 
 * [!UICONTROL 제품 관리자] 및 [!UICONTROL 시스템 관리자] 권한이 있는 [!DNL Target] 사용자는 이제 [!DNL Target]의 역할에 관계없이 [!UICONTROL 관리] 페이지에서 모든 설정을 편집할 수 있습니다. 이러한 권한이 없는 사용자는 이러한 설정에 대해 읽기 전용 액세스 권한을 갖습니다. 이 업데이트는 [관리 설정](/help/main/administrating-target/administrating-target.md)에 대한 액세스 제어를 강화합니다. (TGT-48179)
 * [사이트 환경 설정](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) 활동을 저장할 수 없는 캐싱 문제를 해결했습니다. (TGT-52213)
-* 고객이 VEC에서 사이트를 로드한 후 [!UICONTROL 사이트 환경 설정] 섹션에서 ID 및 클래스별 선택을 활성화할 수 없는 문제를 해결했습니다. [!UICONTROL 사이트 환경 설정] 설정을 사용하도록 설정한 후에도 사용하지 않도록 자동으로 되돌렸습니다. (TGT-52207)
+* VEC에서 사이트를 로드한 후 고객이 [!UICONTROL 사이트 환경 설정] 섹션에서 ID 및 클래스별 선택을 활성화할 수 없는 문제를 해결했습니다. [!UICONTROL 사이트 환경 설정] 설정을 사용하도록 설정한 후에도 사용하지 않도록 자동으로 되돌렸습니다. (TGT-52207)
 * [페이지 배달](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) URL이 슬래시(/)로 끝났을 때 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)가 올바른 페이지를 표시하지 못하는 문제를 해결했습니다. (TGT-52237)
 * 경험을 변경할 때 사용자 지정 코드 수정 사항을 제거할 수 없는 문제를 해결했습니다. (TGT-52240)
 * VEC의 HTML 수정 사항이 기존 페이지 요소를 오버레이하는 문제를 해결했습니다. (TGT-52265)
@@ -1520,7 +1520,7 @@ For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/
 최신 [!DNL Adobe Spectrum] 디자인 시스템을 기반으로 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않은 디자인 패턴을 표준화합니다.
 
 * 활동 결과에 대한 더 나은 통찰력을 위해 [다시 디자인된 보고](/help/main/administrating-target/reporting.md).
-* [[!UICONTROL 변경 로그]](/help/main/c-activities/change-log.md) 페이지를 업데이트했습니다. 이제 실시간 인사이트를 위해 [[!DNL Audit Query API]](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}에서 정보를 가져옵니다.
+* [[!UICONTROL 변경 로그]](/help/main/c-activities/change-log.md) 페이지를 업데이트했습니다. 이제 실시간 인사이트를 위해 [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}에서 정보를 가져옵니다.
 * 서로 다른 팀 요구 사항에 따라 유연성을 높일 수 있도록 [사용자 지정 가능한 목록 보기](/help/main/c-activities/activities.md)를 제공합니다.
 * 보다 쉽게 정보에 액세스할 수 있도록 [빠른 정보 및 세부 정보 화면을 개선했습니다](/help/main/c-activities/activities.md).
 * [세션 영구 검색 및 필터 옵션](/help/main/c-activities/activities.md).
@@ -1546,7 +1546,7 @@ For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/
 최신 [!DNL Adobe Spectrum] 디자인 시스템을 기반으로 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않은 디자인 패턴을 표준화합니다.
 
 * 이제 [제품 카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md)에 제품의 실시간 동기화를 허용하는 업데이트된 데이터베이스가 있습니다.
-* [[!UICONTROL API를 통해 만든 [권장 사항] 개체([!UICONTROL 기준], [!UICONTROL 디자인], [!UICONTROL 컬렉션], [!UICONTROL 제외])를 이제 UI에서 사용할 수 있습니다]](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
+* [!UICONTROL API를 통해 만든 [권장 사항] 개체([!UICONTROL 기준], [!UICONTROL 디자인], [!UICONTROL 컬렉션], [!UICONTROL 제외])를 이제 UI에서 사용할 수 있습니다](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
 * [권장 사항 설정](/help/main/administrating-target/recommendations-settings.md)이(가) [!UICONTROL 관리] 섹션에 통합되었습니다.
 * 다양한 팀 요구 사항에 대해 더 나은 유연성을 위해 사용자 정의 가능한 목록 보기.
 * [구문 강조 표시 및 줄 번호 매기기](/help/main/c-experiences/c-manage-content/create-json-offer.md)로 HTML 및 JSON 코드 편집기를 새로 고쳤습니다.

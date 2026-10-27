@@ -2,7 +2,7 @@
 keywords: 자동 타겟 만들기;A/B 테스트;자동 타겟 활동;새 a/b 활동;자동 타겟;개인화된 경험에 대한 자동 타겟;개인화된;최적화
 description: '[!DNL Adobe Target]의 [!UICONTROL VEC(시각적 경험 작성기)를 사용하여 [!UICONTROL 자동 타겟] A/B 테스트 활동을 만드는 방법을 알아봅니다.]'
 title: '[!UICONTROL 자동 타겟] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
     internal-label: Auto target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 38%
+source-wordcount: '905'
+ht-degree: 35%
 ---
 # [!UICONTROL 자동 타겟] 활동 만들기
 
@@ -70,7 +70,7 @@ ht-degree: 38%
 
 1. 페이지의 요소를 변경하여 모든 경험을 만듭니다.
 
-   활동을 만든 후 [!UICONTROL 시각적 경험 작성기]에 두 개의 탭(경험 A와 경험 B)이 왼쪽에 표시됩니다. 경험 A는 제어 경험입니다. 포커스는 원하는 대로 수정할 수 있는 경험 B 탭에 있습니다. 경험 B는 테스트에 추가할 수 있는 대체 경험입니다. 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려면 활동에서 경험 A를 삭제할 수도 있습니다.
+   활동을 만든 후 [!UICONTROL 시각적 경험 작성기]에 두 개의 탭(경험 A와 경험 B)이 왼쪽에 표시됩니다. 경험 A는 제어 경험입니다. 포커스는 원하는 대로 수정할 수 있는 경험 B 탭에 있습니다. 경험 B는 테스트에 추가할 수 있는 대체 경험입니다. 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려는 경우 활동에서 경험 A를 삭제할 수도 있습니다.
 
    [!UICONTROL 시각적 경험 작성기]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)를 참조하십시오. 경험 B를 수정하려면 2단계부터 시작하십시오.
 
@@ -127,4 +127,4 @@ ht-degree: 38%
 * [!DNL Adobe Target]에서 [!UICONTROL A/B 테스트] 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/30529?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

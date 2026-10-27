@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1097'
 ht-degree: 21%
 ---
 # 호스트
@@ -87,7 +87,7 @@ ht-degree: 21%
 
 ## 호스트 목록 정렬 또는 검색 {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-[!UICONTROL 호스트] 목록을 정렬하려면 원하는 열 헤더([!UICONTROL 이름], [!UICONTROL 환경] 또는 [!UICONTROL 마지막으로 요청한 &#x200B;])를 클릭하여 목록을 오름차순 또는 내림차순으로 정렬하십시오.
+[!UICONTROL 호스트] 목록을 정렬하려면 원하는 열 헤더([!UICONTROL 이름], [!UICONTROL 환경] 또는 [!UICONTROL 마지막으로 요청한 ])를 클릭하여 목록을 오름차순 또는 내림차순으로 정렬하십시오.
 
 [!UICONTROL 호스트] 목록을 검색하려면 [!UICONTROL 호스트 검색] 상자에 검색어를 입력하십시오.
 
@@ -113,7 +113,7 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->**보안 모범 사례**: [!DNL Target]을(를) 사용하는 경우 이 허용 목록에 추가하다의 ubox 기능은 [리디렉터](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=ko){target=_blank}가 탐색할 수 있는 도메인 목록도 제어합니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가해야 합니다. 허용 목록에 추가하다를 지정하지 않고 [!DNL Adobe]을(를) 지정하지 않으면 리디렉션 URL을 확인할 수 없습니다.
+>**보안 모범 사례**: [!DNL Target]을(를) 사용하는 경우 이 허용 목록에 추가하다의 ubox 기능은 [리디렉터](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}가 탐색할 수 있는 도메인 목록도 제어합니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가해야 합니다. 허용 목록에 추가하다를 지정하지 않고 [!DNL Adobe]을(를) 지정하지 않으면 리디렉션 URL을 확인할 수 없습니다.
 >
 >허용 목록이 환경보다 우선합니다. 허용 목록에 추가하다 기능을 사용하기 전에 허용 목록에 추가하다에서 허용된 호스트를 모두 지운 다음 호스트 목록에 만 나타납니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 

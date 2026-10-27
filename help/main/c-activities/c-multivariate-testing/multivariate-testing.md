@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 47%
+source-wordcount: '1480'
+ht-degree: 46%
 ---
 # [!UICONTROL 다변량 테스트] 개요
 
@@ -110,13 +110,13 @@ Target의 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testi
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### 다변량 테스트 만들기(9:25) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
-이 비디오에서는 Target의 안내가 있는 3단계 워크플로우를 사용하여 다변량 테스트를 이해하고 계획하고 만드는 방법을 설명합니다.
+이 비디오에서는 [!DNL]Target의 안내가 있는 3단계 워크플로우를 사용하여 다변량 테스트를 이해하고 계획하고 만드는 방법을 설명합니다.
 
 * 다변량 테스트 정의 및 디자인
 * 다변량 테스트 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

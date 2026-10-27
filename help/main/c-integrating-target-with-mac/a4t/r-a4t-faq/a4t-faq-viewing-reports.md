@@ -1,6 +1,6 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;보고서;보고서;보고서 보기;보고;계산 방법론;노출 횟수;방문자 수;방문 횟수;기본 지표;활동 전환;지정되지 않음
-description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 보고서를 보는 것과 관련하여 자주 묻는 질문에 대한 답변을 찾아보십시오. A4T를 사용하면 [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
+description: Analytics for [!DNL Target](A4T)을(를) 사용할 때 보고서를 보는 것과 관련하여 자주 묻는 질문에 대한 답변을 찾아보십시오. A4T를 사용하면 [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
 title: A4T를 사용하여 보고서를 보는 것과 관련된 질문에 대한 답변을 찾으시나요?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 27%
+source-wordcount: '2716'
+ht-degree: 26%
 ---
 # 보고서 보기 - A4T FAQ
 
@@ -100,7 +100,7 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 +++답변
 [!DNL Reports & Analytics]은(는) &quot;활동 노출 수&quot; 및 &quot;활동 전환&quot;에 동일한 터치 속성 모델을 적용하지만 [!DNL Analysis Workspace]은(는) [!DNL Target] 차원의 지속성으로 인해 부풀려진 것처럼 보일 수 있는 원시 지표를 표시합니다.
 
-[!DNL Analysis Workspace]에서 정확한 [!UICONTROL 활동 노출 수] 및 [!UICONTROL 활동 전환] 지표를 평가하려면 두 지표 모두에 [!UICONTROL 동일한 터치] 속성 모델이 적용되어 있는지 확인하십시오. 열 설정 톱니바퀴를 클릭하고 [!UICONTROL 기본값이 아닌 속성 모델]을 활성화한 다음 [!UICONTROL 동일한 터치]를 선택하여 모델을 적용할 수 있습니다. *Analytics 도구 안내서*&#x200B;의 [특성 IQ 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=ko)에서 특성에 대해 자세히 알아보세요.
+[!DNL Analysis Workspace]에서 정확한 [!UICONTROL 활동 노출 수] 및 [!UICONTROL 활동 전환] 지표를 평가하려면 두 지표 모두에 [!UICONTROL 동일한 터치] 속성 모델이 적용되어 있는지 확인하십시오. 열 설정 톱니바퀴를 클릭하고 [!UICONTROL 기본값이 아닌 속성 모델]을 활성화한 다음 [!UICONTROL 동일한 터치]를 선택하여 모델을 적용할 수 있습니다. *Analytics 도구 안내서*&#x200B;의 [특성 IQ 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html)에서 특성에 대해 자세히 알아보세요.
 
 +++
 
@@ -114,7 +114,7 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 ## [!DNL Analytics] 보고서에 &quot;지정되지 않음&quot;이 표시되는 이유는 무엇입니까? 어떤 의미입니까? {#unspecified}
 
 +++답변
-기타 보고서에서 &quot;지정되지 않음&quot;은 데이터가 분류 규칙과 일치하지 않음을 의미하지만 A4T에서는 그렇지 않습니다. &quot;지정되지 않음&quot;이 표시되는 경우 분류 서비스가 아직 실행되지 않은 것입니다. 활동 데이터가 보고서에 표시되려면 일반적으로 24~72시간이 걸립니다. 이 시간까지 보고서에 활동 데이터가 표시되지 않더라도 해당 활동과 연관된 모든 방문자 데이터는 캡처되어 분류가 완료되면 표시됩니다.
+기타 보고서에서 &quot;지정되지 않음&quot;은 데이터가 분류 규칙과 일치하지 않음을 의미하지만 A4T에서는 그렇지 않습니다. &quot;지정되지 않음&quot;이 표시되면 분류 서비스가 아직 실행되지 않은 것입니다. 활동 데이터가 보고서에 표시되려면 일반적으로 24~72시간이 걸립니다. 이 시간까지 보고서에 활동 데이터가 표시되지 않더라도 해당 활동과 연관된 모든 방문자 데이터는 캡처되어 분류가 완료되면 표시됩니다.
 
 분류 기간 후에 데이터는 웹 사이트에서 수집되고 약 1시간 후에 보고서에 표시됩니다. 보고서에 있는 모든 지표, 세그먼트, 값은 활동을 설정할 때 선택한 보고서 세트에서 가져옵니다.
 
@@ -143,7 +143,7 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-사용자는 2월 1일에 돌아가서 5개의 페이지를 더 보고 더 이상 Target 활동이 발생하지 않으며, 원래 활동이 더 이상 활성화되지 않습니다. 활동은 더 이상 활성 상태가 아니지만 eVar 지속성을 통해 여전히 사용자를 따라 가고 있습니다. 이제 데이터는 다음과 같습니다.
+사용자는 2월 1일에 돌아가서 5개의 페이지를 더 보고 더 이상 Target 활동을 접할 수 없으며 원래 활동이 더 이상 활성화되지 않습니다. 활동은 더 이상 활성 상태가 아니지만 eVar 지속성을 통해 여전히 사용자를 따라 가고 있습니다. 이제 데이터는 다음과 같습니다.
 
 | 활동 이름 | 인스턴스(노출 횟수) | 페이지 보기 횟수 | 방문 횟수 | 고유 방문자 수 |
 |--- |--- |--- |--- |--- |
@@ -166,27 +166,27 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 
 두 경험 모두 전환 전에 표시되었기 때문에 두 경험 모두 주문에 대한 &quot;크레딧&quot;을 받습니다. 그러나 주문은 시스템에서 하나만 발생했고 합계에 이렇게 반영됩니다. [!DNL Target] 보고의 경우 다른 활동에 대해 [!DNL Target] 활동을 적용하여 어느 활동이 더 성공적인지 확인하지 않으므로 사용자가 본 모든 활동이 크레딧을 받은 것은 문제가 되지 않습니다. 단일 활동 내에 있는 두 항목의 결과를 비교하고 있습니다. 사용자가 동일한 활동에서 다른 경험을 볼 수 없으므로 주문 크레딧의 교차 오염에 대해 걱정할 필요가 없습니다.
 
-자세한 내용은 *Analytics 관리 안내서*&#x200B;의 [전환 변수(eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=ko))를 참조하십시오.
+자세한 내용은 *Analytics 관리 안내서*&#x200B;의 [전환 변수(eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html))를 참조하십시오.
 
 +++
 
 ## 내 활동이 비활성화된 후에 계속해서 더 많은 인상을 확인하는 이유가 무엇입니까? {#deactivated}
 
 +++답변
-비활성화 후 A4T 활동의 보고서에 대한 노출 횟수의 소스는 QA 모드 트래픽일 수 있습니다. Target은 일반적으로 비활성화된 활동에 대한 이벤트를 기록하지 않지만 Analytics에서는 QA 모드에서 노출 수가 증가하고 있음을 알 수 있는 방법이 없습니다. Analytics에서 Target 활동 보고서를 검색하면 다음 노출 수가 표시됩니다. 이는 고객이 QA 모드를 사용하여 활동이 활성화되지 않은 경우에도 A4T 보고서를 확인할 수 있는 방법이 필요하기 때문에 설계된 대로 작동합니다.
+비활성화 후 A4T 활동의 보고서에 대한 노출 횟수의 소스는 QA 모드 트래픽일 수 있습니다. 일반적으로 Target은 비활성화된 활동에 대한 이벤트를 기록하지 않지만 Analytics에서는 QA 모드에서 노출 수가 증가하고 있음을 알 수 있는 방법이 없습니다. Analytics에서 Target 활동 보고서를 검색하면 다음 노출 수가 표시됩니다. 이는 고객이 QA 모드를 사용하여 활동이 활성화되지 않은 경우에도 A4T 보고서를 확인할 수 있는 방법이 필요하기 때문에 설계된 대로 작동합니다.
 
 +++
 
 ## [!DNL Analytics] 및 [!UICONTROL Analytics for Adobe Target]&#x200B;(A4T)에서 [!UICONTROL 고유 방문자 수] 지표에 대한 숫자를 다르게 계산하는 이유는 무엇입니까? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++답변
-[Welch의 t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}(신뢰도 지표)를 사용하여 테스트 승자를 선택하는 A/B 테스트를 실행할 때 가정 중 하나는 고정된 시간대가 있다는 것입니다. 고정된 샘플 크기를 확인하지 않는 한 테스트는 통계적으로 유효하지 않습니다.
+[Welch의 t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}(신뢰도 지표)를 사용하여 테스트 승자를 선택하는 A/B 테스트를 실행할 때 가정 중 하나는 고정된 시간대가 있다는 것입니다. 고정된 샘플 크기를 보지 않는 한 테스트는 통계적으로 유효하지 않습니다.
 
 [!UICONTROL 고유 방문자 수] 지표는 실제 테스트보다 짧은 기간을 보는 경우에만 [!DNL Analytics]과(와) [!DNL Target]에서 다릅니다. 샘플 크기에 도달하지 않은 경우 테스트를 신뢰할 수 없습니다. 자세한 내용은 [Evan Miller의 웹 사이트](https://www.evanmiller.org/index.html)에서 [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)&#x200B;(A/B 테스트를 실행하지 않는 방법)를 참조하십시오.
 
 [!UICONTROL 고유 방문자 수] 지표는 지정된 기간 동안 사이트를 방문한 테스트에 노출된 사람 수를 표시합니다. 이 사람들은 시험의 일부이므로 계산되어야 합니다. 한 주 동안 노출된 사용자 수만 보려는 경우, 활동 노출이 있는 방문자 세그먼트를 만들어 보고서에 적용할 수 있습니다.
 
-[!DNL Target] 변수가 세션까지 지속되는 시간을 줄일 수 있지만, 전환 이벤트가 동일한 세션 내에서 발생할 가능성이 없는 테스트에는 문제가 있습니다.
+[!DNL Target] 변수가 세션까지 지속되는 시간을 단축할 수 있지만 전환 이벤트가 동일한 세션 내에서 발생할 가능성이 낮은 테스트에는 문제가 있습니다.
 
 +++
 
@@ -238,7 +238,7 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 [!DNL Analysis Workspace]에서 활동 노출 횟수를 보려면:
 
 1. [!DNL Target] UI에서 **[!UICONTROL Analytics에서 보기]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 활동 노출 수]** 열을 [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko){target=_blank} 보고서에 추가합니다.
+1. **[!UICONTROL 활동 노출 수]** 열을 [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} 보고서에 추가합니다.
 1. **[!UICONTROL 활동 노출 수]** 열에서 [!UICONTROL 톱니바퀴] 아이콘을 클릭합니다.
 1. **[!UICONTROL 기본값이 아닌 속성 모델 사용]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 동일한 터치 모델]** > **[!UICONTROL 적용]**&#x200B;을 선택합니다.

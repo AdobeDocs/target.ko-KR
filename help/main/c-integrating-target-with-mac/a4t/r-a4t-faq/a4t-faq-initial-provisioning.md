@@ -1,6 +1,6 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4t;사용 권한 제공;사용 권한 제공;adobe Experience Cloud
-description: '[!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있는 [!DNL Target] (A4T)용 Analytics 프로비저닝에 대해 자주 묻는 질문에 대한 답변을 찾아보십시오.'
+description: '[!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있는 [!DNL Target](A4T)용 Analytics 프로비저닝에 대해 자주 묻는 질문에 대한 답변을 찾아보십시오.'
 title: A4T 초기 프로비저닝에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 61%
+source-wordcount: '479'
+ht-degree: 57%
 ---
 # 초기 사용 권한 제공 - A4T FAQ
 
@@ -62,7 +62,7 @@ Analytics 및 Target에 액세스할 수 있는 Experience Cloud 그룹 중 하�
 
 +++
 
-## Target에 Analytics 선택 사항이 표시되지 않는 이유는 무엇입니까? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Target에 Analytics 옵션이 표시되지 않는 이유는 무엇입니까? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++답변
 위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 위. 이 문제의 근본 원인은 같습니다.

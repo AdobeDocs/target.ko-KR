@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 33%
+source-wordcount: '829'
+ht-degree: 31%
 ---
 # 모바일
 
@@ -36,7 +36,7 @@ ht-degree: 33%
 
 장치 검색은 사용자-에이전트 문자열을 분석하여 수행됩니다. Apple과 같은 일부 장치 제조업체에서는 UA에서 충분한 정보를 제공하지 않음으로써 이 기능을 비활성화합니다.
 
-예를 들어, Apple 장치는 UA에서 장치 모델별 토큰을 공유하지 않습니다. 따라서 간단한 키워드 기반 방법을 사용하여 iPhone 모델(예: iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max 등)을 감지할 수 없습니다.
+예를 들어 Apple 디바이스는 UA에서 디바이스 모델별 토큰을 공유하지 않습니다. 따라서 간단한 키워드 기반 방법을 사용하여 iPhone 모델(예: iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max 등)을 감지할 수 없습니다.
 
 이 문제를 해결하기 위해 [!DNL Target]은(는) 다음 매개 변수를 사용하여 iPhone 및 기타 Apple 장치를 정확하게 검색하기 위해 추가 데이터를 수집합니다.
 

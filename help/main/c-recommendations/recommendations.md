@@ -2,7 +2,7 @@
 keywords: 권장 사항;권장 사항 기준;권장 사항 알고리즘;권장 사항 활동;기준;권장 사항 타기팅;recs
 description: 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe [!DNL Target]의 권장 사항 활동에 대해 알아봅니다.
 title: '[!DNL Target] 추천이란?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 TQID: 'https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 91%
+source-wordcount: '872'
+ht-degree: 88%
 ---
 # 추천
 
@@ -89,7 +89,7 @@ ht-degree: 91%
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 <!--
 ## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}

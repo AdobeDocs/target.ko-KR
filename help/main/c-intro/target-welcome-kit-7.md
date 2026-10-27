@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1754'
 ht-degree: 69%
 ---
 # 7장: 첫 번째 [!DNL Target] 활동 만들기 및 실행
@@ -126,4 +126,4 @@ A/B 테스트 설정 워크플로의 두 번째 단계에서 [자동 타겟](/he
 
 ## [!DNL Target]을 열고 활동 만들기 및 시작
 
-Activity Planner를 작성했습니다. 이제 솔루션을 시작하고 활동을 구축해야 할 때입니다. [!DNL Target]을(를) 사용하면 [!UICONTROL 시각적 경험 작성기]에서 웹 페이지를 쉽게 수정할 수 있습니다.
+Activity Planner를 작성했습니다. 이제 솔루션을 시작하고 활동을 구축해야 합니다. [!DNL Target]을(를) 사용하면 [!UICONTROL 시각적 경험 작성기]에서 웹 페이지를 쉽게 수정할 수 있습니다.

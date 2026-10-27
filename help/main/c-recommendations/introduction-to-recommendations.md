@@ -2,7 +2,7 @@
 keywords: 추천;소개;소개;웨비나;데모
 description: 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe [!DNL Target]의 권장 사항 활동에 대해 알아봅니다.
 title: 추천 활동이란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 TQID: 'https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks'
@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2111'
-ht-degree: 82%
+source-wordcount: '2121'
+ht-degree: 79%
 ---
 # 추천 소개
 
@@ -51,7 +51,7 @@ Adobe는 소매점에서 사용하는 모든 종류의 추천에 대해 알고 �
 
 ![다른 사람이 새 휴대폰과 함께 구입한 액세서리를 보여 주는 추천.](/help/main/c-recommendations/assets/intro-1.png)
 
-그러나 우리가 항상 생각하지 않는 것은 어떻게 디지털 중심 브랜드들이 고객 기대치를 높이는 가에 관한 것입니다. 미디어와 콘텐츠를 소비하는 방법은 점차 개인화된 추천에 의해 좌우되고 있습니다. Netflix, Spotify 또는 YouTube를 열 때 가장 먼저 보게 되는 것을 생각해 보십시오. 이러한 브랜드는 추천과 함께 고객 경험을 시작합니다. 그 어느 때보다 많은 대안이 제공되는 세상에서는 상호 작용 시점에서 고객과 가장 관련성이 높은 콘텐츠를 식별할 수 있어야 합니다.
+그러나 우리가 항상 생각하지 않는 것은 디지털 중심의 브랜드가 어떻게 고객 기대치를 높이는 가입니다. 미디어와 콘텐츠를 소비하는 방법은 점차 개인화된 추천에 의해 좌우되고 있습니다. Netflix, Spotify 또는 YouTube를 열 때 가장 먼저 보게 되는 것을 생각해 보십시오. 이러한 브랜드는 추천과 함께 고객 경험을 시작합니다. 그 어느 때보다 많은 대안이 제공되는 세상에서는 상호 작용 시점에서 고객과 가장 관련성이 높은 콘텐츠를 식별할 수 있어야 합니다.
 
 ![디지털 중심 브랜드를 보여 주는 추천](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -78,9 +78,9 @@ Adobe는 소매점에서 사용하는 모든 종류의 추천에 대해 알고 �
 
 우수한 추천은 연관성이 있고 개인화되어야 합니다. 즉, 연관성과 개인화를 위해서는 3가지가 필요합니다.
 
-* **마케팅 담당자의 제어**: 추천 항목의 연관성을 높임. 마케팅 담당자는 중요한 컨텍스트를 테이블로 가져와 제품 또는 콘텐츠의 어떤 속성이 추천 모델과 관련이 있는지 알고 있습니다. 비디오 사이트를 운영하는 경우 사용자가 동일한 감독의 영화를 보는 데 관심이 있을 수 있지만 동일한 스튜디오에서 제작한 영화를 보는 것에는 관심이 없을 수 있습니다. [!DNL Target] 은 이 도메인 지식을 사용하여 알고리즘을 개선할 수 있는 제어 기능을 제공합니다.
+* **마케팅 담당자의 제어**: 추천 항목의 연관성을 높임. 마케팅 담당자는 중요한 컨텍스트를 테이블로 가져와 제품 또는 콘텐츠의 어떤 속성이 추천 모델과 관련이 있는지 알고 있습니다. 비디오 사이트를 운영하는 경우 사용자가 동일한 감독의 영화를 보는 데 관심이 있을 수 있지만 동일한 스튜디오에서 제작한 영화를 보는 데는 관심이 없을 수도 있습니다. [!DNL Target] 은 이 도메인 지식을 사용하여 알고리즘을 개선할 수 있는 제어 기능을 제공합니다.
 * **정교한 모델**: 카탈로그 및 상호 작용 이벤트에서 수백만 개의 항목을 파악. [!DNL Target] 은 10년 이상의 경험을 바탕으로 한 정교한 머신 러닝 기능을 갖추고 있으며 매년 수십 억 건의 추천을 처리합니다.
-* **사용자 컨텍스트**: 추천이 적시에 적절한 사용자에게 제공되도록 함. 누군가 방금 본 비디오나 누군가가 방금 장바구니에 추가한 셔츠를 추천하고 싶지 않을 것입니다. Target의 풍부한 사용자 프로필을 추천에 사용하여 개인화를 보장할 수 있습니다.
+* **사용자 컨텍스트**: 추천이 적시에 적절한 사용자에게 제공되도록 함. 누군가 방금 본 비디오나 누군가가 방금 장바구니에 추가한 셔츠를 추천하고 싶지 않습니다. Target의 풍부한 사용자 프로필을 추천에 사용하여 개인화를 보장할 수 있습니다.
 
 ## [!DNL Target] 추천 구현
 
@@ -174,7 +174,7 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 예를 들어 콘텐츠 컨텍스트에서 추천에 모든 영화를 포함하고 NC-17 등급의 영화는 제외할 수 있습니다. 소매 환경에서는 전 세계 다른 지역의 여러 브랜드를 사용할 수 있지만 미국에서 구할 수 있는 제품만 추천할 수 있습니다. 지역 개인 레이블의 제품을 제외시킬 수도 있습니다.
 
-이는 여러 추천에 사용할 수 있고 자주 변경되지 않을 것으로 예상되며 광범위하게 적용 가능한 모든 카탈로그 속성입니다.
+이는 여러 권장 사항에 사용할 수 있고 자주 변경되지 않을 것으로 예상되며 광범위하게 적용 가능한 모든 카탈로그 속성입니다.
 
 ### 알고리즘(추천 키 및 논리)
 

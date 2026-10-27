@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1148'
 ht-degree: 24%
 ---
 # 원격 오퍼 만들기
@@ -56,7 +56,7 @@ ht-degree: 24%
 * 원격 오퍼는 다음 위치에서 지원되지 않습니다.
 
   * [프리미엄 기능](/help/main/c-intro/intro.md#premium)(Automated Personalization(AP), 자동 타겟 및 권장 사항)
-  * 원격 오퍼를 지원하지 않는 VEC에 의존하기 때문에 Multivariate Testing(MVT)가 발생합니다.
+  * Multivariate Testing(MVT)는 원격 오퍼를 지원하지 않는 VEC에 의존하기 때문에
 
 * 오퍼가 [!DNL Target] 요청과 동일한 도메인에 있는 경우 [!UICONTROL 캐시됨] 옵션을 사용하면 오퍼 위치를 설명하는 데 상대 URL을 사용할 수 있습니다.
 

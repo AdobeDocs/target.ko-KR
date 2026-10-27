@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;tls;tls 1.2
-description: '[!UICONTROL 시각적 경험 작성기] (VEC)에서 문제를 해결하는 방법을 알아봅니다.'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)에서 문제를 해결하는 방법을 알아봅니다.'
 title: '[!UICONTROL 시각적 경험 작성기]와 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # [!UICONTROL 시각적 경험 작성기]와 관련된 문제 해결
 
@@ -54,7 +54,7 @@ ht-degree: 29%
 
 * 페이지에 mbox가 없습니다.
 * 사이트가 프록시 차단을 사용하여 어떤 경험 작성기에서도 페이지를 열 수 없습니다.
-* 사이트가 자체적으로 iFrame에서 열리는 것을 허용하지 않습니다.
+* 귀하의 사이트는 iFrame에서 자신을 열 수 없습니다.
 
 [!UICONTROL 향상된 경험 작성기]에 문제가 발생하면 [!UICONTROL 향상된 경험 작성기]를 끄고 대신 [!UICONTROL 시각적 경험 작성기]를 사용하십시오.
 
@@ -169,7 +169,7 @@ ht-degree: 29%
 ## [!UICONTROL 찾아보기] 모드를 사용하면 VEC가 손상된 것으로 나타납니다. (VEC만 해당) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++세부 사항
-[!UICONTROL 찾아보기] 모드를 사용하는 동안 [!DNL Target] 라이브러리가 구현되지 않은 URL([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=ko){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank})에 액세스하거나 Frame-Buster 헤더를 포함하는 경우 VEC가 손상된 것으로 표시됩니다. 브라우저 보안 문제로 인해 [!DNL Target]이(가) 탐색한 URL에 제대로 액세스할 수 없거나 페이지가 로드될 경우 VEC URL이 일관되게 업데이트되지 않습니다.
+[!UICONTROL 찾아보기] 모드를 사용하는 동안 [!DNL Target] 라이브러리가 구현되지 않은 URL([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})에 액세스하거나 Frame-Buster 헤더를 포함하는 경우 VEC가 손상된 것으로 표시됩니다. 브라우저 보안 문제로 인해 [!DNL Target]이(가) 탐색한 URL에 제대로 액세스할 수 없거나 페이지가 로드될 경우 VEC URL이 일관되게 업데이트되지 않습니다.
 
 이 문제는 VEC가 `<iframe>`에서 웹 페이지를 로드하기 때문에 발생합니다. 브라우저의 현재 보안 메커니즘은 동일한 원본 정책으로 인해 [!DNL Target] UI가 지정된 프레임의 요소에 액세스하지 못하도록 합니다. 브라우저는 `location.href`과(와) 같은 정보를 포함하는 다른 원본의 프레임에 액세스하려는 스크립트를 차단합니다.
 

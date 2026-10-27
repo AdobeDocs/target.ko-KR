@@ -7,19 +7,22 @@ exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 TQID: https://experienceleague.adobe.com/72tenrUdLD52p36hO1O70-zhr1Cg0jTVLfKXUR7iNhU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: '742'
 ht-degree: 18%
-
 ---
-
 # mbox3rdPartyId에 대한 실시간 프로필 동기화
 
 [!DNL Adobe Target]의 `mbox3rdPartyId`은(는) 회사의 충성도 프로그램을 위한 멤버십 ID와 같은 회사의 방문자 ID입니다.
@@ -49,23 +52,23 @@ ht-degree: 18%
 
 ## 고려 사항 {#considerations}
 
-* 페이지에 여러 개의 mbox가 있고 일부만 `3rdPartyID`을(를) 사용하는 경우 [!DNL Target]에는 각 방문자 요청에 대해 별도의 방문자 프로필/컨텍스트가 없습니다. `3rdPartyID` 컨텍스트는 PCID 컨텍스트보다 우선합니다. 한 mbox가 해당 컨텍스트에 대해 `3rdPartyId`을(를) PCID보다 우선하도록 전달하는 것으로 충분합니다.
+* 페이지에 여러 개의 mbox가 있고 일부만 `3rdPartyID`을(를) 사용하는 경우 [!DNL Target]에는 각 방문자 요청에 대해 별도의 방문자 프로필/컨텍스트가 없습니다. `3rdPartyID` 컨텍스트는 PCID 컨텍스트보다 우선합니다. 한 mbox가 해당 컨텍스트에 대해 `3rdPartyId`을(를) 전달하여 PCID보다 우선하는 것으로 충분합니다.
 
   예를 들어 방문자가 로그인하기 전에 페이지에 액세스하여 경험을 본다고 가정해 보겠습니다. 글로벌 mbox에서 `3rdPartyID`을(를) 사용하지 않습니다. 로그인 후 방문자는 세 개의 경험 중 하나를 하위 mbox로 보고, 일부는 `3rdPartyID`을(를) 사용합니다. 방문자는 사이트에서 다양한 페이지를 방문한 다음 뒤로 단추를 사용하여 로그인하기 전에 액세스한 기본 페이지로 돌아가서 다른 경험을 봅니다. 이 시나리오에서는 글로벌 mbox가 `3rdPartyID`을(를) 전달하지 않았지만 하나 이상의 하위 mbox가 전달했습니다. `3rdPartyID`이(가) PCID보다 우선했습니다.
 
 * 다음 두 가지 방법을 사용하여 방문자의 고객 ID를 [!DNL Target]&#x200B;(으)로 보낼 수 있습니다.
 
-   1. `mbox3rdPartyId`/`thirdPartyId` 사용
+  1. `mbox3rdPartyId`/`thirdPartyId` 사용
 
-      * `mbox3rdPartyId`은(는) `targetPageParams` 또는 `targetPageParamsAll`을(를) 사용할 때의 매개 변수 이름입니다.
-      * `thirdPartyId`은(는) 배달 API 페이로드에서 직접 설정한 매개 변수 이름입니다.
-      * 이 매개 변수에는 값을 하나만 보낼 수 있습니다.
+     * `mbox3rdPartyId`은(는) `targetPageParams` 또는 `targetPageParamsAll`을(를) 사용할 때의 매개 변수 이름입니다.
+     * `thirdPartyId`은(는) 배달 API 페이로드에서 직접 설정한 매개 변수 이름입니다.
+     * 이 매개 변수에는 값을 하나만 보낼 수 있습니다.
 
-   1. ECID 서비스의 `setCustomerId`/`customerIds` 함수를 사용합니다.
+  1. ECID 서비스의 `setCustomerId`/`customerIds` 함수를 사용합니다.
 
-      * `setCustomerId`은(는) 페이지에서 VisitorAPI.js를 사용할 수 있을 때 클라이언트측(브라우저) 구현에서 사용할 수 있는 함수입니다.
-      * `customerIds`은(는) 배달 API 페이로드에서 직접 설정할 때 사용되는 매개 변수 이름으로, 일반적으로 서버측 또는 IOT(사물인터넷) 구현에서 수행됩니다.
-      * `mbox3rdPartyId`/`thirdPartyId`과(와) 달리 이 방법에서는 여러 ID를 목록으로 보낼 수 있지만, [!DNL Target]은(는) TnT ID당 하나의 고객 ID만 지원하므로 알려진 별칭(고객 특성 UI에 구성된 별칭)이 있는 목록의 첫 번째 ID를 사용합니다.
+     * `setCustomerId`은(는) 페이지에서 VisitorAPI.js를 사용할 수 있을 때 클라이언트측(브라우저) 구현에서 사용할 수 있는 함수입니다.
+     * `customerIds`은(는) 배달 API 페이로드에서 직접 설정할 때 사용되는 매개 변수 이름으로, 일반적으로 서버측 또는 IOT(사물인터넷) 구현에서 수행됩니다.
+     * `mbox3rdPartyId`/`thirdPartyId`과(와) 달리 이 방법에서는 여러 ID를 목록으로 보낼 수 있지만, [!DNL Target]은(는) TnT ID당 하나의 고객 ID만 지원하므로 알려진 별칭(고객 특성 UI에 구성된 별칭)이 있는 목록의 첫 번째 ID를 사용합니다.
 
   [!DNL Target]이(가) 유일한 [!DNL Adobe Experience Cloud] 솔루션이고 고객 특성을 사용하지 않으려는 경우 `mbox3rdPartyId`/`thirdPartyId`을(를) 사용할 수 있습니다. 다른 모든 경우에는 고객 ID를 보낼 때 `setCustomerId`/`customerIds`을(를) 사용하는 것이 좋습니다.
 

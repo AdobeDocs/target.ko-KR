@@ -2,7 +2,7 @@
 keywords: 포함 규칙;포함 기준;권장 사항;새 기준 만들기;프로모션;판촉;동적 필터링;동적;비어 있는 값;필터링 규칙 무시;정적 필터;값으로 필터링;엔티티 속성 일치;프로필 속성 일치;매개 변수 일치;값으로 필터링 정적 필터
 description: 기준 및 프로모션에 대한 Adobe [!DNL Target] 권장 사항에서 포함 규칙을 만드는 방법을 알아봅니다. 더 나은 결과를 얻으려면 동적 또는 정적 필터링 규칙을 더 추가합니다.
 title: Recommendations에서 동적 및 정적 포함 규칙을 사용하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 15%
+source-wordcount: '2113'
+ht-degree: 13%
 ---
 # 동적 및 정적 포함 규칙 사용
 
@@ -107,7 +107,7 @@ ht-degree: 15%
 
 | 액션 | 사용 가능한 경우 | 세부 사항 |
 |--- |--- |--- |
-| [!UICONTROL 이 필터링 규칙 무시] | [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에 대한 기본값입니다.<br>이 옵션은 규칙이 무시되도록 지정합니다. 예를 들어 세 개의 필터링 규칙이 있고 세 번째 규칙이 어떤 값도 전달하지 않는 경우, 결과를 반환하는 대신 빈 값으로 세 번째 규칙을 무시할 수 있습니다. |
+| [!UICONTROL 이 필터링 규칙 무시] | [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에 대한 기본값입니다.<br>이 옵션은 규칙이 무시되도록 지정합니다. 예를 들어 세 개의 필터링 규칙이 있고 세 번째 규칙이 값을 전달하지 않고 결과를 반환하지 않는 경우 빈 값이 있는 세 번째 규칙을 무시하면 됩니다. |
 | [!UICONTROL 이 조건에 대한 결과를 표시하지 않음]<br>(기준만) | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 엔터티 특성 일치]에 대한 기본값입니다.<br>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
 | [!UICONTROL 항목을 프로모션하지 않음<br>(프로모션만 해당)] | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 엔터티 특성 일치]에 대한 기본값입니다.<br>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
 | [!UICONTROL 정적 값 사용] | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 값이 비어 있으면 정적 값을 사용하도록 선택할 수 있습니다. |

@@ -2,7 +2,7 @@
 keywords: 사용자 지정 디자인;속도;소수점;쉼표;디자인 사용자 지정
 description: 오픈 소스 [!DNL Velocity] 디자인 언어를 사용하여 [!DNL Target] 권장 사항에서 권장 사항 디자인을 사용자 지정하는 방법을 알아봅니다.
 title: Velocity를 사용하여 디자인을 사용자 지정하는 방법
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 TQID: 'https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 32%
+source-wordcount: '1095'
+ht-degree: 28%
 ---
 # [!DNL Velocity]을(를) 사용하여 디자인 사용자 지정
 
@@ -251,7 +251,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 템플릿 크기 사용자 지정 및 빈 값 확인 {#default}
 
-다음 템플릿은 [!DNL Velocity] 스크립트를 사용하여 엔터티 표시의 동적 크기 조정을 제어하므로 [!DNL Recommendations]에서 반환된 일치하는 엔터티가 충분하지 않은 경우 빈 HTML 요소를 만들지 않도록 일대다 결과를 수용합니다. 이 스크립트는 백업 권장 사항이 적합하지 않고 [!UICONTROL 부분 템플릿 렌더링]이 활성화되어 있는 시나리오에 가장 적합합니다.
+다음 템플릿은 [!DNL Velocity] 스크립트를 사용하여 엔터티 표시의 동적 크기 조정을 제어합니다. [!DNL Recommendations]에서 반환된 일치하는 엔터티가 충분하지 않은 경우 빈 HTML 요소를 생성하지 않도록 일대다 결과를 수용합니다. 이 스크립트는 백업 권장 사항이 적합하지 않고 [!UICONTROL 부분 템플릿 렌더링]이 활성화되어 있는 시나리오에 가장 적합합니다.
 
 다음 HTML 코드 조각은 4x2 기본 디자인에서 기존 HTML 부분을 대체합니다(간결성을 위해 CSS가 여기에 포함되지 않음).
 

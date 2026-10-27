@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 16%
 ---
 # [!DNL Adobe Analytics] 데이터 사용 중
 
@@ -35,7 +35,7 @@ ht-degree: 19%
 >
 >[!DNL Target]과(와) [!DNL Analytics] 간의 통합이 설정되지 않았더라도 [!DNL Adobe Experience Cloud] 계정을 [!DNL Analytics]과(와) [!DNL Target] 모두로 연결한 경우 [!DNL Adobe Analytics] 옵션을 사용할 수 있습니다.
 
-[!DNL Target]에 대한 보고 소스로 [!DNL Analytics]을(를) 선택할 때 [!DNL Target] 활동 데이터를 받을 [!DNL Analytics] 보고서 세트를 선택합니다. 보고 소스를 지정하려면 먼저 사용자 계정이 연결된 [!DNL Analytics] 회사 중에서 선택한 다음 활동에 대한 보고서 세트를 선택합니다. [!DNL Adobe Target]에 연결하기 위해 제공된 보고서 세트만 선택할 수 있습니다. 예상한 보고서 세트가 표시되지 않으면 먼저 로그아웃했다가 [!DNL Adobe Experience Cloud]에 다시 로그인하여 다시 시도하십시오. 보고서 세트가 여전히 목록에서 누락된 경우 고객 지원 센터에 문의하십시오.
+[!DNL Target]에 대한 보고 소스로 [!DNL Analytics]을(를) 선택할 때 [!DNL Target] 활동 데이터를 받을 [!DNL Analytics] 보고서 세트를 선택합니다. 보고 소스를 지정하려면 먼저 사용자 계정이 연결된 [!DNL Analytics] 회사 중에서 선택한 다음 활동에 대한 보고서 세트를 선택합니다. [!DNL Adobe Target]에 연결하기 위해 제공된 보고서 세트만 선택할 수 있습니다. 예상한 보고서 세트가 표시되지 않으면 먼저 로그아웃한 후 [!DNL Adobe Experience Cloud]에 다시 로그인하여 다시 시도하십시오. 보고서 세트가 여전히 목록에서 누락된 경우 고객 지원 센터에 문의하십시오.
 
 [!UICONTROL Analytics for Target]&#x200B;(A4T)에는 결과를 올바로 보고하기 위한 추적 서버가 필요합니다. 기본 추적 서버가 [!UICONTROL 추적 서버] 필드에 표시됩니다. 추적 서버를 두 개 이상 사용하는 경우 이 필드에 올바른 추적 서버를 포함해야 합니다. 자세한 내용은 [Analytics 추적 서버 사용](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
 
@@ -47,6 +47,6 @@ ht-degree: 19%
 
 각 활동의 목표로 사용할 성공 지표를 선택해야 합니다. 활동 목표는 성공적인 활동을 나타내는 전환 활동입니다. 몇 가지 특정 방법으로 개선할 목표가 없으면 테스트를 실행하지 않는 것이 좋습니다. [!DNL Analytics] 지표 선택기에서 사용 가능한 [!DNL Analytics] 지표를 선택할 수 있습니다.
 
-목표를 설정해도 테스트 결과를 평가할 때 다른 지표를 사용할 수 있습니다. 하지만 이 목표를 통해 테스트를 개선할 점을 알 수 있습니다.
+목표를 설정한다고 해서 테스트 결과를 평가할 때 다른 지표를 사용할 수 없는 것은 아닙니다. 하지만 이 목표를 통해 테스트를 개선할 점을 알 수 있습니다.
 
 방문자가 목표를 완료한 후에는 해당 방문자는 더 이상 활동에 포함되지 않습니다. 방문자가 활동을 완료한 후 활동을 다시 시작하는 경우 해당 방문자는 새 방문자로 계산됩니다.

@@ -1,8 +1,8 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: 제안된 해결 방법과 함께 Adobe Target에서 [!UICONTROL Automated Personalization] (AP) 활동을 사용하는 동안 발생할 수 있는 잠재적인 어려움에 대해 알아봅니다.
+description: 제안된 해결 방법과 함께 Adobe Target에서 [!UICONTROL Automated Personalization](AP) 활동을 사용하는 동안 발생할 수 있는 잠재적인 어려움에 대해 알아봅니다.
 title: '[!UICONTROL Automated Personalization] 활동 문제를 해결하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 TQID: 'https://experienceleague.adobe.com/1Qevyq-TiutN1dEZnfC1DDmUgXoHIxtBl-3RMPq-m-0'
@@ -24,14 +24,14 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 30%
+source-wordcount: '766'
+ht-degree: 29%
 ---
 # [!UICONTROL Automated Personalization] 문제 해결
 
-활동은 경우에 따라 예상대로 수행되지 않을 수 있습니다. AP([!UICONTROL Automated Personalization])와 일부 제안된 해결 방법을 사용하는 동안 발생할 수 있는 몇 가지 잠재적인 어려움에 대해 설명합니다.
+활동이 예상대로 수행되지 않는 경우도 있습니다. AP([!UICONTROL Automated Personalization])와 일부 제안된 해결 방법을 사용하는 동안 발생할 수 있는 몇 가지 잠재적인 어려움에 대해 설명합니다.
 
 ## [!UICONTROL Automated Personalization] 활동에서 모델을 만드는 데 시간이 너무 오래 걸립니다. {#section_20028B204DBB4D77A324BA193434AEE2}
 

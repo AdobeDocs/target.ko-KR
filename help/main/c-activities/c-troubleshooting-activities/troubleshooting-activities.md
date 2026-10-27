@@ -1,5 +1,5 @@
 ---
-keywords: target 문제 해결, target 문제 해결, 기본 콘텐츠, 테스트가 라이브가 아님, 활동이 라이브가 아님, 타기팅이 작동하지 않음, 이전 경험이 표시됨, 활동을 만들 수 없음, 활동을 만들 수 없음, 활동 만들기, 페이지 구조가 변경됨, 페이지 구조가 수정됨, 오류 메시지, 프로필 스크립트 삭제 오류, ajax가 작동하지 않음
+keywords: target 문제 해결;target 문제 해결;기본 컨텐츠;테스트가 라이브가 아님;활동이 라이브가 아님;타깃팅이 작동하지 않음;이전 경험이 표시됨;활동을 만들 수 없음;활동을 만들 수 없음;활동 만들기;페이지 구조가 변경됨;페이지 구조가 수정됨;오류 메시지;프로필 스크립트 삭제 오류;ajax가 작동하지 않음
 description: Adobe [!DNL Target] 활동이 사이트에 나타나지 않는 경우 문제 해결 제안을 찾아보십시오.
 title: 활동 문제를 해결하려면 어떻게 합니까?
 feature: Activities
@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 41%
+source-wordcount: '870'
+ht-degree: 36%
 ---
 # 활동 문제 해결
 

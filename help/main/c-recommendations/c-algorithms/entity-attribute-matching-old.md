@@ -2,7 +2,7 @@
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;프로모션;동적 필터링;동적;엔티티 속성 일치
 description: 잠재적 항목 풀을 사용자가 상호 작용한 특정 항목과 비교하여 Adobe [!DNL Target] 권장 사항에서 동적으로 필터링하는 방법을 알아봅니다.
 title: Recommendations 활동에서 엔티티 속성 일치로 필터링하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 product_v2:
@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '546'
 ht-degree: 0%
 ---
 # 엔티티 속성 일치
@@ -63,7 +63,7 @@ Brand A 제품을 사용하는 페이지를 방문하면 `entity.brand` 매개 �
 
 ### 더 비싼 제품에 상향 판매
 
-사용자가 의류 retailer이고 더 높은 가격과 따라서 더 수익성 있는 품목을 고려하도록 장려하고 싶다고 가정해 보겠습니다. &quot;equals&quot;(다음과 같음)와 &quot;is between&quot;(다음 사이) 연산자를 사용하여 동일한 카테고리 및 동일한 브랜드의 더 비싼 항목을 프로모션할 수 있습니다. 예를 들어 신발 retailer은 다음 샘플처럼 운동화를 보고 있는 방문자를 업셀하기 위해 더 비싼 운동화를 홍보할 수 있습니다.
+사용자가 의류 retailer이고 더 비싼 가격을 고려해 더 수익성 있는 항목을 고려하도록 장려하고 싶다고 가정해 보겠습니다. &quot;equals&quot;(다음과 같음)와 &quot;is between&quot;(다음 사이) 연산자를 사용하여 동일한 카테고리 및 동일한 브랜드의 더 비싼 항목을 프로모션할 수 있습니다. 예를 들어 신발 retailer은 다음 샘플처럼 운동화를 보고 있는 방문자를 업셀하기 위해 더 비싼 운동화를 홍보할 수 있습니다.
 
 ![업셀링](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
 

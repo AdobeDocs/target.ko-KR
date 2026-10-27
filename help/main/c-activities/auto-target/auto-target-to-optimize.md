@@ -2,7 +2,7 @@
 keywords: 자동 타겟;타깃팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제해결
 description: '[!UICONTROL 자동 타겟] 활동이 고객 프로필 및 유사한 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL 자동 타겟] 활동이란?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 TQID: 'https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is'
@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2157'
-ht-degree: 18%
+source-wordcount: '2160'
+ht-degree: 16%
 ---
 # [!UICONTROL 자동 타겟] 개요
 
@@ -106,8 +106,8 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 옵션을 사용하면 한 �
 | 용어 | 세부 사항 |
 |--- |--- |
 | [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 자동 타겟]과(와) [!UICONTROL Automated Personalization] 모두에서 사용되는 [!DNL Target]의 기본 개인화 알고리즘은 Random Forest입니다. Random Forest와 같은 앙상블 방법은 구성 학습 알고리즘 중 어느 것으로부터도 얻을 수 있는 것보다 더 나은 예측 성능을 얻기 위해 다중 학습 알고리즘을 사용한다. [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 활동의 Random Forest 알고리즘은 교육 시간에 다수의 의사 결정 트리를 구성하여 작동하는 분류 또는 회귀 방법입니다. |
-| [&#x200B; [!DNL Target]의 Personalization 알고리즘에 대한 데이터 업로드](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 자동 타겟] 및 [!UICONTROL Automated Personalization] 모델에 대한 데이터를 입력하는 방법에는 여러 가지가 있습니다. |
-| [&#x200B; [!DNL Target]의 Personalization 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]의 개인화 알고리즘에서 다양한 데이터를 자동으로 수집합니다. |
+| [ [!DNL Target]의 Personalization 알고리즘에 대한 데이터 업로드](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 자동 타겟] 및 [!UICONTROL Automated Personalization] 모델에 대한 데이터를 입력하는 방법에는 여러 가지가 있습니다. |
+| [ [!DNL Target]의 Personalization 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]의 개인화 알고리즘에서 다양한 데이터를 자동으로 수집합니다. |
 
 ## 트래픽 할당 결정 {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -153,7 +153,7 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 옵션을 사용하면 한 �
 
 * Multi-arm bandit을 사용하면 모델이 항상 작은 부분 트래픽을 &quot;지출&quot;하여 활동 학습 기간 동안 계속 학습하고 이전에 학습한 트렌드의 과도한 사용을 방지할 수 있습니다.
 * [!DNL Target]이(가) 항상 변화하는 방문자 환경 설정을 활용하고 있는지 확인하기 위해 최신 방문자 동작 데이터를 사용하여 기본 모델이 24시간마다 다시 작성됩니다.
-* 알고리즘이 개인에 대해 가장 성과가 좋은 경험을 결정할 수 없는 경우 개인화된 승자를 계속 찾으면서도 전체적으로 성과가 가장 좋은 경험을 표시하도록 자동으로 전환합니다. 성과가 가장 좋은 경험은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 사용하여 발견됩니다.
+* 알고리즘이 개인에게 우승 경험을 결정할 수 없는 경우 개인화된 우승자를 계속 찾는 동안 전반적인 최상의 성과를 보여주는 경험으로 자동 전환됩니다. 성과가 가장 좋은 경험은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 사용하여 발견됩니다.
 
 ### 알고리즘은 단일 목표 지표에 대해 계속 최적화됩니다.
 
@@ -165,11 +165,11 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 옵션을 사용하면 한 �
 
 ### [!DNL Target]은(는) 자동으로 모든 [!DNL Adobe Experience Cloud] 공유 대상을 사용하여 개인화 모델을 만듭니다.
 
-* 모델에 대상을 추가하기 위해 특정한 작업을 수행할 필요가 없습니다. [!DNL Target]에서 [!DNL Experience Cloud Audiences] 사용에 대한 자세한 내용은 [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)를 참조하십시오.
+* 모델에 대상을 추가하기 위해 수행해야 할 특별한 작업은 없습니다. [!DNL Target]에서 [!DNL Experience Cloud Audiences] 사용에 대한 자세한 내용은 [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)를 참조하십시오.
 
 ### 마케터는 오프라인 데이터, 성향 점수 또는 기타 사용자 지정 데이터를 업로드하여 개인화 모델을 만들 수 있습니다.
 
-* [!UICONTROL 자동 타겟] 및 [!UICONTROL Automated Personalization]&#x200B;[&#128279;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)에 대한 데이터 업로드에 대해 자세히 알아보세요.
+* [!UICONTROL 자동 타겟] 및 [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)에 대한 [데이터 업로드에 대해 자세히 알아보세요.
 
 ## [!UICONTROL 자동 타겟]은(는) [!UICONTROL Automated Personalization]과(와) 어떻게 다릅니까? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
@@ -177,12 +177,12 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 옵션을 사용하면 한 �
 
 [!UICONTROL 자동 타겟] 또는 [!UICONTROL 자동 Personalization] 모델을 만드는 데 필요한 트래픽의 양 *경험당*&#x200B;은(는) 동일하지만 일반적으로 [!UICONTROL 자동 타겟] 활동보다 [!UICONTROL Automated Personalization] 활동에 더 많은 경험이 있습니다.
 
-예를 들어, 두 개의 위치에 위치당 두 개의 오퍼를 만든 [!UICONTROL 자동 Personalization] 활동이 있는 경우 활동에 총 4개(2 = 4)의 경험이 포함됩니다(제외 없음). [!UICONTROL 자동 타겟]을(를) 사용하여 경험 1을 위치 1에서 오퍼 1을 포함하고, 위치 2에서 오퍼 2를 포함하도록 설정하고, 경험 2를 위치 1에서 오퍼 1을 포함하고, 위치 2에서 오퍼 2를 포함하도록 설정할 수 있습니다. [!UICONTROL 자동 타겟]을(를) 사용하면 한 경험 내에 여러 가지 변경이 생기도록 선택할 수 있으므로 활동에 있는 총 경험의 수를 줄일 수 있습니다.
+예를 들어, 두 개의 위치에 위치당 두 개의 오퍼를 만든 [!UICONTROL 자동 Personalization] 활동이 있었다면, 활동에 총 4개(2 = 4)의 경험이 포함되어 있을 것입니다. [!UICONTROL 자동 타겟]을(를) 사용하여 경험 1을 위치 1에서 오퍼 1을 포함하고, 위치 2에서 오퍼 2를 포함하도록 설정하고, 경험 2를 위치 1에서 오퍼 1을 포함하고, 위치 2에서 오퍼 2를 포함하도록 설정할 수 있습니다. [!UICONTROL 자동 타겟]을(를) 사용하면 한 경험 내에 여러 가지 변경이 생기도록 선택할 수 있으므로 활동에 있는 총 경험의 수를 줄일 수 있습니다.
 
 [!UICONTROL 자동 타겟]의 경우 간단한 경험 법칙을 사용하여 트래픽 요구 사항을 이해할 수 있습니다.
 
 * **[!UICONTROL 전환]이 성공 지표인 경우:** 경험당 하루에 1,000번의 방문과 최소 50번의 전환이 필요하며, 활동에는 최소 7,000번의 방문과 350번의 전환이 있어야 합니다.
-* **방문당 매출이 성공 지표인 경우:** 방문당 1,000회, 경험당 하루에 최소 50회 전환, 활동에는 경험당 최소 1,000회의 전환이 있어야 합니다. RPV를 사용할 때에는 전환율을 사용할 때와 비교하여 방문 매출에 일반적으로 존재하는 더 높은 데이터 분산으로 인해 모델을 만드는 데 더 많은 데이터가 필요합니다.
+* **방문당 매출]이 성공 지표인 경우:** 방문당 1,000회, 경험당 하루에 최소 50회 전환, 활동에는 경험당 최소 1,000회의 전환이 있어야 합니다. [!UICONTROL RPV를 사용할 때에는 전환율을 사용할 때와 비교하여 방문 매출에 일반적으로 존재하는 더 높은 데이터 분산으로 인해 모델을 만드는 데 더 많은 데이터가 필요합니다.
 
 ### [!UICONTROL 자동 타겟]에 완전한 설정 기능이 있습니다.
 

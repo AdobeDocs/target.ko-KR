@@ -2,7 +2,7 @@
 keywords: 자동 타겟;타기팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제해결;트래픽
 description: '[!UICONTROL 자동 타겟] 활동에 대한 문제 해결 주제 및 FAQ를 살펴봅니다.'
 title: '[!UICONTROL 자동 타겟] 활동 문제를 해결하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 TQID: 'https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 30%
+source-wordcount: '1991'
+ht-degree: 28%
 ---
 # [!UICONTROL 자동 타겟] FAQ 및 문제 해결
 
@@ -61,12 +61,12 @@ ht-degree: 30%
 
 가능한 많은 트래픽을 개인화하는 것이 목표라면 활동 기간 동안 90%의 목표값 할당과 10%의 제어를 유지할 수 있습니다. 개인화된 알고리즘과 컨트롤의 성능을 비교하는 실험을 실행하는 것이 목표라면 활동 기간 동안 50/50 분할이 가장 좋습니다.
 
-가장 좋은 방법은 방문자가 목표값과 제어 경험 사이를 전환하지 않도록 활동 기간 동안 트래픽 할당 분할 유지하는 것입니다.
+가장 좋은 방법은 방문자가 타깃팅된 경험과 제어 경험 사이를 전환하지 않도록 활동 기간 동안 트래픽 할당 분할을 유지하는 것입니다.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
-No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+No, check marks for model generation show only the models built to date. There is no way to go back and see when a model was completed.
 -->
 
 +++
@@ -108,7 +108,7 @@ A/B 테스트 결과에 경험들 중 하나 이상에서 통계적으로 의미
 +++답변
 일반적으로 [!UICONTROL 자동 타겟] 활동에서 모델을 만드는 데 걸리는 시간은 선택한 활동 위치에 대한 트래픽 및 활동 성공 지표와 관련된 전환율에 따라 다릅니다.
 
-[!UICONTROL 자동 타겟]은(는) 해당 경험에 대해 50개 이상의 전환이 있을 때까지 해당 경험에 대한 개인화된 모델을 만들지 않습니다. 더욱이, 구축된 모델의 품질이 충분하지 않다면([AUC라고 알려진 메트릭 &#x200B;](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)을(를) 사용하여 홀드아웃 &quot;테스트&quot; 데이터에 대한 오프라인 평가에 의해 결정됨), 모델은 개인화된 방식으로 트래픽을 서비스하는 데 사용되지 않습니다.
+[!UICONTROL 자동 타겟]은(는) 해당 경험에 대해 50개 이상의 전환이 있을 때까지 해당 경험에 대한 개인화된 모델을 만들지 않습니다. 더욱이, 구축된 모델의 품질이 충분하지 않다면([AUC라고 알려진 메트릭 ](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)을(를) 사용하여 홀드아웃 &quot;테스트&quot; 데이터에 대한 오프라인 평가에 의해 결정됨), 모델은 개인화된 방식으로 트래픽을 서비스하는 데 사용되지 않습니다.
 
 [!UICONTROL 자동 타겟]의 모델 구축에 대해 몇 가지 더 유의해야 할 사항은 다음과 같습니다.
 
@@ -172,7 +172,7 @@ Adobe에서는 활동 중간에 목표 지표를 변경하지 않는 것이 좋�
 
 ## [!UICONTROL 자동 타겟] 문제 해결 {#section_23995AB813F24525AF294D20A20875C8}
 
-활동은 경우에 따라 예상대로 수행되지 않을 수 있습니다. [!UICONTROL 자동 타겟] 및 일부 제안된 솔루션을 사용하는 동안 발생할 수 있는 몇 가지 잠재적인 어려움에 대해 설명합니다.
+활동이 예상대로 수행되지 않는 경우도 있습니다. [!UICONTROL 자동 타겟] 및 일부 제안된 솔루션을 사용하는 동안 발생할 수 있는 몇 가지 잠재적인 어려움에 대해 설명합니다.
 
 ### [!UICONTROL 자동 타겟] 활동에서 모델을 만드는 데 시간이 너무 오래 걸립니다.
 

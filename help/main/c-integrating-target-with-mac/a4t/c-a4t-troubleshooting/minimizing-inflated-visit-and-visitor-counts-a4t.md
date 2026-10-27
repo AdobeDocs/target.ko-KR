@@ -1,6 +1,6 @@
 ---
 keywords: 부분 데이터;부분 데이터;A4T;불일치;Analytics for Target;고립됨;가상 보고서 세트;가상;문제 해결;연결되지 않음;부풀려짐;지정되지 않음
-description: Analytics for [!DNL Target] (A4t)을(를) 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 방법에 대해 알아봅니다. “부분 데이터”의 의미와 이를 줄이는 방법에 대해 알아봅니다.
+description: Analytics for [!DNL Target](A4t)을(를) 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 방법에 대해 알아봅니다. “부분 데이터”의 의미와 이를 줄이는 방법에 대해 알아봅니다.
 title: A4T에서 부풀려진 방문 및 방문자 카운트 최소화를 최소화 하려면 어떻게 해야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: 891742a5-242d-5099-966a-ca76c17cd2d2
     internal-label: Analytics for Target (A4T)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 96%
+source-wordcount: '1366'
+ht-degree: 90%
 ---
 # A4T에서 부풀려진 방문 및 방문자 카운트 최소화
 
@@ -73,9 +73,9 @@ Adobe는 [!DNL Analytics]에서 높은 비율의 부분 데이터를 가지고 �
 
 대부분의 경우 [!DNL Target] 히트는 각 웹 페이지의 [!DNL Analytics] 히트와 연결됩니다. 이 연결은 [!DNL Target]과 [!DNL Analytics] 호출 모두에서 일관된 SDID와 [!DNL Analytics] 호출의 [!DNL Experience Cloud ID] (MCID)가 동일한 페이지에 있는 경우에 발생합니다. 일반적으로 [!DNL Target]에는 MCID도 있지만, 방문자 ID가 반환되기 전에 [!DNL Target]으로의 호출이 발생할 경우 SDID로 인해 히트는 계속 결합되어 있습니다. 또한 [!DNL Target] 호출이 실행된 후에 [!DNL Analytics] 호출을 실행할 수 있도록 충분히 오랫동안 사용자가 페이지에 머물러야 합니다. 이상적인 시나리오는 다음과 같습니다.
 
-**부분 데이터 히트:** 경우에 따라 사용자가 [!DNL Analytics] 호출을 전송할 만큼 충분히 오래 페이지에 머무르지 않아도 [!DNL Target]에 적절한 MCID가 유지됩니다. 이렇게 하면 부분 데이터 히트([!DNL Analytics] 페이지 조회수가 없는 히트)가 발생합니다. 이러한 사용자가 사이트로 돌아와 [!DNL Analytics] 코드가 포함된 페이지를 보면 이들 사용자는 돌아오는 방문자로 올바르게 계산됩니다. 페이지에 [!DNL Analytics] 코드만 있었다면 이러한 히트는 손실되었을 것입니다. 일부 클라이언트는 특정 지표(방문)는 부풀리고 다른 지표(방문당 페이지 조회수, 방문당 시간 등)는 줄이기 때문에 이러한 히트에 대한 데이터는 원하지 않습니다. 또한 페이지 조회수 없이 방문 횟수를 볼 수 있습니다. 그러나 이러한 데이터를 유지해야 하는 적절한 이유는 여전히 있습니다.
+**부분 데이터 히트:** 사용자가 경우에 따라 [!DNL Analytics] 호출을 보낼 만큼 충분히 오래 페이지에 머무르지 않지만 [!DNL Target]은(는) 적절한 MCID를 가지고 있습니다. 이렇게 하면 부분 데이터 히트([!DNL Analytics] 페이지 조회수가 없는 히트)가 발생합니다. 이러한 사용자가 사이트로 돌아와 [!DNL Analytics] 코드가 포함된 페이지를 보면 이들 사용자는 돌아오는 방문자로 올바르게 계산됩니다. 페이지에 [!DNL Analytics] 코드만 있었다면 이러한 히트는 손실되었을 것입니다. 일부 클라이언트는 특정 지표 (방문)를 부풀리고 다른 지표 (방문당 페이지 보기 수, 방문당 시간 등)를 줄이기 때문에 이러한 히트에 대한 데이터를 원하지 않습니다. 또한 페이지 조회수 없이 방문 횟수를 볼 수 있습니다. 그러나 이러한 데이터를 유지해야 하는 적절한 이유는 여전히 있습니다.
 
-부분 데이터 히트를 최소화하려면 페이지를 보다 빠르게 로드하거나, 라이브러리의 최신 버전으로 업데이트하거나, 해당 히트를 제외하는 [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ko)를 만들 수 있습니다. 단계별 지침은 *Analytics Components 안내서*&#x200B;의 [가상 보고서 세트 만들기](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ko)를 참조하십시오.
+부분 데이터 히트를 최소화하려면 페이지를 보다 빠르게 로드하거나, 라이브러리의 최신 버전으로 업데이트하거나, 해당 히트를 제외하는 [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)를 만들 수 있습니다. 단계별 지침은 *Analytics Components 안내서*&#x200B;의 [가상 보고서 세트 만들기](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)를 참조하십시오.
 
 다음 그림은 가상 보고서 세트에 대한 세그먼트 정의를 보여 줍니다.
 
@@ -94,9 +94,9 @@ Adobe는 [!DNL Analytics]에서 높은 비율의 부분 데이터를 가지고 �
 * And
 * 종료 링크 인스턴스: 없음
 
-**고립된 히트: &#x200B;** 드문 경우이지만 사용자가 Analytics 호출을 위해 충분히 오래 페이지에 머무르지 않았으며 Target이 적절한 MCID를 얻지 못했습니다. Adobe에서는 이러한 히트를 “고립된” 히트라고 정의합니다. 이러한 히트는 거의 재방문하지 않는 고객을 나타내며, 방문 및 방문자 수를 부적절하게 부풀립니다.
+**고립된 히트:** 일부 경우에 사용자가 Analytics 호출을 위해 충분히 오래 페이지에 머무르지 않으며 Target이 적절한 MCID를 얻지 못했습니다. Adobe에서는 이러한 히트를 “고립된” 히트라고 정의합니다. 이러한 히트는 거의 재방문하지 않는 고객을 나타내며, 방문 및 방문자 수를 부적절하게 부풀립니다.
 
-이러한 &quot;고립된&quot; 히트를 최소화하기 위해 위에서 설명된 것처럼 해당 히트를 제외하는 [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ko)를 만들 수 있습니다.
+이러한 &quot;고립된&quot; 히트를 최소화하기 위해 위에서 설명된 것처럼 해당 히트를 제외하는 [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)를 만들 수 있습니다.
 
 ## 이는 내 [!DNL Target] 보고에 어떤 의미가 있습니까? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 

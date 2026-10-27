@@ -2,7 +2,7 @@
 keywords: 권장 사항;자주 묻는 질문;faq
 description: '[!DNL Target Recommendations] 디자인에 대한 FAQ 및 답변.'
 title: '[!DNL Target Recommendations]의 디자인 질문에 대한 답변은 어디에서 얻을 수 있습니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 TQID: 'https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 57%
+source-wordcount: '476'
+ht-degree: 46%
 ---
 # 디자인 FAQ
 
@@ -29,7 +29,7 @@ ht-degree: 57%
 
 ## 권장 품목 가격이 소수점 오른쪽에 두 값을 모두 표시하지 않습니다. 어떻게 표시할 수 있습니까?
 
-기본적으로 디자인 템플릿에서 반환되는 숫자 값(예: `entity.value`) 은 소수점 뒤에 0이 표시되지 않습니다. 예를 들어, 항목이 $35.00인 경우 `entity.value`은 35와 같으며 $35.00이 아닌 35만 페이지에 표시됩니다.
+기본적으로 디자인 템플릿에서 반환된 숫자 값(예: `entity.value`)은 소수점 뒤에 0이 표시되지 않습니다. 예를 들어, 항목이 $35.00인 경우 `entity.value`은 35와 같으며 $35.00이 아닌 35만 페이지에 표시됩니다.
 
 이 문제를 해결하기 위해 두 가지 옵션을 사용할 수 있습니다.
 
@@ -43,7 +43,7 @@ ht-degree: 57%
 
 ## 디자인에 카테고리가 표시되지 않는 이유는 무엇입니까? `$entity1.categoryId`을(를) 사용하고 있습니다. {#section_073309B8051049C7953D396A93EA0713}
 
-카테고리 ID는 디자인에 표시할 수 없습니다. 여러 카테고리를 저장할 수 있으므로 시스템에서는 표시할 카테고리를 알지 못합니다.
+디자인에 범주 ID를 표시할 수 없습니다. 여러 카테고리를 저장할 수 있으므로 시스템에서는 표시할 카테고리를 알지 못합니다.
 
 ## 즉시 업데이트를 받으려면 디자인을 어떻게 변경해야 합니까? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 

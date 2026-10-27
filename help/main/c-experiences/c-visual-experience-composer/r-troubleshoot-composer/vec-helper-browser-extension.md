@@ -1,6 +1,6 @@
 ---
 keywords: vec;시각적 경험 작성기; vec;iframe;확장 기능;브라우저
-description: '[!UICONTROL 시각적 경험 작성기] (VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아보십시오. VEC Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아보십시오. VEC Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
 title: '[!UICONTROL VEC(시각적 경험 작성기) Helper 확장 프로그램을 사용하려면 어떻게 해야 합니까?]'
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 48%
 ---
 # [!UICONTROL 시각적 경험 작성기] 도우미 확장
@@ -58,7 +58,7 @@ SW는 웹 페이지에서 설치된 도메인에 대한 요청을 가로채는 �
 
 SW는 캐싱을 제어할 수 있으며 웹 페이지 자체, JS, CSS, IMG, AJAX 요청과 같은 정적 리소스, 해당 콘텐츠 및 [Target VEC Helper 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)에서 제거를 시도하는 헤더(예: X-Frame-Options: SAMEORIGIN, CSP(콘텐츠 보안 정책) 또는 쿠키 설정)를 포함하는 응답 헤더를 캐시할 수 있습니다.
 
-웹 요청을 가로채는 Chrome 확장 API에서 SW가 가로채고 처리한 요청을 받지 못합니다. 따라서 X-Frame-Options 또는 CSP 헤더도 캐시되었으므로 웹 페이지 요청이 SW에 의해 캐시에서 제공된 경우 확장 프로그램에서 헤더와 쿠키를 수정할 수 없습니다.
+웹 요청을 가로채는 Chrome 확장 API는 SW에서 가로채고 처리한 요청을 받지 못합니다. 따라서 X-Frame-Options 또는 CSP 헤더도 캐시되었으므로 웹 페이지 요청이 SW에 의해 캐시에서 제공된 경우 확장 프로그램에서 헤더와 쿠키를 수정할 수 없습니다.
 
 잠재적인 해결 방법으로, Chrome 개발자 도구 > 애플리케이션 탭에서 서비스 작업자를 비활성화한 다음 서비스 작업자 섹션에서 &quot;네트워크 우회&quot; 확인란을 활성화할 수 있습니다.
 

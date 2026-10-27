@@ -1,8 +1,8 @@
 ---
 keywords: 중복 제거;중복 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼 허용 안 함;제외;기본 컨텐츠;
-description: '[!UICONTROL Automated Personalization] (AP) 활동에서 제외를 관리합니다.'
+description: '[!UICONTROL Automated Personalization](AP) 활동에서 제외를 관리합니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 제외를 관리하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 23%
 ---
 # 제외 관리

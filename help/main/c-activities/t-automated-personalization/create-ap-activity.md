@@ -1,8 +1,8 @@
 ---
 keywords: 자동화된 개인화;ap
-description: '[!UICONTROL 시각적 경험 작성기]를 사용하여 [!UICONTROL Automated Personalization] (AP) 활동을 만드는 방법을 알아봅니다.'
+description: '[!UICONTROL 시각적 경험 작성기]를 사용하여 [!UICONTROL Automated Personalization](AP) 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: 'https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8'
@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 23%
+source-wordcount: '2033'
+ht-degree: 22%
 ---
 # [!UICONTROL Automated Personalization] 활동 만들기
 
@@ -69,7 +69,7 @@ ht-degree: 23%
 
    계정이 [기본 URL로 구성](/help/main/administrating-target/visual-experience-composer-set-up.md)된 경우 기본적으로 해당 URL이 표시됩니다. 필요한 경우 기본값에서 다른 URL로 변경할 수 있습니다.
 
-   [!DNL Target]은(는) URL 프로토콜([!DNL https] 및 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com/kr`] 및 [!DNL `https://wwww.adobe.com`]이(가) 모두 일치합니다.
+   [!DNL Target]은(는) URL 프로토콜([!DNL https] 및 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com`] 및 [!DNL `https://wwww.adobe.com`]이(가) 모두 일치합니다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
@@ -178,7 +178,7 @@ ht-degree: 23%
    | [!UICONTROL 목표] | (선택 사항) 테스트의 목표를 입력합니다. 목표는 활동의 목적을 기억하는 데 도움이 됩니다. |
    | [!UICONTROL 우선순위] | 설정에 따라 [!UICONTROL 우선 순위]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. [!UICONTROL 낮음], [!UICONTROL Medium] 또는 [!UICONTROL 높음]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다.<P>대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>이 옵션이 [!UICONTROL 관리] > [!UICONTROL 보고]&#x200B;(기본값)에서 활성화되지 않으면 우선 순위를 [!UICONTROL 낮음], [!UICONTROL Medium] 또는 [!UICONTROL 높음]으로 지정하십시오.<P>세분화된 우선순위를 활성화하려면 [!UICONTROL 관리] > [!UICONTROL 보고]를 클릭한 다음, [!UICONTROL 세분화된 우선순위 활성화] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.<P>이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.<ul><li>0 = 낮음</li><li>999 = 높음</li></ul>이전 버전의 [!DNL Target Standard/Premium]에서 만든 활동의 경우 [!UICONTROL 낮음] 우선순위는 0으로, [!UICONTROL Medium] 우선순위는 5로, [!UICONTROL 높음] 우선순위는 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.<P>**참고**: 세분화된 우선순위를 사용한 후에 이 옵션을 비활성화하려면 먼저 모든 우선순위를 0, 5, 10으로 다시 설정해야 합니다. |
    | [!UICONTROL 기간] | 활동의 시작 날짜와 종료 날짜를 설정합니다. [!UICONTROL 활성화 시]를 선택하거나 특정 날짜 및 시간을 지정할 수 있습니다. |
-   | [!UICONTROL 최적화 목표] | 다음 두 개의 매개 변수로 구성되는 최적화 목표를 지정하십시오.<ul><li>활동으로 측정하려는 작업</li><li>목표가 달성되었음을 보여 주는 작업으로, 활동 참여자가 수행한 것입니다.</li></ul>[!UICONTROL 기본 목표]의 오른쪽에 있는 세 점을 선택하여 최적화 목표의 이름을 지정할 수 있습니다. [!UICONTROL Automated Personalization] 활동은 [!UICONTROL 전환] 또는 [!UICONTROL 매출]을 측정할 수 있습니다. 페이지 보기 또는 mbox 보기를 통해 전환할 수 있습니다. 클릭을 추적할 수도 있습니다.<P>또한 기본 목표는 경험의 성공을 계산하기 위해 모델링 시스템에서 사용하는 모델링 지표가 됩니다.<P>모델링 목표에 도달한 후 추적 목적으로 활동에 방문자를 유지할 수 있습니다. 예를 들어 [!UICONTROL Automated Personalization] 활동은 종종 클릭률을 향상시키는 데 사용되며 모델링 목표로 설정됩니다. 그러나 증가된 클릭률이 최종 전환으로 이어지는 방식을 확인하는 것이 중요하므로 최종 전환까지 추적하는 것이 반드시 필요합니다.<P>여러 지표에 대한 종속성과 유연성을 제공하여 카운트를 늘리기 위해 지표에 도달해야 할지 또는 도달하지 않아야 할지를 선택할 수 있습니다.<P>두 성공 지표(또는 여러 개의 성공 지표)를 정의해야 상호 종속성을 만들 수 있습니다.<P>[!UICONTROL 종속성 추가] 옵션을 사용하면 다른 성공 지표에 도달했거나 도달하지 않은 경우 성공 지표를 늘릴 수 있습니다.<P>종속성을 추가하려면 다음을 수행하십시오.<ol><li>추가 지표를 추가한 후 [!UICONTROL 추가 목표]의 오른쪽에 있는 세 점 메뉴 아래에서 **[!UICONTROL 고급 설정]**&#x200B;을 클릭합니다.</li><li>[!UICONTROL 보고 설정] 섹션 아래쪽에서 **[!UICONTROL 종속성 추가]** 옵션을 클릭합니다.</li><li>왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 [!UICONTROL 도달]을 클릭하여 [!UICONTROL 도달] 및 [!UICONTROL 도달 못 함] 간에 설정을 전환합니다.</li></ol>종속성을 추가한 후 편집하거나 제거할 수 있습니다. |
+   | [!UICONTROL 최적화 목표] | 다음 두 개의 매개 변수로 구성되는 최적화 목표를 지정하십시오.<ul><li>활동으로 측정하려는 작업</li><li>목표가 달성되었음을 보여 주는 작업으로, 활동 참여자가 수행한 것입니다.</li></ul>[!UICONTROL 기본 목표]의 오른쪽에 있는 세 점을 선택하여 최적화 목표의 이름을 지정할 수 있습니다. [!UICONTROL Automated Personalization] 활동은 [!UICONTROL 전환] 또는 [!UICONTROL 매출]을 측정할 수 있습니다. 페이지 보기 또는 mbox 보기를 통해 전환할 수 있습니다. 클릭을 추적할 수도 있습니다.<P>또한 기본 목표는 경험의 성공을 계산하기 위해 모델링 시스템에서 사용하는 모델링 지표가 됩니다.<P>모델링 목표에 도달한 후 추적 목적으로 활동에 방문자를 유지할 수 있습니다. 예를 들어 [!UICONTROL Automated Personalization] 활동은 종종 클릭률을 향상시키는 데 사용되며 모델링 목표로 설정됩니다. 하지만 클릭률 증가가 최종 전환을 어떻게 유도하는지 확인하는 것이 중요하므로 최종 전환을 통한 추적이 필수적입니다.<P>여러 지표에 대한 종속성과 유연성을 제공하여 카운트를 늘리기 위해 지표에 도달해야 할지 또는 도달하지 않아야 할지를 선택할 수 있습니다.<P>두 성공 지표(또는 여러 개의 성공 지표)를 정의해야 상호 종속성을 만들 수 있습니다.<P>[!UICONTROL 종속성 추가] 옵션을 사용하면 다른 성공 지표에 도달했거나 도달하지 않은 경우 성공 지표를 늘릴 수 있습니다.<P>종속성을 추가하려면 다음을 수행하십시오.<ol><li>추가 지표를 추가한 후 [!UICONTROL 추가 목표]의 오른쪽에 있는 세 점 메뉴 아래에서 **[!UICONTROL 고급 설정]**&#x200B;을 클릭합니다.</li><li>[!UICONTROL 보고 설정] 섹션 아래쪽에서 **[!UICONTROL 종속성 추가]** 옵션을 클릭합니다.</li><li>왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 [!UICONTROL 도달]을 클릭하여 [!UICONTROL 도달] 및 [!UICONTROL 도달 못 함] 간에 설정을 전환합니다.</li></ol>종속성을 추가한 후 편집하거나 제거할 수 있습니다. |
    | [!UICONTROL 전환 지표] | 기본적으로 전환 지표는 최적화 목표 지표와 동일합니다. 그러나 [!UICONTROL 최적화 목표와 같음] 옵션을 선택 취소하여 별도의 전환 지표를 정의할 수 있습니다. |
    | [!UICONTROL 추가 지표] | 사용할 추가 보고 지표를 추가합니다. 변환 또는 수입 지표를 추가할 수 있습니다.<P>**참고**: [!UICONTROL 참여] 지표는 추가 지표로 지원되지 않습니다. [!DNL Target] UI를 통해 [!UICONTROL 참여] 지표를 선택할 수 있지만 데이터가 보고서에 정확하게 표시되지 않습니다. |
    | [!UICONTROL 보고할 대상] | 보고서의 대상별로 필터링하려면 대상을 추가합니다. 기본적으로 보고서는 자격 있는 모든 방문자의 결과를 표시합니다. 방문자의 보다 구체적인 하위 집합을 위해 결과를 필터링하려면 대상을 추가합니다.<P>**참고**: 다른 활동 형식과 달리 [!UICONTROL Automated Personalization]에서는 [!UICONTROL Adobe Analytics]을(를) 보고 소스로 사용할 수 없습니다(A4T). |

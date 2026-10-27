@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 47%
+source-wordcount: '1934'
+ht-degree: 44%
 ---
 # 보고서 설정
 
@@ -151,7 +151,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->조직에서 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target=_blank}(AEP)을 사용하여 지표 데이터를 [!DNL Target]에 보내는 경우 AEP 데이터 스트림의 환경이 [!DNL Target] 보고서 설정의 환경과 일치해야 합니다.
+>조직에서 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank}(AEP)을 사용하여 지표 데이터를 [!DNL Target]에 보내는 경우 AEP 데이터 스트림의 환경이 [!DNL Target] 보고서 설정의 환경과 일치해야 합니다.
 
 ### 보고 데이터 재설정
 
@@ -185,7 +185,7 @@ ht-degree: 47%
 
 * **테이블 보기**: 보고서를 테이블로 보려면 **[!UICONTROL 테이블 보기]**( ![테이블 보기 아이콘](/help/main/assets/icons/Table.svg)) 아이콘을 클릭하십시오.
 * **그래프 보기**: 보고서를 그래프로 보려면 **[!UICONTROL 그래프 보기]**( ![그래프 보기 아이콘](/help/main/assets/icons/GraphTrend.svg)) 아이콘을 클릭하십시오.
-* **자동화된 세그먼트**:([!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟]&#x200B;(AT) 활동에만 사용 가능) &lbrace;**[!UICONTROL 자동화된 세그먼트]&#x200B;( ![자동화된 세그먼트 아이콘](/help/main/assets/icons/AutomatedSegment.svg) ) 아이콘을 클릭하여 [자동화된 세그먼트 보고서](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)를 봅니다.
+* **자동화된 세그먼트**:([!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟]&#x200B;(AT) 활동에만 사용 가능) {**[!UICONTROL 자동화된 세그먼트]&#x200B;( ![자동화된 세그먼트 아이콘](/help/main/assets/icons/AutomatedSegment.svg) ) 아이콘을 클릭하여 [자동화된 세그먼트 보고서](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)를 봅니다.
 * **중요 특성**: ([!DNL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟]&#x200B;(AT) 활동에만 사용 가능) **[!UICONTROL 중요 특성]**( ![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg) ) 아이콘을 클릭하여 [중요 특성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md)를 봅니다.
 
 ## 평균 상승도, 상승도 한계 및 신뢰 구간 {#section_0D87615B1D3344B3858BA494EEBC16FB}
@@ -246,9 +246,9 @@ MVT(다변량 테스트) 활동에 대한 위치별 기여도를 표시하도록
 
 그래프가 작성되는 기본 순서는 다음과 같습니다.
 
-* **[!UICONTROL A/B 테스트] ([!UICONTROL 자동 할당] 및 [!UICONTROL Automated Personalization] 포함)**: 내림차순으로 경험 생성 순서.
-* **[!UICONTROL 경험 타깃팅] (XT)**: 활동의 경험 순서.
-* **[!UICONTROL 다변량 테스트] (MVT)**: 경험 이름별 알파벳순
+* **[!UICONTROL A/B 테스트]([!UICONTROL 자동 할당] 및 [!UICONTROL Automated Personalization] 포함)**: 내림차순으로 경험 생성 순서.
+* **[!UICONTROL 경험 타깃팅](XT)**: 활동의 경험 순서.
+* **[!UICONTROL 다변량 테스트](MVT)**: 경험 이름별 알파벳순
 * **[!UICONTROL 권장 사항]**: 내림차순 경험 생성 순서.
 
 [!UICONTROL 계산 방법론] 옵션을 사용하여 작업할 때 다음 주의 사항을 고려하십시오.
@@ -266,8 +266,8 @@ MVT(다변량 테스트) 활동에 대한 위치별 기여도를 표시하도록
 
 이 그래프는 처음 16개의 경험에 대한 선을 표시합니다(일부는 겹쳐져서 선이 16개 미만으로 표시됩니다.). 왼쪽에 있는 경험 패널에서 각 경험 이름 옆에 있는 색상이 지정된 점은 그 경험의 그래프 선이 해당 색상으로 표시되고 있음을 나타냅니다.
 
-경험 창에서 아래로 스크롤하면 다음 그림과 같이 17번째부터 26번째 경험까지는 이름이 회색으로 표시됩니다.
+경험 창에서 아래로 스크롤하면 다음 그림과 같이 17번째부터 26번째 경험까지의 이름이 회색으로 표시됩니다.
 
 회색으로 처리된 경험 중 하나를 마우스로 가리키면 그 경험에 해당하는 새로운 회색 그래프 선이 그래프에 임시로 표시됩니다.
 
-경험 R에 대한 그래프 선을 표시하고 경험 P에 대한 선은 표시하지 않으려 한다고 가정하십시오. 경험 P의 이름을 클릭하여 선택을 취소한 다음, 경험 R의 이름을 클릭하여 아래와 같이 선택할 수 있습니다.
+경험 R에 대한 플롯 라인을 표시하고 경험 P에 대한 라인을 표시하지 않으려 한다고 가정합니다. Experience P의 이름을 클릭하여 선택을 취소한 다음, 아래와 같이 Experience R의 이름을 클릭하여 선택할 수 있습니다.

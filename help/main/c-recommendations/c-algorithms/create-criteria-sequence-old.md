@@ -2,7 +2,7 @@
 keywords: 기준 시퀀스;여러 기준;알고리즘;기준;권장 사항 기준;시퀀스;반환되는 항목 수 제한;슬롯 수준 제어;슬롯
 description: 최대 5개의 기준 시퀀스를 설정하여 Adobe [!DNL Target] 권장 사항 활동에 표시되는 항목을 보다 세밀하게 제어하는 방법에 대해 알아봅니다.
 title: 권장 사항에서 기준 시퀀스를 만들려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 30%
+source-wordcount: '869'
+ht-degree: 26%
 ---
 # 기준 시퀀스 만들기
 
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 기준 시퀀스를 만들려면 먼저 시퀀스에 포함할 기준을 만들어야 합니다. 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
 
-기준이 디자인을 채울 수 있는 충분한 결과를 반환하지 않을 경우, 기준 시퀀스를 사용하여 일반적인 백업 권장 사항을 사용하는 대신 추가로 타깃팅된 권장 사항을 제공할 수 있습니다. 일반적으로 기준 시퀀스는 더 적은 결과를 반환할 수 있는 더 구체적인 타겟팅에서 더 많은 결과를 반환하는 더 일반적인 타겟팅으로 진행됩니다.
+기준 시퀀스를 사용하면 기준이 디자인을 채우기에 충분한 결과를 반환하지 않을 때 보다 일반적인 백업 권장 사항을 사용하는 대신 추가 타깃팅된 권장 사항을 제공할 수 있습니다. 일반적으로 기준 시퀀스는 더 적은 결과를 반환할 수 있는 더 구체적인 타겟팅에서 더 많은 결과를 반환하는 더 일반적인 타겟팅으로 진행됩니다.
 
 기준 시퀀스는 다음 예에 표시된 대로 페이지 유형에 따라 순서대로 달라질 수 있습니다.
 
@@ -102,4 +102,4 @@ ht-degree: 30%
 * 기준 시퀀스 만들기
 * 사용자 지정 기준 업로드
 
->[!VIDEO](https://video.tv.adobe.com/v/35500?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

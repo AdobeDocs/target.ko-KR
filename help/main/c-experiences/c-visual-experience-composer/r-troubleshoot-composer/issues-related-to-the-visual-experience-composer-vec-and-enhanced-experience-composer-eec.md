@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;허용 목록;허용 목록에 추가하다;허용 목록;고급 시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;eec;고급 경험 작성기;tls;tls 1.2
-description: 특정 조건에서 [!DNL Target] [!UICONTROL 시각적 경험 작성기] (VEC) 및 [!UICONTROL 향상된 경험 작성기] (EEC)에서 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
+description: 특정 조건에서 [!DNL Target] [!UICONTROL 시각적 경험 작성기](VEC) 및 [!UICONTROL 향상된 경험 작성기](EEC)에서 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
 title: '[!UICONTROL 시각적 경험 작성기] 및 [!UICONTROL 향상된 경험 작성기]와 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 31%
+source-wordcount: '1274'
+ht-degree: 29%
 ---
 # [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] 및 [!UICONTROL 향상된 경험 작성기]와 관련된 문제 해결
 

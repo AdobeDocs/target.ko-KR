@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # SPA(단일 페이지 앱) 시각적 경험 작성기
 
@@ -383,7 +383,7 @@ adobe.target.getOffers({
 | [자동화된 개인화](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니오 |
 | [권장 사항](/help/main/c-recommendations/recommendations.md) | 아니오 |
 
-**at.js 2.x를 설치하고 사이트에 `triggerView()`를 구현한 경우, SPA VEC가 자동 타겟을 지원하지 않는데 어떻게 자동 타겟 A/B 활동을 실행합니까?**
+**at.js 2.x를 설치하고 사이트에 `triggerView()`을(를) 구현한 경우, SPA VEC가 자동 타겟을 지원하지 않는데 어떻게 자동 타겟 A/B 활동을 실행합니까?**
 
 자동 타겟 A/B 활동을 사용하려는 경우, VEC의 페이지 로드 이벤트에서 실행되도록 모든 작업을 이동하면 됩니다. 각 작업 위에 마우스를 놓고 [!UICONTROL 페이지 로드 이벤트로 이동] 단추를 클릭하십시오. 이 과정이 완료되면, 다음 단계에서 트래픽 할당 방법을 위해 자동 타겟을 선택할 수 있습니다.
 
@@ -393,7 +393,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 예 |
 | [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md) | 예 |
-| [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko){target=_blank} | 예 |
+| [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | 예 |
 | [AEM 경험 구성요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 예 |
 
 ## 지원되는 기능 {#supported-features}
@@ -416,7 +416,7 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 ![페이지 전달 옵션 대화 상자](/help/main/c-experiences/assets/page-delivery.png)
 
-예를 들어, 위에 표시된 [!UICONTROL 페이지 전달] 설정에 정의된 대로 방문자가 `https://www.adobe.com/kr` *에 직접 방문하거나 `https://www.adobe.com/kr/products`이(가) 포함된 URL에 방문하면 Target 활동이 정규화되고 실행됩니다.* 이 활동은 페이지와의 모든 상호 작용이 페이지 재로드를 호출하는 모든 다중 페이지 애플리케이션에 완벽하게 작동합니다. 여기서 at.js는 사용자가 탐색하는 URL을 대상으로 하는 활동을 검색합니다.
+예를 들어, 위에 표시된 [!UICONTROL 페이지 전달] 설정에 정의된 대로 방문자가 `https://www.adobe.com` *에 직접 방문하거나 `https://www.adobe.com/products`이(가) 포함된 URL에 방문하면 Target 활동이 정규화되고 실행됩니다.* 이 활동은 페이지와의 모든 상호 작용이 페이지 재로드를 호출하는 모든 다중 페이지 애플리케이션에 완벽하게 작동합니다. 여기서 at.js는 사용자가 탐색하는 URL을 대상으로 하는 활동을 검색합니다.
 
 그러나 SPA는 다르게 작동하므로 SPA VEC 활동에 정의된 대로 모든 작업을 보기에 적용할 수 있는 방식으로 [!UICONTROL 페이지 배달] 설정을 구성해야 합니다.
 
@@ -476,7 +476,7 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 ## 교육 비디오: Adobe Target에서의 SPA용 VEC 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/34786?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 자세한 내용은 [Adobe Target에서 SPA VEC(단일 페이지 애플리케이션용 시각적 경험 작성기) 사용](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)을 참조하십시오.
 

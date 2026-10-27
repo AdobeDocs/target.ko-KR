@@ -1,6 +1,6 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;리디렉션;리디렉션 오퍼;adobe-mc-sdid;adobe_mc_ref
-description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 리디렉션 오퍼 사용에 대한 질문에 대한 답변을 찾아보십시오. A4T를 사용하면 [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
+description: Analytics for [!DNL Target](A4T)을(를) 사용할 때 리디렉션 오퍼 사용에 대한 질문에 대한 답변을 찾아보십시오. A4T를 사용하면 [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
 title: A4T를 사용하는 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 50%
+source-wordcount: '1475'
+ht-degree: 46%
 ---
 # 리디렉션 오퍼 - A4T FAQ
 
@@ -183,7 +183,7 @@ Adobe에서는 IT 팀에 얘기해서 `adobe_mc_ref` 및 `adobe_mc_sdid`이(가)
 ## 내가 사용자 지정/HTML 리디렉션 오퍼를 사용할 수 있습니까? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++답변
-아니요, [!DNL Analytics]를 보고 소스로 사용(A4T)하는 활동에는 기본 제공 리디렉션 오퍼를 사용해야 합니다. [!DNL Target]의 관점에서 HTML 오퍼는 불투명합니다. [!DNL Target]은 HTML의 특정 부분이 리디렉션을 인스턴스화하는 JavaScript를 포함한다는 것을 알 수 없습니다.
+아니요, [!DNL Analytics]를 보고 소스로 사용(A4T)하는 활동에는 기본 제공 리디렉션 오퍼를 사용해야 합니다. [!DNL Target] 관점에서 HTML 오퍼는 불투명합니다. [!DNL Target]은(는) HTML의 특정 부분에 리디렉션을 인스턴스화하는 JavaScript이 포함되어 있음을 알 수 없습니다.
 
 +++
 

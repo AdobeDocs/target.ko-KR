@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: f7501c88-b36a-590b-9cc4-dea607bda94b
     internal-label: Visual Experience Composer (VEC)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 75%
+ht-degree: 74%
 ---
 # 시각적 경험 작성기(VEC)
 
@@ -33,7 +33,7 @@ Target **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]** 탭
 >
 >특정 브라우저(예: Firefox)는 페이지에 혼합 콘텐츠(예: 보안 사이트의 비-보안 페이지)가 포함된 경우 VEC에 표시되지 않도록 페이지를 차단할 수 있습니다. 페이지가 표시되지 않으면 브라우저 주소 표시줄에서 URL 옆에 있는 아이콘을 클릭하고 **[!UICONTROL 이 페이지에서 보호 사용 안 함을 클릭합니다]**. 이 문제는 사이트 방문자에 대한 페이지 표시에는 영향을 주지 않습니다.
 
-페이지에서 iframe 내에 있는 콘텐츠는 VEC에서 수정할 수 없습니다. iframe 내의 콘텐츠를 편집하려면 iframe 문서가 Target에서 사용할 수 있도록 설정되어 있는지 확인한 다음 VEC에서 해당 iframe URL을 로드하십시오.
+페이지의 iframe 내부 콘텐츠는 VEC에서 수정할 수 없습니다. iframe 내의 콘텐츠를 편집하려면 iframe 문서가 Target에서 사용할 수 있도록 설정되어 있는지 확인한 다음 VEC에서 해당 iframe URL을 로드하십시오.
 
 페이지 상단에 있는 드롭다운 메뉴를 사용하여 페이지를 다른 대상이나 경험에 표시되는 모습으로 볼 수 있습니다. 두 번째 드롭다운 목록에서 각 경험에 대한 이름을 입력할 수 있습니다. 예를 들어, 탐색 막대에서 홈 링크의 위치를 테스트하는 경우, 목록에서 경험을 보다 쉽게 식별할 수 있도록 홈 링크가 표시되는 경험의 이름을 &quot;홈 링크&quot; 등으로 지정할 수 있습니다.
 
@@ -128,7 +128,7 @@ VEC 내에서 페이지 로드를 취소하려면 페이지를 로드하는 동�
 * 반응형 웹 사이트용 경험 미리보기 및 빌드
 * 오버레이를 사용하여 요소 유형을 강조 표시
 
->[!VIDEO](https://video.tv.adobe.com/v/30526?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### 운영 시간: 시각적 경험 작성기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

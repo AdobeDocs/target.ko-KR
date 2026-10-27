@@ -2,7 +2,7 @@
 keywords: 기준;알고리즘;업계 카테고리;페이지 유형;권장 사항 키;권장 사항 논리;논리;데이터 범위;전환 확인 기간;동작 데이터 소스;부분 디자인;백업 권장 사항;포함 규칙;속성 가중치;현재 카테고리;사용자 지정 속성;마지막 구매 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기 카테고리;인기;최근에 본 항목;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;최근에 본 항목
 description: Adobe Recommendations 활동의 콘텐츠를 제어하여 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드는 방법을 알아봅니다.
 title: 추천에서 기준을 만들려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 48%
+source-wordcount: '2937'
+ht-degree: 47%
 ---
 # 기준 만들기
 
@@ -47,7 +47,7 @@ ht-degree: 48%
 
 1. **[!UICONTROL 기준 이름]**&#x200B;을(를) 입력하십시오.
 
-   기준을 설명하는 데 사용되는 &quot;내부&quot; 이름입니다. 예를 들어, &quot;최고 마진 제품&quot; 기준을 호출하려고 하지만 제목이 공개적으로 표시되는 것을 원하지 않을 수 있습니다. 공개 제목을 설정하려면 다음 단계를 참조하십시오.
+   기준을 설명하는 데 사용되는 &quot;내부&quot; 이름입니다. 예를 들어, 기준을 &quot;가장 높은 순익 제품&quot;이라고 하지만 해당 제목을 공개적으로 표시하지 않으려고 할 수 있습니다. 공개 제목을 설정하려면 다음 단계를 참조하십시오.
 
    ![기본 정보 섹션](assets/basic-information.png)
 
@@ -125,7 +125,7 @@ ht-degree: 48%
 
    사이트에 많은 트래픽이 발생하고 동작이 자주 변경되는 경우 더 짧은 데이터 기간을 선택하십시오. 더 짧은 기간을 사용하면 [!DNL Recommendations]가 시장 및 비즈니스의 변화에 보다 신속하게 대응할 수 있습니다. 예를 들어, 기간이 더 짧다는 것은 방문자가 신학기 쇼핑 또는 크리스마스와 같은 시즌 쇼핑을 시작할 때 [!DNL Recommendations]에서 방문자 동작의 변화를 감지하고 해당 쇼핑 시즌에 적합한 항목을 추천할 수 있다는 것을 의미합니다.
 
-   데이터가 충분하지 않거나 방문자 동작이 자주 바뀌지 않을 경우에는 좀 더 긴 기간을 선택할 수 있습니다. 그러나 많은 사이트의 경우 더 짧은 기간으로 인해 더 높은 품질의 권장 사항이 제공됩니다.
+   많은 데이터가 없거나 방문자 동작이 자주 변경되지 않으면 더 긴 창을 선택할 수 있습니다. 그러나 많은 사이트의 경우 더 짧은 기간으로 인해 더 높은 품질의 권장 사항이 제공됩니다.
 
    사용 가능한 날짜 범위는 다음과 같습니다.
 
@@ -272,7 +272,7 @@ ht-degree: 48%
 
 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
-새 [!UICONTROL 권장 사항] 활동을 만들거나 기존 항목을 편집하는 경우 기본적으로 **나중에 사용하기 위해 기준 저장** 확인란이 선택됩니다. 다른 활동에서 해당 기준을 사용하지 않으려면 저장하기 전에 이 확인란을 선택 취소합니다.
+새 [!UICONTROL 권장 사항] 활동을 만들거나 기존 항목을 편집하는 경우 기본적으로 ]**나중에 사용하기 위해 기준 저장**[!UICONTROL  확인란이 선택됩니다. 다른 활동에서 해당 기준을 사용하지 않으려면 저장하기 전에 이 확인란을 선택 취소합니다.
 
 ## 교육 비디오: 추천에서 기준 만들기(12:33) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
@@ -282,4 +282,4 @@ ht-degree: 48%
 * 기준 시퀀스 만들기
 * 사용자 지정 기준 업로드
 
->[!VIDEO](https://video.tv.adobe.com/v/35500?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

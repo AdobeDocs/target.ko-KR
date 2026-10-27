@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 84%
+source-wordcount: '569'
+ht-degree: 73%
 ---
 # 브라우저에서 혼합 콘텐츠 사용
 
@@ -47,7 +47,7 @@ ht-degree: 84%
 
 ## [!DNL Google Chrome]에서 혼합 콘텐츠 사용 {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-보안 연결을 통해 사이트를 방문하는 경우 [!DNL Chrome] 은 웹 페이지의 콘텐츠가 안전하게 전송되었는지 확인합니다.
+보안 연결을 통해 사이트를 방문하는 경우 [!DNL Chrome]은(는) 웹 페이지의 콘텐츠가 안전하게 전송되었는지 확인합니다.
 
 Google Chrome 도움말의 &quot;[안전하지 않은 사이트에 대한 경고 관리](https://support.google.com/chrome/answer/99020?hl=en)&quot; 를 참조하십시오.
 
@@ -86,7 +86,7 @@ Google Chrome 도움말의 &quot;[안전하지 않은 사이트에 대한 경고
 
 ## [!DNL Microsoft Edge]에서 혼합 콘텐츠 사용
 
-보안 연결을 통해 사이트를 방문하는 경우 [!DNL Edge] 은 웹 페이지의 콘텐츠가 안전하게 전송되었는지 확인합니다.
+보안 연결을 통해 사이트를 방문하는 경우 [!DNL Edge]은(는) 웹 페이지의 콘텐츠가 안전하게 전송되었는지 확인합니다.
 
 최신 버전의 [!DNL Edge] 를 통해 VEC를 사용하는 경우 사이트 설정을 업데이트해야 합니다. 사이트 방문자는 이러한 단계를 수행할 필요가 없습니다.
 

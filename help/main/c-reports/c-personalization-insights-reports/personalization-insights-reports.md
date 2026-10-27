@@ -2,7 +2,7 @@
 keywords: 타기팅;AP 보고서;자동화된 개인화 보고서;자동 타깃;자동 타깃;자동 타깃 보고서;자동 타깃 보고서;개인화;인사이트;자동화된 세그먼트;faq;자주 묻는 질문;중요 속성
 description: Automated Personalization(AP) 및 자동 타겟(AT) 활동용 전문 보고서 - 자동화된 세그먼트와 중요 속성을 사용하는 방법에 대해 알아봅니다.
 title: Personalization 인사이트 보고서는 어떻게 사용합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
@@ -30,14 +30,14 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 29%
+source-wordcount: '1024'
+ht-degree: 28%
 ---
 # [!UICONTROL Personalization 통찰력] 보고서
 
-두 개의 전문 보고서는 [!UICONTROL AP(Automated Personalization]) 및 AT(Auto-Target) 활동인 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 특성] 보고서의 사용자가 사용할 수 있습니다.
+두 개의 전문 보고서는 [!UICONTROL AP(Automated Personalization]) 및 AT(Auto-Target]) 활동인 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 특성] 보고서의 사용자가 사용할 수 있습니다.[!UICONTROL 
 
 ## 고려 사항
 
@@ -117,7 +117,7 @@ AP 또는 자동 Target 모델에 사용되는 [!UICONTROL 개인화 인사이�
 
 ## 교육 비디오: Personalization Insights 보고서 사용 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/30949?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 자세한 내용은 [Adobe Target에서 Personalization 통찰력 보고서 사용](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)을 참조하십시오.
 

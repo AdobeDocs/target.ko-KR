@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1689'
-ht-degree: 85%
+ht-degree: 84%
 ---
 # 콘텐츠 전달 문제 해결
 
@@ -229,12 +229,12 @@ adobe.target.trackEvent({
 
 ### 확장 ![튜토리얼 배지](/help/main/assets/tutorial.png) 추가
 
->[!VIDEO](https://video.tv.adobe.com/v/33241?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### 기본 Adobe 타겟 디버깅 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33299?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox 추적 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33304?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

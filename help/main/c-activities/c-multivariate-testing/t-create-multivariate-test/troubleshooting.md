@@ -1,6 +1,6 @@
 ---
 keywords: 다변량 테스트;문제 해결;문제 해결;mvt
-description: 제안된 해결 방법과 함께 [!DNL Adobe Target]에서 [!UICONTROL 다변량 테스트] (MVT) 활동을 사용하는 동안 발생할 수 있는 잠재적인 문제를 살펴보십시오.
+description: 제안된 해결 방법과 함께 [!DNL Adobe Target]에서 [!UICONTROL 다변량 테스트](MVT) 활동을 사용하는 동안 발생할 수 있는 잠재적인 문제를 살펴보십시오.
 title: '[!UICONTROL 다변량 테스트]의 문제를 해결하려면 어떻게 합니까?'
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
@@ -16,9 +16,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '175'
 ht-degree: 21%
 ---
 # [!UICONTROL 다변량 테스트] 활동 문제 해결

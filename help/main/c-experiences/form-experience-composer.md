@@ -21,14 +21,14 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '990'
 ht-degree: 35%
 ---
 # 양식 기반 경험 작성기
 
-[!DNL Adobe Target] [!UICONTROL 양식 기반 경험 작성기]는 VEC([!UICONTROL 시각적 경험 작성기])를 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL A/B 테스트], [!UICONTROL 경험 타깃팅], [!UICONTROL Automated Personalization] 및 [!UICONTROL 권장 사항] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 경험 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
+[!DNL Adobe Target] [!UICONTROL 양식 기반 경험 작성기]는 VEC([!UICONTROL 시각적 경험 작성기])가 사용이 불가능하거나 실용적이지 않을 때 [!UICONTROL A/B 테스트], [!UICONTROL 경험 타깃팅], [!UICONTROL Automated Personalization] 및 [!UICONTROL 권장 사항] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 경험 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
 
 [!UICONTROL 권장 사항] 활동을 만드는 경우 경험이 없습니다. 기준 및 디자인을 선택합니다. 여러 기준이나 디자인을 선택하면 [!UICONTROL Target]에서 자동으로 경험을 생성합니다.
 
@@ -50,7 +50,7 @@ ht-degree: 35%
 
    [!UICONTROL 권장 사항] 활동을 만드는 경우 이 화면은 다릅니다. [!UICONTROL 권장 사항] 활동에는 경험이 포함되지 않습니다.
 
-1. &#x200B;
+1. 
    1. **[!UICONTROL 이름 바꾸기]** 아이콘( ![이름 바꾸기 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭하고 **[!UICONTROL 이름 바꾸기]**&#x200B;를 클릭하고 활동 이름을 지정한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.

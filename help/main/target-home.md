@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 28%
 ---
 # [!DNL Adobe Target] 비즈니스 실무자 안내서
@@ -64,7 +64,7 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 >[!TAB AI 동료]
 
-[!DNL Adobe Experience Platform]&#x200B;**에서**&#x200B;모임 [!DNL Coworker]
+[!DNL Adobe Experience Platform]**에서**&#x200B;모임 [!DNL Coworker]
 
 [!DNL Coworker]은(는) [!DNL Adobe Experience Cloud] 탐색에 대한 유용한 안내서입니다. [!DNL Target]과(와) 같은 제품에서 사용할 수 있는 [!DNL Coworker]은(는) 인터페이스에서 바로 주요 개념과 기능을 빠르게 이해할 수 있도록 도와줍니다.
 
@@ -131,4 +131,4 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 | Adobe [!DNL Target] 솔루션 도움말 | [!DNL Adobe Experience Cloud] 리소스 |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target] 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ko-KR){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target 커뮤니티 포럼]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko)</li><li>[[!DNL Experience Cloud] 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[[!DNL Experience Cloud] 도움말 홈](https://helpx.adobe.com/kr/support/experience-cloud.html)</li><li>[[!DNL Adobe] 교육 및 튜토리얼](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)</li></ul> |
+| <ul><li>[[!DNL Adobe Target] 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ko-KR){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target 커뮤니티 포럼]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)</li><li>[[!DNL Experience Cloud] 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[[!DNL Experience Cloud] 도움말 홈](https://helpx.adobe.com/kr/support/experience-cloud.html)</li><li>[[!DNL Adobe] 교육 및 튜토리얼](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)</li></ul> |

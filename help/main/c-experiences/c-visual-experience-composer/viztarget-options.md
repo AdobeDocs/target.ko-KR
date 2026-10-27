@@ -1,7 +1,7 @@
 ---
 keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 편집;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 바꾸기;오퍼 바꾸기;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨기기;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기 조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행;사용자 지정 이벤트;웹 구성 요소;오퍼 결정;오퍼 의사 결정
-description: '[!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
-title: '[!UICONTROL 시각적 경험 작성기] (VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
+description: '[!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기](VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
+title: '[!UICONTROL 시각적 경험 작성기](VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 TQID: 'https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA'
@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2272'
 ht-degree: 8%
 ---
 # [!UICONTROL 시각적 경험 작성기] 옵션
@@ -70,7 +70,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 * **[!UICONTROL 속성]**: 활동에 속성을 할당하거나 활동에서 속성을 제거합니다. [!UICONTROL 속성]은(는) ([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) 기능입니다. 자세한 내용은 [엔터프라이즈 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 참조하십시오.
 * **[!UICONTROL 페이지 배달]**: 사이트의 유사한 페이지에 동일한 경험을 포함하십시오. 페이지 템플릿을 사용하여 페이지에 구조를 제공하거나 페이지에 유사한 요소가 포함되어 있는 경우 유사한 구조의 페이지 요소에서 또는 전체 도메인에서 변형을 테스트할 수 있습니다. 자세한 내용은 [유사한 페이지에 동일한 경험 포함](/help/main/c-experiences/c-visual-experience-composer/temtest.md)을 참조하십시오.
-* **[!UICONTROL 사이트 환경 설정]**: 사이트 환경 설정을 구성하여 [!DNL Target]에서 CSS 선택기를 생성하는 방법을 지정하십시오. 자세한 내용은 [시각적 경험 작성기 구성](/help/main/administrating-target/visual-experience-composer-set-up.md)에서 _CSS 선택기_&#x200B;를 참조하십시오.
+* **[!UICONTROL 사이트 환경 설정]**: 사이트 환경 설정을 구성하여 [!DNL Target]에서 CSS 선택기를 생성하는 방법을 지정하십시오. 자세한 내용은 [시각적 경험 작성기 구성]](/help/main/administrating-target/visual-experience-composer-set-up.md)에서 _CSS 선택기_&#x200B;를 참조하십시오.[!UICONTROL 
 * **추가 페이지 추가**: 활동에 페이지를 추가하여 여러 페이지에 걸쳐 각 페이지별 디자인을 사용하여 스토리를 만들 수 있는 다중 페이지 활동을 만듭니다. 자세한 내용은 [다중 페이지 활동](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)을 참조하세요.
 * **단일 대상**: 활동에 단일 대상을 사용합니다.
 * **여러 대상**: 활동에 여러 대상을 할당합니다. 대상자 추가 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg) )을 클릭한 다음, 목록에서 대상자를 하나 이상 선택합니다. [!UICONTROL 대상 추가] 대화 상자에서 [대상을 결합](/help/main/c-target/combining-multiple-audiences.md)하거나 [새 대상을 만들기](/help/main/c-target/c-audiences/create-audience.md)할 수도 있습니다.
@@ -159,7 +159,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 >[!NOTE]
 >
->사용 가능한 옵션은 만들거나 편집하는 활동 유형과 요소에 따라 다릅니다. [!UICONTROL A/B 테스트] 활동에서 이미지 및 오퍼 편집에 대한 자세한 내용은 아래의 [디자인] 캔버스를 사용하여 요소 편집(#design)을 참조하십시오.
+>사용 가능한 옵션은 만들거나 편집하는 활동 유형과 요소에 따라 다릅니다. [!UICONTROL A/B 테스트] 활동에서 이미지 및 오퍼 편집에 대한 자세한 내용은 아래의 [디자인] 캔버스를 사용하여 요소 편집](#design)을 참조하십시오.[!UICONTROL 
 
 ### [!UICONTROL 속성] 레일
 
@@ -504,7 +504,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -536,7 +536,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -568,7 +568,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -658,7 +658,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -668,7 +668,7 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 >
 >VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
->VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}.
+>VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 Most VEC actions are supported on custom events and inside custom events, with the following exceptions: 
 

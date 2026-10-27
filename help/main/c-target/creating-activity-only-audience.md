@@ -1,24 +1,26 @@
 ---
 keywords: 대상자;대상자 규칙;대상자 만들기;대상자 생성;활동 전용;활동전용;임시
-description: Adobe [!DNL Target] 에서 일회용으로 활동 전용 대상을 만드는 방법을 알아봅니다.
+description: Adobe [!DNL Target]에서 일회용으로 사용되는 활동 전용 대상을 만드는 방법을 알아봅니다.
 title: 한 번만 사용할 대상을 만들 수 있습니까?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 TQID: https://experienceleague.adobe.com/IWQT8Lw7uXxY8znUlzOIB-92M2sdjvMj91Ut-gAvZVU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: '479'
 ht-degree: 27%
-
 ---
-
 # 활동 전용 대상자 만들기
 
 활동을 만드는 동안 안내가 있는 [!DNL Adobe Target] 3단계 워크플로우에서 활동 전용 대상을 만듭니다. 이러한 애드혹 대상은 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 [!UICONTROL 대상 라이브러리]에 저장되지는 않습니다.
@@ -59,5 +61,5 @@ ht-degree: 27%
 
   다음 대체 요소를 사용하여 제외 규칙을 사용할 수 있습니다.
 
-   * [활동 전용 대상 대신 라이브러리 대상을 만들어 사용](/help/main/c-target/c-audiences/create-audience.md)합니다.
-   * [여러 &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)(최대 20개) 라이브러리 대상을 활동 전용 대상으로 결합합니다. 대상을 조합할 때, 조합된 대상을 활동 전용 대상으로 저장하는 경우에도 개별 라이브러리 대상의 포함 및 제외 규칙을 사용할 수 있습니다.
+  * [활동 전용 대상 대신 라이브러리 대상을 만들어 사용](/help/main/c-target/c-audiences/create-audience.md)합니다.
+  * [여러 ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)(최대 20개) 라이브러리 대상을 활동 전용 대상으로 결합합니다. 대상을 조합할 때, 조합된 대상을 활동 전용 대상으로 저장하는 경우에도 개별 라이브러리 대상의 포함 및 제외 규칙을 사용할 수 있습니다.

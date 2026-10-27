@@ -1,8 +1,8 @@
 ---
 keywords: 권장 사항 피드, 피드, SAINT, ftp, csv, 분류, 분석 분류
-description: 피드가 CSV 파일, Google 제품 검색 피드 형식 및 [!DNL Analytics] 제품 분류를 사용하여 [!DNL Adobe Target] [!DNL Recommendations] (으)로 엔터티를 가져오는 방법을 알아봅니다.
+description: 피드가 CSV 파일, Google 제품 검색 피드 형식 및 [!DNL Analytics] 제품 분류를 사용하여 [!DNL Adobe Target] [!DNL Recommendations](으)로 엔터티를 가져오는 방법을 알아봅니다.
 title: '[!DNL Target Recommendations]에서 [!UICONTROL 피드]를 사용하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 45%
+source-wordcount: '2586'
+ht-degree: 43%
 ---
 # 피드
 
@@ -219,7 +219,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] 제품 분류 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Analytics] 제품 분류는 권장 사항에 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 *Analytics 구성 요소* 안내서에서 [분류 정보](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko)를 참조하십시오. 권장 사항에 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용 안내서를 따르십시오.
+[!DNL Analytics] 제품 분류는 권장 사항에 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 *Analytics 구성 요소* 안내서에서 [분류 정보](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)를 참조하십시오. 권장 사항에 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용 안내서를 따르십시오.
 
 >[!IMPORTANT]
 >
@@ -336,14 +336,14 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 **예제 1:**
 
 * 1일: 매일 오전 9시(PST)에 피드 처리
-* 2일째: 오후 3시 30분인데 피드가 어제 오전 9시 이후에 실행되지 않았습니다.
+* 둘째 날: 오후 3시 30분인데 어제부터 피드가 오전 9시에 실행되지 않았습니다.
 
 약 6.5시간 전에 색인이 실행되어야 했는데 그렇지 않으므로 상태는 노란색이어야 합니다. 6.5시간 +24는 피드 창의 127%입니다.
 
 **예제 2:**
 
 * 1월 1일: 매월 피드 프로세스는 오전 9시(PST)입니다.
-* 2월 3일: 오전 10시이며 피드가 한 달, 하루, 한 시간 전에 실행되지 않습니다.
+* 2월 3일: 오전 10시이며 피드가 한 달, 하루, 한 시간 전에 실행되지 않았습니다.
 
 약 1일 1시간 전에 색인이 실행되어야 했는데 그렇지 않으므로 상태는 노란색이어야 합니다. 이것은 빈도 설정의 (31+(1/25))/30 = 1.03%에 불과하지만 하루 지연의 최대값을 초과했습니다.
 
@@ -358,7 +358,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 피드의 목적 이해
 * 피드 값 이해
 
->[!VIDEO](https://video.tv.adobe.com/v/33985?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### 피드 만들기(6:44) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
@@ -367,4 +367,4 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 피드 설정
 * 사용할 피드 유형 파악
 
->[!VIDEO](https://video.tv.adobe.com/v/33984?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

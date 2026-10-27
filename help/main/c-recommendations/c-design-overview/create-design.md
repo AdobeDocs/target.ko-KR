@@ -2,7 +2,7 @@
 keywords: 권장 사항 디자인;디자인 만들기;디자인 복사
 description: 기본 디자인을 사용하거나 페이지 레이아웃에 가장 잘 맞는 사용자 지정 디자인을 만들어 [!DNL Target Recommendations] 디자인을 만드는 방법을 알아봅니다.
 title: Recommendations에서 디자인을 만들려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: 'https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 23%
+source-wordcount: '1069'
+ht-degree: 21%
 ---
 # 디자인 만들기
 
@@ -170,7 +170,7 @@ ht-degree: 23%
    | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(#recsSettings > Recommendations API 토큰 > 클라이언트 코드에서 사용 가능). |
    | `[YOUR_MBOX_NAME]` | 양식 기반 권장 사항의 &quot;위치&quot; 섹션에서 선택한 이름(이 경우 Sample_Recs_Response). |
    | `[ENTITY_ID` | 카탈로그에 있는 항목의 `entity.id`입니다. |
-   | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |
+   | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가합니다. |
 
 알고리즘이 실행되고 결과가 나오면, 응답은 다음과 같은 모습이어야 합니다.
 
@@ -331,4 +331,4 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 * 사용자 지정 디자인 만들기
 * 디자인에서 디스플레이 변수를 참조하는 방법 이해
 
->[!VIDEO](https://video.tv.adobe.com/v/35323?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

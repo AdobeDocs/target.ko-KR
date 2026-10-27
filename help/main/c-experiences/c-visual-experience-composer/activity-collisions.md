@@ -16,10 +16,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 45%
+source-wordcount: '351'
+ht-degree: 38%
 ---
 # 활동 충돌
 
@@ -42,4 +42,4 @@ ht-degree: 45%
 
 목록에는 기타 정보와 함께 각 잠재적 충돌의 상태와 우선순위가 표시됩니다. 상태와 우선순위를 사용하여 충돌 발생 가능성을 판별할 수 있습니다. 충돌할 수 있는 두 가지 활동을 고려합니다. 한 활동이 현재 활성화되어 있지 않으면 충돌이 발생할 수 없습니다. 비활성 활동이 활성화되는 경우에만 충돌이 가능합니다. 잠재적 충돌이 우선순위가 동일한 두 라이브 활동과 대상이 동일한 두 활동 간의 충돌인 경우 충돌이 발생합니다. 우선순위나 상태를 변경하여 충돌을 방지할 수 있습니다.
 
-대상이 다른 경우에는, 특정 방문자가 여러 대상에 속할 수 있으므로 여전히 잠재적 충돌이 있을 수 있습니다.
+대상이 서로 다른 경우 특정 방문자가 여러 대상에 속할 수 있으므로 충돌이 발생할 수 있습니다.

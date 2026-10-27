@@ -1,8 +1,8 @@
 ---
 keywords: 자동화된 개인화;ap;대상;앙상블;랜덤 포레스트;multi-armed bandit;thompson 샘플링;ml;머신 러닝
-description: 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시키는 [!DNL Adobe Target]의 [!UICONTROL Automated Personalization] (AP) 활동을 사용하는 방법에 대해 알아봅니다.
+description: 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시키는 [!DNL Adobe Target]의 [!UICONTROL Automated Personalization](AP) 활동을 사용하는 방법에 대해 알아봅니다.
 title: AP([!UICONTROL Automated Personalization]) 활동이란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 29%
+source-wordcount: '1054'
+ht-degree: 27%
 ---
 # [!UICONTROL Automated Personalization] (AP)
 
@@ -81,7 +81,7 @@ Random Forest는 선도적인 머신 러닝 방식입니다. 데이터 과학 �
 
 * Multi-arm bandit을 사용하면 모델이 항상 작은 부분의 트래픽을 &quot;소비&quot;하여 활동 기간 동안 계속 학습하고 이전에 학습한 트렌드의 과도한 사용을 방지할 수 있습니다.
 * [!DNL Target]이(가) 항상 변화하는 방문자 환경 설정을 사용하고 있는지 확인하기 위해 최신 방문자 동작 데이터를 사용하여 기본 모델이 24시간마다 다시 작성됩니다.
-* 이 알고리즘은 개별 방문자의 성과가 좋은 경험을 파악할 수 없는 경우 개인화된 승자를 계속 찾으면서, 전반적으로 가장 성과가 좋은 경험을 표시하는 방식으로 자동으로 전환됩니다. 최고 성과를 보이는 경험은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 사용하여 확인되었습니다.
+* 알고리즘이 개별 방문자에 대한 우승 경험을 결정할 수 없는 경우 전체 최고 성과 경험을 표시하는 것으로 자동 전환되는 동시에 개인화된 우승자를 계속 찾습니다. 최고 성과를 보이는 경험은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 사용하여 확인되었습니다.
 
 ## 이 모델은 계속해서 단일 목표 지표를 최적화합니다
 
@@ -99,9 +99,9 @@ Random Forest는 선도적인 머신 러닝 방식입니다. 데이터 과학 �
 
 CRM 정보 또는 고객 이탈 성향 점수와 같은 오프라인 데이터는 개인화 모델을 구축할 때 매우 유용할 수 있습니다. AP([!UICONTROL Automated Personalization]) 및 [!UICONTROL 자동 타겟] 개인화 알고리즘에서 데이터를 입력하는 방법에는 여러 가지가 있습니다.
 
-* [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}
-* [프로필 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}
-* [프로필 업데이트를 위한 서버측 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}
+* [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [프로필 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [프로필 업데이트를 위한 서버측 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
 
 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 개인화 알고리즘에서 자동으로 수집 및 사용되는 데이터에 대한 자세한 내용은 [Automated Personalization 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을(를) 참조하십시오.
 
@@ -113,4 +113,4 @@ CRM 정보 또는 고객 이탈 성향 점수와 같은 오프라인 데이터�
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

@@ -1,6 +1,6 @@
 ---
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: '[!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
 title: A/B 테스트를 만들려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 18%
+source-wordcount: '1020'
+ht-degree: 16%
 ---
 # A/B 테스트 활동 만들기
 
@@ -94,7 +94,7 @@ ht-degree: 18%
 
 1. 페이지의 요소를 변경하여 새 경험을 만듭니다.
 
-   새 활동을 만든 후에 [!UICONTROL 시각적 경험 작성기] 왼쪽에 두 개의 탭(경험 A 및 경험 B)이 표시됩니다. 경험 A는 제어 경험입니다. 포커스는 원하는 대로 수정할 수 있는 경험 B 탭에 있습니다. 경험 B는 테스트에 추가할 수 있는 대체 경험입니다. [!UICONTROL 경험] 창 상단의 [!UICONTROL 추가] 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭하여 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려면 활동에서 경험 A를 삭제할 수도 있습니다.
+   새 활동을 만든 후에 [!UICONTROL 시각적 경험 작성기] 왼쪽에 두 개의 탭(경험 A 및 경험 B)이 표시됩니다. 경험 A는 제어 경험입니다. 포커스는 원하는 대로 수정할 수 있는 경험 B 탭에 있습니다. 경험 B는 테스트에 추가할 수 있는 대체 경험입니다. [!UICONTROL 경험] 창 상단의 [!UICONTROL 추가] 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭하여 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려는 경우 활동에서 경험 A를 삭제할 수도 있습니다.
 
    [!UICONTROL 시각적 경험 작성기]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)를 참조하십시오. 경험 B를 수정하려면 2단계부터 시작하십시오.
 

@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '530'
 ht-degree: 13%
 ---
 # 제외
@@ -36,7 +36,7 @@ ht-degree: 13%
 * 가을 및 겨울 카탈로그는 이제 온라인에 표시되어야 하는 유일한 카탈로그입니다. 여름 카탈로그의 모든 항목은 더 이상 구매할 수 없습니다.
 * 대부분의 페이지 또는 화면에서 권장하기에 부적절할 수 있는 항목(성인용품, NC-17 영화 등).
 * 메타데이터 필드가 완료되지 않은 제품(썸네일, 가격 또는 기타 중요한 메타데이터 누락).
-* 권장해서는 안 되는 제품(시스템에 특정 용도로 SKU가 있을 수 있지만 구매 가능한 항목은 아닙니다. 또는 QA 팀이 실제로 주문 등을 하지 않고 구매를 시뮬레이션하는 것은 가짜 SKU일 수 있습니다.
+* 권장해서는 안 되는 제품(시스템에 SKU가 있을 수 있지만 구매 가능한 항목이 아닙니다. 또는 QA 팀이 실제로 주문 등을 하지 않고 구매를 시뮬레이션하는 것은 가짜 SKU일 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -48,7 +48,7 @@ ht-degree: 13%
 
 1. 기존 제외 목록을 표시하려면 **[!UICONTROL 권장 사항]** > **[!UICONTROL 제외]**&#x200B;를 클릭하십시오.
 
-   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하는 방법에 대한 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [계획 및 구현 [!DNL Recommendations]](https://experienceleague.adobe.com/ko/docs/target-dev/developer/recommendations){target=_blank}을 참조하십시오.
+   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하는 방법에 대한 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [계획 및 구현 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}을 참조하십시오.
 
 1. (조건부) 제외를 만들거나 업데이트하여 해당 환경에서 제외 콘텐츠를 미리 보는 동안 **[!UICONTROL 필터 표시]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭한 다음 **[!UICONTROL 환경]** 드롭다운 목록에서 원하는 [환경](/help/main/administrating-target/environments.md)을 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
@@ -91,4 +91,4 @@ After creating a search using "id > contains," for example, you can then click [
 * 컬렉션 만들기
 * 제외 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/35499?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

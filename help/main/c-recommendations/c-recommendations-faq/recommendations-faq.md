@@ -2,7 +2,7 @@
 keywords: 문제 해결, 자주 묻는 질문, FAQ, FAQ, 권장 사항, 특수 문자, 속성 가중치, 콘텐츠 유사성
 description: '[!DNL Target Recommendations] 활동에 대해 자주 묻는 질문과 대답 목록을 봅니다.'
 title: '[!DNL Recommendations]에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 80%
+source-wordcount: '3565'
+ht-degree: 77%
 ---
 # 권장 사항 FAQ
 
@@ -59,7 +59,7 @@ ht-degree: 80%
 
 * 이전에는 제외되었지만 지금은 포함되어야 하는 경우에는 항목이 다음 알고리즘 실행에 포함됩니다(12~24시간).
 
-  이 상황은 [!DNL Target]이 온라인과 오프라인 모두에서 제외를 적용하기 때문에 발생합니다. 항목을 새로 제외하는 경우에는 온라인 제외가 빠르게 적용됩니다. 항목이 새로 포함되는 경우에는 온라인 제외가 빠르게 사라지지만, 오프라인 제외는 다음 알고리즘일 실행될 때까지 사라지지 않습니다.
+  이 상황은 [!DNL Target]이 온라인과 오프라인 모두에서 제외를 적용하기 때문에 발생합니다. 항목을 새로 제외하는 경우에는 온라인 제외가 빠르게 적용됩니다. 항목이 새로 포함되면 온라인 제외는 빠르게 사라지지만 오프라인 제외는 다음 알고리즘이 실행될 때까지 사라지지 않습니다.
 
 * 이전에는 포함되었지만 지금은 제외되는 경우에는 &quot;항목 속성이 업데이트됨..&quot;에 따라 항목이 제외됩니다. 피드 소스에 따라 위에서 논의된 타임라인(mbox/API를 통해 15분 또는 피드를 통해 12~24시간).
 
@@ -108,7 +108,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## 권장 사항 활동을 만들 때 사용자 지정 기준을 포함한 일부 기준을 선택할 수 없는 이유는 무엇입니까? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## 권장 사항 활동을 만들 때 사용자 지정 기준을 포함한 모든 기준을 선택할 수 없는 이유는 무엇입니까? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 사용 가능한 기준은 현재 범주를 기반으로 합니다. 권장 사항 오퍼를 만드는 경우 알고리즘 선택기는 범주 ID를 기반으로 기준을 표시합니다.
 
@@ -116,7 +116,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 적용 가능한 모든 기준을 포함합니다.
 
-[!DNL Target]은 알고리즘 선택기의 인텔리전스 필터링을 제어할 수 있도록 [호환되지 않는 조건 필터링](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank} 설정을 가지고 있습니다.
+[!DNL Target]은 알고리즘 선택기의 인텔리전스 필터링을 제어할 수 있도록 [호환되지 않는 조건 필터링](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 설정을 가지고 있습니다.
 
 >[!NOTE]
 >
@@ -229,7 +229,7 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 >[!NOTE]
 >
->너무 많은 엔티티가 제외되는 경우 권장 사항은 엔티티가 개체 템플릿을 채우기에 부족한 것처럼 작동합니다.
+>너무 많은 엔티티가 제외되는 경우 권장 사항은 엔티티가 부족하여 권장 사항 템플릿을 채우지 못하는 것처럼 작동합니다.
 
 `entityIds`를 제외하려면 `&excludes=${mbox.excludedIds}` 토큰을 오퍼 콘텐츠 URL에 추가합니다. 콘텐츠 URL이 추출되면 필수 매개 변수는 현재 mbox 요청 매개 변수를 사용하여 대체됩니다.
 
