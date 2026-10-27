@@ -111,7 +111,7 @@ A4T 활동을 생성하기 전에 올바른 권한이 있는지 확인하십시�
 
 보조 ID를 검사하는 가장 간편한 방법은 Adobe Experience Platform Debugger를 사용하는 것입니다.
 
-디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 소개](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)를 참조하십시오.
+디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 소개](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html?lang=ko)를 참조하십시오.
 
 ![디버거](/help/main/c-integrating-target-with-mac/a4t/assets/debugger.png)
 

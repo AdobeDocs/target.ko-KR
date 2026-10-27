@@ -2,7 +2,7 @@
 keywords: 자동화된 개인화;ap
 description: '[!UICONTROL 시각적 경험 작성기]를 사용하여 [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization] (AP) 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 product_v2:
@@ -45,7 +45,7 @@ ht-degree: 29%
 
    >[!NOTE]
    >
-   >[!DNL Target]은(는) URL 프로토콜([!DNL https] 및 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com`] 및 [!DNL `https://wwww.adobe.com`]이(가) 모두 일치합니다.
+   >[!DNL Target]은(는) URL 프로토콜([!DNL https] 및 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com/kr`] 및 [!DNL `https://wwww.adobe.com`]이(가) 모두 일치합니다.
 
    지정된 URL의 페이지가 VEC에서 열립니다.
 

@@ -2,7 +2,7 @@
 keywords: 작업 공간;속성 관리;권한;제품 구성;제품 프로필;역할;프로젝트;관찰자;편집자;승인자;게시자
 description: 개별 작업 공간(제품 프로필)을 만든 다음 사용자에게 개별 페이지, 속성 또는 웹 사이트에 대한 다양한 역할과 권한을 할당하는 방법을 알아봅니다.
 title: 엔터프라이즈 사용자 권한이란 무엇이며 어떻게 사용할 수 있습니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
