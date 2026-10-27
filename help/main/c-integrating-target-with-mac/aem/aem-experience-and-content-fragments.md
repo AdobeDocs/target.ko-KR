@@ -1,7 +1,7 @@
 ---
 keywords: aem;experience manager;adobe experience manager;통합;통합 기능;경험 조각;콘텐츠 조각
 description: '[!DNL Adobe Target] 활동에서 [!DNL Adobe Experience Manager]개의 경험 및 콘텐츠 조각을 사용하는 방법을 알아봅니다.'
-title: '[!DNL Adobe Experience Manager](AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]을 사용하려면 어떻게 해야 합니까?'
+title: '[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]을 사용하려면 어떻게 해야 합니까?'
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 TQID: https://experienceleague.adobe.com/OlgveSjoE0rh1orFsbEZVCSbjd3TKEk8fdBbbXtLxhA
@@ -65,4 +65,4 @@ ht-degree: 36%
 
 [!DNL Adobe Experience Manager] [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]은(는) 표면적으로는 비슷해 보일 수 있지만 각 조각 유형은 다른 사용 사례에서 주요 역할을 합니다.
 
-[!UICONTROL 경험 조각]과(와) [!UICONTROL 콘텐츠 조각]의 유사성, 차이성, 사용 시기 및 방법에 대한 자세한 내용은 [AEM Sites 비디오 및 자습서 안내서](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}의 [콘텐츠 조각 이해] 및 [!UICONTROL 경험 조각]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}을(를) 참조하십시오.[!UICONTROL 
+[!UICONTROL 경험 조각]과(와) [!UICONTROL 콘텐츠 조각]의 유사성, 차이성, 사용 시기 및 방법에 대한 자세한 내용은 [AEM Sites 비디오 및 자습서 안내서](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}의 [콘텐츠 조각 이해] 및 [[!UICONTROL 경험 조각]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}을(를) 참조하십시오.

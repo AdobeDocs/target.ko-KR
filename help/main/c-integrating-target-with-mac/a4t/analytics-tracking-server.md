@@ -1,6 +1,6 @@
 ---
 keywords: analytics 추적 서버;A4T;Adobe Experience Cloud Debugger;Adobe Experience Platform debugger;보고 소스;개발자 도구
-description: 이전 버전의 at.js를 사용하는 경우 Analytics for [!DNL Target](A4T)을(를) 사용하는 활동에 대해 Analytics 추적 서버를 지정하는 방법을 알아봅니다.
+description: 이전 버전의 at.js를 사용하는 경우 Analytics for [!DNL Target] (A4T)을(를) 사용하는 활동에 대해 Analytics 추적 서버를 지정하는 방법을 알아봅니다.
 title: Analytics 추적 서버를 사용하려면 어떻게 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43

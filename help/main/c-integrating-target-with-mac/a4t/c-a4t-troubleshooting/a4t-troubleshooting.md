@@ -1,6 +1,6 @@
 ---
 keywords: Analytics 추적 서버;A4T;Analytics 세그먼트;보고서 세트;잘못된 데이터;고립됨;SDID;VisitorAPI.js;mboxMCSDID;가상;지정되지 않음
-description: 고객이 Analytics for [!DNL Target](A4T)을(를) 사용할 때 경험하는 일반적인 문제를 살펴봅니다.
+description: 고객이 Analytics for [!DNL Target] (A4T)을(를) 사용할 때 경험하는 일반적인 문제를 살펴봅니다.
 title: Analytics 및 [!DNL Target] 통합 문제를 해결하는 방법(A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba

@@ -1,6 +1,6 @@
 ---
 keywords: vec;시각적 경험 작성기; vec;iframe;확장 기능;브라우저
-description: '[!UICONTROL 시각적 경험 작성기](VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아보십시오. VEC Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
+description: '[!UICONTROL 시각적 경험 작성기] (VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아보십시오. VEC Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
 title: '[!UICONTROL VEC(시각적 경험 작성기) Helper 확장 프로그램을 사용하려면 어떻게 해야 합니까?]'
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12

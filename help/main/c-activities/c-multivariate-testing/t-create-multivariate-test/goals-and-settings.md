@@ -1,6 +1,6 @@
 ---
 keywords: 활동 설정;목표 및 설정;다변량;mvt
-description: '[!DNL Adobe Target]의 [!UICONTROL 목표 및 설정] 페이지를 사용하여 [!UICONTROL 다변량 테스트](MVT) 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]의 [!UICONTROL 목표 및 설정] 페이지를 사용하여 [!UICONTROL 다변량 테스트] (MVT) 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
 title: MVT([!UICONTROL 다변량 테스트]) 활동에서 목표와 설정을 지정하려면 어떻게 합니까?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a

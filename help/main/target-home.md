@@ -64,7 +64,7 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 >[!TAB AI 동료]
 
-[!DNL Adobe Experience Platform]**에서**&#x200B;모임 [!DNL Coworker]
+[!DNL Adobe Experience Platform]&#x200B;**에서**&#x200B;모임 [!DNL Coworker]
 
 [!DNL Coworker]은(는) [!DNL Adobe Experience Cloud] 탐색에 대한 유용한 안내서입니다. [!DNL Target]과(와) 같은 제품에서 사용할 수 있는 [!DNL Coworker]은(는) 인터페이스에서 바로 주요 개념과 기능을 빠르게 이해할 수 있도록 도와줍니다.
 

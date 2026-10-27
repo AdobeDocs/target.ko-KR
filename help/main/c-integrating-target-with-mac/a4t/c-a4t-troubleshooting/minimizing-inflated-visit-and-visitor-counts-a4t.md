@@ -1,6 +1,6 @@
 ---
 keywords: 부분 데이터;부분 데이터;A4T;불일치;Analytics for Target;고립됨;가상 보고서 세트;가상;문제 해결;연결되지 않음;부풀려짐;지정되지 않음
-description: Analytics for [!DNL Target](A4t)을(를) 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 방법에 대해 알아봅니다. “부분 데이터”의 의미와 이를 줄이는 방법에 대해 알아봅니다.
+description: Analytics for [!DNL Target] (A4t)을(를) 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 방법에 대해 알아봅니다. “부분 데이터”의 의미와 이를 줄이는 방법에 대해 알아봅니다.
 title: A4T에서 부풀려진 방문 및 방문자 카운트 최소화를 최소화 하려면 어떻게 해야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d

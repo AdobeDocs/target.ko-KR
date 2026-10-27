@@ -1,6 +1,6 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4t;사용 권한 제공;사용 권한 제공;adobe Experience Cloud
-description: '[!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있는 [!DNL Target](A4T)용 Analytics 프로비저닝에 대해 자주 묻는 질문에 대한 답변을 찾아보십시오.'
+description: '[!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있는 [!DNL Target] (A4T)용 Analytics 프로비저닝에 대해 자주 묻는 질문에 대한 답변을 찾아보십시오.'
 title: A4T 초기 프로비저닝에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183

@@ -1,6 +1,6 @@
 ---
 keywords: 자동 할당 만들기;A/B 테스트;자동 할당 활동;새 a/b 활동;자동 할당;최고 경험에 자동 할당;할당;자동 할당
-description: '[!DNL Adobe Target]의 [!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!UICONTROL 자동 할당] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]의 [!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!UICONTROL 자동 할당] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL 자동 할당] 활동을 만들려면 어떻게 합니까?'
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2

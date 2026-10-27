@@ -1,6 +1,6 @@
 ---
 keywords: mvt;다변량 테스트;오퍼;조합
-description: Adobe [!DNL Target]의 [!UICONTROL VEC(시각적 경험 작성기)를 사용하여 [!UICONTROL 다변량 테스트](MVT)에 포함할 오퍼를 만드는 방법을 알아봅니다.]
+description: Adobe [!DNL Target]의 [!UICONTROL VEC(시각적 경험 작성기)를 사용하여 [!UICONTROL 다변량 테스트] (MVT)에 포함할 오퍼를 만드는 방법을 알아봅니다.]
 title: MVT([!UICONTROL 다변량 테스트])에서 조합을 만들려면 어떻게 합니까?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555

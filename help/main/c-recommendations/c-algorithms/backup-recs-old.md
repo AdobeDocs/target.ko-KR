@@ -27,7 +27,7 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->[!UICONTROL 부분 디자인 렌더링] 및 [!UICONTROL 백업 권장 사항 표시] 옵션을 함께 사용하거나 따로 사용할 때 관찰할 결과를 설명하는 매트릭스를 포함하여 추가 정보가 기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 주제의 [콘텐츠 섹션에 포함되어 있습니다.
+>[!UICONTROL 부분 디자인 렌더링] 및 [!UICONTROL 백업 권장 사항 표시] 옵션을 함께 사용하거나 따로 사용할 때 관찰할 결과를 설명하는 매트릭스를 포함하여 추가 정보가 기준 만들기[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 주제의 콘텐츠 섹션에 포함되어 있습니다.
 
 백업 권장 사항 기능은 항상 사이트에서 가장 많이 본 항목을 사용하여 알고리즘의 데이터가 사용된 후 나머지 슬롯을 채웁니다. 예를 들어, 템플릿은 5개의 권장 항목을 표시하도록 구성되어 있으며, *구매 관심도* 알고리즘을 사용하고 있습니다. 데이터가 5개 슬롯 중 2개만 채울 수 있는 경우 백업 권장 사항 기능은 가장 많이 본 항목으로 다른 세 개의 슬롯을 채웁니다.
 

@@ -87,7 +87,7 @@ ht-degree: 21%
 
 ## 호스트 목록 정렬 또는 검색 {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-[!UICONTROL 호스트] 목록을 정렬하려면 원하는 열 헤더([!UICONTROL 이름], [!UICONTROL 환경] 또는 [!UICONTROL 마지막으로 요청한 ])를 클릭하여 목록을 오름차순 또는 내림차순으로 정렬하십시오.
+[!UICONTROL 호스트] 목록을 정렬하려면 원하는 열 헤더([!UICONTROL 이름], [!UICONTROL 환경] 또는 [!UICONTROL 마지막으로 요청한 &#x200B;])를 클릭하여 목록을 오름차순 또는 내림차순으로 정렬하십시오.
 
 [!UICONTROL 호스트] 목록을 검색하려면 [!UICONTROL 호스트 검색] 상자에 검색어를 입력하십시오.
 
