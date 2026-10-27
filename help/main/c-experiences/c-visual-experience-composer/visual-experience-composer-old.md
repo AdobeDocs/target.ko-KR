@@ -128,7 +128,7 @@ VEC 내에서 페이지 로드를 취소하려면 페이지를 로드하는 동�
 * 반응형 웹 사이트용 경험 미리보기 및 빌드
 * 오버레이를 사용하여 요소 유형을 강조 표시
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30526?captions=kor)
 
 ### 운영 시간: 시각적 경험 작성기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
