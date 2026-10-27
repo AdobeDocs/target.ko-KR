@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 17%
 ---
 # [!DNL Analytics] 추적 서버 사용
@@ -54,7 +54,7 @@ ht-degree: 17%
 
    디버거의 [!UICONTROL 호스트 이름] 섹션에 [!DNL Analytics] 추적 서버가 있습니다.
 
-   * **퍼스트 파티 추적 서버**: 요청의 호스트 이름이 현재 있는 도메인과 일치하면 퍼스트 파티 추적 서버입니다. 예를 들어 `adobe.com`에 있는 경우 `adobe.com`은(는) 자사 추적 서버입니다.
+   * **자사 추적 서버**: 요청의 호스트 이름이 현재 사용 중인 도메인과 일치하면 자사 추적 서버입니다. 예를 들어 `adobe.com`에 있는 경우 `adobe.com`은(는) 자사 추적 서버입니다.
    * **타사 추적 서버**: 타사 추적 서버는 일반적으로 `[company].sc.omtrdc.net`이며 여기서 회사는 회사 이름이지만 항상 `sc.omtrdc.net`로 끝납니다.
    * **CNAME 구현**: `sstats.adobe.com`은(는) https(보안) 요청에 대한 CNAME 자사 추적 서버의 예입니다. `stats.adobe.com`은(는) http(비보안) 페이지에 대한 CNAME 자사 요청의 예입니다.
 
@@ -82,7 +82,7 @@ ht-degree: 17%
 
    추적 서버는 요청의 호스트 이름입니다.
 
-   * **퍼스트 파티 추적 서버**: 요청의 호스트 이름이 현재 있는 도메인과 일치하면 퍼스트 파티 추적 서버입니다. 예를 들어 `adobe.com`에 있는 경우 `adobe.com`은(는) 자사 추적 서버입니다.
+   * **자사 추적 서버**: 요청의 호스트 이름이 현재 사용 중인 도메인과 일치하면 자사 추적 서버입니다. 예를 들어 `adobe.com`에 있는 경우 `adobe.com`은(는) 자사 추적 서버입니다.
    * **타사 추적 서버**: 타사 추적 서버는 일반적으로 `[company].sc.omtrdc.net`이며 여기서 회사는 회사 이름이지만 항상 `sc.omtrdc.net`로 끝납니다.
    * **CNAME 구현**: `sstats.adobe.com`은(는) https(보안) 요청에 대한 CNAME 자사 추적 서버의 예입니다. `stats.adobe.com`은(는) http(비보안) 페이지에 대한 CNAME 자사 요청의 예입니다.
 

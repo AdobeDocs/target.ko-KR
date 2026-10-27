@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 27%
+source-wordcount: '764'
+ht-degree: 24%
 ---
 # 사용자 지정 기준 업로드
 
@@ -75,7 +75,7 @@ CSV 파일을 업로드하여 [!DNL Adobe Target]에서 권장 사항을 사용�
 
 * 사용자 지정 기준 업데이트는 기본적으로 &quot;누적&quot;입니다. CSV 업로드 파일에 지정된 새 키-값 쌍이 기존 키-값 쌍을 덮어씁니다. CSV 업로드에 지정된 키가 없는 기존 키-값 쌍은 계속 전달할 수 있으며 CSV 파일의 일부로 마지막으로 업로드한 시점부터 31일 후에 만료됩니다.
 
-  Client Care에 문의하여 다음 CSV 업로드에 포함되지 않은 기존 결과를 삭제하도록 설정을 활성화합니다. 이 설정을 사용하면 사용자 지정 CSV 피드 파일에 있는 키만 게재할 수 있습니다. 이 설정은 모든 사용자 지정 기준에 적용됩니다.
+  설정이 다음 CSV 업로드에 포함되지 않은 기존 결과를 삭제하도록 하려면 Client Care에 문의하십시오. 이 설정을 사용하면 사용자 지정 CSV 피드 파일에 있는 키만 게재할 수 있습니다. 이 설정은 모든 사용자 지정 기준에 적용됩니다.
 
 * 사용자 지정 기준 피드는 24시간마다 한 번씩 업데이트됩니다.
 

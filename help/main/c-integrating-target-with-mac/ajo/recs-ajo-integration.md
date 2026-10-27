@@ -1,28 +1,30 @@
 ---
 keywords: ajo;adobe 여정 최적화 도구;adobe 여정 최적화 도구 target 통합;권장 사항;target 권장 사항;통합
-description: ' [!DNL Adobe Target Recommendations] 을(를)  [!DNL Adobe Journey Optimizer]과(와) 통합합니다.'
-title: ' [!DNL Adobe Journey Optimizer]을(를) 사용하는 고객 여정에서  [!DNL Target Recommendations] 을(를) 사용하려면 어떻게 합니까?'
+description: '[!DNL Adobe Target Recommendations]을(를) [!DNL Adobe Journey Optimizer]과(와) 통합합니다.'
+title: '[!DNL Adobe Journey Optimizer]을(를) 사용하는 고객 여정에서 [!DNL Target Recommendations]을(를) 사용하려면 어떻게 해야 합니까?'
 feature: Integrations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip="[!DNL Adobe Target]의 Beta 기능은 무엇입니까?"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
 TQID: https://experienceleague.adobe.com/JA--Ll80bDZwn9WtGqIb-z3YxyJLOvOYPzuhZeKA17w
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer journeys
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 2%
-
+source-wordcount: '647'
+ht-degree: 3%
 ---
-
 # [!DNL Adobe Target Recommendations]과(와) [!DNL Adobe Journey Optimizer] 통합
 
 이 문서에서는 [!DNL Adobe Target Recommendations]을(를) [!DNL Adobe Journey Optimizer]과(와) 통합하기 위한 사용 사례 및 지침을 제공하여 연관성 있고 상황에 맞는 개인화된 고객 경험을 제공할 수 있도록 합니다.

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 25%
+source-wordcount: '550'
+ht-degree: 21%
 ---
 # 상승도 및 신뢰도 - A4T FAQ
 
@@ -69,7 +69,7 @@ A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]
 
 +++
 
-## 상승도 및 신뢰도를 Ad Hoc 및 Report Builder에서 사용할 수 있습니까? 기본적으로 사용할 수 없다면 사용 설정할 수 있습니까? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
+## 상승도 및 신뢰도를 Ad Hoc 및 Report Builder에서 사용할 수 있습니까? 토박이가 아니라면 직접 현지에서 할 수 있나요? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++답변
 상승도 및 신뢰도는 애드혹 또는 리포트 빌더에서 사용할 수 없으며 연속 변수에 자동으로 계산되지 않습니다. 하지만 이진 지표에 수동으로 계산할 수 있습니다.

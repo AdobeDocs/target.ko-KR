@@ -16,16 +16,16 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 35%
+source-wordcount: '369'
+ht-degree: 34%
 ---
 # 지표 정의 - A4T FAQ
 
 이 주제에서는 지표 정의와 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target]&#x200B;(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 
-## 활동 멤버십이 만료되는 시기는 언제입니까? 방문자가 활동을 입력한 후 다시 표시되지 않는 경우 활동에서 활동이 카운트되는 기간은 얼마나 됩니까? {#section_41B4958F33534E4B96DEE0C981227A79}
+## 활동 멤버십이 만료되는 시기는 언제입니까? 방문자가 활동을 입력한 후 다시 표시되지 않는 경우 활동에서 해당 작업이 카운트되는 기간은 얼마나 됩니까? {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++답변
 기본적으로 방문자가 마지막으로 활동과 상호 작용한 후 90일이 지나면 해당 활동이 만료됩니다. 이 설정은 필요한 경우 ClientCare에서 조정할 수 있습니다. 이 설정값은 모든 활동에 적용되지만 하나의 사례에 맞게 조정하지 않아야 합니다.

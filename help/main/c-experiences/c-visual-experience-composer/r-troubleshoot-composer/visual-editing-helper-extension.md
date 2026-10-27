@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '838'
 ht-degree: 52%
 ---
 # [!UICONTROL 시각적 편집 도우미] 확장
@@ -79,7 +79,7 @@ ht-degree: 52%
 1. [!DNL Target]에서 VEC를 엽니다.
 1. 확장 기능을 사용하려면 VEC 또는 QA 모드에서 Chrome 브라우저의 도구 모음에 있는 [!UICONTROL Visual Editing Helper] 브라우저 확장 기능 아이콘(![Visual Editing 확장 기능 아이콘](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png))을 클릭합니다.
 
-   작성 기능을 향상시키기 위해 [!UICONTROL Target] VEC에서 웹 사이트를 열면 [!UICONTROL Visual Editing Helper]가 자동으로 활성화됩니다. 확장 기능에는 조건부 설정이 없습니다. 확장 기능은 SameSite 쿠키 설정을 포함한 모든 설정을 자동으로 처리합니다.
+   작성 기능을 향상시키기 위해 [!UICONTROL Target] VEC에서 웹 사이트를 열면 [!UICONTROL Visual Editing Helper]가 자동으로 활성화됩니다. 확장에는 조건부 설정이 없습니다. 확장 기능은 SameSite 쿠키 설정을 포함한 모든 설정을 자동으로 처리합니다.
 
    `SameSite=None` 속성 브라우저 수정 사항에 대한 자세한 내용은 “최근 발표된 Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?”를 참조하십시오. [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)에서 참조하십시오.
 

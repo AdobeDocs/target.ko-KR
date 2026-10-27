@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 25%
+source-wordcount: '1065'
+ht-degree: 23%
 ---
 # 디자인 만들기
 
@@ -173,7 +173,7 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
    | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(#recsSettings > Recommendations API 토큰 > 클라이언트 코드에서 사용 가능). |
    | `[YOUR_MBOX_NAME]` | 양식 기반 권장 사항의 &quot;위치&quot; 섹션에서 선택한 이름(이 경우 Sample_Recs_Response). |
    | `[ENTITY_ID` | 카탈로그에 있는 항목의 `entity.id`입니다. |
-   | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |
+   | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가합니다. |
 
 알고리즘이 실행되고 결과가 나오면, 응답은 다음과 같은 모습이어야 합니다.
 

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 29%
+source-wordcount: '457'
+ht-degree: 25%
 ---
 # 시각적 경험 작성기에 사용된 요소 선택기
 
@@ -85,7 +85,7 @@ CSS 선택기를 사용할 시점과 고유한 ID를 사용할 시점에 대해�
 
    선택기: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (&quot; > &quot;는 바로 아래 하위를 가리킵니다.)
 
-   `eq`는 &quot;tagName=UL&quot;이 있는 요소가 있고 첫 번째 클래스가 `navigation`임을 인덱스에 알려줍니다. 따라서 `index`는 0입니다. 자세한 내용은 MDN의 [선택기](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) 문서를 참조하십시오.
+   `eq`은(는) &quot;tagName=UL&quot;이 있는 요소가 있고 첫 번째 클래스가 `navigation`임을 인덱스에 알려줍니다. 따라서 `index`는 0입니다. 자세한 내용은 MDN의 [선택기](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) 문서를 참조하십시오.
 
 1. 요소에 클래스가 없는 경우 [!DNL Target]은(는) 요소에 `tagName`을(를) 사용하고 `<HTML>` 요소나 ID가 있는 요소가 발견될 때까지 상위 요소를 트래버스합니다.
 

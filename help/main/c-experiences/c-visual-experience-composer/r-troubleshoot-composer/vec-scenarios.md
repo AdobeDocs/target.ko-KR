@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 90%
+source-wordcount: '533'
+ht-degree: 87%
 ---
 # 페이지 수정 시나리오
 
@@ -95,7 +95,7 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 
 **결과:**
 
-`ul.nav:eq(0)`은 동적으로 추가된 요소를 제공하므로 선택기가 작동하지 않습니다. 요소를 사용할 수 없으며 작업이 적용되지 않습니다. 활동이 만들어진 후 동일한 클래스를 사용하는 유사한 목록 항목이 동적으로 또는 수동으로 추가되면 첫 번째 위치에 새 요소가 만들어집니다. 이렇게 되면 선택기가 끊깁니다.
+`ul.nav:eq(0)`은 동적으로 추가된 요소를 제공하므로 선택기가 작동하지 않습니다. 요소를 사용할 수 없고 작업이 적용되지 않습니다. 활동이 만들어진 후 동일한 클래스를 사용하는 유사한 목록 항목이 동적으로 또는 수동으로 추가되면 첫 번째 위치에 새 요소가 만들어집니다. 이렇게 되면 선택기가 끊깁니다.
 
 전:
 

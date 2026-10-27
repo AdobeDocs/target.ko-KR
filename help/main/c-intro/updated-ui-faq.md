@@ -33,14 +33,14 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2022'
 ht-degree: 1%
 ---
 # [!DNL Target] UI 업데이트 FAQ
 
-2025년에 새로 설계된 [!DNL Adobe Target] 사용자 인터페이스는 모든 사용자에게 보다 깨끗하고 직관적인 환경을 제공합니다. 이 FAQ에서는 탐색 변경, 기능 배치 및 임시 UI 토글 제거를 포함하여 [!DNL Target] UI 및 [!UICONTROL VEC(시각적 경험 작성기])에 대한 주요 업데이트를 다룹니다. 마케터, 개발자 또는 관리자이든, 원활한 전환과 스마트한 워크플로우에 대한 안내서입니다.
+2025년에 새로 설계된 [!DNL Adobe Target] 사용자 인터페이스는 모든 사용자에게 보다 깨끗하고 직관적인 환경을 제공합니다. 이 FAQ에서는 탐색 변경, 기능 배치 및 임시 UI 토글 제거를 포함하여 [!DNL Target] UI 및 [!UICONTROL VEC(시각적 경험 작성기])에 대한 주요 업데이트를 다룹니다. 마케터, 개발자 또는 관리자이든, 원활한 전환과 현명한 워크플로에 대한 안내서입니다.
 
 ## Target UI 버전 사용 중단 토글 타임라인이 업데이트되었습니까?
 
@@ -210,7 +210,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 ## 활동이 기존 UI 또는 업데이트된 UI에서 생성 또는 편집되었는지 어떻게 알 수 있습니까?
 
 +++세부 사항
-업데이트된 UI에서 만들어지거나 편집된 활동은 동일한 안내가 있는 3단계 워크플로우를 따르며 UI별 메타데이터 또는 레거시 생성 활동에 없는 서식이 포함될 수 있습니다. 인터페이스에 표시되는 태그나 레이블이 없지만 레이아웃, 구조 또는 사용 가능한 옵션(예: 향상된 타겟팅 또는 미리보기 기능)의 차이는 사용된 UI를 나타낼 수 있습니다. 자세한 식별은 활동의 변경 기록을 확인하거나 구현 로그를 참조하십시오.
+업데이트된 UI에서 만들어지거나 편집된 활동은 동일한 안내가 있는 3단계 워크플로우를 따르며 UI별 메타데이터 또는 레거시 생성 활동에 없는 서식이 포함될 수 있습니다. 인터페이스에 표시되는 태그나 레이블이 없지만 레이아웃, 구조 또는 사용 가능한 옵션(예: 향상된 타겟팅 또는 미리보기 기능)의 차이점은 사용된 UI를 나타낼 수 있습니다. 자세한 식별은 활동의 변경 기록을 확인하거나 구현 로그를 참조하십시오.
 
 +++
 
@@ -242,7 +242,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 +++세부 사항
 허용 목록에 추가하다할 수 있는 IP 주소에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* **향상된 경험 작성기(EEC)**: [EEC가 공용 IP에서 액세스할 수 없는 내부 QA URL을 로드하지 않습니다](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)(*향상된 경험 작성기 관련 문제 해결*)
+* **향상된 경험 작성기(EEC)**: [EEC가 공용 IP에서 액세스할 수 없는 내부 QA URL을 로드하지 않습니다.](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)(*향상된 경험 작성기 관련 문제 해결*)
 * **[!UICONTROL 권장 사항]**: [권장 사항 피드 처리 서버에서 사용하는 IP 주소](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)를 참조하세요.
 
 +++

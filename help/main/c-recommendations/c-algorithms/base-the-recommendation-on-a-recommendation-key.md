@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4434'
-ht-degree: 26%
+source-wordcount: '4442'
+ht-degree: 25%
 ---
 # 권장 사항 키를 기반으로 권장 사항 만들기
 
@@ -337,7 +337,7 @@ if (tier) return tier;
 
 예를 들어 다음 작업을 수행할 수 있습니다.
 
-* 특정 기준을 충족하지 않는 항목(제품 품절, 30일 이상 전에 게시된 문서, R 등급의 영화 등)은 제외합니다.
+* 특정 기준을 충족하지 않는 항목(품절 제품, 30일 이상 전에 게시된 문서, R 등급의 영화 등)은 제외합니다.
 * 포함된 항목을 단일 범주 또는 현재 범주로 제한.
 
 이 알고리즘을 선택하는 경우 다음 필터링 키를 선택할 수 있습니다.
@@ -419,7 +419,7 @@ if (tier) return tier;
 1. **[!UICONTROL 권장 사항 키]** 드롭다운 목록에서 사용자 지정 프로필 특성을 선택합니다(예: &quot;[!UICONTROL Last Show Added to Watchlist]&quot;).
 1. 그런 다음 **[!UICONTROL 권장 사항 논리]**&#x200B;을(를) 선택합니다(예: &quot;[!UICONTROL 이 항목을 본 사용자, 해당 항목을 본 사용자]&quot;).
 
-사용자 지정 프로필 속성이 단일 엔티티 ID와 직접 일치하지 않는 경우 엔티티에 대한 일치가 어떻게 일치하는지 [!DNL Recommendations]에 설명해야 합니다. 예를 들어 방문자가 좋아하는 브랜드에서 상위 판매 항목을 표시한다고 가정합니다.
+사용자 지정 프로필 특성이 단일 엔터티 ID와 직접 일치하지 않는 경우 엔터티에 일치시키는 방법을 [!DNL Recommendations]에 설명해야 합니다. 예를 들어 방문자가 좋아하는 브랜드에서 상위 판매 항목을 표시한다고 가정합니다.
 
 1. **[!UICONTROL 권장 사항 키]** 드롭다운 목록에서 사용자 지정 프로필 속성을 선택합니다(예: &quot;Favorite Brand&quot;).
 

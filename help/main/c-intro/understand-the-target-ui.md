@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1443'
 ht-degree: 23%
 ---
 # [!DNL Target] UI 이해
@@ -159,7 +159,7 @@ ht-degree: 23%
 
 1. 알림 이메일을 받을 빈도 선택:
 
-   * [!UICONTROL 전자 메일을 보내지 않음]
+   * [!UICONTROL 전자 메일 보내지 않음]
    * [!UICONTROL 즉시 알림]
    * [!UICONTROL 일별 요약]
    * [!UICONTROL 주별 요약]

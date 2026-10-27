@@ -9,33 +9,48 @@ exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 TQID: https://experienceleague.adobe.com/-BGfedOu33CmhLMoKT543SebVtnp-H3DiWhmwO9OkCw
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: e22d67ea-317b-44f8-abd1-52e07f636ca8
+    internal-label: Reporting
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 3233
-ht-degree: 47%
-
+source-wordcount: '3255'
+ht-degree: 48%
 ---
-
 # Enterprise 사용자 권한
 
 엔터프라이즈 사용자 권한은 [!DNL Adobe Target]에 대한 엔터프라이즈 수준의 사용자 액세스를 공식적으로 관리하는 수단입니다. [!DNL Target]에 사용자를 추가하고, 역할에 따라 권한을 할당하고, 서로 다른 부서, 글로벌 위치, 채널 및 기타 논리 그룹을 기반으로 팀을 위한 작업 영역을 만듭니다. 사용자에게 [!UICONTROL 관찰자], [!UICONTROL 편집기], [!UICONTROL 승인자] 또는 [!UICONTROL 게시자] 역할을 할당할 수 있습니다.
@@ -170,8 +185,8 @@ ht-degree: 47%
 
 ### 다국적 조직
 
-다국적 조직에 속하는 경우 유럽 웹 페이지, 속성 또는 사이트를 위한 작업 공간과 미국 웹 페이지, 속성 또는 사이트를 위한 다른 작업 공간이 있을 수 있습니다.
-재구성 후에는 위의 그림에 나와 있는 담당자를 사용하여 다음과 유사한 작업 공간 및 권한을 설정할 수 있습니다.
+다국적 조직에 속하는 경우 유럽 웹 페이지, 속성 또는 사이트를 위한 작업 공간과 미국 웹 페이지, 속성 또는 사이트를 위한 또 다른 작업 공간이 있을 수 있습니다.
+재구성 후에는 위의 그림에 나오는 직원들을 사용하여 다음과 유사한 작업 공간 및 권한을 설정할 수 있습니다.
 
 * **Jan**: Jan은 조직의 미국 웹 페이지, 속성 및 사이트에 대한 전문가 조직의 최적화 담당 책임자입니다. Jan은 Adobe Experience Cloud에서 시스템 관리자 권한이 있을 가능성이 큽니다.
 
@@ -231,40 +246,40 @@ ht-degree: 47%
 * **중요**: 활동이 있는 작업 공간은 삭제하지 마십시오. 활동이 있는 작업 영역을 삭제하는 경우 Client Care와 협력하여 해당 활동을 복구하십시오.
 * 모든 내 작업 공간 보기를 사용하는 경우:
 
-   * 액세스할 적절한 역할 및 권한이 있는 모든 작업 공간에 대한 활동, 대상 및 오퍼를 볼 수 있습니다.
-   * [!UICONTROL 모든 내 작업 영역] 보기를 선택하면 새 열이 활동, 대상 및 오퍼 페이지에 추가됩니다. 이 열에는 항목의 작업 공간 및 해당 항목과 연결된 사용자 권한(관찰자, 편집자 또는 승인자)이 나열됩니다.
-   * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 작성할 때 항목을 작성할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
-   * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 복사할 때 항목을 복사할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
+  * 액세스할 적절한 역할 및 권한이 있는 모든 작업 공간에 대한 활동, 대상 및 오퍼를 볼 수 있습니다.
+  * [!UICONTROL 모든 내 작업 영역] 보기를 선택하면 새 열이 활동, 대상 및 오퍼 페이지에 추가됩니다. 이 열에는 항목의 작업 공간 및 해당 항목과 연결된 사용자 권한(관찰자, 편집자 또는 승인자)이 나열됩니다.
+  * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 작성할 때 항목을 작성할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
+  * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 복사할 때 항목을 복사할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
 
 * 다음 [!UICONTROL 관리] 페이지의 모든 설정은 모든 작업 영역에서 [!UICONTROL 승인자]에 의해 제어될 수 있습니다.
 
-   * 시각적 경험 작성기
-   * 보고
-   * Scene7 구성
-   * 구현
-   * 속성
-   * 호스트
-   * 환경
-   * 응답 토큰
-   * 사용자
+  * 시각적 경험 작성기
+  * 보고
+  * Scene7 구성
+  * 구현
+  * 속성
+  * 호스트
+  * 환경
+  * 응답 토큰
+  * 사용자
 
 * 사용자는 한 작업 공간(제품 프로필)에서 다른 작업 공간으로 리소스를 이동할 수 없습니다. 그러나 복사는 지원됩니다.
 * [!DNL Audiences] 페이지에서 대상자를 볼 때 페이지가 예상보다 더 느리게 로드됩니다. 어떤 방식으로든 검색 막대와 상호 작용하는 경우 대상이 더 빠르게 표시됩니다. 이 문제는 알려져 있으며 향후 업데이트에서 수정됩니다. 이 문제는 활동 생성 워크플로우 중에 대상을 선택하는 데 영향을 주지 않습니다.
 * 다음 리소스는 새 Enterprise 권한 모델에 속합니다.
 
-   * [!DNL Target Standard/Premium] 내에서 만든 활동, 대상 및 코드 오퍼는 고객이 사용 권한을 사용하도록 설정된 후에 사용할 수 있습니다. (참고: 고객은 [!DNL Target Premium]에 대한 권한이 있어야 합니다.)
-   * 기본 Workspace의 기존 활동에 속성을 추가할 수 있지만 이 접근 방식은 변경될 수 있습니다.
-   * 엔터프라이즈 권한이 활성화된 후에 Target Premium 내에서 만든 새 리소스(예: 활동, 코드 오퍼 및 대상)만 권한으로 제한할 수 있습니다.
-   * 외부 리소스는 기본 작업 공간의 사용자만 사용할 수 있습니다. 기본 작업 공간의 사용자 역할은 전역적으로 (모든 Target 요청 및 모든 Target 리소스에) 적용됩니다.
+  * [!DNL Target Standard/Premium] 내에서 만든 활동, 대상 및 코드 오퍼는 고객이 사용 권한을 사용하도록 설정된 후에 사용할 수 있습니다. (참고: 고객은 [!DNL Target Premium]에 대한 권한이 있어야 합니다.)
+  * 기본 Workspace의 기존 활동에 속성을 추가할 수 있지만 이 접근 방식은 변경될 수 있습니다.
+  * 엔터프라이즈 권한이 활성화된 후에 Target Premium 내에서 만든 새 리소스(예: 활동, 코드 오퍼 및 대상)만 권한으로 제한할 수 있습니다.
+  * 외부 리소스는 기본 작업 공간의 사용자만 사용할 수 있습니다. 기본 작업 공간의 사용자 역할은 전역적으로 (모든 Target 요청 및 모든 Target 리소스에) 적용됩니다.
 
 * 다음 리소스는 새 엔터프라이즈 권한 모델에 속하지 *않습니다*.
 
-   * 이미지 오퍼
-   * 기준 라이브러리, 디자인 라이브러리, 카탈로그, 권장 사항 설정 등을 포함한 모든 권장 사항 리소스.
-   * Enterprise 권한을 활성화하기 전에 Target Premium 내에서 생성된 기존 리소스(예: 활동, 코드 오퍼 및 대상)는 복사할 수 있지만 다른 작업 공간으로 이동할 수는 없습니다.
-   * 활동, 대상, 코드 오퍼, 이미지 오퍼 또는 Target Classic, Adobe Experience Manager(AEM), Adobe Mobile Services와 같은 솔루션이나 메서드를 사용하여 만든 기타 모든 리소스와 API를 통해 만든 리소스는 엔터프라이즈 권한 모델로 제어할 수 없지만 기본 Workspace의 일부입니다. API를 통해 만든 리소스에는 활동, 대상자, 코드 오퍼, 이미지 오퍼가 포함됩니다.
-   * 이미지 오퍼(`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`에 저장된 자산)는 현재 엔터프라이즈 권한 모델로 제어할 수 없습니다.
-   * 클릭 추적 및 리디렉션은 대상 링크 또는 대상 페이지가 활동에 포함된 속성의 일부일 때 작동합니다. 또한 `targetPageParams()` 함수를 사용할 때는 clickTracking이 작동하지 않을 수 있습니다. `targetPageParamsAll()`이 권장되는 함수입니다.
+  * 이미지 오퍼
+  * 기준 라이브러리, 디자인 라이브러리, 카탈로그, 권장 사항 설정 등을 포함한 모든 권장 사항 리소스.
+  * Enterprise 권한을 활성화하기 전에 Target Premium 내에서 생성된 기존 리소스(예: 활동, 코드 오퍼 및 대상)는 복사할 수 있지만 다른 작업 공간으로 이동할 수는 없습니다.
+  * 활동, 대상, 코드 오퍼, 이미지 오퍼 또는 Target Classic, Adobe Experience Manager(AEM), Adobe Mobile Services와 같은 솔루션이나 메서드를 사용하여 만든 기타 모든 리소스와 API를 통해 만든 리소스는 엔터프라이즈 권한 모델로 제어할 수 없지만 기본 Workspace의 일부입니다. API를 통해 만든 리소스에는 활동, 대상자, 코드 오퍼, 이미지 오퍼가 포함됩니다.
+  * 이미지 오퍼(`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`에 저장된 자산)는 현재 엔터프라이즈 권한 모델로 제어할 수 없습니다.
+  * 클릭 추적 및 리디렉션은 대상 링크 또는 대상 페이지가 활동에 포함된 속성의 일부일 때 작동합니다. 또한 `targetPageParams()` 함수를 사용할 때는 clickTracking이 작동하지 않을 수 있습니다. `targetPageParamsAll()`이 권장되는 함수입니다.
 
   [!DNL Target]에는 추적이 발생하는 모든 페이지에 `at_property` 토큰이 있어야 합니다. 토큰이 (1) 없거나, (2) 활동 설정 시 감지되지 않거나(VEC에서) (3) `targetPageParamsAll()` 함수를 통해 clickTracking Target 호출에 전달되지 않으면 지표가 증가하지 않고 &quot;0&quot;으로 표시됩니다.
 

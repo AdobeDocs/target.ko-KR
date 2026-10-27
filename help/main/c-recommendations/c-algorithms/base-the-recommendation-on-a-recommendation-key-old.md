@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4075'
-ht-degree: 32%
+source-wordcount: '4083'
+ht-degree: 31%
 ---
 # 권장 사항 키를 기반으로 권장 사항 만들기
 
@@ -288,7 +288,7 @@ ht-degree: 32%
 
 예를 들어 다음 작업을 수행할 수 있습니다.
 
-* 특정 기준을 충족하지 않는 항목(제품 품절, 30일 이상 전에 게시된 문서, R 등급의 영화 등)은 제외합니다.
+* 특정 기준을 충족하지 않는 항목(품절 제품, 30일 이상 전에 게시된 문서, R 등급의 영화 등)은 제외합니다.
 * 포함된 항목을 단일 범주 또는 현재 범주로 제한.
 
 이 알고리즘을 선택하는 경우 다음 필터링 키를 선택할 수 있습니다.
@@ -372,7 +372,7 @@ ht-degree: 32%
 
    ![새 기준 만들기 대화 상자](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-사용자 지정 프로필 속성이 단일 엔티티 ID와 직접 일치하지 않는 경우 엔티티에 대한 일치가 어떻게 일치하는지 [!DNL Recommendations]에 설명해야 합니다. 예를 들어 방문자가 좋아하는 브랜드에서 상위 판매 항목을 표시한다고 가정합니다.
+사용자 지정 프로필 특성이 단일 엔터티 ID와 직접 일치하지 않는 경우 엔터티에 일치시키는 방법을 [!DNL Recommendations]에 설명해야 합니다. 예를 들어 방문자가 좋아하는 브랜드에서 상위 판매 항목을 표시한다고 가정합니다.
 
 1. **[!UICONTROL 권장 사항 키]** 드롭다운 목록에서 사용자 지정 프로필 속성을 선택합니다(예: &quot;Favorite Brand&quot;).
 

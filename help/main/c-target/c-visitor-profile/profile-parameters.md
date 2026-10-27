@@ -1,27 +1,32 @@
 ---
 keywords: 프로필 스크립트;프로필 스크립트 속성;프로필 스크립트 모범 사례;디버그;디버깅;스크립트;프로필 스크립트;속성;속성;매개변수
-description: 방문자의 프로필에 저장되어 Adobe [!DNL Target] 활동에 사용할 수 있는 정보를 제공하는 방문자별 속성에 대해 알아봅니다.
+description: 방문자의 프로필에 저장되어 Adobe [!DNL Target] 활동에서 사용할 수 있는 정보를 제공하는 방문자별 특성에 대해 알아봅니다.
 title: 프로필 속성이란?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 2520
-ht-degree: 88%
-
+source-wordcount: '2523'
+ht-degree: 86%
 ---
-
 # 프로필 속성
 
 [!DNL Adobe Target]의 프로필 속성은 방문자와 관련된 매개변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 활동에 사용할 수 있는 방문자에 대한 정보를 제공합니다.
@@ -149,11 +154,11 @@ if (mbox.name == 'Track_Interest') {
 
   모범 사례:
 
-   * 가능하면 프로필 스크립트를 작고 단순하게 유지하십시오.
-   * 정규 표현식을 사용하지 않거나 간단한 정규 표현식만 사용하십시오. 간단한 표현식도 평가하는 데 많은 명령어가 필요할 수 있습니다.
-   * 재귀를 사용하지 마십시오.
-   * 프로필 스크립트를 [!DNL Target]에 추가하기 전에 성능을 테스트해야 합니다. 모든 프로필 스크립트는 모든 mbox 요청에 대해 실행됩니다. 프로필 스크립트가 올바르게 실행되지 않는 경우 mbox 요청을 실행하는 데 많은 시간이 소요되며, 이는 트래픽 및 전환에 영향을 미칠 수 있습니다.
-   * 프로필 스크립트가 너무 복잡한 경우 [응답 토큰](/help/main/administrating-target/response-tokens.md)을 대신 사용해 보십시오.
+  * 가능하면 프로필 스크립트를 작고 단순하게 유지하십시오.
+  * 정규 표현식을 사용하지 않거나 간단한 정규 표현식만 사용하십시오. 간단한 표현식도 평가하는 데 많은 명령어가 필요할 수 있습니다.
+  * 재귀를 사용하지 마십시오.
+  * 프로필 스크립트를 [!DNL Target]에 추가하기 전에 성능을 테스트해야 합니다. 모든 프로필 스크립트는 모든 mbox 요청에 대해 실행됩니다. 프로필 스크립트가 올바르게 실행되지 않는 경우 mbox 요청을 실행하는 데 많은 시간이 소요되며, 이는 트래픽 및 전환에 영향을 미칠 수 있습니다.
+  * 프로필 스크립트가 너무 복잡한 경우 [응답 토큰](/help/main/administrating-target/response-tokens.md)을 대신 사용해 보십시오.
 
 * 자세한 내용은 JS Rhino 엔진 설명서를 참조하십시오.
 

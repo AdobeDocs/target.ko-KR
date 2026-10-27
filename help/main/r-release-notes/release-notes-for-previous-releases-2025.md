@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 2025년 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 TQID: 'https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw'
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '25397'
+source-wordcount: '25402'
 ht-degree: 5%
 ---
 # 이전 릴리스에 대한 릴리스 정보
@@ -407,7 +407,7 @@ ht-degree: 5%
 
   * mbox 매개 변수가 비어 있을 때 규칙 만들기 방지
   * 잘못된 규칙 상태에 대한 적절한 오류 메시지 표시
-  * 피연산자 값이 필요 없는 단항 및 매개 변수 기반 연산자에 대한 유효성 검사 논리 수정
+  * 피연산자 값이 필요하지 않은 단항 및 매개변수 기반 연산자에 대한 검증 논리 수정
   * 저장 기능을 복원하여 단항 연산자로 해시 조각 규칙 활성화
 
   이러한 업데이트는 정확한 규칙 구성을 보장하고 복잡한 페이지 전달 시나리오에서 유용성을 향상시킵니다. (TGT-53722)
@@ -897,7 +897,7 @@ ht-degree: 5%
 
 +++세부 정보 보기
 
-* 저장하지 않은 변경 내용으로 활동 편집을 취소할 때 확인 경고가 추가되었습니다. &quot;이 활동을 저장하시겠습니까? 저장하지 않으면 변경 내용이 모두 손실됩니다.&quot; 이 메시지는 우발적인 데이터 손실을 방지하는 데 도움이 됩니다. (TGT-52865)
+* 저장하지 않은 변경 내용으로 활동 편집을 취소할 때 확인 경고가 추가되었습니다. &quot;이 활동을 저장하시겠습니까? 저장하지 않으면 변경 사항이 모두 손실됩니다.&quot; 이 메시지는 우발적인 데이터 손실을 방지하는 데 도움이 됩니다. (TGT-52865)
 * [!UICONTROL 목표 및 설정]의 [!UICONTROL 우선 순위] 슬라이더에 레거시 기능을 복원하여 고객이 레거시 UI에서 지원되는 대로 숫자 값을 직접 입력할 수 있도록 했습니다. (TGT-53185 및 TGT-53219)
 
 +++
@@ -1246,7 +1246,7 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 [!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you are setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
 For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 -->
@@ -1257,7 +1257,7 @@ For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/
 
 * [!UICONTROL 제품 관리자] 및 [!UICONTROL 시스템 관리자] 권한이 있는 [!DNL Target] 사용자는 이제 [!DNL Target]의 역할에 관계없이 [!UICONTROL 관리] 페이지에서 모든 설정을 편집할 수 있습니다. 이러한 권한이 없는 사용자는 이러한 설정에 대해 읽기 전용 액세스 권한을 갖습니다. 이 업데이트는 [관리 설정](/help/main/administrating-target/administrating-target.md)에 대한 액세스 제어를 강화합니다. (TGT-48179)
 * [사이트 환경 설정](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) 활동을 저장할 수 없는 캐싱 문제를 해결했습니다. (TGT-52213)
-* 고객이 VEC에서 사이트를 로드한 후 [!UICONTROL 사이트 환경 설정] 섹션에서 ID 및 클래스별 선택을 활성화할 수 없는 문제를 해결했습니다. [!UICONTROL 사이트 환경 설정] 설정을 사용하도록 설정한 후에도 사용하지 않도록 자동으로 되돌렸습니다. (TGT-52207)
+* VEC에서 사이트를 로드한 후 고객이 [!UICONTROL 사이트 환경 설정] 섹션에서 ID 및 클래스별 선택을 활성화할 수 없는 문제를 해결했습니다. [!UICONTROL 사이트 환경 설정] 설정을 사용하도록 설정한 후에도 사용하지 않도록 자동으로 되돌렸습니다. (TGT-52207)
 * [페이지 배달](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) URL이 슬래시(/)로 끝났을 때 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)가 올바른 페이지를 표시하지 못하는 문제를 해결했습니다. (TGT-52237)
 * 경험을 변경할 때 사용자 지정 코드 수정 사항을 제거할 수 없는 문제를 해결했습니다. (TGT-52240)
 * VEC의 HTML 수정 사항이 기존 페이지 요소를 오버레이하는 문제를 해결했습니다. (TGT-52265)

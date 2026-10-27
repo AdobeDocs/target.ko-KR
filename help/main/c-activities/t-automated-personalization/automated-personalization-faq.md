@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2303'
-ht-degree: 18%
+source-wordcount: '2307'
+ht-degree: 17%
 ---
 # AUTOMATED PERSONALIZATION FAQ
 
@@ -77,11 +77,11 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 * [!UICONTROL Automated Personalization] 활동에서 개인화 모델을 만드는 데 걸리는 시간을 파악할 수 있도록 [트래픽 견적 도구](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)를 사용하십시오.
 * 목표를 기반으로 활동을 시작하기 전에 통제와 타깃팅 간의 할당을 결정합니다.
 
-  활동의 목표와 선택한 제어 유형에 따라 고려할 시나리오가 세 가지가 있습니다.
+  활동의 목표와 선택한 제어 유형에 따라 고려해야 할 세 가지 시나리오가 있습니다.
 
   * **제어 및 활동 목표로서의 무작위 경험은 개인화 알고리즘의 효과를 테스트하는 것입니다**: 개인화 알고리즘을 평가하는 것이 목표라면 리프트를 정확하게 파악하고자 합니다. 또한 단순히 [!UICONTROL A/B 테스트]&#x200B;(임의로 제공된 제어)를 수행한 경우 경험 또는 오퍼에 대한 전환율을 비교하려고 할 수 있습니다. 이 경우, 임의로 제공된 환경에 대한 제어에 50% 할당을 사용하는 것이 좋습니다.
   * **&quot;무작위 경험&quot;을 제어 및 활동 목표로 사용하여 개인화된 트래픽을 최대화하는 것입니다**: 알고리즘을 사용하는 데 익숙하고 최대 트래픽 양을 개인화하려는 경우 제어에 10%~30%를 할당하는 것이 좋습니다. 여기서 장점은 리프트 정보에 표시되는 정확도입니다. 제어 트래픽으로 유입되는 트래픽이 감소하므로 제어 트래픽의 신뢰 구간이 더 큽니다.
-  * **다음 두 가지 목표 유형을 사용하여 특정 경험을 제어로 사용**: 특정 마케터 중심의 경험을 개인화 모델과 비교하려면 제어의 10%~30% 할당이 권장됩니다. 한 개의 경험만 제어로 선택하면 활동의 모든 오퍼 또는 경험에 트래픽이 분산되지 않습니다.
+  * **다음 두 가지 목표 유형을 사용하여 특정 경험을 제어로 사용**: 특정 마케터 중심의 경험을 개인화 모델과 비교하려면 제어의 10%~30% 할당이 권장됩니다. 한 개의 경험만 제어로 선택하면 해당 트래픽이 활동의 모든 오퍼 또는 경험에 분산되지 않습니다.
 
 * 타깃팅 규칙은 모델의 최적화 기능을 방해할 수 있으므로 가능한 한 덜 사용해야 합니다.
 * 보고 그룹은 [!UICONTROL Automated Personalization] 활동의 성공을 제한할 수 있습니다. 특정 조건에서만 보고 그룹 사용:

@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2785'
-ht-degree: 31%
+source-wordcount: '2792'
+ht-degree: 29%
 ---
 # 피드
 
@@ -352,14 +352,14 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 **예제 1:**
 
 * 1일: 매일 오전 9시(PST)에 피드 처리
-* 2일째: 오후 3시 30분인데 피드가 어제 오전 9시 이후에 실행되지 않았습니다.
+* 둘째 날: 오후 3시 30분인데 어제부터 피드가 오전 9시에 실행되지 않았습니다.
 
 약 6.5시간 전에 색인이 실행되어야 했는데 그렇지 않으므로 상태는 노란색이어야 합니다. 6.5시간 +24는 피드 창의 127%입니다.
 
 **예제 2:**
 
 * 1월 1일: 매월 피드 프로세스는 오전 9시(PST)입니다.
-* 2월 3일: 오전 10시이며 피드가 한 달, 하루, 한 시간 전에 실행되지 않습니다.
+* 2월 3일: 오전 10시이며 피드가 한 달, 하루, 한 시간 전에 실행되지 않았습니다.
 
 약 1일 1시간 전에 색인이 실행되어야 했는데 그렇지 않으므로 상태는 노란색이어야 합니다. 이것은 빈도 설정의 (31+(1/25))/30 = 1.03%에 불과하지만 하루 지연의 최대값을 초과했습니다.
 

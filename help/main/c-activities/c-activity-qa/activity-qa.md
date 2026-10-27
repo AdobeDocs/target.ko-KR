@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1818'
 ht-degree: 28%
 ---
 # 활동 QA
@@ -111,7 +111,7 @@ ht-degree: 28%
 * 활동에서 여러 경험 대상을 사용하는 경우(예를 들어, 동일한 활동에 포함된 미국 및 영국 사이트), QA 링크가 4개의 조합(경험 A/미국 사이트, 경험 A/영국 사이트, 경험 B/미국 사이트, 경험 B/영국 사이트)에 대해 생성되지 않습니다. 두 개의 QA 링크(경험 A와 경험 B)만 생성되고, 사용자는 페이지를 보려면 적절한 대상에 대한 자격이 있어야 합니다. 영국 QA 사람은 미국 사이트를 볼 수 없습니다.
 * 모든 `at_preview` 매개 변수와 값이 이미 URL로 인코딩되어 있습니다. 대부분의 경우 모든 것이 예상대로 작동합니다. 그러나 일부 고객은 쿼리 문자열 매개 변수를 다시 인코딩하려는 밸런서나 웹 서버를 로드해야 합니다.
 
-  이러한 이중 인코딩 때문에 [!DNL Target]에서 `at_preview_token`을(를) 디코딩하려 할 때 [!DNL Target]에서 올바른 토큰 값을 추출할 수 없으므로 미리 보기가 작동하지 않습니다.
+  이러한 이중 인코딩 때문에 [!DNL Target]이(가) `at_preview_token`을(를) 디코딩하려 할 때 [!DNL Target]에서 올바른 토큰 값을 추출할 수 없으므로 미리 보기가 작동하지 않습니다.
 
   [!DNL Adobe]은(는) IT 팀에 얘기해서 모든 미리 보기 매개 변수가 허용 목록에추가된으로 설정되어 있는지 확인하여 이러한 값이 어떤 식으로든 변환되지 않도록 하는 것이 좋습니다.
 

@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 88%
+source-wordcount: '387'
+ht-degree: 71%
 ---
 # 1장: 소개
 
@@ -38,7 +38,7 @@ ht-degree: 88%
 
 이러한 방식으로 고객과 소통하려면 거의 모든 데이터 소스를 사용하여 고객을 이해하는 거의 모든 터치포인트에서 사용할 수 있는 솔루션이 필요합니다. [!DNL Adobe Experience Cloud]의 일부인 [!DNL Adobe Target]이 그런 솔루션입니다. [!DNL Target] 은 고객에게 더 많은 매출과 더 높은 전환을 제공하는 관련성이 높고 시기 적절한 경험을 제공하는 데 필요한 최적화 및 개인화 기능을 제공합니다.
 
-여러분이 이 시작 키트를 검토하고 있다면 [!DNL Adobe Target]에서 최적화 및 개인화 프로그램을 구축하기로 이미 결정했습니다. 검토해 주셔서 감사합니다.
+이 시작 키트를 검토하는 경우 [!DNL Adobe Target]에서 최적화 및 개인화 프로그램을 빌드하기로 이미 결정했습니다. 그렇게 해 주셔서 감사합니다.
 
 이제 여러분이 올바른 방법으로 바로 사용하기 시작했는지 확인하고 싶습니다.
 

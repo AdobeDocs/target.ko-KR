@@ -7,19 +7,22 @@ exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1004
-ht-degree: 53%
-
+source-wordcount: '1007'
+ht-degree: 49%
 ---
-
 # Target 및 대상자 FAQ
 
 경험 타기팅 및 대상자에 대한 FAQ 목록
@@ -107,7 +110,7 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 
 ## 방문자에게 표시되지 않아야 하는 AP 활동에 대한 경험이 방문자에게 표시되는 이유는 무엇입니까? {#section_41CECEAE0881446A8D9F3B016857914B}
 
-자동화된 개인화 활동은 세션당 한 번씩 평가됩니다. 특정 경험에 적합한 활성 세션이 있고 이제 여기에 새 오퍼가 추가되었다면, 사용자는 이전에 표시된 오퍼와 함께 새 콘텐츠를 보게 됩니다. 이 사용자는 이전에 이 경험에 대해 자격이 있었으므로 세션 지속 기간 동안 계속 해당 경험을 보게 됩니다. 모든 단일 페이지 방문에서 이 경험을 평가하려는 경우에는 경험 타깃팅(XT) 활동 유형으로 변경해야 합니다.
+자동화된 개인화 활동은 세션당 한 번씩 평가됩니다. 특정 경험에 적합한 활성 세션이 있고 이제 여기에 새 오퍼가 추가되었다면, 사용자는 이전에 표시된 오퍼와 함께 새 콘텐츠를 보게 됩니다. 이 사용자는 이전에 이 경험에 대해 자격이 있었으므로 세션 지속 기간 동안 계속 해당 경험을 보게 됩니다. 모든 단일 페이지 방문 시 이를 평가하려면 경험 타기팅(XT) 활동 유형으로 변경해야 합니다.
 
 ## API를 통해 만들어진 대상에 대한 변경 사항이 [!DNL Target] UI에 반영되지 않는 이유는 무엇입니까? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 

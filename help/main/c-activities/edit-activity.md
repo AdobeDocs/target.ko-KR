@@ -16,14 +16,14 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1050'
 ht-degree: 21%
 ---
 # 활동 편집
 
-[!DNL Adobe Target]에서 기존 활동을 편집하는 방법을 알아봅니다. 이 문서에서는 [!DNL Target] 인터페이스에서 활동 수정에 사용할 수 있는 다양한 방법에 대해 설명합니다. 경험을 업데이트하든, 타깃팅 규칙을 조정하든, 목표를 구성하든 간에 [!DNL Target]은(는) 활성화 전에 변경 내용을 안전하게 저장하는지 확인합니다.
+[!DNL Adobe Target]에서 기존 활동을 편집하는 방법을 알아봅니다. 이 문서에서는 [!DNL Target] 인터페이스에서 활동 수정에 사용할 수 있는 다양한 방법에 대해 설명합니다. 경험을 업데이트하든, 타깃팅 규칙을 조정하든, 목표를 구성하든 관계없이 [!DNL Target]은(는) 활성화 전에 변경 내용을 안전하게 저장하는지 확인합니다.
 
 [!DNL Target]은(는) UI에서 기존 활동을 편집할 수 있는 다양한 위치를 제공합니다. 선택한 방법에 따라 프로세스가 달라집니다.
 

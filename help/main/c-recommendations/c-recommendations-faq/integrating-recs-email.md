@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 86%
+source-wordcount: '1774'
+ht-degree: 83%
 ---
 # [!DNL Recommendations]을(를) 이메일과 통합
 
@@ -97,7 +97,7 @@ curl -X POST \
 
 ## 방법 2: rawbox 이메일 템플릿 사용 {#rawbox}
 
-rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 공급자)와 같은 비웹 환경용입니다. rawbox 요청에 사용할 [!DNL Adobe Experience Platform Web SDK] 또는 [!DNL at.js]가 없으므로 요청을 수동으로 만들어야 합니다. 아래의 예에서는 이메일에서 rawbox 요청을 사용하는 방법을 설명합니다.
+rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 공급자)와 같은 비웹 환경용입니다. rawbox 요청에 사용할 [!DNL Adobe Experience Platform Web SDK] 또는 [!DNL at.js]이(가) 없으므로 요청을 수동으로 만들어야 합니다. 아래의 예에서는 이메일에서 rawbox 요청을 사용하는 방법을 설명합니다.
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 공급자)와 �
 
 이 접근 방법을 사용하면 이메일에 포함된 권장 사항의 성과를 추적하고 권장 사항을 사용하여 일반적인 방법으로 테스트하고 사이트에 대한 추적을 계속할 수 있습니다.
 
-[양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 선택 사항을 사용하여 [!DNL Target]에서 [!DNL Recommendations] 활동을 설정하십시오. 위치에 대해 ESP에서 제공되는 rawbox 요청에서 사용하기로 선택한 mbox의 이름을 선택합니다. 원하는 이메일의 모양과 느낌을 갖는 디자인을 선택합니다. 이메일 작성 시간에, ESP에서는 생성할 각 이메일의 각 rawbox에 대해 [!DNL Target] 서버를 호출합니다. ESP는 전송 시 이메일에 반환되는 HTML을 포함할 방법을 제공해야 합니다.
+[양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 선택 사항을 사용하여 [!DNL Target]에서 [!DNL Recommendations] 활동을 설정하십시오. 위치에 대해 ESP에서 제공되는 rawbox 요청에서 사용하도록 선택한 mbox의 이름을 선택합니다. 원하는 이메일의 모양과 느낌을 갖는 디자인을 선택합니다. 이메일 작성 시간에, ESP에서는 생성할 각 이메일의 각 rawbox에 대해 [!DNL Target] 서버를 호출합니다. ESP는 전송 시 이메일에 반환되는 HTML을 포함할 방법을 제공해야 합니다.
 
 다음 시나리오를 처리할 수 있는 이메일 시스템을 사용해야 합니다.
 
@@ -162,7 +162,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | 응답 | 설명 |
 |--- |--- |
-| //오류: | 콘텐츠 반환할 수 없을 때 로드 밸런서에서 생성됨 |
+| //오류: | 콘텐츠를 반환할 수 없을 때 로드 밸런서에서 생성됨 |
 | 성공 | `mboxNoRedirect` 매개 변수가 &#39;true&#39;로 설정되어 있고 서버가 권장 사항을 반환하지 않습니다(즉, mbox에 대한 일치 항목이 없거나 서버 캐시가 초기화되지 않음). |
 | 잘못된 요청 | `mbox` 매개 변수가 누락되었습니다.<ul><li>`mboxDefault` 또는 `mboxNoRedirect` 매개 변수가 지정되지 않았습니다.</li><li>`mboxTrace` 요청 매개 변수는 지정되었지만 `mboxNoRedirect` 은 지정되지 않았습니다.</li><li>mbox 이름이 접미사 `-clicked`로 끝나면 `mboxTarget`매개 변수가 지정되지 않습니다.</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | 요청에 대한 일치 항목이 없고 `mboxDefault` 매개 변수가 지정되지 않은 경우 `mboxNoRedirect` 가 지정되지 않습니다. |

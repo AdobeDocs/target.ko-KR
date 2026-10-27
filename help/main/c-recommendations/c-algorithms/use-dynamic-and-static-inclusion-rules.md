@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2259'
-ht-degree: 14%
+source-wordcount: '2260'
+ht-degree: 13%
 ---
 # 동적 및 정적 포함 규칙 사용
 
@@ -122,7 +122,7 @@ ht-degree: 14%
 
 | 액션 | 사용 가능한 경우 | 세부 사항 |
 |--- |--- |--- |
-| [!UICONTROL 이 필터링 규칙 무시] | [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에 대한 기본값입니다.<P>이 선택 사항은 규칙이 무시되도록 지정합니다. 예를 들어 세 개의 필터링 규칙이 있고 세 번째 규칙이 어떤 값도 전달하지 않는 경우, 결과를 반환하는 대신 빈 값으로 세 번째 규칙을 무시할 수 있습니다. |
+| [!UICONTROL 이 필터링 규칙 무시] | [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치]에 대한 기본값입니다.<P>이 선택 사항은 규칙이 무시되도록 지정합니다. 예를 들어 세 개의 필터링 규칙이 있고 세 번째 규칙이 값을 전달하지 않고 결과를 반환하지 않는 경우 빈 값이 있는 세 번째 규칙을 무시하면 됩니다. |
 | [!UICONTROL 이 조건에 대한 결과를 표시하지 않음]<P>(기준만) | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 엔터티 특성 일치]에 대한 기본값입니다.<P>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이(가) 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
 | [!UICONTROL 항목을 프로모션하지 않음<P>(프로모션만 해당)] | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 이 작업은 [!UICONTROL 엔터티 특성 일치]에 대한 기본값입니다.<P>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이(가) 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
 | [!UICONTROL 정적 값 사용] | [!UICONTROL 엔터티 특성 일치], [!UICONTROL 프로필 특성 일치] 및 [!UICONTROL 매개 변수 일치] | 값이 비어 있으면 정적 값을 사용하도록 선택할 수 있습니다. |

@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 41%
+source-wordcount: '1320'
+ht-degree: 40%
 ---
 # A4T 보고
 
@@ -81,7 +81,7 @@ ht-degree: 41%
 
   증가가 원하지 않는 경우에도 증가하는 숫자는 보고서에서 양수로 표시됩니다. 예를 들어 낮은 바운스 비율이 필요하더라도 상승도가 가장 높은 우승자로 높은 바운스 비율이 표시됩니다. 이러한 지표 및 유사 지표에 유의하여 보고서를 기준으로 수치를 높일지 또는 줄일지 결정을 내려야 합니다.
 
-활동이 시작된 후 또는 테스트가 완료된 후에도 [!DNL Target]의 보고서에 지표 또는 대상을 적용할 수 있습니다. 측정할 사항을 사전에 정확히 알 필요는 없습니다.
+활동이 시작된 후 또는 테스트가 완료된 후에도 [!DNL Target]의 보고서에 지표 또는 대상을 적용할 수 있습니다. 사전에 무엇을 측정하고자 하는지 정확히 알 필요는 없다.
 
 활동 보고서 페이지에서 바로 전체 [!DNL Analytics] 보고서를 보려면 클릭하십시오.
 

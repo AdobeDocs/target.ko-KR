@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # [!UICONTROL 시각적 경험 작성기]와 관련된 문제 해결
 
@@ -54,7 +54,7 @@ ht-degree: 29%
 
 * 페이지에 mbox가 없습니다.
 * 사이트가 프록시 차단을 사용하여 어떤 경험 작성기에서도 페이지를 열 수 없습니다.
-* 사이트가 자체적으로 iFrame에서 열리는 것을 허용하지 않습니다.
+* 귀하의 사이트는 iFrame에서 자신을 열 수 없습니다.
 
 [!UICONTROL 향상된 경험 작성기]에 문제가 발생하면 [!UICONTROL 향상된 경험 작성기]를 끄고 대신 [!UICONTROL 시각적 경험 작성기]를 사용하십시오.
 

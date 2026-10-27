@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 525737d4f8973f0b1ff04becd00c361c64b111e2
+source-git-commit: ea519da13a7a2e5dad0ea5303980347489b824df
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1935'
 ht-degree: 20%
 ---
 # [!DNL Adobe Customer Journey Analytics]의 [!DNL Target] 보고
@@ -198,21 +198,23 @@ ht-degree: 20%
 
 ## [!DNL Customer Journey Analytics]에서 활동 보고서 만들기 및 보기
 
+>[!BEGINSHADEBOX]
+
+이 통합은 [!UICONTROL Target용 Adobe Analytics]&#x200B;(A4T)과 다릅니다.
+
+* [!DNL Target]/[!DNL Customer Journey Analytics] 통합에는 A4T와 같은 미리 작성된 보고서가 포함되어 있지 않습니다. 활동 보고서는 [!DNL Customer Journey Analytics]에 작성되어야 합니다.
+
+* 활동의 목표 지표를 선택할 때 [!UICONTROL CJA 지표 사용]을 선택하면 이 옵션은 특정 성공 지표를 정의해야 하는 시기를 유연하게 지정할 수 있습니다. [!UICONTROL 실험] 패널을 구성할 때 성공 지표가 선택됩니다. 상승도 및 신뢰도는 선택한 CJA 지표에서 계산됩니다.
+
+>[!ENDSHADEBOX]
+
 활동이 라이브되고 연결 및 데이터 보기 설정이 완료되면 [!DNL Customer Journey Analytics]에서 보고 데이터를 사용할 수 있습니다. [!DNL Target]에 있는 활동의 **[!UICONTROL 보고서]** 탭에서 **[!UICONTROL Customer Journey Analytics에서 보기]**&#x200B;를 사용하여 [!DNL Customer Journey Analytics]을(를) 열어 분석하십시오. 현재 이 링크를 클릭하면 [!DNL Customer Journey Analytics] 홈 랜딩 페이지로 리디렉션됩니다.
 
 ![CJA 보고 링크](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
->[!NOTE]
->
->이 통합은 [!UICONTROL Target용 Adobe Analytics]&#x200B;(A4T)과 다릅니다.
->
->* [!DNL Target]/[!DNL Customer Journey Analytics] 통합에는 A4T와 같은 미리 작성된 보고서가 포함되어 있지 않습니다. 활동 보고서는 [!DNL Customer Journey Analytics]에 작성되어야 합니다.
->
->* 활동의 목표 지표를 선택할 때 [!UICONTROL CJA 지표 사용]을 선택하면 이 옵션은 특정 성공 지표를 정의해야 하는 시기를 유연하게 지정할 수 있습니다. [!UICONTROL 실험] 패널을 구성할 때 성공 지표가 선택됩니다. 상승도 및 신뢰도는 선택한 CJA 지표에서 계산됩니다.
-
 1. [!DNL Customer Journey Analytics]에서 실험 패널을 만든 다음 **[!UICONTROL 실험]** 드롭다운 메뉴에서 활동을 선택합니다.
 
-   자세한 내용은 *[!DNL Customer Journey Analytics]* 안내서의 *실험 패널*&#x200B;에서 [실험 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}을 참조하세요.
+   자세한 내용은 [실험 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} 설명서를 참조하세요.
 
    ![Customer Journey Analytics의 실험 패널](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
 
@@ -225,3 +227,5 @@ ht-degree: 20%
    [!UICONTROL 실험] 패널은 실험의 성과를 더 잘 이해할 수 있도록 풍부한 데이터 및 시각화를 반환합니다. 자세한 내용은 *[!DNL Customer Journey Analytics]* 안내서의 *실험 패널*&#x200B;에서 [[!UICONTROL 패널 출력]](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}을 참조하세요.
 
    ![실험](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
+
+[!UICONTROL 실험] 패널에 성공 지표, [!UICONTROL 전환], [!UICONTROL 상승도] 및 [!UICONTROL 신뢰도] 열에 대한 0이 표시되면 [!DNL Target] 활동과 동일한 이벤트에서 성공 지표가 발생하지 않을 수 있습니다. [!DNL Target] 차원에 대해 [지속성](#set-up-data-views)을 사용할지 여부와 사용 사례에 적합한지 여부를 검토하십시오. 자세한 내용은 [지속성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}을 참조하십시오.

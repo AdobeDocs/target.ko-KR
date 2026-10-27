@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 61%
+source-wordcount: '479'
+ht-degree: 57%
 ---
 # 초기 사용 권한 제공 - A4T FAQ
 
@@ -62,7 +62,7 @@ Analytics 및 Target에 액세스할 수 있는 Experience Cloud 그룹 중 하�
 
 +++
 
-## Target에 Analytics 선택 사항이 표시되지 않는 이유는 무엇입니까? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Target에 Analytics 옵션이 표시되지 않는 이유는 무엇입니까? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++답변
 위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 위. 이 문제의 근본 원인은 같습니다.

@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # SPA(단일 페이지 앱) 시각적 경험 작성기
 
@@ -383,7 +383,7 @@ adobe.target.getOffers({
 | [자동화된 개인화](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니오 |
 | [권장 사항](/help/main/c-recommendations/recommendations.md) | 아니오 |
 
-**at.js 2.x를 설치하고 사이트에 `triggerView()`를 구현한 경우, SPA VEC가 자동 타겟을 지원하지 않는데 어떻게 자동 타겟 A/B 활동을 실행합니까?**
+**at.js 2.x를 설치하고 사이트에 `triggerView()`을(를) 구현한 경우, SPA VEC가 자동 타겟을 지원하지 않는데 어떻게 자동 타겟 A/B 활동을 실행합니까?**
 
 자동 타겟 A/B 활동을 사용하려는 경우, VEC의 페이지 로드 이벤트에서 실행되도록 모든 작업을 이동하면 됩니다. 각 작업 위에 마우스를 놓고 [!UICONTROL 페이지 로드 이벤트로 이동] 단추를 클릭하십시오. 이 과정이 완료되면, 다음 단계에서 트래픽 할당 방법을 위해 자동 타겟을 선택할 수 있습니다.
 

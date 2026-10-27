@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1334'
 ht-degree: 76%
 ---
 # 리소스 및 연락처 정보
@@ -44,7 +44,7 @@ Target 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 T
 
 인사이트 및 공동 작업을 위한 허브인 [!UICONTROL Adobe Target 커뮤니티]를 살펴보십시오.
 
-[!UICONTROL Adobe Target 커뮤니티 포럼]은(는) 모든 항목 [!DNL Adobe Targe]에 대한 이동 대상입니다. 이제 막 시작했거나 숙련된 실무자이든 커뮤니티는 다음과 같은 이점을 제공합니다.
+[!UICONTROL Adobe Target 커뮤니티 포럼]은(는) 모든 항목 [!DNL Adobe Targe]에 대한 이동 대상입니다. 이제 막 시작했거나 숙련된 실무자에 관계없이 커뮤니티에서는 다음과 같은 작업을 수행할 수 있는 유용한 기회를 제공합니다.
 
 * **[!DNL Target]개 기능 살펴보기**: 모범 사례를 학습하고 [!DNL Target]을(를) 사용하는 새로운 방법을 알아봅니다.
 * **연결 및 공동 작업**: 동료 및 [!DNL Adobe] 전문가와 협력하여 통찰력을 공유하고 문제를 함께 해결하십시오.

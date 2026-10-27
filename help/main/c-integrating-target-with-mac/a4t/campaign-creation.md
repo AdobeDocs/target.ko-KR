@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 29%
+source-wordcount: '666'
+ht-degree: 26%
 ---
 # Analytics를 보고 소스로 사용하는 활동 만들기
 
@@ -75,7 +75,7 @@ ht-degree: 29%
    >
    >사용자 지정 대상 기반 지표를 [!DNL Analytics] 데이터에만 의존하지 않고 [!DNL Analytics]에 보낼 수 있습니다. 예를 들어, 일반적으로 [!DNL Analytics]에서 추적하지 않는 페이지 클릭을 모니터링할 수 있습니다. 이 사용자 지정 지표는 [!DNL Target] 서버에서 자동으로 [!DNL Analytics]&#x200B;(으)로 전송되며 [!DNL Analytics]의 지표 선택기에서 &quot;[!DNL Target] 전환&quot; 지표로 표시됩니다. [!DNL Analytics] 지표를 사용하도록 선택하면 [!DNL Target] 전환 지표가 비어 있습니다.
 
-   목표를 설정해도 테스트 결과를 평가할 때 다른 지표를 사용할 수 있습니다. 하지만 이 목표를 통해 활동에서 개선할 점을 알 수 있습니다.
+   목표를 설정한다고 해서 테스트 결과를 평가할 때 다른 지표를 사용할 수 없는 것은 아닙니다. 하지만 이 목표를 통해 활동에서 개선할 점을 알 수 있습니다.
 
    방문자는 목표에 도달한 후에 활동에 남아 있게 됩니다. 방문자에게는 계속해서 활동 콘텐츠가 표시되지만 새로운 활동 시작으로 카운트되지는 않습니다.
 

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '646'
+ht-degree: 13%
 ---
 # 활동 설정 - A4T FAQ
 
@@ -53,11 +53,11 @@ A4T 보고를 사용하는 별도의 [작업 영역](/help/main/administrating-t
 
 +++
 
-## 방금 활동을 만들었습니다. 수신되는 데이터가 표시되지 않는 이유는 무엇입니까? {#section_9F8092BE4225442896F926540292F221}
+## 방금 활동을 만들었습니다. 들어오는 데이터가 표시되지 않는 이유는 무엇입니까? {#section_9F8092BE4225442896F926540292F221}
 
 
 +++답변
-활동이 만들어지면 [!DNL Target]에서 [!DNL Analytics]&#x200B;(으)로 분류 파일을 보냅니다. [!DNL Analytics]이(가) 데이터를 캡처하고 처리 중이지만 분류 파일이 업데이트될 때까지 보고서에 표시되지 않습니다. 이 프로세스를 완료하는 데 24~72시간이 걸릴 수 있습니다. 72시간 후에도 데이터가 표시되지 않으면 [Client Care에 문의](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)하세요. 또는 활동을 시작하는 것을 알고 있는 경우 며칠 전에 활동을 만들 수 있으며 활동이 저장되면 분류가 전송됩니다. 이렇게 하면 활동이 실행될 때 데이터가 보고서에 표시됩니다. [!DNL Analytics]에서 데이터를 처리하는 데 45~90분이 소요됩니다.
+활동이 만들어지면 [!DNL Target]에서 [!DNL Analytics]&#x200B;(으)로 분류 파일을 보냅니다. [!DNL Analytics]이(가) 데이터를 캡처하고 처리 중이지만 분류 파일이 업데이트될 때까지 보고서에 표시되지 않습니다. 이 프로세스를 완료하는 데 24~72시간이 걸릴 수 있습니다. 72시간 후에도 데이터가 표시되지 않으면 [Client Care에 문의](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)하십시오. 또는 활동을 시작하는 것을 알고 있는 경우 며칠 전에 활동을 만들 수 있으며 활동이 저장되면 분류가 전송됩니다. 이렇게 하면 활동이 실행될 때 데이터가 보고서에 표시됩니다. [!DNL Analytics]에서 데이터를 처리하는 데 45~90분이 소요됩니다.
 
 +++
 

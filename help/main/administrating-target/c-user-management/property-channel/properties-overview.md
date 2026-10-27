@@ -9,30 +9,42 @@ exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cd7b6938-5837-4ee0-9790-5840997133d9
+    internal-label: User management
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 55%
-
+source-wordcount: '1513'
+ht-degree: 53%
 ---
-
 # Enterprise 권한 구성
 
 [!DNL Target] 구현에 사용자를 추가하고, 작업 공간, 사용자 그룹 및 속성을 만들고, `at_property` 매개 변수를 포함하도록 [!DNL Target] 구현을 업데이트하고, 역할 및 권한을 지정하는 데 필요한 작업에 대한 정보입니다.
@@ -92,8 +104,8 @@ ht-degree: 55%
 
    * **새 작업 공간(제품 프로필):**&#x200B;다음을 수행하여 새 권한 기능을 활용할 수 있습니다.
 
-      * [!DNL Admin Console for Enterprise]에서 새 작업 공간 만들기
-      * 작업 공간에 Target 속성 지정
+     * [!DNL Admin Console for Enterprise]에서 새 작업 공간 만들기
+     * 작업 공간에 Target 속성 지정
 
    이러한 작업 공간을 사용하여 지역, 사업부, 사이트 섹션별로 또는 선택한 다른 방법을 통해 여러 다른 팀에 대한 액세스를 구분할 수 있습니다. 사용자는 여러 작업 공간에 속할 수 있으며, 각 작업 공간에서 서로 다른 역할을 가질 수 있습니다.
 
@@ -225,8 +237,8 @@ ht-degree: 55%
 * Adobe Target 인터페이스에서 Adobe Admin Console에 액세스(3가지 방법)
 * Adobe Admin Console에서 작업 공간 구성
 
-   * 작업 영역에 사용자 추가
-   * 작업 영역에 속성 추가
+  * 작업 영역에 사용자 추가
+  * 작업 영역에 속성 추가
 
 * 기본 작업 영역 이해
 
@@ -238,8 +250,8 @@ ht-degree: 55%
 * 속성 구현에 포함할 속성 토큰을 생성하는 방법
 * 다음 세 가지 구현 방법을 숙지하십시오.
 
-   * 웹
-   * 모바일 앱
-   * 이메일, 셋톱 박스 또는 API 호출
+  * 웹
+  * 모바일 앱
+  * 이메일, 셋톱 박스 또는 API 호출
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/)

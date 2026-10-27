@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 29%
+source-wordcount: '1054'
+ht-degree: 27%
 ---
 # [!UICONTROL Automated Personalization] (AP)
 
@@ -81,7 +81,7 @@ Random Forest는 선도적인 머신 러닝 방식입니다. 데이터 과학 �
 
 * Multi-arm bandit을 사용하면 모델이 항상 작은 부분의 트래픽을 &quot;소비&quot;하여 활동 기간 동안 계속 학습하고 이전에 학습한 트렌드의 과도한 사용을 방지할 수 있습니다.
 * [!DNL Target]이(가) 항상 변화하는 방문자 환경 설정을 사용하고 있는지 확인하기 위해 최신 방문자 동작 데이터를 사용하여 기본 모델이 24시간마다 다시 작성됩니다.
-* 이 알고리즘은 개별 방문자의 성과가 좋은 경험을 파악할 수 없는 경우 개인화된 승자를 계속 찾으면서, 전반적으로 가장 성과가 좋은 경험을 표시하는 방식으로 자동으로 전환됩니다. 최고 성과를 보이는 경험은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 사용하여 확인되었습니다.
+* 알고리즘이 개별 방문자에 대한 우승 경험을 결정할 수 없는 경우 전체 최고 성과 경험을 표시하는 것으로 자동 전환되는 동시에 개인화된 우승자를 계속 찾습니다. 최고 성과를 보이는 경험은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 사용하여 확인되었습니다.
 
 ## 이 모델은 계속해서 단일 목표 지표를 최적화합니다
 

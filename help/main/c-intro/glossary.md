@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Web experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 97%
+source-wordcount: '2528'
+ht-degree: 95%
 ---
 # 용어 설명
 
@@ -231,7 +231,7 @@ Target Standard의 활동에 대한 시각적 표시입니다.
 
 **양식 기반 경험 작성기**
 
-시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 A/B 테스트, 경험 타기팅, 자동화된 개인화 및 권장 사항 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
+시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 A/B 테스트, 경험 타깃팅, Automated Personalization 및 권장 사항 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 

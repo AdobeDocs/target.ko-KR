@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 55%
+source-wordcount: '626'
+ht-degree: 54%
 ---
 # [!UICONTROL 다변량 테스트] 모범 사례
 
@@ -34,7 +34,7 @@ ht-degree: 55%
 
 ## 만들기 {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
-* 테스트에 필요한 수보다 많은 조합을 포함하지 마십시오.
+* 테스트에 필요한 것보다 더 많은 조합을 포함하지 마십시오.
 
   테스트하는 조합이 많을수록 허용되는 결과를 얻는 데 필요한 트래픽과 시간이 대폭 증가합니다. 예를 들어, 3개 위치에 오퍼가 3개씩 포함되어 있으면 총 27개의 조합을 만들 수 있습니다(3x3x3). 3개 위치 중 2개 위치에는 3개의 오퍼가 포함될 수 있으며 1개 위치에는 2개의 오퍼가 포함될 수 있으므로 총 18개의 옵션이 제공됩니다(3x3x2). 이 수치는 위치 및 오퍼가 추가될 때마다 현저히 증가합니다.
 

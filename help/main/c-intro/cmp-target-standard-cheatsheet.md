@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 50%
+source-wordcount: '2918'
+ht-degree: 48%
 ---
 # Target 최적화 및 개인화 FAQ
 
@@ -291,7 +291,7 @@ Target의 안내가 있는 3가지 부분 워크플로의 [2단계(타깃팅 페
 **VEC([!UICONTROL 시각적 경험 작성기])에서 내 페이지를 로드하려고 할 때 &quot;브라우저에서 스크립트가 로드되도록 허용&quot; 메시지가 표시됩니다. 이 문제를 방지하려면 어떻게 해야 합니까?**
 
 +++세부 정보 보기
-이 문제는 사이트에 HTTP 리소스와 HTTPS 리소스를 모두 가져오는 사이트가 혼합된 콘텐츠가 있기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
+이 문제는 사이트가 HTTP 리소스와 HTTPS 리소스를 모두 가져오는 사이트인 혼합 콘텐츠를 포함하기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
 
 이렇게 되기 전까지는 [브라우저에서 혼합 콘텐츠 사용](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)의 지침에 따라 브라우저에서 혼합 콘텐츠를 로드할 수 있도록 하십시오. 이는 대부분의 최신 브라우저가 제공하는 보안 기능입니다.
 
@@ -329,7 +329,7 @@ Target의 안내가 있는 3가지 부분 워크플로의 [2단계(타깃팅 페
 
 +++
 
-**이미지를 교환하는 옵션이 보이지 않는 이유는 무엇입니까?**
+**이미지를 교환하는 옵션이 표시되지 않는 이유는 무엇입니까?**
 
 +++세부 정보 보기
 [계정이 Scene7용으로 설정되어 있는지 확인](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5)하려면 Adobe에 문의하십시오. 제공된 경우 이미지를 쉽게 다른 이미지와 교환할 수 있습니다.
@@ -395,7 +395,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **내 QA 프로세스에서 콘텐츠 전달이 발생하지 않는 이유는 무엇입니까?**
 
 +++세부 정보 보기
-사이트에 요소에 대한 다이내믹 ID, 중복 ID 또는 다이내믹 클래스가 있을 수 있습니다. 계정 수준(또는 도메인 또는 페이지에 고유한 문제인 경우 활동 수준)에서 사이트 환경 설정 옵션을 평가해야 할 수 있습니다. [CSS 선택기](/help/main/administrating-target/visual-experience-composer-set-up.md#css)를 참조하십시오.
+사이트에 동적 ID, 중복 ID 또는 요소에 대한 동적 클래스가 있을 수 있습니다. 계정 수준(또는 도메인 또는 페이지에 고유한 문제인 경우 활동 수준)에서 사이트 환경 설정 옵션을 평가해야 할 수 있습니다. [CSS 선택기](/help/main/administrating-target/visual-experience-composer-set-up.md#css)를 참조하십시오.
 
 +++
 
@@ -440,7 +440,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **활동을 실행하기 전에 대상자를 정의할 수 없습니다. [!DNL Target] 활동 제한에서 보고 대상의 이러한 측면을 발견했습니다. 이 프로세스를 더 쉽게 수행하려면 어떻게 해야 합니까?**
 
 +++세부 정보 보기
-[A4T(타겟 분석)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 가 편리한 위치입니다. [!DNL Adobe Analytics]이(가) 있는 경우 소스를 [!DNL Analytics]&#x200B;(으)로 선택하면 이 제한이 제거됩니다. 이제 언제든지 아무 대상에서나 분석을 수행할 수 있으며, 보고 대상을 미리 정의할 필요가 없습니다.
+[A4T(타겟 분석)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 가 편리한 위치입니다. [!DNL Adobe Analytics]이(가) 있는 경우 소스를 [!DNL Analytics]&#x200B;(으)로 선택하면 이 제한이 제거됩니다. 이제 언제든지 대상에 대해 분석을 수행할 수 있으며 보고 대상을 미리 정의할 필요가 없습니다.
 
 +++
 
