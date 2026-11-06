@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 8%
+source-wordcount: '267'
+ht-degree: 7%
 ---
 # 스니펫
 
@@ -36,4 +36,7 @@ ht-degree: 8%
 >
 >* [[!DNL Target] UI 업데이트 FAQ](/help/main/c-intro/updated-ui-faq.md): 이 FAQ는 탐색 변경, 기능 위치 및 임시 UI 버전 전환 중단 등 새 [!DNL Target] UI 및 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)에 대한 일반적인 질문을 해결합니다. 마케터, 개발자 또는 관리자이든, 이 FAQ는 원활하게 전환하고 업데이트된 UI를 최대한 활용하는 데 도움이 됩니다.
 
+## 활동 이름 규칙 {#activity-name-rules}
+
+활동 이름은 `=`, `+`, `-` 또는 `@`(으)로 시작할 수 없습니다. 활동 이름에는 문자 시퀀스 `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["` 또는 `"]`도 포함될 수 없습니다.
 
