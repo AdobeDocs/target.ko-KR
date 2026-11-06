@@ -1,6 +1,6 @@
 ---
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: '[!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
 title: A/B 테스트를 만들려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 191350233707b59e863e1315e6546e44bd837af7
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 19%
@@ -112,7 +112,7 @@ ht-degree: 19%
 
    +++ 다른 대상을 선택하는 절차
 
-   {{audience-selection-steps}}
+   {{$include /help/_includes/audience-selection-steps.md}}
 
    +++
 
