@@ -1,6 +1,6 @@
 ---
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: '[!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
 title: A/B 테스트를 만들려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
+source-git-commit: 4bdd36a7ca0162f95e5d9efd67899433d970d384
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 19%
+source-wordcount: '961'
+ht-degree: 16%
 ---
 # A/B 테스트 활동 만들기
 
@@ -68,29 +68,7 @@ ht-degree: 19%
 
 1. 활동의 이름을 지정하려면 &quot;[!UICONTROL 제목 없는 활동]&quot; 옆에 있는 **[!UICONTROL 편집]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   활동 이름은 다음 문자로 시작할 수 없습니다.
-
-   | 문자 | 설명 |
-   |--- |--- |
-   | `=` | 다음과 같음 |
-   | `+` | 플러스 |
-   | `-` | 빼기 |
-   | `@` | 로그인 |
-
-   활동 이름에는 다음 문자 시퀀스를 사용할 수 없습니다.
-
-   | 문자 시퀀스 | 설명 |
-   |--- |--- |
-   | ;= | 세미콜론, 다음과 같음 |
-   | ;+ | 세미콜론, 플러스 |
-   | ;- | 세미콜론, 빼기 |
-   | ;@ | 세미콜론, @ 기호 |
-   | ,= | 쉼표, 같음 |
-   | ,+ | 쉼표, 더하기 |
-   | ,- | 쉼표, 빼기 |
-   | ,@ | 쉼표, @ 기호 |
-   | `[`&quot; | 대괄호 열기, 큰따옴표 |
-   | &quot;`]` | 큰따옴표, 대괄호 닫기 |
+   {{activity-name-rules}}
 
 1. 페이지의 요소를 변경하여 새 경험을 만듭니다.
 
@@ -112,7 +90,19 @@ ht-degree: 19%
 
    +++ 다른 대상을 선택하는 절차
 
-   {{$include /help/_includes/audience-selection-steps.md}}
+   오른쪽 프레임이 표시되어 대상을 추가 또는 삭제하고 활동에 대한 방문자 비율을 할당할 수 있습니다.
+
+   1. 대상을 변경하려면 오른쪽 프레임에서 **[!UICONTROL 바꾸기]** 아이콘(![바꾸기 아이콘](/help/main/assets/icons/Retweet.svg))을 클릭하십시오.
+   1. **[!UICONTROL 대상 추가]** 대화 상자에서 [원하는 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)한 다음 **[!UICONTROL 대상 할당]**&#x200B;을 클릭합니다.
+
+      여러 대상을 결합하는 대상을 만들려면 **[!UICONTROL 대상 결합]**&#x200B;을 클릭합니다. 자세한 내용은 [여러 대상 결합](/help/main/c-target/combining-multiple-audiences.md)을 참조하십시오.
+
+      [!UICONTROL 대상 라이브러리]에 없는 새 대상을 만들려면 **[!UICONTROL 대상 만들기]**&#x200B;를 클릭하십시오. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md)에서 다음 옵션 중 하나를 선택하십시오.
+
+      * **[!UICONTROL 대상 라이브러리]**: [!UICONTROL 대상 라이브러리]에 저장되고 다른 활동에서 다시 사용할 수 있는 온디맨드 대상을 만듭니다.
+      * **[!UICONTROL 이 활동만]**: [!UICONTROL 대상 라이브러리]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상을 만듭니다](/help/main/c-target/creating-activity-only-audience.md).
+
+   1. 오른쪽 프레임에서 **[!UICONTROL 방문자 비율]**&#x200B;을 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
 
    +++
 
