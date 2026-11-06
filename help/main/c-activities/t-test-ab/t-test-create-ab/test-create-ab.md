@@ -1,6 +1,6 @@
 ---
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: '[!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
 title: A/B 테스트를 만들려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 191350233707b59e863e1315e6546e44bd837af7
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 16%
+source-wordcount: '867'
+ht-degree: 19%
 ---
 # A/B 테스트 활동 만들기
 
@@ -108,23 +108,13 @@ ht-degree: 16%
 
 1. (조건부) **[!UICONTROL 모든 방문자]** 컨트롤을 클릭하여 활동에 대한 다른 대상을 선택합니다.
 
-   [!UICONTROL 모든 방문자] 대상이 기본값으로 설정됩니다. 다른 대상을 선택하면 해당 이름이 가장 왼쪽 컨트롤에 표시됩니다.
+   [!UICONTROL 모든 방문자] 대상이 기본값으로 설정됩니다. 다른 대상을 선택하면 해당 이름이 가장 왼쪽 컨트롤에 표시됩니다. 예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아인&quot; 대상자의 45%로 제한할 수 있습니다.
 
-   오른쪽 프레임이 표시되어 대상을 추가 또는 삭제하고 활동에 대한 방문자 비율을 할당할 수 있습니다.
+   +++ 다른 대상을 선택하는 절차
 
-   1. 대상을 변경하려면 오른쪽 프레임에서 **[!UICONTROL 바꾸기] 아이콘**(![바꾸기 아이콘](/help/main/assets/icons/Retweet.svg) )을 클릭하십시오.
-   1. [!UICONTROL 대상 추가] 대화 상자에서 [원하는 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)한 다음 **[!UICONTROL 대상 할당]**&#x200B;을 클릭합니다.
+   {{audience-selection-steps}}
 
-      **대상 결합**&#x200B;을 클릭하여 [여러 대상을 결합하는 대상을 만들 수 있습니다](/help/main/c-target/combining-multiple-audiences.md).
-
-      [!UICONTROL 대상 라이브러리]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭하십시오. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
-
-      * **[!UICONTROL 대상 라이브러리]**: [!UICONTROL 대상 라이브러리]에 저장된 주문형 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
-      * **[!UICONTROL 이 활동만]**: [!UICONTROL 대상 라이브러리]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상을 만듭니다](/help/main/c-target/creating-activity-only-audience.md).
-
-   1. 오른쪽 프레임에서 **[!UICONTROL 방문자 비율]**&#x200B;을 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
-
-   예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아인&quot; 대상자의 45%로 제한할 수 있습니다.
+   +++
 
 1. **[!UICONTROL 트래픽 할당]** 컨트롤을 클릭한 다음 아래와 같이 오른쪽 창에서 원하는 트래픽 할당 방법을 선택합니다.
 
