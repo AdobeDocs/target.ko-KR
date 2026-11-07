@@ -85,7 +85,7 @@ ht-degree: 38%
 * 보고서 필터를 작성하기 위해 보고 대상 추가
 * 활동에 대한 메모 입력
 
-(https://video.tv.adobe.com/v/17381?captions=kor)
+(https://video.tv.adobe.com/v/3507948?captions=kor)
 
 ### A/B 테스트 만들기(8:36) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

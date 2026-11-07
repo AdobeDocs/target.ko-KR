@@ -129,4 +129,4 @@ ht-degree: 55%
 * [!UICONTROL 전환], [!UICONTROL 매출] 및 [!UICONTROL 참여] 지표 이해 및 빌드
 * 클릭 추적 지표 빌드
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507820?captions=kor)
