@@ -143,7 +143,7 @@ ht-degree: 35%
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507775?captions=kor)
 
 ## [!UICONTROL 브라우저] 대상 특성의 [!DNL iPad] 및 [!DNL iPhone] 업데이트(2024년 4월 30일) {#updates}
 

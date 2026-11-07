@@ -86,6 +86,6 @@ ht-degree: 67%
 * 트래픽 할당 방법 선택
 * 서로 다른 경험에 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507594?captions=kor)
 
 자세한 내용은 [대상자](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)를 참조하십시오.

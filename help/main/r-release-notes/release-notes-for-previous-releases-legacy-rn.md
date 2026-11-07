@@ -4523,7 +4523,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>모바일 배치 및 프리페치 전달 </p> </td> 
-   <td colname="col2"> <p><b>업데이트 날짜: 2017년 10월 12일</b> </p> <p> 여러 mbox용 콘텐츠를 단일 호출로 미리 가져온 후, 최종 사용자가 콘텐츠를 보는 방법, 시기 및 보는지 여부를 신경쓰지 않고 디바이스에 로컬로 캐시할 수 있습니다. </p> <p>이 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> 미리 가져오기 오퍼 콘텐츠 </a>을(를) 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><b>업데이트 날짜: 2017년 10월 12일</b> </p> <p> 여러 mbox용 콘텐츠를 단일 호출로 미리 가져온 후, 최종 사용자가 콘텐츠를 보는 방법, 시기 및 보는지 여부를 신경쓰지 않고 디바이스에 로컬로 캐시할 수 있습니다. </p> <p>이 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=ko" format="dita" scope="local"> 미리 가져오기 오퍼 콘텐츠 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>활동 </p> </td> 

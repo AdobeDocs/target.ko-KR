@@ -109,4 +109,4 @@ iOS 12.2 이상 업데이트는 iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507775?captions=kor)

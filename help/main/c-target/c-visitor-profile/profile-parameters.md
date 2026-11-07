@@ -301,4 +301,4 @@ else if (mbox.param("adobeQA"))
 * 사용 가능한 토큰 메뉴를 사용하여 사용 가능한 선택 사항에 액세스
 * 프로필 스크립트 활성화 및 비활성화
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/3507912?captions=kor)

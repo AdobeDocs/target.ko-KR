@@ -75,4 +75,4 @@ ISP, 도메인 이름 및 연결 속도 등 네트워크 세부 사항을 기준
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507775?captions=kor)

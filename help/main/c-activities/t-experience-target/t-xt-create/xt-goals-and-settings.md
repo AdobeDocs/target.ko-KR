@@ -184,4 +184,4 @@ ht-degree: 42%
 * 보고서 필터를 작성하기 위해 보고 대상 추가
 * 활동에 대한 메모 입력
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507948?captions=kor)

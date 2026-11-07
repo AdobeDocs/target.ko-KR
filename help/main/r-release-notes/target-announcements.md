@@ -76,7 +76,7 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 
 If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=ko){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=ko){target=_blank}."
 
 +++
 -->
@@ -107,7 +107,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   비즈니스의 판도를 바꾸고 참여와 매출을 증대시키는 추천 알고리즘에 대해 알아봅니다. 개인화된 제품 제안부터 콘텐츠 추천에 이르기까지 사용자의 여정을 원활하게 안내하는 기능은 비즈니스 성장을 크게 촉진하는 데 직접적으로 기여합니다.
 
-  [녹음 좀 들어 봐](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
+  [녹음 좀 들어 봐](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=ko#M3685){target=_blank}
 
 * **AI 기반 개인화 잠금 해제**
 

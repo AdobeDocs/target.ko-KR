@@ -69,4 +69,4 @@ ht-degree: 57%
 * 변환, 수입 및 참여 지표 이해 및 빌드
 * 클릭 추적 지표 빌드
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507820?captions=kor)

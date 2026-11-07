@@ -144,4 +144,4 @@ ht-degree: 44%
 * 언제 양식 기반 경험 작성기를 사용하고 언제 시각적 경험 작성기를 사용할지 이해
 * 개선을 통해 위치 타깃팅
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/3507885?captions=kor)

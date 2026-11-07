@@ -258,7 +258,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 * 트래픽 할당 방법 선택
 * 서로 다른 경험에 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507594?captions=kor)
 
 ### A/B 테스트 만들기(8:36) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

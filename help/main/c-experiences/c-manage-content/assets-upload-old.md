@@ -50,4 +50,4 @@ ht-degree: 17%
 * 사용자 지정 HTML 오퍼
 * 시각적 경험 작성기의 사용자 지정 HTML 오퍼
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/3507957?captions=kor)

@@ -190,4 +190,4 @@ ht-degree: 89%
 
 이 비디오에는 모바일 뷰포트 설정에 대한 정보(4:40)가 포함되어 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507630?captions=kor)
