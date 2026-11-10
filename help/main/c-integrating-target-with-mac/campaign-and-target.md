@@ -84,4 +84,4 @@ ht-degree: 35%
 
 ## 비디오: [!DNL Target]과(와) [!DNL Campaign] 통합
 
->[!VIDEO](https://video.tv.adobe.com/v/35149)
+>[!VIDEO](https://video.tv.adobe.com/v/3508011?captions=kor)
