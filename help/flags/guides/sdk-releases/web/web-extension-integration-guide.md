@@ -6,10 +6,10 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a25ca0f3ce4c9cf38a871d8193ec43250d61edb9
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 8%
+source-wordcount: '1241'
+ht-degree: 7%
 ---
 # 웹용 플래그 확장 {#web-extension-integration-guide}
 
@@ -45,14 +45,17 @@ Flags 확장을 설치하기 전에 이 확장이 데이터 수집 웹 속성에
 
 ### 확장 설치 {#install-extension}
 
-1. Adobe ID 자격 증명을 사용하여 [experience.adobe.com](https://experience.adobe.com)에 로그인합니다.
-1. **데이터 수집** > **태그**(으)로 이동합니다.
-1. 원하는 태그 속성을 선택합니다.
-1. **확장** > **카탈로그**(으)로 이동합니다.
-1. **플래그**&#x200B;를 검색하고 확장 카드를 선택하십시오.
-1. **설치**&#x200B;를 선택합니다.
+1. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/#/data-collection)에 로그인합니다.
 
-### 확장 설정 구성 {#configure-settings}
+1. **[!UICONTROL 태그]** 탭을 선택하고 모바일 속성을 선택합니다.
+
+1. **[!UICONTROL 확장]** > **[!UICONTROL 카탈로그]**(으)로 이동합니다.
+
+1. **[!DNL Adobe Flags]**&#x200B;을(를) 검색하고 **[!UICONTROL 설치]**&#x200B;를 선택합니다.
+
+   ![](../assets/extension-install.png)
+
+#### 확장 설정 구성 {#configure-extension-settings}
 
 Flags 확장을 설치하면 구성 페이지로 이동합니다. 다음 설정을 구성합니다.
 
@@ -60,14 +63,17 @@ Flags 확장을 설치하면 구성 페이지로 이동합니다. 다음 설정�
 |---|---|---|
 | 클라이언트 ID | 플래그의 애플리케이션 고유 식별자입니다. | 예 |
 
-### 저장 및 게시 {#save-publish}
+#### 확장 게시 {#publish-extension}
 
-1. 확장 구성을 저장하려면 **저장**&#x200B;을 선택합니다.
-1. 게시 플로우에 따라 변경 사항을 배포합니다.
-   1. 라이브러리에 확장을 추가합니다.
-   1. 개발 환경에 빌드합니다.
-   1. Adobe Experience Platform Debugger을 사용하여 확인합니다.
-   1. 스테이징 및 프로덕션으로 승격합니다.
+구성을 업데이트하려면 [게시 프로세스](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)를 따르십시오.
+
+1. 라이브러리에 확장을 추가합니다.
+
+1. 개발 환경에 빌드합니다.
+
+1. [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)&#x200B;(으)로 유효성을 검사합니다.
+
+1. 스테이징 및 프로덕션으로 승격합니다.
 
 ## 웹 사이트에 태그 포함 코드 추가 {#embed-code}
 
@@ -76,17 +82,28 @@ Flags 확장을 설치하면 구성 페이지로 이동합니다. 다음 설정�
 ### 포함 코드 복사 {#copy-embed-code}
 
 1. 데이터 수집에서 웹 속성으로 이동합니다.
-1. 왼쪽 탐색에서 **환경**&#x200B;을 선택합니다.
-1. 대상 환경(개발, 스테이징 또는 프로덕션)의 행에서 **설치** 열 아래의 상자 아이콘을 선택합니다.
-1. **웹 설치 지침** 대화 상자에서 Tags는 기본적으로 비동기 포함 코드로 설정됩니다.
-1. **복사** 아이콘을 선택하여 포함 코드를 클립보드에 복사합니다.
-1. **닫기**&#x200B;를 선택하여 모달을 닫습니다.
+
+1. **[!UICONTROL 환경]** 메뉴에 액세스합니다.
+
+1. 선택한 환경의 **[!UICONTROL 설치]** 열에서 상자 아이콘을 선택합니다.
+
+   ![](../assets/extension-install-2.png)
+
+1. **[!UICONTROL 웹 설치 지침]** 대화 상자에서 Tags는 기본적으로 비동기 포함 코드로 설정됩니다.
+
+1. **[!UICONTROL 복사]** 아이콘을 선택하여 포함 코드를 클립보드에 복사합니다.
+
+   >[!NOTE]
+   >
+   >각 환경에는 고유한 포함 코드 URL이 있습니다. 자세한 내용은 [환경](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html) 설명서를 참조하십시오.
+
+   ![](../assets/extension-install-4.png)
+
+### 포함 코드 구현 {#implement-embed-code}
 
 >[!NOTE]
 >
->각 환경에는 고유한 포함 코드 URL이 있습니다. 자세한 내용은 환경 을 참조하십시오.
-
-### 포함 코드 구현 {#implement-embed-code}
+>`src` URL을 환경 페이지에서 실제 포함 코드로 바꿉니다. URL에는 회사 식별자, 속성 식별자 및 환경 식별자(예: `launch-EN123456789abcdef.min.js`)가 포함되어 있습니다.
 
 HTML 페이지의 `<head>` 요소에 포함 코드를 추가합니다. 포함 코드는 태그 라이브러리에 의존하는 다른 스크립트 앞에 배치해야 합니다.
 
@@ -97,17 +114,13 @@ HTML 페이지의 `<head>` 요소에 포함 코드를 추가합니다. 포함 �
   <title>My Website</title>
 
   <!-- Adobe Experience Platform Tags embed code -->
-  <script src="https://assets.adobedtm.com/yourcompany/your-property/launchENxxxxxxxxxxx.min.js" async></script>
+  <script src="https://assets.adobedtm.com/your-company/your-property/launch-ENxxxxxxxxxxx.min.js" async></script>
 </head>
 <body>
   <!-- Your page content -->
 </body>
 </html>
 ```
-
->[!NOTE]
->
->`src` URL을 환경 페이지에서 실제 포함 코드로 바꿉니다. URL에는 회사 식별자, 속성 식별자 및 환경 식별자(예: `launch-EN123456789abcdef.min.js`)가 포함되어 있습니다.
 
 ### 태그 구성 요소로 플래그 평가 {#tags-components}
 
@@ -168,7 +181,7 @@ const context = {
 
 ## API 참조 {#api-reference}
 
-### isFeatureEnabled {#is-feature-enabled}
+### 기능 평가 {#is-feature-enabled}
 
 `isFeatureEnabled`은(는) 특정 컨텍스트에 대해 플래그 기능이 설정되어 있는지 여부를 반환합니다. `featureKey` 및 `FeatureEvaluationContext`을(를) 전달합니다. [평가 컨텍스트](#evaluation-context)를 참조하십시오. **기능이 활성화됨** 태그 조건을 사용하거나 초기화 후 사용자 지정 코드에서 `window._flagClient.isFeatureEnabled(...)`을(를) 호출하십시오.
 
@@ -185,49 +198,52 @@ isFeatureEnabled(featureKey: string, context: FeatureEvaluationContext): boolean
 | `featureKey` | string | 플래그에서 평가할 기능 키 |
 | `context` | 기능 평가 컨텍스트 | ID(필수) 및 선택적 타깃팅 속성입니다. [평가 컨텍스트](#evaluation-context)를 참조하십시오. |
 
-### 기능 플래그 데이터 요소 만들기 {#create-data-element}
+## 기능 플래그 데이터 요소 만들기 {#create-data-element}
 
 규칙 또는 사용자 지정 코드에서 `%Data Element Name%`(으)로 사용할 수 있는 플래그 값이 필요한 경우 데이터 요소를 사용하십시오.
 
-**단계**
+1. 속성에서 **[!UICONTROL 데이터 요소]** 메뉴에 액세스하고 **[!UICONTROL 데이터 요소 추가]**&#x200B;를 선택합니다.
 
-1. 속성에서 **데이터 요소**(으)로 이동하여 **데이터 요소 추가**&#x200B;를 선택합니다.
+   ![](../assets/extension-install-5.png)
+
 1. **데이터 요소 만들기** 화면에서 태그 필드를 구성합니다.
 
-   | 필드 | 값 |
-   |---|---|
-   | 이름 | 수사적 이름(예: `checkout flag`) |
-   | 확장 | 플래그 |
-   | 데이터 요소 유형 | 기능 플래그 |
+   * **[!UICONTROL 이름]**: 수사적 이름(예: `checkout flag`)
+   * **[!UICONTROL 확장]**: 플래그
+   * **[!UICONTROL 데이터 요소 형식]**: 기능 플래그
 
 1. **플래그** 확장 필드를 구성합니다.
 
-   | 필드 | 필수 | 설명 |
-   |---|---|---|
-   | 기능 키 | 예 | 고유 플래그 키(예: `checkout_flag`) |
-   | 반환 유형 | 예 | **부울(true/false)** — 활성화/비활성화 또는 **기능 개체(전체 세부 정보)** — `meta`을(를) 포함하는 전체 페이로드 |
+   * **[!UICONTROL 기능 키]**: 고유한 플래그 키(예: `checkout_flag`)가 필요합니다.
+   * **[!UICONTROL 반환 형식]**: **부울(true/false)** — 사용/사용 안 함 또는 **기능 개체(전체 세부 정보)** — `meta`을(를) 포함한 전체 페이로드, 필수.
+
+     | 반환 유형 | 다음으로 해결: |
+     |---|---|
+     | 부울(true/false) | `true`(활성화된 경우), 그렇지 않은 경우 `false` |
+     | 기능 개체(전체 세부 정보) | 플래그가 활성화되어 있고 컨텍스트가 대상과 일치하는 경우 기능 페이로드가 평가되었습니다. 플래그를 비활성화하거나 찾을 수 없거나 컨텍스트가 일치하지 않는 경우 `null` |
 
 1. **저장**&#x200B;을 선택합니다.
 
-**반환 형식**
-
-| 반환 유형 | 다음으로 해결: |
-|---|---|
-| 부울(true/false) | `true`(활성화된 경우), 그렇지 않은 경우 `false` |
-| 기능 개체(전체 세부 정보) | 전체 평가된 기능 페이로드 또는 규칙을 만족하지 않는 경우 `null` |
-
 ### 데이터 요소 사용 {#use-data-element}
 
-규칙에서 이름 참조(예: `%Test Flag%`).
+규칙에서 이름으로 참조합니다(예: `%Test Flag%`).
 
-사용자 지정 코드에서 — `_satellite.getVar`을(를) 사용합니다. 런타임 속성을 사용하여 플랫 속성 맵을 두 번째 인수로 전달하여 다음을 평가합니다.
+사용자 지정 코드에서 `_satellite.getVar`을(를) 사용합니다. 런타임 속성을 사용하여 플랫 속성 맵을 두 번째 인수로 전달하여 다음을 평가합니다.
 
 ```javascript
 var isEnabled = _satellite.getVar('Test Flag', {
   locale: ['en-US'],
   platform: ['web']
 });
+```
 
+**사용자 지정 코드**
+
+```javascript
+var isEnabled = _satellite.getVar('Test Flag', {
+  locale: ['en-US'],
+  platform: ['web']
+});
 if (isEnabled) {
   // your custom code
 } else {
@@ -239,7 +255,7 @@ if (isEnabled) {
 
 사용/사용 안 함 이상의 메타데이터가 필요한 경우 `getFeature`에서 평가된 기능 페이로드를 반환합니다.
 
-**기능 플래그** 데이터 요소를 **반환 형식: 기능 개체(전체 세부 정보)** — [기능 플래그 데이터 요소 만들기](#create-data-element) 참조 또는 `flagClientReady`이(가) 해결된 후 사용자 지정 코드에서 `window._flagClient.getFeature(...)`을(를) 호출하십시오.
+**반환 형식: 기능 개체(전체 세부 정보)**&#x200B;의 **기능 플래그** 데이터 요소를 사용하거나 [기능 플래그 데이터 요소 만들기](#create-data-element)를 참조하거나 `flagClientReady`이(가) 해결된 후 사용자 지정 코드에서 `window._flagClient.getFeature(...)`을(를) 호출하십시오.
 
 **서명**
 
@@ -256,15 +272,17 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 
 **응답**
 
+`getFeature`은(는) 플래그가 활성화되어 있고 제공된 컨텍스트가 플래그 대상 기준과 일치하는 경우에만 플래그를 평가합니다. 이 경우 결과 개체를 반환합니다. 그렇지 않으면 `null`을(를) 반환합니다.
+
 *FeatureResult*
 
 | 필드 | 유형 | 설명 |
 |---|---|---|
 | `id` | 수 | 숫자 기능 식별자. 기능 수준 컨트롤 표시에 대한 `-1`. |
-| `key` | 문자열 \| null | 기능 키. 기능 수준 컨트롤 표시에 대한 `null`. |
-| `featureGroupKey` | 문자열 \| null | 사용 가능한 경우 기능 그룹 키 |
-| `meta` | 문자열 \| null | 사용 가능한 경우 기능 메타데이터 |
-| `analyticsParam` | AnalyticsParam \| null | 평가된 기능에 대한 Analytics 세부 정보 |
+| `key` | `string \| null` | 기능 키. 기능 수준 컨트롤 표시에 대한 `null`. |
+| `featureGroupKey` | `string \| null` | 사용 가능한 경우 기능 그룹 키 |
+| `meta` | `string \| null` | 사용 가능한 경우 기능 메타데이터 |
+| `analyticsParam` | `AnalyticsParam \| null` | 평가된 기능에 대한 Analytics 세부 정보 |
 
 *AnalyticsParam*
 
@@ -272,7 +290,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | 수 | 숫자 기능 그룹 식별자 |
 | `featureId` | 수 | 숫자 기능 식별자 |
-| `variantId` | 숫자 \| null | 변형 식별자(`0`(제어용) |
+| `variantId` | `number \| null` | 변형 식별자(`0`(사용자가 컨트롤 그룹에 있는 경우) |
 
 **컨트롤 그룹 동작**
 
@@ -284,8 +302,14 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 
 **예**
 
+*태그 데이터 요소*
+
+규칙에서 데이터 요소(예: `%Test Feature%`)를 참조하고 `_satellite.getVar`을(를) 통해 가져옵니다.
+
+*사용자 지정 코드*
+
 ```javascript
-var feature = _flagClient.getFeature('new-testflag', {
+var feature = _flagClient.getFeature('new-test-flag', {
   identityNamespace: 'ECID',
   identityId: visitorEcid,
   attributes: {
@@ -339,6 +363,8 @@ console.log(`Flags extension version: ${version}`);
 | 컨텍스트에 ID 누락 | 평가에서 오류가 발생합니다. `identityNamespace`과(와) `identityId`을(를) 모두 입력하십시오. |
 | 기능을 찾을 수 없음 | `getFeature`이(가) `null`을(를) 반환하고 `isFeatureEnabled`이(가) `false`을(를) 반환합니다. |
 
+**예**
+
 ```javascript
 try {
   const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
@@ -354,6 +380,8 @@ try {
 ### 일관된 ID 제공 {#consistent-identity}
 
 롤아웃 비율에서 일관된 버킷팅을 위해 평가 간에 동일한 ID 네임스페이스 및 ID를 사용합니다.
+
+**예**
 
 ```javascript
 const context = {
@@ -373,7 +401,7 @@ const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
 기능을 찾을 수 없거나 평가에 실패할 경우 항상 폴백 동작을 제공합니다.
 
 ```javascript
-const feature = _flagClient.getFeature('new-testflag', context);
+const feature = _flagClient.getFeature('new-test-flag', context);
 
 if (feature && feature.meta) {
   // your custom code
@@ -399,4 +427,3 @@ window.flagClientReady.then(function () {
 * [기능 플래그 및 기능 그룹의 대상자](../../audience/audience-in-feature-flags-and-feature-groups.md)
 * [보고](../../feature-flags/reporting.md)
 
-<!-- -->
