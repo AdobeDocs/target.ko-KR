@@ -65,13 +65,13 @@ Flags 확장을 설치하면 구성 페이지로 이동합니다. 다음 설정�
 
 #### 확장 게시 {#publish-extension}
 
-구성을 업데이트하려면 [게시 프로세스](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)를 따르십시오.
+구성을 업데이트하려면 [게시 프로세스](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)를 따르십시오.
 
 1. 라이브러리에 확장을 추가합니다.
 
 1. 개발 환경에 빌드합니다.
 
-1. [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)&#x200B;(으)로 유효성을 검사합니다.
+1. [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ko)&#x200B;(으)로 유효성을 검사합니다.
 
 1. 스테이징 및 프로덕션으로 승격합니다.
 
@@ -95,7 +95,7 @@ Flags 확장을 설치하면 구성 페이지로 이동합니다. 다음 설정�
 
    >[!NOTE]
    >
-   >각 환경에는 고유한 포함 코드 URL이 있습니다. 자세한 내용은 [환경](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html) 설명서를 참조하십시오.
+   >각 환경에는 고유한 포함 코드 URL이 있습니다. 자세한 내용은 [환경](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=ko) 설명서를 참조하십시오.
 
    ![](../assets/extension-install-4.png)
 
