@@ -7,9 +7,9 @@ exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # 플래그를 사용하는 이유 {#why-use}
@@ -37,6 +37,6 @@ ht-degree: 0%
 미리 프로덕션에 코드를 배포한 다음, 마지막 코드 변경 없이 정확한 순간(예: 제품 실행 이벤트가 시작될 때)에 기능을 활성화합니다.
 
 **중지 스위치**
-릴리스 후 문제가 발견되면 핫픽스 또는 재배포 없이 기능을 즉시 끕니다.
+릴리스 후에 문제가 발견되면 핫픽스 또는 재배포 없이 기능을 끕니다. 변경 사항은 다음 플래그 새로 고침에 적용됩니다(기본적으로 5분마다).
 
 <!-- -->
