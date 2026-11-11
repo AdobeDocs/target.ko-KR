@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 25f5877bbdb513b3a57efbbd207b13312322b9e1
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 28%
@@ -36,7 +36,7 @@ ht-degree: 28%
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트 날짜: 2026년 5월 12일([변경 사항 보기](r-release-notes/doc-change.md) )**
+**마지막 업데이트: 2026년 6월 17일([변경 사항 보기](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
