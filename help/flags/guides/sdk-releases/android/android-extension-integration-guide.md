@@ -84,7 +84,7 @@ Flags 확장을 사용하려면 다음 Adobe Experience Platform 확장이 필�
 >플래그 확장은 모바일 SDK BOM의 일부가 아닙니다. `<latest-version>`을(를) Maven Central의 최신 버전으로 바꾸십시오. 버전이 없으면 Gradle이 종속성을 해결할 수 없습니다.
 >
 ></br>
-&gt;프로덕션 애플리케이션의 경우 Adobe에서는 '3.+'와 같은 동적 버전 대신 명시적 버전 번호를 사용하는 것이 좋습니다. 자세한 내용은 [Managing Gradle dependencies](https://docs.gradle.org/current/userguide/dependency_management.html)를 참조하십시오.
+>&gt;프로덕션 애플리케이션의 경우 Adobe에서는 '3.+'와 같은 동적 버전 대신 명시적 버전 번호를 사용하는 것이 좋습니다. 자세한 내용은 [Managing Gradle dependencies](https://docs.gradle.org/current/userguide/dependency_management.html)를 참조하십시오.
 
 앱의 `build.gradle.kts`(Kotlin) 또는 `build.gradle`(Groovy) 파일에 다음 종속성을 추가하십시오.
 
