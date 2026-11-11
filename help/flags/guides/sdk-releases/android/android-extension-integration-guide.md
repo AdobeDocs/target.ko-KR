@@ -61,7 +61,7 @@ Flags 확장을 사용하려면 다음 Adobe Experience Platform 확장이 필�
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-1. 구성을 업데이트하려면 [게시 프로세스](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)를 따르십시오.
+1. 구성을 업데이트하려면 [게시 프로세스](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)를 따르십시오.
 
 ### 환경 파일 ID 가져오기 {#environment-file-id}
 

@@ -29,7 +29,7 @@ ht-degree: 3%
   | [라이프사이클](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | 애플리케이션 라이프사이클 데이터 | AEPCore와 동일 |
   | [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | Adobe Experience Platform Edge Network과의 통신. 데이터 스트림이 필요합니다. | AEPEdge 5.0.2 |
   | Edge Network의 [ID](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Edge Network용 ID 관리 | AEPEdgeIdentity 5.0.0 |
-  | [플래그](https://experienceleague.adobe.com/en/docs/target/flags/home) | 기능 플래그 평가 | [설치](#installation) 참조 |
+  | [플래그](https://experienceleague.adobe.com/ko/docs/target/flags/home) | 기능 플래그 평가 | [설치](#installation) 참조 |
 
 ## 데이터 수집에서 플래그 구성 {#configure}
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-1. 구성을 업데이트하려면 [게시 프로세스](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)를 따르십시오.
+1. 구성을 업데이트하려면 [게시 프로세스](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)를 따르십시오.
 
 ### 환경 파일 ID 가져오기 {#environment-file-id}
 
