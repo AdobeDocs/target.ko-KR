@@ -39,9 +39,9 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->[!DNL Target]은(는) URL 프로토콜([!DNL https] 및 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com`] 및 [!DNL `https://www.adobe.com`]이(가) 모두 일치합니다.
+>[!DNL Target]은(는) URL 프로토콜([!DNL https] 및 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com/kr`] 및 [!DNL `https://www.adobe.com/kr`]이(가) 모두 일치합니다.
 
-[!DNL Target] [at.js JavaScript 라이브러리 또는 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}이(가) 포함되지 않은 사이트 URL을 지정하면 페이지 요소를 선택할 수 없습니다.
+[!DNL Target] [at.js JavaScript 라이브러리 또는 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ko){target=_blank}이(가) 포함되지 않은 사이트 URL을 지정하면 페이지 요소를 선택할 수 없습니다.
 
 ## 다른 페이지 표시 {#different-page}
 
