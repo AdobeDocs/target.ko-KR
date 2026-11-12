@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;대상 필터;대상;필터
-description: ' [!DNL Adobe Target] 에서 대상 필터를 사용하여 특성을 공유하는 방문자의 데이터를 보는 방법에 대해 알아봅니다.'
+description: '[!DNL Adobe Target]에서 대상 필터를 사용하여 특성을 공유하는 방문자의 데이터를 보는 방법에 대해 알아봅니다.'
 title: 보고에 대상 필터를 사용할 수 있습니까?
 feature: Audiences
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '479'
 ht-degree: 59%
-
 ---
-
 # 보고용 대상자 필터
 
 [!DNL Adobe Target]의 대상 필터(또는 대상)는 특정 특성 또는 특성 집합을 공유하는 방문자 그룹입니다.
@@ -60,5 +58,5 @@ ht-degree: 59%
 | 적절한 활동 또는 테스트 만들기 | [활동 및 테스트](/help/main/c-intro/target-key-concepts.md) |
 | 필요한 경우 대상자 만들기 | [대상자 만들기](/help/main/c-target/c-audiences/create-audience.md) |
 | 필요한 경우 여러 대상자 결합 | [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md) |
-| 활동의 목표 및 설정 페이지에서 대상자 적용 | A/B 테스트: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>경험 타깃팅: [목표 및 설정](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>다변량 테스트: [목표 및 설정](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>권장 사항: [권장 사항 활동 설정](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>활동 설정: [활동 설정](/help/main/c-activities/activity-settings.md) |
+| 활동의 목표 및 설정 페이지에서 대상자 적용 | A/B 테스트: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>경험 타깃팅: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>다변량 테스트: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>권장 사항: [권장 사항 활동 설정](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>활동 설정: [활동 설정](/help/main/c-activities/activity-settings.md) |
 | 대상자 필터에 대한 정보가 있는 보고서 보기 | [보고서 설정](/help/main/c-reports/c-report-settings/report-settings.md) |

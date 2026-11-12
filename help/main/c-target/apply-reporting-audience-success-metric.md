@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 43%
@@ -46,7 +46,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->[성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)는 활동에 대해 구성한 경우에만 사용할 수 있습니다. 성공 지표를 정의하지 않은 경우 드롭다운 목록에 [!UICONTROL 캠페인 시작] 및 [!UICONTROL 전환] 옵션 두 개만 표시됩니다.
+>[성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#overview)는 활동에 대해 구성한 경우에만 사용할 수 있습니다. 성공 지표를 정의하지 않은 경우 드롭다운 목록에 [!UICONTROL 캠페인 시작] 및 [!UICONTROL 전환] 옵션 두 개만 표시됩니다.
 
 
 ## 고려 사항

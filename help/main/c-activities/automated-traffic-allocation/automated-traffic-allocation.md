@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 32%
@@ -59,7 +59,7 @@ ht-degree: 32%
 ## [!UICONTROL 자동 할당] 대 [!UICONTROL A/B 테스트] 또는 [!UICONTROL Automated Personalization] 활동을 사용하는 경우 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * 활동을 처음부터 최적화하고 가장 성과가 좋은 경험을 가능한 한 빨리 식별하려면 **[!UICONTROL 자동 할당]**&#x200B;을 사용하십시오. 성과가 좋은 경험을 더 자주 제공함으로써 전반적인 활동 성과가 높아진다.
-* 사이트를 최적화하기 전에 모든 경험의 성능을 특성화하려면 표준 **[A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**&#x200B;를 사용하십시오. A/B 테스트는 모든 경험의 등급을 매기는 데 도움이 되지만 [!UICONTROL 자동 할당]은 상위 수행자를 찾지만 하위 수행자 간의 차별화를 보장하지는 않습니다.
+* 사이트를 최적화하기 전에 모든 경험의 성능을 특성화하려면 표준 **[A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)**&#x200B;를 사용하십시오. A/B 테스트는 모든 경험의 등급을 매기는 데 도움이 되지만 [!UICONTROL 자동 할당]은 상위 수행자를 찾지만 하위 수행자 간의 차별화를 보장하지는 않습니다.
 * 개별 프로필 특성을 기반으로 예측을 작성하는 머신 러닝 모델과 같이 가장 복잡성이 높은 최적화 알고리즘을 원하는 경우 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)을(를) 사용하십시오. [!UICONTROL 자동 할당]은(는) 표준 A/B 테스트와 마찬가지로) 경험의 집계 동작을 살펴보며 방문자를 구분하지 않습니다.
 
 ## [!UICONTROL 자동 할당]의 주요 이점 {#section_0913BF06F73C4794862561388BBDDFF0}

@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 44%
@@ -94,7 +94,7 @@ ht-degree: 44%
 
 ## [!UICONTROL 보고서 지표] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-**[!UICONTROL 보고서 지표]** 드롭다운 목록을 클릭하면 다른 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) 또는 여러 지표를 선택하여 그래프 및 차트로 표시할 수 있습니다.
+**[!UICONTROL 보고서 지표]** 드롭다운 목록을 클릭하면 다른 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) 또는 여러 지표를 선택하여 그래프 및 차트로 표시할 수 있습니다.
 
 기본적으로, 기본 지표는 활동을 작성할 때 성공 지표 설정에서 결정됩니다. 설정을 변경하고 활동을 다시 저장하면 보고에 대한 기본 지표가 업데이트됩니다.
 

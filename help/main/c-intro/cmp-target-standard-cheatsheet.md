@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -105,7 +105,7 @@ ht-degree: 48%
 **제어 경험을 사용하는 동안 가장 성과가 좋은 경험과 성과가 나쁜 경험을 찾기 위해 통계적으로 엄격한 활동을 수행할 수 있습니까?**
 
 +++세부 정보 보기
-최상의 결과를 얻으려면 [A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (수동 타기팅 선택 사항)와 [샘플 크기 계산기](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) 를 함께 사용하십시오.
+최상의 결과를 얻으려면 [A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md#test-ab) (수동 타기팅 선택 사항)와 [샘플 크기 계산기](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) 를 함께 사용하십시오.
 
 +++
 

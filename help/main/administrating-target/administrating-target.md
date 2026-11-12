@@ -30,27 +30,29 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 569476ceebaa6913cc86f4a2b871ccf29d9894d8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 12%
+source-wordcount: '238'
+ht-degree: 5%
 ---
 # [!DNL Target] 관리 개요
 
-VEC(시각적 경험 작성기)에 대한 구성 설정, 보고, Scene7 구성, 구현, 호스트, 환경, 허용 목록에추가된 URL, 응답 토큰, 사용자 및 [!DNL Recommendations]을(를) 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다.
+**[!UICONTROL 관리]**&#x200B;를 사용하여 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC), 보고, 배달 인프라, 액세스 제어 및 [!DNL Recommendations]에 대한 계정 전체 기본값을 구성하십시오.
 
-{{permissions-update}}
+[!DNL Target]을(를) 처음 설정하는 경우 [관리자 첫 번째 단계](/help/main/administrating-target/start-target.md)로 시작합니다. 업데이트된 인터페이스에서 **[!UICONTROL 관리]**&#x200B;를 찾는 데 도움이 필요하면 [UI 이해 [!DNL Target] 를 참조하십시오](/help/main/c-intro/understand-the-target-ui.md).
 
-[!UICONTROL 관리] 메뉴 항목에 액세스하려면 맨 위 메뉴 막대에서 **[!UICONTROL 관리]**&#x200B;를 클릭한 다음 왼쪽에서 원하는 탭을 클릭하십시오.
+관리 페이지를 열려면 상단 메뉴 모음에서 **[!UICONTROL 관리]**&#x200B;를 클릭한 다음 왼쪽에서 원하는 탭을 클릭합니다.
 
-* [시각적 경험 작성기](/help/main/administrating-target/visual-experience-composer-set-up.md)
-* [보고](/help/main/administrating-target/reporting.md)
-* [Scene7 구성](/help/main/administrating-target/scene7-settings.md)
-* [구현](/help/main/c-implementing-target/implementing-target.md)
-* [속성](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
-* [호스트](/help/main/administrating-target/hosts.md)
-* [환경](/help/main/administrating-target/environments.md)
-* [허용 목록에추가된 URL](/help/main/administrating-target/allowlisted-urls.md)
-* [응답 토큰](/help/main/administrating-target/response-tokens.md)
-* [사용자](/help/main/administrating-target/c-user-management/user-management.md)
-* [추천](/help/main/administrating-target/recommendations-settings.md)
+| 관리 탭 | 설명 |
+| --- | --- |
+| [시각적 경험 작성기](/help/main/administrating-target/visual-experience-composer-set-up.md) | VEC에서 경험을 작성할 때 사용되는 기본 페이지 URL 및 옵션을 설정합니다. |
+| [보고](/help/main/administrating-target/reporting.md) | 조직의 보고 솔루션, 시간대, 통화 및 기타 보고 기본값을 선택합니다. [매출 상승도 평가](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)도 참조하세요. |
+| [Scene7 구성](/help/main/administrating-target/scene7-settings.md) | 오퍼 및 경험에서 이미지 전달을 위해 [!DNL Dynamic Media]&#x200B;(Scene7)을(를) 연결합니다. |
+| [구현](/help/main/administrating-target/implementation.md) | **[!UICONTROL 관리]** 페이지에서 전역 구현 설정을 검토하십시오. 전체 구현 지침은 [Target 구현](/help/main/c-implementing-target/implementing-target.md)을 참조하십시오. |
+| [호스트](/help/main/administrating-target/hosts.md) | [!DNL Target]이(가) 요청을 받는 사이트 및 사전 프로덕션 환경을 구성합니다. |
+| [환경](/help/main/administrating-target/environments.md) | 호스트를 프로덕션, 스테이징 및 개발과 같은 환경으로 그룹화합니다. |
+| [허용 목록에추가된 URL](/help/main/administrating-target/allowlisted-urls.md) | 원격 오퍼 및 관련 유효성 검사에 대한 신뢰할 수 있는 URL 패턴을 관리합니다. |
+| [응답 토큰](/help/main/administrating-target/response-tokens.md) | 디버깅 및 통합을 위해 [!DNL Target] 응답에 프로필 및 활동 데이터를 포함합니다. |
+| [속성](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | 작업 공간을 만들고 Enterprise 역할을 할당합니다([Target Premium](/help/main/c-intro/intro.md#premium)만). |
+| [사용자 &#x200B;](/help/main/administrating-target/c-user-management/user-management.md) | 사용자를 추가하고 [!DNL Target]개의 역할 및 권한을 할당하십시오. |
+| [추천](/help/main/administrating-target/recommendations-settings.md) | [!DNL Recommendations] 활동에 대한 기본 설정을 구성하십시오. |

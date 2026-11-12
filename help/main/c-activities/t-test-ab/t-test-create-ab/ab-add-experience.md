@@ -17,59 +17,67 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 30%
+source-wordcount: '472'
+ht-degree: 25%
 ---
-# 경험 추가
+# 경험 추가 {#ab-add-experience}
 
-[!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)는 페이지에서 경험을 추가 및 편집하기 위한 시각적 인터페이스를 제공합니다.
+>[!BEGINSHADEBOX]
 
-경험에 대한 자세한 내용은 [경험](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하십시오.
+**이 페이지에서:** A/B 활동에서 경험을 추가 및 디자인하는 방법과 경험의 이름을 바꾸거나, 리디렉션하거나, 복제하거나, 삭제하는 방법을 알아봅니다.
 
-1. VEC의 **[!UICONTROL 경험]** 페이지에서 [!UICONTROL 경험] 창 상단의 [!UICONTROL 추가] 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭합니다.
+>[!ENDSHADEBOX]
 
-   VEC는 새 활동을 만든 후 왼쪽에 경험 A와 경험 B, 이렇게 두 개의 탭을 표시합니다. 경험 A는 제어 경험입니다. 테스트에 여러 경험을 추가할 수 있습니다.
+[!DNL Adobe Target] **[!UICONTROL 시각적 경험 작성기]**(VEC)는 페이지에서 경험을 추가 및 편집하기 위한 시각적 인터페이스를 제공합니다. 경험에 대한 자세한 내용은 [경험](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하십시오.
+
+## 경험 추가 및 디자인 {#add-experience}
+
+경험을 추가하고 해당 경험에 대한 페이지를 변경하려면:
+
+1. VEC의 **[!UICONTROL 경험]** 페이지에서 **[!UICONTROL 경험]** 창 상단의 **[!UICONTROL 추가]** 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭합니다.
+
+   새 활동을 만들면 VEC가 왼쪽에 경험 A와 경험 B, 이렇게 두 개의 탭을 표시합니다. 경험 A는 제어 경험입니다. 테스트에 여러 경험을 추가할 수 있습니다.
 
 1. 변경할 요소를 선택하고 원하는 대로 변경합니다.
 
-   페이지의 요소 위로 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 VEC를 사용하여 변경할 수 있습니다.
-
-   [!DNL Target Classic]&#x200B;(이전의 [!DNL Test&Target])을(를) 사용하여 페이지에서 [!DNL Target] 요청을 만든 경우 해당 [!DNL Target] 요청은 요청 이름을 나타내는 요소로 표시되며 다른 요소와 같이 수정할 수 있습니다.
+   페이지의 요소 위로 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 VEC를 사용하여 변경할 수 있습니다. [!DNL Target Classic]&#x200B;(이전의 [!DNL Test&Target])을(를) 사용하여 페이지에서 [!DNL Target] 요청을 만든 경우 해당 [!DNL Target] 요청은 요청 이름을 나타내는 요소로 표시되며 다른 요소와 같이 수정할 수 있습니다.
 
    표시된 페이지의 요소에서 수행하여 경험을 변경할 수 있는 작업 목록은 [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오.
 
-   >[!NOTE]
-   >
-   >기본 페이지 이외의 소스에서 가져온 이미지(예: `akamai.net`에 호스팅되고 `example.com`에 전달된 이미지)를 전달하는 경우 해당 이미지가 흐름 다이어그램에 표시된 페이지의 썸네일에 표시되지 않습니다.
-
 1. 경험 디자인을 마치면 **[!UICONTROL 다음]**&#x200B;을(를) 클릭합니다.
 
-## 경험 이름 변경
+>[!NOTE]
+>
+>기본 페이지 이외의 소스에서 가져온 이미지(예: `akamai.net`에 호스팅되고 `example.com`에 전달된 이미지)를 전달하는 경우 해당 이미지가 흐름 다이어그램에 표시된 페이지의 썸네일에 표시되지 않습니다.
 
-1. 경험 옆에 있는 **[!UICONTROL 경험 이름 바꾸기]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/Rename.svg))을 클릭하여 경험에 새 이름을 지정합니다.
+## 경험 이름 변경 {#rename-experience}
 
-2. 새 이름을 지정한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+경험에 새 이름을 지정하려면 다음을 수행하십시오.
 
-   경험에 이름을 지정하거나 경험의 이름을 바꾸는 경우 다음 문자가 허용되지 않습니다.
+1. 경험 옆에 있는 **[!UICONTROL 경험 이름 바꾸기]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/Rename.svg))을 클릭합니다.
 
-   | 문자 | 설명 |
-   |--- |--- |
-   | / | 슬래시 |
-   | ? | 물음표 |
-   | # | 숫자 기호 |
-   | : | 콜론 |
-   | = | 다음과 같음 |
-   | + | 플러스 |
-   | - | 빼기 |
-   | @ | 로그인 |
+1. 새 이름을 지정한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## URL로 리디렉션
+경험에 이름을 지정하거나 경험의 이름을 바꾸는 경우 다음 문자가 허용되지 않습니다.
+
+| 문자 | 설명 |
+|--- |--- |
+| `/` | 슬래시 |
+| `?` | 물음표 |
+| `#` | 숫자 기호 |
+| `:` | 콜론 |
+| `=` | 다음과 같음 |
+| `+` | 플러스 |
+| `-` | 빼기 |
+| `@` | 로그인 |
+
+## 경험을 URL로 리디렉션 {#redirect-to-url}
+
+경험 방문자를 다른 URL로 보내려면 [URL로 리디렉션](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)도 참조하십시오.
 
 1. **[!UICONTROL 경험]** 창에서 경험 옆에 있는 **[!UICONTROL 자세히]** 아이콘(![자세히 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 **[!UICONTROL URL로 리디렉션]**&#x200B;을 클릭합니다.
-
-   자세한 내용은 [URL로 리디렉션](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)을 참조하십시오.
 
 1. 경험을 리디렉션할 URL을 지정합니다.
 
@@ -77,12 +85,10 @@ ht-degree: 30%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 경험 복제
+## 경험 복제 {#duplicate-experience}
 
-[!UICONTROL A/B 테스트]에서 경험을 복사할 수 있으므로 경험을 다시 작성하지 않고도 간단한 콘텐츠를 변경할 수 있습니다.
+A/B 테스트에서 경험을 복사할 수 있으므로 경험을 다시 작성하지 않고도 간단한 콘텐츠를 변경할 수 있습니다. **[!UICONTROL 경험]** 창에서 경험 옆에 있는 **[!UICONTROL 자세히]** 아이콘(![자세히 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 **[!UICONTROL 복제]**&#x200B;를 클릭합니다.
 
-1. **[!UICONTROL 경험]** 창에서 경험 옆에 있는 **[!UICONTROL 자세히]** 아이콘(![자세히 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 **[!UICONTROL 복제]**&#x200B;를 클릭합니다.
+## 경험 삭제 {#delete-experience}
 
-## 경험 삭제
-
-1. **[!UICONTROL 경험]** 창에서 경험 옆에 있는 **[!UICONTROL 자세히]** 아이콘(![자세히 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 클릭한 다음 **[!UICONTROL 삭제]**&#x200B;를 클릭하여 작업을 확인합니다.
+**[!UICONTROL 경험]** 창에서 경험 옆에 있는 **[!UICONTROL 자세히]** 아이콘(![자세히 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 클릭한 다음 **[!UICONTROL 삭제]**&#x200B;를 클릭하여 작업을 확인합니다.

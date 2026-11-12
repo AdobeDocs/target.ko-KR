@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱, 소셜 채널에서 고객 경험을 개인화하여 수익을 증대시키는 방법에 대해 알아봅니다.
 feature-set: Target
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1293'
 ht-degree: 84%
 ---
 
@@ -166,24 +166,18 @@ ht-degree: 84%
     + [경험 타기팅 개요](c-activities/t-experience-target/experience-target.md)
     + 경험 타깃팅 활동 만들기 {#create-targeting}
       + [활동을 만듭니다](c-activities/t-experience-target/t-xt-create/xt-create.md)
-      + [활동 URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
       + [경험을 만듭니다](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
       + [경험 타기팅에서 경험 전환](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-      + [목표 및 설정](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
-      + [지표 설정](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
   + 다변량 테스트 {#multivariate-test}
     + [다변량 테스트 개요](c-activities/c-multivariate-testing/multivariate-testing.md)
     + [다변량 테스트 모범 사례](c-activities/c-multivariate-testing/best-practices.md)
     + [다변량 테스트 계획](c-activities/c-multivariate-testing/plan-mvt.md)
     + 다변량 테스트 만들기 {#create-mvt}
       + [테스트 만들기](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-      + [활동 URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
       + [조합 만들기](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
       + [다변량 테스트에 대한 경험 미리보기](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [성공적인 테스트에 필요한 트래픽 예측](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [테스트 요약](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-      + [목표 및 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
-      + [지표 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
       + [다변량 테스트 문제 해결](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
   + [권장 사항 활동](c-activities/recommendations-activity.md)
   + [활동 편집](c-activities/edit-activity.md)

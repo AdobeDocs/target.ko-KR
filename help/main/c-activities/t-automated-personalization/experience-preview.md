@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 41%
@@ -29,7 +29,7 @@ ht-degree: 41%
 
 별도의 QA 활동을 만들지 않고 경험 미리보기 URL을 사용하여 팀 구성원과 경험을 공유하고 브라우저 및 환경에서 경험을 QA할 수 있습니다. 이 기능은 사이트가 복잡한 경우나 보안 정책 때문에 해당 사이트를 시뮬레이터에서 볼 수 없는 경우에 특히 유용합니다.
 
-1. [자동화된 개인화 활동](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)을 만들거나 해당 활동을 클릭하여 엽니다.
+1. [자동화된 개인화 활동](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)을 만들거나 해당 활동을 클릭하여 엽니다.
 
    경험을 미리 보기 위해 활동이 라이브 상태일 필요는 없습니다.
 
