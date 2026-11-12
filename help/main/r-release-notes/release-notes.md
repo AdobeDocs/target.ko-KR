@@ -29,16 +29,27 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
+source-git-commit: b608d181c660201f2c373ec8a1ac6e95be1be96c
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 42%
+source-wordcount: '703'
+ht-degree: 39%
 ---
 # [!DNL Target] 릴리스 정보 (현재)
 
 [!DNL Adobe Target]의 최신 기능, 개선 사항 및 수정 사항을 살펴보십시오. 이러한 릴리스 노트는 해당되는 경우 [!DNL Target]개의 API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 구성 요소에 대한 업데이트도 다룹니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 26.11.1(2026년 11월 12일)
+
+**[!UICONTROL 활동]**
+
++++세부 정보 보기
+
+* **[!DNL Coworker]진입점이 활동 목록**&#x200B;에 추가되었습니다. 조직에 [!DNL Coworker]에 대한 액세스 권한이 있는 경우 이제 [!UICONTROL 활동] 목록에 각 활동에 대한 **[!UICONTROL 내 라이브 테스트 검토]** 단추와 **[!UICONTROL 동료에게 묻기]** 메뉴가 포함됩니다. [!DNL Coworker]이(가) 실시간 활동을 검토하거나 특정 활동에 대한 질문에 답변하도록 할 수 있습니다. (TGT-56536)
+  [자세히 알아보기](../c-activities/activities.md#coworker)
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.2(2026년 10월 15일)
 
@@ -66,7 +77,7 @@ ht-degree: 42%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
@@ -85,7 +96,7 @@ ht-degree: 42%
 
 +++
 
-**[!UICONTROL 시각적 경험 작성기] (VEC)**
+**[!UICONTROL 시각적 경험 작성기](VEC)**
 
 +++세부 정보 보기
 
