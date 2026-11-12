@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 44%
@@ -94,7 +94,7 @@ ht-degree: 44%
 
 ## [!UICONTROL 보고서 지표] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-**[!UICONTROL 보고서 지표]** 드롭다운 목록을 클릭하면 다른 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) 또는 여러 지표를 선택하여 그래프 및 차트로 표시할 수 있습니다.
+**[!UICONTROL 보고서 지표]** 드롭다운 목록을 클릭하면 다른 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) 또는 여러 지표를 선택하여 그래프 및 차트로 표시할 수 있습니다.
 
 기본적으로, 기본 지표는 활동을 작성할 때 성공 지표 설정에서 결정됩니다. 설정을 변경하고 활동을 다시 저장하면 보고에 대한 기본 지표가 업데이트됩니다.
 
@@ -151,7 +151,7 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->조직에서 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target=_blank}(AEP)을 사용하여 지표 데이터를 [!DNL Target]에 보내는 경우 AEP 데이터 스트림의 환경이 [!DNL Target] 보고서 설정의 환경과 일치해야 합니다.
+>조직에서 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank}(AEP)을 사용하여 지표 데이터를 [!DNL Target]에 보내는 경우 AEP 데이터 스트림의 환경이 [!DNL Target] 보고서 설정의 환경과 일치해야 합니다.
 
 ### 보고 데이터 재설정
 
@@ -185,7 +185,7 @@ ht-degree: 44%
 
 * **테이블 보기**: 보고서를 테이블로 보려면 **[!UICONTROL 테이블 보기]**( ![테이블 보기 아이콘](/help/main/assets/icons/Table.svg)) 아이콘을 클릭하십시오.
 * **그래프 보기**: 보고서를 그래프로 보려면 **[!UICONTROL 그래프 보기]**( ![그래프 보기 아이콘](/help/main/assets/icons/GraphTrend.svg)) 아이콘을 클릭하십시오.
-* **자동화된 세그먼트**:([!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟]&#x200B;(AT) 활동에만 사용 가능) &lbrace;**[!UICONTROL 자동화된 세그먼트]&#x200B;( ![자동화된 세그먼트 아이콘](/help/main/assets/icons/AutomatedSegment.svg) ) 아이콘을 클릭하여 [자동화된 세그먼트 보고서](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)를 봅니다.
+* **자동화된 세그먼트**:([!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟]&#x200B;(AT) 활동에만 사용 가능) {**[!UICONTROL 자동화된 세그먼트]&#x200B;( ![자동화된 세그먼트 아이콘](/help/main/assets/icons/AutomatedSegment.svg) ) 아이콘을 클릭하여 [자동화된 세그먼트 보고서](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)를 봅니다.
 * **중요 특성**: ([!DNL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL 자동 타겟]&#x200B;(AT) 활동에만 사용 가능) **[!UICONTROL 중요 특성]**( ![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg) ) 아이콘을 클릭하여 [중요 특성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md)를 봅니다.
 
 ## 평균 상승도, 상승도 한계 및 신뢰 구간 {#section_0D87615B1D3344B3858BA494EEBC16FB}
@@ -246,9 +246,9 @@ MVT(다변량 테스트) 활동에 대한 위치별 기여도를 표시하도록
 
 그래프가 작성되는 기본 순서는 다음과 같습니다.
 
-* **[!UICONTROL A/B 테스트] ([!UICONTROL 자동 할당] 및 [!UICONTROL Automated Personalization] 포함)**: 내림차순으로 경험 생성 순서.
-* **[!UICONTROL 경험 타깃팅] (XT)**: 활동의 경험 순서.
-* **[!UICONTROL 다변량 테스트] (MVT)**: 경험 이름별 알파벳순
+* **[!UICONTROL A/B 테스트]([!UICONTROL 자동 할당] 및 [!UICONTROL Automated Personalization] 포함)**: 내림차순으로 경험 생성 순서.
+* **[!UICONTROL 경험 타깃팅](XT)**: 활동의 경험 순서.
+* **[!UICONTROL 다변량 테스트](MVT)**: 경험 이름별 알파벳순
 * **[!UICONTROL 권장 사항]**: 내림차순 경험 생성 순서.
 
 [!UICONTROL 계산 방법론] 옵션을 사용하여 작업할 때 다음 주의 사항을 고려하십시오.

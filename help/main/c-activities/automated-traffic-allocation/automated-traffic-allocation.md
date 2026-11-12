@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 32%
@@ -59,7 +59,7 @@ ht-degree: 32%
 ## [!UICONTROL 자동 할당] 대 [!UICONTROL A/B 테스트] 또는 [!UICONTROL Automated Personalization] 활동을 사용하는 경우 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * 활동을 처음부터 최적화하고 가장 성과가 좋은 경험을 가능한 한 빨리 식별하려면 **[!UICONTROL 자동 할당]**&#x200B;을 사용하십시오. 성과가 좋은 경험을 더 자주 제공함으로써 전반적인 활동 성과가 높아진다.
-* 사이트를 최적화하기 전에 모든 경험의 성능을 특성화하려면 표준 **[A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**&#x200B;를 사용하십시오. A/B 테스트는 모든 경험의 등급을 매기는 데 도움이 되지만 [!UICONTROL 자동 할당]은 상위 수행자를 찾지만 하위 수행자 간의 차별화를 보장하지는 않습니다.
+* 사이트를 최적화하기 전에 모든 경험의 성능을 특성화하려면 표준 **[A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)**&#x200B;를 사용하십시오. A/B 테스트는 모든 경험의 등급을 매기는 데 도움이 되지만 [!UICONTROL 자동 할당]은 상위 수행자를 찾지만 하위 수행자 간의 차별화를 보장하지는 않습니다.
 * 개별 프로필 특성을 기반으로 예측을 작성하는 머신 러닝 모델과 같이 가장 복잡성이 높은 최적화 알고리즘을 원하는 경우 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)을(를) 사용하십시오. [!UICONTROL 자동 할당]은(는) 표준 A/B 테스트와 마찬가지로) 경험의 집계 동작을 살펴보며 방문자를 구분하지 않습니다.
 
 ## [!UICONTROL 자동 할당]의 주요 이점 {#section_0913BF06F73C4794862561388BBDDFF0}
@@ -104,7 +104,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 >
 >활동에 경험이 두 개만 있는 경우, [!DNL Target]이(가) 75% 신뢰도로 우수성이 검증된 경험을 찾을 때까지 두 경험은 동일한 트래픽을 받습니다. 이 시점에서 트래픽의 2/3는 승자에게 할당되고 1/3은 패자에게 할당됩니다. 이후 경험이 95% 신뢰도에 도달하면 트래픽의 90%를 승자에게 할당하고, 10%를 패자에게 할당합니다. [!DNL Target]은(는) 마지막에 긍정 오류(false positive)를 피하기 위해(즉, 일부 탐색 유지) 항상 일부 트래픽을 &quot;손실&quot; 경험에 보냅니다.
 
-[!UICONTROL 자동 할당] 활동이 활성화된 후에는 Target UI에서 다음 작업이 허용되지 않습니다.
+[!UICONTROL 자동 할당] 활동이 활성화된 후에는 Tar[!DNL]get UI에서 다음 작업이 허용되지 않습니다.
 
 * &quot;트래픽 할당&quot; 모드를 &quot;수동&quot;으로 전환
 * 목표 지표 유형 변경
@@ -258,7 +258,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 * 트래픽 할당 방법 선택
 * 서로 다른 경험에 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/3507594?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### A/B 테스트 만들기(8:36) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
@@ -267,4 +267,4 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 * [!DNL Adobe Target]에서 A/B 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/30529?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

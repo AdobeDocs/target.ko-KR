@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e62cab5f2a4ac7d18bdb6847784a06b37513624a
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 이 문서에서는 [!DNL Adobe Target]의 수동 A/Bn 테스트에 사용된 자세한 통계 계산을 문서화합니다. **[!UICONTROL 전환율]**, **[!UICONTROL 전환율의 신뢰 구간]**, **[!UICONTROL 상승도]**, **[!UICONTROL 상승도의 신뢰 구간]**, **[!UICONTROL 신뢰도]** 및 **[!UICONTROL 베이지안]** 결정 지표에 대한 정의가 제공됩니다.
 
-**[!UICONTROL A/B 테스트]**(수동) 활동은 [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)에서 활동별로 선택된 두 가지 통계 방법을 지원합니다.
+**[!UICONTROL A/B 테스트]**(수동) 활동은 [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology)에서 활동별로 선택된 두 가지 통계 방법을 지원합니다.
 
 * [Welch의 t-test](#welchs-t-test): 고정 표본 크기 가설 테스트를 기반으로 **[!UICONTROL 신뢰도]** 백분율 및 신뢰 구간을 보고하는 빈도 방법론입니다. **[!UICONTROL 매출]** 또는 **[!UICONTROL 참여]** 기본 목표가 있는 활동에 사용됩니다.
 
@@ -157,7 +157,7 @@ Welch&#39;s t-test의 경우, 자유도는 다음과 같이 계산된다.
 
 **[!UICONTROL 베이지안]** 방법론을 사용하면 마케터가 제어 변형에 대한 과거 실험 및 결과를 기반으로 가설을 제공할 수도 있습니다.
 
-**[!UICONTROL 베이지안]** 방법론은 기본 목표 지표가 **[!UICONTROL 전환]**&#x200B;인 활동, **[!UICONTROL 매출]** 또는 **[!UICONTROL 참여]**&#x200B;의 기본 목표가 있는 활동에만 사용할 수 있습니다. **[!UICONTROL 용접의 t-test]**&#x200B;를 항상 사용합니다. 방법 선택에 대한 자세한 내용은 [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)을 참조하세요.
+**[!UICONTROL 베이지안]** 방법론은 기본 목표 지표가 **[!UICONTROL 전환]**&#x200B;인 활동, **[!UICONTROL 매출]** 또는 **[!UICONTROL 참여]**&#x200B;의 기본 목표가 있는 활동에만 사용할 수 있습니다. **[!UICONTROL 용접의 t-test]**&#x200B;를 항상 사용합니다. 방법 선택에 대한 자세한 내용은 [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology)을 참조하세요.
 
 ### 평균 상승도 및 신뢰할 수 있는 간격
 
