@@ -141,4 +141,4 @@ ht-degree: 32%
 
 * [!DNL Target Standard]에서 사용할 수 있는 계정 설정을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507630?captions=kor)
