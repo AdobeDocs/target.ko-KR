@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 28%
@@ -126,7 +126,7 @@ AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]에 대한 자�
 >
 >[!UICONTROL 경험 조각]에서 인공 지능, 머신 러닝 및 권장 사항 사용:
 >
->* [!DNL Target]의 AI 및 ML 기능을 완전히 사용하려면 활동을 만드는 동안 [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 또는 [자동 타겟팅](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 선택하면 됩니다.
+>* [!DNL Target]의 AI 및 ML 기능을 완전히 사용하려면 활동을 만드는 동안 [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview) 또는 [자동 타겟팅](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 선택하면 됩니다.
 >
 >* [!UICONTROL 경험 조각]은(는) [!DNL Recommendations] 활동에서 지원되지 않습니다. 그러나 권장 사항에 [!UICONTROL 경험 조각]을(를) 사용하려면 [!UICONTROL A/B 테스트] 활동([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 포함) 또는 [!UICONTROL 경험 타깃팅]&#x200B;(XT) 활동을 만들고 [오퍼로 권장 사항을 포함](/help/main/c-recommendations/recommendations-as-an-offer.md)할 수 있습니다.
 
@@ -148,7 +148,7 @@ AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]에 대한 자�
    다양한 활동 유형의 구성에 대한 자세한 내용은 다음 항목을 참조하십시오.
 
    * **A/B 테스트:** [A/B 테스트 만들기](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **자동 할당:** [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **자동 할당:** [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)
    * **자동 타겟팅:** [자동 타겟팅](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * **AP(Automated Personalization):**&#x200B;[Automated Personalization 활동 작성](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
    * **경험 타겟팅(XT):** [경험 타겟팅 활동 만들기](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)

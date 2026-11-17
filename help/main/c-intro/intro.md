@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -125,7 +125,7 @@ ht-degree: 68%
 
 ### [!UICONTROL 자동화된 개인화]
 
-[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)(AP)은 고급 기계 학습 알고리즘을 사용하여 개인화된 경험을 제공하고 디지털 상호 작용에 대한 전환율을 향상시킵니다.
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)(AP)은 고급 기계 학습 알고리즘을 사용하여 개인화된 경험을 제공하고 디지털 상호 작용에 대한 전환율을 향상시킵니다.
 
 AP는 방문자 활동을 기록하여 유사한 방문자에게 콘텐츠를 타깃팅하기 위한 프로필을 빌드합니다. AP는 정교한 모델링을 사용하여 개별 및 모집단의 콘텐츠에 대한 응답을 추적하여 알려진 모든 사항을 기반으로 각 방문자를 자동으로 타깃팅합니다.
 

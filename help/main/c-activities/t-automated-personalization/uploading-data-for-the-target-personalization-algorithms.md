@@ -36,26 +36,32 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 12%
+source-wordcount: '365'
+ht-degree: 7%
 ---
-# [!DNL Target] 개인화 알고리즘에 대한 데이터 업로드
+# [!DNL Target] 개인화 알고리즘에 대한 데이터 업로드 {#upload-data-personalization}
 
-CRM 정보 또는 고객 이탈 성향 점수와 같은 오프라인 데이터는 [!DNL Adobe Target] [!UICONTROL AP(Automated Personalization]) 및 [!UICONTROL 자동 타겟] 활동에서 개인화 모델을 만들 때 매우 유용할 수 있습니다.
+>[!BEGINSHADEBOX]
 
-AP([!UICONTROL Automated Personalization]) 및 [!UICONTROL 자동 타겟] 개인화 알고리즘에서 데이터를 입력하는 방법에는 여러 가지가 있습니다. [데이터를 Target에 가져오는 메서드](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}의 메서드 외에도 [!DNL Experience Cloud]개의 공유 대상([!UICONTROL Adobe Analytics], [!DNL Audience Manager]) 및 활동 보고 대상도 [!DNL Target] 알고리즘에서 사용됩니다.
+**이 페이지에서:** 오프라인 및 사용자 지정 데이터를 **[!UICONTROL Automated Personalization]** 및 **[!UICONTROL 자동 타겟]** 알고리즘으로 보내는 방법과 따라야 할 모범 사례를 알아봅니다.
 
-[!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 개인화 알고리즘에서 자동으로 수집 및 사용되는 데이터에 대한 자세한 내용은 [Automated Personalization 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을(를) 참조하십시오.
+>[!ENDSHADEBOX]
 
-## 우수 사례 {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
+CRM 정보 또는 고객 이탈 성향 점수와 같은 오프라인 데이터는 [!DNL Adobe Target] **[!UICONTROL AP(Automated Personalization]**) 및 **[!UICONTROL 자동 타겟]** 활동에서 개인화 모델을 만들 때 매우 유용할 수 있습니다.
 
-다음 목록에는 [!DNL Target] 개인화 알고리즘을 위한 데이터 업로드에 대한 모범 사례가 나와 있습니다.
+AP(**[!UICONTROL Automated Personalization]**) 및 **[!UICONTROL 자동 타겟]** 개인화 알고리즘에서 데이터를 입력하는 방법에는 여러 가지가 있습니다. [데이터를 Target에 가져오는 메서드](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}의 메서드 외에 [!DNL Experience Cloud]개의 공유 대상(**[!UICONTROL Adobe Analytics]**, [!DNL Audience Manager]) 및 활동 보고 대상도 [!DNL Target] 알고리즘에서 사용됩니다.
 
-* [!DNL Target] 개인화 알고리즘에서 사용할 수 있는 고품질 데이터가 많을수록 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 활동에서 결과 모델의 품질이 향상됩니다.
-* 동일한 목적을 제공하는 여러 프로필 스크립트 또는 속성 사용을 제한합니다.
-* 필요하지 않은 경우 세션 ID와 같은 고유 ID를 전달하지 마십시오.
-* 중복 정보를 보내지 않도록 [!DNL Target]에서 자동으로 수집하는 데이터([Target의 Personalization 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md))를 검토하십시오. 예를 들어 [!DNL Target]은(는) IP 주소를 사용하여 방문자의 ZIP 코드를 결정합니다. 이 정보를 별도의 변수로 전달하지 않아도 됩니다.
+**[!UICONTROL Automated Personalization]** 및 **[!UICONTROL 자동 타겟]** 개인화 알고리즘에서 자동으로 수집 및 사용되는 데이터에 대한 자세한 내용은 [Automated Personalization 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을(를) 참조하십시오.
+
+## 모범 사례 {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
+
+[!DNL Target] 개인화 알고리즘에 대한 데이터를 업로드할 때 다음 모범 사례를 따르십시오.
+
+* [!DNL Target] 개인화 알고리즘에서 사용할 수 있는 고품질 데이터가 많을수록 **[!UICONTROL Automated Personalization]** 및 **[!UICONTROL 자동 타겟]** 활동에서 결과 모델의 품질이 향상됩니다.
+* 동일한 목적에 사용되는 여러 프로필 스크립트 또는 속성의 사용을 제한합니다.
+* 세션 ID와 같은 고유 ID가 필요하지 않은 경우 전달하지 마십시오.
+* 중복 정보를 보내지 않도록 [!DNL Target]에서 자동으로 수집하는 데이터([Target Personalization 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md))를 검토하십시오. 예를 들어 [!DNL Target]은(는) IP 주소를 사용하여 방문자의 우편 번호를 결정합니다. 이 정보를 별도의 변수로 전달하지 않아도 됩니다.
 * 동일한 속성 또는 변수에 여러 값을 전달하지 마십시오. 여러 변수가 연결된 경우 [!DNL Target] 개인화 알고리즘이 각 문자열을 고유한 값으로 처리하므로 개인화를 위한 정보의 값이 줄어듭니다.
-* 기억에 남고 의미 있는 명명 규칙을 사용하여 [Personalization 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)를 보다 쉽게 이해할 수 있습니다.
+* 기억에 남고 의미 있는 명명 규칙을 사용하여 [Personalization 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)를 보다 쉽게 이해할 수 있습니다.

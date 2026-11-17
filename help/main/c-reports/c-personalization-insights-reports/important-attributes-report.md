@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 55%
@@ -60,7 +60,7 @@ ht-degree: 55%
 
 ## [!UICONTROL 중요 특성] 보고서 액세스 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. **[!UICONTROL 활동]**&#x200B;을 클릭한 다음, 목록에서 원하는 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 활동을 클릭합니다.
+1. **[!UICONTROL 활동]**&#x200B;을 클릭한 다음, 목록에서 원하는 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) 또는 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 활동을 클릭합니다.
 
    많은 활동이 있는 경우 필터( ![필터 아이콘](/help/main/assets/icons/Filter.svg) ) 아이콘을 클릭하여 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 Source], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링합니다.
 

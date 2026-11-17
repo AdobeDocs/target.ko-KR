@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
+source-git-commit: 174d4631b6f4a481c039bd7fff52a8e70161e19e
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -119,7 +119,7 @@ ht-degree: 48%
 **시간 범위가 작고 테스트할 때 목표에 맞게 최적화할 수 있는 경우 활동을 어떻게 수행할 수 있습니까?**
 
 +++세부 정보 보기
-우승 경험을 확인하려면 [보고서](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9)를 참조하십시오.
+우승 경험을 확인하려면 [보고서](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#interpret-auto-allocate-reports)를 참조하십시오.
 
 +++
 
@@ -264,7 +264,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 **적은 수의 방문자가 있는 활동을 시작할 수 있습니까?**
 
 +++세부 정보 보기
-Target의 안내가 있는 3가지 부분 워크플로의 [2단계(타깃팅 페이지)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)에서 사용할 수 있는 백분율 할당 컨트롤을 사용하여 어떤 방식으로 활동을 설정할지 결정하십시오.
+Target의 안내가 있는 3가지 부분 워크플로의 [2단계(타깃팅 페이지)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#select-audience)에서 사용할 수 있는 백분율 할당 컨트롤을 사용하여 어떤 방식으로 활동을 설정할지 결정하십시오.
 
 +++
 
@@ -339,7 +339,7 @@ Target의 안내가 있는 3가지 부분 워크플로의 [2단계(타깃팅 페
 **두 개의 서로 다른 경험(예: 고정 할인 및 비율별 할인) 간을 테스트하려고 하지만 경험을 적절히 타기팅하려고 합니다(다른 국가에서 온 사람들을 위해 다른 로케일 텍스트 또는 다른 통화 표시). 이 작업을 어떻게 수행할 수 있습니까?**
 
 +++세부 정보 보기
-[여러 경험 버전 기능](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)을 사용하면 쉽게 원하는 테스트를 수행할 수 있습니다. 이러한 테스트에서 전달에 대한 뉘앙스를 이해해 보십시오.
+[여러 경험 버전 기능](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#use-case)을 사용하면 쉽게 원하는 테스트를 수행할 수 있습니다. 이러한 테스트에서 전달에 대한 뉘앙스를 이해해 보십시오.
 
 +++
 

@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -106,7 +106,7 @@ Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 �
 
 [!UICONTROL 자동 할당]은(는) 둘 이상의 옵션에서 우수성이 검증된 경험을 식별합니다. 그런 다음 더 많은 트래픽을 자동으로 승자에게 재할당하여 테스트가 계속 실행되고 학습됨에 따라 전환을 늘립니다.
 
-자세한 내용은 [[!UICONTROL 자동 할당]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오.
+자세한 내용은 [[!UICONTROL 자동 할당]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)을 참조하십시오.
 
 ### [!UICONTROL 자동 타겟]&#x200B;(AT)
 
@@ -118,7 +118,7 @@ Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 �
 
 [!UICONTROL Automated Personalization]&#x200B;(AP)는 오퍼 또는 메시지를 결합하고 고급 머신 러닝을 사용하여 각 방문자에게 다양한 변형을 매칭합니다. AP는 개별 고객 프로필을 기반으로 콘텐츠를 개인화하여 상승도를 높입니다.
 
-자세한 내용은 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)을 참조하십시오.
+자세한 내용은 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)을 참조하십시오.
 
 ### [!UICONTROL 경험 타기팅] (XT)
 
