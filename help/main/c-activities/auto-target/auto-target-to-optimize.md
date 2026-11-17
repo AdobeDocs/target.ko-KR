@@ -102,7 +102,7 @@ A/B 활동 흐름 내의 이 선택 사항을 사용하면 머신 러닝을 사�
 | 주제 | 세부 사항 |
 |--- |--- |
 | [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | **[!UICONTROL 자동 타겟]** 및 **[!UICONTROL Automated Personalization]**&#x200B;에서 모두 사용되는 [!DNL Target]의 기본 개인화 알고리즘은 Random Forest입니다. Random Forest와 같은 앙상블 방법은 구성 학습 알고리즘 중 어느 것으로부터도 얻을 수 있는 것보다 더 나은 예측 성능을 얻기 위해 다중 학습 알고리즘을 사용한다. **[!UICONTROL Automated Personalization]** 및 **[!UICONTROL 자동 타겟]** 활동의 Random Forest 알고리즘은 교육 시간에 다수의 의사 결정 트리를 구성하여 작동하는 분류 또는 회귀 방법입니다. |
-| [Personalization 알고리즘을 위한 데이터 업로드 [!DNL Target] 2}](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) | **[!UICONTROL 자동 타겟]** 및 **[!UICONTROL Automated Personalization]** 모델에 대한 데이터를 입력하는 방법에는 여러 가지가 있습니다. |
+| [Personalization 알고리즘을 위한 데이터 업로드 [!DNL Target] 2&rbrace;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md) | **[!UICONTROL 자동 타겟]** 및 **[!UICONTROL Automated Personalization]** 모델에 대한 데이터를 입력하는 방법에는 여러 가지가 있습니다. |
 | [데이터 수집 대상 [!DNL Target] Personalization 알고리즘](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]의 개인화 알고리즘이 자동으로 다양한 데이터를 수집합니다. |
 
 ## 트래픽 할당 결정 {#section_AB3656F71D2D4C67A55A24B38092958F}
@@ -163,7 +163,7 @@ A/B 활동 흐름 내의 이 선택 사항을 사용하면 머신 러닝을 사�
 다음 경험적 규칙은 트래픽 요구 사항을 이해하는 데 도움이 됩니다.
 
 * **[!UICONTROL 전환]이 성공 지표인 경우:** 경험당 하루 1,000회 방문 및 최소 50회 전환. 또한 활동에는 최소 7,000개의 방문과 350개의 전환이 있어야 합니다.
-* **방문당 매출]이 성공 지표인 경우:** 경험당 하루 1,000회 방문 및 최소 50회 전환. [!UICONTROL 또한 활동에는 경험당 최소 1,000개의 전환이 있어야 합니다. **[!UICONTROL 방문당 매출]**&#x200B;은(는) 일반적으로 전환율보다 방문 매출의 차이가 더 높기 때문에 모델을 만드는 데 더 많은 데이터가 필요합니다.
+* **방문당 매출이 성공 지표인 경우:** 경험당 하루 1,000회 방문 및 최소 50회 전환. 또한 활동에는 경험당 최소 1,000개의 전환이 있어야 합니다. **[!UICONTROL 방문당 매출]**&#x200B;은(는) 일반적으로 전환율보다 방문 매출의 차이가 더 높기 때문에 모델을 만드는 데 더 많은 데이터가 필요합니다.
 
 **[!UICONTROL 자동 타겟]**&#x200B;에서도 광범위한 온라인 테스트 프레임워크를 제공합니다. multi-armed bandit는 [!DNL Adobe] 데이터 과학자와 연구원이 실제 환경에서 지속적으로 개선되는 이점을 이해할 수 있도록 하는 대규모 온라인 테스트 프레임워크의 일부입니다. 앞으로 이 테스트 베드를 통해 [!DNL Adobe]이(가) 데이터를 많이 사용하는 클라이언트에 머신 러닝 플랫폼을 열어 [!DNL Target] 모델을 늘릴 수 있습니다.
 

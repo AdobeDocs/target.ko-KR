@@ -49,7 +49,7 @@ ht-degree: 8%
 
 **[!UICONTROL Automated Personalization]** 활동을 빌드하는 동안 **[!UICONTROL 트래픽 견적 도구]**&#x200B;를 사용하여 페이지에 대한 트래픽이 개인화된 모델을 적시에 준비하기에 충분한지 확인할 수 있습니다. 활동을 시작하기 전에 이 검사를 실행하면 개인화된 콘텐츠를 제공할 만큼 충분한 방문자에게 도달할 수 없는 테스트를 방지하는 데 도움이 되며, 트래픽이 충분하지 않은 경우 오퍼 조합 수 또는 활동 기간을 조정하는 방법을 보여 줍니다.
 
-1. **[!UICONTROL Automated Personalization]** 활동에서 **[!UICONTROL 시각적 경험 작성기]의 **[!UICONTROL 경험]** 페이지에 액세스합니다.
+1. **[!UICONTROL Automated Personalization]** 활동에서 **[!UICONTROL 시각적 경험 작성기]의 &#x200B;** [!UICONTROL 경험]** 페이지에 액세스합니다.
 
 1. **[!UICONTROL 트래픽]** 아이콘(![트래픽 견적 도구 아이콘](/help/main/assets/icons/Gauge2.svg))을 클릭합니다.
 
