@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 6%
@@ -49,7 +49,7 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 * [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) multi-armed bandit 기능을 사용하여 트래픽을 승리 경험으로 유도합니다.
 * [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 앙상블 머신 러닝 알고리즘을 사용하여 각 방문자에게 가장 적합한 경험을 선택하십시오. [!UICONTROL 자동 타겟]은(는) [!DNL Adobe Analytics] 목표 지표와 [!DNL Adobe Analytics]의 풍부한 보고 및 분석 기능을 사용하는 동안 각 사용자의 프로필, 동작 및 컨텍스트를 기반으로 최상의 경험을 선택합니다.
 
-[A/B 테스트 및 경험 타깃팅 활동과 함께 사용할 A4T를 구현했는지 확인](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). `analyticsLogging = client_side`을(를) 사용하는 경우 `sessionId` 값도 [!DNL Analytics]에 전달해야 합니다. 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [Analytics for Target(A4T) 보고](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=ko){target=_blank}를 참조하십시오.
+[A/B 테스트 및 경험 타깃팅 활동과 함께 사용할 A4T를 구현했는지 확인](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). `analyticsLogging = client_side`을(를) 사용하는 경우 `sessionId` 값도 [!DNL Analytics]에 전달해야 합니다. 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [Analytics for Target(A4T) 보고](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank}를 참조하십시오.
 
 시작하려면 다음 단계를 따르십시오.
 
@@ -61,7 +61,7 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
    * **[!UICONTROL 수동(기본값)]**: 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다.
 
-   * **[!UICONTROL 최고 경험에 자동 할당]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 성과 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [[!UICONTROL 자동 할당] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)를 참조하십시오.
+   * **[!UICONTROL 최고 경험에 자동 할당]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 성과 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [[!UICONTROL 자동 할당] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)를 참조하십시오.
 
    * **[!UICONTROL 개인화된 경험에 대한 자동 타겟]**: [!DNL Target]은(는) 고급 기계 학습을 사용하여 높은 성과를 보이는, 마케터가 정의한 여러 경험을 식별한 후 개별 고객 프로필 및 유사한 방문자의 이전 동작을 기준으로 방문자에게 가장 잘 조정된 경험을 제공함으로써 콘텐츠를 개인화하고 전환을 유도합니다. 자세한 내용은 [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md)를 참조하십시오.
 
@@ -149,8 +149,8 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 ### 자동 할당 {#aa}
 
 * **교육 빈도**: [!UICONTROL 자동 할당] 모델은 평소대로 매시간 계속 교육합니다.
-* **속성 모델**: [!DNL Target]에서는 A4T를 사용하는 [!UICONTROL &#x200B; 자동 할당] 활동에 대해 [!DNL Adobe Analytics] 기본 속성 모델을 사용합니다.
-* **신뢰도**: [!UICONTROL 자동 할당] 활동에 사용되는 신뢰 공식이 [!DNL Adobe Analytics] [!UICONTROL A4T] 패널에 기본적으로 표시되는 공식과 다릅니다. [여기에 설명된 대로](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) [!UICONTROL 자동 할당]은(는) 일반 [!UICONTROL A/B 테스트] 활동보다 더 보수적인 신뢰 구간을 사용합니다. 이러한 보수적 신뢰 수준은 데이터에 대한 반복적인 평가(peeks)를 보상한다. 따라서 [!DNL Adobe Analytics]의 기본 보고서에는 [!UICONTROL 자동 할당] 알고리즘에서 사용 중인 구간에 비해 더 좁은 신뢰 구간이 표시됩니다. 그럼에도 불구하고, 보내는 더 많은 고유 방문자가 있는 경험을 기반으로 알고리즘에서 선호하는 경험을 결정할 수 있습니다.
+* **속성 모델**: [!DNL Target]에서는 A4T를 사용하는 [!UICONTROL  자동 할당] 활동에 대해 [!DNL Adobe Analytics] 기본 속성 모델을 사용합니다.
+* **신뢰도**: [!UICONTROL 자동 할당] 활동에 사용되는 신뢰 공식이 [!DNL Adobe Analytics] [!UICONTROL A4T] 패널에 기본적으로 표시되는 공식과 다릅니다. [여기에 설명된 대로](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)[!UICONTROL 자동 할당]은(는) 일반 [!UICONTROL A/B 테스트] 활동보다 더 보수적인 신뢰 구간을 사용합니다. 이러한 보수적 신뢰 수준은 데이터에 대한 반복적인 평가(peeks)를 보상한다. 따라서 [!DNL Adobe Analytics]의 기본 보고서에는 [!UICONTROL 자동 할당] 알고리즘에서 사용 중인 구간에 비해 더 좁은 신뢰 구간이 표시됩니다. 그럼에도 불구하고, 보내는 더 많은 고유 방문자가 있는 경험을 기반으로 알고리즘에서 선호하는 경험을 결정할 수 있습니다.
 * **우승자 상태**: 현재 [!DNL Analysis Workspace]의 [!UICONTROL A4T] 패널에서 [&quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)를 사용할 수 없습니다. 같은 보고서를 [!DNL Target]에서 보는 경우에는 이 배지도 사용할 수 없습니다. A4T를 사용하는 [!UICONTROL 자동 할당] 활동에 대한 [!DNL Target] 보고서에 표시된 우승자 &quot;별&quot; 배지는 무시해야 합니다. 이 배지는 [!UICONTROL 자동 할당]에서 사용하는 계산이 아닌 일반 신뢰도 계산을 반영합니다.
 
 ### 자동 타겟 {#at}
@@ -161,7 +161,7 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * [!UICONTROL 자동 타겟] 활동에 대한 데이터 소스로 [!DNL Analytics]을(를) 사용하는 경우 6시간이 경과하면 세션이 종료됩니다. 6시간 후에 발생하는 전환은 계산되지 않습니다.
 
-자세한 내용은 *Analytics 도구 안내서*&#x200B;에서 [속성 모델 및 전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ko)을 참조하십시오.
+자세한 내용은 *Analytics 도구 안내서*&#x200B;에서 [속성 모델 및 전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)을 참조하십시오.
 
 ## 자습서
 

@@ -1,8 +1,8 @@
 ---
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;자동화된 개인화;제어;기본 경험;우수 사례
-description: '[!UICONTROL Adobe Target]의 [!UICONTROL Automated Personalization] (AP) 활동에 대한 FAQ 및 답변 목록을 살펴보십시오.'
+description: '[!UICONTROL Adobe Target]의 [!UICONTROL Automated Personalization](AP) 활동에 대한 FAQ 및 답변 목록을 살펴보십시오.'
 title: '[!UICONTROL Automated Personalization] 활동에 대한 FAQ를 찾으려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 17%
@@ -74,7 +74,7 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
     * 선택한 위치는 성공 지표에 영향을 주지 않습니다.
     * 전환 funnel에서 최적화 목표가 너무 멀어서 선택한 오퍼의 영향을 받을 수 없습니다.
 
-* [!UICONTROL Automated Personalization] 활동에서 개인화 모델을 만드는 데 걸리는 시간을 파악할 수 있도록 [트래픽 견적 도구](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)를 사용하십시오.
+* [!UICONTROL Automated Personalization] 활동에서 개인화 모델을 만드는 데 걸리는 시간을 파악할 수 있도록 [트래픽 견적 도구](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator)를 사용하십시오.
 * 목표를 기반으로 활동을 시작하기 전에 통제와 타깃팅 간의 할당을 결정합니다.
 
   활동의 목표와 선택한 제어 유형에 따라 고려해야 할 세 가지 시나리오가 있습니다.
@@ -162,7 +162,7 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 
 +++세부 정보 보기
 
-일반적으로 활동에서 모델을 만드는 데 걸리는 시간은 선택한 활동 위치에 대한 트래픽과 활동 성공 지표에 따라 다릅니다. [트래픽 견적 도구](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)를 사용하여 활동에서 모델을 만드는 데 걸리는 예상 시간을 결정합니다.
+일반적으로 활동에서 모델을 만드는 데 걸리는 시간은 선택한 활동 위치에 대한 트래픽과 활동 성공 지표에 따라 다릅니다. [트래픽 견적 도구](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator)를 사용하여 활동에서 모델을 만드는 데 걸리는 예상 시간을 결정합니다.
 
 +++
 

@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6c83bb52aabc3441ee9c8caf02988dc5c227d837
+source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 47%
+source-wordcount: '1004'
+ht-degree: 40%
 ---
 # 클릭 추적 {#click-tracking}
 
@@ -42,15 +42,15 @@ ht-degree: 47%
 >
 >클릭 추적이 양식 기반 활동에서 위치로 사용되는 경우 전역 [!DNL Target] 요청에서 지원되지 않습니다.
 
-* [클릭 추적 설정](#section_5540C5A533114E57BAE022A600B02E72)
-* [선택한 요소 패널](#selected-elements)
-* [고려 사항](#considerations): 요소 선택, 클릭 수 계산 방법, Analytics 및 at.js, 제한
-
 ## 클릭 추적 설정 {#section_5540C5A533114E57BAE022A600B02E72}
+
+클릭 추적은 전환 성공 지표의 한 유형입니다. 선택한 페이지 요소에서 활동 참여자가 수행하는 클릭 수를 계산하므로 방문자가 이러한 요소와 어떻게 상호 작용하는지 측정할 수 있습니다. 링크, 버튼 또는 이미지와 같은 페이지의 모든 요소를 추적할 수 있습니다.
 
 1. 활동에 대한 **[!UICONTROL 목표 및 설정]** 페이지에서 목표를 설정할 때 **[!UICONTROL 전환]** 성공 지표를 선택하십시오.
 
 1. 작업에 대해 **[!UICONTROL 요소를 클릭함]**&#x200B;을 선택한 후 **[!UICONTROL 요소]** 선택을 클릭합니다.
+
+   ![선택한 요소](../assets/click-tracking-1.png)
 
    페이지가 VEC(**[!UICONTROL 시각적 경험 작성기]**)에서 열립니다.
 
@@ -60,15 +60,19 @@ ht-degree: 47%
 
 1. 화면 상단의 **[!UICONTROL 완료]**&#x200B;를 클릭하여 선택 내용을 저장합니다.
 
+   **[!UICONTROL 목표 및 설정]** 페이지의 목표 지표에는 선택한 요소의 수가 표시됩니다. 마우스를 위에 놓아 요소를 확인합니다.
+
+   ![선택한 요소](../assets/click-tracking-2.png)
+
 활동 참여자가 선택된 요소를 클릭하면 해당 클릭이 전환으로 카운트됩니다.
 
 ## 선택한 요소 패널 {#selected-elements}
 
 **[!UICONTROL A/B 테스트]**, **[!UICONTROL 경험 타깃팅]**(XT), **[!UICONTROL Automated Personalization]**(AP) 및 **[!UICONTROL 다변량 테스트]**(MVT) 활동의 경우 **[!UICONTROL 선택한 요소]** 패널에 왼쪽의 클릭 추적에 대해 선택한 요소가 나열됩니다.
 
-![선택한 요소 패널](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
+![선택한 요소 패널](../assets/click-tracking-3.png)
 
-**[!UICONTROL 추적된 구성 요소]** 패널에서 요소를 클릭할 때 적용할 수 있는 몇 가지 작업이 있습니다. 다음 테이블에서는 요소에 대해 수행할 수 있는 각 작업을 설명합니다.
+**[!UICONTROL 선택한 요소]** 패널에서 요소를 클릭할 때 적용할 수 있는 몇 가지 작업이 있습니다. 다음 테이블에서는 요소에 대해 수행할 수 있는 각 작업을 설명합니다.
 
 | 액션 | 설명 |
 | --- | --- |
@@ -80,19 +84,17 @@ ht-degree: 47%
 
 선택기의 DOM 경로를 이미 알고 있는 경우 패널 위쪽에 있는 **[!UICONTROL 구성 요소 추가]** 아이콘을 클릭하여 수동으로 추가할 수 있습니다.
 
-![구성 요소 추가 아이콘](/help/main/c-activities/r-success-metrics/assets/add-element.png)
+![구성 요소 추가 아이콘](../assets/click-tracking-4.png)
 
 ## 고려 사항 {#considerations}
 
-클릭 추적을 설정할 때 다음 사항을 고려하십시오.
-
 ### 요소 선택
 
-* DOM 경로 기능은 클릭 추적을 설정할 때 사용할 수 있습니다. 페이지에서 요소를 클릭하면 VEC 옵션 메뉴가 표시됩니다. 또한 해당 DOM 경로가 페이지 하단에 표시됩니다. DOM 경로를 사용하여 선택한 요소(유형, ID 및 클래스)에 대한 정보를 빠르게 확인하고, DOM 경로로 위 또는 아래로 이동하여 원하는 요소를 선택할 수 있습니다.
+* 요소를 클릭하면 VEC 옵션 메뉴가 표시되고, 요소의 DOM 경로가 페이지 하단에 표시됩니다. DOM 경로를 사용하여 요소(유형, ID 및 클래스)에 대한 정보를 보고 경로를 위나 아래로 이동하여 원하는 요소를 선택합니다.
 
-  활동 만들기 워크플로의 1단계에서 경험을 만들 때와 마찬가지로 페이지 하단에 있는 DOM 경로 선택기를 사용하여 요소를 선택할 수 있습니다. DOM 경로에서 요소를 선택할 때 VEC에서 해당 요소가 &quot;선택됨&quot;으로 표시됩니다. 선택한 요소를 선택 취소하려면 DOM 경로 선택기에서 요소를 다시 클릭하거나 VEC 내에서 &quot;선택됨&quot; 상자를 클릭할 수 있습니다.
+  DOM 경로에서 선택한 요소는 VEC에서 **[!UICONTROL Selected]**&#x200B;로 표시됩니다. 선택을 취소하려면 DOM 경로에서 다시 클릭하거나 VEC에서 **[!UICONTROL 선택됨]** 상자를 클릭합니다.
 
-  ![DOM 경로 선택기](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+  ![DOM 경로 선택기](../assets/click-tracking-5.png)
 
   자세한 내용은 *시각적 경험 작성기 선택 사항*&#x200B;에서 [DOM 경로를 사용하여 요소 탐색](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)을 참조하십시오.
 
@@ -100,10 +102,6 @@ ht-degree: 47%
 * 추적할 요소의 수준을 선택해야 합니다. 예를 들어, 단추를 지정할 때 단추 텍스트가 아닌 링크를 선택해야 합니다.
 * 둘 이상의 요소를 선택하는 경우 참여자가 선택된 요소 중 하나를 클릭하면 해당 클릭은 카운트됩니다. 각 항목을 별도로 카운트하려면 각 요소에 대해 개별 성공 지표를 설정하십시오. 페이지에서 여러 요소를 클릭하여 한 항목을 계산하려면 CSS 요소 선택기를 여러 요소와 일치하도록 편집합니다.
 * 단일 페이지 애플리케이션(SPA)의 **[!UICONTROL Automated Personalization]**(AP) 및 자동 타겟 활동의 경우 특정 [!DNL Target] 보기에 속하는 클릭 추적에 대한 요소를 선택할 수 있습니다. 보기에 대한 자세한 내용은 [Adobe Target 보기 및 단일 페이지 응용 프로그램](/help/main/c-experiences/spa-visual-experience-composer.md)을 참조하십시오.
-
-**[!UICONTROL 완료]**&#x200B;를 클릭하면 선택한 요소의 수가 **[!UICONTROL 목표 및 설정]** 페이지의 목표 지표에 표시됩니다. 마우스로 가리키면 선택한 요소가 표시됩니다.
-
-![선택한 요소](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ### 클릭 수를 계산하는 방법
 
@@ -152,4 +150,4 @@ ht-degree: 47%
 * **[!UICONTROL 전환]**, **[!UICONTROL 매출]** 및 **[!UICONTROL 참여]** 지표 이해 및 빌드
 * 클릭 추적 지표 빌드
 
->[!VIDEO](https://video.tv.adobe.com/v/3507820?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)

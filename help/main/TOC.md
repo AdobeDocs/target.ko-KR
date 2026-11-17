@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱, 소셜 채널에서 고객 경험을 개인화하여 수익을 증대시키는 방법에 대해 알아봅니다.
 feature-set: Target
-source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
+source-git-commit: 4c4ef48f9849069a6a525d167bc42c933fd0b156
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 84%
+source-wordcount: '1285'
+ht-degree: 83%
 ---
 
 # Adobe Target 비즈니스 실무자 안내서 {#using}
@@ -142,7 +142,7 @@ ht-degree: 84%
     + [자동 할당 개요](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
     + [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
     + [자동 할당 보고서 해석](c-activities/automated-traffic-allocation/determine-winner.md)
-    + [자동 할당을 통해 수동 테스트보다 더 빠른 테스트 결과와 더 높은 매출을 얻을 수 있음](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+    + [자동 할당이 수동 테스트를 능가하는 방법](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
   + 자동 타겟 {#auto-target}
     + [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
     + [자동 타겟 활동 만들기](/help/main/c-activities/auto-target/create-auto-target.md)
