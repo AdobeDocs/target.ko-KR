@@ -129,7 +129,7 @@ ht-degree: 77%
 
 ## 글로벌 mbox
 
-* [글로벌 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [글로벌 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=ko)
 
 ## 호스트/환경
 
@@ -141,12 +141,12 @@ ht-degree: 77%
 
 ### 일반 구현
 
-* [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko)
 * [Target에서 클라우드 기반 인스턴스 사용](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### 글로벌 mbox
 
-* [글로벌 mbox FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [글로벌 mbox FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=ko)
 
 ### at.js
 
@@ -157,7 +157,7 @@ ht-degree: 77%
 
 ## 모바일 앱
 
-* [모바일 앱을 위한 Target FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [모바일 앱을 위한 Target FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=ko)
 
 ## 보고
 
@@ -166,7 +166,7 @@ ht-degree: 77%
 
 ## SEO(검색 엔진 최적화)
 
-* [SEO(검색 엔진 최적화) 친화도 테스트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [SEO(검색 엔진 최적화) 친화도 테스트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko)
 
 ## 보안
 
