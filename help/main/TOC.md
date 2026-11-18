@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱, 소셜 채널에서 고객 경험을 개인화하여 수익을 증대시키는 방법에 대해 알아봅니다.
 feature-set: Target
-source-git-commit: 13fd7f8c92c5d8202d0e81518300fcc7e1fd1444
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 71%
 ---
 
@@ -124,6 +124,8 @@ ht-degree: 71%
   + [Insights 대시보드](c-activities/insights-dashboard.md)
   + [샘플 크기 계산기](c-activities/sample-size-calculator.md)
   + [Target 활동 유형](c-activities/target-activities-guide.md)
+  + [활동 편집](c-activities/edit-activity.md)
+  + [우선순위](c-activities/priority.md)
   + A/B 테스트 {#abtest}
     + [A/B 테스트 시작](c-activities/t-test-ab/test-ab.md)
     + [A/B 테스트를 얼마 동안 실행해야 합니까?](c-activities/t-test-ab/sample-size-determination.md)
@@ -176,10 +178,6 @@ ht-degree: 71%
       + [다변량 테스트에 대한 경험 미리보기](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [성공적인 테스트에 필요한 트래픽 예측](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [테스트 요약](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-  + [권장 사항 활동](c-activities/recommendations-activity.md)
-  + [활동 편집](c-activities/edit-activity.md)
-  + [우선순위](c-activities/priority.md)
-  + [활동 설정](c-activities/activity-settings.md)
   + 성공 지표 {#success-metrics}
     + [성공 지표](c-activities/r-success-metrics/success-metrics.md)
     + [클릭 추적](c-activities/r-success-metrics/click-tracking.md)

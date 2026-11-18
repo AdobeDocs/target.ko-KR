@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -194,14 +194,14 @@ ht-degree: 48%
 **[!UICONTROL 타깃팅] 단계만 변경하고, 안내가 있는 전체 3단계 워크플로(편집용)는 거치지 않을 수 있습니까?**
 
 +++세부 정보 보기
-[직접 [!UICONTROL 활동 개요] 페이지](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)에서 원하는 단계를 입력한 다음 [!UICONTROL 저장 및 닫기] 옵션을 사용하여 해당 단계를 종료하여 쉽게 수행할 수 있습니다.
+[직접 [!UICONTROL 활동 개요] 페이지](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C)에서 원하는 단계를 입력한 다음 [!UICONTROL 저장 및 닫기] 옵션을 사용하여 해당 단계를 종료하여 쉽게 수행할 수 있습니다.
 
 +++
 
 **특정 단계를 유지하면서 활동(예: 오퍼 텍스트 또는 사용자 지정 코드)을 계속 수정한 후 다른 탭에서 QA를 수행할 수 있습니까?**
 
 +++세부 정보 보기
-가능합니다. [사용할 수 있는 [!UICONTROL 저장] 옵션을 사용하면 &#x200B;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다.
+가능합니다. [사용할 수 있는 [!UICONTROL 저장] 옵션을 사용하면 &#x200B;](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174) 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다.
 
 +++
 
@@ -378,7 +378,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **원하는 오퍼/경험이 표시되지 않고 대신 다른 활동이 표시되는 이유는 무엇입니까?**
 
 +++세부 정보 보기
-[디버거](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) 를 사용하고 [활동 충돌](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)이 있는지 확인하십시오.
+[디버거](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) 를 사용하고 [활동 충돌](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)이 있는지 확인하십시오.
 
 +++
 
@@ -402,7 +402,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **원하는 오퍼/경험이 표시되지 않고 대신 다른 활동이 표시되는 이유는 무엇입니까?**
 
 +++세부 정보 보기
-[디버거](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) 를 사용하고 [활동 충돌](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)이 있는지 확인하십시오.
+[디버거](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) 를 사용하고 [활동 충돌](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)이 있는지 확인하십시오.
 
 +++
 

@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 28%
@@ -64,7 +64,7 @@ ht-degree: 28%
 
      이 설정을 &quot;끔&quot;으로 전환하는 경우, 다음을 고려하십시오.
 
-     * 테스트 중인 활동과 다른 라이브 활동 간에 충돌이 있으면 [일반 우선 순위 규칙](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)이 적용됩니다. 충돌 때문에 QA하려는 활동을 볼 수 없을 수도 있습니다.
+     * 테스트 중인 활동과 다른 라이브 활동 간에 충돌이 있으면 [일반 우선 순위 규칙](/help/main/c-activities/priority.md#priority)이 적용됩니다. 충돌 때문에 QA하려는 활동을 볼 수 없을 수도 있습니다.
      * 표시된 활동에 대한 지표 증가가 QA 보고 환경에서만 발생합니다.
 
 1. **[!UICONTROL 완료]**&#x200B;를 클릭하여 변경 내용을 저장합니다.

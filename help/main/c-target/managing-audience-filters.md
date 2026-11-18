@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 59%
@@ -58,5 +58,5 @@ ht-degree: 59%
 | 적절한 활동 또는 테스트 만들기 | [활동 및 테스트](/help/main/c-intro/target-key-concepts.md) |
 | 필요한 경우 대상자 만들기 | [대상자 만들기](/help/main/c-target/c-audiences/create-audience.md) |
 | 필요한 경우 여러 대상자 결합 | [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md) |
-| 활동의 목표 및 설정 페이지에서 대상자 적용 | A/B 테스트: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>경험 타깃팅: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>다변량 테스트: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>권장 사항: [권장 사항 활동 설정](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>활동 설정: [활동 설정](/help/main/c-activities/activity-settings.md) |
+| 활동의 목표 및 설정 페이지에서 대상자 적용 | A/B 테스트: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>경험 타깃팅: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>다변량 테스트: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>권장 사항: [권장 사항 활동 설정](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>활동 설정: [활동 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) |
 | 대상자 필터에 대한 정보가 있는 보고서 보기 | [보고서 설정](/help/main/c-reports/c-report-settings/report-settings.md) |
