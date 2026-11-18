@@ -85,7 +85,7 @@ ht-degree: 30%
 
 * **[위치 기여도 보고서](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)**&#x200B;를 자주 사용하여 각 위치와 오퍼의 성능을 모니터링합니다.
 
-* **경험 성과 보고서](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)에서 [!UICONTROL 최고 성과 보고서] 및 [!UICONTROL 최저 성과 보고서] 필터를 사용하여 표시되는 데이터를 결정합니다.**[
+* **경험 성과 보고서[&#128279;](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)에서 [!UICONTROL 최고 성과 보고서] 및 [!UICONTROL 최저 성과 보고서] 필터를 사용하여 표시되는 데이터를 결정합니다.**
 
   **[!UICONTROL 모두]** 필터를 사용하면 원하는 정보를 추출하기 어려우며 일부 경험은 그래프에 표시되지 않을 수 있습니다. 성과가 가장 높은 경험 5개 또는 가장 낮은 경험 5개에 포함되지 않은 특정 경험을 확인하려는 경우에는 **[!UICONTROL 모두]** 필터를 사용하십시오.
 

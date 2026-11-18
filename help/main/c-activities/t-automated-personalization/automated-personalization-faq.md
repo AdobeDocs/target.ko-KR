@@ -1,6 +1,6 @@
 ---
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;자동화된 개인화;제어;기본 경험;우수 사례
-description: '[!UICONTROL Adobe Target]의 [!UICONTROL Automated Personalization](AP) 활동에 대한 FAQ 및 답변 목록을 살펴보십시오.'
+description: '[!UICONTROL Adobe Target]의 [!UICONTROL Automated Personalization] (AP) 활동에 대한 FAQ 및 답변 목록을 살펴보십시오.'
 title: '[!UICONTROL Automated Personalization] 활동에 대한 FAQ를 찾으려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
@@ -50,7 +50,7 @@ ht-degree: 6%
 +++ [!UICONTROL Automated Personalization] 활동을 설정하는 모범 사례는 무엇입니까?
 
 * 총 경험 수에 주의하지 말고 *활동 모양*(위치 수 × 오퍼 수)에 주의하십시오. 위치와 오퍼의 데카르트 조합은 원시 경험 수보다 작성 시간 성능에 더 영향을 줍니다. 최적의 성능과 관리 용이성을 위해 &quot;Automated Personalization의 제한은 무엇입니까?&quot;라는 질문에 설명된 대로 **[!UICONTROL Automated Personalization]** 및 **[!UICONTROL 자동 타겟]** 활동을 위치당 4-6개의 오퍼가 있는 4-6개의 위치로 제한합니다. 이 섹션에서 참조할 수 있습니다. 더 큰 구성은 권장되지 않으며 **[!UICONTROL 시각적 경험 작성기]**&#x200B;에서 로드 또는 편집이 느려질 수 있습니다.
-* 낮은 트래픽의 페이지를 개인화하거나 개인화하는 경험에 대한 구조를 변경하려면 **[!UICONTROL Automated Personalization]** 대신 [**[!UICONTROL 자동 타겟&#x200B;]**활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 사용하는 것이 좋습니다.
+* 낮은 트래픽의 페이지를 개인화하거나 개인화하는 경험에 대한 구조를 변경하려면 **[!UICONTROL Automated Personalization]** 대신 [**[!UICONTROL 자동 타겟&#x200B;]**&#x200B;활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 사용하는 것이 좋습니다.
 * **[!UICONTROL Automated Personalization]** 활동에 사용할 오퍼와 위치 간에 **[!UICONTROL A/B 테스트]** 활동을 실행하여 위치 및 오퍼가 최적화 목표에 영향을 주는지 확인해 보십시오. **[!UICONTROL A/B 테스트]** 활동이 상당한 차이를 보이지 않는 경우 **[!UICONTROL Automated Personalization]**&#x200B;도 향상되지 않을 수 있습니다.
 
   A/B...N 테스트에서 경험 간에 통계적으로 중요한 차이가 없는 경우 다음 상황 중 하나 이상이 원인일 수 있습니다.

@@ -1,6 +1,6 @@
 ---
 keywords: A4T;Analytics;Analytics for Target;Analytics 보고 소스;Target용 보고 소스로서의 Adobe Analytics;atjs;at.js;Adobe Experience Platform Web SDK;Platform Web SDK;Platform SDK
-description: '[!DNL Target](A4T)용 [!DNL Analytics]을(를) 사용하여 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 하는 활동을 만들고 [!DNL Analytics] 보고서를 사용하여 결과를 검사하십시오.'
+description: '[!DNL Target] (A4T)용 [!DNL Analytics]을(를) 사용하여 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 하는 활동을 만들고 [!DNL Analytics] 보고서를 사용하여 결과를 검사하십시오.'
 title: '[!DNL Target]에 대한 [!DNL Analytics]은(는) 무엇입니까(A4T)?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133

@@ -1,6 +1,6 @@
 ---
 keywords: 경험;제어;자동화된 개인화;자동 타겟
-description: '[!DNL Adobe Target]에서 [!UICONTROL Automated Personalization](AP) 또는 [!UICONTROL 자동 타겟] 활동을 만드는 동안 컨트롤로 사용할 환경을 선택하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]에서 [!UICONTROL Automated Personalization] (AP) 또는 [!UICONTROL 자동 타겟] 활동을 만드는 동안 컨트롤로 사용할 환경을 선택하는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 특정 환경을 제어로 사용하려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization, Auto-Target
@@ -79,7 +79,7 @@ AP([**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automa
 
 특정 경험을 제어로 지정하면 개인화된 트래픽에 현재 기본 경험과 같이 활동의 보고서에서 비교할 알려진 경험을 제공합니다.
 
-1. [**[!UICONTROL Automated Personalization ]**활동](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) 또는 [**[!UICONTROL 자동 타겟]** 활동](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity)을 만들거나 편집하는 동안 필요에 따라 경험을 구성하십시오.
+1. [**[!UICONTROL Automated Personalization &#x200B;]**&#x200B;활동](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) 또는 [**[!UICONTROL 자동 타겟]** 활동](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity)을 만들거나 편집하는 동안 필요에 따라 경험을 구성하십시오.
 
 1. **[!UICONTROL 타깃팅]** 페이지(3단계 안내 워크플로의 2단계)에서 제어 환경을 클릭하여 오른쪽 창에 **[!UICONTROL 제어]** 옵션을 표시합니다.
 

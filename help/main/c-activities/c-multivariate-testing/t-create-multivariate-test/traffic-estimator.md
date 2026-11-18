@@ -1,7 +1,7 @@
 ---
 keywords: 트래픽 예상;트래픽 견적 도구;예상;트래픽;신뢰도;통계적 검정력;상승도;bonferroni;전환율;일별 방문자 수;기간
 description: '[!DNL Adobe Target] [!UICONTROL 다변량 테스트] 활동을 성공적으로 수행할 수 있는 트래픽이 충분한지 확인할 수 있는 트래픽 견적 도구를 사용하는 방법을 알아봅니다.'
-title: '[!UICONTROL 다변량 테스트](MVT) 활동에 필요한 트래픽은 얼마입니까?'
+title: '[!UICONTROL 다변량 테스트] (MVT) 활동에 필요한 트래픽은 얼마입니까?'
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 TQID: 'https://experienceleague.adobe.com/XHBXV7Jtvp87ve4NTd-016E2dFkHTbPu-8-nY8GE-VM'

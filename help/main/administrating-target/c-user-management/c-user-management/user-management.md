@@ -48,7 +48,7 @@ ht-degree: 57%
 >
 >[!DNL Target] UI 상단의 [!UICONTROL 관리] 링크를 클릭하여 조직에 [!UICONTROL Standard] 또는 [!UICONTROL Premium] 라이선스가 있는지 여부를 알 수 있습니다.
 >
->* **[!DNL Target][!UICONTROL Standard] 고객**: [!UICONTROL 사용자] 탭([!UICONTROL 관리 > 사용자])이 표시되고 **[!UICONTROL 속성]** 탭이 표시되지 않는 경우 조직에 [!DNL Target] [!UICONTROL Standard] 라이선스가 있습니다. [!DNL Target] [!UICONTROL Standard] 고객은 이 문서의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
+>* **[!DNL Target]&#x200B;[!UICONTROL Standard] 고객**: [!UICONTROL 사용자] 탭([!UICONTROL 관리 > 사용자])이 표시되고 **[!UICONTROL 속성]** 탭이 표시되지 않는 경우 조직에 [!DNL Target] [!UICONTROL Standard] 라이선스가 있습니다. [!DNL Target] [!UICONTROL Standard] 고객은 이 문서의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
 >
 >* **[!DNL Target]Premium 고객**: [!UICONTROL 사용자] 탭과 [!UICONTROL 속성] 탭([!UICONTROL 관리 > 속성])이 표시된다면 조직에 [!DNL Target] Premium 라이선스가 있습니다. [!DNL Target] Premium 고객은 [엔터프라이즈 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 및 [엔터프라이즈 권한 구성](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
 >
