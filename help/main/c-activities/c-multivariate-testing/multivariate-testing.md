@@ -97,7 +97,7 @@ ht-degree: 24%
 * 목표를 달성하기 위해 적절한 활동 유형을 선택합니다.
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로우에 대해 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
 
 ### 다변량 테스트 만들기(9:25) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
@@ -106,4 +106,4 @@ ht-degree: 24%
 * 다변량 테스트를 정의하고 디자인합니다.
 * 다변량 테스트를 만듭니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)
