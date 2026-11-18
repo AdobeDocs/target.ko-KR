@@ -1,8 +1,8 @@
 ---
-source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 7%
+source-wordcount: '323'
+ht-degree: 6%
 ---
 # 스니펫
 
@@ -40,3 +40,6 @@ ht-degree: 7%
 
 활동 이름은 `=`, `+`, `-` 또는 `@`(으)로 시작할 수 없습니다. 활동 이름에는 문자 시퀀스 `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["` 또는 `"]`도 포함될 수 없습니다.
 
+## 활동에 대한 방문자 일치 {#visitor-matching}
+
+이미 **[!UICONTROL A/B 테스트]** 또는 **[!UICONTROL 다변량 테스트]** 활동에 있는 방문자는 전환될 때까지 해당 활동에 일치합니다. 이전에 **[!UICONTROL 경험 타깃팅]** 활동에 있었던 방문자는 다시 일치해야 합니다. 방문자가 대상 규칙을 충족하면 해당 활동 및 특정 경험에 속하게 됩니다.

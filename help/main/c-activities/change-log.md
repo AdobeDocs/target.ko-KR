@@ -18,28 +18,35 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 12%
+source-wordcount: '220'
+ht-degree: 10%
 ---
-# 활동 변경 로그
+# 활동 변경 로그 {#change-log}
 
-[!DNL Adobe Target] [!UICONTROL 변경 로그]는 변경 내용, 변경한 사람, 변경한 시간 등 활동 작업을 기록합니다. [!UICONTROL 변경 로그] 페이지가 실시간 인사이트에 대해 채워집니다.
+>[!BEGINSHADEBOX]
 
-[!UICONTROL 로그 변경] 페이지에 액세스하려면:
+**이 페이지에서:** 활동에서 수행한 작업을 보는 방법, 수행한 사람 및 시기에 대해 알아봅니다.
 
-1. **[!UICONTROL 활동]** > 목록에서 원하는 활동을 클릭합니다.
-1. 왼쪽 레일에서 **[!UICONTROL 변경 로그]**&#x200B;를 클릭합니다.
+>[!ENDSHADEBOX]
 
-수행된 작업, 작업이 수행된 날짜 및 작업을 수행한 사용자가 활동이 생성, 업데이트, 활성화 또는 비활성화될 때마다 나열됩니다. 활동에서 사용된 사용자 지정 타겟 및 오퍼의 변경 사항도 나열됩니다.
+[!DNL Adobe Target] **[!UICONTROL 변경 로그]**&#x200B;는 변경 내용, 변경한 사람, 변경한 시간 등 활동에서 수행한 작업을 기록합니다. 활동의 명확한 내역을 제공하며 **[!UICONTROL 변경 로그]** 페이지가 실시간 인사이트에 대해 채워집니다.
 
-페이지를 새로 고침하여 상태 변경 사항을 확인합니다. [!UICONTROL 날짜] 열 머리글을 클릭하여 수행한 작업을 오름차순 또는 내림차순으로 나열할 수도 있습니다.
+**[!UICONTROL 로그 변경]** 페이지에 액세스하려면:
+
+1. **[!UICONTROL 활동]**&#x200B;을 클릭한 다음 목록에서 활동을 클릭합니다.
+1. 왼쪽 레일에서 **[!UICONTROL 로그 변경]**&#x200B;을 클릭합니다.
+
+   페이지에는 활동이 생성, 업데이트, 활성화 또는 비활성화될 때마다 수행된 작업, 작업 날짜 및 작업을 수행한 사용자가 나열됩니다. 활동에서 사용된 사용자 지정 타겟 및 오퍼의 변경 사항도 나열됩니다.
+
+   ![로그 메뉴 변경](assets/change_logs.png)
+
+1. 작업을 오름차순 또는 내림차순으로 나열하려면 **[!UICONTROL 날짜]** 열 머리글을 클릭합니다.
+
+1. 페이지를 새로 고침하여 상태 변경 사항을 확인합니다.
 
 ## Target 감사 로그 API
 
 * [수정 버전: 마지막 작성자 이름 및 수정 후 타임스탬프로 감사 로그 가져오기](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
 * [목록 활동 변경 로그](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
-
-
-
