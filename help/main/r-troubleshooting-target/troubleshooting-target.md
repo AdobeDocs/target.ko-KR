@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 77%
@@ -82,7 +82,7 @@ ht-degree: 77%
 ### 다변량 테스트 (MVT)
 
 * [다변량 테스트 모범 사례](/help/main/c-activities/c-multivariate-testing/best-practices.md)
-* [다변량 테스트 문제 해결](/help/main/c-activities/c-multivariate-testing/best-practices.md)
+* [다변량 테스트 문제 해결](/help/main/c-activities/c-multivariate-testing/best-practices.md#follow-up)
 * [성공적인 테스트에 필요한 트래픽 예측](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
 ### 추천

@@ -30,12 +30,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 28%
+source-wordcount: '1027'
+ht-degree: 27%
 ---
-# [!UICONTROL Personalization 통찰력] 보고서
+# [!UICONTROL Personalization 인사이트] 보고서 시작
 
 두 개의 전문 보고서는 [!UICONTROL AP(Automated Personalization]) 및 AT(Auto-Target) 활동인 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 특성] 보고서의 사용자가 사용할 수 있습니다.
 

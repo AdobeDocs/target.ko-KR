@@ -17,12 +17,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '977'
 ht-degree: 7%
 ---
-# 오퍼
+# 오퍼 시작
 
 [!DNL Adobe Target]의 [!UICONTROL 오퍼] 라이브러리를 사용하여 코드 및 이미지 오퍼를 효율적으로 관리하는 방법을 알아봅니다.
 

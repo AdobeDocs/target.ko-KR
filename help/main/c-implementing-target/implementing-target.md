@@ -1,9 +1,9 @@
 ---
 keywords: 구현;구현
-description: 기본 개념을 이해하고,  [!DNL Target] 작동 방식과 인프라에 통합하는 방법을 숙지하고, 방문자를 추적하는 방법을 이해합니다.
+description: 기본 개념을 이해하고, [!DNL Target]의 작동 방식과 인프라에 통합하는 방법을 숙지하고, 방문자를 추적하는 방법을 이해합니다.
 landing-page-description: Adobe Target 사용을 시작하기 전에 사이트에서 구현해야 합니다.
 short-description: Adobe Target 사용을 시작하기 전에 사이트에서 구현해야 합니다.
-title: ' [!DNL Target]을(를) 구현하려면 어떻게 합니까?'
+title: '[!DNL Target]을(를) 구현하는 방법'
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 210
-ht-degree: 11%
-
+source-wordcount: '213'
+ht-degree: 10%
 ---
-
-# Target 구현
+# [!DNL Target] 구현 시작
 
 [!DNL Adobe Target]을(를) 사용하기 전에 사이트에서 구현해야 합니다.
 

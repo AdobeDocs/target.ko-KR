@@ -1,7 +1,7 @@
 ---
 keywords: 사용자 추가;사용자 관리;사용자 권한
-description: ' [!DNL Adobe Target Standard]에서 [!DNL Adobe Admin Console] 을 사용하여 사용자와 사용자의 권한을 관리하는 방법을 알아봅니다.'
-title: ' [!DNL Target Standard] 계정에 대해 사용자를 추가하고 권한을 관리하려면 어떻게 해야 합니까?'
+description: '[!DNL Adobe Target Standard]에서 [!DNL Adobe Admin Console]을(를) 사용하여 사용자와 사용자의 권한 및 권한을 관리하는 방법에 대해 알아보세요.'
+title: '[!DNL Target Standard] 계정에 대한 사용자를 추가하고 권한을 관리하려면 어떻게 해야 합니까?'
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
@@ -33,14 +33,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 925
-ht-degree: 60%
-
+source-wordcount: '930'
+ht-degree: 57%
 ---
-
-# 사용자
+# 사용자 시작
 
 [!DNL Target Standard] 계정에 대해 [!DNL Adobe Admin Console]에서 사용자를 추가하고 사용자의 권한을 관리합니다.
 
@@ -133,8 +131,8 @@ ht-degree: 60%
 
 * Adobe Target 인터페이스에서 Adobe Admin Console에 액세스(3가지 방법)
 * Adobe Admin Console에서 작업 영역 구성
-   * 작업 영역에 사용자 추가
-   * 작업 영역에 속성 추가
+  * 작업 영역에 사용자 추가
+  * 작업 영역에 속성 추가
 * 기본 작업 영역 이해
 
 >[!NOTE]

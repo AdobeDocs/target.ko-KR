@@ -24,12 +24,12 @@ topic_v2:
     internal-label: Content and assets
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 36%
+source-wordcount: '412'
+ht-degree: 35%
 ---
-# AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요
+# AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 시작
 
 최적화 및 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager]&#x200B;(AEM)에서 만든 [!UICONTROL 경험 조각]&#x200B;(XF) 및 [!UICONTROL 콘텐츠 조각]&#x200B;(CF)을 사용합니다.
 

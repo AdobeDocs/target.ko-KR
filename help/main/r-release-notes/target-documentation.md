@@ -21,12 +21,12 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 84%
+source-wordcount: '514'
+ht-degree: 83%
 ---
-# [!DNL Target]설명서 및 리소스 개요
+# [!DNL Target] 설명서 및 리소스 시작
 
 [!DNL Adobe Target]설명서 및 리소스는 [!DNL Target] UI 사용 안내서, 개발자 정보(SDK 및 API 포함), 튜토리얼, 커뮤니티 포럼, 비디오 및 웨비나를 포함하여 다양한 형식으로 제공됩니다.
 

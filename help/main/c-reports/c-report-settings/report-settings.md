@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1934'
-ht-degree: 44%
+source-wordcount: '1937'
+ht-degree: 43%
 ---
-# 보고서 설정
+# 보고서 설정 시작
 
 [!DNL Adobe Target]에서 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
 

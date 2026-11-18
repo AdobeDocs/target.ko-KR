@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -124,13 +124,13 @@ Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 �
 
 [!UICONTROL 경험 타깃팅]&#x200B;(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다. 지리 기반의 타깃팅을 포함하여, XT는 특정 경험이나 콘텐츠를 특정 대상으로 타깃팅하는 규칙을 정의할 때 유용합니다. 활동에 여러 규칙을 설정하여 다른 대상자에게 다양한 콘텐츠 변형을 전달할 수 있습니다. 방문자가 사이트를 볼 때 XT는 방문자를 평가하여 기준을 총족하는지 여부를 판단합니다. 자격이 있는 경우 활동에 입장하여 자격을 갖춘 경험을 보게 됩니다. 단일 활동 내에서 여러 대상자에 대한 경험을 만들 수 있습니다.
 
-자세한 내용은 [Experience Targeting](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)을 참조하십시오.
+자세한 내용은 [Experience Targeting](/help/main/c-activities/t-experience-target/experience-target.md#get-started-xt)을 참조하십시오.
 
 ### [!UICONTROL 다변량 테스트] (MVT)
 
 [!UICONTROL Multivariate Testing]&#x200B;(MVT)은 페이지 요소의 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. MVT는 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
 
-자세한 내용은 [다변량 테스트](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)를 참조하십시오.
+자세한 내용은 [다변량 테스트](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt)를 참조하십시오.
 
 ### [!UICONTROL 추천]
 

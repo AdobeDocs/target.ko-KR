@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: aad553690f1f399177214c94a2276d038f46d9cb
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '929'
 ht-degree: 16%
 ---
 # 다변량 테스트 만들기 {#create-mvt}
@@ -34,6 +34,8 @@ ht-degree: 16%
 [!DNL Target] 가리키고 클릭 편집기를 사용하여 원하는 위치를 선택하고 여러 오퍼를 추가할 수 있습니다.
 
 **[!UICONTROL 다변량 테스트]**(MVT)는 페이지 우선 보고서를 사용합니다. 즉, 테스트가 해당 페이지에 대해 디자인한 경험을 사용하여 특정 URL에서 실행됩니다.
+
+테스트를 만들기 전에 [계획 권장 사항](/help/main/c-activities/c-multivariate-testing/best-practices.md#plan)을 검토하여 트래픽을 확인하고 테스트할 요소를 선택하고 콘텐츠를 준비하십시오.
 
 **[!UICONTROL 다변량 테스트]**(MVT)를 만들려면 아래 단계를 수행하십시오.
 
@@ -70,7 +72,7 @@ ht-degree: 16%
 
 각 위치에 오퍼를 추가하고, 결과 경험을 미리 보고, 테스트 계획이 실현 가능한지 확인하십시오.
 
-1. [각 위치에 오퍼를 만듭니다](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
+1. [각 위치에 오퍼를 만듭니다](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#create-combinations).
 
    다음과 같은 종류의 오퍼를 추가할 수 있습니다.
 
@@ -82,7 +84,7 @@ ht-degree: 16%
 
 1. **[!UICONTROL 경험 표시]** 아이콘( ![경험 표시 아이콘](/help/main/assets/icons/WebPages.svg) )을 클릭하여 왼쪽 프레임에 모든 경험 목록을 표시한 다음 목록에서 특정 경험을 클릭하여 해당 경험을 봅니다.
 
-1. [트래픽 견적 도구를 사용하여](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) 테스트 계획의 가능성을 테스트합니다.
+1. [트래픽 견적 도구를 사용하여](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#use-traffic-estimator) 테스트 계획의 가능성을 테스트합니다.
 
 ### 경험 제외 (선택 사항) {#exclude-experiences}
 
@@ -124,7 +126,7 @@ ht-degree: 16%
 
    +++
 
-1. [테스트 요약을 검토하고](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)원하는 대로 변경한 후 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. [테스트 요약을 검토하고](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#mvt-test-summary)원하는 대로 변경한 후 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
 ## 목표 및 설정 구성 {#configure-goals-and-settings}
 

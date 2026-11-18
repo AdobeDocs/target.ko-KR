@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1392'
 ht-degree: 23%
 ---
 # 보고 FAQ
@@ -136,7 +136,7 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 
 >[!NOTE]
 >
->[!UICONTROL AP(Automated Personalization]) 활동을 업데이트하고 제어 경험을 트래픽을 받는 경험으로 변경하는 방법에 대한 자세한 내용은 [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오.
+>[!UICONTROL AP(Automated Personalization]) 활동을 업데이트하고 제어 경험을 트래픽을 받는 경험으로 변경하는 방법에 대한 자세한 내용은 [제어 경험 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오.
 
 
 ## A/B 또는 MVT 활동에서 경험 간의 트래픽 분할이 불균일한 이유는 무엇입니까? {#uneven}

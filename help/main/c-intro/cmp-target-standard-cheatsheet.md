@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 174d4631b6f4a481c039bd7fff52a8e70161e19e
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -142,7 +142,7 @@ ht-degree: 48%
 **내 페이지에서의 성공에 기여하는 요소 조합과 각 요소가 도움이 되는 정도를 파악하려면 어떻게 해야 합니까?**
 
 +++세부 정보 보기
-요소 기여도 분석으로 [완전 요인 다변량(MVT) 활동](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) 을 확인하여 본인의 요구를 충족하는지 알아보십시오.
+요소 기여도 분석으로 [완전 요인 다변량(MVT) 활동](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt) 을 확인하여 본인의 요구를 충족하는지 알아보십시오.
 
 트래픽 요구는 MVT 활동에 따라 증가합니다.
 

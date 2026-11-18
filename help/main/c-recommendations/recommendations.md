@@ -26,12 +26,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '875'
 ht-degree: 88%
 ---
-# 추천
+# Recommendations 시작
 
 [!DNL Adobe Target Recommendations] 활동은 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자의 흥미를 끌 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시합니다. [!DNL Target Recommendations] 는 방문자가 모를 수 있는 관련 항목을 방문자에게 표시하는 데 도움이 됩니다. [!DNL Recommendations] 를 사용하면 방문자에게 적절한 시간과 장소에 관련 콘텐츠를 제공할 수 있습니다.
 

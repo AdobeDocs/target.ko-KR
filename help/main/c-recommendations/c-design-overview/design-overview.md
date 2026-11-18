@@ -17,12 +17,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 23%
+source-wordcount: '204'
+ht-degree: 22%
 ---
-# 디자인 개요
+# 디자인 시작
 
 [!DNL Adobe Target Recommendations]의 디자인은 페이지에 권장 사항이 표시되는 방식을 정의합니다. 디자인은 권장 사항의 레이아웃과 형식을 정의하여 방문자 참여, 전환 및 매출을 향상시킵니다.
 

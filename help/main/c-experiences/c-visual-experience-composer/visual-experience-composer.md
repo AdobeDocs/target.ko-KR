@@ -18,12 +18,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '892'
 ht-degree: 0%
 ---
-# [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)
+# [!UICONTROL 시각적 경험 작성기] 시작
 
 [!DNL Adobe Target]의 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)는 코드를 편집하지 않고 웹 사이트 및 모바일 웹 페이지에서 직접 개인화된 경험을 만들고 테스트하기 위한 WYSIWYG 편집기입니다.
 
