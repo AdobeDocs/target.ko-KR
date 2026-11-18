@@ -1,7 +1,7 @@
 ---
 keywords: aem;experience manager;adobe experience manager;통합;통합 기능;경험 조각;콘텐츠 조각
 description: '[!DNL Adobe Target] 활동에서 [!DNL Adobe Experience Manager]개의 경험 및 콘텐츠 조각을 사용하는 방법을 알아봅니다.'
-title: '[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]을 사용하려면 어떻게 해야 합니까?'
+title: '[!DNL Adobe Experience Manager](AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]을 사용하려면 어떻게 해야 합니까?'
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 TQID: https://experienceleague.adobe.com/OlgveSjoE0rh1orFsbEZVCSbjd3TKEk8fdBbbXtLxhA
@@ -24,12 +24,12 @@ topic_v2:
     internal-label: Content and assets
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 36%
+source-wordcount: '412'
+ht-degree: 35%
 ---
-# AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요
+# AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 시작
 
 최적화 및 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager]&#x200B;(AEM)에서 만든 [!UICONTROL 경험 조각]&#x200B;(XF) 및 [!UICONTROL 콘텐츠 조각]&#x200B;(CF)을 사용합니다.
 
@@ -65,4 +65,4 @@ ht-degree: 36%
 
 [!DNL Adobe Experience Manager] [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]은(는) 표면적으로는 비슷해 보일 수 있지만 각 조각 유형은 다른 사용 사례에서 주요 역할을 합니다.
 
-[!UICONTROL 경험 조각]과(와) [!UICONTROL 콘텐츠 조각]의 유사성, 차이성, 사용 시기 및 방법에 대한 자세한 내용은 [AEM Sites 비디오 및 자습서 안내서](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=ko){target=_blank}의 [콘텐츠 조각 이해] 및 [[!UICONTROL 경험 조각]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=ko){target=_blank}을(를) 참조하십시오.
+[!UICONTROL 경험 조각]과(와) [!UICONTROL 콘텐츠 조각]의 유사성, 차이성, 사용 시기 및 방법에 대한 자세한 내용은 [AEM Sites 비디오 및 자습서 안내서](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}의 [콘텐츠 조각 이해] 및 [!UICONTROL 경험 조각]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}을(를) 참조하십시오.[!UICONTROL 

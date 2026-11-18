@@ -1,8 +1,8 @@
 ---
 keywords: 자동화된 개인화;ap;대상;앙상블;랜덤 포레스트;multi-armed bandit;thompson 샘플링;ml;머신 러닝
-description: 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시키는 [!DNL Adobe Target]의 [!UICONTROL Automated Personalization] (AP) 활동을 사용하는 방법에 대해 알아봅니다.
+description: 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시키는 [!DNL Adobe Target]의 [!UICONTROL Automated Personalization](AP) 활동을 사용하는 방법에 대해 알아봅니다.
 title: AP([!UICONTROL Automated Personalization]) 활동이란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
@@ -38,12 +38,12 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '908'
 ht-degree: 15%
 ---
-# [!UICONTROL Automated Personalization] (AP) {#automated-personalization-overview}
+# [!UICONTROL Automated Personalization] 시작 {#automated-personalization-overview}
 
 >[!BEGINSHADEBOX]
 
@@ -83,7 +83,7 @@ ht-degree: 15%
 | **방문자 행동 변화에 적응** | Multi-armed bandit 는 항상 작은 부분의 트래픽을 사용하여 활동 기간 동안 계속 학습하고 이전에 학습한 트렌드의 과도한 사용을 방지합니다. 기본 모델은 최신 방문자 동작 데이터를 사용하여 24시간마다 재구축됩니다. 알고리즘이 개별 방문자에 대한 우승 경험을 결정할 수 없는 경우 개인화된 우승자를 계속 찾는 동안 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 사용하여 찾은 전반적인 최상의 성과를 보여줍니다. |
 | **목표 지표** | 이 모델은 전환 기반 또는 매출 기반(특히 **[!UICONTROL 방문당 매출]**)일 수 있는 단일 목표 지표를 지속적으로 최적화합니다. |
 | **데이터 및 대상** | [!DNL Target]은(는) 방문자에 대한 정보를 자동으로 수집하여 개인화 모델을 만듭니다. **[!UICONTROL 자동 타겟]** 및 **[!UICONTROL Automated Personalization]**&#x200B;에서 사용되는 특성에 대한 자세한 내용은 [Automated Personalization 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하세요. [!DNL Target]은(는) 또한 모든 [!DNL Adobe Experience Cloud]개의 공유 대상을 자동으로 사용하므로 모델에 대상을 추가하기 위해 특별한 작업을 수행할 필요가 없습니다. 자세한 내용은 [Experience Cloud 대상](/help/main/c-integrating-target-with-mac/mmp.md)을 참조하십시오. |
-| **사용자 지정 데이터** | 마케터는 CRM 정보나 고객 이탈 성향 점수와 같은 오프라인 데이터 또는 기타 사용자 지정 데이터를 업로드하여 개인화 모델을 만들 수 있습니다. 데이터는 [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}, [프로필 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank} 또는 [프로필 업데이트를 위한 서버측 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}를 사용하여 입력할 수 있습니다. |
+| **사용자 지정 데이터** | 마케터는 CRM 정보나 고객 이탈 성향 점수와 같은 오프라인 데이터 또는 기타 사용자 지정 데이터를 업로드하여 개인화 모델을 만들 수 있습니다. 데이터는 [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}, [프로필 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} 또는 [프로필 업데이트를 위한 서버측 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}를 사용하여 입력할 수 있습니다. |
 
 ## 교육 비디오: 활동 유형 {#training-video}
 
@@ -93,4 +93,4 @@ ht-degree: 15%
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

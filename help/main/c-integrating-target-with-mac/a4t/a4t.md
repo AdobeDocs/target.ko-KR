@@ -1,6 +1,6 @@
 ---
 keywords: A4T;Analytics;Analytics for Target;Analytics 보고 소스;Target용 보고 소스로서의 Adobe Analytics;atjs;at.js;Adobe Experience Platform Web SDK;Platform Web SDK;Platform SDK
-description: '[!DNL Target] (A4T)용 [!DNL Analytics]을(를) 사용하여 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 하는 활동을 만들고 [!DNL Analytics] 보고서를 사용하여 결과를 검사하십시오.'
+description: '[!DNL Target](A4T)용 [!DNL Analytics]을(를) 사용하여 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 하는 활동을 만들고 [!DNL Analytics] 보고서를 사용하여 결과를 검사하십시오.'
 title: '[!DNL Target]에 대한 [!DNL Analytics]은(는) 무엇입니까(A4T)?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
@@ -33,12 +33,12 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 76%
+source-wordcount: '1129'
+ht-degree: 75%
 ---
-# [!DNL Adobe Target]용 보고 소스로서의 [!DNL Adobe Analytics] (A4T)
+# A4T 시작
 
 [!DNL Adobe Analytics for Target]&#x200B;(A4T)은 [!DNL Analytics] 전환 지표 및 대상자 세그먼트를 기반으로 하는 활동을 생성할 수 있는 솔루션 간 통합입니다. A4T 통합을 통해 [!DNL Analytics] 보고서를 사용하여 결과를 검사할 수 있습니다. 활동용 보고 소스로서의 [!DNL Analytics]를 사용하는 경우 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
 
@@ -134,7 +134,7 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 * A4T의 작동 방식에 대해 설명합니다.
 * A4T를 사용하기 위해 필요한 전제 조건을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421728?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
 ### Analytics/Adobe Target 통합(A4T) (40:33) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
@@ -151,5 +151,5 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 >
 >* [Analytics for [!DNL Target] 구현](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): at.js 및 Platform Web SDK에 대한 구현 정보가 포함되어 있습니다.
 >* [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [Adobe Experience Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko): Platform Web SDK에 대한 개요 정보가 포함되어 있습니다.
->* [Target 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko): [!DNL Target] 및 [!DNL Platform Web SDK]와 관련된 정보가 포함되어 있습니다.
+>* [Adobe Experience Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html): Platform Web SDK에 대한 개요 정보가 포함되어 있습니다.
+>* [Target 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html): [!DNL Target] 및 [!DNL Platform Web SDK]와 관련된 정보가 포함되어 있습니다.

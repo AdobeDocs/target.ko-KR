@@ -23,12 +23,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 69%
 ---
-# 경험 및 오퍼
+# 경험 및 오퍼 시작
 
 [!DNL Adobe Target]의 경험은 방문자가 활동의 대상 기준을 만족할 때 표시되는 콘텐츠를 결정합니다.
 

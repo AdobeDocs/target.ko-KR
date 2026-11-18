@@ -1,9 +1,9 @@
 ---
 keywords: 구현;구현
-description: 기본 개념을 이해하고,  [!DNL Target] 작동 방식과 인프라에 통합하는 방법을 숙지하고, 방문자를 추적하는 방법을 이해합니다.
+description: 기본 개념을 이해하고, [!DNL Target]의 작동 방식과 인프라에 통합하는 방법을 숙지하고, 방문자를 추적하는 방법을 이해합니다.
 landing-page-description: Adobe Target 사용을 시작하기 전에 사이트에서 구현해야 합니다.
 short-description: Adobe Target 사용을 시작하기 전에 사이트에서 구현해야 합니다.
-title: ' [!DNL Target]을(를) 구현하려면 어떻게 합니까?'
+title: '[!DNL Target]을(를) 구현하는 방법'
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
@@ -27,20 +27,18 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 210
-ht-degree: 11%
-
+source-wordcount: '213'
+ht-degree: 10%
 ---
-
-# Target 구현
+# [!DNL Target] 구현 시작
 
 [!DNL Adobe Target]을(를) 사용하기 전에 사이트에서 구현해야 합니다.
 
 {{permissions-update}}
 
-[Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}에 [!DNL Target]을(를) 구현하기 전에 알아야 할 정보가 포함되어 있습니다.
+[Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}에 [!DNL Target]을(를) 구현하기 전에 알아야 할 정보가 포함되어 있습니다.
 
 개발자 포털에는 다음 구현 유형에 대한 정보가 포함되어 있습니다.
 
@@ -51,11 +49,11 @@ ht-degree: 11%
 * **모바일 앱**: [!DNL Adobe Experience Platform Mobile]개의 SDK를 사용하여 구현하는 데 도움이 되는 정보입니다.
 * **전자 메일**: 전자 메일에 [!DNL Target]을(를) 구현하는 데 도움이 되는 정보입니다.
 
-자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}를 참조하십시오.
+자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}를 참조하십시오.
 
 >[!NOTE]
 >
->이전에 이 안내서(*Adobe Target 실무자 안내서*)의 *Target 구현* 섹션에 포함되었던 모든 정보가 이제 [개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}에 포함되어 있습니다.
+>이전에 이 안내서(*Adobe Target 실무자 안내서*)의 *Target 구현* 섹션에 포함되었던 모든 정보가 이제 [개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}에 포함되어 있습니다.
 
 
 

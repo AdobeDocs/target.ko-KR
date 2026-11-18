@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;대상
-description: ' [!DNL Adobe Target] 에서 대상을 사용하여 웹 마케팅 노력을 최적화하기 위해 다양한 콘텐츠 및 경험을 특정 대상으로 타깃팅하는 방법에 대해 알아봅니다.'
+description: '[!DNL Adobe Target]의 대상을 사용하여 웹 마케팅 노력을 최적화하기 위해 다양한 콘텐츠 및 경험을 특정 대상으로 타깃팅하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL 대상]을(를) 사용하여 다른 콘텐츠를 특정 세그먼트로 타깃팅하려면 어떻게 해야 합니까?'
 feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
@@ -16,14 +16,12 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: '321'
 ht-degree: 38%
-
 ---
-
-# 대상자
+# 대상자 시작하기
 
 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타기팅하려면 [!DNL Adobe Target]의 대상을 사용합니다.
 
@@ -48,4 +46,4 @@ ht-degree: 38%
 * 트래픽 할당 방법 선택
 * 서로 다른 경험에 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/3507594?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)

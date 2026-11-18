@@ -14,14 +14,12 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 50%
-
+source-wordcount: '388'
+ht-degree: 49%
 ---
-
-# 대상자의 카테고리
+# 대상자를 위한 카테고리 시작
 
 [!DNL Adobe Target]을(를) 사용하여 여러 범주 특성을 타깃팅할 수 있습니다. 각 속성에 대한 타겟팅 규칙(또는 그룹)을 만들려면 원하는 속성을 대상 빌더 창으로 끌어다 놓습니다.
 
@@ -48,4 +46,4 @@ ht-degree: 50%
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/3507775?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

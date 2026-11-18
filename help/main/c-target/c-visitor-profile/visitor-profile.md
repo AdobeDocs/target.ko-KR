@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 118
-ht-degree: 36%
-
+source-wordcount: '121'
+ht-degree: 33%
 ---
-
-# 방문자 프로필
+# 방문자 프로필 시작
 
 [!DNL Adobe Target]의 방문자 프로필에는 방문자가 페이지 및 기타 최적화된 콘텐츠 위치를 사용하는 방법에 대한 정보가 포함되어 있습니다.
 
@@ -40,6 +38,6 @@ ht-degree: 36%
 - [방문자 프로필 라이프타임](visitor-profile-lifetime.md)
 - [프로필 속성](profile-parameters.md)
 - [범주 친화성](category-affinity.md)
-- [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
+- [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [mbox3rdPartyID에 대한 실시간 프로필 동기화](3rd-party-id.md)
 - [프로필 및 변수 용어집](variables-profiles-parameters-methods.md)

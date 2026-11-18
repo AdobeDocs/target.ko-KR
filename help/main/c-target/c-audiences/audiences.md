@@ -1,6 +1,6 @@
 ---
 keywords: 대상자;대상자 규칙;대상자 만들기;대상자 작성;대상자 타기팅;보고 대상자;보고서 대상자;세그먼트;사용자 지정 프로필 매개 변수;대상자 정의;대상자 목록
-description: ' [!DNL Adobe Target]에서 대상을 사용하는 방법을 알아봅니다.'
+description: '[!DNL Adobe Target]에서 대상을 사용하는 방법을 알아봅니다.'
 title: 대상 목록은 어떻게 사용합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 844
+source-wordcount: '847'
 ht-degree: 27%
-
 ---
-
-# 대상자 만들기
+# 대상자 만들기 시작
 
 [!DNL Adobe Target]의 대상은 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정합니다.
 
@@ -63,7 +61,7 @@ ht-degree: 27%
 
   >[!NOTE]
   >
-  >[!DNL Adobe Experience Platform] 소스는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}를 사용하는 모든 [!DNL Target] 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
+  >[!DNL Adobe Experience Platform] 소스는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}를 사용하는 모든 [!DNL Target] 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
   >
   >AEP/RTCDP([!DNL Real-time Customer Data Platform])에서 [!DNL Target] [!UICONTROL 대상] 카드를 구성하려면 [!DNL Target]에서 [!UICONTROL 승인자] 이상 상태를 사용해야 합니다.
   >
@@ -141,4 +139,4 @@ Keep the following points in mind as you work with imported audiences:
 * 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/30527?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

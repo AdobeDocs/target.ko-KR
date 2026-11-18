@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '3660'
+source-wordcount: '3662'
 ht-degree: 15%
 ---
-# [!UICONTROL 자동 할당] 개요 {#auto-allocate-overview}
+# [!UICONTROL 자동 할당] 시작 {#auto-allocate-overview}
 
 >[!BEGINSHADEBOX]
 
@@ -105,7 +105,7 @@ multi-armed bandit 접근 방식은 성과가 좋은 경험을 활용하는 동�
 | ![2라운드](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-2.png){width="200" zoomable="yes"} | **2라운드**: 트래픽의 80%가 경험 A와 D에 할당됩니다(각각 40%). 트래픽의 20%가 임의로 할당되므로 경험 A, B, C 및 D가 각각 트래픽의 5%를 받습니다. 이 라운드 동안 경험 B는 잘 수행됩니다.<ul><li>알고리즘에서는 경험 D가 전환율이 가장 높아서(각 활동의 세로 눈금으로 표시됨) 경험 D가 다음 라운드로 이동하도록 선택됩니다.</li><li>알고리즘에서 경험 B는 나머지 경험의 Bernstein 95% 신뢰 구간에 대한 상한이 가장 높으므로 경험 B도 순방향으로 이동하도록 선택됩니다.</li></ul>경험 D와 B가 순방향으로 이동합니다. |
 | ![3라운드](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-3.png){width="200" zoomable="yes"} | **3라운드**: 트래픽의 80%가 경험 B와 D에 할당됩니다(각각 40%). 트래픽의 20%가 임의로 할당되므로 경험 A, B, C 및 D가 각각 트래픽의 5%를 받습니다. 이 라운드에서 경험 D는 계속 잘 수행되고 경험 C가 잘 수행됩니다.<ul><li>알고리즘에서는 경험 D가 전환율이 가장 높아서(각 활동의 세로 눈금으로 표시됨) 경험 D가 다음 라운드로 이동하도록 선택됩니다.</li><li>알고리즘에서 경험 C는 나머지 경험의 Bernstein 95% 신뢰 구간에 대한 상한이 가장 높으므로 경험 C도 순방향으로 이동하도록 선택됩니다.</li></ul>경험 D와 C가 순방향으로 이동합니다. |
 | ![4라운드](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-4.png){width="200" zoomable="yes"} | **4라운드**: 트래픽의 80%가 경험 C와 D에 할당됩니다(각각 40%). 트래픽의 20%가 임의로 할당되므로 경험 A, B, C 및 D가 각각 트래픽의 5%를 받습니다. 이 라운드 동안 경험 C는 잘 수행됩니다.<ul><li>알고리즘에서는 경험 C가 전환율이 가장 높아서(각 활동의 세로 눈금으로 표시됨) 경험 C가 다음 라운드로 이동하도록 선택됩니다.</li><li>알고리즘에서 경험 D는 나머지 경험의 Bernstein 95% 신뢰 구간에 대한 상한이 가장 높으므로 경험 D도 순방향으로 이동하도록 선택됩니다.</li></ul>경험 C와 D가 순방향으로 이동합니다. |
-| ![n라운드](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **라운드 *n***: 활동이 진행되면서 성과가 좋은 경험이 나타나기 시작하고 우승 경험이 나올 때까지 프로세스가 계속됩니다. 전환율이 가장 높은 경험의 신뢰 구간이 다른 경험의 신뢰 구간과 겹치지 않으면 이 경험에 우승자 레이블이 지정됩니다. [배지가 우승 활동의 페이지](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)와&#x200B;**[!UICONTROL &#x200B;활동&#x200B;]**&#x200B;목록에 표시됩니다.<ul><li>알고리즘에서는 경험 C를 분명한 승자로 선택합니다.</li></ul>이 시점에서 알고리즘은 트래픽의 80%를 경험 C에 제공하는 반면 트래픽의 20%는 모든 경험(A, B, C, D)에 임의로 계속 제공됩니다. 통틀어 C는 트래픽의 85%를 받습니다. 우승자의 신뢰 구간이 다시 겹치기 시작하는 드문 경우, 알고리즘이 4라운드 동작으로 되돌아갑니다.<br>**중요**: 프로세스에서 이전에 우승자를 수동으로 선택한 경우에는 잘못된 경험을 선택하기 쉬울 것입니다. 따라서 알고리즘이 가장 성과가 좋은 경험을 결정할 때까지 기다리는 것이 좋습니다. |
+| ![n라운드](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **라운드 *n***: 활동이 진행되면서 성과가 좋은 경험이 나타나기 시작하고 우승 경험이 나올 때까지 프로세스가 계속됩니다. 전환율이 가장 높은 경험의 신뢰 구간이 다른 경험의 신뢰 구간과 겹치지 않으면 이 경험에 우승자 레이블이 지정됩니다. [배지가 우승 활동의 페이지](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)와**[!UICONTROL &#x200B;활동&#x200B;]**목록에 표시됩니다.<ul><li>알고리즘에서는 경험 C를 분명한 승자로 선택합니다.</li></ul>이 시점에서 알고리즘은 트래픽의 80%를 경험 C에 제공하는 반면 트래픽의 20%는 모든 경험(A, B, C, D)에 임의로 계속 제공됩니다. 통틀어 C는 트래픽의 85%를 받습니다. 우승자의 신뢰 구간이 다시 겹치기 시작하는 드문 경우, 알고리즘이 4라운드 동작으로 되돌아갑니다.<br>**중요**: 프로세스에서 이전에 우승자를 수동으로 선택한 경우에는 잘못된 경험을 선택하기 쉬울 것입니다. 따라서 알고리즘이 가장 성과가 좋은 경험을 결정할 때까지 기다리는 것이 좋습니다. |
 
 >[!NOTE]
 >
@@ -297,7 +297,7 @@ multi-armed bandit 접근 방식은 성과가 좋은 경험을 활용하는 동�
 * 트래픽 할당 방법 선택
 * 서로 다른 경험에 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/3507594?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### A/B 테스트 만들기(8:36) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
@@ -306,4 +306,4 @@ multi-armed bandit 접근 방식은 성과가 좋은 경험을 활용하는 동�
 * [!DNL Adobe Target]에서 A/B 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/30529?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

@@ -30,12 +30,12 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 569476ceebaa6913cc86f4a2b871ccf29d9894d8
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 5%
 ---
-# [!DNL Target] 관리 개요
+# [!DNL Target] 관리 시작
 
 **[!UICONTROL 관리]**&#x200B;를 사용하여 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC), 보고, 배달 인프라, 액세스 제어 및 [!DNL Recommendations]에 대한 계정 전체 기본값을 구성하십시오.
 
@@ -54,5 +54,5 @@ ht-degree: 5%
 | [허용 목록에추가된 URL](/help/main/administrating-target/allowlisted-urls.md) | 원격 오퍼 및 관련 유효성 검사에 대한 신뢰할 수 있는 URL 패턴을 관리합니다. |
 | [응답 토큰](/help/main/administrating-target/response-tokens.md) | 디버깅 및 통합을 위해 [!DNL Target] 응답에 프로필 및 활동 데이터를 포함합니다. |
 | [속성](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | 작업 공간을 만들고 Enterprise 역할을 할당합니다([Target Premium](/help/main/c-intro/intro.md#premium)만). |
-| [사용자 &#x200B;](/help/main/administrating-target/c-user-management/user-management.md) | 사용자를 추가하고 [!DNL Target]개의 역할 및 권한을 할당하십시오. |
+| [사용자 ](/help/main/administrating-target/c-user-management/user-management.md) | 사용자를 추가하고 [!DNL Target]개의 역할 및 권한을 할당하십시오. |
 | [추천](/help/main/administrating-target/recommendations-settings.md) | [!DNL Recommendations] 활동에 대한 기본 설정을 구성하십시오. |
