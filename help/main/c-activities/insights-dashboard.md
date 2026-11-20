@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -120,5 +120,5 @@ ht-degree: 1%
 
 ![](assets/insights-7.png){align="center"}
 
-**[!UICONTROL 시간 경과에 따른 활동]** 그래프는 선택한 시간 범위 동안 만들어지고 수정되고 게시된 활동의 수를 추적하므로 실험 프로그램에서 트렌드, 스파이크 또는 조용한 기간을 쉽게 찾을 수 있습니다.
+**[!UICONTROL 시간 경과에 따른 활동]** 그래프는 실험 프로그램에서 트렌드, 스파이크 또는 조용한 기간을 식별할 수 있도록 선택한 시간 범위에서 만들어지고 수정되고 게시된 활동의 수를 추적합니다.
 

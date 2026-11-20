@@ -4,12 +4,18 @@ description: Adobe Target 샘플 크기 계산기 를 사용하여 실험 기간
 title: 샘플 크기 계산기
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
+source-git-commit: 39876928cad809220f39c0ffe104edf9422e2773
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 35%
+source-wordcount: '1632'
+ht-degree: 34%
 ---
-# 샘플 크기 계산기
+# 샘플 크기 계산기 {#sample-size-calculator}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** [!DNL Adobe Target] 표본 크기 계산기를 사용하여 트래픽, 기간, 경험 수 또는 A/B 테스트의 최소 감지 가능한 효과를 추정하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"

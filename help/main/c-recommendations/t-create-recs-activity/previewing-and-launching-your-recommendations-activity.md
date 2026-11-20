@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 13%
@@ -82,7 +82,7 @@ QA 링크를 사용하면 페이지에서 권장 사항을 미리 볼 수 있습
 
 >[!NOTE]
 >
->* Target QA 모드가 &quot;고정&quot;이며 쿠키에 저장됩니다. QA 모드를 종료하지 않으면 사이트 전체에서 QA 결과가 계속 표시됩니다. QA 모드를 종료하려면 [북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)을 사용하십시오.
+>* [!DNL Target] QA 모드가 쿠키에 저장되고 페이지 전체에서 유지됩니다. QA 모드를 종료하지 않으면 사이트 전체에서 QA 결과가 계속 표시됩니다. QA 모드를 종료하려면 [북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)을 사용하십시오.
 >
 >* QA 모드에서는 사이트 탐색이 프로필의 [!UICONTROL 최근에 본 항목] 또는 [!UICONTROL 최근에 구매한 항목]에 영향을 주지 않습니다. 이 동작은 의도하지 않은 생산 행동 데이터의 오염을 피하기 위해 설계에 의해 발생합니다. [!UICONTROL 최근에 본 항목] 또는 [!UICONTROL 사용자 기반 권장 사항] 기준의 결과를 미리 보려면 먼저 QA 모드 외부에서 사이트를 찾은 다음 동일한 세션을 사용하여 QA 모드 링크를 엽니다.
 

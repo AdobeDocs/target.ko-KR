@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 19%
@@ -50,7 +50,7 @@ ht-degree: 19%
    {{visitor-matching}}
 
 1. 방문자가 일치하는 모든 활동 및 경험에 대한 컨텐츠가 페이지에 반환되므로 동일한 호출에 대해 여러 활동의 컨텐츠를 전달할 수 있습니다.
-1. [!DNL Target]은(는) 각 활동의 콘텐츠가 참조하는 [CSS 선택기](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)를 비교합니다. 활동이 다른 선택기를 참조하는 경우 모든 콘텐츠가 표시됩니다.
+1. [!DNL Target]은(는) 각 활동의 콘텐츠가 참조하는 [CSS 선택기](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)를 비교합니다. 활동이 다른 선택기를 참조하는 경우 모든 콘텐츠가 표시됩니다.
 1. 선택기가 겹치거나 중복되는 경우 우선순위가 가장 높은 활동의 콘텐츠가 표시됩니다.
 
    >[!IMPORTANT]

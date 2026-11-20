@@ -22,20 +22,24 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 22eb14463a76adc797e57420cac0f646be3d3f00
 workflow-type: tm+mt
-source-wordcount: '2792'
-ht-degree: 29%
+source-wordcount: '2810'
+ht-degree: 25%
 ---
-# 피드
+# 피드 {#feeds}
 
-피드를 사용하여 [!DNL Adobe Target] [!DNL Recommendations]&#x200B;(으)로 가져온 엔터티를 가져옵니다. 엔터티는 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 피드가 엔터티를 [!DNL Adobe Target Recommendations]&#x200B;(으)로 가져오는 방법과 사용 가능한 소스 형식, 피드를 만들고 모니터링하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
+
+피드를 사용하여 [!DNL Adobe Target Recommendations]&#x200B;(으)로 가져온 엔터티를 가져옵니다. 엔터티는 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
 
 ## 피드 개요 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-피드를 사용하면 [엔터티](/help/main/c-recommendations/c-products/products.md)를 전달하거나 페이지에서 사용할 수 없거나 페이지에서 직접 보내기에는 안전하지 않은 정보가 있는 mbox 데이터를 보강할 수 있습니다. 예를 들어 마진, COGS(매출 원가) 등이 있습니다.
-
-피드를 사용하면 제품 ID, 범주, 이름, 메시지 및 기타 특성과 같은 자세한 항목 정보를 [!DNL Recommendations]에 전달할 수 있습니다.
+피드를 사용하면 [entities](/help/main/c-recommendations/c-products/products.md)를 전달하거나 페이지에서 사용할 수 없거나 페이지에서 직접 보내기에는 안전하지 않은 정보가 있는 mbox 데이터를 보강할 수 있습니다. 예를 들어 마진, COGS(매출 원가) 등이 있습니다. 피드를 사용하면 제품 ID, 범주, 이름, 메시지 및 기타 특성과 같은 자세한 항목 정보를 [!DNL Recommendations]에 전달할 수 있습니다.
 
 [!DNL Target] 제품 분류 파일 또는 [!DNL Google Product Search] 파일에서 [!DNL Recommendations] 서버로 보낼 열을 선택할 수 있습니다.
 
@@ -48,33 +52,34 @@ ht-degree: 29%
 
 항목 설명은 피드 또는 mbox를 사용하여 [!DNL Target]에 전달할 수 있습니다. [!DNL Target]이(가) 엔터티 피드와 mbox를 모두 사용하여 데이터를 수집하면 가장 최근 데이터가 성공합니다. 일반적으로 가장 최근의 데이터는 mbox가 더 자주 조회되므로 mbox에서 옵니다. 드물지만 개체 피드 데이터와 mbox 데이터가 동시에 조회되는 경우 mbox 데이터가 사용됩니다.
 
-[!UICONTROL 피드] 목록( **[!UICONTROL 권장 사항]** > **[!UICONTROL 피드]**)에는 사용자가 만든 피드에 대한 정보가 있습니다.
+업로드된 엔티티 및 엔티티 속성은 61일 후에 만료됩니다. 이것은 다음을 의미합니다.
 
-[!UICONTROL 피드] 페이지에는 다음 열이 포함되어 있습니다.
+* 피드는 카탈로그 콘텐츠가 만료되지 않도록 최소 매월 실행해야 합니다.
 
-* **이름**: 만드는 중에 지정된 피드의 이름입니다. 피드의 이름을 편집하려면 피드 자체를 편집해야 합니다. 피드를 새 이름으로 저장하면 피드가 새로 고쳐집니다.
-* **상태**: 피드의 현재 [상태](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)입니다.
-* **유형**: 유형에는 [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) 및 [Analytics 분류](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)가 포함됩니다.
-* **항목**: 피드에 있는 항목의 수를 표시합니다.
-* **일정**: 피드에 대한 업데이트 일정을 표시합니다. [!UICONTROL 매일], [!UICONTROL 주별], [!DNL Every 2 Weeks] 또는 [!UICONTROL 절대 안 함].
-* **최근 업데이트**: 피드를 마지막으로 업데이트한 날짜와 시간, 피드를 업데이트한 사람의 이름을 표시합니다.
+* 피드 파일에서 항목을 제거해도 카탈로그에서 해당 항목이 제거되지 않습니다. 카탈로그에서 항목을 제거하려면 [!DNL Target] UI 또는 API를 통해 항목을 수동으로 삭제하십시오. 또는 품목 속성(예: 재고)을 수정하여 품목이 고려 대상에서 제외되도록 합니다.
 
-[!UICONTROL 표 사용자 지정] 아이콘( ![표 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg))을 클릭하여 표시할 열을 선택하거나 선택 취소합니다.
+* 적어도 60일마다 피드 파일을 업로드하여 권장 사항 활동이 중단되는 것을 방지하십시오. 60일마다 한 번 이상 피드 파일(또는 다른 엔터티 업데이트 메서드)에 포함되지 않은 항목은 [!DNL Target]에서 더 이상 관련성이 없다고 유추하여 카탈로그에서 제거합니다.
 
-[!UICONTROL 정보] 아이콘( ![정보 아이콘](/help/main/assets/icons/InfoOutline.svg) )을 클릭하여 마지막 업로드 날짜와 피드의 URL을 표시하는 카드를 표시합니다.
+### 피드 목록
 
-[!UICONTROL 추가 작업] 아이콘( ![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭하여 [!UICONTROL 비활성화], [!DNL Edit], [!UICONTROL 복사] 및 [!UICONTROL 삭제] 작업에 액세스합니다.
+[!UICONTROL 피드] 목록(**[!UICONTROL 권장 사항]** > **[!UICONTROL 피드]**)에는 사용자가 만든 피드에 대한 정보가 있습니다. 여기에는 다음 열이 포함되어 있습니다.
 
->[!IMPORTANT]
->
->업로드된 엔티티 및 엔티티 속성은 61일 후에 만료됩니다. 이것은 다음을 의미합니다.
->
->* 피드는 카탈로그 콘텐츠가 만료되지 않도록 최소 매월 실행해야 합니다.
->* 피드 파일에서 항목을 제거해도 카탈로그에서 해당 항목이 제거되지 않습니다. 카탈로그에서 항목을 제거하려면 [!DNL Target] UI 또는 API를 통해 항목을 수동으로 삭제하십시오. 또는 품목 속성(예: 재고)을 수정하여 품목이 고려 대상에서 제외되도록 합니다.
+| 열 | 설명 |
+|---|---|
+| **이름** | 만드는 동안 지정된 피드의 이름입니다. 피드의 이름을 편집하려면 피드 자체를 편집해야 합니다. 피드를 새 이름으로 저장하면 피드가 새로 고쳐집니다. |
+| **상태** | 피드의 현재 [상태](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0). |
+| **유형** | 유형에는 [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) 및 [Analytics 분류](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)가 있습니다. |
+| **항목** | 피드의 항목 수를 표시합니다. |
+| **일정** | 피드에 대한 업데이트 일정을 표시합니다. **[!UICONTROL 매일]**, **[!UICONTROL 주별]**, **[!DNL Every 2 Weeks]** 또는 **[!UICONTROL 절대 안 함]**. |
+| **마지막 업데이트** | 피드를 마지막으로 업데이트한 날짜와 시간, 피드를 업데이트한 사람의 이름을 표시합니다. |
 
-## Source 유형
+* **[!UICONTROL 표 사용자 지정]** 아이콘( ![표 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg))을 클릭하여 표시할 열을 선택하거나 선택 취소합니다.
+* **[!UICONTROL 정보]** 아이콘( ![정보 아이콘](/help/main/assets/icons/InfoOutline.svg) )을 클릭하여 마지막 업로드 날짜와 피드의 URL을 표시하는 카드를 표시합니다.
+* **[!UICONTROL 추가 작업]** 아이콘( ![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭하여 **[!UICONTROL 비활성화]**, **[!DNL Edit]**, **[!UICONTROL 복사]** 및 **[!UICONTROL 삭제]** 작업에 액세스합니다.
 
-엔터티는 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
+## Source 유형 {#source-types}
+
+다음 단원에서는 엔티티를 전송하는 데 사용할 수 있는 소스 유형을 설명합니다.
 
 ### CSV로 내보내기 {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -106,13 +111,11 @@ ht-degree: 29%
 "Apples ""Bananas"" Grapes""",
 ```
 
->[!NOTE]
->
->기존 값을 빈 값으로 덮어쓸 수 없습니다. 기존 값을 덮어쓰려면 다른 값을 그 위치에 전달합니다. 판매 가격의 경우 일반적인 해결 방법은 실제 &quot;NULL&quot; 또는 다른 메시지를 전달하는 것입니다. 그런 다음 템플릿 규칙을 작성하여 해당 값이 포함된 항목을 제외할 수 있습니다.
+기존 값을 빈 값으로 덮어쓸 수 없습니다. 기존 값을 덮어쓰려면 다른 값을 그 위치에 전달합니다. 판매 가격의 경우 일반적인 해결 방법은 실제 &quot;NULL&quot; 또는 다른 메시지를 전달하는 것입니다. 그런 다음 템플릿 규칙을 작성하여 해당 값이 포함된 항목을 제외할 수 있습니다.
 
 개체를 성공적으로 업로드하고 약 2시간 후 관리 인터페이스에서 제품을 사용할 수 있습니다.
 
-다음은 .csv 파일의 샘플 코드입니다.
++++ 샘플 .csv 파일
 
 ```
 ## RECSRecommendations Upload File 
@@ -126,19 +129,19 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
++++
 
-[!DNL Google Product Search] 피드 유형은 [!DNL Adobe] 소유 CSV 형식이 아닌 [!DNL Google] 형식을 사용합니다. 기존 [!DNL Google Product Feed]을(를) 다시 사용하여 제품 데이터를 [!DNL Recommendations]&#x200B;(으)로 가져올 수 있습니다.
+### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 >[!NOTE]
 >
 >데이터를 [!DNL Google]에 제출할 필요가 없습니다. 파일에서 미리 정의된 [!DNL Google] 특성 이름을 사용하는 경우 자신의 데이터를 가져오고 업데이트를 예약할 수 있습니다.
 
+[!DNL Google Product Search] 피드 유형은 [!DNL Adobe] 소유 CSV 형식이 아닌 [!DNL Google] 형식을 사용합니다. 기존 [!DNL Google Product Feed]을(를) 다시 사용하여 제품 데이터를 [!DNL Recommendations]&#x200B;(으)로 가져올 수 있습니다.
+
 [!DNL Recommendations]은(는) [!DNL Google] 피드 사양을 따르고 Google에서 정의한 [특성을 사용하는 .xml, .txt 및 .tsv 파일을 허용합니다](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). [!DNL Recommendations] 서버가 파일을 검색하고 카탈로그를 빌드할 수 있도록 피드의 URL 또는 FTP 위치를 지정하십시오.
 
->[!NOTE]
->
->[!DNL Google] 피드를 호스팅하는 서버는 POST 메서드를 허용해야 합니다.
+[!DNL Google] 피드를 호스팅하는 서버는 POST 메서드를 허용해야 합니다.
 
 다음 요구 사항 및 제한 사항을 염두에 두십시오.
 
@@ -147,7 +150,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 피드를 저장하고 활성화하면 피드가 실행되며, 처음 실행 시간보다 1시간 늦게 매일 실행됩니다.
 
-다음 예제에서는 .xml 형식의 [!DNL Google Product Search] 피드를 보여 줍니다.
++++ .xml 형식의 샘플 [!DNL Google Product Search] 피드
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -214,13 +217,17 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 </feed> 
 ```
 
-다음은 [!DNL Google Product Search] 피드 .tsv 파일에 대한 샘플 코드입니다.
++++
+
++++ .tsv 형식의 샘플 [!DNL Google Product Search] 피드
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
 na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round case    https://example.com/shop/en-us/na3454_RipCurl    425    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075380 01050 5    DZ1437 
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
+
++++
 
 ### [!DNL Analytics] 제품 분류 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
@@ -233,22 +240,29 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 > 다음 주의 사항에 유의하십시오.
 >
 >* 엔티티 속성에 대한 업데이트는 최대 24시간이 넘는 지연을 초래합니다.
->* [!DNL Target]은(는) [!UICONTROL 제품 분류]만 지원합니다. [!DNL Analytics] 제품 SKU는 [!DNL Recommendations] `entity.id`과(와) 동일한 수준에 매핑해야 합니다. 사용자 지정 [!DNL Analytics] 분류는 [!UICONTROL Adobe Consulting 서비스]를 사용하여 제작할 수 있습니다. 질문이 있는 경우 계정 관리자에게 문의하십시오.
+>* [!DNL Target]은(는) **[!UICONTROL 제품 분류]**&#x200B;만 지원합니다. [!DNL Analytics] 제품 SKU는 [!DNL Recommendations] `entity.id`과(와) 동일한 수준에 매핑해야 합니다. 사용자 지정 [!DNL Analytics] 분류는 **[!UICONTROL Adobe Consulting 서비스]**&#x200B;를 사용하여 제작할 수 있습니다. 질문이 있는 경우 계정 관리자에게 문의하십시오.
 
 ## 피드 만들기 {#steps}
 
 [!DNL Recommendations]에 제품이나 서비스에 대한 정보를 삽입하는 피드를 작성합니다.
 
+원본은 [!DNL Recommendations]이(가) 카탈로그를 만드는 엔터티 데이터를 검색하는 위치를 결정합니다.
+
 1. [!DNL Target] 인터페이스 내에서 **[!UICONTROL 권장 사항]** > **[!UICONTROL 피드]** > **[!UICONTROL 피드 만들기]**&#x200B;를 클릭합니다.
 
+   ![피드 페이지 만들기](../assets/feeds_1.png)
+
 1. 피드의 수사적 이름을 지정합니다.
+
 1. **[!UICONTROL Source 유형]**&#x200B;을(를) 선택하십시오.
 
-   * [!UICONTROL CSV]
-   * [!UICONTROL Google 제품 피드]
-   * [!UICONTROL Analytics 분류]
+   * **[!UICONTROL CSV]**
+   * **[!UICONTROL Google 제품 피드]**
+   * **[!UICONTROL Analytics 분류]**
 
-   [!UICONTROL CSV] 및 [!UICONTROL Google 제품 피드] 피드 유형에 대한 자세한 내용은 [피드 개요](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)를 참조하십시오. [모델 CSV 가이드를 다운로드](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)하여 피드의 형식을 올바르게 지정할 수도 있습니다.
+   **[!UICONTROL CSV]** 및 **[!UICONTROL Google 제품 피드]** 피드 유형에 대한 자세한 내용은 [Source 유형](#source-types)을 참조하십시오. [모델 CSV 가이드를 다운로드](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)하여 피드의 형식을 올바르게 지정할 수도 있습니다.
+
+   ![피드 페이지 만들기](../assets/feeds_2.png)
 
 1. (조건부) **[!UICONTROL CSV]** 또는 **[!UICONTROL Google 제품 피드]**&#x200B;를 선택한 경우 피드에 액세스할 수 있는 위치를 지정하십시오.
 
@@ -260,7 +274,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
      * FTPS의 경우, 명시적 FTPS 연결을 허용하도록 서버를 구성합니다.
      * 연결을 시작할 포트를 수동으로 지정할 수 있습니다(예: `ftp://ftp.yoursite.com:2121`). 포트를 지정하지 않으면 기본 FTP 또는 FTPS 포트가 사용됩니다.
 
-   +++
+     +++
 
    * **SFTP**: SFTP 서버의 호스트 이름 또는 IP 주소, 포트(기본값: 22), 사용자 이름, 디렉터리 및 파일 이름을 입력합니다. 인증을 위해 암호, SSH 개인 키 또는 둘 다 제공하십시오.
 
@@ -273,28 +287,30 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
      * `sftp://` 접두사, 포트 또는 경로 없이 기본 호스트 이름 또는 IP 주소를 입력하십시오. 기본이 아닌 포트의 경우 Port 필드를 사용합니다.
      * 서버 호스트 키는 첫 번째 연결에서 허용되므로 Adobe과의 지문 교환이 필요하지 않습니다.
      * SFTP는 Target 인터페이스 및 권장 사항 API에서 사용할 수 있지만 이전 Recommendations Classic 관리 인터페이스에서는 사용할 수 없습니다. Adobe은 SFTP 끝점을 호스팅하지 않습니다. 고객 호스팅 서버를 사용하십시오.
-     * SFTP 서버는 인터넷에서 연결할 수 있어야 하며 Adobe Target의 다운로드 주소에서 인바운드 연결을 허용해야 합니다. 프로덕션 IP 목록은 이 업데이트를 게시하기 전에 엔지니어링에서 확인해야 합니다.
+     * SFTP 서버는 인터넷에서 연결할 수 있어야 하며 Adobe Target의 다운로드 주소에서 인바운드 연결을 허용해야 합니다.
 
-   +++
+     +++
 
-   * **URL**: [!UICONTROL URL]을(를) 선택하는 경우 URL을 지정하십시오.
+   * **URL**: **[!UICONTROL URL]**&#x200B;을(를) 선택하는 경우 URL을 지정하십시오.
 
 1. (조건부) **[!UICONTROL Analytics 분류]**&#x200B;를 선택한 경우 드롭다운 목록에서 보고서 세트를 선택합니다.
 
-1. **[!UICONTROL 다음]** 화살표를 클릭하여 [!UICONTROL 일정] 옵션을 표시합니다.
+1. **[!UICONTROL 다음]** 화살표를 클릭하여 **[!UICONTROL 예약]** 옵션을 표시하고 업데이트 옵션을 선택합니다.
 
-1. 업데이트 선택 사항을 선택합니다.
+   * **[!UICONTROL 매일]**
+   * **[!UICONTROL 주별]**
+   * **[!UICONTROL 2주마다]**
+   * **[!UICONTROL 절대 안 함]**: 업데이트를 예약하지 않습니다. 이 피드를 실행하지 않으려면 이 항목을 선택하십시오.
 
-   * [!UICONTROL 매일]
-   * [!UICONTROL 주별]
-   * [!UICONTROL 2주마다]
-   * [!UICONTROL 절대 안 함]: 업데이트를 예약하지 않습니다. 이 피드를 실행하지 않으려면 이 항목을 선택하십시오.
+   ![피드 페이지 만들기](../assets/feeds_3.png)
 
 1. 피드를 실행할 시간을 지정합니다.
 
    이 선택 사항은 브라우저에서 사용되는 시간대를 기반으로 합니다. 다른 시간대의 시간을 사용하려면 시간대에 따라 시간을 계산해야 합니다.
 
-1. **[!UICONTROL 다음]** 화살표를 클릭하여 [!UICONTROL 매핑] 옵션을 표시한 다음 데이터를 [!DNL Target] 정의에 매핑하는 방법을 지정합니다.
+1. **[!UICONTROL 다음]** 화살표를 클릭하여 **[!UICONTROL 매핑]** 옵션을 표시한 다음 데이터를 [!DNL Target] 정의에 매핑하는 방법을 지정합니다.
+
+   ![피드 페이지 만들기](../assets/feeds_4.png)
 
 1. (선택 사항) 피드가 환경(호스트 그룹)에 속하도록 하려면 호스트 그룹을 선택합니다.
 
@@ -302,15 +318,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-피드를 만들거나 편집한 후 즉시 실행된 다음 설정에 따라 업데이트됩니다. 데이터를 사용하려면 피드가 동기화, 처리 및 색인화되어야 합니다. [!UICONTROL 피드] 목록에서 [피드 상태](/help/main/c-recommendations/c-products/feeds.md#status)를 확인합니다. [!DNL Target]을(를) 닫아도 처리가 계속됩니다.
+피드를 만들거나 편집한 후 즉시 실행된 다음 설정에 따라 업데이트됩니다. 데이터를 사용하려면 피드가 동기화, 처리 및 색인화되어야 합니다. [!DNL Target]을(를) 닫아도 처리가 계속되며 [피드 상태](/help/main/c-recommendations/c-products/feeds.md#status)의 **[!UICONTROL 피드]** 목록에서 진행 상황을 따를 수 있습니다.
 
-색인화하는 동안 제품 및 피드 헤더가 개별 값 앞에 표시되므로 색인화가 완료되기 전에 제품을 검색하고 컬렉션, 제외, 디자인 및 활동을 만들 수 있습니다.
+색인화하는 동안 제품 및 피드 헤더가 개별 값 앞에 표시되므로 이미 제품을 검색하고 컬렉션, 제외, 디자인 및 활동을 만들 수 있습니다.
 
-&quot;성공&quot; 상태는 파일을 찾아서 올바로 구문 분석했음을 의미합니다. 해당 데이터는 인덱싱한 후에만 [!DNL Recommendations]에서 사용할 수 있으며, 파일 크기에 따라 시간이 소요됩니다. 실패는 잘못된 URL 또는 FTP 정보, 누락된 파일 또는 구문 분석 오류로 인해 발생할 수 있습니다.
+&quot;성공&quot; 상태는 파일을 찾아서 올바로 구문 분석했음을 의미합니다. 색인 지정 후에만 데이터를 사용할 수 있으며 파일이 큰 경우 더 오래 걸립니다. 오류는 잘못된 URL 또는 FTP 정보, 누락된 파일 또는 구문 분석 오류로 인해 발생할 수 있습니다.
 
 ## 피드 상태 및 표시기 {#concept_E475986720D1400999868B3DFD14A7A0}
 
-가능한 피드 상태 및 해당 표시기에 대한 정보입니다.
+이 섹션에서는 가능한 피드 상태 및 해당 표시기에 대해 설명합니다.
 
 ### 피드 상태 {#status}
 
@@ -318,27 +334,35 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 | 상태 | 설명 |
 |--- |--- |
-| [!UICONTROL 동기화 중] | 피드 설정 세부 정보가 [!DNL Target]에 저장되고 있습니다. |
-| [!UICONTROL 동기화 실패] | 피드 설정 세부 정보를 [!DNL Target]에 저장할 수 없습니다. 다시 시도하십시오. |
-| [!UICONTROL 피드 실행 안 함] | 피드를 만들었지만 예약하지 않았습니다(빈도가 사용 안 함으로 설정됨). |
+| **[!UICONTROL 동기화 중]** | 피드 설정 세부 정보가 [!DNL Target]에 저장되고 있습니다. |
+| **[!UICONTROL 동기화 실패]** | 피드 설정 세부 정보를 [!DNL Target]에 저장할 수 없습니다. 다시 시도하십시오. |
+| **[!UICONTROL 피드 실행 안 함]** | 피드를 만들었지만 예약하지 않았습니다(빈도가 사용 안 함으로 설정됨). |
 | 예약 일시: *날짜 및 시간* | 피드가 실행되지 않았지만 지정된 날짜 및 시간에 실행되도록 예약되었습니다. |
-| [!UICONTROL 다운로드 대기 중] | [!DNL Target]이(가) 피드 파일 다운로드를 준비하는 중입니다. |
-| [!UICONTROL 피드 파일 다운로드] | [!DNL Target]이(가) 피드 파일을 다운로드하고 있습니다. |
-| [!UICONTROL 항목 가져오기] | [!DNL Target]이(가) 피드 파일에서 항목을 가져오는 중입니다. |
-| 피드를 *시간 내에* 성공적으로 가져옴 | [!DNL Target]이(가) 피드 파일을 콘텐츠 전달 시스템으로 가져왔습니다. 항목 속성에 대한 변경 사항은 콘텐츠 전달 시스템에서 만들어졌으며, 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않으면 다시 시도하여 권장 사항이 포함된 페이지를 새로 고치십시오.<br>참고:<ul><li>항목의 속성에 대한 변경 사항으로 인해 항목이 권장 사항에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 특성을 변경하면 해당 항목이 권장 사항에서 더 이상 제외되지 *않습니다*. 이 경우 24시간 내에 다음 알고리즘 업데이트가 발생할 때까지 반영되지 않습니다.</li><li>이 상태가 표시되면 업데이트가 [!UICONTROL 카탈로그 검색] UI에 아직 반영되지 않았을 수 있습니다. 검색 가능한 카탈로그가 마지막으로 업데이트된 시간을 나타내는 별도의 상태가 [!UICONTROL 카탈로그 검색]에 나열됩니다.</li></ul> |
-| 부분 가져오기 실패 | 이전에는 모든 행이 업로드되지 않은 경우에도 피드가 성공으로 표시되었습니다. 따라서 피드가 성공적으로 표시되었을 때 모든 행이 업로드되었다는 잘못된 인상을 만듭니다.<P>다음은 부분 피드 가져오기가 발생할 수 있는 이유에 대한 시나리오입니다.<ul><li>프로덕션 환경에 대한 피드 파일(예: 100개 행)을 업로드했습니다.</li><li>피드가 실행되어 해당 행 중 80개를 업로드하고 잘못된 형식, 필드 초과 문자 등으로 인해 20개의 행을 삭제했습니다.</li><li>UI에서 피드가 성공으로 표시되어 100개의 행이 모두 업로드된 것처럼 보입니다.</li><li>활동 전달에 20개 제품 중 일부가 예상되지만 발생하지 않습니다.</li><li> 해당 제품에 대한 제품 세부 사항이 있는 피드를 업로드했기 때문에 이 시점에서 혼란스럽습니다. Entity API를 통해 쿼리할 때 백엔드에 표시되지 않는데, 이는 해당 API가 백엔드에 없음을 나타냅니다.</li></ul>이러한 혼동을 제거하기 위해 피드에 발생한 사항을 정확히 알 수 있도록 메시지가 개선됩니다. 성공으로 표시하기보다는 이제 부분 가져오기 실패로 표시됩니다. |
-| [!UICONTROL 색인화 실패] | 색인 작업에 실패했습니다. 다시 시도하십시오. |
-| [!UICONTROL 서버를 찾을 수 없음] | FTP, SFTP 또는 URL 위치가 잘못되었거나 연결할 수 없습니다. |
+| **[!UICONTROL 다운로드 대기 중]** | [!DNL Target]이(가) 피드 파일 다운로드를 준비하는 중입니다. |
+| **[!UICONTROL 피드 파일 다운로드]** | [!DNL Target]이(가) 피드 파일을 다운로드하고 있습니다. |
+| **[!UICONTROL 항목 가져오기]** | [!DNL Target]이(가) 피드 파일에서 항목을 가져오는 중입니다. |
+| 피드를 *시간 내에* 성공적으로 가져옴 | [!DNL Target]이(가) 피드 파일을 콘텐츠 전달 시스템으로 가져왔습니다. 항목 속성에 대한 변경 사항은 콘텐츠 전달 시스템에서 만들어졌으며, 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않으면 다시 시도하여 권장 사항이 포함된 페이지를 새로 고치십시오.<br>참고:<ul><li>항목의 속성에 대한 변경 사항으로 인해 항목이 권장 사항에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 특성을 변경하면 해당 항목이 권장 사항에서 더 이상 제외되지 *않습니다*. 이 경우 24시간 내에 다음 알고리즘 업데이트가 발생할 때까지 반영되지 않습니다.</li><li>이 상태가 표시되면 업데이트가 **[!UICONTROL 카탈로그 검색]** UI에 아직 반영되지 않았을 수 있습니다. 검색 가능한 카탈로그가 마지막으로 업데이트된 시간을 나타내는 별도의 상태가 **[!UICONTROL 카탈로그 검색]**&#x200B;에 나열됩니다.</li></ul> |
+| 부분 가져오기 실패 | 피드 파일의 일부 행이 업로드되지 않았습니다. [부분 가져오기 실패](#partial-import-failed)를 참조하십시오. |
+| **[!UICONTROL 색인화 실패]** | 색인 작업에 실패했습니다. 다시 시도하십시오. |
+| **[!UICONTROL 서버를 찾을 수 없음]** | FTP, SFTP 또는 URL 위치가 잘못되었거나 연결할 수 없습니다. |
 
-피드를 업데이트하려면(예를 들어, 피드 구성이나 피드 파일 변경) 피드를 열고 원하는 대로 변경하고 **[!UICONTROL 저장]**&#x200B;을 클릭하십시오.
+#### 부분 가져오기 실패 {#partial-import-failed}
 
->[!IMPORTANT]
->
->업로드된 엔티티는 61일 후에 만료됩니다. 즉, 권장 사항 활동이 중단되는 것을 방지하기 위해 적어도 60일마다 피드 파일을 업로드해야 합니다. 60일마다 한 번 이상 피드 파일(또는 다른 엔터티 업데이트 메서드)에 포함되지 않은 항목은 [!DNL Target]에서 더 이상 관련성이 없다고 유추하여 카탈로그에서 제거합니다.
+이전에는 일부 행이 업로드되지 않은 경우에도 피드가 성공으로 표시되었습니다. 이로 인해 모든 행이 업로드되었다는 잘못된 인상을 주었습니다. 이제 메시지에 무슨 일이 발생했는지 표시됩니다. 피드가 성공 대신 부분 가져오기에 실패한 것으로 표시됩니다.
+
+다음 시나리오는 부분 피드 가져오기가 발생할 수 있는 이유를 보여 줍니다.
+
+* 프로덕션 환경에 대한 피드 파일(예: 100개 행)을 업로드했습니다.
+* 피드가 실행되어 해당 행 중 80개를 업로드하고 잘못된 형식, 필드 초과 문자 등으로 인해 20개의 행을 삭제했습니다.
+* UI에서 피드가 성공으로 표시되어 100개의 행이 모두 업로드된 것처럼 보입니다.
+* 활동 전달에 20개 제품 중 일부가 예상되지만 발생하지 않습니다.
+* 업로드한 피드에 해당 제품에 대한 제품 세부 정보가 있지만 엔티티 API를 통해 쿼리할 때 백엔드에 표시되지 않는데, 이 API가 백엔드에 있지 않음을 보여 줍니다.
+
+피드를 업데이트하려면(예를 들어, 피드 구성이나 피드 파일 변경) 피드를 열고 원하는 대로 변경하고 **[!UICONTROL 저장]**&#x200B;을 클릭하십시오. 업로드된 엔티티는 61일 후에 만료됩니다. 업로드 빈도는 [피드 개요](#concept_D1E9C7347C5D4583AA69B02E79607890)에서 참고 사항을 참조하세요.
 
 ### 피드 상태 표시기 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-[!UICONTROL 상태] 열에 다음 피드 상태 표시기가 표시됩니다.
+**[!UICONTROL 상태]** 열에 다음 피드 상태 표시기가 표시됩니다.
 
 | 상태 표시기 | 설명 |
 |--- |--- |
@@ -367,7 +391,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 권장 사항에서 피드 이해(3:01) ![개요 배지](/help/main/assets/overview.png)
++++ Recommendations의 피드 이해
 
 이 비디오에는 다음 정보가 포함됩니다.
 
@@ -376,7 +400,9 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 >[!VIDEO](https://video.tv.adobe.com/v/33985?captions=kor)
 
-### 피드 만들기(6:44) ![튜토리얼 배지](/help/main/assets/tutorial.png)
++++
+
++++ 피드 만들기
 
 이 비디오에는 다음 정보가 포함됩니다.
 
@@ -384,3 +410,5 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 사용할 피드 유형 파악
 
 >[!VIDEO](https://video.tv.adobe.com/v/33984?captions=kor)
+
++++

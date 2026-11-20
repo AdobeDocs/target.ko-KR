@@ -17,7 +17,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 25%
@@ -30,7 +30,7 @@ ht-degree: 25%
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Target] **[!UICONTROL 시각적 경험 작성기]**(VEC)는 페이지에서 경험을 추가 및 편집하기 위한 시각적 인터페이스를 제공합니다. 경험에 대한 자세한 내용은 [경험](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하십시오.
+[!DNL Adobe Target] **[!UICONTROL 시각적 경험 작성기]**(VEC)는 페이지에서 경험을 추가 및 편집하기 위한 시각적 인터페이스를 제공합니다. 경험에 대한 자세한 내용은 [경험](/help/main/c-experiences/experiences.md)을 참조하십시오.
 
 ## 경험 추가 및 디자인 {#add-experience}
 

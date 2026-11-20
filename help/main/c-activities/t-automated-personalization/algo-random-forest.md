@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 7%
+source-wordcount: '1312'
+ht-degree: 6%
 ---
 # Random Forest 알고리즘 {#random-forest-algorithm}
 
@@ -60,7 +60,7 @@ Random Forest는 앙상블 방법입니다. 통계를 생각하는 경우 결과
 
 ## Random Forest에서는 의사 결정 트리를 어떻게 사용합니까? {#section_536C105EF9F540C096D60450CAC6F627}
 
-의사 결정 트리는 강력한 통계 도구일 수 있습니다. 그러나 몇 가지 단점이 있습니다. 가장 중요한 것은 개별 트리가 초기 트리를 만드는 데 사용되지 않은 미래 데이터를 잘못 예측하도록 데이터를 &quot;과도하게 맞춤&quot;할 수 있다는 것입니다. 이 문제를 통계적 학습에서는 [편향-분산 트레이드오프](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)&#x200B;(bias-variance tradeoff)라고 합니다.
+의사 결정 트리는 유용한 통계 도구입니다. 그러나 몇 가지 단점이 있습니다. 가장 중요한 것은 개별 트리가 초기 트리를 만드는 데 사용되지 않은 미래 데이터를 잘못 예측하도록 데이터를 &quot;과도하게 맞춤&quot;할 수 있다는 것입니다. 이 문제를 통계적 학습에서는 [편향-분산 트레이드오프](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)&#x200B;(bias-variance tradeoff)라고 합니다.
 
 랜덤 포레스트는 이 도전을 극복하는 데 도움이 됩니다. 랜덤 포레스트는 수백 개의 결정 트리가 같은 데이터 세트에 약간 다르게 만들어지고 개별 트리보다 더 나은 모델을 산출하기 위해 함께 &quot;투표&quot;하는 컬렉션입니다. 트리는 대체 항목이 있는 방문 레코드의 하위 집합을 임의로 선택하고(Bagging이라고 함) 속성의 하위 집합을 임의로 선택하여, 포리스트가 약간 다른 결정 트리로 구성되도록 합니다. 이 방법은 나무에 작은 변형을 도입한다. 이렇게 제어된 분산량을 추가하면 알고리즘의 예측 정확도가 향상되는 데 도움이 된다.
 

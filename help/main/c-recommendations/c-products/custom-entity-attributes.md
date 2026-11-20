@@ -19,14 +19,20 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5ed511322cc9f04c349471f8ad84a17526d4925f
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 80%
+source-wordcount: '1347'
+ht-degree: 54%
 ---
-# 사용자 지정 엔티티 속성
+# 사용자 지정 엔티티 속성 {#custom-entity-attributes}
 
-[!DNL Adobe Target Recommendations]에서 단일 및 다중 값 사용자 지정 엔터티 특성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** [!DNL Adobe Target Recommendations] 카탈로그의 항목을 설명하는 단일 및 다중 값 사용자 지정 엔터티 특성을 정의하고 보내고 사용하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target Recommendations]에서 단일 및 다중 값 사용자 지정 엔터티 특성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다. 그런 다음 이 정보를 알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙에 사용할 수 있으며 디자인에 표시할 수 있습니다.
 
 ## 제한 {#limits}
 
@@ -67,7 +73,7 @@ ht-degree: 80%
 
 **제한 사항**:
 
-* 사용자 지정 엔티티 속성에는 사전 정의된 엔티티 속성 이름을 사용할 수 없습니다. [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)을 참조하십시오.
+* 사용자 지정 엔티티 속성에는 사전 정의된 엔티티 속성 이름을 사용할 수 없습니다. [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md#entity-attributes)을 참조하십시오.
 * `entity.environment` 속성은 시스템에 의해 예약되어 있으므로 사용자 지정 엔티티 속성에 사용할 수 없습니다. `entity.environment`, 피드 또는 API를 사용하여 `targetPageParams`를 전달하려고 시도하는 것은 무시됩니다.
 * 배열에 단일 값 유형이 포함되어야 합니다. 혼합 값 배열(`["AB",1,true]`)은 지원되지 않습니다.
 * 중첩 JSON 배열(`[10,12,[1,2,3]]`)을 포함하는 다중 값 속성은 단일 값 속성으로 처리됩니다.
@@ -78,11 +84,9 @@ ht-degree: 80%
 
 큰따옴표는 이스케이프 처리를 해야 합니다. 예를 들어, `"[""test"", ""value""]"`는 CSV로 사용할 수 있는 올바른 JSON 배열입니다.
 
-다중 값 속성에는 최대 500개의 값을 포함할 수 있습니다.
-
 ### targetPageParams 사용
 
-다음 예는 `targetPageParams`를 사용하는 방법을 보여줍니다.
+다음 예제에서는 `targetPageParams`을(를) 사용하는 방법을 보여 줍니다.
 
 ```javascript
 function targetPageParams() { 
@@ -91,10 +95,10 @@ function targetPageParams() {
     'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
     'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
     'entity.event.detailsOnly':     'true', 
-    'excludedIds":                  '[123, 3232, 2323, 4344]', 
-    'orderId":                      '123456', 
-    'orderTotal":                   '195.32', 
-    'productPurchaseId":            '[001,002,003]' 
+    'excludedIds':                  '[123, 3232, 2323, 4344]', 
+    'orderId':                      '123456', 
+    'orderTotal':                   '195.32', 
+    'productPurchaseId':            '[001,002,003]' 
   }; 
 }
 ```
@@ -151,113 +155,35 @@ mbox 매개 변수의 배달 API를 이스케이프 처리된 JSON 배열을 포
 
 부정 연산자의 경우, 모든 속성 값이 연산을 통과해야 합니다(부울 *and*). 예를 들어 연산자가 `notEquals`이면 값이 일치하는 경우 결과는 *false*&#x200B;가 됩니다.
 
-알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 연산자 비헤이비어에 대해서는 다음 섹션을 참조하십시오.
+다음 표에서는 각 연산자의 동작을 요약하고 각 예제 규칙에 대한 사례를 설명합니다.
 
-### 다음과 같음
-
-어떤 속성 값이든 입력 값과 같으면 결과는 true가 됩니다.
-
-예: `genre equals abc`
-
-* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
-* 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
-* 사례 3: `entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 false입니다.
-
-### 다음과 같지 않음
-
-입력 값과 같은 속성 값이 없으면 결과는 true가 됩니다.
-
-예: `genre not equals abc`
-
-* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
-* 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
-* 사례 3: `entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 true입니다.
-
-### 다음 포함
-
-속성 중 어떤 값이든 입력 값을 포함하면 결과는 true가 됩니다.
-
-예: `genre contains abc`
-
-* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
-* 사례 2: `entity.genre = ["abcde", "de", "ef"]`. 하나의 값이 `abc`.
-
-### 다음을 포함하지 않음
-
-속성 중 입력 값을 포함하는 값이 없으면 결과는 true가 됩니다.
-
-예: `genre does not contain abc`
-
-* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
-* 사례 2: `entity.genre = ["abcde", "de", "ef"]`. 하나의 값이`abc`.
-
-### 다음으로 시작
-
-속성 중 어떤 값이든 입력 값으로 시작하면 결과는 true가 됩니다.
-
-예: `genre starts with abc`
-
-* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
-* 사례 2: `entity.genre = ["abcde", "de", "ef"]`. 하나의 값이 `abc`.
-* 사례 3: `entity.genre = ["ab", "de", "abc"]`. 하나의 값이 `abc`로 시작하므로 결과는 true입니다(목록에서 첫 번째 요소일 필요는 없음).
-
-### 다음으로 끝남
-
-속성 중 어떤 값이든 입력 값으로 끝나면 결과는 true가 됩니다.
-
-예: `genre ends with abc`
-
-* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
-* 사례 2: `entity.genre = ["deabc", "de", "ef"]`. 하나의 값이 `abc`.
-
-### 다음보다 크거나 같음(숫자 값만 해당)
-
-속성 값이 double로 변환됩니다. 규칙을 실행하는 동안 변환할 수 없는 속성은 건너뜁니다.
-
-처리 후, 어떤 속성 값이든 입력 값보다 크거나 같으면 결과는 true가 됩니다.
-
-예: `price greater than or equal to 100`
-
-* 사례 1: `entity.price = ["10", "20", "45"]`. 100보다 크거나 같은 값이 없으므로 결과는 false입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.
-* 사례 2: `entity.price = ["100", "101", "90", "80"]`. 두 값이 100보다 크거나 같으므로 결과는 true입니다.
-
-### 다음보다 작거나 같음(숫자 값만 해당)
-
-속성 값이 double로 변환됩니다. 규칙을 실행하는 동안 변환할 수 없는 속성은 건너뜁니다.
-
-처리 후, 어떤 속성 값이든 입력 값보다 작거나 같으면 결과는 true가 됩니다.
-
-예: `price less than or equal to 100`
-
-* 사례 1: `entity.price = ["101", "200", "141"]`. 100보다 작거나 같은 값이 없으므로 결과는 false입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.
-* 사례 2: `entity.price = ["100", "101", "90", "80"]`. 두 값이 100보다 작거나 같으므로 결과는 true입니다.
-
-### 동적으로 일치(항목 기반 알고리즘에서만 사용 가능)
-
-어떤 속성 값이든 입력 값과 일치하면 결과는 true가 됩니다.
-
-예: `genre matches abc`
-
-* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
-* 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
-
-### 동적으로 일치하지 않음(항목 기반 알고리즘에서만 사용 가능)
-
-어떤 속성 값이든 입력 값과 일치하면 결과는 false가 됩니다.
-
-예: `genre does not match abc`
-
-* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
-* 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
-
-### 동적 범위(항목 기반 알고리즘에서만 사용 가능, 숫자 값만 해당)
-
-숫자 속성 값이 지정된 범위 내에 있으면 결과는 true가 됩니다.
-
-예: `price dynamically ranges in 80% to 120% of 100`
-
-* 사례 1: `entity.price = ["101", "200", "125"]`. `101`이 100의 80%~120% 범위에 있으므로 결과는 true입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.
-* 사례 2: `entity.price = ["130", "191", "60", "75"]`. 100의 80%~120% 범위에 있는 값이 없으므로 결과는 false입니다.
+| 연산자 | 다음의 경우 결과는 true입니다. | 규칙 예 | 속성 값 | 결과 | 이유 |
+|---|---|---|---|---|---|
+| 다음과 같음 | 모든 속성 값은 입력 값과 같습니다. | `genre equals abc` | `["ab", "bc", "de"]` | False | `abc`과(와) 같은 값이 없습니다. |
+|  |  |  | `["abc", "de", "ef"]` | True | 하나의 값이 `abc`과(와) 같습니다. |
+|  |  |  | `["abcde", "de", "ef"]` | False | `abc`이(가) 목록에 있는 어떤 요소와도 같지 않습니다. |
+| 다음과 같지 않음 | 입력 값과 같은 속성 값이 없습니다. | `genre not equals abc` | `["ab", "bc", "de"]` | True | `abc`과(와) 같은 값이 없습니다. |
+|  |  |  | `["abc", "de", "ef"]` | False | 하나의 값이 `abc`과(와) 같습니다. |
+|  |  |  | `["abcde", "de", "ef"]` | True | `abc`이(가) 목록에 있는 어떤 요소와도 같지 않습니다. |
+| 다음 포함 | 모든 속성 값에 입력 값이 포함됩니다. | `genre contains abc` | `["ab", "bc", "de"]` | False | `abc`을(를) 포함하는 값이 없습니다. |
+|  |  |  | `["abcde", "de", "ef"]` | True | 하나의 값에 `abc`이(가) 포함되어 있습니다. |
+| 다음을 포함하지 않음 | 입력 값을 포함하는 속성 값이 없습니다. | `genre does not contain abc` | `["ab", "bc", "de"]` | True | `abc`을(를) 포함하는 값이 없습니다. |
+|  |  |  | `["abcde", "de", "ef"]` | False | 하나의 값에 `abc`이(가) 포함되어 있습니다. |
+| 다음으로 시작 | 모든 속성 값은 입력 값으로 시작합니다. | `genre starts with abc` | `["ab", "bc", "de"]` | False | `abc`(으)로 시작하는 값이 없습니다. |
+|  |  |  | `["abcde", "de", "ef"]` | True | 하나의 값이 `abc`(으)로 시작합니다. |
+|  |  |  | `["ab", "de", "abc"]` | True | 하나의 값이 `abc`(목록에서 첫 번째 요소일 필요는 없음)으로 시작합니다. |
+| 다음으로 끝남 | 모든 속성 값은 입력 값으로 끝납니다. | `genre ends with abc` | `["ab", "bc", "de"]` | False | `abc`(으)로 끝나는 값이 없습니다. |
+|  |  |  | `["deabc", "de", "ef"]` | True | 하나의 값이 `abc`(으)로 끝납니다. |
+| 다음보다 크거나 같음(숫자 값만 해당) | 모든 속성 값이 입력 값보다 크거나 같습니다. 각 값이 double로 변환되며 변환할 수 없는 값은 규칙이 실행되는 동안 건너뜁니다. | `price greater than or equal to 100` | `["10", "20", "45", "de"]` | False | 100보다 크거나 같은 값이 없습니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다. |
+|  |  |  | `["100", "101", "90", "80"]` | True | 두 값이 100보다 크거나 같습니다. |
+| 다음보다 작거나 같음(숫자 값만 해당) | 모든 속성 값이 입력 값보다 작거나 같습니다. 각 값이 double로 변환되며 변환할 수 없는 값은 규칙이 실행되는 동안 건너뜁니다. | `price less than or equal to 100` | `["101", "200", "141", "de"]` | False | 100보다 작거나 같은 값은 없습니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다. |
+|  |  |  | `["100", "101", "90", "80"]` | True | 두 개의 값이 100보다 작거나 같습니다. |
+| 동적으로 일치(항목 기반 알고리즘에서만 사용 가능) | 모든 속성 값이 입력 값과 일치합니다. | `genre matches abc` | `["ab", "bc", "de"]` | False | `abc`과(와) 일치하는 값이 없습니다. |
+|  |  |  | `["abc", "de", "ef"]` | True | 하나의 값이 `abc`과(와) 일치합니다. |
+| 동적으로 일치하지 않음(항목 기반 알고리즘에서만 사용 가능) | 입력 값과 일치하는 속성 값이 없습니다. 어떤 속성 값이든 일치하면 결과는 false입니다. | `genre does not match abc` | `["ab", "bc", "de"]` | True | `abc`과(와) 일치하는 값이 없습니다. |
+|  |  |  | `["abc", "de", "ef"]` | False | 하나의 값이 `abc`과(와) 일치합니다. |
+| 동적 범위(항목 기반 알고리즘에서만 사용 가능, 숫자 값만 해당) | 모든 숫자 속성 값이 지정된 범위 내에 있습니다. | `price dynamically ranges in 80% to 120% of 100` | `["101", "200", "125", "de"]` | True | `101`은(는) 100의 80%~120% 범위에 있습니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다. |
+|  |  |  | `["130", "191", "60", "75"]` | False | 100의 80%~120% 범위에 있는 값이 없습니다. |
 
 >[!NOTE]
 >
@@ -271,6 +197,6 @@ mbox 매개 변수의 배달 API를 이스케이프 처리된 JSON 배열을 포
 
 디자인에서 `entity.genre=["genre1","genre2"]`가 `$entity<N>.genre`로 참조되는 경우 결과는 `genre1, genre2`입니다.
 
-## 관련 항목:
+## 관련 항목
 
-* [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md#entity-attributes)

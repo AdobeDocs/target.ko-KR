@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 16%
 ---
 # 다변량 테스트 만들기 {#create-mvt}
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Target]의 **[!UICONTROL 시각적 경험 작성기]**(VEC)를 사용하면 **[!UICONTROL 다변량 테스트]**&#x200B;를 쉽게 만들고 [!DNL Target] 내에서 페이지의 부분을 수정할 수 있습니다.
+[!DNL Adobe Target]의 **[!UICONTROL 시각적 경험 작성기]**(VEC)를 사용하면 **[!UICONTROL 다변량 테스트]**&#x200B;를 만들고 [!DNL Target] 내에서 페이지의 부분을 수정할 수 있습니다.
 
 [!DNL Target] 가리키고 클릭 편집기를 사용하여 원하는 위치를 선택하고 여러 오퍼를 추가할 수 있습니다.
 
@@ -50,7 +50,7 @@ ht-degree: 16%
 
 1. **[!UICONTROL 활동 만들기]** > **[!UICONTROL 다변량 테스트]**&#x200B;를 클릭합니다.
 
-   [!DNL Target]에서 사용 가능한 다양한 활동 유형과 그 차이점에 대한 자세한 내용은 [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. 필요한 활동 유형 세트를 결정하는 데 도움이 되는 [타겟 활동 유형](/help/main/c-activities/target-activities-guide.md)을 참조하십시오.
+   [!DNL Target]에서 사용 가능한 다양한 활동 유형과 그 차이점에 대한 자세한 내용은 [활동](/help/main/c-activities/activities.md#types)을 참조하십시오. 필요한 활동 유형 세트를 결정하는 데 도움이 되는 [타겟 활동 유형](/help/main/c-activities/target-activities-guide.md)을 참조하십시오.
 
    ![](../../assets/create-mvt-1.png)
 
@@ -132,7 +132,7 @@ ht-degree: 16%
 
 **[!UICONTROL 목표 및 설정]** 페이지에서 [!DNL Target]에게 테스트 측정 방법을 알려 줍니다. 사용 가능한 설정은 [!DNL Target] 또는 [!DNL Analytics]을(를) 보고 소스로 사용하는지에 따라 다릅니다.
 
-1. 페이지의 섹션을 검토하고 필요한 사항을 설정합니다. [목표 및 설정 페이지에서 설정한 내용](#goals-settings-overview)을 참조하세요.
+1. 페이지의 섹션을 검토하고 필요한 사항을 설정합니다. [목표 및 설정 페이지에서 설정한 내용](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)을 참조하세요.
 
 
    | 섹션 | 설정한 항목 |

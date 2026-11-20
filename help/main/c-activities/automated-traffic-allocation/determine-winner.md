@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 174d4631b6f4a481c039bd7fff52a8e70161e19e
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 3%
@@ -50,7 +50,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->**[!UICONTROL 자동 할당]** 활동은 통제군과의 쌍별 비교를 수행할 뿐만 아니라 모든 선택 사항 중에서 최상의 경험을 찾도록 설계되었습니다.
+>**[!UICONTROL 자동 할당]** 활동은 컨트롤과 쌍별 비교를 수행할 뿐만 아니라 모든 옵션 중에서 최상의 경험을 찾도록 설계되었습니다.
 
 ## [!UICONTROL 자동 할당]의 통계적 보장 {#statistical-guarantees}
 

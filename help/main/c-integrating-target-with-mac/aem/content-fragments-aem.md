@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 20%
@@ -35,7 +35,7 @@ Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!D
 
 [!DNL Target]의 AEM [!UICONTROL 콘텐츠 조각]을 사용하여 작업할 때 다음 사항을 고려하십시오.
 
-* [!DNL Adobe Experience Manager as a Cloud Service] 고객만 이 기능을 사용할 수 있습니다. 자세한 내용은 아래의 [요구 사항](#section_AE6F0971E1574B3AA324003599B96E5A)을 참조하십시오.
+* [!DNL Adobe Experience Manager as a Cloud Service] 고객만 이 기능을 사용할 수 있습니다. 자세한 내용은 아래의 [요구 사항](#requirements)을 참조하십시오.
 * [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]을(를) 다음 활동 유형에 사용할 수 있습니다.
 
   * [[!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md)

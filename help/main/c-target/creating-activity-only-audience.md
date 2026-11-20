@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 27%
@@ -30,7 +30,7 @@ ht-degree: 27%
 * 활동 전용 대상을 사용하여 한 번만 사용하려고 하며 [!UICONTROL 대상 라이브러리]에 저장하지 않으려는 대상을 만들 수 있습니다. 활동 전용 대상을 사용하면 [!UICONTROL 대상 라이브러리]에서 다시 사용하지 않으려는 대상으로 복잡해지는 것을 방지할 수 있습니다.
 * [!UICONTROL 대상 라이브러리]에 활동 전용 대상이 표시되지 않습니다. 이러한 대상은 라이브러리에 표시되지 않으므로 조직의 다른 사용자가 원치 않는 변경을 하지 않도록 방지됩니다.
 
-1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 만드는 동안 **[!UICONTROL 타깃팅]** 페이지에서 세 개의 세로 줄임표를 클릭한 다음 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭합니다.
+1. [활동](/help/main/c-activities/activities.md)을 만드는 동안 **[!UICONTROL 타깃팅]** 페이지에서 세 개의 세로 줄임표를 클릭한 다음 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭합니다.
 
    ![단계 결과](assets/edit_audience.png)
 

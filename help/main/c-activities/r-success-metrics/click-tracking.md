@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 40%
@@ -98,7 +98,7 @@ ht-degree: 40%
 
   자세한 내용은 *시각적 경험 작성기 선택 사항*&#x200B;에서 [DOM 경로를 사용하여 요소 탐색](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)을 참조하십시오.
 
-* 페이지에서 콘텐츠를 변경하지 않을 수 있는 클릭 수를 추적하기 위해 다른 페이지로 이동할 수 있습니다. 이 다른 페이지는 [다중 페이지 기능](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 사용하여 활동에 포함되어야 하며 [!DNL at.js]을(를) 구현해야 합니다.
+* 페이지에서 콘텐츠를 변경하지 않을 수 있는 클릭 수를 추적하기 위해 다른 페이지로 이동할 수 있습니다. 이 다른 페이지는 [다중 페이지 기능](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)을 사용하여 활동에 포함되어야 하며 [!DNL at.js]을(를) 구현해야 합니다.
 * 추적할 요소의 수준을 선택해야 합니다. 예를 들어, 단추를 지정할 때 단추 텍스트가 아닌 링크를 선택해야 합니다.
 * 둘 이상의 요소를 선택하는 경우 참여자가 선택된 요소 중 하나를 클릭하면 해당 클릭은 카운트됩니다. 각 항목을 별도로 카운트하려면 각 요소에 대해 개별 성공 지표를 설정하십시오. 페이지에서 여러 요소를 클릭하여 한 항목을 계산하려면 CSS 요소 선택기를 여러 요소와 일치하도록 편집합니다.
 * 단일 페이지 애플리케이션(SPA)의 **[!UICONTROL Automated Personalization]**(AP) 및 자동 타겟 활동의 경우 특정 [!DNL Target] 보기에 속하는 클릭 추적에 대한 요소를 선택할 수 있습니다. 보기에 대한 자세한 내용은 [Adobe Target 보기 및 단일 페이지 응용 프로그램](/help/main/c-experiences/spa-visual-experience-composer.md)을 참조하십시오.

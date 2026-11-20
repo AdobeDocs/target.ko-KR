@@ -4,12 +4,18 @@ description: Adobe Target 활동 개요에서 Experimentation Accelerator에서 
 title: 활동 개요의 AI 인사이트
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 36%
+source-wordcount: '788'
+ht-degree: 35%
 ---
-# AI 인사이트
+# AI 인사이트 {#ai-insights}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** [!DNL Adobe Target] **[!UICONTROL 활동 개요]**&#x200B;의 **[!UICONTROL AI 인사이트]** 메뉴를 사용하여 실험 학습을 검토하고, 처리를 비교하고, 최적화 기회를 식별하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

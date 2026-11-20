@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -133,9 +133,9 @@ ht-degree: 48%
 **내 요구에 가장 잘 맞는 활동 유형을 어떻게 알 수 있습니까?**
 
 +++세부 정보 보기
-[!DNL Target]에서 제공한 각 선택 사항이 적용되는 사례를 알려면 [Target 활동 안내서](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)를 읽어 보십시오.
+[!DNL Target]에서 제공한 각 선택 사항이 적용되는 사례를 알려면 [Target 활동 안내서](/help/main/c-activities/target-activities-guide.md)를 읽어 보십시오.
 
-[권장 사항 활동](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)도 고려해 보십시오.
+[권장 사항 활동](/help/main/c-recommendations/recommendations.md)도 고려해 보십시오.
 
 +++
 
@@ -174,7 +174,7 @@ ht-degree: 48%
 **목표를 달성하기 위해 활동을 설정하는 방법을 명확히 알려면 어떻게 해야 합니까?**
 
 +++세부 정보 보기
-이 문제는 [목표](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) 와 관련이 있습니다.
+이 문제는 [목표](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) 와 관련이 있습니다.
 
 먼저 최적화할 대상을 알아야 합니다. [!UICONTROL 매출], [!UICONTROL 전환] 또는 [!UICONTROL 참여]입니까? 이러한 각 옵션은 목표 섹션에서 사용할 수 있습니다. 또한 이러한 각 옵션에 대해 사용자가 목표에 도달했음을 인증하기 위해 사이트에서 수행하는 작업을 추가로 정의할 수 있습니다.
 

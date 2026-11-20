@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 2%
 ---
 # [!UICONTROL 경험 타깃팅] 시작 {#get-started-xt}
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 방문자가 사이트를 볼 때 [!UICONTROL 경험 타기팅]은(는) 이러한 방문자를 평가하여 설정된 기준을 충족하는지 여부를 판단합니다. 기준을 충족하면 활동을 시작하고 자격을 갖춘 대상자를 위해 디자인된 경험이 표시됩니다.
 
-[!UICONTROL 경험 타깃팅]은(는) 개인화 환경의 첫 번째 단계이며 종종 A/B 테스트부터 시작됩니다. 마케터는 A/B 테스트를 실행하고, 보고 대상을 사용하여 서로 다른 경험이 서로 다른 대상과 공감한다는 것을 발견합니다. [!UICONTROL 경험 타깃팅]을 통해 마케터는 해당 검색을 쉽게 사용하고 컨텐츠의 장기적인 타깃팅을 다른 대상 세그먼트로 전환할 수 있습니다.
+[!UICONTROL 경험 타깃팅]은(는) 개인화 환경의 첫 번째 단계이며 종종 A/B 테스트부터 시작됩니다. 마케터는 A/B 테스트를 실행하고, 보고 대상을 사용하여 서로 다른 경험이 서로 다른 대상과 공감한다는 것을 발견합니다. [!UICONTROL 경험 타깃팅]을 통해 마케터는 해당 검색을 사용하여 콘텐츠의 장기적인 타깃팅을 다른 대상 세그먼트로 전환할 수 있습니다.
 
 ## 시나리오: A/B 테스트부터 경험 타깃팅까지 {#xt-scenario}
 

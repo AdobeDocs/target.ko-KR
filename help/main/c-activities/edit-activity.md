@@ -16,7 +16,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 14%
@@ -76,7 +76,7 @@ ht-degree: 14%
 
 다국적 조직에 속하는 경우 유럽 웹 페이지, 속성 또는 사이트를 위한 작업 공간과 미국 웹 페이지, 속성 또는 사이트를 위한 또 다른 작업 공간이 있을 수 있습니다. 복수 브랜드 조직에 속하는 경우에는 각 브랜드를 위한 독립된 작업 공간이 있을 수 있습니다.
 
-작업 공간 및 Enterprise 사용자 권한 기능에 대한 자세한 내용은 [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)을 참조하세요.
+작업 공간 및 Enterprise 사용자 권한 기능에 대한 자세한 내용은 [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 참조하세요.
 
 사용자 환경에서 **[!UICONTROL Enterprise 사용자 권한]**&#x200B;을 사용하도록 설정한 경우 활동을 동일한 작업 영역이나 다른 작업 영역에 복사할 수 있습니다. 현재 활동을 한 작업 공간에서 다른 작업 공간으로 이동할 수는 없습니다. 다른 작업 영역에 활동을 복사하려면 **[!UICONTROL 활동]** 페이지에서 복사할 활동 옆에 있는 **[!UICONTROL 추가 작업]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 **[!UICONTROL 복사]**&#x200B;를 클릭합니다.
 

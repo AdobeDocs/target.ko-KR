@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d27cb7e782e79c68f185f897758c6edb439da2cb
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '915'
 ht-degree: 1%
 ---
 # A/A 테스트 {#aa-testing}
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-A/A 테스트는 두 개의 동일한 경험 간에 트래픽을 분할합니다. 경험은 다르지 않으므로 테스트는 활동, 구현 및 보고가 예상대로 작동하는지 확인하는 방법입니다. 그렇다 하더라도, 동일한 경험은 때때로 상승도에 차이를 보일 수 있다. 이유를 이해하면 테스트를 실행하고 결과를 올바르게 해석하는 데 도움이 됩니다.
+A/A 테스트는 두 개의 동일한 경험 간에 트래픽을 분할하므로 테스트는 활동, 구현 및 보고가 예상대로 작동하는지 확인하는 방법입니다. 그렇다 하더라도, 동일한 경험은 때때로 상승도에 차이를 보일 수 있다. 이유를 이해하면 테스트를 실행하고 결과를 올바르게 해석하는 데 도움이 됩니다.
 
 ## A/A 테스트란 무엇입니까? {#what-is-aa}
 

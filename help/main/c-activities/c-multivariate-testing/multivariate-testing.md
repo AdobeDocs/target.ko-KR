@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 24%
@@ -44,7 +44,7 @@ ht-degree: 24%
 
 ![다변량 테스트 조합](assets/multivariate.png)
 
-생성할 수 있는 조합 수로 인해 **[!UICONTROL 다변량 테스트]**&#x200B;는 A/B 테스트보다 더 많은 시간과 트래픽이 필요합니다. 페이지에서 충분한 트래픽을 수신해야 각 경험에 대해 통계상으로 유효한 결과를 얻을 수 있습니다. 유용한 결과를 얻으려면 페이지에 수신되는 트래픽의 양을 파악하고 적절한 시간에 대한 최적의 조합 수를 테스트하십시오.
+생성할 수 있는 조합 수로 인해 **[!UICONTROL 다변량 테스트]**&#x200B;에는 A/B 테스트보다 더 많은 시간과 트래픽이 필요합니다. 페이지에서 충분한 트래픽을 수신해야 각 경험에 대해 통계상으로 유효한 결과를 얻을 수 있습니다. 유용한 결과를 얻으려면 페이지에 수신되는 트래픽의 양을 파악하고 적절한 시간에 대한 최적의 조합 수를 테스트하십시오.
 
 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#traffic-estimator)를 사용하면 트래픽을 사용한 테스트를 디자인할 수 있습니다. 사용하기 전에 사이트에서 일반적으로 수신하는 노출 횟수 및 전환 수를 보여주는 좋은 통계가 있어야 하며 일별 트래픽 수준을 고려해야 합니다. 활동에 경험이 많을수록 활동에 포함되어야 하는 트래픽이 많거나 실행해야 하는 시간이 길어집니다. 트래픽 양이 높지 않으면 몇 가지 조합을 테스트하십시오. 그렇지 않으면 의미 있는 테스트 결과를 생성하는 데 필요한 시간이 너무 길어 유용할 수 없습니다.
 

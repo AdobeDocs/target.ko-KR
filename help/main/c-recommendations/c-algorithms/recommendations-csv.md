@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 67ee6127f023f8450e1e6798a617b2bcbd6e7ba6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 24%
@@ -61,7 +61,7 @@ CSV 파일을 업로드하여 [!DNL Adobe Target]에서 권장 사항을 사용�
 
    * **FTP:** FTP 서버에서 CSV 파일을 업로드하려면 **[!UICONTROL FTP]**&#x200B;을 선택한 다음 필요한 정보를 입력합니다. SSL을 사용할 수 있습니다. SSL은 FTPS 프로토콜을 사용하여 CSV 파일을 안전하게 전송합니다.
 
-   * **SFTP:** SFTP 서버에서 CSV 파일을 업로드하려면 **[!UICONTROL SFTP]**&#x200B;을(를) 선택한 다음 호스트 이름 또는 IP 주소, 포트(기본값 22), 사용자 이름, 암호 및/또는 SSH 개인 키, 디렉터리 및 파일 이름을 입력하십시오. 자세한 내용은 [지원되는 SFTP 서버 설정](/help/main/c-recommendations/c-products/feeds.md#sftp-settings)을 참조하세요.
+   * **SFTP:** SFTP 서버에서 CSV 파일을 업로드하려면 **[!UICONTROL SFTP]**&#x200B;을(를) 선택한 다음 호스트 이름 또는 IP 주소, 포트(기본값 22), 사용자 이름, 암호 및/또는 SSH 개인 키, 디렉터리 및 파일 이름을 입력하십시오. 자세한 내용은 [지원되는 SFTP 서버 설정](/help/main/c-recommendations/c-products/feeds.md#steps)을 참조하세요.
 
      SFTP는 사용자 지정 기준 CSV 형식을 변경하지 않습니다. `# Key,Recommendation_1,...` 형식을 사용하십시오. 다른 피드 형식의 형식을 사용하면 가져오기가 실패합니다.
 

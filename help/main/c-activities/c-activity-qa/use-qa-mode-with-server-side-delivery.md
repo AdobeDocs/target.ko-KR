@@ -22,16 +22,20 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0a683f6e68bb7481b9e45c91a275a46b84a1ffd8
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 47%
+source-wordcount: '429'
+ht-degree: 18%
 ---
-# 활동 QA 및 서버측 전달 사용
+# 활동 QA 및 서버측 전달 사용 {#qa-server-side}
 
-[!DNL Adobe Target]에서 서버 측 전달과 함께 QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간편한 엔드 투 엔드 활동 QA, 선택적 대상 타깃팅, 라이브 활동 데이터에서 세그먼트화된 QA 보고를 수행할 수 있습니다.
+>[!BEGINSHADEBOX]
 
-활동 QA의 표준 구현에서는 `pageUrl` 매개 변수를 통해 `qa_mode` 매개 변수를 전달할 수 있습니다. 이 방법은 standard/ajax [!DNL Target] 호출에 편리합니다. 그러나 서버 간 호출의 경우 `pageUrl`을 사용할 수 없는 모바일 SDK 사례에는 적합한 방법이 아닙니다.
+**이 페이지에서:** `pageUrl`을(를) 사용할 수 없을 때 활동을 테스트할 수 있도록 서버측 [!DNL Adobe Target] 호출에서 활동 QA 매개 변수를 전달하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
+
+활동 QA의 표준 구현에서는 `pageUrl` 매개 변수를 통해 `qa_mode` 매개 변수를 전달할 수 있습니다. 이 방법은 standard/ajax [!DNL Target] 호출에 편리합니다. 하지만 `pageUrl`을(를) 사용할 수 없는 모바일 SDK 구현과 같이 서버 간 호출에는 적합하지 않습니다. 이러한 경우 동일한 미리 보기 링크, 선택적 대상 타기팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고를 유지하는 요청 자체에 QA 매개 변수를 전달합니다.
 
 다음 코드 샘플은 서버 측 호출의 활동 QA를 보여 줍니다.
 
@@ -70,14 +74,14 @@ ht-degree: 47%
 }
 ```
 
-다음 표는 서버 측 요청의 세부 사항을 설명합니다.
+다음 표에서는 서버측 요청의 매개 변수에 대해 설명합니다.
 
-| 매개 변수 | 유형 | 기본값 | 설명 |
+| 매개 변수 | 유형 | 기본 값 | 설명 |
 |--- |--- |--- |--- |
-| 토큰 | 암호화된 토큰 | 없습니다.<br>비워 둘 수 없습니다. | 활동 QA에서 실행할 수 있는 활동 ID 목록을 포함하는 암호화된 엔터티입니다.<br>유효성 검사 규칙: [!DNL Target] 요청에 지정된 클라이언트에 속하는 암호화된 토큰이어야 합니다. 토큰에 지정된 모든 활동은 클라이언트에 속해야 합니다. |
-| bypassEntryAudience | 부울 | False | QA 활동에 대한 입력 단계 Target을 평가해야 하는지, 또는 일치한 것으로 간주해야 하는지 여부를 지정합니다. |
-| listedActivitiesOnly | 부울 | False | QA 활동이 분리되어야 하는지, 또는 현재 환경에 대한 활성 활동으로 평가되어야 하는지 여부를 지정합니다. |
-| evaluateAsTrueAudienceIds | ID 목록 | 목록이 비어 있습니다. | [!DNL Target] 요청의 범위에서 항상 true로 평가되어야 하는 대상 ID 목록입니다. |
-| evaluateAsFalseAudienceIds | ID 목록 | 목록이 비어 있습니다. | [!DNL Target] 요청 범위에서 항상 false로 평가되어야 하는 대상 ID 목록입니다. |
-| activityIndex | 정수 | Null.<br>비워 둘 수 없습니다. | 암호화된 토큰의 활동 색인입니다. activityIndex가 토큰의 활동 범위를 벗어나거나 Null인 경우 무시됩니다. 인덱스는 1.<br>유효성 검사 규칙으로 시작: 적어도 하나의 활동 색인이어야 하며 토큰에 지정된 활동을 참조해야 합니다. |
-| experienceIndex | 정수 | Null. | 지정된 경우 활동 정의에서 색인별 경험을 선택합니다. 지정하지 않거나 범위를 벗어나면 활동의 경험 선택기 전략으로 되돌아갑니다. 색인은 1개의 유효성 검사 규칙으로 시작합니다. Null이거나 활동의 경험을 참조해야 합니다. |
+| 토큰 | 암호화된 토큰 | 없음. 비워둘 수 없습니다. | 활동 QA에서 실행할 수 있는 활동 ID 목록을 포함하는 암호화된 엔터티입니다.<br>유효성 검사 규칙: 토큰은 [!DNL Target] 요청에 지정된 클라이언트에 속하는 암호화된 토큰이어야 합니다. 토큰에 지정된 모든 활동은 클라이언트에 속해야 합니다. |
+| bypassEntryAudience | 부울 | False | QA 활동에 대한 시작 단계 대상을 일치로 평가할지 또는 일치로 간주할지 여부를 지정합니다. |
+| listedActivitiesOnly | 부울 | False | QA 활동을 개별적으로 실행할지 또는 현재 환경에 대한 활성 활동으로 평가할지 여부를 지정합니다. |
+| evaluateAsTrueAudienceIds | ID 목록 | 빈 목록 | [!DNL Target] 요청의 범위에서 항상 true로 평가되는 대상 ID 목록입니다. |
+| evaluateAsFalseAudienceIds | ID 목록 | 빈 목록 | [!DNL Target] 요청 범위에서 항상 false로 평가되는 대상 ID 목록입니다. |
+| activityIndex | 정수 | Null. 비워둘 수 없습니다. | 암호화된 토큰의 활동 색인입니다. `activityIndex`이(가) null이거나 토큰의 활동 범위를 벗어나면 무시됩니다. 인덱스는 1.<br>유효성 검사 규칙으로 시작합니다. 하나 이상의 활동 인덱스가 필요하며 토큰에 지정된 활동을 참조해야 합니다. |
+| experienceIndex | 정수 | Null | 지정된 경우 활동 정의에서 색인별 경험을 선택합니다. 지정되지 않았거나 경계를 벗어나는 경우 활동의 경험 선택기 전략으로 돌아갑니다. 색인이 1.<br>유효성 검사 규칙으로 시작: 값이 null이거나 활동의 경험을 참조해야 합니다. |

@@ -1,6 +1,6 @@
 ---
 keywords: 대상자;대상자 규칙;대상자 결합;제외;제외 추가;제외하기;대상자 결합하기;임시 대상자;애드혹 대상자
-description: 즉석으로 여러 대상(Adobe Experience Cloud 대상 및 [!DNL Target] 대상)을 결합하여 임시 대상을 만드는 방법을 알아봅니다.
+description: 즉석으로 여러 대상(Adobe Experience Cloud 대상 및 [!DNL Target]개 대상)을 결합하여 임시 대상을 만드는 방법을 알아봅니다.
 title: 여러 대상을 결합하여 새 대상을 만들 수 있습니까?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
@@ -16,13 +16,11 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: '965'
 ht-degree: 55%
-
 ---
-
 # 여러 대상자 결합
 
 즉석으로 여러 대상([!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform] 및 [!DNL Target] 대상)을 결합하여 임시 대상을 만듭니다. 제외 규칙을 만들고 규칙에서 대상을 제외할 수도 있습니다.
@@ -45,7 +43,7 @@ AND와 OR 연산자를 사용하여 최대 20개의 대상을 결합할 수 있�
 
 3단계 안내가 있는 워크플로우 동안 활동의 [!UICONTROL Target] 페이지에서 결합된 임시 대상을 만들 수 있습니다.
 
-1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 만드는 동안 **[!UICONTROL 타깃팅]** 페이지에서 세 개의 세로 줄임표를 클릭한 다음 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭합니다.
+1. [활동](/help/main/c-activities/activities.md)을 만드는 동안 **[!UICONTROL 타깃팅]** 페이지에서 세 개의 세로 줄임표를 클릭한 다음 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭합니다.
 
    ![단계 결과](assets/edit_audience.png)
 
@@ -95,7 +93,7 @@ AND와 OR 연산자를 사용하여 최대 20개의 대상을 결합할 수 있�
 
 지표 타깃팅에서 사용할 결합된 임시 대상을 활동의 [!UICONTROL 목표 및 설정] 페이지에서 만들어 수 있습니다. 예를 들어, 결합된 대상을 사용하여 전환을 기반으로 타깃팅을 만들려면 다음을 수행하십시오.
 
-1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만드는 동안 **[!UICONTROL 목표 및 설정]** 페이지에서 성공 지표에 대해 **[!UICONTROL 전환]**&#x200B;을 선택한 다음 **[!UICONTROL Mbox 확인함]**&#x200B;을 작업으로 선택합니다.
+1. [활동](/help/main/c-activities/activities.md)을 편집하거나 만드는 동안 **[!UICONTROL 목표 및 설정]** 페이지에서 성공 지표에 대해 **[!UICONTROL 전환]**&#x200B;을 선택한 다음 **[!UICONTROL Mbox 확인함]**&#x200B;을 작업으로 선택합니다.
 1. **[!UICONTROL mbox 검색]** 필드에서 원하는 mbox를 선택합니다.
 
    ![combine_multiple_audiences4 이미지](assets/combine_multiple_audiences4.png)
@@ -111,7 +109,7 @@ AND와 OR 연산자를 사용하여 최대 20개의 대상을 결합할 수 있�
 
 보고에서 사용할 결합된 임시 대상을 활동의 [!UICONTROL 목표 및 설정] 페이지에서 만들어 수 있습니다.
 
-1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만드는 동안 **[!UICONTROL 목표 및 설정]** 페이지에서 [!UICONTROL 보고 대상] 아래의 **[!UICONTROL 대상 추가]** 아이콘을 클릭하여 [!UICONTROL 대상 선택] 페이지를 표시합니다.
+1. [활동](/help/main/c-activities/activities.md)을 편집하거나 만드는 동안 **[!UICONTROL 목표 및 설정]** 페이지에서 [!UICONTROL 보고 대상] 아래의 **[!UICONTROL 대상 추가]** 아이콘을 클릭하여 [!UICONTROL 대상 선택] 페이지를 표시합니다.
 
    ![combine_multiple_audiences6 이미지](assets/combine_multiple_audiences6.png)
 

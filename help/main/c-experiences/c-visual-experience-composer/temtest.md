@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 23%
@@ -45,7 +45,7 @@ ht-degree: 23%
 
 변경 요소를 포함하는 페이지를 지정하거나 사이트 또는 도메인에서 변경 사항을 적용할 수 있습니다.
 
-1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)에 설명된 대로 활동을 만들거나 편집합니다.
+1. [활동](/help/main/c-activities/activities.md)에 설명된 대로 활동을 만들거나 편집합니다.
 
 1. 경험이 표시되는 페이지를 지정하려면 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)에서 [!UICONTROL 구성] 아이콘(![구성 아이콘](/help/main/assets/icons/Setting.svg))을 클릭한 다음 **[!UICONTROL 페이지 전달]**&#x200B;을 선택합니다.
 
@@ -101,7 +101,7 @@ ht-degree: 23%
 * 글로벌 배너를 포함하려면(예: COVID-19 공지)
 * 글로벌 무료 배송 프로모션을 포함하려면
 
-1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)에 설명된 대로 활동을 만들거나 편집합니다.
+1. [활동](/help/main/c-activities/activities.md)에 설명된 대로 활동을 만들거나 편집합니다.
 
 1. 경험이 표시되는 도메인을 지정하려면 [!UICONTROL 시각적 경험 작성기]에서 [!UICONTROL 구성] 아이콘(![구성 아이콘](/help/main/assets/icons/Setting.svg))을 클릭한 다음 **[!UICONTROL 페이지 전달]**&#x200B;을 선택합니다.
 
