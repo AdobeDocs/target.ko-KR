@@ -106,7 +106,7 @@ ht-degree: 12%
 
 ### [!DNL Adobe Experience Platform Web SDK]
 
-사이트에 [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}이(가) 배포된 경우 `at_qa_mode` 매개 변수를 빈 값으로 설정하여 사이트에서 페이지를 로드하여 수동으로 나올 수 있습니다. 예:
+사이트에 [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}이(가) 배포된 경우 `at_qa_mode` 매개 변수를 빈 값으로 설정하여 사이트에서 페이지를 로드하여 수동으로 나올 수 있습니다. 예:
 
 `https://www.mysite.com/?at_qa_mode=`
 
@@ -154,7 +154,7 @@ ht-degree: 12%
 
 +++ 서드파티 쿠키를 차단하는 브라우저(at.js 1.*x*)
 
-Safari를 사용하거나 서드파티 쿠키를 차단하는 다른 브라우저를 사용하는 경우 at.js 1.*x*&#x200B;이(가) 있는 경우 **[!UICONTROL 활동 QA]** 모드가 페이지 간에 지속되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리보기 매개 변수를 추가해야 합니다. [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}을(를) 구현한 경우에도 마찬가지입니다.
+Safari를 사용하거나 서드파티 쿠키를 차단하는 다른 브라우저를 사용하는 경우 at.js 1.*x*&#x200B;이(가) 있는 경우 **[!UICONTROL 활동 QA]** 모드가 페이지 간에 지속되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리보기 매개 변수를 추가해야 합니다. [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=ko){target=_blank}을(를) 구현한 경우에도 마찬가지입니다.
 
 +++
 
@@ -204,9 +204,9 @@ Safari를 사용하거나 서드파티 쿠키를 차단하는 다른 브라우�
 
 [!DNL Target]은(는) 다음 JavaScript 라이브러리를 지원합니다.
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko)
+* [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko)
 
 다음 표는 다양한 활동 유형을 나열하고 각 라이브러리에 대해 **[!UICONTROL 활동 QA]** 모드가 지원되는지 여부를 나타냅니다.
 

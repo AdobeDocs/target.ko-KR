@@ -74,10 +74,10 @@ AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]에 대한 자�
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* **AEM as a Cloud Service**: *Experience Manager as a Cloud Service* 안내서의 [Adobe Target과 통합](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}
-* **Adobe Developer**: *관리 사용 안내서* 설명서에서 [Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank}을(를) 사용하여 Adobe Target과 통합
+* **AEM as a Cloud Service**: *Experience Manager as a Cloud Service* 안내서의 [Adobe Target과 통합](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}
+* **Adobe Developer**: *관리 사용 안내서* 설명서에서 [Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=ko){target=_blank}을(를) 사용하여 Adobe Target과 통합
 * **[!DNL AEM]6.5**: *Adobe Experience Manager 6.5* 설명서의 [Adobe Analytics 및 Adobe Target 선택](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=ko){target=_blank}.
-* **[!DNL AEM]6.4**: *Adobe Experience Manager 6.4* 설명서의 [Adobe Analytics 및 Adobe Target 선택](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank}.
+* **[!DNL AEM]6.4**: *Adobe Experience Manager 6.4* 설명서의 [Adobe Analytics 및 Adobe Target 선택](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ko){target=_blank}.
 
 ### 2단계: 경험 조각 만들기
 
@@ -100,9 +100,9 @@ AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]에 대한 자�
 
 [!DNL AEM] 버전에 따른 단계별 지침은 다음 링크를 참조하십시오.
 
-* **AEM as a Cloud Service**: *Experience Manager as a Cloud Service* 안내서에서 [Adobe Target으로 [!UICONTROL 경험 조각]을(를) 내보내기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}합니다.
+* **AEM as a Cloud Service**: *Experience Manager as a Cloud Service* 안내서에서 [Adobe Target으로 [!UICONTROL 경험 조각]을(를) 내보내기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}합니다.
 * **[!DNL AEM]6.5**: *Adobe Experience Manager 6.5* 설명서의 [Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=ko){target=_blank}.
-* **[!DNL AEM]6.4**: *Adobe Experience Manager 6.4* 설명서의 [Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank}.
+* **[!DNL AEM]6.4**: *Adobe Experience Manager 6.4* 설명서의 [Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ko){target=_blank}.
 
 ## [!DNL Target] 활동에서 [!UICONTROL 경험 조각] 사용 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -192,4 +192,4 @@ AEM에서 제공한 페이지에서 [!DNL Target]과(와) 함께 [!UICONTROL 경
 >
 >4:54에 설명된 [!DNL AEM] 딥링크 기능이 제거되었습니다.
 
-자세한 내용은 *AEM Sites 비디오 및 자습서* 페이지에서 [Adobe Target에서 [!UICONTROL 경험 조각] 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)을 참조하십시오.
+자세한 내용은 *AEM Sites 비디오 및 자습서* 페이지에서 [Adobe Target에서 [!UICONTROL 경험 조각] 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=ko)을 참조하십시오.
