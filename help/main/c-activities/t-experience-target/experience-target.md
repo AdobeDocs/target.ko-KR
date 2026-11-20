@@ -1,7 +1,7 @@
 ---
 keywords: 타깃팅;경험 타깃팅;xt;랜딩 페이지;랜딩 페이지 캠페인
-description: '[!DNL Adobe Target]의 [!UICONTROL 경험 타깃팅] (XT) 활동을 사용하여 마케터가 정의한 규칙 및 기준에 따라 특정 대상에게 콘텐츠를 전달하는 방법을 알아봅니다.'
-title: '[!UICONTROL 경험 타깃팅] (XT) 활동이란 무엇입니까?'
+description: '[!DNL Adobe Target]의 [!UICONTROL 경험 타깃팅](XT) 활동을 사용하여 마케터가 정의한 규칙 및 기준에 따라 특정 대상에게 콘텐츠를 전달하는 방법을 알아봅니다.'
+title: '[!UICONTROL 경험 타깃팅](XT) 활동이란 무엇입니까?'
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 TQID: 'https://experienceleague.adobe.com/PCTBCP2tGaNZSIAScWLR84B6an42E-2PJ1Ijm0tHrn4'
@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 2%
 ---
 # [!UICONTROL 경험 타깃팅] 시작 {#get-started-xt}
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 방문자가 사이트를 볼 때 [!UICONTROL 경험 타기팅]은(는) 이러한 방문자를 평가하여 설정된 기준을 충족하는지 여부를 판단합니다. 기준을 충족하면 활동을 시작하고 자격을 갖춘 대상자를 위해 디자인된 경험이 표시됩니다.
 
-[!UICONTROL 경험 타깃팅]은(는) 개인화 환경의 첫 번째 단계이며 종종 A/B 테스트부터 시작됩니다. 마케터는 A/B 테스트를 실행하고, 보고 대상을 사용하여 서로 다른 경험이 서로 다른 대상과 공감한다는 것을 발견합니다. [!UICONTROL 경험 타깃팅]을 통해 마케터는 해당 검색을 쉽게 사용하고 컨텐츠의 장기적인 타깃팅을 다른 대상 세그먼트로 전환할 수 있습니다.
+[!UICONTROL 경험 타깃팅]은(는) 개인화 환경의 첫 번째 단계이며 종종 A/B 테스트부터 시작됩니다. 마케터는 A/B 테스트를 실행하고, 보고 대상을 사용하여 서로 다른 경험이 서로 다른 대상과 공감한다는 것을 발견합니다. [!UICONTROL 경험 타깃팅]을 통해 마케터는 해당 검색을 사용하여 콘텐츠의 장기적인 타깃팅을 다른 대상 세그먼트로 전환할 수 있습니다.
 
 ## 시나리오: A/B 테스트부터 경험 타깃팅까지 {#xt-scenario}
 
@@ -54,6 +54,6 @@ ht-degree: 2%
 * 두 가지 상태 모두를 대상으로 하는 경험과 사이클링 애호가를 대상으로 하는 세 번째 경험을 만들어 서로 다른 지리적 영역의 대상자에게 위치 특정 콘텐츠를 제공합니다.
 * 세 가지 경험을 재정렬하여 올바른 콘텐츠가 올바른 대상에게 전달되도록 하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/30948?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 비디오를 시청한 후 [경험 타깃팅 활동 만들기](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)를 계속 진행합니다.

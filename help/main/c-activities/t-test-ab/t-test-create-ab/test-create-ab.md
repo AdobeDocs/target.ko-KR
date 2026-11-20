@@ -1,6 +1,6 @@
 ---
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: '[!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
+description: '[!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
 title: A/B 테스트를 만들려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # A/B 테스트 활동 만들기 {#create-ab-activity}
@@ -134,7 +134,7 @@ ht-degree: 10%
 
    +++
 
-1. **[!UICONTROL 트래픽 할당]** 컨트롤을 클릭한 다음 오른쪽 창에서 트래픽 할당 방법을 선택하십시오. [트래픽 할당 메서드](#traffic-allocation-methods)를 참조하십시오.
+1. **[!UICONTROL 트래픽 할당]** 컨트롤을 클릭한 다음 오른쪽 창에서 트래픽 할당 방법을 선택하십시오. 사용 가능한 메서드는 다음 표에 나와 있습니다.
 
    ![트래픽 할당 메서드 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -143,7 +143,7 @@ ht-degree: 10%
    | 방법 | 기능 |
    |---|---|
    | **[!UICONTROL 수동(기본값)]** | 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다. |
-   | **[!UICONTROL 최고 경험에 자동 할당]** | 대부분의 활동 참여자는 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 성과 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [**[!UICONTROL 자동 할당&#x200B;]**&#x200B;개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)를 참조하십시오. |
+   | **[!UICONTROL 최고 경험에 자동 할당]** | 대부분의 활동 참여자는 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 성과 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [**[!UICONTROL 자동 할당&#x200B;]**개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)를 참조하십시오. |
    | **[!UICONTROL 개인화된 경험에 대한 자동 타겟]** | [!DNL Target]은(는) 고급 기계 학습을 사용하여 높은 성과를 보이는, 마케터가 정의한 여러 경험을 식별한 후, 개별 고객 프로필 및 비슷한 방문자의 이전 동작을 기준으로 방문자에게 가장 잘 조정된 경험을 제공함으로써 콘텐츠를 개인화하고 전환을 유도합니다. 자세한 내용은 [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md)를 참조하십시오. |
 
    +++
@@ -156,7 +156,7 @@ ht-degree: 10%
 
 **[!UICONTROL 목표 및 설정]** 페이지에서 [!DNL Target]에게 활동을 측정하는 방법을 알려 줍니다. 사용 가능한 설정은 [!DNL Target] 또는 [Analytics를 보고 소스로 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)하는지에 따라 다릅니다.
 
-1. 페이지의 섹션을 검토하고 필요한 사항을 설정합니다. [목표 및 설정 페이지에서 설정한 내용](#goals-settings-overview)을 참조하세요.
+1. 페이지의 섹션을 검토하고 필요한 사항을 설정합니다. [목표 및 설정 페이지에서 설정한 내용](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)을 참조하세요.
 
    | 섹션 | 설정한 항목 |
    |---|---|

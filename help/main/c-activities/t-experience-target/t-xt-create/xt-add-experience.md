@@ -1,6 +1,6 @@
 ---
 keywords: 경험 만들기;경험 생성;우선순위;대상자;경험;시각적 경험 작성기
-description: '[!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!UICONTROL 경험 타깃팅] (XT) 활동에서 페이지에서 경험을 만들고 편집하는 방법에 대해 알아봅니다.'
+description: '[!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!UICONTROL 경험 타깃팅](XT) 활동에서 페이지에서 경험을 만들고 편집하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL 경험 타깃팅] 활동에서 경험을 만들려면 어떻게 해야 합니까?'
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
@@ -19,7 +19,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: af388cf398e03e4ec7b4c5c44b03f772eacedf51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 16%
@@ -58,9 +58,9 @@ ht-degree: 16%
 
    +++ 대상자에 대한 자세한 정보
 
-   대상자 라이브러리에는 [!DNL Target]의 일부로 사전에 만들어진 공통 대상자를 포함하여 이전에 정의한 대상자가 포함되어 있습니다. 라이브러리에서 대상자를 선택하거나, [새 대상자를 만듭니다](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   대상자 라이브러리에는 [!DNL Target]의 일부로 사전에 만들어진 공통 대상자를 포함하여 이전에 정의한 대상자가 포함되어 있습니다. 라이브러리에서 대상자를 선택하거나, [새 대상자를 만듭니다](/help/main/c-target/c-audiences/audiences.md).
 
-   기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 주문형 결합 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
+   기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 주문형 결합 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md)을 참조하십시오.
 
    대상을 만들 때 위치를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. **[!UICONTROL 사용자 지정]**(**[!UICONTROL 대상 만들기]** > **[!UICONTROL 사용자 지정]**)에서 위치를 선택한 다음 원하는 매개 변수를 지정합니다.
 

@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 6e92e2e42c88d0802335f14e388ea24af239fa51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 61%
@@ -47,7 +47,7 @@ ht-degree: 61%
 >
 >최상의 경험을 얻고 다른 사용자와 공유하려면 대화형 [Adobe Target 활동 안내서 PDF](/help/main/assets/activities_guide_82817.pdf)를 다운로드하십시오.
 >
->이 문서에는 [**[!UICONTROL 권장 사항&#x200B;]**&#x200B;활동](/help/main/c-recommendations/recommendations.md)에 대한 정보가 없습니다. 그러나&#x200B;**[!UICONTROL &#x200B; A/B 테스트&#x200B;]**,**[!UICONTROL &#x200B;자동 할당&#x200B;]**,**[!UICONTROL &#x200B;자동 타겟&#x200B;]**&#x200B;및&#x200B;**[!UICONTROL &#x200B;경험 타깃팅&#x200B;]**(XT) 활동 내에 권장 사항을 포함할 수 있습니다. 자세한 내용은 [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다.
+>이 문서에는 [**[!UICONTROL 권장 사항&#x200B;]**활동](/help/main/c-recommendations/recommendations.md)에 대한 정보가 없습니다. 그러나**[!UICONTROL  A/B 테스트&#x200B;]**,**[!UICONTROL &#x200B;자동 할당&#x200B;]**,**[!UICONTROL &#x200B;자동 타겟&#x200B;]**및**[!UICONTROL &#x200B;경험 타깃팅&#x200B;]**(XT) 활동 내에 권장 사항을 포함할 수 있습니다. 자세한 내용은 [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다.
 
 ## 활동 유형별 역할 {#section_4ECAACC68723402EB3649033190E1BBC}
 
@@ -101,5 +101,5 @@ ht-degree: 61%
 | **[!UICONTROL 자동 할당]** | **[!UICONTROL 자동 할당]**&#x200B;은(는) 수동 A/B 테스트보다 전체 전환율이 높으므로 일반적인 A/B 테스트의 비용을 줄입니다. **[!UICONTROL 자동 할당]**&#x200B;은(는) 가장 성과가 좋은 경험에 더 많은 트래픽을 푸시하므로 전환율이 더 높습니다. 즉, 테스트 기간이 끝날 때보다 더 빨리 해당 경험의 이점을 확인할 수 있습니다(미리 볼 수 있음!). | **[!UICONTROL 자동 할당]**&#x200B;은(는) 승자를 식별하지만 패자 사이를 구분하지 않습니다. 각 경험의 성과를 알려면 A/B 테스트가 권장됩니다.<P>**[!UICONTROL 자동 할당]** 기능은 &quot;증분 카운트 및 사용자를 활동에 유지&quot;라는 하나의 고급 지표 설정에서만 작동합니다. 반복 전환을 카운트하지 않으려는 경우 A/B 테스트를 대신 사용해야 합니다. |
 | **[!UICONTROL 자동 타깃팅]** | **[!UICONTROL 자동 타겟]**&#x200B;을 사용하면 다중 페이지 경험을 포함하여 모든 종류의 경험에 머신 러닝이 적용됩니다. **[!UICONTROL 자동 타겟]** 활동을 사용하면 익숙한 A/B 테스트 워크플로를 사용하는 동안 **[!UICONTROL Automated Personalization]**&#x200B;의 값을 얻을 수도 있습니다. | **[!UICONTROL 자동 타겟]**&#x200B;을(를) 사용하면 오퍼의 콘텐츠를 자주 또는 자주 변경하려는 경우 알고리즘이 학습한 내용을 활용하고 해당 콘텐츠를 올바른 방문자에게 전달할 수 있도록 각 변경 후에 충분한 시간이 필요합니다. |
 | **[!UICONTROL Automated Personalization]** (AP) | **[!UICONTROL Automated Personalization]**&#x200B;을(를) 사용하면 한 곳에서 모든 오퍼를 수집할 수 있으며 알고리즘이 최상의 오퍼 조합을 결정합니다. 개별 경험을 지정하거나 빌드할 필요가 없습니다. **[!UICONTROL Automated Personalization]**&#x200B;은(는) **[!UICONTROL 자동 타겟]**&#x200B;과(와) 동일한 머신 러닝 알고리즘을 사용합니다. | 여러 오퍼를 조합할 경우 조합 수가 많아지면서 상당한 양의 트래픽이 필요해질 수 있습니다. **[!UICONTROL Automated Personalization]** 알고리즘은 많은 요인을 고려하므로 가장 많은 양의 트래픽이 필요합니다.<P>**[!UICONTROL Automated Personalization]**&#x200B;은(는) [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)에서 보고서를 사용할 수 없습니다. |
-| **[!UICONTROL Multivariate Testing]**(MVT) | **[!UICONTROL Multivariate Testing]**&#x200B;를 사용하면 여러 요소를 동시에 테스트할 수 있습니다. | **[!UICONTROL 다변량 테스트]**&#x200B;는 시간이 많이 소요되며, 진행 중인 여러 변수로 인해 반드시 우승 경험을 신뢰할 수 있는 결과만 있는 것은 아닙니다.<P>테스트를 완료하는 데 필요한 트래픽 양에 도달하기 어려운 경우도 종종 있습니다. 모든 **[!UICONTROL 다변량 테스트]** 실험은 완전히 계수 방식이므로 한 번에 너무 많은 요소를 변경하면 테스트해야 하는 가능한 조합을 빠르게 추가할 수 있습니다.<P>적절한 수준의 트래픽이 발생하는 사이트의 경우도 실행 가능한 시간에 25개가 넘는 조합으로 테스트를 완료하는 데 문제가 있을 수 있습니다. |
+| **[!UICONTROL Multivariate Testing]**(MVT) | **[!UICONTROL Multivariate Testing]**&#x200B;를 사용하면 여러 요소를 동시에 테스트할 수 있습니다. | **[!UICONTROL 다변량 테스트]**&#x200B;는 시간이 많이 소요되며, 진행 중인 여러 변수로 인해 반드시 우승 경험을 신뢰할 수 있는 결과만 있는 것은 아닙니다.<P>테스트를 완료하는 데 필요한 트래픽 양에 도달하기 어려운 경우도 종종 있습니다. 모든 **[!UICONTROL 다변량 테스트]** 실험은 완전히 계승되므로 한 번에 너무 많은 요소를 변경하면 테스트해야 하는 가능한 조합을 빠르게 추가할 수 있습니다.<P>적절한 수준의 트래픽이 발생하는 사이트의 경우도 실행 가능한 시간에 25개가 넘는 조합으로 테스트를 완료하는 데 문제가 있을 수 있습니다. |
 | **[!UICONTROL 경험 타기팅]** (XT) | **[!UICONTROL 경험 타깃팅]**&#x200B;을 사용하면 활동 결과에서 추론된 인사이트를 빠르게 처리할 수 있습니다.<P>예를 들어, 도전자가 제어 경험보다 더 나은 성과를 보이지 못했으나 방문자의 특정 세그먼트가 제어 경험을 사용했을 때보다 도전자 경험으로 4배 더 많이 전환되었다는 결과가 나타나면 **[!UICONTROL 경험 타기팅]**&#x200B;을 사용하여 도전자 경험을 해당 특정 세그먼트로 보낼 수 있습니다. | **[!UICONTROL 경험 타깃팅]**&#x200B;에서는 여러 대상 간의 경험 분할 비율을 제어할 수 없습니다. |

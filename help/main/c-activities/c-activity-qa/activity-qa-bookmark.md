@@ -14,22 +14,26 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0a683f6e68bb7481b9e45c91a275a46b84a1ffd8
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 12%
+source-wordcount: '356'
+ht-degree: 6%
 ---
-# 활동 QA 북마클릿
+# 활동 QA 북마클릿 {#activity-qa-bookmarklet}
 
-[!DNL Target] QA 북마클릿을 사용하여 [!DNL Target]에서 QA 모드를 해제하도록 하는 데 도움이 되는 정보입니다.
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** [!DNL Target] QA 북마클릿을 사용하여 **[!UICONTROL 활동 QA]** 모드를 종료하고 일반적인 방문자처럼 사이트를 보는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
+
+[QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md)에서 웹 사이트를 탐색한 후 [!DNL Target] 세션이 만료될 때까지 페이지 전체에서 QA 모드가 유지됩니다. 북마클릿은 JavaScript을 실행하는 브라우저 책갈피입니다. [!DNL Target] QA 북마클릿은 [!DNL Target]이(가) 사용자를 QA 모드에서 해제하도록 하므로 세션이 만료될 때까지 기다릴 필요가 없습니다. 사이트에 배포된 at.js 버전과 일치하는 버전을 사용합니다.
 
 >[!NOTE]
 >
->북마클릿을 만드는 프로세스는 브라우저 종류와 버전에 따라 다릅니다. 구체적인 지침이 필요하면 브라우저의 도움말을 참조하거나 인터넷에서 검색하십시오.
+>북마클릿을 만드는 프로세스는 브라우저 종류와 버전에 따라 다릅니다. 구체적인 방법은 브라우저의 도움말을 참조하거나 인터넷에서 검색하십시오.
 
 ## at.js 1.*x*&#x200B;에 대한 활동 QA 북마클릿
-
-[QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md)는 고정되어 있으므로 QA 모드에서 웹 사이트를 탐색한 후 일반 방문자처럼 사이트를 볼 수 있으려면 먼저 [!DNL Target] 세션이 만료되거나 [!DNL Target]에서 사용자를 QA 모드로부터 해제해야 합니다. QA 모드를 해제하려면 QA [!DNL Target] 북마클릿을 사용하십시오.
 
 [!DNL Target] QA 북마클릿을 사용하려면 다음 JavaScript 코드가 들어 있는 북마클릿을 만들어 브라우저의 책갈피 도구 모음에 추가하십시오.
 
@@ -50,15 +54,13 @@ javascript:(
 )();
 ```
 
-값이 비어 있는 `at_preview_token` 매개 변수로 사이트의 페이지를 로드하여 QA 모드를 수동으로 나올 수도 있습니다.
-
-예:
+`at_preview_token` 매개 변수를 빈 값으로 설정하여 사이트의 페이지를 로드하여 수동으로 QA 모드를 종료할 수도 있습니다. 예:
 
 `https://www.mysite.com/?at_preview_token=`
 
 ## at.js 2.*x*&#x200B;에 대한 활동 QA 북마클릿
 
-at.js 1.*x*&#x200B;과 달리, at.js 2.*x*&#x200B;은(는) 서드파티 쿠키를 지원하지 않으며 QA 모드는 서드파티 도메인에 대해서만 고정적입니다(at.js에 의해 설정된 퍼스트 파티 쿠키를 사용함). 따라서 at.js 2.*x*&#x200B;에서 QA 모드 세션은 클라이언트측에서만 관리되며 QA 모드 쿠키가 Target으로 전송되지 않습니다.
+at.js 1.*x*&#x200B;과 달리 at.js 2.*x*&#x200B;은(는) 서드파티 쿠키를 지원하지 않습니다. QA 모드는 at.js에서 설정한 자사 쿠키를 통해 자사 도메인에 대해서만 지속됩니다. 따라서 QA 모드 세션은 클라이언트측에서만 관리되며 QA 모드 쿠키가 [!DNL Target]&#x200B;(으)로 전송되지 않습니다.
 
 [!DNL Target] QA 북마클릿을 사용하려면 다음 JavaScript 코드가 들어 있는 북마클릿을 만들어 브라우저의 책갈피 도구 모음에 추가하십시오.
 
@@ -80,4 +82,8 @@ javascript:(
 
 ## 활동 QA 북마클릿 사용
 
-브라우저의 도구 모음에서 북마클릿을 클릭합니다.
+at.js 버전과 일치하는 북마클릿을 브라우저에 추가한 후 QA 모드를 종료하려는 경우 항상 사용합니다.
+
+1. QA 모드에 있는 동안 사이트의 페이지를 엽니다.
+1. 브라우저의 책갈피 도구 모음에서 북마클릿을 클릭합니다.
+1. 사이트의 페이지를 로드합니다. [!DNL Target]은(는) QA 모드에서 세션을 해제하고 사이트는 일반 방문자의 경우처럼 표시됩니다.

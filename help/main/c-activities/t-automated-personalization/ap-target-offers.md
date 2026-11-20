@@ -1,8 +1,8 @@
 ---
 keywords: 자동화된 개인화;오퍼;타겟;대상;타깃팅 규칙;타깃팅
-description: '[!UICONTROL Automated Personalization] (AP) 활동을 사용하여 특정 대상에게 개별 오퍼를 타깃팅하는 방법을 알아봅니다.'
+description: '[!UICONTROL Automated Personalization](AP) 활동을 사용하여 특정 대상에게 개별 오퍼를 타깃팅하는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 오퍼를 타깃팅하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 8%
@@ -78,7 +78,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >새 대상을 만드는 대신 여러 대상을 기존 대상과 결합하여 온디맨드 결합 대상을 만들 수 있습니다. 자세한 내용은 [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
+   >새 대상을 만드는 대신 여러 대상을 기존 대상과 결합하여 온디맨드 결합 대상을 만들 수 있습니다. 자세한 내용은 [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md)을 참조하십시오.
 
 1. **[!UICONTROL 완료를 클릭합니다]**.
 

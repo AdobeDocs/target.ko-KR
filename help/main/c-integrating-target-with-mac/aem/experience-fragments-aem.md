@@ -1,7 +1,7 @@
 ---
 keywords: 경험;json;aem;adobe experience manager;adobe target에 내보내기;경험 조각;조각;XF
 description: '[!DNL Adobe Target] 활동에서 [!DNL Adobe Experience Manager] [!UICONTROL 경험 조각]을(를) 사용하는 방법을 알아봅니다.'
-title: '[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 경험 조각]을 사용하려면 어떻게 해야 합니까?'
+title: '[!DNL Adobe Experience Manager](AEM) [!UICONTROL 경험 조각]을 사용하려면 어떻게 해야 합니까?'
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
 TQID: https://experienceleague.adobe.com/-W1ELJx0ajes6BPEVIiS8q6ebmRLTTgIrxvGMUEWEaM
@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 28%
@@ -35,7 +35,7 @@ ht-degree: 28%
 
 [!DNL Target]에서 AEM [!UICONTROL 경험 조각]을 사용하여 작업할 때 다음 사항을 고려하십시오.
 
-* 이 기능을 사용하려면 [!DNL Adobe Experience Manager] (AEM) 고객이어야 합니다. 자세한 내용은 아래의 [요구 사항](#section_AE6F0971E1574B3AA324003599B96E5A)을 참조하십시오.
+* 이 기능을 사용하려면 [!DNL Adobe Experience Manager] (AEM) 고객이어야 합니다. 자세한 내용은 아래의 [요구 사항](#requirements)을 참조하십시오.
 * [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]을(를) 다음 활동 유형에 사용할 수 있습니다.
 
   * [[!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md)
@@ -74,10 +74,10 @@ AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]에 대한 자�
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* **AEM as a Cloud Service**: *Experience Manager as a Cloud Service* 안내서의 [Adobe Target과 통합](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}
-* **Adobe Developer**: *관리 사용 안내서* 설명서에서 [Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=ko){target=_blank}을(를) 사용하여 Adobe Target과 통합
+* **AEM as a Cloud Service**: *Experience Manager as a Cloud Service* 안내서의 [Adobe Target과 통합](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}
+* **Adobe Developer**: *관리 사용 안내서* 설명서에서 [Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank}을(를) 사용하여 Adobe Target과 통합
 * **[!DNL AEM]6.5**: *Adobe Experience Manager 6.5* 설명서의 [Adobe Analytics 및 Adobe Target 선택](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=ko){target=_blank}.
-* **[!DNL AEM]6.4**: *Adobe Experience Manager 6.4* 설명서의 [Adobe Analytics 및 Adobe Target 선택](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ko){target=_blank}.
+* **[!DNL AEM]6.4**: *Adobe Experience Manager 6.4* 설명서의 [Adobe Analytics 및 Adobe Target 선택](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank}.
 
 ### 2단계: 경험 조각 만들기
 
@@ -100,9 +100,9 @@ AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]에 대한 자�
 
 [!DNL AEM] 버전에 따른 단계별 지침은 다음 링크를 참조하십시오.
 
-* **AEM as a Cloud Service**: *Experience Manager as a Cloud Service* 안내서에서 [Adobe Target으로 [!UICONTROL 경험 조각]을(를) 내보내기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}합니다.
+* **AEM as a Cloud Service**: *Experience Manager as a Cloud Service* 안내서에서 [Adobe Target으로 [!UICONTROL 경험 조각]을(를) 내보내기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}합니다.
 * **[!DNL AEM]6.5**: *Adobe Experience Manager 6.5* 설명서의 [Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=ko){target=_blank}.
-* **[!DNL AEM]6.4**: *Adobe Experience Manager 6.4* 설명서의 [Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ko){target=_blank}.
+* **[!DNL AEM]6.4**: *Adobe Experience Manager 6.4* 설명서의 [Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank}.
 
 ## [!DNL Target] 활동에서 [!UICONTROL 경험 조각] 사용 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -150,7 +150,7 @@ AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]에 대한 자�
    * **A/B 테스트:** [A/B 테스트 만들기](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **자동 할당:** [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)
    * **자동 타겟팅:** [자동 타겟팅](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **AP(Automated Personalization):**&#x200B;[Automated Personalization 활동 작성](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
+   * **AP(Automated Personalization):**[Automated Personalization 활동 작성](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
    * **경험 타겟팅(XT):** [경험 타겟팅 활동 만들기](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
    * **A/B 테스트 또는 XT 활동의 추천:** [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
@@ -186,10 +186,10 @@ AEM에서 제공한 페이지에서 [!DNL Target]과(와) 함께 [!UICONTROL 경
 
 다음 비디오는 [!UICONTROL 경험 조각]을 설정하고 사용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/34816?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
 
 >[!NOTE]
 >
 >4:54에 설명된 [!DNL AEM] 딥링크 기능이 제거되었습니다.
 
-자세한 내용은 *AEM Sites 비디오 및 자습서* 페이지에서 [Adobe Target에서 [!UICONTROL 경험 조각] 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=ko)을 참조하십시오.
+자세한 내용은 *AEM Sites 비디오 및 자습서* 페이지에서 [Adobe Target에서 [!UICONTROL 경험 조각] 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)을 참조하십시오.

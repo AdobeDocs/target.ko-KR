@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -137,7 +137,7 @@ AP는 사람의 분석을 최소화하면서 완전히 자동화되고 지속적
 
 ### 권장 사항
 
-[권장 사항](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) 활동은 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. [!UICONTROL 권장 사항]은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
+[권장 사항](/help/main/c-recommendations/recommendations.md) 활동은 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. [!UICONTROL 권장 사항]은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 
 권장 사항은 사이트에서의 고객의 활동에 따라 고객에게 제품을 제안하는 방법을 결정합니다. 예:
 
@@ -200,6 +200,6 @@ Beta 기능을 설명하는 [!DNL Target] 가이드의 문서에는 각 페이�
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

@@ -2,7 +2,7 @@
 keywords: 경험 미리 보기;경험 URL;URL 생성;경험 URL 보기
 description: Adobe [!DNL Target] Automated Personalization 활동에 대한 경험 미리 보기 URL을 사용하여 활동이 라이브 상태가 되기 전에 사이트에서 직접 경험 콘텐츠를 보는 방법에 대해 알아봅니다.
 title: Automated Personalization 활동에서 경험 미리보기 URL을 사용하려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 product_v2:
@@ -14,18 +14,24 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 41%
+source-wordcount: '774'
+ht-degree: 39%
 ---
-# 경험치 미리보기 URL을 사용하여 Automated Personalization 활동 미리보기
+# 경험치 미리보기 URL을 사용하여 Automated Personalization 활동 미리보기 {#experience-preview}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** **[!UICONTROL Automated Personalization]** 활동에 대한 경험 미리 보기 URL을 생성하여 활동이 활성화되기 전에 사이트에서 경험을 보는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 미리 보기 및 QA 목적으로 활동이 라이브 상태가 되기 전에 사이트에서 직접 경험 콘텐츠를 볼 수 있도록 [!DNL Target] [!UICONTROL Automated Personalization] 활동에 대한 경험 미리 보기 URL을 생성할 수 있습니다. 경험 미리보기 URL은 타깃팅을 우회하여 특정 경험을 강제로 볼 수 있습니다.
 
 >[!NOTE]
 >
->다른 유형의 [!DNL Target] 활동에 대한 경험 미리 보기 URL을 만들 수 있습니다. 그러나 그 과정은 약간 다르다. 자세한 내용은 [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md#preview)를 참조하십시오.
+>다른 유형의 [!DNL Target] 활동에 대한 경험 미리 보기 URL을 만들 수 있습니다. 그러나 그 과정은 약간 다르다. 자세한 내용은 [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md#section_1C59BAA247B247BDB125D1BE8EAD4547)를 참조하십시오.
 
 별도의 QA 활동을 만들지 않고 경험 미리보기 URL을 사용하여 팀 구성원과 경험을 공유하고 브라우저 및 환경에서 경험을 QA할 수 있습니다. 이 기능은 사이트가 복잡한 경우나 보안 정책 때문에 해당 사이트를 시뮬레이터에서 볼 수 없는 경우에 특히 유용합니다.
 

@@ -1,7 +1,7 @@
 ---
 keywords: 경험;json;aem;adobe experience manager;adobe target으로 내보내기;콘텐츠 조각;조각;CF;cf;headless;개인화;실험
 description: '[!DNL Adobe Target] 활동에서 [!DNL Adobe Experience Manager] [!UICONTROL 콘텐츠 조각]을(를) 사용하는 방법을 알아봅니다.'
-title: '[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을(를) 사용하는 방법'
+title: '[!DNL Adobe Experience Manager](AEM) [!UICONTROL 콘텐츠 조각]을(를) 사용하는 방법'
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 20%
@@ -35,7 +35,7 @@ Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!D
 
 [!DNL Target]의 AEM [!UICONTROL 콘텐츠 조각]을 사용하여 작업할 때 다음 사항을 고려하십시오.
 
-* [!DNL Adobe Experience Manager as a Cloud Service] 고객만 이 기능을 사용할 수 있습니다. 자세한 내용은 아래의 [요구 사항](#section_AE6F0971E1574B3AA324003599B96E5A)을 참조하십시오.
+* [!DNL Adobe Experience Manager as a Cloud Service] 고객만 이 기능을 사용할 수 있습니다. 자세한 내용은 아래의 [요구 사항](#requirements)을 참조하십시오.
 * [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]을(를) 다음 활동 유형에 사용할 수 있습니다.
 
   * [[!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md)
@@ -55,15 +55,15 @@ AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대한 자�
 
 ## 요구 사항 {#requirements}
 
-[[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ko){target=_blank}을 사용하고 있어야 합니다. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
+[[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}을 사용하고 있어야 합니다. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
 
 [Adobe Target 고객 지원](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 연락하여 통합을 활성화하고 인증 세부 사항을 제공받으십시오.
 
 ## [!DNL AEM]에서 [!UICONTROL 콘텐츠 조각] 구성 및 작업 {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-[!DNL Target] 활동에서 사용할 [!UICONTROL 콘텐츠 조각]을 내보내려면 AEM에서 몇 가지 사전 단계를 수행해야 합니다. 자세한 내용은 *Adobe Target as a Cloud Service 설명서*&#x200B;에서 [Experience Manager으로 콘텐츠 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=ko){target=_blank}를 참조하십시오.
+[!DNL Target] 활동에서 사용할 [!UICONTROL 콘텐츠 조각]을 내보내려면 AEM에서 몇 가지 사전 단계를 수행해야 합니다. 자세한 내용은 *Adobe Target as a Cloud Service 설명서*&#x200B;에서 [Experience Manager으로 콘텐츠 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}를 참조하십시오.
 
-[!UICONTROL 콘텐츠 조각]의 디자인, 만들기, 조정 및 게시에 대한 자세한 내용은 [Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=ko){target=_blank}에서 [[!UICONTROL 콘텐츠 조각]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=ko){target=_blank} 및 [콘텐츠 조각을 사용하여 작업](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=ko){target=_blank}을 참조하세요.
+[!UICONTROL 콘텐츠 조각]의 디자인, 만들기, 조정 및 게시에 대한 자세한 내용은 [Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}에서 [[!UICONTROL 콘텐츠 조각]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=ko){target=_blank} 및 [콘텐츠 조각을 사용하여 작업](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank}을 참조하세요.
 
 ## [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각] 사용 중 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 

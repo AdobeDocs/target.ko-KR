@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 19%
 ---
 # A/B 테스트 시작 {#test-ab}
@@ -41,7 +41,7 @@ ht-degree: 19%
 다음과 같은 경우 수동 A/B 테스트 사용:
 
 * 성공 지표 또는 대체 컨텐츠 전달을 기반으로 페이지 성능을 향상시키는 방법에 대한 명확한 가설이 있습니다.
-* 새로운 레이아웃 또는 요소의 완전히 다른 처리와 같은 큰 변경 내용을 테스트하려는 경우 테스트 디자인이 개별 페이지 요소로 쉽게 분류되지 않는 경우 [다변량 테스트](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)를 실행하기 전에 A/B 테스트를 실행해야 합니다.
+* 새로운 레이아웃 또는 요소의 완전히 다른 처리와 같은 큰 변경 내용을 테스트하려는 경우 테스트 디자인을 개별 페이지 요소로 분류할 수 없는 경우에는 [다변량 테스트](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)를 실행하기 전에 A/B 테스트를 실행해야 합니다.
 * 각 경험을 보는 방문자의 비율을 결정하려고 합니다. 예를 들어, 제어와 두 번째 경험 간에 트래픽을 균등하게 분할하거나 대상의 5%에게만 표시하여 보다 위험한 새로운 경험을 테스트할 수 있습니다.
 
 A/B 테스트를 위한 최적 샘플 크기 결정에 대한 자세한 내용은 [A/B 테스트 계획](/help/main/c-activities/t-test-ab/sample-size-determination.md)을 참조하십시오.
