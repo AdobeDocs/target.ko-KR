@@ -5,7 +5,6 @@ title: Adobe Target MCP 서버 개요
 description: Adobe Target MCP 서버가 무엇인지, 주요 기능 및 AI 어시스턴트에 연결하는 방법에 대해 알아봅니다.
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
-badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 product_v2:
@@ -24,9 +23,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8fd1b8e05c92c3e0b49f61b17fbf5fba522a8410
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1029'
 ht-degree: 0%
 ---
 # [!DNL Adobe Target] MCP 서버 {#target-mcp}
@@ -35,7 +34,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Target] MCP 서버는 **공개 Beta**&#x200B;의 모든 고객이 사용할 수 있습니다. 현재 **클라우드 웹**, **클라우드 데스크톱**, **클라우드 코드**, **커서** 및 **ChatGPT**&#x200B;에서 지원됩니다. 추가 MCP 호환 애플리케이션에 대한 지원은 향후 릴리스에 추가될 예정입니다.
+>[!DNL Adobe Target] MCP 서버는 현재 **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** 및 **ChatGPT**&#x200B;에서 지원됩니다. 추가 MCP 호환 애플리케이션에 대한 지원은 향후 릴리스에 추가될 예정입니다.
 
 
 ## 모델 컨텍스트 프로토콜이란 무엇입니까? {#mcp-overview}
@@ -95,7 +94,7 @@ ht-degree: 0%
 
 +++[!DNL Adobe Target] 데이터가 MCP 클라이언트 공급자로 전송되었습니까?
 
-프롬프트를 제출하면 MCP 클라이언트는 관련 컨텍스트(MCP 서버에서 반환된 [!DNL Adobe Target] 데이터 포함)를 처리를 위해 해당 모델로 보낼 수 있습니다. 프로덕션 데이터에 연결하기 전에 MCP 클라이언트 공급자의 개인정보 보호 및 데이터 처리 정책을 검토하십시오. Adobe의 데이터 처리는 [Adobe 개인정보 처리방침](https://www.adobe.com/kr/privacy.html) 및 [데이터 보호 약관](https://www.adobe.com/go/dpt-ww)의 적용을 받습니다.
+프롬프트를 제출하면 MCP 클라이언트는 관련 컨텍스트(MCP 서버에서 반환된 [!DNL Adobe Target] 데이터 포함)를 처리를 위해 해당 모델로 보낼 수 있습니다. 프로덕션 데이터에 연결하기 전에 MCP 클라이언트 공급자의 개인정보 보호 및 데이터 처리 정책을 검토하십시오. Adobe의 데이터 처리는 [Adobe 개인정보 처리방침](https://www.adobe.com/privacy.html) 및 [데이터 보호 약관](https://www.adobe.com/go/dpt-ww)의 적용을 받습니다.
 +++
 
 +++쓰기 작업으로 인해 라이브 활동에 의도하지 않은 변경이 발생할 수 있습니까?
