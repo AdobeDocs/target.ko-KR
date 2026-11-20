@@ -54,6 +54,6 @@ ht-degree: 2%
 * 두 가지 상태 모두를 대상으로 하는 경험과 사이클링 애호가를 대상으로 하는 세 번째 경험을 만들어 서로 다른 지리적 영역의 대상자에게 위치 특정 콘텐츠를 제공합니다.
 * 세 가지 경험을 재정렬하여 올바른 콘텐츠가 올바른 대상에게 전달되도록 하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/30948?captions=kor)
 
 비디오를 시청한 후 [경험 타깃팅 활동 만들기](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)를 계속 진행합니다.
