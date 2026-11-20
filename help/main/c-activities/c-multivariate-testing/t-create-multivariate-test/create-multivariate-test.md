@@ -1,6 +1,6 @@
 ---
 keywords: mvt;다변량 테스트;다변량 테스트 만들기;다변량 테스트 생성;mvt 만들기;mvt 생성;mvt 방법;다변량 테스트 방법
-description: '[!DNL Adobe Target]의 [!UICONTROL VEC(시각적 경험 작성기)를 사용하여 [!UICONTROL 다변량 테스트](MVT)를 만드는 방법을 알아봅니다.]'
+description: '[!DNL Adobe Target]의 [!UICONTROL VEC(시각적 경험 작성기)를 사용하여 [!UICONTROL 다변량 테스트] (MVT)를 만드는 방법을 알아봅니다.]'
 title: '[!UICONTROL 다변량 테스트]를 만드는 방법'
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c

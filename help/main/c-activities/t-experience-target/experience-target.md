@@ -1,7 +1,7 @@
 ---
 keywords: 타깃팅;경험 타깃팅;xt;랜딩 페이지;랜딩 페이지 캠페인
-description: '[!DNL Adobe Target]의 [!UICONTROL 경험 타깃팅](XT) 활동을 사용하여 마케터가 정의한 규칙 및 기준에 따라 특정 대상에게 콘텐츠를 전달하는 방법을 알아봅니다.'
-title: '[!UICONTROL 경험 타깃팅](XT) 활동이란 무엇입니까?'
+description: '[!DNL Adobe Target]의 [!UICONTROL 경험 타깃팅] (XT) 활동을 사용하여 마케터가 정의한 규칙 및 기준에 따라 특정 대상에게 콘텐츠를 전달하는 방법을 알아봅니다.'
+title: '[!UICONTROL 경험 타깃팅] (XT) 활동이란 무엇입니까?'
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 TQID: 'https://experienceleague.adobe.com/PCTBCP2tGaNZSIAScWLR84B6an42E-2PJ1Ijm0tHrn4'

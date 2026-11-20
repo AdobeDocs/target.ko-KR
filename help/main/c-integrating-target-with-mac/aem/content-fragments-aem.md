@@ -1,7 +1,7 @@
 ---
 keywords: 경험;json;aem;adobe experience manager;adobe target으로 내보내기;콘텐츠 조각;조각;CF;cf;headless;개인화;실험
 description: '[!DNL Adobe Target] 활동에서 [!DNL Adobe Experience Manager] [!UICONTROL 콘텐츠 조각]을(를) 사용하는 방법을 알아봅니다.'
-title: '[!DNL Adobe Experience Manager](AEM) [!UICONTROL 콘텐츠 조각]을(를) 사용하는 방법'
+title: '[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을(를) 사용하는 방법'
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
