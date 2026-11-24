@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 52%
@@ -108,7 +108,7 @@ ht-degree: 52%
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을 선택합니다.
 
-   디자인은 페이지에서 위치의 모양을 결정하는 템플릿입니다. [!DNL Target]에 사전 구성된 디자인이 여러 개 포함되어 있습니다. 사용자 고유의 사용자 지정 디자인을 만들 수도 있습니다. 자세한 내용은 [디자인 만들기](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) 및 [디자인 사용자 지정](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)을 참조하십시오.
+   디자인은 페이지에서 위치의 모양을 결정하는 템플릿입니다. [!DNL Target]에 사전 구성된 디자인이 여러 개 포함되어 있습니다. 사용자 고유의 사용자 지정 디자인을 만들 수도 있습니다. 자세한 내용은 [디자인 만들기](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) 및 [디자인 사용자 지정](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)을 참조하십시오.
 
    ![디자인 선택 대화 상자](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -118,7 +118,7 @@ ht-degree: 52%
 
      여러 기준을 선택한 경우 디자인을 한 개만 선택할 수 있습니다.
 
-   * 사용자 지정 디자인을 만들려면 **[!UICONTROL 디자인 만들기]**&#x200B;를 클릭하고 새 디자인의 이름과 코드를 입력하십시오. **[!UICONTROL 다음]**&#x200B;을 클릭한 후 이미지를 선택하거나 업로드하고 **[!UICONTROL 완료]** > **[!UICONTROL 완료]**&#x200B;를 클릭합니다. 새 디자인 만들기에 대한 내용은 [디자인 만들기](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)를 참조하십시오.
+   * 사용자 지정 디자인을 만들려면 **[!UICONTROL 디자인 만들기]**&#x200B;를 클릭하고 새 디자인의 이름과 코드를 입력하십시오. **[!UICONTROL 다음]**&#x200B;을 클릭한 후 이미지를 선택하거나 업로드하고 **[!UICONTROL 완료]** > **[!UICONTROL 완료]**&#x200B;를 클릭합니다. 새 디자인 만들기에 대한 내용은 [디자인 만들기](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)를 참조하십시오.
 
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 

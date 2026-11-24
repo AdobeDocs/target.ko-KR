@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -31,7 +31,7 @@ ht-degree: 62%
 
   일부 기준은 [!DNL Recommendations]에서 제공됩니다. 사용자와 팀이 고유의 사용자 지정 기준을 만들 수도 있습니다.
 
-* 새 기준을 만들려면 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 만들기]**&#x200B;를 클릭한 다음 새 기준에 대한 정보를 입력하십시오. 새 기준 만들기에 대한 내용은 [새 기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)를 참조하십시오.
+* 새 기준을 만들려면 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 만들기]**&#x200B;를 클릭한 다음 새 기준에 대한 정보를 입력하십시오. 새 기준 만들기에 대한 내용은 [새 기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#create-criteria)를 참조하십시오.
 
 **기준을 선택하려면 다음을 수행하십시오.**
 
