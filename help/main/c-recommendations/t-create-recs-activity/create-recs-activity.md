@@ -1,6 +1,6 @@
 ---
 keywords: 권장 사항 만들기;권장 사항 활동;새 권장 사항;권장 사항 개요
-description: '[!DNL Target] [!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Recommendations] 활동을 만드는 방법을 알아봅니다.'
+description: '[!DNL Target] [!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Recommendations] 활동을 만드는 방법을 알아봅니다.'
 title: '[!DNL Recommendations] 활동을 만드는 방법'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
