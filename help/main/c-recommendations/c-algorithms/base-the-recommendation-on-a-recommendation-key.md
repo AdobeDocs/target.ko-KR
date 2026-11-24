@@ -49,7 +49,7 @@ ht-degree: 12%
 
 ## 장바구니 기반 {#cart-based}
 
-**[!UICONTROL 장바구니 기반]** 알고리즘 형식은 방문자의 현재 장바구니 내용에 따라 항목을 권장합니다. 권장 사항 키는 [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}에서 쉼표로 구분된 값으로 제공됩니다. 처음 10개의 값만 고려됩니다.
+**[!UICONTROL 장바구니 기반]** 알고리즘 형식은 방문자의 현재 장바구니 내용에 따라 항목을 권장합니다. 권장 사항 키는 [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}에서 쉼표로 구분된 값으로 제공됩니다. 처음 10개의 값만 고려됩니다.
 
 장바구니 기반 권장 사항 논리는 &quot;**[!UICONTROL 사용자에게 권장]**&quot; 사용자 기반 알고리즘 및 &quot;**[!UICONTROL 이 항목을 보고, 구입하고]**&quot; 및 &quot;**[!UICONTROL 이 항목을 구입하고, 구입하고]**&quot; 항목 기반 알고리즘과 유사합니다.
 
@@ -121,7 +121,7 @@ ht-degree: 12%
 >title="프로필 속성"
 >abstract="프로필 스크립트를 사용하여 프로필 속성을 만들 수 있습니다. 프로필 스크립트가 생성 및 활성화되면 해당 프로필 속성을 이 알고리즘과 함께 사용할 수 있습니다."
 
-**[!UICONTROL 프로필 특성별 가장 많이 본 항목]** 및 **[!UICONTROL 프로필 특성별 최상위 판매자]**&#x200B;는 프로필 스크립트에 따라 특성을 채웁니다. 스크립트 이름은 [!DNL Target]에서 `user.recsAttribute<Name>`(으)로 저장하도록 `recsAttribute` 접두사로 시작해야 합니다. 사용 사례와 관련된 모든 방문자 특성에 대해 스크립트를 작성할 수 있습니다. 프로필 스크립트를 사용하여 프로필 특성을 설정하는 방법에 대한 자세한 내용은 [프로필 매개 변수](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)를 참조하십시오.
+**[!UICONTROL 프로필 특성별 가장 많이 본 항목]** 및 **[!UICONTROL 프로필 특성별 최상위 판매자]**&#x200B;는 프로필 스크립트에 따라 특성을 채웁니다. 스크립트 이름은 [!DNL Target]에서 `user.recsAttribute<Name>`(으)로 저장하도록 `recsAttribute` 접두사로 시작해야 합니다. 사용 사례와 관련된 모든 방문자 특성에 대해 스크립트를 작성할 수 있습니다. 프로필 스크립트를 사용하여 프로필 특성을 설정하는 방법에 대한 자세한 내용은 [프로필 매개 변수](https://experienceleague.adobe.com/ko/docs/target/using/audiences/visitor-profiles/profile-parameters)를 참조하십시오.
 
 예를 들어, `recsAttributeRegion` 스크립트는 방문자의 영역에 권장 사항을 기반으로 합니다.
 

@@ -2,7 +2,7 @@
 keywords: 권장 사항 알고리즘;모델 교육;모델 제공;컨텐츠 전달;항목 기반;사용자 기반;인기도 기반;장바구니 기반;사용자 지정 기준
 description: 모델 교육 및 모델 서비스를 포함하여 [!DNL Target Recommendations]에서 사용되는 알고리즘에 대해 알아봅니다.
 title: Target의 추천 알고리즘에 숨겨진 과학
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 단계는 다음과 같습니다.
 
-* **입력 데이터**: [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집된 방문자 보기 및 구매 형식의 동작 데이터입니다.
+* **입력 데이터**: [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집된 방문자 보기 및 구매 형식의 동작 데이터입니다.
 
 * **모델 교육**:
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 단계는 다음과 같습니다.
 
-* **입력 데이터**: 이 알고리즘은 [카탈로그 피드, 엔터티 API 또는 페이지 업데이트를 통해 [!DNL Target]에 수집된 카탈로그 데이터만 사용합니다](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **입력 데이터**: 이 알고리즘은 [카탈로그 피드, 엔터티 API 또는 페이지 업데이트를 통해 [!DNL Target]에 수집된 카탈로그 데이터만 사용합니다](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}.
 
 * **모델 교육**:
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 단계는 다음과 같습니다.
 
-* **입력 데이터**: 항목-항목 공동 작업 필터링(CF) 방법과 동일합니다. **[!UICONTROL 사용자 추천]**&#x200B;과(와) 장바구니 기반 알고리즘 모두 [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집된 사용자 보기 및 구매 형식의 행동 데이터를 사용합니다.
+* **입력 데이터**: 항목-항목 공동 작업 필터링(CF) 방법과 동일합니다. **[!UICONTROL 사용자 추천]**&#x200B;과(와) 장바구니 기반 알고리즘 모두 [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집된 사용자 보기 및 구매 형식의 행동 데이터를 사용합니다.
 
 * **모델 교육**:
 

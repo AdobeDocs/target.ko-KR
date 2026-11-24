@@ -2,7 +2,7 @@
 keywords: 동작 데이터 소스;분석;권장 사항;기준;제품 변수
 description: '[!DNL Target Recommendations]에서 동작 데이터 원본으로 [!DNL Adobe Analytics]을(를) 사용하는 방법을 알아봅니다.'
 title: 추천와 함께 Adobe Analytics 사용
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 TQID: 'https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs'
@@ -64,7 +64,7 @@ ht-degree: 1%
 >
 >콘텐츠 사이트인 경우 해당 콘텐츠 조각을 &quot;제품&quot;으로 취급하고 해당 콘텐츠의 관련 속성을 속성으로 전달해야 합니다. 이러한 속성에는 작성자 이름, 게시 날짜, 콘텐츠 제목, 릴리스 월 등이 포함될 수 있습니다. 비즈니스 팀은 사용 사례의 요구 사항에 따라 카테고리 수준 또는 카테고리 유형의 세부기간을 결정해야 합니다.
 
-제품 변수를 설정하는 방법에 대한 자세한 내용은 *Adobe Analytics 구현* 안내서에서 [제품](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)을 참조하십시오. 해당 설명서의 일부 참고 사항(예: 카테고리에 대한)은 배포하는 팀의 판단이 필요합니다. 이 활동이 권장되기 전에 [!DNL Adobe]을(를) 컨설팅 중입니다.
+제품 변수를 설정하는 방법에 대한 자세한 내용은 *Adobe Analytics 구현* 안내서에서 [제품](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=ko)을 참조하십시오. 해당 설명서의 일부 참고 사항(예: 카테고리에 대한)은 배포하는 팀의 판단이 필요합니다. 이 활동이 권장되기 전에 [!DNL Adobe]을(를) 컨설팅 중입니다.
 
 ### 고려 사항 {#considerations}
 
