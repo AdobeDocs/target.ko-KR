@@ -1,8 +1,8 @@
 ---
 keywords: 권장 사항 만들기;권장 사항 활동;새 권장 사항;권장 사항 개요
-description: '[!DNL Target] [!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Recommendations] 활동을 만드는 방법을 알아봅니다.'
+description: '[!DNL Target] [!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Recommendations] 활동을 만드는 방법을 알아봅니다.'
 title: '[!DNL Recommendations] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 52%
@@ -49,7 +49,7 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >[!DNL Target]은 URL 프로토콜([!DNL https]와 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com/kr`] 및 [!DNL `https://wwww.adobe.com`]이(가) 모두 일치합니다.
+   >[!DNL Target]은 URL 프로토콜([!DNL https]와 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com`] 및 [!DNL `https://wwww.adobe.com`]이(가) 모두 일치합니다.
 
    활동 URL은 권장 사항이 표시되는 페이지입니다.
 
@@ -92,7 +92,7 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]** 선택란을 선택 취소하십시오. 권장 사항 설정(**[!UICONTROL 권장 사항]** > **[!UICONTROL 설정]** > **[!UICONTROL 호환되지 않는 기준 필터링]**)에 따라 [!UICONTROL 호환] 옵션이 표시되지 않을 수 있습니다. 자세한 내용은 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하십시오.
+   >모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]** 선택란을 선택 취소하십시오. 권장 사항 설정(**[!UICONTROL 권장 사항]** > **[!UICONTROL 설정]** > **[!UICONTROL 호환되지 않는 기준 필터링]**)에 따라 [!UICONTROL 호환] 옵션이 표시되지 않을 수 있습니다. 자세한 내용은 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하십시오.
 
    ![기준 선택 대화 상자](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -108,7 +108,7 @@ ht-degree: 52%
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을 선택합니다.
 
-   디자인은 페이지에서 위치의 모양을 결정하는 템플릿입니다. [!DNL Target]에 사전 구성된 디자인이 여러 개 포함되어 있습니다. 사용자 고유의 사용자 지정 디자인을 만들 수도 있습니다. 자세한 내용은 [디자인 만들기](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) 및 [디자인 사용자 지정](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)을 참조하십시오.
+   디자인은 페이지에서 위치의 모양을 결정하는 템플릿입니다. [!DNL Target]에 사전 구성된 디자인이 여러 개 포함되어 있습니다. 사용자 고유의 사용자 지정 디자인을 만들 수도 있습니다. 자세한 내용은 [디자인 만들기](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) 및 [디자인 사용자 지정](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)을 참조하십시오.
 
    ![디자인 선택 대화 상자](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -118,7 +118,7 @@ ht-degree: 52%
 
      여러 기준을 선택한 경우 디자인을 한 개만 선택할 수 있습니다.
 
-   * 사용자 지정 디자인을 만들려면 **[!UICONTROL 디자인 만들기]**&#x200B;를 클릭하고 새 디자인의 이름과 코드를 입력하십시오. **[!UICONTROL 다음]**&#x200B;을 클릭한 후 이미지를 선택하거나 업로드하고 **[!UICONTROL 완료]** > **[!UICONTROL 완료]**&#x200B;를 클릭합니다. 새 디자인 만들기에 대한 내용은 [디자인 만들기](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)를 참조하십시오.
+   * 사용자 지정 디자인을 만들려면 **[!UICONTROL 디자인 만들기]**&#x200B;를 클릭하고 새 디자인의 이름과 코드를 입력하십시오. **[!UICONTROL 다음]**&#x200B;을 클릭한 후 이미지를 선택하거나 업로드하고 **[!UICONTROL 완료]** > **[!UICONTROL 완료]**&#x200B;를 클릭합니다. 새 디자인 만들기에 대한 내용은 [디자인 만들기](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)를 참조하십시오.
 
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
@@ -193,4 +193,4 @@ ht-degree: 52%
 
 ## 교육 비디오: 권장 사항 활동 만들기(7:15) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33986?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

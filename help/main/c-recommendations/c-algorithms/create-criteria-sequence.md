@@ -2,7 +2,7 @@
 keywords: 기준 시퀀스;여러 기준;알고리즘;기준;권장 사항 기준;시퀀스;반환되는 항목 수 제한;슬롯 수준 제어;슬롯
 description: 최대 5개의 기준 시퀀스를 설정하여 Recommendations 활동에 표시되는 항목을 보다 강력하게 제어하는 방법에 대해 알아봅니다.
 title: 권장 사항에서 기준 시퀀스를 만들려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 TQID: 'https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU'
@@ -18,24 +18,30 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 17%
+source-wordcount: '862'
+ht-degree: 8%
 ---
-# 기준 시퀀스 만들기
+# 기준 시퀀스 만들기 {#create-criteria-sequence}
 
-최대 5개의 기준 시퀀스를 사용하여 [!DNL Adobe Target] [!UICONTROL 권장 사항] 활동에 나타나는 항목을 보다 세밀하게 제어할 수 있습니다. 반환되는 항목의 수를 제한할 수도 있습니다(&quot;슬롯 수준 제어&quot;라고도 함).
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 기준 시퀀스를 만들어 [!DNL Adobe Target Recommendations] 활동에 표시되는 항목을 제어하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
+
+최대 5개의 기준 시퀀스를 사용하면 [!DNL Adobe Target] **[!UICONTROL 권장 사항]** 활동에 나타나는 항목을 보다 세밀하게 제어할 수 있습니다. 반환되는 항목 수도 제한할 수 있습니다(&quot;슬롯 수준 제어&quot;라고도 함).
+
+기준이 디자인을 채우기에 충분한 결과를 반환하지 않는 경우 기준 시퀀스가 일반적인 백업 권장 사항 대신 추가 타겟팅된 권장 사항을 제공합니다. 일반적으로 기준 시퀀스는 보다 구체적인 타겟팅에서 진행되며, 이는 더 적은 결과를 반환할 수도 있고, 보다 일반적인 타겟팅으로 진행되며, 이는 일반적으로 더 많은 결과를 반환합니다.
 
 >[!NOTE]
 >
->기준 시퀀스를 2016년 10월 릴리스([!DNL Target Premium]) 이전에 만든 [!UICONTROL 권장 사항] 활동에는 사용할 수 없습니다.
+>기준 시퀀스를 2016년 10월 릴리스([!DNL Target Premium]) 이전에 만든 **[!UICONTROL 권장 사항]** 활동에는 사용할 수 없습니다.
 
-기준 시퀀스를 만들려면 먼저 시퀀스에 포함할 기준을 만들어야 합니다. 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
+기준 시퀀스를 생성하려면 먼저 시퀀스에 포함할 기준을 생성합니다. 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
 
-기준 시퀀스를 사용하면 기준이 디자인을 채우기에 충분한 결과를 반환하지 않을 때 보다 일반적인 백업 권장 사항을 사용하는 대신 추가 타깃팅된 권장 사항을 제공할 수 있습니다. 일반적으로 기준 시퀀스는 보다 구체적인 타겟팅에서 진행되며, 이는 더 적은 결과를 반환할 수도 있고, 보다 일반적인 타겟팅으로 진행되며, 이는 일반적으로 더 많은 결과를 반환합니다.
-
-기준 시퀀스는 다음 예에 표시된 대로 페이지 유형에 따라 순서대로 달라질 수 있습니다.
+기준 시퀀스의 순서는 다음 예와 같이 페이지 유형에 따라 달라질 수 있습니다.
 
 | 페이지 유형 | 가능한 시퀀스 순서 |
 | --- | --- |
@@ -44,19 +50,19 @@ ht-degree: 17%
 
 ## 기준 시퀀스 만들기
 
-[!UICONTROL 기준 시퀀스 만들기] 화면에서 기준 시퀀스를 만듭니다.
+기준 시퀀스가 **[!UICONTROL 기준 시퀀스 만들기]** 화면에서 만들어집니다. 이 화면에 액세스하는 방법에는 여러 가지가 있습니다. 일부 화면 옵션은 화면에 도달하는 방식에 따라 달라집니다.
 
-[!UICONTROL 기준 시퀀스 만들기] 화면에 도달하는 여러 방법이 있습니다. 일부 화면 옵션은 화면에 도달하는 방법에 따라 달라집니다.
+* **[!UICONTROL 권장 사항]** > **[!UICONTROL 기준]** 라이브러리 화면에서 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 여기서 만든 기준은 모든 **[!UICONTROL 권장 사항]** 활동에 자동으로 사용할 수 있습니다.
+* **[!UICONTROL 권장 사항]** 활동을 만들 때 **[!UICONTROL 기준 선택]** 화면에서 **[!UICONTROL 새로 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 새 기준 시퀀스를 다른 **[!UICONTROL 권장 사항]** 활동과 함께 사용하도록 저장할 수 있습니다.
+* **[!UICONTROL 권장 사항]** 활동을 편집할 때 페이지의 **[!UICONTROL 권장 사항 위치]** 상자를 클릭한 다음 **[!UICONTROL 기준 변경]**&#x200B;을 선택합니다. **[!UICONTROL 기준 선택]** 화면에서 **[!UICONTROL 새로 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 새 기준은 다른 **[!UICONTROL 권장 사항]** 활동과 함께 사용하도록 저장할 수 있습니다.
 
-* **[!UICONTROL 권장 사항]** > **[!UICONTROL 기준]** 라이브러리 화면에서 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 여기서 만드는 기준은 자동으로 모든 [!UICONTROL 권장 사항] 활동에 사용 가능해집니다.
-* [!UICONTROL 권장 사항] 활동을 만드는 경우 [!UICONTROL 기준 선택] 화면에서 **[!UICONTROL 새로 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 다른 [!UICONTROL 권장 사항] 활동과 함께 사용할 새 기준 시퀀스를 저장하는 옵션이 있습니다.
-* [!UICONTROL 권장 사항] 활동을 편집하는 경우 페이지에서 [!UICONTROL 권장 사항 위치] 상자를 클릭한 다음 **[!UICONTROL 기준 변경]**&#x200B;을 선택합니다. [!UICONTROL 기준 선택] 화면에서 **[!UICONTROL 새로 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 다른 [!UICONTROL 권장 사항] 활동과 함께 사용할 새 기준을 저장하는 옵션이 있습니다.
-
-다음 단계에서는 첫 번째 메서드를 사용하여 [!UICONTROL 기준 시퀀스 만들기] 화면에 액세스한다고 가정합니다. **[!UICONTROL 권장 사항]** > **[!UICONTROL 기준]** 라이브러리 화면.
+다음 단계에서는 **[!UICONTROL 기준]** 메뉴에서 **[!UICONTROL 기준 시퀀스 만들기]** 화면에 액세스한다고 가정합니다.
 
 1. **[!UICONTROL 권장 사항]** > **[!UICONTROL 기준]**&#x200B;을 클릭합니다.
 
 1. **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다.
+
+   ![기준 만들기 메뉴에서 기준 시퀀스 만들기 옵션을 선택한 기준 페이지](../assets/criteria_create_6.png)
 
 1. [기본 정보](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) 섹션에 정보를 입력하십시오.
 
@@ -64,28 +70,36 @@ ht-degree: 17%
 
    시퀀스 순서는 디자인이 채워지는 순서를 정의합니다. 기준 1에 디자인을 채울 권장 사항이 충분하지 않으면 나머지 슬롯이 기준 2로 채워집니다.
 
-1. [!UICONTROL 기준 선택] 화면에서 기준을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+   ![기준 시퀀스 만들기 대화 상자의 기준 시퀀스 섹션에 5개의 기준 필드가 있고 기준 1의 더하기 기호가 선택됨](../assets/criteria_create_7.png)
 
-   [!UICONTROL 검색] 상자와 필터 옵션을 사용하여 원하는 기준을 찾을 수 있습니다.
+1. **[!UICONTROL 기준 선택]** 화면에서 기준을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-1. (선택 사항) **[!UICONTROL 반환되는 항목 수 제한]** 토글을 &quot;켜짐&quot; 위치로 밀고 항목 수(1에서 50 사이)를 지정합니다.
+   **[!UICONTROL 검색]** 상자와 필터 옵션을 사용하여 원하는 기준을 찾을 수 있습니다.
 
-   [!UICONTROL 반환되는 항목 수 제한] 옵션(&quot;슬롯 수준 제어&quot;라고도 함)의 값을 이해하는 데 도움이 되도록 다음 사용 사례를 고려하십시오.
+1. (선택 사항) **[!UICONTROL 반환되는 항목 수 제한]**&#x200B;을 사용하도록 설정한 다음 항목 수(1에서 50 사이)를 지정합니다.
 
-   * **사용 사례 1**: 하나의 권장 사항 트레이에 여러 종류의 항목을 혼합하려는 경우 예를 들어, 겉옷(재킷)과 상의(셔츠, 티셔츠)를 혼합하여 표시하려고 합니다. 이를 위해서는 디자인의 모든 슬롯에 원하는 모든 잠재적 제품 유형을 포함하는 활동에 대한 컬렉션을 사용하십시오. 그런 다음 겉옷만 포함하도록 기준을 제한하는 정적 필터를 사용하여 첫 번째 기준을 설정하고, 상단만 포함하도록 기준을 제한하는 정적 필터를 사용하여 두 번째 기준을 설정합니다. 마지막으로 두 기준을 기준 시퀀스에 추가하고 첫 번째 기준을 슬롯 2개로 제한합니다.
+   ![기준 시퀀스 섹션(기준 1로 권장됨) 및 반환된 항목 수 제한 옵션이 켜져 있음](../assets/criteria_create_8.png)
+
+   다음 사용 사례에서는 **[!UICONTROL 반환되는 항목 수 제한]** 옵션(&quot;슬롯 수준 제어&quot;라고도 함)의 값을 보여 줍니다.
+
+   +++ 반환되는 항목 수를 제한하기 위한 사용 사례
+
+   * **사용 사례 1**: 하나의 권장 사항 트레이에 여러 종류의 항목이 섞여 있습니다. 예를 들어 겉옷(재킷)과 상의(셔츠, 티셔츠)가 섞여 있습니다. 이를 위해 디자인의 슬롯에 표시할 수 있는 모든 제품 유형을 포함하는 활동에 대한 컬렉션을 사용합니다. 그런 다음 겉옷만 포함하는 정적 필터를 사용하여 첫 번째 기준을 설정하고 상단만 포함하는 정적 필터를 사용하여 두 번째 기준을 설정합니다. 마지막으로 두 기준을 기준 시퀀스에 추가하고 첫 번째 기준을 슬롯 2개로 제한합니다.
 
      사이트에서는 권장 사항 트레이가 다음과 같을 수 있습니다.
 
-     ![추천 제품 추천 트레이](/help/main/c-recommendations/c-algorithms/assets/featured-products.png)
+     ![추천 제품 추천 트레이](assets/featured-products.png)
 
-   * **사용 사례 2**: 대체 항목과 보조 항목을 모두 혼합해야 합니다. 조회/조회 알고리즘을 사용하도록 하나의 기준을 설정하고 권장 항목을 현재 항목의 카테고리로 제한하는 동적 필터를 사용합니다. 조회/구매 알고리즘을 사용하도록 두 번째 기준을 설정하고 현재 항목의 카테고리와 일치하지 않는 권장 항목만 포함하는 동적 필터를 사용합니다. 마지막으로 두 기준을 시퀀스에 추가하고 첫 번째 기준을 슬롯 2개로 제한합니다.
+   * **사용 사례 2**: 대체 항목과 보조 항목이 혼합되어 있습니다. 권장 항목을 현재 항목의 카테고리로 제한하는 조회/조회 알고리즘 및 동적 필터를 사용하도록 한 가지 기준을 설정합니다. 현재 항목의 카테고리와 일치하지 않는 권장 항목만 포함하는 조회/구매 알고리즘 및 동적 필터를 사용하도록 두 번째 기준을 설정합니다. 마지막으로 두 기준을 시퀀스에 추가하고 첫 번째 기준을 슬롯 2개로 제한합니다.
 
-1. 시퀀스에 추가 기준을 계속 추가합니다. 시퀀스에 최대 5개의 기준을 추가할 수 있습니다.
+   +++
+
+1. 시퀀스에 기준을 계속 추가합니다. 시퀀스에 최대 5개의 기준을 추가할 수 있습니다.
 
 1. [백업 콘텐츠 옵션](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)을 사용하도록 설정합니다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-   기준 시퀀스가 [!UICONTROL 기준] 목록에 표시됩니다.
+기준 시퀀스가 **[!UICONTROL 기준]** 목록에 표시됩니다.
 
-   권장 사항 논리 선택 사항에 대한 자세한 내용은 [기준](/help/main/c-recommendations/c-algorithms/algorithms.md)을 참조하십시오.
+권장 사항 논리 옵션에 대한 자세한 내용은 [기준 시작](/help/main/c-recommendations/c-algorithms/algorithms.md)을 참조하십시오.

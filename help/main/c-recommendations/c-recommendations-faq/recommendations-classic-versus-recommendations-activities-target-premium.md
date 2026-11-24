@@ -2,7 +2,7 @@
 keywords: 권장 사항, 권장 사항 알고리즘, 권장 사항 활동, recommendations classic
 description: 정보를 검토하면 [!DNL Target] Premium의 기존 Recommendations Classic과 Recommendations 활동의 차이점을 이해하는 데 도움이 됩니다.
 title: '[!DNL Target] Premium에서 Recommendations Classic과 Recommendations 간의 차이점은 무엇입니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 TQID: 'https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM'
@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -79,7 +79,7 @@ ht-degree: 79%
 [!DNL Recommendations] 워크플로가 단순해졌습니다. 복잡한 양식을 채우는 대신 다음 작업을 수행하는 시각적 워크플로를 수행합니다.
 
 1. 기준을 선택합니다.
-1. 미리 구성된 [디자인](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)을(를) 선택하십시오.
+1. 미리 구성된 [디자인](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)을(를) 선택하십시오.
 1. 결과 권장 사항을 미리 봅니다.
 
 ## 시각적 미리보기 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

@@ -2,7 +2,7 @@
 keywords: 권장 사항;권장 사항 활동;기준;알고리즘
 description: Adobe [!DNL Target] 권장 사항 활동에서 사용할 기준(추천할 제품 또는 콘텐츠를 결정하는 규칙)을 선택하는 방법을 알아봅니다.
 title: 권장 사항 활동에 대한 기준을 선택하려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -31,7 +31,7 @@ ht-degree: 62%
 
   일부 기준은 [!DNL Recommendations]에서 제공됩니다. 사용자와 팀이 고유의 사용자 지정 기준을 만들 수도 있습니다.
 
-* 새 기준을 만들려면 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 만들기]**&#x200B;를 클릭한 다음 새 기준에 대한 정보를 입력하십시오. 새 기준 만들기에 대한 내용은 [새 기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)를 참조하십시오.
+* 새 기준을 만들려면 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 만들기]**&#x200B;를 클릭한 다음 새 기준에 대한 정보를 입력하십시오. 새 기준 만들기에 대한 내용은 [새 기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#create-criteria)를 참조하십시오.
 
 **기준을 선택하려면 다음을 수행하십시오.**
 

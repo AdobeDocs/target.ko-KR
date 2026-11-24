@@ -2,7 +2,7 @@
 keywords: 카탈로그 검색;카탈로그;검색;제외;컬렉션;필터;권장 사항
 description: '[!DNL Recommendations] [!UICONTROL 카탈로그 검색]을(를) 사용하여 제품 또는 콘텐츠를 찾고 카탈로그에서 항목을 제거하는 방법에 대해 알아봅니다.'
 title: '[!DNL Recommendations] [!UICONTROL 카탈로그 검색]을 사용하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 TQID: 'https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic'
@@ -20,28 +20,42 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 20%
+source-wordcount: '551'
+ht-degree: 7%
 ---
-# [!UICONTROL 카탈로그 검색]
+# [!UICONTROL 카탈로그 검색] {#catalog-search}
 
-[!DNL Adobe Recommendations]의 [!UICONTROL 카탈로그 검색] 페이지는 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고 패싯을 필터링하고 테이블에서 열을 수정하고 새 검색 패싯을 추가하는 등의 작업을 수행할 수 있습니다.
+>[!BEGINSHADEBOX]
 
-카탈로그는 전체 제품 세트(엔티티)를 나타냅니다. 카탈로그에는 제품을 논리 버킷으로 구성하는 여러 컬렉션이 포함될 수 있습니다.
+**이 페이지에서:** [!DNL Adobe Recommendations]에서 카탈로그를 검색하여 제품이나 콘텐츠를 찾는 방법과 항목을 필터링, 보기 및 제거하는 방법에 대해 알아봅니다.
 
-## [!UICONTROL 카탈로그 검색]에 액세스
+>[!ENDSHADEBOX]
 
-1. [!UICONTROL 카탈로그 검색] 페이지에 액세스하려면 **[!UICONTROL 권장 사항]** > **[!UICONTROL 카탈로그 검색]**&#x200B;을 클릭하세요.
+[!DNL Adobe Recommendations]의 **[!UICONTROL 카탈로그 검색]** 페이지는 카탈로그에서 제품이나 콘텐츠를 찾는 데 사용됩니다. 이 페이지에서 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 이 페이지에서는 환경 변경, 패싯 필터링, 테이블의 열 수정 등을 수행할 수 있습니다.
 
-1. (선택 사항) 검색 필터를 적용하려면 **[!UICONTROL 필터 표시]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭하십시오. [!UICONTROL 환경], [!UICONTROL 컬렉션], [!UICONTROL 범주], [!UICONTROL 브랜드], [!UICONTROL 인벤토리] 및 [!UICONTROL 값]별로 필터링할 수 있습니다.
+카탈로그는 전체 제품 세트(엔티티)입니다. 제품을 논리 그룹으로 구성하는 여러 컬렉션을 포함할 수 있습니다.
 
-## 단순 검색 수행
+첫 번째 피드가 업로드되면 카탈로그의 색인이 자동으로 만들어지고 [지정된 일정](/help/main/c-recommendations/c-products/feeds.md#steps)에 따라 새로 고쳐집니다.
+
+피드 파일, API 또는 mbox 업데이트를 통해 업데이트가 수신되면 카탈로그가 자동으로 새로 고쳐집니다. 업데이트는 일반적으로 1시간 이내에 완료됩니다. 업데이트가 진행 중인 경우 가장 최근 업데이트가 시작된 시간이 표시됩니다. 진행 중인 업데이트가 없으면 가장 최근 업데이트가 시작되고 완료된 시간이 표시됩니다.
+
+## 카탈로그 검색
+
+검색 결과를 사용하여 카탈로그의 항목을 검토하고 필요한 경우 카탈로그에서 항목을 제거합니다.
+
+1. **[!UICONTROL 권장 사항]** > **[!UICONTROL 카탈로그 검색]**&#x200B;을 클릭합니다.
+
+1. (선택 사항) 결과를 필터링하려면 **[!UICONTROL 필터 표시]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭한 다음 적용할 필터를 선택합니다. 사용 가능한 필터는 **[!UICONTROL 환경]**, **[!UICONTROL 컬렉션]**, **[!UICONTROL 범주]**, **[!UICONTROL 브랜드]**, **[!UICONTROL 인벤토리]** 및 **[!UICONTROL 값]**&#x200B;입니다.
+
+   [환경](/help/main/administrating-target/environments.md)은(는) 관리 및 개별 보고를 위해 사이트 및 사전 프로덕션 환경을 구성합니다. 환경을 변경하려면 **[!UICONTROL 환경]** 드롭다운 목록에서 원하는 환경을 선택하십시오.
+
+   ![필터 패널이 강조 표시된 카탈로그 검색 페이지: 컬렉션, 카테고리, 브랜드, 인벤토리, 값 및 고급 검색](../assets/catalog_search.png)
 
 1. **[!UICONTROL 검색 위치]** 필드에 검색어를 입력하십시오.
 
-1. (선택 사항) [!UICONTROL 검색 위치] 필드의 아래쪽 화살표를 클릭하면 표시되는 옵션 메뉴에서 검색 옵션을 선택하여 검색을 개선할 수 있습니다.
+1. (선택 사항) **[!UICONTROL 검색 위치]** 필드의 아래쪽 화살표로 열리는 옵션 메뉴에서 검색 옵션을 선택하여 검색을 구체화합니다.
 
    검색 옵션에는 다음이 포함됩니다.
 
@@ -49,13 +63,27 @@ ht-degree: 20%
    * 이름
    * 메시지
 
+1. **[!UICONTROL 테이블 사용자 지정]** 아이콘( ![테이블 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg))을 클릭하여 **[!UICONTROL 카탈로그 검색]** 페이지에서 활성 열을 수정합니다.
+
+   ![테이블 사용자 지정 아이콘이 강조 표시된 카탈로그 검색 페이지](../assets/catalog_search_4.png)
+
 1. 검색 결과의 항목을 스크롤하여 썸네일 및 기타 제품 정보를 확인합니다.
 
    >[!NOTE]
    >
-   > 숫자 값으로 사용자 지정 특성에 대한 카탈로그 검색을 수행할 때 결과는 사용자 지정 특성을 숫자 값 대신 문자열 유형으로 간주합니다.
+   >숫자 값이 있는 사용자 지정 특성에 대한 카탈로그 검색에서 결과는 사용자 지정 특성을 숫자 값이 아닌 문자열 유형으로 처리합니다.
    >
-   >현재 속성 유형을 변경할 수 있는 기능이 없습니다. 변경하려면 문자열에서 숫자로 유형을 변경해야 하는 속성을 참조하는 [고객 문제를 여십시오](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+   >속성의 유형은 현재 변경할 수 없습니다. 변경을 요청하려면 문자열에서 숫자로 형식을 변경해야 하는 특성을 참조하는 [고객 문제를 여십시오](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+
+1. ID, 이름, 메시지, 카테고리 등을 포함한 세부 정보를 보려면 검색 결과에서 항목을 클릭하십시오.
+
+   ![ID, 범주, 여백 및 기타 특성을 표시하는 카탈로그 항목의 세부 정보](../assets/catalog_search_2.png)
+
+1. 카탈로그에서 항목을 제거하려면 **[!UICONTROL 카탈로그에서 제거]**&#x200B;를 클릭하십시오.
+
+   그런 다음 해당 항목에 대한 모든 정보가 카탈로그 색인에서 제거됩니다. 항목은 데이터 피드에 다시 추가되는 경우에만 카탈로그에 다시 포함됩니다. 삭제된 항목도 피드와 별도로 삭제해야 합니다.
+
+   ![카탈로그에서 제거 단추가 강조 표시된 카탈로그 항목의 세부 정보](../assets/catalog_search_3.png)
 
 <!--
 ### Perform an advanced search {#advanced-search}
@@ -81,52 +109,6 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
    For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.
 -->
 
-## 항목의 세부 사항 보기
-
-ID, 이름, 메시지, 범주 등을 포함한 개별 항목의 세부 사항을 보면 해당 항목의 세부 사항을 볼 수 있습니다.
-
-1. 세부 정보를 보려면 검색 결과에서 항목을 클릭하십시오.
-
-## 카탈로그에서 항목 제거
-
-1. 세부 정보를 보려면 검색 결과에서 항목을 클릭하십시오.
-
-1. **[!UICONTROL 카탈로그에서 제거]**&#x200B;를 클릭합니다.
-
-1. 항목을 제거할지 확인합니다.
-
-해당 항목에 대한 모든 정보가 카탈로그 색인에서 제거됩니다. 항목은 데이터 피드에 다시 추가되는 경우에만 카탈로그에 포함됩니다. 삭제된 항목은 피드에서 별도로 삭제해야 합니다.
-
-## 카탈로그 새로 고침
-
-첫 번째 피드를 업로드할 때 카탈로그의 색인이 자동으로 만들어지고 [지정된 일정](/help/main/c-recommendations/c-products/feeds.md#steps)에 따라 새로 고쳐집니다.
-
-피드 파일, API 또는 mbox 업데이트를 통해 업데이트가 수신되면 카탈로그가 자동으로 새로고침됩니다. 업데이트는 일반적으로 1시간 이내에 완료됩니다. 업데이트가 진행 중인 경우 가장 최근 업데이트가 시작된 시간이 표시됩니다. 진행 중인 업데이트가 없으면 가장 최근 업데이트가 시작되고 완료된 시간이 표시됩니다.
-
-<!--
-## Create a collection or exclusion based on Advanced Search {#save-as}
-
-You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
-
-1. Perform an [advanced search](#advanced-search).
-
-1. Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
-
-   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
-
-   >[!IMPORTANT]
-   >
-   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
--->
-
-## 환경 변경
-
-[환경](/help/main/administrating-target/environments.md)을 사용하면 쉽게 관리하고 개별적으로 보고할 수 있도록 사이트와 사전 프로덕션 환경을 구성할 수 있습니다.
-
-1. 필터 표시 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭합니다.
-
-1. **[!UICONTROL 환경]** 드롭다운 목록에서 원하는 환경을 선택합니다.
-
 <!--
 ## Modify the Catalog Search page (filters and columns)
 
@@ -147,12 +129,20 @@ You can add additional filter facets to the [!UICONTROL Catalog Search] page.
 Keep in mind that the additional filter facets are available in the current session only.
 -->
 
-## 열 수정
 
-[!UICONTROL 카탈로그 검색] 페이지에서 활성 열을 수정할 수 있습니다.
 
-1. **[!UICONTROL 표 사용자 지정]** 아이콘( ![표 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg))을 클릭합니다.
+<!--
+## Create a collection or exclusion based on Advanced Search {#save-as}
 
-1. 표시하거나 숨길 열을 선택하거나 선택 취소합니다.
+You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-모든 변경 사항은 세션 간에 지속됩니다.
+1. Perform an [advanced search](#advanced-search).
+
+1. Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
+
+   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
+
+   >[!IMPORTANT]
+   >
+   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
+-->
