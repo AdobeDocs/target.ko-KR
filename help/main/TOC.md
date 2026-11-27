@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱, 소셜 채널에서 고객 경험을 개인화하여 수익을 증대시키는 방법에 대해 알아봅니다.
 feature-set: Target
-source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
+source-git-commit: d917e1b4f0d3c70eccd6c5fa1df5f799093f1f41
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 71%
@@ -245,7 +245,7 @@ ht-degree: 71%
       + [시각적 경험 작성기 및 고급 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
       + [시각적 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
       + [향상된 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
-      + [브라우저에서 혼합 콘텐츠 사용](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+      + [브라우저에서 혼합 컨텐츠 사용](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
       + [페이지 수정 시나리오](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
       + [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
       + [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
