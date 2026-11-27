@@ -95,4 +95,4 @@ ht-degree: 13%
 * 보고서 필터를 만들려면 보고 대상을 추가하십시오.
 * 활동에 대한 메모를 입력합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507948?captions=kor)
