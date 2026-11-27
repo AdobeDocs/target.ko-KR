@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;eec;시각적 경험 작성기;EEC 문제 해결;문제점 해결
-description: 특정 조건에서 [!DNL Adobe Target] [!UICONTROL 고급 경험 작성기](EEC)에서 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
+description: 특정 조건에서 [!DNL Adobe Target] [!UICONTROL 고급 경험 작성기] (EEC)에서 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
 title: '[!UICONTROL 향상된 경험 작성기]와 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
@@ -31,7 +31,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** EEC 프록시의 IP 주소가 차단되어 로드되지 않는 페이지와 같이 EEC(Enhanced Experience Composer ]**)에만 영향을 주는 문제를 해결하는 방법을 알아봅니다.**[!UICONTROL 
+**이 페이지에서:** EEC 프록시의 IP 주소가 차단되어 로드되지 않는 페이지와 같이 EEC(Enhanced Experience Composer **)에만 영향을 주는 문제를 해결하는 방법을 알아봅니다.**
 
 >[!ENDSHADEBOX]
 

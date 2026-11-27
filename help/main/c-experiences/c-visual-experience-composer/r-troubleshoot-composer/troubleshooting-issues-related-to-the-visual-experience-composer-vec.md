@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;tls;tls 1.2
-description: '[!UICONTROL 시각적 경험 작성기](VEC)에서 문제를 해결하는 방법을 알아봅니다.'
+description: '[!UICONTROL 시각적 경험 작성기] (VEC)에서 문제를 해결하는 방법을 알아봅니다.'
 title: '[!UICONTROL 시각적 경험 작성기]와 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
@@ -64,7 +64,7 @@ ht-degree: 4%
 
 ![X-Frame-Options가 SAMEORIGIN으로 설정되어 있으므로 페이지에서 프레임 표시를 거부했다는 브라우저 콘솔 오류 메시지](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-두 작성기가 모두 작동하지 않으면 [!DNL Requestly]&#x200B;([!DNL Chrome] 또는 [!DNL Firefox])이나 응답 헤더 수정([!DNL Firefox])과 같은 사이트의 X-Frame-Options 헤더를 덮어쓰는 브라우저 확장 프로그램에서 사이트를 iFrame으로 로드하여 VEC를 사용하도록 설정합니다. 브라우저 확장을 사용할 수 없으면 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하십시오. [!DNL Google Chrome]에 대한 [[!DNL Adobe Target] **[!UICONTROL Visual Editing Helper ]**확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)은(는) 다음 절차 외에 사용할 수도 있습니다.
+두 작성기가 모두 작동하지 않으면 [!DNL Requestly]&#x200B;([!DNL Chrome] 또는 [!DNL Firefox])이나 응답 헤더 수정([!DNL Firefox])과 같은 사이트의 X-Frame-Options 헤더를 덮어쓰는 브라우저 확장 프로그램에서 사이트를 iFrame으로 로드하여 VEC를 사용하도록 설정합니다. 브라우저 확장을 사용할 수 없으면 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하십시오. [!DNL Google Chrome]에 대한 [[!DNL Adobe Target] **[!UICONTROL Visual Editing Helper &#x200B;]**&#x200B;확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)은(는) 다음 절차 외에 사용할 수도 있습니다.
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ ht-degree: 4%
 
 다음 원인을 확인하십시오.
 
-* **확장 버전:** 최신 버전의 [[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper ]**확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)은(는) VEC와 가장 잘 호환됩니다. 설치된 버전을 확인하려면**[!UICONTROL &#x200B;확장&#x200B;]**>**[!UICONTROL &#x200B;확장 관리&#x200B;]**(으)로 이동한 다음**[!UICONTROL &#x200B;세부 정보&#x200B;]**를 클릭합니다.
+* **확장 버전:** 최신 버전의 [[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper &#x200B;]**&#x200B;확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)은(는) VEC와 가장 잘 호환됩니다. 설치된 버전을 확인하려면&#x200B;**[!UICONTROL &#x200B;확장&#x200B;]**>**[!UICONTROL &#x200B;확장 관리&#x200B;]**(으)로 이동한 다음&#x200B;**[!UICONTROL &#x200B;세부 정보&#x200B;]**&#x200B;를 클릭합니다.
 * **작성 라이브러리:** VEC에서 웹 페이지를 수정하려면 작성 라이브러리가 필요합니다. 이 매개 변수는 at.js 라이브러리에 포함되어 있으며, at.js 또는 [!DNL Adobe Experience Platform Web SDK]이(가) 페이지에 이미 있는지 여부에 관계없이 VEC를 사용할 때마다 확장 프로그램이 [!DNL Adobe] 서버에서 다운로드합니다. **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;에 구성된 at.js 헤더에 잘못된 변경 사항이 없는지 확인하십시오.
 * **차단된 요청:** 페이지는 iFrame에 포함되어 있을 때 로드에 필수적인 요청을 차단해서는 안 됩니다. 이러한 차단에는 `frame-ancestors` CSP 지침, 웹 사이트의 사용자 지정 JavaScript 코드, 메타 HTML 태그 및 `x-frame-options` 헤더가 포함됩니다.
 * **예약된 파일 이름:** 페이지의 JavaScript은 작성 라이브러리를 방해하지 않아야 합니다. 다음 예약된 이름의 파일을 사용하거나 포함하지 마십시오.

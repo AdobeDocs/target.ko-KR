@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->업데이트된 [!UICONTROL 시각적 경험 작성기]에는 [!DNL Chrome Web Store]에서 사용할 수 있는 [!DNL Adobe Experience Cloud] [**[!UICONTROL 시각적 편집 도우미&#x200B;]**확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)이 필요합니다.
+>업데이트된 [!UICONTROL 시각적 경험 작성기]에는 [!DNL Chrome Web Store]에서 사용할 수 있는 [!DNL Adobe Experience Cloud] [**[!UICONTROL 시각적 편집 도우미&#x200B;]**&#x200B;확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)이 필요합니다.
 
 VEC는 활동이 만들어지거나 기존 활동이 편집될 때 표시됩니다.
 
