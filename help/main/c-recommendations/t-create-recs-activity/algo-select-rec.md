@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -35,7 +35,7 @@ ht-degree: 62%
 
 **기준을 선택하려면 다음을 수행하십시오.**
 
-1. [새 권장 사항을 만드는 중](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) **[!UICONTROL 기준 선택]** 대화 상자에서 하나 이상의 기준을 찾아 선택합니다.
+1. [새 권장 사항을 만드는 중](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity) **[!UICONTROL 기준 선택]** 대화 상자에서 하나 이상의 기준을 찾아 선택합니다.
 
    [!UICONTROL 업계 유형] 필터, [!UICONTROL 페이지 유형] 필터 및 [!UICONTROL 호환] 확인란을 사용하여 기준 목록을 필터링할 수 있습니다. 이러한 옵션은 원하는 기준을 찾는 데 도움이 됩니다.
 

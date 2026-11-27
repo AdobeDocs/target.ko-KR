@@ -14,28 +14,42 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 87%
+source-wordcount: '626'
+ht-degree: 4%
 ---
-# 페이지 수정 시나리오
+# 페이지 수정 시나리오 {#vec-scenarios}
 
-이 주제의 시나리오는 페이지에 적용된 변경 사항이 경험을 표시하는 Adobe Target 기능에 어떻게 영향을 주는지를 보여줍니다.
+>[!BEGINSHADEBOX]
 
-Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 Target 외부에서 수정하는 경우, 변경 사항은 경험을 표시하는 Target의 기능에 영향을 줄 수 있습니다.
+**이 페이지에서:** [!DNL Target] 외부의 페이지에 대한 변경 내용이 [!DNL Target]의 경험 표시 기능에 어떻게 영향을 미치는지 7가지 시나리오를 통해 알아봅니다.
 
-선택기를 사용할 때 고유한 클래스는 ID와 동등하지 않습니다. 선택기는 항상 고유한 클래스에서 작동합니다. 요소에 지정된 클래스가 없는 경우 선택기는 태그 이름이 동일한 이전의 동일 수준 요소의 수를 계산합니다.
+>[!ENDSHADEBOX]
+
+[!DNL Target] 선택기는 경험이 표시되는 위치를 결정합니다. 페이지가 [!DNL Target] 외부에서 수정되면 변경 내용은 [!DNL Target]이 해당 위치를 찾아 경험을 표시하는 기능에 영향을 줄 수 있습니다.
+
+선택기는 항상 ID와 동등하지 않은 고유한 클래스에서 작동합니다. 요소에 지정된 클래스가 없으면 선택기는 동일한 태그 이름을 가진 이전 동위 멤버를 계산합니다.
 
 >[!NOTE]
 >
->이 시나리오들에서는 목록 항목을 예로 사용하지만 개념은 모든 요소에 적용됩니다.
+>시나리오에서는 목록 항목을 예로 사용하지만 개념은 모든 요소에 적용됩니다.
 
-## 시나리오: 선택한 요소 앞에 다른 클래스 이름을 사용하는 요소 삽입 {#section_298F661F72384F6AB957D5885A99D822}
+다음 표에서는 시나리오를 요약합니다. 모든 시나리오에서 선택기는 `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`입니다.
 
-이 예에서 새 요소는 Target 선택기에서 해당 요소와 동일한 수준의 요소로 삽입됩니다.
+| 시나리오 | 액션 적용됨 | 이유 |
+|---|---|---|
+| 선택한 요소 앞에 다른 클래스 이름을 사용하는 요소를 삽입합니다. | 예 | `li.women-section:eq(0)`은(는) 영향을 받지 않습니다. |
+| 선택한 요소와 동일한 클래스 이름을 사용하는 요소 삽입 | 아니요 | 새 요소는 선택기를 벗어나는 첫 번째 위치를 취합니다 |
+| 선택한 요소 뒤에 요소 삽입 | 예 | 새 요소가 상위 요소를 기준으로 동일한 위치에 추가됩니다 |
+| 선택한 요소 바로 앞에 있는 요소 제거 | 예 | 선택한 항목의 클래스는 변경되지 않습니다. |
+| 선택한 요소 바로 다음에 있는 요소 제거 | 예 | 선택한 항목의 클래스는 변경되지 않습니다. |
+| 선택한 요소 제거 | 예 | 요소가 정상적으로 제거되었습니다 |
+| 선택한 요소의 클래스 이름 바꾸기 | 아니요 | `class`을(를) 찾을 수 없습니다. |
 
-요소에 있는 첫 번째 클래스가 JavaScript에 의해 추가될 가능성이 있습니다. 이 경우 전달은 실패하고 작업이 적용되지 않습니다.
+## 선택한 요소 앞에 다른 클래스 이름을 사용하는 요소를 삽입합니다.
+
+새 요소가 [!DNL Target] 선택기에서 요소의 형제 요소로 삽입됩니다. JavaScript에서 요소의 첫 번째 클래스를 추가한 경우 게재가 실패하고 작업이 적용되지 않습니다.
 
 **삽입된 요소:**
 
@@ -43,71 +57,67 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 <li class="kids-section">Kids</li>
 ```
 
-**선택됨:**
+**선택한 요소:**
 
 `<li class="women-section">Women</li>`
 
-선택기: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**선택기:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**결과:**
+**결과:** `li.women-section:eq(0)`은(는) 영향을 받지 않으므로 선택기가 예상대로 작동합니다.
 
-`li.women-section:eq(0)`은 영향을 받지 않으므로 선택기가 예상대로 작동합니다.
-
-전:
+**이전:**
 
 ```html
 <div id="wrap">
      <ul class="nav">
         <li class="men-section"> Men</li> <li class="women-section">Women</li>
-     </ul> 
+     </ul>
 </div>
 ```
 
-후:
+**이후:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="kids-section">Kids</li>
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
-    </ul> 
+    </ul>
 </div>
 ```
 
-## 시나리오: 선택한 요소와 동일한 클래스 이름을 사용하는 요소 삽입 {#section_0969B88C2F154E648D9969C8C85EF55A}
+## 선택한 요소와 동일한 클래스 이름을 사용하는 요소 삽입
 
-이 시나리오에서는 목록의 항목을 선택하면 목록을 삽입하려고 시도합니다.
+목록의 항목을 선택하는 동안 목록이 삽입됩니다.
 
 **삽입된 요소:**
 
 ```html
-<ul class="nav"> 
-   <li class="item"> Sale </li> 
-   <li> class="item"> Offers </li> 
+<ul class="nav">
+   <li class="item"> Sale </li>
+   <li class="item"> Offers </li>
 </ul>
 ```
 
-**선택됨**
+**선택한 요소:**
 
 `<li class="women-section">Women</li>`
 
-선택기: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**선택기:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**결과:**
+**결과:** 선택기가 작동하지 않습니다. 이제 `ul.nav:eq(0)`이(가) 동적으로 추가된 요소를 가리키므로 사용할 수 없으므로 작업이 적용되지 않습니다. 활동을 만든 후 동일한 클래스를 사용하는 유사한 목록 항목을 동적으로 또는 수동으로 추가하면 첫 번째 위치에 새 요소가 놓이므로 선택기가 중단됩니다.
 
-`ul.nav:eq(0)`은 동적으로 추가된 요소를 제공하므로 선택기가 작동하지 않습니다. 요소를 사용할 수 없고 작업이 적용되지 않습니다. 활동이 만들어진 후 동일한 클래스를 사용하는 유사한 목록 항목이 동적으로 또는 수동으로 추가되면 첫 번째 위치에 새 요소가 만들어집니다. 이렇게 되면 선택기가 끊깁니다.
-
-전:
+**이전:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
-    </ul> 
+    </ul>
 </div>
 ```
 
-후(시도됨):
+**후(시도됨):**
 
 ```html
 <div id="wrap">
@@ -122,46 +132,44 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 </div>
 ```
 
-## 시나리오: 선택한 요소 뒤에 요소 삽입 {#section_15B07B84BEE94ED39D85BBBE0733E170}
+## 선택한 요소 뒤에 요소 삽입
 
-이 시나리오에서는 선택한 요소 뒤에 목록 항목이 삽입됩니다.
+선택한 목록 항목 뒤에 목록이 삽입됩니다.
 
 **삽입된 요소:**
 
 ```html
-<ul class="nav"> 
-   <li class="men-section"> Men Clothes</li> 
-   <li class="women-section"> Women Clothes</li> 
+<ul class="nav">
+   <li class="men-section"> Men Clothes</li>
+   <li class="women-section"> Women Clothes</li>
 </ul>
 ```
 
-**선택됨:**
+**선택한 요소:**
 
 `<li class="women-section">Women Shoes</li>`
 
-선택기: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**선택기:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**결과:**
+**결과:** 선택한 항목으로 끝나는 목록 뒤에 목록 삽입이 예상대로 작동합니다. 새 요소는 상위 요소를 기준으로 선택한 요소와 동일한 위치에 추가됩니다.
 
-이 경우, 선택한 목록 항목으로 끝나는 목록 뒤에 목록을 삽입하면 예상대로 작동합니다. 상위 요소와 관련하여 선택된 요소와 동일한 위치에 새 요소가 추가됩니다.
-
-전:
+**이전:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
-        <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
+        <li class="men-section">Men Shoes </li>       <li class="women-section">Women Shoes</li>
     </ul>
 </div>
 ```
 
-후:
+**이후:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
-        <li class="men">Men Shoes </li>
-        <li class="women">Women Shoes</li>
+        <li class="men-section">Men Shoes </li>
+        <li class="women-section">Women Shoes</li>
     </ul>
       <ul class="nav">
         <li class="men-section">Men Clothes</li>
@@ -170,9 +178,9 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 </div>
 ```
 
-## 시나리오: 다른 요소의 바로 앞에 있는 요소 제거 {#section_F193674F04F84AA593EAA1137C880EBA}
+## 선택한 요소 바로 앞에 있는 요소 제거
 
-이 시나리오에서는 선택한 요소 앞에 있는 목록 항목이 삭제됩니다.
+선택한 요소 앞의 목록 항목입니다.
 
 **제거된 요소:**
 
@@ -180,17 +188,15 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 <li class="men-section"> Men </li>
 ```
 
-**선택됨:**
+**선택한 요소:**
 
 `<li class="women-section">Women</li>`
 
-선택기: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**선택기:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**결과:**
+**결과:** 선택한 항목의 클래스가 변경되지 않았으므로 요소가 제거되었습니다.
 
-선택한 항목의 클래스가 변경되지 않았으므로 요소가 제거되었습니다.
-
-전:
+**이전:**
 
 ```html
 <div id="wrap">
@@ -201,7 +207,7 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 </div>
 ```
 
-후:
+**이후:**
 
 ```html
 <div id="wrap">
@@ -211,9 +217,9 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 </div>
 ```
 
-## 시나리오: 다른 요소의 바로 뒤에 있는 요소 제거 {#section_F83B51BE54924FB58679D512DAF1EBB2}
+## 선택한 요소 바로 다음에 있는 요소 제거
 
-이 시나리오에서는 선택한 요소 뒤에 있는 목록 항목이 삭제됩니다.
+선택한 요소 다음의 목록 항목입니다.
 
 **제거된 요소:**
 
@@ -221,29 +227,27 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 <li class="kids-section">Kids</li>
 ```
 
-**선택됨:**
+**선택한 요소:**
 
 `<li class="women-section">Women</li>`
 
-선택기: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**선택기:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**결과:**
+**결과:** 선택한 항목의 클래스가 변경되지 않았고 제거된 요소의 부모 하위 트리에 고유한 클래스가 있으므로 요소가 제거되었습니다.
 
-선택한 항목의 클래스가 변경되지 않았으므로 요소가 제거되었습니다. 제거된 요소는 상위 서브 트리 내에 고유한 클래스를 포함합니다.
-
-전:
+**이전:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
         <li class="women-section">Women</li>
-        <li class="kids-section">Women</li>
+        <li class="kids-section">Kids</li>
     </ul>
 </div>
 ```
 
-후:
+**이후:**
 
 ```html
 <div id="wrap">
@@ -254,38 +258,36 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 </div>
 ```
 
-## 시나리오: 선택한 요소 제거 {#section_1989CF1E2C344CC5963084ED83C18F9C}
+## 선택한 요소 제거
 
-이 시나리오에서는 선택한 목록 항목이 삭제됩니다.
+선택한 목록 항목이 삭제되었습니다.
 
 **제거된 요소:**
 
 ```html
-<li class="women-shoes">Women</li>
+<li class="women-section">Women</li>
 ```
 
-**선택됨:**
+**선택한 요소:**
 
-`<li class="women-shoes">Women</li>`
+`<li class="women-section">Women</li>`
 
-선택기: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**선택기:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**결과:**
+**결과:** 요소가 제거되었습니다.
 
-요소가 제거되었습니다.
-
-전:
+**이전:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
-        <li class="women-shoes">Women</li>
+        <li class="women-section">Women</li>
     </ul>
 </div>
 ```
 
-후
+**이후:**
 
 ```html
 <div id="wrap">
@@ -295,9 +297,9 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 </div>
 ```
 
-## 시나리오: 선택한 요소의 클래스 이름 변경 {#section_79D244C588BA452DB8E433D82B7F63EA}
+## 선택한 요소의 클래스 이름 바꾸기
 
-이 시나리오에서는 선택한 목록 항목의 클래스가 변경됩니다.
+선택한 목록 항목의 클래스가 변경되었습니다.
 
 **변경된 요소:**
 
@@ -305,17 +307,15 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 <li class="women-section">Women</li>
 ```
 
-**선택됨:**
+**선택한 요소:**
 
 `<li class="women-section">Women</li>`
 
-선택기: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**선택기:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**결과:**
+**결과:** `class`을(를) 찾을 수 없으므로 클래스 이름을 바꿀 수 없습니다.
 
-`class`를 찾을 수 없어서 요소 클래스의 이름을 변경할 수 없습니다.
-
-전:
+**이전:**
 
 ```html
 <div id="wrap">
@@ -326,7 +326,7 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
 </div>
 ```
 
-후(시도됨):
+**후(시도됨):**
 
 ```html
 <div id="wrap">
@@ -334,5 +334,5 @@ Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 
         <li class="men-section">Men</li>
         <li class="women-shoes">Women</li>
     </ul>
-</div>
+</div> 
 ```

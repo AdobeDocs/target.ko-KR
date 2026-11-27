@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 5%
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 ## 통합으로 얻을 수 있는 이점 {#what-it-enables}
 
-**[!UICONTROL Scene7 구성]**&#x200B;이 설정되면 작성자는 [!DNL Target] 활동의 [!DNL Adobe Experience Cloud] 자산 폴더에 업로드된 이미지를 사용할 수 있습니다. **[!UICONTROL 이미지 대체 오퍼]** 옵션이 [시각적 경험 작성기 및 양식 기반 경험 작성기](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)를 포함하여 활동 워크플로에 표시됩니다. VEC의 교체 동작은 [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오.
+**[!UICONTROL Scene7 구성]**&#x200B;이 설정되면 작성자는 [!DNL Target] 활동의 [!DNL Adobe Experience Cloud] 자산 폴더에 업로드된 이미지를 사용할 수 있습니다. **[!UICONTROL 이미지 대체 오퍼]** 옵션이 [시각적 경험 작성기 및 양식 기반 경험 작성기](/help/main/c-experiences/experiences.md#experiences-overview)를 포함하여 활동 워크플로에 표시됩니다. VEC의 교체 동작은 [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오.
 
 이 설정이 구성되지 않은 경우 **[!UICONTROL 이미지 교체 오퍼]**&#x200B;를 활동을 만드는 동안 사용할 수 없습니다.
 

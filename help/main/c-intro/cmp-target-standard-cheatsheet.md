@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -151,7 +151,7 @@ ht-degree: 48%
 **페이지 구조가 다른 여러 페이지에 걸쳐 있는 활동을 실행할 수 있습니까? 다른 위치(예: 체크아웃 funnel)에 있는 오퍼를 적용할 수 있습니까?**
 
 +++세부 정보 보기
-경험에서 여러 페이지를 사용할 수 있는 [다중 페이지 활동 기능](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 사용해보십시오.
+경험에서 여러 페이지를 사용할 수 있는 [다중 페이지 활동 기능](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity)을 사용해보십시오.
 
 +++
 
@@ -284,7 +284,7 @@ Target의 안내가 있는 3가지 부분 워크플로의 [2단계(타깃팅 페
 **공통된 구조를 갖는 여러 페이지에서 활동을 실행할 수 있습니까?**
 
 +++세부 정보 보기
-제공된 단일 URL에 대한 경험을 만드는 동안 구조가 유사한 여러 페이지를 활동에 포함하도록 [템플릿 규칙](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) 을 확인하십시오.
+제공된 단일 URL에 대한 경험을 만드는 동안 구조가 유사한 여러 페이지를 활동에 포함하도록 [템플릿 규칙](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages) 을 확인하십시오.
 
 +++
 
@@ -293,39 +293,39 @@ Target의 안내가 있는 3가지 부분 워크플로의 [2단계(타깃팅 페
 +++세부 정보 보기
 이 문제는 사이트가 HTTP 리소스와 HTTPS 리소스를 모두 가져오는 사이트인 혼합 콘텐츠를 포함하기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
 
-이렇게 되기 전까지는 [브라우저에서 혼합 콘텐츠 사용](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)의 지침에 따라 브라우저에서 혼합 콘텐츠를 로드할 수 있도록 하십시오. 이는 대부분의 최신 브라우저가 제공하는 보안 기능입니다.
+이렇게 되기 전까지는 [브라우저에서 혼합 콘텐츠 사용](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#mixed-content)의 지침에 따라 브라우저에서 혼합 콘텐츠를 로드할 수 있도록 하십시오. 이는 대부분의 최신 브라우저가 제공하는 보안 기능입니다.
 
 +++
 
 **at.js 라이브러리 [!DNL Target]이(가) 아직 배포되지 않았더라도 사이트에서 VEC([!UICONTROL 시각적 경험 작성기])를 사용해볼 수 있습니까?**
 
 +++세부 정보 보기
-[고급 경험 작성기](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)를 사용하여 페이지를 로드해 보십시오.
+[고급 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)를 사용하여 페이지를 로드해 보십시오.
 
 +++
 
 **내 사이트가 [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 내에서 로드되지 않는 이유는 무엇입니까?**
 
 +++세부 정보 보기
-도움말 페이지에 설명된 [문제 해결 정보](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) 를 사용해 보십시오. 이 접근 방식 중 어느 것으로도 문제가 해결하지 않으면 [Adobe 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 에 문의하십시오.
+도움말 페이지에 설명된 [문제 해결 정보](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#troubleshoot-composer) 를 사용해 보십시오. 이 접근 방식 중 어느 것으로도 문제가 해결하지 않으면 [Adobe 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 에 문의하십시오.
 
 차단을 해제할 수 있는 [양식 기반 접근 방식](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 도 있습니다.
 
-또한 [고급 경험 작성기](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)가 유용한 경우와 그 이유도 읽어 보십시오. IT 부서에 연락하여 [Adobe의 프록시 서버](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)도 연결해야 할 수 있습니다.
+또한 [고급 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)가 유용한 경우와 그 이유도 읽어 보십시오. IT 부서에 연락하여 [Adobe의 프록시 서버](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices)도 연결해야 할 수 있습니다.
 
 +++
 
 **응답하는 사이트가 있습니다. 활동을 만드는 동안, 핵심 디바이스를 고려하고 있는지를 어떻게 확인할 수 있습니까?**
 
 +++세부 정보 보기
-[모바일 뷰포트](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5) 기능을 사용해 보십시오. [!UICONTROL 향상된 경험 작성기]를 사용하도록 설정한 경우에만 작동합니다.
+[모바일 뷰포트](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#mobile-viewports) 기능을 사용해 보십시오. [!UICONTROL 향상된 경험 작성기]를 사용하도록 설정한 경우에만 작동합니다.
 
 +++
 
 **제게는 여러 도메인이 있습니다. 도메인 중 하나에서는 [!UICONTROL 향상된 경험 작성기]를 활성화해야 하지만 다른 도메인은 비활성화해야 합니다. 이 작업을 어떻게 수행할 수 있습니까?**
 
 +++세부 정보 보기
-항상 [활동 수준의 고급 경험 작성기 옵션](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)을 사용하여 기본 설정을 재정의할 수 있습니다([!UICONTROL 관리] > [!UICONTROL 시각적 경험 작성기]).
+항상 [활동 수준의 고급 경험 작성기 옵션](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)을 사용하여 기본 설정을 재정의할 수 있습니다([!UICONTROL 관리] > [!UICONTROL 시각적 경험 작성기]).
 
 +++
 
@@ -346,7 +346,7 @@ Target의 안내가 있는 3가지 부분 워크플로의 [2단계(타깃팅 페
 **VEC([!UICONTROL 시각적 경험 작성기])에서 수정한 내용을 어떻게 볼 수 있습니까?**
 
 +++세부 정보 보기
-사용자가 변경한 내용은 항상 [코드 편집기](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)에 표시됩니다. [!UICONTROL 수정 사항] 탭에는 오퍼에 적용한 CSS 선택기 또는 mbox가 표시됩니다.
+사용자가 변경한 내용은 항상 [코드 편집기](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor)에 표시됩니다. [!UICONTROL 수정 사항] 탭에는 오퍼에 적용한 CSS 선택기 또는 mbox가 표시됩니다.
 
 CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 수정하거나 특정 오퍼를 신속하게 삭제할 수 있습니다.
 
@@ -355,7 +355,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **일부 다이내믹 요소를 즉석에서 수정하거나 간단히 서드파티 솔루션을 호출하기 위해 JavaScript를 실험/활동의 일부로 전달하려고 합니다. 이 작업을 어떻게 수행할 수 있습니까?**
 
 +++세부 정보 보기
-여러 방법 중 하나는 [사용자 지정 코드 편집기](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)를 사용하는 것입니다. 계속해서 JavaScript를 섹션에 입력하면 전달됩니다. 필요에 따라 헤드 또는 본문 맨 위에 JavaScript를 전달할 수 있는 옵션이 있습니다.
+여러 방법 중 하나는 [사용자 지정 코드 편집기](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor)를 사용하는 것입니다. 계속해서 JavaScript를 섹션에 입력하면 전달됩니다. 필요에 따라 헤드 또는 본문 맨 위에 JavaScript를 전달할 수 있는 옵션이 있습니다.
 
 +++
 
@@ -378,7 +378,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **원하는 오퍼/경험이 표시되지 않고 대신 다른 활동이 표시되는 이유는 무엇입니까?**
 
 +++세부 정보 보기
-[디버거](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) 를 사용하고 [활동 충돌](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)이 있는지 확인하십시오.
+[디버거](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) 를 사용하고 [활동 충돌](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions)이 있는지 확인하십시오.
 
 +++
 
@@ -402,7 +402,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **원하는 오퍼/경험이 표시되지 않고 대신 다른 활동이 표시되는 이유는 무엇입니까?**
 
 +++세부 정보 보기
-[디버거](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) 를 사용하고 [활동 충돌](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)이 있는지 확인하십시오.
+[디버거](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) 를 사용하고 [활동 충돌](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions)이 있는지 확인하십시오.
 
 +++
 

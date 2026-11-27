@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2022'
 ht-degree: 1%
@@ -242,7 +242,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 +++세부 사항
 허용 목록에 추가하다할 수 있는 IP 주소에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* **향상된 경험 작성기(EEC)**: [EEC가 공용 IP에서 액세스할 수 없는 내부 QA URL을 로드하지 않습니다.](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)(*향상된 경험 작성기 관련 문제 해결*)
+* **향상된 경험 작성기(EEC)**: [EEC가 공용 IP에서 액세스할 수 없는 내부 QA URL을 로드하지 않습니다.](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#eec-ip-addresses)(*향상된 경험 작성기 관련 문제 해결*)
 * **[!UICONTROL 권장 사항]**: [권장 사항 피드 처리 서버에서 사용하는 IP 주소](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)를 참조하세요.
 
 +++

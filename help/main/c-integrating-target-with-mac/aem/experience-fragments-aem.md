@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 28%
@@ -132,7 +132,7 @@ AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]에 대한 자�
 
 **VEC를 사용하여 [!UICONTROL 경험 조각]을 사용하려면:**
 
-1. [!DNL Target]에서 [시각적 경험 작성기](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)에서 경험을 만들거나 편집하는 동안 페이지에서 [!DNL AEM] 콘텐츠를 삽입할 위치를 클릭한 다음 **[!UICONTROL 콘텐츠 바꾸기]** > **[!UICONTROL 경험 조각]**&#x200B;을 클릭하여 [!UICONTROL 경험 조각] 대화 상자를 표시합니다.
+1. [!DNL Target]에서 [시각적 경험 작성기](/help/main/c-experiences/experiences.md#experiences-overview)에서 경험을 만들거나 편집하는 동안 페이지에서 [!DNL AEM] 콘텐츠를 삽입할 위치를 클릭한 다음 **[!UICONTROL 콘텐츠 바꾸기]** > **[!UICONTROL 경험 조각]**&#x200B;을 클릭하여 [!UICONTROL 경험 조각] 대화 상자를 표시합니다.
 
    [!UICONTROL 경험 조각] 대화 상자에는 이제 [!DNL Target] 내에서 기본적으로 사용할 수 있는 [!DNL AEM]에서 만들어진 콘텐츠가 표시됩니다.
 

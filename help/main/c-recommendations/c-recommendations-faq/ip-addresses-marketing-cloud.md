@@ -18,18 +18,22 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 19%
 ---
-# [!DNL Recommendations] 피드 처리 서버에서 사용하는 IP 주소
+# [!DNL Recommendations] 피드 처리 서버에서 사용하는 IP 주소 {#recs-ip-addresses}
 
-[!DNL Adobe] 서버에서 시작된 IP 주소를 허용하도록 방화벽을 구성하는 데 도움이 되는 [!DNL Adobe Target] [!DNL Recommendations] 피드 처리 서버에서 사용된 IP 주소 목록입니다.
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** [!DNL Adobe Target] [!DNL Recommendations] 피드 처리 서버에서 사용하는 IP 주소를 찾아 [!DNL Adobe] 서버에서 시작된 IP 주소를 허용하는 방화벽을 구성하십시오.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->[!DNL Target] 팀은 현재 [!DNL Recommendations] 피드를 다운로드하기 위해 NAT 게이트웨이 주소를 업데이트하는 중입니다. IP 허용 목록에 추가를 구현하는 경우 다음의 새 AWS 호스트를 구현해야 합니다. 기존 호스트는 2024년 6월 30일에 폐기될 예정입니다. 원활한 전환을 위해 9개의 주소를 모두 허용 목록에 추가하다합니다. 기존 주소를 제거해야 할 긴급성은 없습니다.
+>[!DNL Target] 팀은 현재 [!DNL Recommendations] 피드를 다운로드하기 위해 NAT 게이트웨이 주소를 업데이트하는 중입니다. IP 허용 목록에 추가가 구현되면 다음의 새로운 AWS 호스트를 배포합니다. 기존 호스트는 2024년 6월 30일에 폐기될 예정입니다. 원활한 전환을 위해 9개의 주소를 모두 허용 목록에 추가하다합니다. 기존 주소를 제거해야 할 긴급성은 없습니다.
 
 [!DNL Target] [!UICONTROL 권장 사항] 활동에서는 고객의 FTP 서버에 액세스할 때 다음 AWS 호스트를 사용합니다.
 

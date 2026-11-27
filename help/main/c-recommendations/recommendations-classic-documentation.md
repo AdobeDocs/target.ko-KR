@@ -19,21 +19,25 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 55%
+source-wordcount: '126'
+ht-degree: 13%
 ---
-# 추천 Classic 설명서입니다
+# 추천 Classic 설명서입니다 {#recs-classic-documentation}
 
-[!DNL Recommendations Classic]은 웹 사이트에서의 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품 또는 컨텐츠를 자동으로 표시할 수 있습니다.
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 기존 [!DNL Recommendations] 제품인 [!DNL Recommendations Classic]의 설명서를 찾으십시오.
+
+>[!ENDSHADEBOX]
+
+[!DNL Recommendations Classic]은(는) 웹 사이트에서의 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품 또는 콘텐츠를 자동으로 표시합니다. 이러한 권장 사항은 고객이 모를 수 있는 항목을 고객에게 표시하는 데 도움이 되며, 이를 통해 웹 사이트에서 생성된 매출이 향상됩니다.
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] 은 레거시 제품이며 더 이상 신규 고객에게 라이선스가 부여되지 않습니다. 최상의 [!DNL Recommendations] 경험을 위해 [Adobe Target Premium](/help/main/c-intro/intro.md)에서 사용할 수 있는 [!DNL Recommendations] 활동으로 업그레이드하세요.
+>[!DNL Recommendations Classic] 은 레거시 제품이며 더 이상 신규 고객에게 라이선스가 부여되지 않습니다. 최상의 [!DNL Recommendations] 경험을 위해 [Adobe Target Premium](/help/main/c-intro/intro.md)에서 사용할 수 있는 [!DNL Recommendations] 활동으로 업그레이드하십시오.
 
-권장 사항을 사용하면 고객에게 모르는 제품을 안내하여 웹 사이트에서의 판매량을 늘릴 수 있습니다.
+[!DNL Target Premium]에서 [!DNL Recommendations Classic]과(와) [!DNL Recommendations] 활동 중에서 선택하려면 [Target Premium의 Recommendations Classic과 Recommendations 활동 비교](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)를 참조하십시오.
 
-[!DNL Target Premium]에서 [!DNL Recommendations Classic]과(와) [!DNL Recommendations] 활동 중 하나를 선택하는 데 도움이 되는 정보는 [Target Premium의 Recommendations Classic과 Recommendations 활동 비교](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)를 참조하십시오.
-
-[Adobe 추천 Classic](/help/main/assets/adobe-recommendations-classic.pdf) 설명서를 PDF 형식으로 다운로드합니다.
+[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)에 대한 설명서는 PDF 형식으로 다운로드할 수 있습니다.
