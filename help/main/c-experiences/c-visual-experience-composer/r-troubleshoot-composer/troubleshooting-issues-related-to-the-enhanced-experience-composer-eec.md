@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;eec;시각적 경험 작성기;EEC 문제 해결;문제점 해결
-description: 특정 조건에서 [!DNL Adobe Target] [!UICONTROL 고급 경험 작성기] (EEC)에서 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
+description: 특정 조건에서 [!DNL Adobe Target] [!UICONTROL 고급 경험 작성기](EEC)에서 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
 title: '[!UICONTROL 향상된 경험 작성기]와 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
@@ -22,25 +22,28 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 23%
+source-wordcount: '581'
+ht-degree: 5%
 ---
-# [!UICONTROL 향상된 경험 작성기]와 관련된 문제 해결
+# [!UICONTROL 향상된 경험 작성기]와 관련된 문제 해결 {#eec-issues}
 
-특정 조건에서 [!DNL Adobe Target] [!UICONTROL 고급 경험 작성기]&#x200B;(EEC)에 문제가 발생하는 경우가 있습니다.
+>[!BEGINSHADEBOX]
 
-## EEC가 공용 IP에서 액세스할 수 없는 내부 QA URL을 로드하지 않습니다. {#section_D29E96911D5C401889B5EACE267F13CF}
+**이 페이지에서:** EEC 프록시의 IP 주소가 차단되어 로드되지 않는 페이지와 같이 EEC(Enhanced Experience Composer ]**)에만 영향을 주는 문제를 해결하는 방법을 알아봅니다.**[!UICONTROL 
 
+>[!ENDSHADEBOX]
 
-+++세부 사항
-이 문제는 다음 IP 주소를 허용 목록에 추가 하여 해결할 수 있습니다. 이 IP 주소는 EEC 프록시에 사용되는 [!DNL Adobe] 서버용입니다. 이러한 IP 주소는 활동 편집에만 필요합니다. 사이트 방문자는 이러한 IP 주소를 허용 목록에추가된으로 사용할 필요가 없습니다.
+특정 조건에서 [!DNL Adobe Target] **[!UICONTROL 고급 경험 작성기]**(EEC)에 문제가 발생하는 경우가 있습니다. 다음 항목에서는 EEC에만 영향을 주는 문제와 해결 방법을 설명합니다.
 
-IT 팀에 다음 IP 주소를 요청하십시오.
+## EEC 프록시 허용 목록 {#eec-ip-addresses}
+
+EEC가 공용 IP 주소에서 액세스할 수 없는 내부 QA URL을 로드하지 않습니다. 허용 목록에 추가 EEC 프록시에 사용되는 [!DNL Adobe] 서버의 IP 주소를 사용하면 이 문제가 해결됩니다. 이러한 IP 주소는 활동 편집에만 필요하며 사이트 방문자는 허용 목록에추가된으로 필요하지 않습니다. IT 팀에 다음 IP 주소를 요청하십시오.
 
 ### 미국(va7)
 
+```
 40.70.154.136/29
 52.254.106.240/28
 52.254.106.160/28
@@ -64,9 +67,11 @@ IT 팀에 다음 IP 주소를 요청하십시오.
 4.152.211.251
 52.254.107.144/28
 52.254.106.144/28
+```
 
 ### EMEA(nld2)
 
+```
 51.138.17.16/28
 51.138.17.48/28
 51.138.16.128/28
@@ -89,9 +94,11 @@ IT 팀에 다음 IP 주소를 요청하십시오.
 51.138.12.100
 51.138.17.64/28
 51.138.12.160/28
+```
 
 ### APAC(호주)
 
+```
 20.43.104.160/28
 20.227.35.177
 20.40.188.227
@@ -117,11 +124,13 @@ IT 팀에 다음 IP 주소를 요청하십시오.
 20.43.104.192/28
 20.43.105.0/28
 20.43.104.0/28
+```
 
 ### 기존 IP 주소
 
 다음 레거시 IP 주소는 추후 공지가 있을 때까지 계속 허용 목록에추가된으로 제공되어야 합니다.
 
+```
 34.254.77.200
 54.73.207.147
 54.229.152.123
@@ -140,52 +149,48 @@ IT 팀에 다음 IP 주소를 요청하십시오.
 35.75.212.45
 52.199.184.130
 18.180.161.176
+```
 
-[!DNL Target]에 다음 오류 메시지가 표시될 수 있습니다.
++++ EEC는 웹 사이트 도메인이 차단한다는 오류 메시지를 표시합니다
 
-`Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+다음 오류 메시지가 [!DNL Target]에 표시될 수 있습니다.
 
-![EEC_error 이미지](assets/EEC_error.png)
+`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in Configure > Page Delivery menu.`
 
-다음은 이 오류 메시지와 상황을 수정할 조치를 볼 수 있는 이유입니다.
+![경험 작성기에서 웹 사이트 도메인(ISP)이 향상된 경험 작성기를 차단하고 있다는 오류 메시지와 함께 [페이지 전달 구성] 메뉴에서 IP 주소 허용 목록 또는 작성기 끄기 제안 메시지가 표시됩니다](assets/EEC_error.png)
 
-* **문제:** 웹 사이트 도메인(ISP)이 [!UICONTROL 향상된 경험 작성기]를 차단하고 있습니다.
+이 오류 메시지의 원인은 두 가지입니다.
 
-  위에 나열된 IP 주소를 **Remedy:**&#x200B;합니다.
-
-* **문제:** IP 주소는 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. [!DNL Target]은(는) 현재 기본 구성 1.2를 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전의 기본 구성은 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오.
-
-  **해결 방법:** 다음 질문을 참조하세요. [!UICONTROL 향상된 시각적 경험 작성기]는 TLS 1.2를 사용하는 사이트의 보안 페이지에 로드되지 않습니다.
+* 웹 사이트 도메인(ISP)은 EEC를 차단합니다. 문제를 해결하려면 [EEC 프록시의 IP 주소 허용 목록](#eec-ip-addresses)에 나열된 IP 주소를 테스트합니다.
+* IP 주소는 허용 목록에추가된으로 제공되지만 웹 사이트에서 TLS 1.2를 지원하지 않습니다. 문제를 해결하려면 다음 항목을 참조하십시오.
 
 +++
 
-## EEC가 TLS 1.0을 사용하는 사이트의 보안 페이지에 로드되지 않습니다. (EEC만 해당) {#section_C5B31E3D32A844F68E5A8153BD17551F}
++++ EEC가 TLS 1.0을 사용하는 사이트의 보안 페이지에 로드되지 않습니다
 
-+++세부 사항
-위에서 설명한 &quot;향상된 [!UICONTROL 시각적 경험 작성기]가 내 사이트의 보안 페이지에 로드되지 않습니다.&quot;라는 오류 메시지가 표시될 수 있습니다. 위의 IP 주소가 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않는 경우입니다. [!DNL Target]은(는) 현재 기본 구성 1.2를 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전의 기본 구성은 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오.
+IP 주소가 허용 목록에추가된이지만 웹 사이트에서 TLS 1.2를 지원하지 않는 경우에는 이전 항목에 설명된 오류 메시지가 표시될 수 있습니다. [!DNL Target]은(는) 현재 버전 1.2를 기본 구성으로 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전에 기본 구성이 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}을 참조하십시오.
 
-Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음을 수행하십시오(다른 브라우저에도 유사한 단계가 있음).
+Firefox에서 웹 사이트의 TLS 버전을 확인하려면(다른 브라우저도 유사한 단계를 수행함) 다음을 수행하십시오.
 
 1. Firefox에서 해당 웹 사이트를 엽니다.
 1. 브라우저의 주소 표시줄에 **[!UICONTROL 사이트 정보 표시]** 아이콘을 클릭합니다.
 
-   ![firefox_more_info 이미지](assets/firefox_more_info.png)
+   ![URL 왼쪽에 사이트 정보 표시 아이콘이 강조 표시된 Firefox 주소 표시줄](assets/firefox_more_info.png)
 
 1. **[!UICONTROL 연결 세부 사항 표시]** > **[!UICONTROL 추가 정보]**&#x200B;를 클릭하십시오.
 
-   ![firefox_more_info_2 이미지](assets/firefox_more_info_2.png)
+   ![보안 연결 옆에 연결 정보 표시 화살표가 강조 표시된 Firefox 사이트 정보 패널](assets/firefox_more_info_2.png)
 
-1. 기술 세부 사항 아래의 TLS 버전 정보를 검토하십시오.
+1. **[!UICONTROL 기술 세부 정보]**&#x200B;에서 TLS 버전 정보를 검사합니다.
 
-   ![firefox_more_info_3 이미지](assets/firefox_more_info_3.png)
+   ![Firefox 페이지 정보 창, 보안 탭(기술 세부 정보 아래에 TLS 버전이 강조 표시됨)에서 다음을 수행합니다](assets/firefox_more_info_3.png)
 
-1. 웹 사이트에서 TLS 1.0을 표시하는 경우 Target의 TLS 지원 정책에 대한 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오. 현재(2018년 9월 12일까지 유효){target=_blank}의 상황을 해결하려면 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 연락하여 TLS 버전 및 도메인을 구성하십시오.
+1. 웹 사이트에서 TLS 1.0이 표시되는 경우 [!DNL Target]의 TLS 지원 정책에 대한 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}을 참조하십시오. 현재(2018년 9월 12일까지 유효) 상황을 해결하기 위해 TLS 버전 및 도메인을 구성하려면 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
 
 +++
 
-## 프록시가 활성화된 로드할 때 시간 초과 또는 &quot;액세스 거부&quot; 오류가 표시됩니다. (EEC만 해당) {#section_60CBB9022DC449F593606C0E6252302D}
++++ 프록시가 활성화된 사이트가 로드될 때 시간 초과 또는 &quot;액세스 거부&quot; 오류가 표시됩니다.
 
-+++세부 사항
-프록시 IP가 사용자 환경에서 차단되지 않았는지 확인하십시오.
+프록시 IP 주소가 환경에서 차단되지 않았는지 확인하십시오. [EEC 프록시의 IP 주소 목록](#eec-ip-addresses)에 주소가 나열되어 있습니다.
 
 +++

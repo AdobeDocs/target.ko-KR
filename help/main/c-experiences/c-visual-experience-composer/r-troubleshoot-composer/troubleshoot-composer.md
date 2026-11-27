@@ -20,23 +20,27 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 61%
+source-wordcount: '276'
+ht-degree: 3%
 ---
-# [!UICONTROL 시각적 경험 작성기] 및 [!UICONTROL 향상된 경험 작성기] 문제 해결 시작
+# [!UICONTROL 시각적 경험 작성기] 및 [!UICONTROL 향상된 경험 작성기] 문제 해결 시작 {#troubleshoot-composer}
 
-특정 조건에서 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC) 및 [!UICONTROL 향상된 경험 작성기]&#x200B;(EEC)에서 표시 문제가 발생하는 경우가 있습니다.
+>[!BEGINSHADEBOX]
 
-VEC는 [!DNL Adobe Target]의 주요 기능 중 하나입니다. VEC는 마케터와 디자이너가 시각적 인터페이스를 사용하여 콘텐츠를 만들고 변경할 수 있도록 하는 편집기입니다. 코드를 직접 편집하지 않고도 많은 디자인을 작성할 수 있습니다. 또한 작성기에서 사용 가능한 편집 선택 사항을 사용하여 HTML 및 JavaScript를 편집할 수도 있습니다.
+**이 페이지에서:** **[!UICONTROL 시각적 경험 작성기]**(VEC) 및 **[!UICONTROL 향상된 경험 작성기]**(EEC)에서 문제를 해결하는 데 사용할 페이지를 알아봅니다.
 
-EEC는 Target 구현을 포함하지 않는 iframe 버스팅 사이트 또는 페이지의 경험을 편집하는 데 도움이 되는 VEC의 확장입니다. VEC에서 페이지를 여는 데 문제가 있으면 EEC을 사용해 보십시오.
+>[!ENDSHADEBOX]
 
-VEC 및 EEC에 대한 자세한 내용은 [경험](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하세요.
+특정 조건에서 [!DNL Adobe Target] **[!UICONTROL 시각적 경험 작성기]**(VEC) 및 **[!UICONTROL 향상된 경험 작성기]**(EEC)에서 표시 문제가 발생하는 경우가 있습니다.
 
-일부 문제는 VEC 및 EEC에 모두 영향을 주며 일부 문제는 둘 중 하나에만 영향을 줍니다. 자세한 정보를 보려면 해당 페이지를 검토하십시오.
+VEC는 [!DNL Adobe Target]의 주요 기능 중 하나입니다. 마케터와 디자이너가 시각적 인터페이스를 통해 콘텐츠를 만들고 변경할 수 있도록 함으로써 코드를 편집하지 않고도 다양한 디자인 선택을 할 수 있는 편집기입니다. 작성기에서 사용할 수 있는 편집 옵션으로 HTML 및 JavaScript을 편집할 수도 있습니다.
 
-* [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [시각적 경험 작성기에 관련된 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [고급 경험 작성기 관련 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+EEC는 iframe 버스팅 사이트 또는 [!DNL Target] 구현을 아직 포함하지 않는 페이지에서 경험을 편집하기 위한 VEC의 확장입니다. VEC에서 페이지를 열 수 없으면 EEC를 사용해 보십시오. VEC 및 EEC에 대한 자세한 내용은 [경험](/help/main/c-experiences/experiences.md#experiences-overview)을 참조하세요.
+
+두 작곡가에게 영향을 미치는 문제도 있고, 그중 한 작곡가에게만 영향을 미치는 문제도 있다. 문제와 일치하는 페이지를 검토합니다.
+
+* [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md): 두 작성기에 영향을 주는 문제.
+* [시각적 경험 작성기 관련 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md): VEC에만 영향을 주는 문제.
+* [고급 경험 작성기 관련 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md): EEC에만 영향을 주는 문제.

@@ -14,18 +14,22 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 66%
+source-wordcount: '193'
+ht-degree: 2%
 ---
-# 시각적 경험 작성기에서 작동하는 슬라이드 만들기
+# [!UICONTROL 시각적 경험 작성기]에서 작동하는 회전 메뉴를 만드는 중 {#vec-carousels}
 
-이 항목에서는 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 보여 줍니다.
+>[!BEGINSHADEBOX]
 
-아래 단계를 사용하면 [!DNL Target]에서는 항상 선택한 슬라이드가 몇 초 후에 시각적 경험 작성기에서 변경되더라도 선택한 슬라이드에 올바른 슬라이드에 대한 &#39;선택기&#39;가 있다는 것을 알고 있습니다.
+**이 페이지에서:** **[!UICONTROL 시각적 경험 작성기]**(VEC)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 알아봅니다.
 
-1. 정적 HTML 자리 표시자를 만듭니다.
+>[!ENDSHADEBOX]
+
+다음 구조로 만들어진 회전 메뉴를 [!DNL Adobe Target] **[!UICONTROL VEC(시각적 경험 작성기)에서 편집할 수 있습니다.]**&#x200B;구조에서는 각 슬라이드의 선택기를 유효하게 유지하므로 VEC에 페이지가 로드된 후 표시된 슬라이드가 몇 초 후에 변경되는 경우에도 [!DNL Target]에서 항상 올바른 슬라이드를 식별합니다.
+
+1. 슬라이드를 정적 HTML 자리 표시자로 만듭니다. 슬라이드에는 하나가 표시되고 다른 슬라이드에는 클래스별로 숨겨집니다.
 
    ```html
    <ul>
@@ -35,14 +39,10 @@ ht-degree: 66%
    </ul>
    ```
 
-1. CSS를 추가하여 모양과 느낌을 디자인합니다.
-
-   이 작업에는 JavaScript을 사용하지 마십시오.
+1. CSS로만 모양과 느낌을 디자인할 수 있습니다. 이 작업에는 JavaScript을 사용하지 마십시오.
 
    >[!NOTE]
    >
-   >시각적 경험 작성기에서 사용자 지정 코드와 함께 사용할 경우 [!UICONTROL 자바스크립트를 사용하여 렌더링] 옵션은 현재 지원되지 않습니다.
+   >**[!UICONTROL 시각적 경험 작성기]**&#x200B;에서 사용자 지정 코드와 함께 사용할 경우 **[!UICONTROL JavaScript을 사용하여 렌더링]** 옵션은 현재 지원되지 않습니다.
 
-1. 타이머/애니메이션을 사용하여 다른 항목은 숨기고 다음 항목은 표시하도록 하려면 classNames만 업데이트합니다.
-
-   자바스크립트를 사용하여 DOM 구조를 절대 업데이트하지 마십시오.
+1. 클래스 이름만 업데이트하여 다음 슬라이드 표시: 다른 슬라이드는 숨기고 타이머 또는 애니메이션으로 다음 슬라이드 표시 JavaScript으로 DOM 구조를 절대 업데이트하지 마십시오.

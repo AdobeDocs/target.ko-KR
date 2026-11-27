@@ -2,7 +2,7 @@
 keywords: 권장 사항;권장 사항 활동;기준;알고리즘
 description: Adobe [!DNL Target] 권장 사항 활동에서 사용할 기준(추천할 제품 또는 콘텐츠를 결정하는 규칙)을 선택하는 방법을 알아봅니다.
 title: 권장 사항 활동에 대한 기준을 선택하려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -35,7 +35,7 @@ ht-degree: 62%
 
 **기준을 선택하려면 다음을 수행하십시오.**
 
-1. [새 권장 사항을 만드는 중](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) **[!UICONTROL 기준 선택]** 대화 상자에서 하나 이상의 기준을 찾아 선택합니다.
+1. [새 권장 사항을 만드는 중](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity) **[!UICONTROL 기준 선택]** 대화 상자에서 하나 이상의 기준을 찾아 선택합니다.
 
    [!UICONTROL 업계 유형] 필터, [!UICONTROL 페이지 유형] 필터 및 [!UICONTROL 호환] 확인란을 사용하여 기준 목록을 필터링할 수 있습니다. 이러한 옵션은 원하는 기준을 찾는 데 도움이 됩니다.
 

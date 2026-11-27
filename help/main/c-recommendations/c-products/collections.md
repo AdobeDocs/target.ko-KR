@@ -2,7 +2,7 @@
 keywords: 컬렉션;타깃팅
 description: '[!DNL Target Recommendations]에서 제품 또는 항목의 컬렉션을 사용하는 방법을 알아보세요.'
 title: Recommendations 활동에서 컬렉션을 사용하는 방법은 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 TQID: 'https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o'
@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 8%
@@ -54,7 +54,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 컬렉션]** 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하십시오.
+   >**[!UICONTROL 컬렉션]** 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하십시오.
 
 1. **[!UICONTROL 컬렉션 만들기]**&#x200B;를 클릭합니다.
 
@@ -88,7 +88,7 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 -->
 
-## 활동에서 컬렉션 사용
+## 활동에서 컬렉션 사용 {#use-collection}
 
 [!DNL Recommendations] 활동의 각 경험에 대해 컬렉션이 선택됩니다. 컬렉션은 해당 경험의 권장 사항에 표시할 수 있는 항목을 결정합니다.
 
