@@ -2,7 +2,7 @@
 keywords: 권장 사항 만들기;권장 사항 활동;새 권장 사항;권장 사항 개요
 description: '[!DNL Target] [!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Recommendations] 활동을 만드는 방법을 알아봅니다.'
 title: '[!DNL Recommendations] 활동 만들기'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 1. 활동 URL을 지정한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-   활동 URL은 권장 사항이 표시되는 페이지입니다. [!DNL Target]은(는) URL 프로토콜([!DNL https] 및 [!DNL http])을 구분하지 않으므로 `http://www.adobe.com`과(와) `https://www.adobe.com`이(가) 모두 일치합니다.
+   활동 URL은 권장 사항이 표시되는 페이지입니다. [!DNL Target]은(는) URL 프로토콜([!DNL https] 및 [!DNL http])을 구분하지 않으므로 `http://www.adobe.com/kr`과(와) `https://www.adobe.com/kr`이(가) 모두 일치합니다.
 
    VEC가 열리고 페이지가 표시됩니다.
 
@@ -101,7 +101,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >모든 기준이 모든 페이지에서 올바르게 실행되는 것은 아닙니다. 현재 항목 또는 현재 범주 권장 사항이 호환되려면 `entity.id` 또는 `entity.categoryId`에서 페이지나 mbox를 전달해야 합니다. 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 활동에 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]** 확인란의 선택을 취소하십시오. **[!UICONTROL 관리]** > **[!UICONTROL 권장 사항]** > **[!UICONTROL 호환되지 않는 기준 필터링]** 설정에 따라 이 확인란이 표시되지 않을 수 있습니다. 자세한 내용은 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하십시오.
+   >모든 기준이 모든 페이지에서 올바르게 실행되는 것은 아닙니다. 현재 항목 또는 현재 범주 권장 사항이 호환되려면 `entity.id` 또는 `entity.categoryId`에서 페이지나 mbox를 전달해야 합니다. 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 활동에 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]** 확인란의 선택을 취소하십시오. **[!UICONTROL 관리]** > **[!UICONTROL 권장 사항]** > **[!UICONTROL 호환되지 않는 기준 필터링]** 설정에 따라 이 확인란이 표시되지 않을 수 있습니다. 자세한 내용은 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하십시오.
 
 1. 기준을 찾거나 생성합니다(선택 사항).
 

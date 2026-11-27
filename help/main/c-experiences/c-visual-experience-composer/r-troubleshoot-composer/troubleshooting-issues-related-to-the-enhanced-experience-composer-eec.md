@@ -168,7 +168,7 @@ EEC가 공용 IP 주소에서 액세스할 수 없는 내부 QA URL을 로드하
 
 +++ EEC가 TLS 1.0을 사용하는 사이트의 보안 페이지에 로드되지 않습니다
 
-IP 주소가 허용 목록에추가된이지만 웹 사이트에서 TLS 1.2를 지원하지 않는 경우에는 이전 항목에 설명된 오류 메시지가 표시될 수 있습니다. [!DNL Target]은(는) 현재 버전 1.2를 기본 구성으로 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전에 기본 구성이 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}을 참조하십시오.
+IP 주소가 허용 목록에추가된이지만 웹 사이트에서 TLS 1.2를 지원하지 않는 경우에는 이전 항목에 설명된 오류 메시지가 표시될 수 있습니다. [!DNL Target]은(는) 현재 버전 1.2를 기본 구성으로 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일) 이전에 기본 구성이 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오.
 
 Firefox에서 웹 사이트의 TLS 버전을 확인하려면(다른 브라우저도 유사한 단계를 수행함) 다음을 수행하십시오.
 
@@ -185,7 +185,7 @@ Firefox에서 웹 사이트의 TLS 버전을 확인하려면(다른 브라우저
 
    ![Firefox 페이지 정보 창, 보안 탭(기술 세부 정보 아래에 TLS 버전이 강조 표시됨)에서 다음을 수행합니다](assets/firefox_more_info_3.png)
 
-1. 웹 사이트에서 TLS 1.0이 표시되는 경우 [!DNL Target]의 TLS 지원 정책에 대한 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}을 참조하십시오. 현재(2018년 9월 12일까지 유효) 상황을 해결하기 위해 TLS 버전 및 도메인을 구성하려면 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
+1. 웹 사이트에서 TLS 1.0이 표시되는 경우 [!DNL Target]의 TLS 지원 정책에 대한 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오. 현재(2018년 9월 12일까지 유효) 상황을 해결하기 위해 TLS 버전 및 도메인을 구성하려면 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
 
 +++
 

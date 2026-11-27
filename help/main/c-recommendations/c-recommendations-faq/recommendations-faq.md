@@ -2,7 +2,7 @@
 keywords: 문제 해결, 자주 묻는 질문, FAQ, FAQ, 권장 사항, 특수 문자, 속성 가중치, 콘텐츠 유사성
 description: '[!DNL Target Recommendations] 활동에 대해 자주 묻는 질문과 대답 목록을 봅니다.'
 title: '[!DNL Recommendations]에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -156,7 +156,7 @@ ht-degree: 10%
 
 사용 가능한 기준은 현재 범주에 따라 다릅니다. 권장 사항 오퍼가 만들어지면 알고리즘 선택기는 카테고리 ID를 기반으로 기준을 표시합니다. 기준이 적용되는 위치에 카테고리 ID가 없으면 알고리즘 선택기에서 특정 기준을 사용할 수 없습니다. mbox에 카테고리 ID가 있는 위치를 사용하는 경우 기준 선택기는 적용 가능한 모든 기준을 포함합니다.
 
-[!DNL Target]에 알고리즘 선택기의 지능적 필터링을 제어하는 [호환되지 않는 조건 필터링](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 설정이 있습니다. **[!UICONTROL 호환되지 않는 기준 필터링]** 설정에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 권장 사항]**&#x200B;을 클릭하십시오.
+[!DNL Target]에 알고리즘 선택기의 지능적 필터링을 제어하는 [호환되지 않는 조건 필터링](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank} 설정이 있습니다. **[!UICONTROL 호환되지 않는 기준 필터링]** 설정에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 권장 사항]**&#x200B;을 클릭하십시오.
 
 호환되지 않는 기준 필터링 옵션이 강조 표시된 ![권장 사항 설정 페이지](assets/recs_settings_filter.png)
 

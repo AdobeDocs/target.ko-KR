@@ -152,7 +152,7 @@ ht-degree: 4%
 
 +++ VEC가 찾아보기 모드에서 끊어진 상태로 표시됩니다
 
-**[!UICONTROL 찾아보기]** 모드에서 [!DNL Target] 라이브러리([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})가 없거나 프레임 버스터 헤더가 포함된 URL을 열면 VEC가 손상된 것으로 표시됩니다. 브라우저 보안상의 이유로 [!DNL Target]이(가) 탐색된 URL에 제대로 액세스할 수 없거나 페이지가 로드될 때 VEC URL이 일관되게 업데이트되지 않습니다.
+**[!UICONTROL 찾아보기]** 모드에서 [!DNL Target] 라이브러리([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=ko){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank})가 없거나 프레임 버스터 헤더가 포함된 URL을 열면 VEC가 손상된 것으로 표시됩니다. 브라우저 보안상의 이유로 [!DNL Target]이(가) 탐색된 URL에 제대로 액세스할 수 없거나 페이지가 로드될 때 VEC URL이 일관되게 업데이트되지 않습니다.
 
 VEC가 `<iframe>`에 웹 페이지를 로드하고 브라우저의 현재 보안 메커니즘으로 인해 [!DNL Target] UI가 동일한 원본 정책에 따른 프레임의 요소에 액세스하지 못합니다. 브라우저는 `location.href`과(와) 같은 정보를 포함하여 다른 원본이 있는 프레임에 액세스하려고 시도하는 스크립트를 차단합니다.
 
